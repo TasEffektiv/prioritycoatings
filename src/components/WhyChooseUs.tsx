@@ -30,7 +30,7 @@ const ITEMS = [
 
 function Card({ title, body }: { title: string; body: string }) {
   return (
-    <div className="mb-8 break-inside-avoid border border-brand-teal/40 bg-white p-8">
+    <div className="border border-brand-teal/40 bg-white p-8">
       <CheckCircle2 size={40} className="text-brand-teal" strokeWidth={1.5} />
       <h3 className="mt-4 text-lg font-bold text-black">{title}</h3>
       <p className="mt-2 text-sm leading-relaxed text-brand-grey">{body}</p>
@@ -48,31 +48,39 @@ export default function WhyChooseUs() {
       }}
     >
       <div className="mx-auto max-w-[1400px] px-6">
-        <h2 className="text-2xl font-extrabold text-black sm:text-3xl">
+        <h2 className="text-center text-3xl font-extrabold text-black sm:text-4xl">
           Why Choose Priority One Coatings
         </h2>
 
-        <div className="mt-10 columns-1 gap-8 sm:columns-2 lg:columns-3">
-          <Card {...ITEMS[0]} />
-          <Card {...ITEMS[1]} />
-          <Card {...ITEMS[2]} />
-
-          <div className="mb-8 break-inside-avoid bg-brand-navy p-8 text-center">
-            <p className="text-lg font-semibold text-white">
-              Click here to get a quick response from the best quality &amp; affordable
-              price painters in Sydney.
-            </p>
-            <Link
-              href="/contact-us/"
-              className="mt-6 inline-block rounded-[0.05rem] bg-brand-teal px-7 py-3.5 font-heading text-sm font-bold text-white transition-colors hover:bg-brand-teal-dark"
-            >
-              Request A Quote
-            </Link>
+        <div className="mt-16 grid grid-cols-1 gap-8 md:mt-24 lg:grid-cols-3 lg:gap-10">
+          <div className="flex flex-col gap-8">
+            <Card {...ITEMS[0]} />
+            <Card {...ITEMS[1]} />
           </div>
 
-          <Card {...ITEMS[3]} />
-          <Card {...ITEMS[4]} />
-          <Card {...ITEMS[5]} />
+          <div className="flex flex-col gap-8 lg:-mt-[75px]">
+            <Card {...ITEMS[2]} />
+
+            <div className="bg-brand-navy p-8 text-center">
+              <p className="text-lg font-semibold text-white">
+                Click here to get a quick response from the best quality &amp; affordable
+                price painters in Sydney.
+              </p>
+              <Link
+                href="/contact-us/"
+                className="mt-6 inline-block rounded-[0.05rem] bg-brand-teal px-7 py-3.5 font-heading text-sm font-bold text-white transition-colors hover:bg-brand-teal-dark"
+              >
+                Request A Quote
+              </Link>
+            </div>
+
+            <Card {...ITEMS[3]} />
+          </div>
+
+          <div className="flex flex-col gap-8">
+            <Card {...ITEMS[4]} />
+            <Card {...ITEMS[5]} />
+          </div>
         </div>
       </div>
     </section>

@@ -28,7 +28,7 @@ export default function ProjectCategories() {
     <section className="bg-gradient-to-br from-white to-brand-light py-16 md:py-24">
       <div className="mx-auto max-w-[1400px] px-6">
         <div className="rounded-[0.05rem] bg-brand-navy px-8 py-14 sm:px-14">
-          <h2 className="max-w-3xl font-heading text-[38px] font-bold leading-[49px] text-white">
+          <h2 className="font-heading text-[38px] font-bold leading-[49px] text-white lg:whitespace-nowrap">
             A complete painting solution for residential, commercial, strata, and industrial
             properties:
           </h2>
