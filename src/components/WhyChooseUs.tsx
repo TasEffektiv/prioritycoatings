@@ -52,7 +52,7 @@ export default function WhyChooseUs() {
           Why Choose Priority One Coatings
         </h2>
 
-        <div className="mt-16 grid grid-cols-1 gap-8 md:mt-24 lg:grid-cols-3 lg:gap-10">
+        <div className="mt-16 grid grid-cols-1 gap-8 md:mt-24 lg:mt-[150px] lg:grid-cols-3 lg:gap-[50px]">
           <div className="flex flex-col gap-8">
             <Card {...ITEMS[0]} />
             <Card {...ITEMS[1]} />
