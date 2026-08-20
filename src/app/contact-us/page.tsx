@@ -2,8 +2,7 @@ import type { Metadata } from "next";
 import Header from "@/components/Header";
 import PageHeader from "@/components/PageHeader";
 import Footer from "@/components/Footer";
-import QuoteForm from "@/components/QuoteForm";
-import { MapPin, Phone, Smartphone, Mail, Printer } from "lucide-react";
+import ContactForm from "@/components/ContactForm";
 
 export const metadata: Metadata = {
   title: "Contact Us | Priority One Coatings",
@@ -13,35 +12,48 @@ export const metadata: Metadata = {
 
 const CONTACT_DETAILS = [
   {
-    icon: MapPin,
     label: "Office Address",
-    value: "Unit 7, 46-48 Buffalo Rd, Gladesville NSW 2111",
+    value: (
+      <>
+        Unit 7, 46-48 Buffalo Road,
+        <br />
+        Gladesville NSW 2111
+      </>
+    ),
   },
   {
-    icon: MapPin,
     label: "Postal Address",
-    value: "P.O. Box 3413, Putney NSW 2112",
+    value: (
+      <>
+        P.O. Box 3413, Putney
+        <br />
+        NSW 2112
+      </>
+    ),
   },
   {
-    icon: Phone,
     label: "Phone",
-    value: "02 9808 5900",
-    href: "tel:+0298085900",
+    value: <a href="tel:+0298085900" className="hover:text-brand-teal">02 9808 5900</a>,
   },
   {
-    icon: Smartphone,
     label: "Mobile",
-    value: "0418 272 035",
-    href: "tel:+61418272035",
+    value: <a href="tel:+0418272035" className="hover:text-brand-teal">0418 272 035</a>,
   },
   {
-    icon: Mail,
     label: "Email",
-    value: "jenny@prioritycoatings.com.au",
-    href: "mailto:jenny@prioritycoatings.com.au",
+    value: (
+      <>
+        <a href="mailto:jenny@prioritycoatings.com.au" className="hover:text-brand-teal">
+          jenny@prioritycoatings.com.au
+        </a>
+        <br />
+        <a href="mailto:danny@prioritycoatings.com.au" className="hover:text-brand-teal">
+          danny@prioritycoatings.com.au
+        </a>
+      </>
+    ),
   },
   {
-    icon: Printer,
     label: "Fax",
     value: "02 9808 5177",
   },
@@ -55,44 +67,33 @@ export default function ContactUsPage() {
         <PageHeader title="Contact Us" />
 
         <section className="bg-white py-16 md:py-24">
-          <div className="mx-auto grid max-w-[1400px] grid-cols-1 gap-12 px-6 lg:grid-cols-[1.1fr_0.9fr] lg:items-start">
+          <div className="mx-auto grid max-w-[1400px] grid-cols-1 gap-12 px-6 lg:grid-cols-2 lg:items-start">
             <div>
-              <h2 className="font-heading text-3xl font-extrabold leading-tight text-black sm:text-4xl">
+              <h2 className="border-b-4 border-brand-navy pb-4 font-heading text-2xl font-extrabold text-black sm:text-[32px]">
                 Get in Touch
               </h2>
-              <p className="mt-6 max-w-[520px] text-base leading-relaxed text-brand-ink">
-                Have a question or ready to start your project? Reach out to our team using the
-                details below, or send us a message and we&rsquo;ll get back to you shortly.
-              </p>
-
-              <ul className="mt-10 space-y-7">
-                {CONTACT_DETAILS.map(({ icon: Icon, label, value, href }) => (
-                  <li key={label} className="flex items-start gap-4">
-                    <span className="flex h-11 w-11 shrink-0 items-center justify-center rounded-full bg-brand-light text-brand-teal">
-                      <Icon size={20} strokeWidth={1.75} />
-                    </span>
-                    <span>
-                      <strong className="block font-heading text-sm font-bold uppercase tracking-wide text-brand-navy">
-                        {label}
-                      </strong>
-                      {href ? (
-                        <a
-                          href={href}
-                          className="text-base leading-relaxed text-brand-ink transition-colors hover:text-brand-teal"
-                        >
-                          {value}
-                        </a>
-                      ) : (
-                        <span className="block text-base leading-relaxed text-brand-ink">{value}</span>
-                      )}
-                    </span>
-                  </li>
+              <div className="mt-8 grid grid-cols-1 gap-x-8 gap-y-8 sm:grid-cols-2">
+                {CONTACT_DETAILS.map(({ label, value }) => (
+                  <div key={label}>
+                    <h5 className="font-heading text-lg font-bold text-black">{label}</h5>
+                    <p className="mt-1 text-base leading-relaxed text-brand-ink">{value}</p>
+                  </div>
                 ))}
-              </ul>
+              </div>
             </div>
 
-            <QuoteForm heading="Send Message" />
+            <ContactForm />
           </div>
+        </section>
+
+        <section className="map-section">
+          <iframe
+            loading="lazy"
+            title="Priority One Coatings Unit 7, 46-48 Buffalo Road, Gladesville NSW 2111"
+            aria-label="Priority One Coatings Unit 7, 46-48 Buffalo Road, Gladesville NSW 2111"
+            src="https://maps.google.com/maps?q=Priority%20One%20Coatings%20Unit%207%2C%2046-48%20Buffalo%20Road%2C%20Gladesville%20NSW%202111&t=m&z=13&output=embed&iwloc=near"
+            className="h-[450px] w-full border-0"
+          />
         </section>
       </main>
       <Footer />

@@ -2,7 +2,7 @@
 
 import { FormEvent, useState } from "react";
 
-export default function QuoteForm() {
+export default function ContactForm() {
   const [submitted, setSubmitted] = useState(false);
 
   function handleSubmit(e: FormEvent<HTMLFormElement>) {
@@ -11,14 +11,16 @@ export default function QuoteForm() {
   }
 
   return (
-    <div className="w-full min-w-0 rounded-[0.05rem] bg-white px-8 pt-12 pb-[65px] sm:px-[65px] lg:ml-auto lg:w-full lg:max-w-[590px]">
-      <h4 className="mb-7 text-2xl font-bold leading-[1.2] text-brand-ink sm:text-[41px]">Request A Quote</h4>
+    <div className="w-full min-w-0 rounded-[0.05rem] bg-white p-8 shadow-[0_0_25px_rgba(0,0,0,0.08)] sm:p-10">
+      <h2 className="border-b-4 border-brand-navy pb-4 font-heading text-2xl font-extrabold text-black sm:text-[32px]">
+        Send Message
+      </h2>
       {submitted ? (
-        <p className="rounded-[0.05rem] bg-brand-light p-4 text-sm text-brand-ink">
-          Thanks — your request has been received. Our team will be in touch shortly.
+        <p className="mt-7 rounded-[0.05rem] bg-brand-light p-4 text-sm text-brand-ink">
+          Thanks — your message has been received. Our team will be in touch shortly.
         </p>
       ) : (
-        <form onSubmit={handleSubmit} className="space-y-5">
+        <form onSubmit={handleSubmit} className="mt-7 space-y-5">
           <input
             required
             type="text"
@@ -31,27 +33,35 @@ export default function QuoteForm() {
               required
               type="email"
               name="your-email"
-              placeholder="Email Address*"
+              placeholder="Email*"
               className="w-full border-0 border-b border-black/50 px-0 pb-[5px] text-[15px] text-brand-ink placeholder:text-gray-500 outline-none focus:border-brand-teal"
             />
             <input
+              required
               type="tel"
               name="tel-phone"
-              placeholder="Phone Number"
+              placeholder="Phone*"
               className="w-full border-0 border-b border-black/50 px-0 pb-[5px] text-[15px] text-brand-ink placeholder:text-gray-500 outline-none focus:border-brand-teal"
             />
           </div>
+          <input
+            type="text"
+            name="subject"
+            placeholder="Subject"
+            className="w-full border-0 border-b border-black/50 px-0 pb-[5px] text-[15px] text-brand-ink placeholder:text-gray-500 outline-none focus:border-brand-teal"
+          />
           <textarea
+            required
             name="your-message"
-            placeholder="Message"
+            placeholder="Message*"
             rows={5}
             className="w-full resize-y border-0 border-b border-black/50 px-0 pb-[5px] text-[15px] text-brand-ink placeholder:text-gray-500 outline-none focus:border-brand-teal"
           />
           <button
             type="submit"
-            className="w-full rounded-[0.05rem] bg-brand-navy py-3.5 font-heading text-lg font-bold text-white transition-colors hover:bg-brand-navy-deep"
+            className="w-full rounded-[0.05rem] bg-brand-navy py-3.5 font-heading text-lg font-bold text-white transition-colors hover:bg-brand-navy-deep sm:w-auto sm:px-16"
           >
-            Submit
+            Send
           </button>
         </form>
       )}
