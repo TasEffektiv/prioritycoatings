@@ -11,8 +11,8 @@ export default function ContactForm() {
   }
 
   return (
-    <div className="w-full min-w-0 rounded-[0.05rem] bg-white px-8 pb-8 shadow-[0_0_25px_rgba(0,0,0,0.08)] sm:px-10 sm:pb-10">
-      <h2 className="border-b-4 border-brand-navy pb-4 font-heading text-2xl font-extrabold text-black sm:text-[32px]">
+    <div className="w-full min-w-0 rounded-[0.05rem] bg-white px-8 pt-5 pb-8 shadow-[0_0_10px_rgba(0,0,0,0.06)] sm:px-10 sm:pb-10">
+      <h2 className="border-b-[3px] border-brand-blue pb-4 font-heading text-2xl font-extrabold text-black sm:text-[32px]">
         Send Message
       </h2>
       {submitted ? (

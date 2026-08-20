@@ -66,10 +66,10 @@ export default function ContactUsPage() {
       <main>
         <PageHeader title="Contact Us" />
 
-        <section className="bg-white py-16 md:py-24">
+        <section className="relative z-10 py-16 md:py-24">
           <div className="mx-auto grid max-w-[1400px] grid-cols-1 gap-12 px-6 lg:grid-cols-2 lg:items-start">
-            <div>
-              <h2 className="border-b-4 border-brand-navy pb-4 font-heading text-2xl font-extrabold text-black sm:text-[32px]">
+            <div className="pt-5">
+              <h2 className="border-b-[3px] border-brand-blue pb-4 font-heading text-2xl font-extrabold text-black sm:text-[32px]">
                 Get in Touch
               </h2>
               <div className="mt-8 grid grid-cols-1 gap-x-8 gap-y-8 sm:grid-cols-2">
@@ -86,13 +86,13 @@ export default function ContactUsPage() {
           </div>
         </section>
 
-        <section className="map-section">
+        <section className="relative -mt-[70px] md:-mt-[100px] lg:-mt-[139px]">
           <iframe
             loading="lazy"
             title="Priority One Coatings Unit 7, 46-48 Buffalo Road, Gladesville NSW 2111"
             aria-label="Priority One Coatings Unit 7, 46-48 Buffalo Road, Gladesville NSW 2111"
             src="https://maps.google.com/maps?q=Priority%20One%20Coatings%20Unit%207%2C%2046-48%20Buffalo%20Road%2C%20Gladesville%20NSW%202111&t=m&z=13&output=embed&iwloc=near"
-            className="h-[450px] w-full border-0"
+            className="h-[350px] w-full border-0 md:h-[450px] lg:h-[590px]"
           />
         </section>
       </main>
