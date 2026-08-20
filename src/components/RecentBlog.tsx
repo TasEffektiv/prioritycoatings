@@ -28,55 +28,67 @@ const POSTS = [
   },
 ];
 
+function BlogCard({ post }: { post: (typeof POSTS)[number] }) {
+  return (
+    <a
+      href={post.href}
+      className="group flex flex-col overflow-hidden border border-gray-200 bg-white shadow-sm transition-shadow hover:shadow-lg"
+    >
+      <div className="p-5 pb-0">
+        <div className="relative h-36 w-full overflow-hidden">
+          <Image
+            src={post.img}
+            alt={post.title}
+            fill
+            className="object-cover transition-transform duration-500 group-hover:scale-110"
+          />
+        </div>
+      </div>
+      <div className="flex flex-1 flex-col p-5">
+        <p className="text-sm text-brand-blue">{post.date}</p>
+        <h4 className="mt-2 text-base font-bold leading-snug text-brand-navy">{post.title}</h4>
+        <span className="mt-4 flex items-center gap-1.5 text-sm font-semibold text-gray-300 transition-colors group-hover:text-brand-teal">
+          Read More <ArrowRight size={14} />
+        </span>
+      </div>
+    </a>
+  );
+}
+
 export default function RecentBlog() {
   return (
     <section className="bg-white py-16 md:py-24">
       <div className="mx-auto max-w-[1400px] px-6">
-        <h2 className="text-2xl font-extrabold text-brand-navy sm:text-3xl">Recent Blog</h2>
+        <div className="grid grid-cols-1 items-start gap-6 sm:grid-cols-2 lg:grid-cols-4">
+          <div className="lg:mt-[140px]">
+            <BlogCard post={POSTS[0]} />
+          </div>
 
-        <div className="mt-10 grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-4">
-          {POSTS.map((post, i) => (
-            <div key={post.title} className="contents">
+          <div className="flex flex-col gap-5 lg:mt-[28px]">
+            <BlogCard post={POSTS[1]} />
+            <div className="flex min-h-[220px] flex-col items-center justify-center gap-4 bg-brand-teal p-8 text-center">
+              <p className="text-sm text-white">
+                Visit our blog page frequently for painting and decorating tips from our experts.
+              </p>
               <a
-                href={post.href}
-                className="group flex flex-col overflow-hidden rounded-[0.05rem] border border-gray-100 shadow-sm transition-shadow hover:shadow-xl"
+                href="/blog/"
+                className="rounded-[0.05rem] border border-white px-6 py-3 font-heading text-sm font-bold text-white transition-colors hover:bg-white hover:text-brand-teal"
               >
-                <div className="relative h-44 w-full overflow-hidden">
-                  <Image
-                    src={post.img}
-                    alt={post.title}
-                    fill
-                    className="object-cover transition-transform duration-500 group-hover:scale-110"
-                  />
-                </div>
-                <div className="flex flex-1 flex-col p-5">
-                  <p className="text-xs font-semibold uppercase tracking-wide text-brand-teal">
-                    {post.date}
-                  </p>
-                  <h4 className="mt-2 flex-1 text-base font-bold leading-snug text-brand-navy">
-                    {post.title}
-                  </h4>
-                  <span className="mt-4 inline-flex items-center gap-1.5 text-sm font-bold uppercase tracking-wide text-brand-teal">
-                    Read More <ArrowRight size={14} />
-                  </span>
-                </div>
+                View All Posts
               </a>
-              {i === 1 && (
-                <div className="flex flex-col items-center justify-center gap-4 rounded-[0.05rem] bg-brand-navy p-6 text-center sm:col-span-2 lg:col-span-1">
-                  <p className="text-sm font-medium text-white">
-                    Visit our blog page frequently for painting and decorating tips from our
-                    experts.
-                  </p>
-                  <a
-                    href="/blog/"
-                    className="rounded-[0.05rem] bg-brand-teal px-6 py-3 font-heading text-xs font-bold uppercase tracking-wide text-white transition-colors hover:bg-brand-teal-dark"
-                  >
-                    View All Posts
-                  </a>
-                </div>
-              )}
             </div>
-          ))}
+          </div>
+
+          <div className="flex flex-col gap-5">
+            <BlogCard post={POSTS[2]} />
+            <div className="flex min-h-[200px] flex-col items-center justify-center bg-brand-navy p-8 text-center">
+              <p className="font-heading text-3xl font-bold text-white">Recent Blog</p>
+            </div>
+          </div>
+
+          <div className="lg:mt-[112px]">
+            <BlogCard post={POSTS[3]} />
+          </div>
         </div>
       </div>
     </section>

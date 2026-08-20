@@ -2,6 +2,7 @@
 
 import Image from "next/image";
 import Link from "next/link";
+import { usePathname } from "next/navigation";
 import { useState } from "react";
 import { ChevronDown, Menu, X, Headset, Mail, MapPin } from "lucide-react";
 
@@ -53,11 +54,15 @@ const NAV_ITEMS: {
 ];
 
 export default function Header() {
+  const pathname = usePathname();
   const [mobileOpen, setMobileOpen] = useState(false);
   const [openSub, setOpenSub] = useState<string | null>(null);
 
+  const isActive = (href: string) =>
+    href === "/" ? pathname === "/" : pathname === href || pathname === href.replace(/\/$/, "");
+
   return (
-    <header className="relative z-50 bg-white">
+    <>
       {/* Top info bar */}
       <div className="hidden bg-brand-blue lg:block">
         <div className="mx-auto flex max-w-[1400px] items-center justify-between px-6 py-4">
@@ -106,7 +111,7 @@ export default function Header() {
       </div>
 
       {/* Mobile top bar */}
-      <div className="flex items-center justify-between bg-brand-blue px-4 py-3 lg:hidden">
+      <div className="sticky top-0 z-50 flex items-center justify-between bg-brand-blue px-4 py-3 lg:hidden">
         <Link href="/">
           <Image
             src="https://www.prioritycoatings.com.au/wp-content/uploads/2022/04/logo.svg"
@@ -126,15 +131,15 @@ export default function Header() {
       </div>
 
       {/* Main nav */}
-      <div className="hidden border-b border-gray-100 bg-white lg:block">
+      <div className="sticky top-0 z-50 hidden border-b border-gray-100 bg-white lg:block">
         <div className="mx-auto max-w-[1400px] px-6">
           <ul className="flex items-stretch font-heading text-lg font-semibold text-brand-navy">
             {NAV_ITEMS.map((item) => (
               <li key={item.label} className="group relative">
                 <Link
                   href={item.href}
-                  className={`flex items-center gap-1 whitespace-nowrap px-[35px] py-5 transition-colors hover:text-brand-teal ${
-                    item.label === "Home" ? "text-brand-teal" : ""
+                  className={`flex items-center gap-1 whitespace-nowrap px-3 py-5 transition-colors hover:text-brand-teal 2xl:px-[35px] ${
+                    isActive(item.href) ? "text-brand-teal" : ""
                   }`}
                 >
                   {item.label}
@@ -159,7 +164,7 @@ export default function Header() {
             <li className="ml-auto flex items-center">
               <Link
                 href="/contact-us/"
-                className="mx-2 rounded-[0.05rem] bg-brand-teal px-[85px] py-3 font-heading text-lg font-semibold whitespace-nowrap text-white transition-colors hover:bg-brand-teal-dark"
+                className="mx-2 rounded-[0.05rem] bg-brand-teal px-[28px] py-3 font-heading text-lg font-semibold whitespace-nowrap text-white transition-colors hover:bg-brand-teal-dark xl:px-[85px]"
               >
                 Request A Quote
               </Link>
@@ -221,6 +226,6 @@ export default function Header() {
           </ul>
         </div>
       )}
-    </header>
+    </>
   );
 }

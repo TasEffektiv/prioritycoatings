@@ -13,9 +13,9 @@ const LOGOS = [
 export default function TrustedLogos() {
   const track = [...LOGOS, ...LOGOS];
   return (
-    <section className="border-y border-gray-100 bg-brand-light py-14">
+    <section className="border-y border-gray-200 bg-white py-14">
       <div className="mx-auto max-w-[1400px] px-6">
-        <h2 className="text-center text-xl font-bold text-brand-navy sm:text-2xl">
+        <h2 className="text-center text-xl font-bold text-black sm:text-2xl">
           Trusted by companies across Sydney, NSW
         </h2>
 
@@ -28,7 +28,7 @@ export default function TrustedLogos() {
                 alt="Trusted partner logo"
                 width={140}
                 height={70}
-                className="h-12 w-auto object-contain opacity-70 grayscale transition hover:opacity-100 hover:grayscale-0 sm:h-16"
+                className="h-12 w-auto object-contain sm:h-16"
               />
             ))}
           </div>

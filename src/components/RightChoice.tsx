@@ -18,16 +18,16 @@ const BULLETS = [
 
 export default function RightChoice() {
   return (
-    <section className="grid grid-cols-1 lg:grid-cols-2">
+    <section className="relative grid grid-cols-1 lg:grid-cols-2">
       {/* Left: standout features over a background photo */}
       <div
-        className="flex items-center bg-cover bg-center px-6 py-16 sm:px-10 lg:justify-end lg:px-16 lg:py-24"
+        className="flex items-center bg-cover bg-center px-6 py-16 sm:px-10 lg:px-16 lg:py-24"
         style={{
           backgroundImage:
             "url(https://www.prioritycoatings.com.au/wp-content/uploads/2022/09/section-banner-image-min2.jpg)",
         }}
       >
-        <div className="w-full max-w-[605px] bg-[#003c73f5] px-6 py-10 sm:px-[60px] sm:py-[60px]">
+        <div className="relative z-10 w-full max-w-[605px] bg-[#003c73f5] px-6 py-10 sm:px-[60px] sm:py-[60px] lg:absolute lg:left-1/2 lg:top-1/2 lg:w-[650px] lg:max-w-none lg:-translate-x-[507px] lg:-translate-y-1/2">
           <p className="text-xl font-extrabold leading-[29px] text-white">
             Here&rsquo;s what makes us stand-out in the painting and decorating industry
           </p>
@@ -51,7 +51,7 @@ export default function RightChoice() {
 
       {/* Right: why choose copy */}
       <div
-        className="bg-brand-teal bg-cover bg-[top_right] bg-no-repeat px-6 py-16 sm:px-10 lg:px-16 lg:py-24"
+        className="bg-brand-teal bg-cover bg-[top_right] bg-no-repeat bg-blend-multiply px-6 py-16 sm:px-10 lg:py-24 lg:pr-6 lg:pl-[260px]"
         style={{
           backgroundImage:
             "url(https://www.prioritycoatings.com.au/wp-content/uploads/2022/04/home-right-bg.png)",

@@ -28,9 +28,9 @@ export default function ProjectCategories() {
     <section className="bg-gradient-to-br from-white to-brand-light py-16 md:py-24">
       <div className="mx-auto max-w-[1400px] px-6">
         <div className="rounded-[0.05rem] bg-brand-navy px-8 py-14 sm:px-14">
-          <h2 className="font-heading text-[38px] font-bold leading-[49px] text-white">
-            A complete painting solution for residential, commercial, strata, and
-            <br />
+          <h2 className="font-heading text-2xl font-bold leading-[1.3] text-white sm:text-[32px] sm:leading-[1.35] lg:text-[38px] lg:leading-[49px]">
+            A complete painting solution for residential, commercial, strata, and{" "}
+            <br className="hidden lg:block" />
             industrial properties:
           </h2>
 
@@ -38,7 +38,7 @@ export default function ProjectCategories() {
             {CATEGORIES.map((cat) => (
               <div key={cat} className="flex items-center gap-3">
                 <CheckCircle2 size={24} className="shrink-0 text-brand-teal" strokeWidth={1.75} />
-                <span className="font-heading text-[22px] font-semibold leading-[32px] text-white">
+                <span className="font-heading text-base font-semibold leading-[1.4] text-white sm:text-lg lg:text-[22px] lg:leading-[32px]">
                   {cat}
                 </span>
               </div>

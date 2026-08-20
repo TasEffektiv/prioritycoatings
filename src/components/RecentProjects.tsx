@@ -50,7 +50,6 @@ function ProjectCard({ title, img, href, tall }: { title: string; img: string; h
 
 export default function RecentProjects() {
   return (
-    <>
     <section className="bg-brand-light py-16 md:py-24">
       <div className="mx-auto max-w-[1400px] px-6">
         <h2 className="text-center text-3xl font-extrabold text-black sm:text-4xl">
@@ -77,26 +76,27 @@ export default function RecentProjects() {
             </svg>
           </a>
         </div>
-      </div>
-    </section>
 
-    <section
-      className="relative overflow-hidden bg-brand-navy bg-cover bg-center py-14"
-      style={{
-        backgroundImage:
-          "linear-gradient(rgba(0,57,109,0.89), rgba(0,57,109,0.89)), url(https://www.prioritycoatings.com.au/wp-content/uploads/2023/07/painters-in-sydney.jpg)",
-      }}
-    >
-      <div className="mx-auto flex max-w-[1400px] flex-col items-center justify-center gap-4 px-6 text-center">
-        <h4 className="text-xl font-bold text-white sm:text-2xl">Call Us For A Free Quote</h4>
-        <a
-          href="tel:+0298085900"
-          className="flex items-center gap-2 rounded-[0.05rem] bg-brand-teal px-8 py-3.5 font-heading text-lg font-bold text-white transition-colors hover:bg-brand-teal-dark"
+        <div
+          className="relative mt-16 overflow-hidden bg-cover bg-center py-16 sm:py-20 lg:py-24"
+          style={{
+            backgroundImage:
+              "linear-gradient(rgba(0,57,109,0.89), rgba(0,57,109,0.89)), url(https://www.prioritycoatings.com.au/wp-content/uploads/2023/07/painters-in-sydney.jpg)",
+          }}
         >
-          <Phone size={20} /> 02 9808 5900
-        </a>
+          <div className="mx-auto flex max-w-[1400px] flex-col items-center justify-center gap-8 px-6 text-center">
+            <h4 className="font-heading text-2xl font-bold text-white sm:text-[32px] lg:text-[41px]">
+              Call Us For A Free Quote
+            </h4>
+            <a
+              href="tel:+0298085900"
+              className="flex items-center gap-2 rounded-[0.05rem] bg-brand-teal px-10 py-[15px] font-heading text-lg font-bold text-white transition-colors hover:bg-brand-teal-dark sm:px-[70px]"
+            >
+              <Phone size={20} /> 02 9808 5900
+            </a>
+          </div>
+        </div>
       </div>
     </section>
-    </>
   );
 }

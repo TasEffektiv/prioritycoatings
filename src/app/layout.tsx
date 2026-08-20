@@ -1,13 +1,6 @@
 import type { Metadata } from "next";
-import { Roboto } from "next/font/google";
 import localFont from "next/font/local";
 import "./globals.css";
-
-const roboto = Roboto({
-  variable: "--font-roboto",
-  subsets: ["latin"],
-  weight: ["300", "400", "500", "700", "900"],
-});
 
 const proximaNova = localFont({
   src: [
@@ -29,7 +22,7 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
   return (
     <html
       lang="en-AU"
-      className={`${roboto.variable} ${proximaNova.variable} scroll-smooth`}
+      className={`${proximaNova.variable} scroll-smooth`}
     >
       <body className="min-h-screen bg-white font-body text-[#212529] antialiased">
         {children}

@@ -30,7 +30,7 @@ const ITEMS = [
 
 function Card({ title, body }: { title: string; body: string }) {
   return (
-    <div className="w-full border border-brand-teal/40 bg-white p-8 lg:mx-auto lg:w-[416.66px]">
+    <div className="w-full border border-brand-teal/40 bg-white p-8 lg:mx-auto lg:max-w-[416.66px]">
       <CheckCircle2 size={40} className="text-brand-teal" strokeWidth={1.5} />
       <h3 className="mt-4 text-[23px] font-bold leading-[27px] text-black">{title}</h3>
       <p className="mt-2 text-[15px] leading-[22px] text-brand-grey">{body}</p>

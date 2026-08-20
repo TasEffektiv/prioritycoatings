@@ -136,7 +136,7 @@ export default function IntroText() {
           <button
             onClick={() => setExpanded((v) => !v)}
             aria-expanded={expanded}
-            className={`flex w-fit flex-col items-center gap-1 font-heading text-base font-bold text-black ${
+            className={`mx-auto flex w-fit flex-col items-center gap-1 font-heading text-base font-bold text-black lg:mx-0 ${
               expanded ? "mt-10" : "mt-12"
             }`}
           >

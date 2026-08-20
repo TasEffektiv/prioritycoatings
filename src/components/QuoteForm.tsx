@@ -11,8 +11,8 @@ export default function QuoteForm() {
   }
 
   return (
-    <div className="w-full rounded-[0.05rem] bg-white pt-12 pb-[65px] px-[65px] lg:ml-auto lg:w-[calc(29.6vw_+_130px)] lg:max-w-[590px]">
-      <h4 className="mb-7 text-[41px] font-bold leading-[1.2] text-brand-ink">Request A Quote</h4>
+    <div className="w-full min-w-0 rounded-[0.05rem] bg-white px-8 pt-12 pb-[65px] sm:px-[65px] lg:ml-auto lg:w-full lg:max-w-[590px]">
+      <h4 className="mb-7 text-2xl font-bold leading-[1.2] text-brand-ink sm:text-[41px]">Request A Quote</h4>
       {submitted ? (
         <p className="rounded-[0.05rem] bg-brand-light p-4 text-sm text-brand-ink">
           Thanks — your request has been received. Our team will be in touch shortly.
