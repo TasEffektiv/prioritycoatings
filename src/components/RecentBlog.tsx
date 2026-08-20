@@ -34,22 +34,24 @@ function BlogCard({ post }: { post: (typeof POSTS)[number] }) {
       href={post.href}
       className="group flex flex-col overflow-hidden border border-gray-200 bg-white shadow-sm transition-shadow hover:shadow-lg"
     >
-      <div className="p-5 pb-0">
-        <div className="relative h-36 w-full overflow-hidden">
+      <div className="px-5">
+        <div className="relative aspect-video w-full overflow-hidden">
           <Image
             src={post.img}
             alt={post.title}
             fill
-            className="object-cover transition-transform duration-500 group-hover:scale-110"
+            className="object-cover transition-transform duration-500 group-hover:scale-105"
           />
         </div>
       </div>
-      <div className="flex flex-1 flex-col p-5">
+      <div className="flex flex-1 flex-col bg-white px-5 pb-5 pt-5">
         <p className="text-sm text-brand-blue">{post.date}</p>
         <h4 className="mt-2 text-base font-bold leading-snug text-brand-navy">{post.title}</h4>
-        <span className="mt-4 flex items-center gap-1.5 text-sm font-semibold text-gray-300 transition-colors group-hover:text-brand-teal">
-          Read More <ArrowRight size={14} />
-        </span>
+        <div className="mt-4 h-0 overflow-hidden transition-all duration-500 group-hover:h-6">
+          <span className="flex -translate-y-2 items-center gap-1.5 text-sm font-semibold text-brand-teal transition-transform duration-500 group-hover:translate-y-0">
+            Read More <ArrowRight size={14} />
+          </span>
+        </div>
       </div>
     </a>
   );
