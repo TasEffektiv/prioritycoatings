@@ -130,16 +130,22 @@ export default function Services() {
           <button
             onClick={scrollPrev}
             disabled={!canPrev}
-            className="font-heading text-lg font-bold text-white transition-opacity disabled:opacity-50"
+            className="flex items-center gap-2 font-heading text-lg font-bold text-white transition-opacity disabled:opacity-50"
           >
+            <svg aria-hidden="true" viewBox="0 0 20 14" className="h-[14px] w-5 rotate-180 fill-current">
+              <path d="M12.6 0.6 11.2 2l3.3 3.3H0v2h14.5L11.2 10.6 12.6 12l6-6z" />
+            </svg>
             Prev
           </button>
           <button
             onClick={scrollNext}
             disabled={!canNext}
-            className="font-heading text-lg font-bold text-white transition-opacity disabled:opacity-50"
+            className="flex items-center gap-2 font-heading text-lg font-bold text-white transition-opacity disabled:opacity-50"
           >
             Next
+            <svg aria-hidden="true" viewBox="0 0 20 14" className="h-[14px] w-5 fill-current">
+              <path d="M12.6 0.6 11.2 2l3.3 3.3H0v2h14.5L11.2 10.6 12.6 12l6-6z" />
+            </svg>
           </button>
         </div>
       </div>
