@@ -45,8 +45,15 @@ function FooterColumn({ heading, links }: { heading: string; links: { label: str
 
 export default function Footer() {
   return (
-    <footer className="bg-brand-navy-deep">
-      <div className="mx-auto max-w-[1400px] px-6 py-16">
+    <footer className="relative overflow-hidden bg-[#001c35]">
+      <div
+        className="pointer-events-none absolute inset-0 bg-cover bg-[0%_0%] mix-blend-multiply"
+        style={{
+          backgroundImage:
+            "url(https://www.prioritycoatings.com.au/wp-content/themes/webalive/assets/source/images/foo-bg.png)",
+        }}
+      />
+      <div className="relative mx-auto max-w-[1400px] px-6 py-16">
         <div className="grid grid-cols-1 gap-12 sm:grid-cols-2 lg:grid-cols-5">
           <div className="lg:col-span-1">
             <Image
@@ -113,7 +120,7 @@ export default function Footer() {
         </div>
       </div>
 
-      <div className="border-t border-white/10">
+      <div className="relative border-t border-white/10">
         <div className="mx-auto flex max-w-[1400px] flex-col items-center justify-between gap-3 px-6 py-6 text-center text-xs text-white/50 sm:flex-row sm:text-left">
           <p>
             © Copyright 2026 - Priority One Coatings | Web Development{" "}

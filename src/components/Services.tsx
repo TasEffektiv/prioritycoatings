@@ -91,10 +91,10 @@ export default function Services() {
                 key={s.title}
                 className="min-w-0 shrink-0 grow-0 basis-full pl-9 sm:basis-1/2 lg:basis-1/3"
               >
-                <div className="group relative px-6 pt-16">
-                  <div className="absolute inset-x-6 bottom-0 top-16 bg-[#e9f1f6]" />
-                  <div className="relative">
-                    <div className="relative -mt-16 aspect-[293/249] w-full overflow-hidden">
+                <div className="group relative flex h-full flex-col pt-16">
+                  <div className="absolute inset-x-0 bottom-0 top-16 bg-white/[0.87] transition-all duration-500 group-hover:top-20 group-hover:bg-white" />
+                  <div className="relative flex flex-1 flex-col px-9">
+                    <div className="relative -mt-16 h-[249px] w-full shrink-0 overflow-hidden">
                       <Image
                         src={s.img}
                         alt={s.title}
@@ -102,14 +102,21 @@ export default function Services() {
                         className="object-cover transition-transform duration-500 group-hover:scale-105"
                       />
                     </div>
-                    <div className="px-2 pb-9 pt-6 text-center">
+                    <div className="flex flex-1 flex-col pb-9 pt-6 text-center">
                       <h3 className="text-xl font-bold text-black">{s.title}</h3>
-                      <p className="mt-3 text-sm leading-relaxed text-black/70">{s.desc}</p>
+                      <p className="mt-3 line-clamp-3 text-sm leading-relaxed text-black/70">{s.desc}</p>
                       <a
                         href={s.href}
-                        className="mt-4 inline-block text-sm font-bold text-brand-teal opacity-0 transition-opacity group-hover:opacity-100"
+                        className="mt-auto inline-flex items-center gap-2 self-center pt-5 pr-6 text-[15px] font-bold tracking-wide text-brand-teal opacity-0 transition-opacity duration-500 hover:opacity-70 group-hover:opacity-100"
                       >
                         Learn More
+                        <svg
+                          aria-hidden="true"
+                          viewBox="0 0 20 14"
+                          className="h-[10px] w-[14px] shrink-0 fill-current"
+                        >
+                          <path d="M12.6 0.6 11.2 2l3.3 3.3H0v2h14.5L11.2 10.6 12.6 12l6-6z" />
+                        </svg>
                       </a>
                     </div>
                   </div>
