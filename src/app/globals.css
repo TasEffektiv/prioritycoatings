@@ -57,6 +57,16 @@ h1, h2, h3, h4, h5, h6 {
   animation-delay: 5s;
 }
 
+@keyframes fade-slide-quarter {
+  0%, 21% { opacity: 1; }
+  25%, 96% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+.fitout-slide {
+  animation: fade-slide-quarter 20s infinite;
+}
+
 @keyframes marquee-scroll {
   from { transform: translateX(0); }
   to { transform: translateX(-50%); }
