@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import Image from "next/image";
-import { CheckCircle2, Phone } from "lucide-react";
+import { Check, CheckCircle2, Phone } from "lucide-react";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import Faq from "@/components/Faq";
@@ -216,7 +216,7 @@ export default function CommercialPaintingPage() {
               {HERO_SLIDES.map((src, i) => (
                 <div
                   key={src}
-                  className="fitout-slide absolute inset-0 bg-cover bg-center opacity-0"
+                  className="hero-slide absolute inset-0 bg-cover bg-center opacity-0"
                   style={{ backgroundImage: `url(${src})`, animationDelay: `${i * 5}s` }}
                 />
               ))}
@@ -336,15 +336,13 @@ export default function CommercialPaintingPage() {
               {WHY_CHOOSE.map(({ title, body }) => (
                 <div
                   key={title}
-                  className="border border-gray-200 p-8 text-center"
+                  className="flex flex-col items-center gap-[15px] bg-white px-5 py-14 text-center shadow-[0_0_50px_0_rgba(0,0,0,0.05)]"
                 >
-                  <CheckCircle2
-                    size={44}
-                    className="mx-auto text-brand-teal"
-                    strokeWidth={1.5}
-                  />
-                  <h3 className="mt-5 text-xl font-bold leading-tight text-black">{title}</h3>
-                  <p className="mt-3 text-sm leading-relaxed text-brand-grey">{body}</p>
+                  <div className="flex h-[82px] w-[82px] shrink-0 items-center justify-center rounded-full border-2 border-brand-teal bg-white p-[14px]">
+                    <Check size={28} className="text-brand-teal" strokeWidth={3} />
+                  </div>
+                  <h3 className="text-[23px] font-bold leading-[27px] text-black">{title}</h3>
+                  <p className="text-[15px] leading-[22px] text-black/80">{body}</p>
                 </div>
               ))}
             </div>
@@ -377,15 +375,15 @@ export default function CommercialPaintingPage() {
         </section>
 
         {/* Insurances */}
-        <section className="relative overflow-hidden bg-[#003c73]">
-          <div
-            className="relative mx-auto flex max-w-[1400px] justify-end bg-[length:65%_100%] bg-[top_left] bg-no-repeat px-6 py-16 lg:min-h-[550px] lg:bg-auto lg:py-24"
-            style={{
-              backgroundImage:
-                "url(https://www.prioritycoatings.com.au/wp-content/uploads/2022/09/commercial-sca-folding-image.jpg)",
-            }}
-          >
-            <div className="w-full max-w-[500px] bg-white p-8 shadow-lg sm:p-12">
+        <section
+          className="relative flex items-center overflow-hidden bg-[#003c73] bg-[length:65%_100%] bg-[top_left] bg-no-repeat lg:min-h-[700px]"
+          style={{
+            backgroundImage:
+              "url(https://www.prioritycoatings.com.au/wp-content/uploads/2022/09/commercial-sca-folding-image.jpg)",
+          }}
+        >
+          <div className="mx-auto flex w-full max-w-[1400px] justify-end px-6 py-16 lg:py-24">
+            <div className="w-full max-w-[636px] bg-white px-8 py-10 shadow-lg sm:pt-20 sm:pr-[50px] sm:pb-[60px] sm:pl-[85px]">
               <h2 className="font-heading text-2xl font-extrabold leading-tight text-black sm:text-3xl">
                 Insurances
               </h2>
@@ -415,7 +413,7 @@ export default function CommercialPaintingPage() {
               <h2 className="font-heading text-3xl font-extrabold leading-tight text-black sm:text-4xl">
                 Our Commercial Painting Process in Sydney
               </h2>
-              <p className="mt-6 text-base leading-relaxed text-brand-grey">
+              <p className="mt-6 text-base leading-relaxed text-black">
                 From picking the right colours to achieving a flawless finish, the commercial
                 painting process surely requires careful planning, preparation, and skilled
                 execution. However, no matter what the business owner requires, our experienced
@@ -499,7 +497,7 @@ export default function CommercialPaintingPage() {
             </p>
             <div className="mt-10 grid grid-cols-2 gap-4 sm:grid-cols-4">
               {RELATED_WORKS_GALLERY.map((src) => (
-                <div key={src} className="relative h-[160px] w-full overflow-hidden sm:h-[220px]">
+                <div key={src} className="relative aspect-square w-full overflow-hidden">
                   <Image src={src} alt="Commercial painting project" fill className="object-cover" />
                 </div>
               ))}
