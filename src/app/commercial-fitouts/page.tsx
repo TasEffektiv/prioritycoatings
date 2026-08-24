@@ -333,26 +333,29 @@ export default function CommercialFitoutsPage() {
         </section>
 
         {/* Insurances */}
-        <section className="relative grid grid-cols-1 lg:grid-cols-2">
-          <div className="relative h-[320px] w-full lg:h-auto lg:min-h-[420px]">
-            <Image
-              src="https://www.prioritycoatings.com.au/wp-content/uploads/2022/09/commercial-offfice.jpg"
-              alt="Commercial office reception fitout"
-              fill
-              className="object-cover"
-            />
+        <section className="relative overflow-hidden">
+          <div className="absolute inset-0 flex">
+            <div className="relative h-full w-1/2">
+              <Image
+                src="https://www.prioritycoatings.com.au/wp-content/uploads/2022/09/commercial-fitout-sction-banner.jpg"
+                alt="Commercial office reception fitout"
+                fill
+                className="object-cover object-left-top"
+              />
+            </div>
+            <div className="h-full w-1/2 bg-brand-navy" />
           </div>
-          <div className="relative flex items-start justify-center bg-brand-navy px-6 py-12 sm:justify-start sm:px-10 lg:py-16">
-            <div className="w-full max-w-[340px] bg-white p-8 shadow-lg lg:-mt-6">
-              <h2 className="font-heading text-2xl font-extrabold leading-tight text-black">
+          <div className="relative mx-auto flex min-h-[420px] max-w-[1400px] items-center justify-center px-6 py-16 sm:min-h-[480px] lg:min-h-[560px]">
+            <div className="w-full max-w-[636px] bg-white px-6 py-10 shadow-lg sm:px-[50px] sm:py-12 lg:px-[85px] lg:pt-20 lg:pb-[60px]">
+              <h2 className="font-heading text-[28px] font-extrabold leading-tight text-black">
                 Insurances
               </h2>
-              <p className="mt-3 text-sm leading-relaxed text-brand-grey">
+              <p className="mt-4 text-sm leading-relaxed text-brand-grey sm:text-base">
                 We provide a range of insurance coverage for commercial fit out services.
               </p>
-              <ol className="mt-5 space-y-3">
+              <ol className="mt-6 space-y-3">
                 {INSURANCES.map((item, i) => (
-                  <li key={item} className="flex gap-2 text-sm leading-relaxed text-black">
+                  <li key={item} className="flex gap-2 text-sm leading-relaxed text-black sm:text-base">
                     <span className="shrink-0 font-bold text-brand-teal">{i + 1}.</span>
                     {item}
                   </li>
