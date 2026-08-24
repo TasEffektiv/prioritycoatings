@@ -269,13 +269,14 @@ export default function LeadPaintRemovalPage() {
         </section>
 
         {/* Insurances */}
-        <section
-          className="relative overflow-hidden bg-[#003c73] bg-[length:65%_100%] bg-[top_left] bg-no-repeat lg:min-h-[700px]"
-          style={{
-            backgroundImage:
-              "url(https://www.prioritycoatings.com.au/wp-content/uploads/2022/09/lead-removal-1.jpg)",
-          }}
-        >
+        <section className="relative overflow-hidden bg-[#003c73] lg:min-h-[700px]">
+          <div
+            className="absolute inset-y-0 left-0 hidden w-1/2 bg-cover bg-top lg:block"
+            style={{
+              backgroundImage:
+                "url(https://www.prioritycoatings.com.au/wp-content/uploads/2022/09/lead-removal-1.jpg)",
+            }}
+          />
           <div className="relative mx-auto flex max-w-[1400px] justify-end px-6 py-16 lg:min-h-[700px] lg:py-24">
             <div className="w-full max-w-[636px] bg-white px-8 py-10 shadow-lg sm:pt-20 sm:pr-[50px] sm:pb-[60px] sm:pl-[85px]">
               <h2 className="font-heading text-2xl font-extrabold leading-tight text-black sm:text-3xl">
