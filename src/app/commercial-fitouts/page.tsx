@@ -46,19 +46,19 @@ const SERVICES_LIST = [
 const FEATURES = [
   {
     title: "Quality Assurance",
-    body: "We are fully licensed and a member of Master Painters Australia, which tells how qualified we are! We complete every office interior project with premium quality materials and trained carpenters. With solid expertise, our professional commercial fitout team give attention to every detail with organisational efficiency to provide you with a top-notch corporate fitout solution.",
+    body: "We are fully licensed and a member of Master Painters Australia, which tells how qualified we are! We complete every office interior project with premium quality materials and trained carpenters. With solid expertise, our professional commercial fitout team give attention to every detail with organisational efficiency to provide you with a top-notch corporate fitout solution. Our every fitout construction process results in a high-end office fitout. No matter how difficult to find the best solution for you, our qualified commercial fitout contractors deliver high-quality builds for all category businesses. Assuring the best quality in any office interior project is our priority.",
   },
   {
     title: "Comprehensive Price Estimate",
-    body: "Every office differs from others, and all business owners want the best office interior within budget. Our office fit out specialists are always there for you to estimate the exact price for your office fitout. We will calculate and share the exact cost with the help of our commercial fitout Sydney professionals. You will find no hidden or after cost with us.",
+    body: "Every office differs from others, and all business owners want the best office interior within budget. Our office fit out specialists are always there for you to estimate the exact price for your office fitout. By simply entering the required information in our provided form at the top right of this page, you can request a quota for your office relocation or refurbishments. We will calculate and share the exact cost with the help of our commercial fitout Sydney professionals. You will find no hidden or after cost with us. We do the same what we say.",
   },
   {
     title: "System Design Efficiency",
-    body: "Our professional office fit out team understand that each office has its own requirements. That's why when we think about any fit-out project, we think differently. We give our full focus on knowing the ins and out of your business environment, and design the best-fit office fitouts with employee productivity in mind.",
+    body: "Our professional office fit out team understand that each office has its own requirements. That's why when we think about any fit-out project, we think differently. At first, we give our full focus on knowing the ins and out of your business environment. Based on that our fit-out specialists efficiently design the best-fit office fitouts for you. We also keep employee productivity in mind as it is connected with the physical environment of the office. Our office interior designs are not only creative but also intent to the next level to exceed your expectation.",
   },
   {
     title: "Procurement",
-    body: "With over 32 years’ experience, we evolved as more than a commercial fitout company. We pride ourselves on our ability to customise office interior fitouts at the town’s top level, with the best cost structure and offshore procurement capabilities to bring you the best custom fit-out for your office.",
+    body: "With over 32-year experience, we evolved as more than a commercial fitout company. Our unique team of Sydney office fit out professionals brings us to this level in the market. We pride ourselves on our ability to customise office interior fitouts at the town’s top level. You will get the high quality custom fit outs at the most optimal cost structure. Our procurement experts will wow you with their offshore procurement capabilities. You can find us any time anywhere in Sydney to bring you the best custom fit-out for your office.",
   },
 ];
 
@@ -66,22 +66,22 @@ const PROCESS = [
   {
     step: "01",
     title: "Site Investigation",
-    body: "Every commercial fit-out project is unique and presents its own set of challenges. Our team of experienced commercial fit-out contractors will visit your office to conduct a thorough survey, gaining first-hand knowledge of the space and identifying any potential obstacles, workflow patterns and branding guidelines.",
+    body: "At our company, we understand that every commercial fit-out project is unique and presents its own set of challenges. That's why we emphasise conducting a comprehensive site investigation as an essential first step in our process. Our team of experienced commercial fit-out contractors will visit your office to conduct a thorough survey. We will focus on gaining first-hand knowledge of the space and identifying any potential obstacles.\n\nDuring the site survey, we will work closely with you to identify your goals and requirements for your workplace. Our office fit-out contractors will make enquiry all the aspects of your business, such as the number of employees, workflow patterns, branding guidelines and functionality requirements. Whether it is about your new office setup or old office refurbishment, we will investigate every site to give you 100% satisfaction after the competition of the fit-out job.",
   },
   {
     step: "02",
-    title: "Planning and Design",
-    body: "Once the site investigation is complete, we develop a detailed office fit-out plan and design your workplace according to it — layout, partitioning, colours and materials to match your brand. We use updated technology to give you accurate adjustments and visualisation before construction begins.",
+    title: "Planning and design",
+    body: "Once the site investigation is complete, we move to planning and design as the next step. We develop a detailed office fit-out plan and design your workplace according to it. When our creative commercial fit-out designers work on your office design, the area of concern will be the layout, partitioning and allocation of different areas. We will also plan on selecting colours and materials to match your brand and give your office interior an aesthetic and productive environment.\n\nWhen our Sydney fit-out, professionals prepare the layout design using updated technology to give you accurate adjustments and visualisation. We consider positioning workstations, desks, chairs, storage units, salving, reception counters, display racks (for retail spaces) and any other necessary furniture or equipment that is essential for your workspace. Our every fit-out design result in an efficient, seamless one with our practical planning.",
   },
   {
     step: "03",
-    title: "Construction and Installation",
-    body: "Our fit-out team constructs the necessary partitions and furniture, fits them to the layout we designed, and completes electrical and carpet installation. Our painters match your brand colour, and lighting, HVAC and other fittings are completed with quality workmanship throughout.",
+    title: "Construction and installation",
+    body: "Once the design is in place, our fit-out team will move into the construction and installation phase. In this phase, we will construct the necessary partitions and furniture and fit them according to the layout we designed before. Electrical and carpet installation will take place in this step. Our painters will also paint your interior office matching your brand colour to provide you with an intense result.\n\nLighting, HVAC system and other necessary fittings will be done with our quality workmanship at this point. Finally, we will construct and install every single part of your office with your concern. With a versatile commercial fit-out company, we can prepare the best office interior for all categories of business owners. No task is difficult for us. We have experience in implementing fit-outs for a wide range of industries.",
   },
   {
     step: "04",
-    title: "Sustainable Project Life Cycle",
-    body: "Our contractors have extensive experience sourcing and implementing environmentally friendly materials. We use 100% recyclable materials and Low VOC (volatile organic compound) products that are safe for the environment and human health, with Safety Data Sheets available for every fit-out job.",
+    title: "Sustainable project life cycle",
+    body: "Our team of expert contractors has extensive experience in sourcing and implementing environmentally friendly materials. We understand that sustainability is critical in today's business landscape. We will help your business go green. We always use sustainable materials to make a real difference in the Sydney fit-out market.\n\nOur contractors are well-versed in accredited sustainability programs and are equipped with the knowledge to help you achieve your sustainability goals. We use 100% recyclable materials in our fitout process. We are also committed to using Low VOC (volatile organic compound) products that are safe for the environment and human health. Our Safety Data Sheets are available for all fit-out jobs to ensure transparency and accountability in our approach.",
   },
 ];
 
@@ -288,9 +288,12 @@ export default function CommercialFitoutsPage() {
           </div>
 
           <div className="mx-auto mt-16 max-w-[1400px] px-6">
-            <div className="grid grid-cols-1 gap-12 sm:grid-cols-2 lg:grid-cols-4 lg:gap-8">
+            <div className="grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-4">
               {FEATURES.map(({ title, body }) => (
-                <div key={title} className="text-center">
+                <div
+                  key={title}
+                  className="rounded-[0.05rem] bg-white p-7 text-center shadow-[0_0_15px_0_rgba(0,0,0,0.06)]"
+                >
                   <CheckCircle2
                     size={56}
                     className="mx-auto text-brand-teal"
@@ -305,7 +308,7 @@ export default function CommercialFitoutsPage() {
         </section>
 
         {/* Call CTA */}
-        <section className="bg-white py-10 md:py-16">
+        <section className="bg-white pb-10 md:pb-16">
           <div className="mx-auto max-w-[1600px] px-6">
             <div
               className="relative overflow-hidden bg-cover bg-center py-16 sm:py-20 lg:py-24"
@@ -387,7 +390,11 @@ export default function CommercialFitoutsPage() {
                   className="rounded-[0.05rem] bg-white p-7 text-center shadow-[0_0_15px_0_rgba(0,0,0,0.06)]"
                 >
                   <h3 className="text-xl font-bold text-black">{title}</h3>
-                  <p className="mt-3 text-sm leading-relaxed text-brand-grey">{body}</p>
+                  {body.split("\n\n").map((paragraph, i) => (
+                    <p key={i} className="mt-3 text-sm leading-relaxed text-brand-grey">
+                      {paragraph}
+                    </p>
+                  ))}
                 </div>
               ))}
             </div>
@@ -453,7 +460,7 @@ export default function CommercialFitoutsPage() {
             </p>
             <div className="mt-10 grid grid-cols-2 gap-4 sm:grid-cols-4">
               {RELATED_WORKS_GALLERY.map((src) => (
-                <div key={src} className="relative h-[160px] w-full overflow-hidden sm:h-[220px]">
+                <div key={src} className="relative aspect-square w-full overflow-hidden">
                   <Image src={src} alt="Commercial fitout project" fill className="object-cover" />
                 </div>
               ))}

@@ -29,12 +29,13 @@ export default function AboutUsPage() {
         <section className="bg-white py-16 md:py-24">
           <div className="mx-auto grid max-w-[1400px] grid-cols-1 gap-12 px-6 lg:grid-cols-[2fr_3fr] lg:items-start">
             <div>
-              <div className="relative h-[420px] w-full overflow-hidden">
+              <div className="relative w-full">
                 <Image
                   src="https://www.prioritycoatings.com.au/wp-content/uploads/2022/06/au.jpg"
                   alt="commercial building"
-                  fill
-                  className="object-cover"
+                  width={2558}
+                  height={1304}
+                  className="h-auto w-full object-contain"
                 />
               </div>
               <p className="mt-3 text-center text-sm text-brand-grey">The Sands Manly</p>
@@ -68,7 +69,7 @@ export default function AboutUsPage() {
                 At Priority One Coatings, we specialise in a comprehensive range of painting
                 services, including:
               </p>
-              <ul className="mt-4 list-disc space-y-2 pl-5 text-base leading-relaxed text-brand-ink marker:text-brand-teal">
+              <ul className="mt-4 list-disc space-y-2 pl-5 text-base leading-relaxed text-brand-ink marker:text-black">
                 {SERVICES_LIST.map((item) => (
                   <li key={item}>{item}</li>
                 ))}
