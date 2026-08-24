@@ -1,12 +1,18 @@
 import Link from "next/link";
 
-export default function PageHeader({ title }: { title: string }) {
+export default function PageHeader({
+  title,
+  parent,
+}: {
+  title: string;
+  parent?: { label: string; href: string };
+}) {
   return (
     <section
-      className="relative overflow-hidden bg-cover bg-center py-16 sm:py-20 lg:py-24"
+      className="relative overflow-hidden bg-[#143049] bg-cover bg-[top_left] bg-no-repeat bg-blend-multiply py-[30px] md:py-[50px] lg:py-[100px]"
       style={{
         backgroundImage:
-          "linear-gradient(rgba(0,40,77,0.85), rgba(0,40,77,0.85)), url(https://www.prioritycoatings.com.au/wp-content/uploads/2022/04/lead-paint.jpg)",
+          "url(https://www.prioritycoatings.com.au/wp-content/uploads/2022/04/lead-paint.jpg)",
       }}
     >
       <div className="mx-auto flex max-w-[1400px] flex-wrap items-center justify-between gap-4 px-6">
@@ -18,6 +24,14 @@ export default function PageHeader({ title }: { title: string }) {
             Home
           </Link>
           <span className="text-white">&gt;</span>
+          {parent && (
+            <>
+              <Link href={parent.href} className="text-white transition-colors hover:text-brand-teal">
+                {parent.label}
+              </Link>
+              <span className="text-white">&gt;</span>
+            </>
+          )}
           <span className="text-brand-teal">{title}</span>
         </div>
       </div>
