@@ -111,23 +111,79 @@ export default function Header() {
       </div>
 
       {/* Mobile top bar */}
-      <div className="sticky top-0 z-50 flex items-center justify-between bg-brand-blue px-4 py-3 lg:hidden">
-        <Link href="/">
-          <Image
-            src="https://www.prioritycoatings.com.au/wp-content/uploads/2022/04/logo.svg"
-            alt="Priority One Coatings Logo"
-            width={140}
-            height={52}
-            priority
-          />
-        </Link>
-        <button
-          aria-label="Toggle navigation"
-          onClick={() => setMobileOpen((v) => !v)}
-          className="text-white"
-        >
-          {mobileOpen ? <X size={28} /> : <Menu size={28} />}
-        </button>
+      <div className="sticky top-0 z-50 lg:hidden">
+        <div className="flex items-center justify-between bg-brand-blue px-4 py-3">
+          <Link href="/">
+            <Image
+              src="https://www.prioritycoatings.com.au/wp-content/uploads/2022/04/logo.svg"
+              alt="Priority One Coatings Logo"
+              width={140}
+              height={52}
+              priority
+            />
+          </Link>
+          <button
+            aria-label="Toggle navigation"
+            onClick={() => setMobileOpen((v) => !v)}
+            className="text-white"
+          >
+            {mobileOpen ? <X size={28} /> : <Menu size={28} />}
+          </button>
+        </div>
+
+        {/* Mobile nav panel */}
+        {mobileOpen && (
+          <div className="max-h-[80vh] overflow-y-auto border-t border-black/10 bg-brand-navy">
+            <ul className="divide-y divide-white/10 font-heading text-sm font-semibold text-white">
+              {NAV_ITEMS.map((item) => (
+                <li key={item.label}>
+                  <div className="flex items-center justify-between px-4 py-3">
+                    <Link href={item.href} onClick={() => !item.children && setMobileOpen(false)}>
+                      {item.label}
+                    </Link>
+                    {item.children && (
+                      <button
+                        onClick={() =>
+                          setOpenSub((cur) => (cur === item.label ? null : item.label))
+                        }
+                        aria-label={`Toggle ${item.label} submenu`}
+                      >
+                        <ChevronDown
+                          size={16}
+                          className={openSub === item.label ? "rotate-180 transition-transform" : "transition-transform"}
+                        />
+                      </button>
+                    )}
+                  </div>
+                  {item.children && openSub === item.label && (
+                    <ul className="bg-brand-navy-deep pb-2">
+                      {item.children.map((child) => (
+                        <li key={child.label}>
+                          <Link
+                            href={child.href}
+                            onClick={() => setMobileOpen(false)}
+                            className="block px-8 py-2 text-xs font-medium normal-case text-white/80"
+                          >
+                            {child.label}
+                          </Link>
+                        </li>
+                      ))}
+                    </ul>
+                  )}
+                </li>
+              ))}
+              <li className="p-4">
+                <Link
+                  href="/contact-us/"
+                  onClick={() => setMobileOpen(false)}
+                  className="block rounded-[0.05rem] bg-brand-teal px-5 py-3 text-center text-xs font-bold tracking-wide text-white"
+                >
+                  Request A Quote
+                </Link>
+              </li>
+            </ul>
+          </div>
+        )}
       </div>
 
       {/* Main nav */}
@@ -173,59 +229,6 @@ export default function Header() {
         </div>
       </div>
 
-      {/* Mobile nav panel */}
-      {mobileOpen && (
-        <div className="max-h-[80vh] overflow-y-auto border-t border-black/10 bg-brand-navy lg:hidden">
-          <ul className="divide-y divide-white/10 font-heading text-sm font-semibold text-white">
-            {NAV_ITEMS.map((item) => (
-              <li key={item.label}>
-                <div className="flex items-center justify-between px-4 py-3">
-                  <Link href={item.href} onClick={() => !item.children && setMobileOpen(false)}>
-                    {item.label}
-                  </Link>
-                  {item.children && (
-                    <button
-                      onClick={() =>
-                        setOpenSub((cur) => (cur === item.label ? null : item.label))
-                      }
-                      aria-label={`Toggle ${item.label} submenu`}
-                    >
-                      <ChevronDown
-                        size={16}
-                        className={openSub === item.label ? "rotate-180 transition-transform" : "transition-transform"}
-                      />
-                    </button>
-                  )}
-                </div>
-                {item.children && openSub === item.label && (
-                  <ul className="bg-brand-navy-deep pb-2">
-                    {item.children.map((child) => (
-                      <li key={child.label}>
-                        <Link
-                          href={child.href}
-                          onClick={() => setMobileOpen(false)}
-                          className="block px-8 py-2 text-xs font-medium normal-case text-white/80"
-                        >
-                          {child.label}
-                        </Link>
-                      </li>
-                    ))}
-                  </ul>
-                )}
-              </li>
-            ))}
-            <li className="p-4">
-              <Link
-                href="/contact-us/"
-                onClick={() => setMobileOpen(false)}
-                className="block rounded-[0.05rem] bg-brand-teal px-5 py-3 text-center text-xs font-bold tracking-wide text-white"
-              >
-                Request A Quote
-              </Link>
-            </li>
-          </ul>
-        </div>
-      )}
     </>
   );
 }
