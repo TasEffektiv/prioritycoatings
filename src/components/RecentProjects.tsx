@@ -50,7 +50,7 @@ function ProjectCard({ title, img, href, tall }: { title: string; img: string; h
 
 export default function RecentProjects() {
   return (
-    <section className="bg-brand-light py-16 md:py-24">
+    <section id="recent-projects" className="scroll-mt-24 bg-brand-light py-16 md:py-24">
       <div className="mx-auto max-w-[1400px] px-6">
         <h2 className="text-center text-3xl font-extrabold text-black sm:text-4xl">
           Our Recent Projects
@@ -63,18 +63,6 @@ export default function RecentProjects() {
         </div>
         <div className="mt-6">
           <ProjectCard {...LEAD_REMOVAL} tall />
-        </div>
-
-        <div className="mt-10 text-center">
-          <a
-            href="/portfolio/"
-            className="inline-flex items-center gap-2 text-lg font-bold text-black opacity-100 transition-opacity hover:opacity-70"
-          >
-            View Our Portfolio
-            <svg aria-hidden="true" viewBox="0 0 20 14" className="h-[14px] w-5 fill-current">
-              <path d="M12.6 0.6 11.2 2l3.3 3.3H0v2h14.5L11.2 10.6 12.6 12l6-6z" />
-            </svg>
-          </a>
         </div>
 
         <div

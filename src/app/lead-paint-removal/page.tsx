@@ -391,7 +391,7 @@ export default function LeadPaintRemovalPage() {
               ))}
             </div>
             <a
-              href="/portfolio/"
+              href="/recent-lead-removal-projects/"
               className="mt-8 inline-flex items-center gap-2 text-lg font-bold text-black transition-opacity hover:opacity-70"
             >
               View Our Portfolio

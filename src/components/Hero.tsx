@@ -42,7 +42,7 @@ export default function Hero() {
               Contact Us
             </a>
             <a
-              href="/portfolio/"
+              href="#recent-projects"
               className="rounded-[0.05rem] bg-brand-blue px-[30px] py-[15px] font-heading text-lg font-bold whitespace-nowrap text-white shadow-lg transition-colors hover:bg-brand-navy"
             >
               View Our Recent Works

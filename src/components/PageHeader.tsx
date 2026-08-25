@@ -5,7 +5,7 @@ export default function PageHeader({
   parent,
 }: {
   title: string;
-  parent?: { label: string; href: string };
+  parent?: { label: string; href?: string };
 }) {
   return (
     <section
@@ -26,9 +26,13 @@ export default function PageHeader({
           <span className="text-white">&gt;</span>
           {parent && (
             <>
-              <Link href={parent.href} className="text-white transition-colors hover:text-brand-teal">
-                {parent.label}
-              </Link>
+              {parent.href ? (
+                <Link href={parent.href} className="text-white transition-colors hover:text-brand-teal">
+                  {parent.label}
+                </Link>
+              ) : (
+                <span className="text-white">{parent.label}</span>
+              )}
               <span className="text-white">&gt;</span>
             </>
           )}

@@ -16,7 +16,7 @@ export default function RecentCommercialProjectsPage() {
     <div id="top">
       <Header />
       <main>
-        <PageHeader title="Commercial" parent={{ label: "Portfolio", href: "/portfolio/" }} />
+        <PageHeader title="Commercial" parent={{ label: "Portfolio" }} />
 
         <section className="bg-white py-[50px] md:py-[80px]">
           <div className="mx-auto max-w-[1400px] px-6">

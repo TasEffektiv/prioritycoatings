@@ -26,10 +26,26 @@ const PORTFOLIO_LINKS = [
   { label: "Lead Removal", href: "/recent-lead-removal-projects/" },
 ];
 
-function FooterColumn({ heading, links }: { heading: string; links: { label: string; href: string }[] }) {
+function FooterColumn({
+  heading,
+  headingHref,
+  links,
+}: {
+  heading: string;
+  headingHref?: string;
+  links: { label: string; href: string }[];
+}) {
   return (
     <div>
-      <h5 className="mb-5 text-sm font-bold uppercase tracking-wide text-white">{heading}</h5>
+      <h5 className="mb-5 text-sm font-bold uppercase tracking-wide text-white">
+        {headingHref ? (
+          <a href={headingHref} className="transition-colors hover:text-brand-teal">
+            {heading}
+          </a>
+        ) : (
+          heading
+        )}
+      </h5>
       <ul className="space-y-3">
         {links.map((l) => (
           <li key={l.label}>
@@ -77,7 +93,7 @@ export default function Footer() {
 
           <FooterColumn heading="Company" links={COMPANY_LINKS} />
           <FooterColumn heading="Services" links={SERVICE_LINKS} />
-          <FooterColumn heading="Portfolio" links={PORTFOLIO_LINKS} />
+          <FooterColumn heading="Portfolio" headingHref="/portfolio/" links={PORTFOLIO_LINKS} />
 
           <div>
             <h5 className="mb-5 text-sm font-bold uppercase tracking-wide text-white">Follow Us On</h5>

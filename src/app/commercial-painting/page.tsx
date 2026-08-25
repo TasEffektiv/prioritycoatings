@@ -503,7 +503,7 @@ export default function CommercialPaintingPage() {
               ))}
             </div>
             <a
-              href="/portfolio/"
+              href="/recent-commercial-projects/"
               className="mt-8 inline-flex items-center gap-2 text-lg font-bold text-black transition-opacity hover:opacity-70"
             >
               View Our Portfolio

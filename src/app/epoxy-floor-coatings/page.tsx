@@ -409,7 +409,7 @@ export default function EpoxyFloorCoatingsPage() {
               ))}
             </div>
             <a
-              href="/portfolio/"
+              href="/recent-commercial-projects/"
               className="mt-8 inline-flex items-center gap-2 text-lg font-bold text-black transition-colors hover:text-brand-teal"
             >
               View Our Portfolio
