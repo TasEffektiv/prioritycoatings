@@ -8,13 +8,13 @@ import BlogSidebar from "@/components/blog/BlogSidebar";
 import { POSTS, paginate } from "@/lib/blog";
 
 export const metadata: Metadata = {
-  title: "Blog | Priority One Coatings",
+  title: "Blog | Page 3 | Priority One Coatings",
   description:
     "Painting and decorating tips, trends and expert advice from Priority One Coatings — Sydney's residential and commercial painting specialists.",
 };
 
-export default function BlogPage() {
-  const { items, totalPages } = paginate(POSTS, 1);
+export default function BlogPageThree() {
+  const { items, totalPages } = paginate(POSTS, 3);
 
   return (
     <div id="top">
@@ -32,7 +32,7 @@ export default function BlogPage() {
                   ))}
                 </div>
 
-                <BlogPagination currentPage={1} totalPages={totalPages} basePath="/blog" />
+                <BlogPagination currentPage={3} totalPages={totalPages} basePath="/blog" />
               </div>
 
               <BlogSidebar />

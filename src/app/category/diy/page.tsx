@@ -5,22 +5,25 @@ import Footer from "@/components/Footer";
 import PostCard from "@/components/blog/PostCard";
 import BlogPagination from "@/components/blog/BlogPagination";
 import BlogSidebar from "@/components/blog/BlogSidebar";
-import { POSTS, paginate } from "@/lib/blog";
+import { POSTS, paginate, type Category } from "@/lib/blog";
+
+const CATEGORY: Category = "DIY";
+const categoryPosts = POSTS.filter((post) => post.categories.includes(CATEGORY));
 
 export const metadata: Metadata = {
-  title: "Blog | Priority One Coatings",
+  title: "DIY | Blog | Priority One Coatings",
   description:
-    "Painting and decorating tips, trends and expert advice from Priority One Coatings — Sydney's residential and commercial painting specialists.",
+    "DIY painting tips, guides and expert advice from Priority One Coatings — Sydney's residential and commercial painting specialists.",
 };
 
-export default function BlogPage() {
-  const { items, totalPages } = paginate(POSTS, 1);
+export default function DiyCategoryPage() {
+  const { items, totalPages } = paginate(categoryPosts, 1);
 
   return (
     <div id="top">
       <Header />
       <main>
-        <PageHeader title="Blog" />
+        <PageHeader title={CATEGORY} parent={{ label: "Blog", href: "/blog/" }} />
 
         <section className="bg-[#f6f7fc] pb-[60px] pt-[50px] lg:pt-[80px]">
           <div className="mx-auto max-w-[1430px] px-[15px]">
@@ -32,10 +35,10 @@ export default function BlogPage() {
                   ))}
                 </div>
 
-                <BlogPagination currentPage={1} totalPages={totalPages} basePath="/blog" />
+                <BlogPagination currentPage={1} totalPages={totalPages} basePath="/category/diy" />
               </div>
 
-              <BlogSidebar />
+              <BlogSidebar activeCategory={CATEGORY} />
             </div>
           </div>
         </section>

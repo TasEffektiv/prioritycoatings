@@ -1,0 +1,293 @@
+export type Category = "Commercial Painting" | "DIY" | "News" | "Residential painting";
+
+export const CATEGORY_SLUGS: Record<Category, string> = {
+  "Commercial Painting": "commercial-painting",
+  DIY: "diy",
+  News: "news",
+  "Residential painting": "residential-painting",
+};
+
+export const CATEGORIES = Object.keys(CATEGORY_SLUGS) as Category[];
+
+export function categoryHref(category: Category) {
+  return `/category/${CATEGORY_SLUGS[category]}/`;
+}
+
+export type BlogPost = {
+  title: string;
+  date: string;
+  readTime: string;
+  img: string;
+  href: string;
+  categories: Category[];
+};
+
+export const POSTS: BlogPost[] = [
+  {
+    title: "Sustainable Commercial Painting Practices: Eco-Friendly Tips",
+    date: "August 20, 2026",
+    readTime: "12 minutes read",
+    img: "https://www.prioritycoatings.com.au/wp-content/uploads/2026/08/sustainable-commercial-painting-chatgpt-image.jpg",
+    href: "/sustainable-commercial-painting-eco-friendly-tips/",
+    categories: ["Commercial Painting"],
+  },
+  {
+    title: "How to Prepare Surfaces Before Painting Commercial Buildings",
+    date: "August 10, 2026",
+    readTime: "14 minutes read",
+    img: "https://www.prioritycoatings.com.au/wp-content/uploads/2026/08/prepare-commercial-buildings-surfaces-for-painting-chatGPT-image-1.jpg",
+    href: "/prepare-commercial-buildings-surfaces-for-painting/",
+    categories: ["Commercial Painting"],
+  },
+  {
+    title: "How Painters Extend Sydney Home Exterior Lifespan",
+    date: "July 20, 2026",
+    readTime: "13 minutes read",
+    img: "https://www.prioritycoatings.com.au/wp-content/uploads/2026/07/twostory-building-with-a-yellow-and-pink-facade.jpg",
+    href: "/how-painters-extend-sydney-home-exterior-lifespan/",
+    categories: ["Residential painting"],
+  },
+  {
+    title: "House Paint Colour Trends 2026: For Australian Homes",
+    date: "July 10, 2026",
+    readTime: "11 minutes read",
+    img: "https://www.prioritycoatings.com.au/wp-content/uploads/2026/07/house-paint-colour-2026-blog-banner.jpg",
+    href: "/house-paint-colours-trend-2026/",
+    categories: ["Residential painting"],
+  },
+  {
+    title: "The Cost of Painting A Commercial Space",
+    date: "June 20, 2026",
+    readTime: "8 minutes read",
+    img: "https://www.prioritycoatings.com.au/wp-content/uploads/2026/06/view-of-sydney-in-cloudy-weather.jpg",
+    href: "/cost-of-painting-commercial-buildings/",
+    categories: ["Commercial Painting"],
+  },
+  {
+    title: "Winter Exterior Painting In Sydney: Essential Tips",
+    date: "June 10, 2026",
+    readTime: "3 minutes read",
+    img: "https://www.prioritycoatings.com.au/wp-content/uploads/2026/06/residential-house-with-front-yard-in-snow.jpg",
+    href: "/winter-exterior-house-painting-dos-and-donts/",
+    categories: ["Residential painting"],
+  },
+  {
+    title: "Painting Commercial Building: The Best Practice Guide",
+    date: "May 20, 2026",
+    readTime: "8 minutes read",
+    img: "https://www.prioritycoatings.com.au/wp-content/uploads/2026/05/colorful-building-facade-in-city.jpg",
+    href: "/painting-commercial-building-the-best-practice-guide/",
+    categories: ["Commercial Painting"],
+  },
+  {
+    title: "Essential Things to Know Before Painting Your Home Interiors",
+    date: "May 10, 2026",
+    readTime: "10 minutes read",
+    img: "https://www.prioritycoatings.com.au/wp-content/uploads/2026/05/repair-in-the-apartment-paints-the-wall-with-paint.jpg",
+    href: "/things-to-know-before-painting-home-interiors/",
+    categories: ["Residential painting"],
+  },
+  {
+    title: "How to Fix a Bad Paint Job: Common Painting Mistakes",
+    date: "April 30, 2026",
+    readTime: "9 minutes read",
+    img: "https://www.prioritycoatings.com.au/wp-content/uploads/2026/05/how-to-fix-bad-paint-job-blog-banner.jpg",
+    href: "/how-to-fix-a-bad-paint-job/",
+    categories: ["DIY", "Residential painting"],
+  },
+  {
+    title: "Signs of a Bad Paint Job: Understand Painting Mistakes",
+    date: "April 20, 2026",
+    readTime: "9 minutes read",
+    img: "https://www.prioritycoatings.com.au/wp-content/uploads/2026/04/peeling-pink-and-yellow-paint-on-the-wall.jpg",
+    href: "/signs-of-a-bad-paint-job/",
+    categories: ["Residential painting"],
+  },
+  {
+    title: "Paint, Colours, And Tools – Glossary You Need",
+    date: "April 10, 2026",
+    readTime: "7 minutes read",
+    img: "https://www.prioritycoatings.com.au/wp-content/uploads/2026/04/painting-glossary-blog-banner.jpg",
+    href: "/paint-colours-and-tools-glossary-you-need/",
+    categories: ["DIY", "Residential painting"],
+  },
+  {
+    title: "Top Painting FAQs Answered by Professional Painters",
+    date: "March 30, 2026",
+    readTime: "9 minutes read",
+    img: "https://www.prioritycoatings.com.au/wp-content/uploads/2026/03/common-faqs-blog-banner.jpg",
+    href: "/top-painting-faqs-answered-by-professional-painters/",
+    categories: ["Commercial Painting", "Residential painting"],
+  },
+  {
+    title: "Mistakes to Avoid When Hiring Residential Painters in Sydney",
+    date: "March 20, 2026",
+    readTime: "8 minutes read",
+    img: "https://www.prioritycoatings.com.au/wp-content/uploads/2026/03/man-painting-a-wall-with-a-paint-roller.jpg",
+    href: "/mistakes-to-avoid-when-hiring-residential-painters/",
+    categories: ["Residential painting"],
+  },
+  {
+    title: "How to Choose the Right Painter's Tape",
+    date: "March 10, 2026",
+    readTime: "6 minutes read",
+    img: "https://www.prioritycoatings.com.au/wp-content/uploads/2026/03/man-is-sticking-adhesive-tape-into-the-wall-1.jpg",
+    href: "/how-to-choose-the-right-painters-tape/",
+    categories: ["Residential painting"],
+  },
+  {
+    title: "How to Determine if Your House Has Lead Paint",
+    date: "February 18, 2026",
+    readTime: "7 minutes read",
+    img: "https://www.prioritycoatings.com.au/wp-content/uploads/2026/02/a-quiet-street-in-the-australian-country-town-of-pemberton.jpg",
+    href: "/how-to-determine-if-your-house-has-lead-paint/",
+    categories: ["Residential painting"],
+  },
+  {
+    title: "Commercial Painting FAQs By Trusted Sydney Painters",
+    date: "February 9, 2026",
+    readTime: "8 minutes read",
+    img: "https://www.prioritycoatings.com.au/wp-content/uploads/2026/02/commercial-painting-faq-blog-banner.jpg",
+    href: "/commercial-painting-faqs-by-trusted-sydney-painters/",
+    categories: ["Commercial Painting"],
+  },
+  {
+    title: "Dulux Colour Forecast for 2026",
+    date: "January 30, 2026",
+    readTime: "5 minutes read",
+    img: "https://www.prioritycoatings.com.au/wp-content/uploads/2025/11/dulux-colour-forecast-for-2026-blog-banner.jpg",
+    href: "/dulux-colour-forecast-for-2026/",
+    categories: ["News"],
+  },
+  {
+    title: "Limewash, Paint, or Render Your Brick House",
+    date: "January 20, 2026",
+    readTime: "9 minutes read",
+    img: "https://www.prioritycoatings.com.au/wp-content/uploads/2026/01/limewash-paint-or-render-your-brick-house-blog-banner.jpg",
+    href: "/limewash-vs-paint-vs-render-for-brick-homes/",
+    categories: ["Residential painting"],
+  },
+  {
+    title: "Complete Guide to Interior and Exterior Painting",
+    date: "January 10, 2026",
+    readTime: "14 minutes read",
+    img: "https://www.prioritycoatings.com.au/wp-content/uploads/2026/01/residential-houses-at-battery-point-in-hobart-australia.jpg",
+    href: "/complete-guide-to-interior-and-exterior-painting/",
+    categories: ["DIY", "Residential painting"],
+  },
+  {
+    title: "Interior Painting Preparation",
+    date: "December 10, 2025",
+    readTime: "6 minutes read",
+    img: "https://www.prioritycoatings.com.au/wp-content/uploads/2025/12/woman-stands-in-the-middle-of-a-room-with-plastic-covered-furniture-and-a-stepladder.jpg",
+    href: "/interior-painting-preparation/",
+    categories: ["DIY", "Residential painting"],
+  },
+  {
+    title: "Guide to Eggshell Paint Finish",
+    date: "November 10, 2025",
+    readTime: "6 minutes read",
+    img: "https://www.prioritycoatings.com.au/wp-content/uploads/2025/11/top-view-of-tin-with-purple-paint-and-brushes-on-blue-surface.jpg",
+    href: "/guide-to-eggshell-paint-finish/",
+    categories: ["Residential painting"],
+  },
+  {
+    title: "Painting Tips for Coastal Homes",
+    date: "October 30, 2025",
+    readTime: "7 minutes read",
+    img: "https://www.prioritycoatings.com.au/wp-content/uploads/2025/10/residential-houses-bunbury-australia.jpg",
+    href: "/painting-tips-for-coastal-homes/",
+    categories: ["Residential painting"],
+  },
+  {
+    title: "Painting Metal Roof – Tips & Tricks",
+    date: "October 20, 2025",
+    readTime: "7 minutes read",
+    img: "https://www.prioritycoatings.com.au/wp-content/uploads/2025/10/painting-metal-roof-blog-banner.jpg",
+    href: "/metal-roof-painting/",
+    categories: ["DIY", "Residential painting"],
+  },
+  {
+    title: "Paint to Maximise Space in Small Apartments",
+    date: "October 10, 2025",
+    readTime: "7 minutes read",
+    img: "https://www.prioritycoatings.com.au/wp-content/uploads/2025/10/house-bloks-of-flats-in-suburbs.jpg",
+    href: "/paint-to-maximise-space-in-small-apartments/",
+    categories: ["Residential painting"],
+  },
+  {
+    title: "How Professional Painting Can Add Value to Your Property",
+    date: "September 20, 2025",
+    readTime: "4 minutes read",
+    img: "https://www.prioritycoatings.com.au/wp-content/uploads/2025/09/room-painting-job-painting-roller-in-hand-of-worker.jpg",
+    href: "/how-professional-painting-adds-value-to-property/",
+    categories: ["Commercial Painting", "Residential painting"],
+  },
+  {
+    title: "Saving on House Painting Costs",
+    date: "September 10, 2025",
+    readTime: "8 minutes read",
+    img: "https://www.prioritycoatings.com.au/wp-content/uploads/2025/09/saving-on-house-painting-costs-blog-banner.jpg",
+    href: "/saving-on-house-painting-costs/",
+    categories: ["Residential painting"],
+  },
+  {
+    title: "Paint Removal Tips For Restoring The Surfaces",
+    date: "August 28, 2025",
+    readTime: "8 minutes read",
+    img: "https://www.prioritycoatings.com.au/wp-content/uploads/2025/08/spatula-on-a-pink-surface.jpg",
+    href: "/paint-removal-tips-restoring-surfaces/",
+    categories: ["DIY", "Residential painting"],
+  },
+  {
+    title: "Paint Over the Stained Wood",
+    date: "August 21, 2025",
+    readTime: "4 minutes read",
+    img: "https://www.prioritycoatings.com.au/wp-content/uploads/2025/08/hand-painting-blue-color-on-wooden-table.jpg",
+    href: "/paint-over-the-stained-wood/",
+    categories: ["DIY", "Residential painting"],
+  },
+  {
+    title: "How to Colour Match Your Paint",
+    date: "August 14, 2025",
+    readTime: "5 minutes read",
+    img: "https://www.prioritycoatings.com.au/wp-content/uploads/2025/08/woman-with-palette-of-color-swatches-choosing-one-for-walls.jpg",
+    href: "/how-to-colour-match-your-paint/",
+    categories: ["Residential painting"],
+  },
+  {
+    title: "Guide to Reglazing Windows",
+    date: "August 7, 2025",
+    readTime: "7 minutes read",
+    img: "https://www.prioritycoatings.com.au/wp-content/uploads/2025/08/windows-of-house.jpg",
+    href: "/guide-to-reglazing-windows/",
+    categories: ["DIY", "Residential painting"],
+  },
+  {
+    title: "How Different Types of Exterior Siding Are Painted",
+    date: "July 30, 2025",
+    readTime: "8 minutes read",
+    img: "https://www.prioritycoatings.com.au/wp-content/uploads/2025/07/house-vinyl-siding.jpg",
+    href: "/painting-different-exterior-siding/",
+    categories: ["Residential painting"],
+  },
+  {
+    title: "How Do Painting & Waterproofing Work Together",
+    date: "July 20, 2025",
+    readTime: "6 minutes read",
+    img: "https://www.prioritycoatings.com.au/wp-content/uploads/2025/07/worker-applies-bitumen-mastic-on-foundation.jpg",
+    href: "/how-painting-waterproofing-work-together/",
+    categories: ["Commercial Painting", "Residential painting"],
+  },
+];
+
+export const FEATURED_POST = POSTS.find((post) => post.href === "/dulux-colour-forecast-for-2026/")!;
+export const RECENT_POSTS = POSTS.filter((post) => post !== FEATURED_POST).slice(0, 5);
+
+export const POSTS_PER_PAGE = 10;
+
+export function paginate(posts: BlogPost[], page: number) {
+  const totalPages = Math.max(1, Math.ceil(posts.length / POSTS_PER_PAGE));
+  const start = (page - 1) * POSTS_PER_PAGE;
+  return { items: posts.slice(start, start + POSTS_PER_PAGE), totalPages };
+}
