@@ -153,7 +153,7 @@ export default function DiyHousePaintingTipsForYourHomePage() {
                     residential painting as they have little to no volatile organic chemicals (VOC).
                   </p>
 
-                  <figure className="relative my-8 aspect-[3/2] w-full overflow-hidden">
+                  <figure className="relative my-8 aspect-[1080/1527] w-full overflow-hidden">
                     <Image
                       src="/images/house-painting-tips.png"
                       alt="House painting tips"

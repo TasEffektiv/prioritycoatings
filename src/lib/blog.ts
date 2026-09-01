@@ -1263,6 +1263,46 @@ export const POSTS: BlogPost[] = [
     href: "/4-tips-on-choosing-the-right-colour-for-your-home/",
     categories: ["Residential painting"],
   },
+  {
+    title: "5 Ways You Can Save Money When Working With a Painting Contractor (2026 Update)",
+    date: "July 30, 2017",
+    readTime: "5 minutes read",
+    img: "/images/10127208_l.jpg",
+    href: "/save-money-when-working-with-a-painting-contractor/",
+    categories: ["Commercial Painting", "News", "Residential painting"],
+  },
+  {
+    title: "The Future of the Commercial Office Fit Out",
+    date: "May 29, 2017",
+    readTime: "4 minutes read",
+    img: "/images/pexels-photo-265573.jpeg",
+    href: "/the-future-of-the-commercial-fitout/",
+    categories: ["Commercial Painting", "News"],
+  },
+  {
+    title: "What to Think About When Painting Kids' Bedrooms",
+    date: "May 7, 2017",
+    readTime: "4 minutes read",
+    img: "/images/Painting-kids-room.jpg",
+    href: "/what-to-think-about-when-painting-kids-bedrooms/",
+    categories: ["Residential painting", "News"],
+  },
+  {
+    title: "5 Essential Tools You Need To Paint Your House",
+    date: "March 6, 2017",
+    readTime: "3 minutes read",
+    img: "/images/house-painting-tools.jpg",
+    href: "/5-essential-tools-you-need-to-paint-your-house/",
+    categories: ["Commercial Painting", "News", "Residential painting"],
+  },
+  {
+    title: "How Strata Painting Can Help Your Business",
+    date: "February 17, 2017",
+    readTime: "3 minutes read",
+    img: "/images/pexels-photo-271699.jpeg",
+    href: "/how-strata-painting-can-help-your-business-in-2017/",
+    categories: ["Commercial Painting"],
+  },
 ];
 
 export const FEATURED_POST = POSTS.find((post) => post.href === "/dulux-colour-forecast-for-2026/")!;

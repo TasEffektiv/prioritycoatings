@@ -6,12 +6,13 @@ import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 
 export const metadata: Metadata = {
-  title: "How to Paint Your Home – A Homeowner's Guide | Priority One Coatings",
+  title: "How Strata Painting Can Help Your Business | Priority One Coatings",
   description:
-    "A homeowner's guide to painting your home, covering colour selection, lighting and LRV, and what to look for before hiring a residential painting company.",
+    "Maintaining a positive image with your client base starts with your building's appearance. Discover how strata and commercial painting can help your business.",
 };
 
-const POST_URL = "https://www.prioritycoatings.com.au/how-to-paint-your-home-a-homeowners-guide/";
+const POST_URL = "https://www.prioritycoatings.com.au/how-strata-painting-can-help-your-business-in-2017/";
+const POST_TITLE = "How Strata Painting Can Help Your Business";
 
 const CATEGORY_LINKS: Record<string, string> = {
   "Commercial Painting": "/category/commercial-painting/",
@@ -59,7 +60,7 @@ function ShareIcon({ children, href, label }: { children: React.ReactNode; href:
   );
 }
 
-export default function HowToPaintYourHomeAHomeownersGuidePage() {
+export default function HowStrataPaintingCanHelpYourBusinessIn2017Page() {
   return (
     <div id="top">
       <Header />
@@ -76,15 +77,15 @@ export default function HowToPaintYourHomeAHomeownersGuidePage() {
             <div className="flex flex-col gap-[25px] lg:flex-row">
               <article className="lg:w-2/3">
                 <h1 className="font-heading text-[32px] font-bold leading-[1.2] text-brand-navy sm:text-[40px]">
-                  How to Paint Your Home &ndash; A Homeowner&rsquo;s Guide
+                  {POST_TITLE}
                 </h1>
 
-                <p className="mt-4 text-[15px] text-black/60">June 14, 2018</p>
+                <p className="mt-4 text-[15px] text-black/60">February 17, 2017</p>
 
-                <div className="relative mt-6 aspect-[16/9] w-full overflow-hidden">
+                <div className="relative mt-6 aspect-[700/466] w-full overflow-hidden">
                   <Image
-                    src="/images/house-painting-tips-for-homeowners.jpg"
-                    alt="House painting tips for homeowners"
+                    src="/images/pexels-photo-271699.jpeg"
+                    alt="commercial building"
                     fill
                     priority
                     className="object-cover"
@@ -93,159 +94,101 @@ export default function HowToPaintYourHomeAHomeownersGuidePage() {
 
                 <div className="prose-blog mt-8 max-w-none text-[16px] leading-[1.8] text-black/80">
                   <p>
-                    One of the most important factors contributing to a property&rsquo;s value, as well as buyer
-                    attraction, is a house&rsquo;s colour of exterior and interior. A unique and elegant colour helps
-                    your property to stand out from the rest.
+                    When it comes to your business, maintaining a positive image with your client base is extremely
+                    important. There are obviously various aspects of this to consider, however for many kinds of
+                    businesses, the physical appearance of the premises and the interior certainly comes into the
+                    equation. This is the reason successful businesses invest greatly in furnishings, interior
+                    decorators, commercial painters and even gardeners.
+                  </p>
+
+                  <h3>Why is strata painting important when it comes to attracting business?</h3>
+
+                  <p>
+                    Strata and commercial painters are in the business of helping you keep the exterior of your
+                    building in tip-top shape and looking its best for your customers. Typically, the kinds of
+                    companies that search for these kinds of painting services include office and commercial
+                    buildings, government and education facilities and retail shopping centres. It&rsquo;s quite
+                    plain to see why these kinds of buildings would need to be maintained and repainted regularly
+                    &ndash; as the number of people they attract has a strong impact on how pleasant these places
+                    are to be in. You&rsquo;re less likely to want to live, shop or send your children to school in
+                    a drab, ugly and uncared for building.
                   </p>
 
                   <p>
-                    Recently, real estate agencies have been focusing more on the painting and decoration of
-                    property; not only because of the aesthetics but because it can add significantly to your
-                    property value. Each house is unique in its decoration and style. So before you begin painting
-                    the{" "}
-                    <Link href="/complete-guide-to-interior-and-exterior-painting/">
-                      interior or exterior of your residence
-                    </Link>
-                    , several points should be considered.
+                    Small business owners also benefit greatly from regular upkeep of the building they operate in.
+                    Depending on the kind of business, the condition of the premises has an effect on the business
+                    image in general.
                   </p>
 
-                  <ol>
-                    <li>
-                      First, decide your mood. Everyone&rsquo;s taste is unique and it&rsquo;s ok to have differences
-                      here. After deciding whether you want cool, warm, bright, cheery, subdued or any other
-                      reflective theme, choose your paint accordingly. The place you want to paint is also an
-                      important factor. Your painting theme should match the interior design and furniture already
-                      there.
-                    </li>
-                    <li>
-                      Lighting plays a vital role in how your interior looks, and{" "}
-                      <a
-                        href="https://www.prioritycoatings.com.au/light-reflectance-value-and-what-it-means-for-your-colour-choices/"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                      >
-                        <strong>understanding the lighting and LRV</strong>
-                      </a>{" "}
-                      of your room is a must for choosing the right colour. For the exterior too, you have to choose
-                      carefully. Take the colour palette of your surroundings into consideration, as you certainly
-                      don&rsquo;t want your property to be the bizarre one in your neighbourhood. Effective use of
-                      colour on the exterior of your home can have a tremendous effect.
-                    </li>
-                    <li>
-                      If you are confused or finding the process difficult, then you can always seek professional
-                      help regarding{" "}
-                      <a
-                        href="https://www.prioritycoatings.com.au/how-paint-colours-can-affect-the-level-of-light-in-your-home/"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                      >
-                        <strong>colour selection</strong>
-                      </a>
-                      . Most reputed residential painting service companies in Australia work closely with a colour
-                      consultant who can help you choose the right colour for your home.
-                    </li>
-                  </ol>
+                  <h3>So what exactly does strata painting involve?</h3>
 
-                  <p>
-                    When it comes to hiring someone for the paint job, be sure you{" "}
-                    <Link href="/residential-painters/">
-                      <strong>hire a professional house painter</strong>
-                    </Link>
-                    . Nowadays, it&rsquo;s quite difficult to find the right painting company, one who will meet all
-                    of your criteria. There are several measures you should take into consideration before hiring
-                    any interior and exterior house painter. If you are still weighing up whether to tackle the job
-                    yourself, our guide to{" "}
-                    <Link href="/diy-painting-vs-hiring-professional-painter/">
-                      DIY painting versus hiring a professional painter
-                    </Link>{" "}
-                    can help you decide which approach suits your project.
-                  </p>
-
-                  <figure className="relative my-8 aspect-[3/2] w-full overflow-hidden">
-                    <Image
-                      src="/images/house-painting-guide.jpg"
-                      alt="Small grey house with wooden deck, front yard with flower bed and lawn"
-                      fill
-                      className="object-cover"
-                    />
-                  </figure>
-
-                  <p>
-                    Professionalism should always be preferred over cost-effectiveness. Some companies may offer you
-                    an unbelievable price but, please keep in mind, better results come with better investment.
-                    Chances are, cheaper companies will hire unprofessional or undertrained employees. Their
-                    standard of work could be disastrous for the appearance of your house.
-                  </p>
-
-                  <h3>Also, consider these before hiring residential painters:</h3>
-
-                  <figure className="relative my-8 aspect-[800/1705] w-full overflow-hidden">
-                    <Image
-                      src="/images/Before-Hiring-Residential-Painters-1.png"
-                      alt="Before hiring residential painters checklist"
-                      fill
-                      className="object-cover"
-                    />
-                  </figure>
+                  <p>In layman&rsquo;s terms, strata work is all about painting upkeep on a large scale commercial building. This can include:</p>
 
                   <ul>
-                    <li>
-                      Hiring an experienced house painter with a diverse portfolio is always a good idea. A
-                      professional painting company always provides well-trained and highly experienced staff. They
-                      have a reputation to keep.
-                    </li>
-                    <li>
-                      You need to choose a painting service who is flexible and available at a convenient time for
-                      you. It is better to select house painters with weekend and night-time availability.
-                    </li>
-                    <li>
-                      Accreditation represents professionalism or quality of service, so it&rsquo;s good to hire
-                      painting contractors who are accredited by reputed bodies like Dulux or MTA.
-                    </li>
-                    <li>
-                      Another important factor is whether the painting contractor carries insurance; like public
-                      liability insurance, home warranty insurance, worker&rsquo;s compensation insurance etc. Also,
-                      the house painters must comply with the{" "}
-                      <a
-                        href="https://www.safeworkaustralia.gov.au/law-and-regulation/model-whs-laws"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                      >
-                        <strong>Work Health and Safety Compliant</strong>
-                      </a>
-                      .
-                    </li>
-                    <li>
-                      Always provide or specify that the painting contractor uses quality paint of a reputed brand,
-                      as well as quality tools.
-                    </li>
-                    <li>
-                      It is more beneficial to hire a painting and decorating service that works closely with a
-                      colour expert. Most reputed companies have one.
-                    </li>
-                    <li>Always hire professionals who meet, or indeed exceed, painting industry standards.</li>
+                    <li>Graffiti and stain removal/prevention</li>
+                    <li>High-pressure washing to remove harmful materials</li>
+                    <li>Concrete and render repairs</li>
+                    <li>All coating and waterproof membrane application</li>
+                    <li>Programmed maintenance and touch-ups</li>
+                    <li>Lead and asbestos paint management and removal</li>
+                    <li>Interior areas</li>
                   </ul>
 
+                  <figure className="relative my-8 aspect-[700/466] w-full overflow-hidden">
+                    <Image src="/images/pexels-photo-38981.jpeg" alt="graffiti" fill className="object-cover" />
+                  </figure>
+
+                  <h3>Longer lasting paintwork</h3>
+
                   <p>
-                    Painting your property is not an easy task; you need to plan beforehand and consider several
-                    factors like colour selection, hiring the right professional for the job and cost-effectiveness.
-                    The interior or exterior colour of a property represents your unique choices and sense of
-                    creativity. So, decide carefully!
+                    As you can see, strata and commercial painting are about more than just maintaining surface
+                    appearances and provides long term value by saving you money and keeping your paintwork fresh
+                    and healthy for longer. Materials including mould, dust, dirt and grime build up over time and
+                    can damage the paint film. You might&rsquo;ve guessed that this can mean a complete repaint is
+                    required sooner. As well as touching up, strata painters and maintenance professionals keep the
+                    surface as healthy as possible and apply new coatings as required to ensure this doesn&rsquo;t
+                    happen.
                   </p>
 
-                  <div className="mt-10 rounded-md border-l-4 border-brand-teal bg-[#f3fafb] px-7 py-6">
-                    <h3 className="mt-0">Ready to Paint Your Home? Talk to Priority One Coatings</h3>
-                    <p>
-                      If you are planning an interior or exterior repaint, our team can help with colour selection
-                      and a clear, honest quote from a Dulux Accredited residential painting company.
-                    </p>
-                    <p className="mb-0">
-                      Call Priority One Coatings on <a href="tel:+61298085900">02 9808 5900</a>, email{" "}
-                      <a href="mailto:jenny@prioritycoatings.com.au">jenny@prioritycoatings.com.au</a>, or{" "}
-                      <Link href="/contact-us/">request a free quote online</Link> and find out more about our full
-                      range of Sydney painting services.
-                    </p>
-                  </div>
+                  <figure className="relative my-8 aspect-[700/466] w-full overflow-hidden">
+                    <Image
+                      src="/images/strata-painters-scaffolding.jpg"
+                      alt="strata painters"
+                      fill
+                      className="object-cover"
+                    />
+                  </figure>
+
+                  <h3>All-access areas</h3>
+
+                  <p>
+                    One of the aspects of{" "}
+                    <strong>
+                      <Link href="/strata-painters-sydney/">strata painting</Link>
+                    </strong>{" "}
+                    that is worth mentioning is that these painters are not limited in terms of where they can
+                    operate. Most will work on high scale buildings and have all the necessary equipment including
+                    scaffolding and work platforms to get the job done at great heights.
+                  </p>
+
+                  <h3>Lead/Asbestos Management</h3>
+
+                  <p>
+                    Another invaluable benefit is that strata painters are knowledgeable in the areas of lead-based
+                    paints and asbestos. Particularly in the case of older buildings, these materials can be
+                    extremely harmful if not managed properly. Strata companies can help you manage this and find a
+                    solution.
+                  </p>
+
+                  <p>
+                    So if your commercial building is looking worse for wear and is negatively impacting on your
+                    business, give <strong>Priority One Coatings</strong> in Sydney a{" "}
+                    <strong>call (02 9808 5900)</strong> today and{" "}
+                    <strong>
+                      <Link href="/contact-us/">discuss your options</Link>
+                    </strong>
+                    !
+                  </p>
                 </div>
 
                 <div className="mt-10 flex items-center gap-3 border-t border-black/10 pt-8">
@@ -259,7 +202,7 @@ export default function HowToPaintYourHomeAHomeownersGuidePage() {
                     </svg>
                   </ShareIcon>
                   <ShareIcon
-                    href={`https://twitter.com/intent/tweet?url=${encodeURIComponent(POST_URL)}&text=${encodeURIComponent("How to Paint Your Home – A Homeowner's Guide")}`}
+                    href={`https://twitter.com/intent/tweet?url=${encodeURIComponent(POST_URL)}&text=${encodeURIComponent(POST_TITLE)}`}
                     label="Share on X"
                   >
                     <svg width="15" height="15" viewBox="0 0 24 24" fill="currentColor">
@@ -275,7 +218,7 @@ export default function HowToPaintYourHomeAHomeownersGuidePage() {
                     </svg>
                   </ShareIcon>
                   <ShareIcon
-                    href={`mailto:?subject=${encodeURIComponent("How to Paint Your Home – A Homeowner's Guide")}&body=${encodeURIComponent(`Check out this article: ${POST_URL}`)}`}
+                    href={`mailto:?subject=${encodeURIComponent(POST_TITLE)}&body=${encodeURIComponent(`Check out this article: ${POST_URL}`)}`}
                     label="Share via Email"
                   >
                     <Mail size={15} />

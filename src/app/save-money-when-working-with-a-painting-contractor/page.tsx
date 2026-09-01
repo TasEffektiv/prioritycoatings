@@ -111,7 +111,7 @@ export default function SaveMoneyWhenWorkingWithAPaintingContractorPage() {
 
                   <p>And if you are conscious of your budget, there are certain things you can try to help you save on the bottom line.</p>
 
-                  <h2>Preparation</h2>
+                  <h3>Preparation</h3>
 
                   <p>
                     A big part of the painting is{" "}
@@ -136,7 +136,7 @@ export default function SaveMoneyWhenWorkingWithAPaintingContractorPage() {
                     painter may not need to spend as much time prepping, thereby cutting their costs.
                   </p>
 
-                  <h2>Don&rsquo;t wait that long to repaint your space</h2>
+                  <h3>Don&rsquo;t wait that long to repaint your space</h3>
 
                   <p>
                     Refreshing and updating your homes and businesses is necessary. Being exposed to the extreme
@@ -161,7 +161,7 @@ export default function SaveMoneyWhenWorkingWithAPaintingContractorPage() {
                     </Link>
                   </p>
 
-                  <h2>Providing paint and/or equipment</h2>
+                  <h3>Providing paint and/or equipment</h3>
 
                   <figure className="relative my-8 aspect-[3/2] w-full overflow-hidden">
                     <Image
@@ -188,7 +188,7 @@ export default function SaveMoneyWhenWorkingWithAPaintingContractorPage() {
                     being honest and talking it through with your provider.
                   </p>
 
-                  <h2>Communicate and seek recommendation</h2>
+                  <h3>Communicate and seek recommendation</h3>
 
                   <p>
                     Always find out recommended painters from your local area when preparing to renovate your home or
@@ -210,7 +210,7 @@ export default function SaveMoneyWhenWorkingWithAPaintingContractorPage() {
                     not have listed online.
                   </p>
 
-                  <h2>Choose carefully</h2>
+                  <h3>Choose carefully</h3>
 
                   <p>
                     Particularly when it comes to commercial and strata painting projects, the best advice anyone can

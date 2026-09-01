@@ -103,7 +103,7 @@ export default function TheFutureOfTheCommercialFitoutPage() {
 
                   <p>In this article, we&rsquo;re having a look at some commercial fit out trends that are becoming popular in 2017 and beyond.</p>
 
-                  <h2>Use of Glass and Windows</h2>
+                  <h3>Use of Glass and Windows</h3>
 
                   <figure className="relative my-8 aspect-[3/2] w-full overflow-hidden">
                     <Image
@@ -124,7 +124,7 @@ export default function TheFutureOfTheCommercialFitoutPage() {
                     a collaborative atmosphere and connects workers.
                   </p>
 
-                  <h2>Energy Efficiency</h2>
+                  <h3>Energy Efficiency</h3>
 
                   <figure className="relative my-8 aspect-[3/2] w-full overflow-hidden">
                     <Image
@@ -148,7 +148,7 @@ export default function TheFutureOfTheCommercialFitoutPage() {
                     offices are more common.
                   </p>
 
-                  <h2>Prioritising Comfort</h2>
+                  <h3>Prioritising Comfort</h3>
 
                   <figure className="relative my-8 aspect-[3/2] w-full overflow-hidden">
                     <Image
@@ -167,7 +167,7 @@ export default function TheFutureOfTheCommercialFitoutPage() {
                     the back or neck, for example.
                   </p>
 
-                  <h2>Smaller Workspaces</h2>
+                  <h3>Smaller Workspaces</h3>
 
                   <figure className="relative my-8 aspect-[3/2] w-full overflow-hidden">
                     <Image

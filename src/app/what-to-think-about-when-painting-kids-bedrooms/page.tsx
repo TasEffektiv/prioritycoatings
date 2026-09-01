@@ -107,7 +107,7 @@ export default function WhatToThinkAboutWhenPaintingKidsBedroomsPage() {
                     bedroom and make it a great space for them!
                   </p>
 
-                  <h2>Think about the theme of the room</h2>
+                  <h3>Think about the theme of the room</h3>
 
                   <p>
                     It&rsquo;s obviously important to encourage the imaginations of youngsters as it helps their
@@ -140,7 +140,7 @@ export default function WhatToThinkAboutWhenPaintingKidsBedroomsPage() {
                     the most important thing!
                   </p>
 
-                  <h2>Bright colours are key</h2>
+                  <h3>Bright colours are key</h3>
 
                   <p>
                     It shouldn&rsquo;t come at any surprise that bright colours appeal to kids, and studies show that
@@ -166,7 +166,7 @@ export default function WhatToThinkAboutWhenPaintingKidsBedroomsPage() {
                     feelings.
                   </p>
 
-                  <h2>Use non-toxic paints</h2>
+                  <h3>Use non-toxic paints</h3>
 
                   <p>
                     We generally recommend following this tip for painting any of the rooms in your home, but it is
@@ -188,7 +188,7 @@ export default function WhatToThinkAboutWhenPaintingKidsBedroomsPage() {
 
                   <p>Nowadays organic paints provide similar quality to conventional alternatives, so it&rsquo;s forth forking out a little extra.</p>
 
-                  <h2>Use the toughest paints</h2>
+                  <h3>Use the toughest paints</h3>
 
                   <p>
                     Durability is hugely important in a child&rsquo;s room, for all manner of reasons. Depending on

@@ -6,12 +6,13 @@ import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 
 export const metadata: Metadata = {
-  title: "How to Paint Your Home – A Homeowner's Guide | Priority One Coatings",
+  title: "5 Essential Tools You Need To Paint Your House | Priority One Coatings",
   description:
-    "A homeowner's guide to painting your home, covering colour selection, lighting and LRV, and what to look for before hiring a residential painting company.",
+    "Thinking about DIY house painting? Here's a checklist of the essential tools and equipment you need to get the job done with the best possible finish.",
 };
 
-const POST_URL = "https://www.prioritycoatings.com.au/how-to-paint-your-home-a-homeowners-guide/";
+const POST_URL = "https://www.prioritycoatings.com.au/5-essential-tools-you-need-to-paint-your-house/";
+const POST_TITLE = "5 Essential Tools You Need To Paint Your House";
 
 const CATEGORY_LINKS: Record<string, string> = {
   "Commercial Painting": "/category/commercial-painting/",
@@ -59,7 +60,7 @@ function ShareIcon({ children, href, label }: { children: React.ReactNode; href:
   );
 }
 
-export default function HowToPaintYourHomeAHomeownersGuidePage() {
+export default function FiveEssentialToolsYouNeedToPaintYourHousePage() {
   return (
     <div id="top">
       <Header />
@@ -76,15 +77,15 @@ export default function HowToPaintYourHomeAHomeownersGuidePage() {
             <div className="flex flex-col gap-[25px] lg:flex-row">
               <article className="lg:w-2/3">
                 <h1 className="font-heading text-[32px] font-bold leading-[1.2] text-brand-navy sm:text-[40px]">
-                  How to Paint Your Home &ndash; A Homeowner&rsquo;s Guide
+                  {POST_TITLE}
                 </h1>
 
-                <p className="mt-4 text-[15px] text-black/60">June 14, 2018</p>
+                <p className="mt-4 text-[15px] text-black/60">March 6, 2017</p>
 
-                <div className="relative mt-6 aspect-[16/9] w-full overflow-hidden">
+                <div className="relative mt-6 aspect-[800/618] w-full overflow-hidden">
                   <Image
-                    src="/images/house-painting-tips-for-homeowners.jpg"
-                    alt="House painting tips for homeowners"
+                    src="/images/house-painting-tools.jpg"
+                    alt="house painting tools"
                     fill
                     priority
                     className="object-cover"
@@ -93,159 +94,106 @@ export default function HowToPaintYourHomeAHomeownersGuidePage() {
 
                 <div className="prose-blog mt-8 max-w-none text-[16px] leading-[1.8] text-black/80">
                   <p>
-                    One of the most important factors contributing to a property&rsquo;s value, as well as buyer
-                    attraction, is a house&rsquo;s colour of exterior and interior. A unique and elegant colour helps
-                    your property to stand out from the rest.
+                    When it comes to house painting in Sydney or anywhere, you&rsquo;re only as good as the
+                    equipment you&rsquo;re using, particularly if you have limited experience. So if you&rsquo;re
+                    thinking about doing some DIY painting anytime soon your first consideration should be to make
+                    sure you&rsquo;ve got all the gear! This article provides you with a{" "}
+                    <a
+                      href="http://www.realsimple.com/home-organizing/home-improvement/painting/painting-supplies-checklist"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      <strong>checklist</strong>
+                    </a>{" "}
+                    of the tools and equipment you&rsquo;re going to need to get the job done with the best finish
+                    possible.
                   </p>
+
+                  <h3>Old Clothes</h3>
 
                   <p>
-                    Recently, real estate agencies have been focusing more on the painting and decoration of
-                    property; not only because of the aesthetics but because it can add significantly to your
-                    property value. Each house is unique in its decoration and style. So before you begin painting
-                    the{" "}
-                    <Link href="/complete-guide-to-interior-and-exterior-painting/">
-                      interior or exterior of your residence
-                    </Link>
-                    , several points should be considered.
+                    It&rsquo;s pretty obvious that you&rsquo;ll want to be wearing old clothes when painting, but
+                    the important thing is to remember that you need to cover up as much of your skin as you can.
+                    The last thing you want is painted skin! Make sure what you&rsquo;re wearing is comfortable and
+                    allows you to move around freely. Also, keep in mind that a hat and safety goggles may be
+                    appropriate.
                   </p>
 
-                  <ol>
-                    <li>
-                      First, decide your mood. Everyone&rsquo;s taste is unique and it&rsquo;s ok to have differences
-                      here. After deciding whether you want cool, warm, bright, cheery, subdued or any other
-                      reflective theme, choose your paint accordingly. The place you want to paint is also an
-                      important factor. Your painting theme should match the interior design and furniture already
-                      there.
-                    </li>
-                    <li>
-                      Lighting plays a vital role in how your interior looks, and{" "}
-                      <a
-                        href="https://www.prioritycoatings.com.au/light-reflectance-value-and-what-it-means-for-your-colour-choices/"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                      >
-                        <strong>understanding the lighting and LRV</strong>
-                      </a>{" "}
-                      of your room is a must for choosing the right colour. For the exterior too, you have to choose
-                      carefully. Take the colour palette of your surroundings into consideration, as you certainly
-                      don&rsquo;t want your property to be the bizarre one in your neighbourhood. Effective use of
-                      colour on the exterior of your home can have a tremendous effect.
-                    </li>
-                    <li>
-                      If you are confused or finding the process difficult, then you can always seek professional
-                      help regarding{" "}
-                      <a
-                        href="https://www.prioritycoatings.com.au/how-paint-colours-can-affect-the-level-of-light-in-your-home/"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                      >
-                        <strong>colour selection</strong>
-                      </a>
-                      . Most reputed residential painting service companies in Australia work closely with a colour
-                      consultant who can help you choose the right colour for your home.
-                    </li>
-                  </ol>
+                  <h3>Masking Tape</h3>
+
+                  <figure className="relative my-8 aspect-[700/467] w-full overflow-hidden">
+                    <Image src="/images/18872328_l.jpg" alt="masking tape" fill className="object-cover" />
+                  </figure>
 
                   <p>
-                    When it comes to hiring someone for the paint job, be sure you{" "}
-                    <Link href="/residential-painters/">
-                      <strong>hire a professional house painter</strong>
-                    </Link>
-                    . Nowadays, it&rsquo;s quite difficult to find the right painting company, one who will meet all
-                    of your criteria. There are several measures you should take into consideration before hiring
-                    any interior and exterior house painter. If you are still weighing up whether to tackle the job
-                    yourself, our guide to{" "}
-                    <Link href="/diy-painting-vs-hiring-professional-painter/">
-                      DIY painting versus hiring a professional painter
-                    </Link>{" "}
-                    can help you decide which approach suits your project.
+                    This is very important as it is used to tape trims and ceilings, meaning you don&rsquo;t paint a
+                    surface that you aren&rsquo;t wanting to paint. It is also handy to have if you&rsquo;re painting
+                    around electrical fixtures, windows and in some cases even doors. Here are some{" "}
+                    <a
+                      href="https://www.familyhandyman.com/painting/tips/using-masking-tape-when-painting#1"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      <strong>simple tips for how to use it properly</strong>
+                    </a>
+                    .
                   </p>
 
-                  <figure className="relative my-8 aspect-[3/2] w-full overflow-hidden">
+                  <h3>Ladder</h3>
+
+                  <figure className="relative my-8 aspect-[700/500] w-full overflow-hidden">
                     <Image
-                      src="/images/house-painting-guide.jpg"
-                      alt="Small grey house with wooden deck, front yard with flower bed and lawn"
+                      src="/images/39298146_l.jpg"
+                      alt="ladder for house painting"
                       fill
                       className="object-cover"
                     />
                   </figure>
 
                   <p>
-                    Professionalism should always be preferred over cost-effectiveness. Some companies may offer you
-                    an unbelievable price but, please keep in mind, better results come with better investment.
-                    Chances are, cheaper companies will hire unprofessional or undertrained employees. Their
-                    standard of work could be disastrous for the appearance of your house.
+                    If you&rsquo;re painting outdoors, a ladder is obviously necessary to reach the higher parts of
+                    your exterior. But even for indoor projects, you will find that it&rsquo;s really handy and
+                    makes your job much easier.
                   </p>
 
-                  <h3>Also, consider these before hiring residential painters:</h3>
+                  <h3>Drop Cloths</h3>
 
-                  <figure className="relative my-8 aspect-[800/1705] w-full overflow-hidden">
-                    <Image
-                      src="/images/Before-Hiring-Residential-Painters-1.png"
-                      alt="Before hiring residential painters checklist"
-                      fill
-                      className="object-cover"
-                    />
+                  <figure className="relative my-8 aspect-[700/466] w-full overflow-hidden">
+                    <Image src="/images/drop-cloths.jpg" alt="drop cloths" fill className="object-cover" />
                   </figure>
 
-                  <ul>
-                    <li>
-                      Hiring an experienced house painter with a diverse portfolio is always a good idea. A
-                      professional painting company always provides well-trained and highly experienced staff. They
-                      have a reputation to keep.
-                    </li>
-                    <li>
-                      You need to choose a painting service who is flexible and available at a convenient time for
-                      you. It is better to select house painters with weekend and night-time availability.
-                    </li>
-                    <li>
-                      Accreditation represents professionalism or quality of service, so it&rsquo;s good to hire
-                      painting contractors who are accredited by reputed bodies like Dulux or MTA.
-                    </li>
-                    <li>
-                      Another important factor is whether the painting contractor carries insurance; like public
-                      liability insurance, home warranty insurance, worker&rsquo;s compensation insurance etc. Also,
-                      the house painters must comply with the{" "}
-                      <a
-                        href="https://www.safeworkaustralia.gov.au/law-and-regulation/model-whs-laws"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                      >
-                        <strong>Work Health and Safety Compliant</strong>
-                      </a>
-                      .
-                    </li>
-                    <li>
-                      Always provide or specify that the painting contractor uses quality paint of a reputed brand,
-                      as well as quality tools.
-                    </li>
-                    <li>
-                      It is more beneficial to hire a painting and decorating service that works closely with a
-                      colour expert. Most reputed companies have one.
-                    </li>
-                    <li>Always hire professionals who meet, or indeed exceed, painting industry standards.</li>
-                  </ul>
-
                   <p>
-                    Painting your property is not an easy task; you need to plan beforehand and consider several
-                    factors like colour selection, hiring the right professional for the job and cost-effectiveness.
-                    The interior or exterior colour of a property represents your unique choices and sense of
-                    creativity. So, decide carefully!
+                    Drop cloths are used to cover the floor and furniture from any paint that spills while
+                    you&rsquo;re painting, and believe us when we say there&rsquo;ll be quite a bit. You can buy
+                    cheap, disposable plastic drop cloths but we&rsquo;d highly recommend investing in canvas sheets,
+                    which will last you a lot longer and don&rsquo;t present the same potential safety issues (as
+                    they don&rsquo;t absorb the paint) and they&rsquo;re a bit more user-friendly because you can
+                    bend them around doorways, etc.
                   </p>
 
-                  <div className="mt-10 rounded-md border-l-4 border-brand-teal bg-[#f3fafb] px-7 py-6">
-                    <h3 className="mt-0">Ready to Paint Your Home? Talk to Priority One Coatings</h3>
-                    <p>
-                      If you are planning an interior or exterior repaint, our team can help with colour selection
-                      and a clear, honest quote from a Dulux Accredited residential painting company.
-                    </p>
-                    <p className="mb-0">
-                      Call Priority One Coatings on <a href="tel:+61298085900">02 9808 5900</a>, email{" "}
-                      <a href="mailto:jenny@prioritycoatings.com.au">jenny@prioritycoatings.com.au</a>, or{" "}
-                      <Link href="/contact-us/">request a free quote online</Link> and find out more about our full
-                      range of Sydney painting services.
-                    </p>
-                  </div>
+                  <h3>Paint Brushes/Roller</h3>
+
+                  <figure className="relative my-8 aspect-[700/464] w-full overflow-hidden">
+                    <Image src="/images/coatings.jpg" alt="paint roller" fill className="object-cover" />
+                  </figure>
+
+                  <p>
+                    Probably the most obvious point on this list, you&rsquo;ll need a couple of different sized
+                    paintbrushes in order to get a good finish. Smaller brushes are necessary for touch-ups and can
+                    be useful for those corners. A paint roller isn&rsquo;t an absolute necessity, but for big jobs
+                    it can save you a lot of time, allowing you to paint much faster.
+                  </p>
+
+                  <p>
+                    There are a few simple tips that, once learned, can help you extend the lifetime of your
+                    paintwork. If you don&rsquo;t have any of the gear, you can see how it often makes sense to call
+                    up a professional and have them complete the job for you. Once you factor in the time and money
+                    spent on supplies, as well as the actual labour required on your part, often having{" "}
+                    <strong>
+                      <Link href="/residential-painters/">professional house painters</Link>
+                    </strong>{" "}
+                    handle it can be the smart choice.
+                  </p>
                 </div>
 
                 <div className="mt-10 flex items-center gap-3 border-t border-black/10 pt-8">
@@ -259,7 +207,7 @@ export default function HowToPaintYourHomeAHomeownersGuidePage() {
                     </svg>
                   </ShareIcon>
                   <ShareIcon
-                    href={`https://twitter.com/intent/tweet?url=${encodeURIComponent(POST_URL)}&text=${encodeURIComponent("How to Paint Your Home – A Homeowner's Guide")}`}
+                    href={`https://twitter.com/intent/tweet?url=${encodeURIComponent(POST_URL)}&text=${encodeURIComponent(POST_TITLE)}`}
                     label="Share on X"
                   >
                     <svg width="15" height="15" viewBox="0 0 24 24" fill="currentColor">
@@ -275,7 +223,7 @@ export default function HowToPaintYourHomeAHomeownersGuidePage() {
                     </svg>
                   </ShareIcon>
                   <ShareIcon
-                    href={`mailto:?subject=${encodeURIComponent("How to Paint Your Home – A Homeowner's Guide")}&body=${encodeURIComponent(`Check out this article: ${POST_URL}`)}`}
+                    href={`mailto:?subject=${encodeURIComponent(POST_TITLE)}&body=${encodeURIComponent(`Check out this article: ${POST_URL}`)}`}
                     label="Share via Email"
                   >
                     <Mail size={15} />
