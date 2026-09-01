@@ -50,7 +50,7 @@ export default function Hero() {
           </div>
         </div>
 
-        <QuoteForm />
+        <QuoteForm netlifyFormName="HomePage Contact Form" netlifyActionPath="/forms/home-quote.html" />
       </div>
     </section>
   );
