@@ -1223,6 +1223,46 @@ export const POSTS: BlogPost[] = [
     href: "/tips-on-choosing-a-licensed-house-painter-within-sydney/",
     categories: ["Residential painting"],
   },
+  {
+    title: "How Paint Colours Can Impacts the Lights of Your Interiors",
+    date: "December 31, 2020",
+    readTime: "8 minutes read",
+    img: "/images/How-Lighting-Impacts-Paint-Colours.png",
+    href: "/how-paint-colours-can-affect-the-level-of-light-in-your-home/",
+    categories: ["Residential painting"],
+  },
+  {
+    title: "7 Common Causes of Peeling Paint on Walls",
+    date: "May 19, 2019",
+    readTime: "6 minutes read",
+    img: "/images/Common-Causes-of-Peeling-Paint-on-Walls-prioritycoatings.com_.au_.png",
+    href: "/common-causes-peeling-paint-walls/",
+    categories: ["DIY", "Residential painting"],
+  },
+  {
+    title: "DIY House Painting Tips to Keep Your Home Colourful!",
+    date: "November 22, 2018",
+    readTime: "5 minutes read",
+    img: "/images/diy-house-painting-tips-for-your-home-scaled.jpg",
+    href: "/diy-house-painting-tips-for-your-home/",
+    categories: ["DIY", "Residential painting"],
+  },
+  {
+    title: "How to Paint Your Home – A Homeowner's Guide",
+    date: "June 14, 2018",
+    readTime: "6 minutes read",
+    img: "/images/house-painting-tips-for-homeowners.jpg",
+    href: "/how-to-paint-your-home-a-homeowners-guide/",
+    categories: ["DIY", "Residential painting"],
+  },
+  {
+    title: "4 Tips On Choosing the Right Colour for Your Home",
+    date: "November 5, 2017",
+    readTime: "4 minutes read",
+    img: "/images/Painting-kids-room.jpg",
+    href: "/4-tips-on-choosing-the-right-colour-for-your-home/",
+    categories: ["Residential painting"],
+  },
 ];
 
 export const FEATURED_POST = POSTS.find((post) => post.href === "/dulux-colour-forecast-for-2026/")!;
