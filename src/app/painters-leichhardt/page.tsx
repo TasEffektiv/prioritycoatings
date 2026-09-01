@@ -102,6 +102,8 @@ export default function PaintersLeichhardtPage() {
                   compact
                   widthClassName="lg:max-w-[630px]"
                   nameFieldWidthClassName="w-full lg:w-[500px]"
+                  netlifyFormName="Service Area Leichhardt Page Form"
+                  netlifyActionPath="/forms/painters-leichhardt-quote.html"
                 />
               </div>
             </div>

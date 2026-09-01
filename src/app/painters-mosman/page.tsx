@@ -114,6 +114,8 @@ export default function PaintersMosmanPage() {
                   compact
                   widthClassName="lg:max-w-[630px]"
                   nameFieldWidthClassName="w-full lg:w-[500px]"
+                  netlifyFormName="Service Area Mosman Page Form"
+                  netlifyActionPath="/forms/painters-mosman-quote.html"
                 />
               </div>
             </div>

@@ -88,6 +88,8 @@ export default function PaintersAlexandriaPage() {
                   compact
                   widthClassName="lg:max-w-[630px]"
                   nameFieldWidthClassName="w-full lg:w-[500px]"
+                  netlifyFormName="Service Area Alexandria Page Form"
+                  netlifyActionPath="/forms/painters-alexandria-quote.html"
                 />
               </div>
             </div>

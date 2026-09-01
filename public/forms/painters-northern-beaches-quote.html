@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Request A Quote — Painters Northern Beaches — Priority One Coatings</title>
+    <meta name="robots" content="noindex" />
+  </head>
+  <body>
+    <!--
+      Static, non-JS shadow copy of the "Service Area Northern Beaches Page Form"
+      quote form rendered by src/components/QuoteForm.tsx (used on
+      src/app/painters-northern-beaches/page.tsx).
+
+      This file exists purely so Netlify's build-time form scanner can see
+      and register the form: the real form is a client component rendered
+      by an SSR route ("/painters-northern-beaches"), which Netlify's forms proxy
+      cannot intercept. The React form's AJAX submission POSTs to this same
+      file's path (/forms/painters-northern-beaches-quote.html) so submissions land
+      against the form registered here. Keep the name and every field's
+      "name" attribute in sync with QuoteForm.tsx if that component changes.
+    -->
+    <form name="Service Area Northern Beaches Page Form" method="POST" data-netlify="true" netlify="true" data-netlify-honeypot="bot-field">
+      <input type="hidden" name="form-name" value="Service Area Northern Beaches Page Form" />
+      <p style="position: absolute; left: -9999px; top: -9999px;">
+        <label>Leave this field blank<input type="text" name="bot-field" /></label>
+      </p>
+      <input type="text" name="your-name" placeholder="Name*" required />
+      <input type="email" name="your-email" placeholder="Email Address*" required />
+      <input type="tel" name="tel-phone" placeholder="Phone Number" />
+      <textarea name="your-message" placeholder="Message"></textarea>
+      <button type="submit">Submit</button>
+    </form>
+  </body>
+</html>

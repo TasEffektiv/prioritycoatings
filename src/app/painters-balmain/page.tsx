@@ -99,6 +99,8 @@ export default function PaintersBalmainPage() {
                   compact
                   widthClassName="lg:max-w-[630px]"
                   nameFieldWidthClassName="w-full lg:w-[500px]"
+                  netlifyFormName="Service Area Balmain Page Form"
+                  netlifyActionPath="/forms/painters-balmain-quote.html"
                 />
               </div>
             </div>

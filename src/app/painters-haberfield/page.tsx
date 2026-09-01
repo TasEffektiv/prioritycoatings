@@ -120,6 +120,8 @@ export default function PaintersHaberfieldPage() {
                   compact
                   widthClassName="lg:max-w-[630px]"
                   nameFieldWidthClassName="w-full lg:w-[500px]"
+                  netlifyFormName="Service Area Haberfield Page Form"
+                  netlifyActionPath="/forms/painters-haberfield-quote.html"
                 />
               </div>
             </div>

@@ -103,6 +103,8 @@ export default function PaintersNorthernBeachesPage() {
                   compact
                   widthClassName="lg:max-w-[630px]"
                   nameFieldWidthClassName="w-full lg:w-[500px]"
+                  netlifyFormName="Service Area Northern Beaches Page Form"
+                  netlifyActionPath="/forms/painters-northern-beaches-quote.html"
                 />
               </div>
             </div>

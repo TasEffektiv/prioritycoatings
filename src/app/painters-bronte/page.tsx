@@ -97,6 +97,8 @@ export default function PaintersBrontePage() {
                   compact
                   widthClassName="lg:max-w-[630px]"
                   nameFieldWidthClassName="w-full lg:w-[500px]"
+                  netlifyFormName="Service Area Bronte Page Form"
+                  netlifyActionPath="/forms/painters-bronte-quote.html"
                 />
               </div>
             </div>
