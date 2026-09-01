@@ -224,6 +224,8 @@ export default function ResidentialPaintersPage() {
                   compact
                   widthClassName="lg:max-w-[630px]"
                   nameFieldWidthClassName="w-full lg:w-[500px]"
+                  netlifyFormName="Residential Painting Sydney Page Form"
+                  netlifyActionPath="/forms/residential-painters-quote.html"
                 />
               </div>
             </div>

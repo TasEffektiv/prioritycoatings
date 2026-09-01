@@ -198,6 +198,8 @@ export default function StrataPaintersSydneyPage() {
                   compact
                   widthClassName="lg:max-w-[630px]"
                   nameFieldWidthClassName="w-full lg:w-[500px]"
+                  netlifyFormName="Strata Painting Services"
+                  netlifyActionPath="/forms/strata-painters-sydney-quote.html"
                 />
               </div>
             </div>

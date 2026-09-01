@@ -268,6 +268,8 @@ export default function CommercialPaintingPage() {
                   compact
                   widthClassName="lg:max-w-[630px]"
                   nameFieldWidthClassName="w-full lg:w-[500px]"
+                  netlifyFormName="Commercial Painting Sydney Form"
+                  netlifyActionPath="/forms/commercial-painting-quote.html"
                 />
               </div>
             </div>

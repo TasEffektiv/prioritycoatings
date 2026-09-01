@@ -201,6 +201,8 @@ export default function LeadPaintRemovalPage() {
                   compact
                   widthClassName="lg:max-w-[630px]"
                   nameFieldWidthClassName="w-full lg:w-[500px]"
+                  netlifyFormName="Lead Paint Removal Page Form"
+                  netlifyActionPath="/forms/lead-paint-removal-quote.html"
                 />
               </div>
             </div>

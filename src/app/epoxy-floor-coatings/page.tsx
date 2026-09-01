@@ -213,6 +213,8 @@ export default function EpoxyFloorCoatingsPage() {
                   compact
                   widthClassName="lg:max-w-[630px]"
                   nameFieldWidthClassName="w-full lg:w-[500px]"
+                  netlifyFormName="Epoxy Floor Coatings Page Form"
+                  netlifyActionPath="/forms/epoxy-floor-coatings-quote.html"
                 />
               </div>
             </div>
