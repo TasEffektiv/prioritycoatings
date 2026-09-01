@@ -83,7 +83,7 @@ export default function HowToHireSydneyPaintingServicesPage() {
 
                 <div className="relative mt-6 aspect-[16/9] w-full overflow-hidden">
                   <Image
-                    src="https://www.prioritycoatings.com.au/wp-content/uploads/2023/04/sydney-painting-services-blog-banner.jpg"
+                    src="/images/sydney-painting-services-blog-banner.jpg"
                     alt="Sydney painting services blog banner"
                     fill
                     priority

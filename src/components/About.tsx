@@ -6,7 +6,7 @@ export default function About() {
       <div className="mx-auto grid max-w-[1400px] grid-cols-1 items-center gap-12 px-6 lg:grid-cols-2">
         <div className="order-2 lg:order-1">
           <Image
-            src="https://www.prioritycoatings.com.au/wp-content/uploads/2022/09/professional-image-min.png"
+            src="/images/professional-image-min.png"
             alt="professional painting service image collage"
             width={683}
             height={559}

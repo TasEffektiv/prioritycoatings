@@ -83,7 +83,7 @@ export default function HowToFixSurfactantLeachingPage() {
 
                 <div className="relative mt-6 aspect-[16/9] w-full overflow-hidden">
                   <Image
-                    src="https://www.prioritycoatings.com.au/wp-content/uploads/2025/04/brush-dipped-in-a-jar-with-paint.jpg"
+                    src="/images/brush-dipped-in-a-jar-with-paint.jpg"
                     alt="brush dipped in a jar with paint"
                     fill
                     priority

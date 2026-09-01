@@ -83,7 +83,7 @@ export default function TipsToSaveMoneyWhenHiringSydneyPaintersPage() {
 
                 <div className="relative mt-6 aspect-[16/9] w-full overflow-hidden">
                   <Image
-                    src="https://www.prioritycoatings.com.au/wp-content/uploads/2023/07/house-painter-sydney.jpg"
+                    src="/images/house-painter-sydney.jpg"
                     alt="House painter Sydney"
                     fill
                     priority

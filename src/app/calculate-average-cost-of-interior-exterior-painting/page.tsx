@@ -83,7 +83,7 @@ export default function CalculateAverageCostOfInteriorExteriorPaintingPage() {
 
                 <div className="relative mt-6 aspect-[16/9] w-full overflow-hidden">
                   <Image
-                    src="https://www.prioritycoatings.com.au/wp-content/uploads/2022/09/calculate-the-cost-of-house-painting.jpg"
+                    src="/images/calculate-the-cost-of-house-painting.jpg"
                     alt="Calculate the cost of house painting"
                     fill
                     priority
@@ -123,7 +123,7 @@ export default function CalculateAverageCostOfInteriorExteriorPaintingPage() {
 
                   <figure className="relative my-8 aspect-[3/2] w-full overflow-hidden">
                     <Image
-                      src="https://www.prioritycoatings.com.au/wp-content/uploads/2023/01/tools-for-house-painting.jpg"
+                      src="/images/tools-for-house-painting.jpg"
                       alt="Tools for house painting"
                       fill
                       className="object-cover"
@@ -175,7 +175,7 @@ export default function CalculateAverageCostOfInteriorExteriorPaintingPage() {
 
                   <figure className="relative my-8 aspect-[3/2] w-full overflow-hidden">
                     <Image
-                      src="https://www.prioritycoatings.com.au/wp-content/uploads/2023/01/house-exterior-wall-painting.jpg"
+                      src="/images/house-exterior-wall-painting.jpg"
                       alt="House exterior wall painting"
                       fill
                       className="object-cover"
@@ -229,7 +229,7 @@ export default function CalculateAverageCostOfInteriorExteriorPaintingPage() {
 
                   <figure className="relative my-8 aspect-[3/2] w-full overflow-hidden">
                     <Image
-                      src="https://www.prioritycoatings.com.au/wp-content/uploads/2023/01/man-painting-home-wall.jpg"
+                      src="/images/man-painting-home-wall.jpg"
                       alt="Man painting home wall"
                       fill
                       className="object-cover"

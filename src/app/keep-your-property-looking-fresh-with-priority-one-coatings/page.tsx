@@ -83,7 +83,7 @@ export default function KeepYourPropertyLookingFreshWithPriorityOneCoatingsPage(
 
                 <div className="relative mt-6 aspect-[16/9] w-full overflow-hidden">
                   <Image
-                    src="https://www.prioritycoatings.com.au/wp-content/uploads/2023/05/transform-the-appearance-of-your-property.jpg"
+                    src="/images/transform-the-appearance-of-your-property.jpg"
                     alt="Transform the appearance of your property"
                     fill
                     priority

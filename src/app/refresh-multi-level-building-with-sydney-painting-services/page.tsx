@@ -83,7 +83,7 @@ export default function RefreshMultiLevelBuildingWithSydneyPaintingServicesPage(
 
                 <div className="relative mt-6 aspect-[16/9] w-full overflow-hidden">
                   <Image
-                    src="https://www.prioritycoatings.com.au/wp-content/uploads/2023/04/office-skyscrapers-business-district.jpg"
+                    src="/images/office-skyscrapers-business-district.jpg"
                     alt="multi-level building"
                     fill
                     priority

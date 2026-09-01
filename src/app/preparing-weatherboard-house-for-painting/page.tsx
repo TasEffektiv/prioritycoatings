@@ -83,7 +83,7 @@ export default function PreparingWeatherboardHouseForPaintingPage() {
 
                 <div className="relative mt-6 aspect-[16/9] w-full overflow-hidden">
                   <Image
-                    src="https://www.prioritycoatings.com.au/wp-content/uploads/2024/03/weatherboard-house-siding-installation-scaled.jpg"
+                    src="/images/weatherboard-house-siding-installation-scaled.jpg"
                     alt="Weatherboard house siding installation"
                     fill
                     priority

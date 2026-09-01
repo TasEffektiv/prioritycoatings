@@ -83,7 +83,7 @@ export default function CommercialPaintingFaqsPage() {
 
                 <div className="relative mt-6 aspect-[16/9] w-full overflow-hidden">
                   <Image
-                    src="https://www.prioritycoatings.com.au/wp-content/uploads/2026/02/commercial-painting-faq-blog-banner.jpg"
+                    src="/images/commercial-painting-faq-blog-banner.jpg"
                     alt="Commercial painting FAQ blog banner"
                     fill
                     priority
@@ -140,7 +140,7 @@ export default function CommercialPaintingFaqsPage() {
 
                   <figure className="relative my-8 aspect-[1024/557] w-full overflow-hidden">
                     <Image
-                      src="https://www.prioritycoatings.com.au/wp-content/uploads/2026/02/painting-white-wall-with-blue-roller-1024x557.jpg"
+                      src="/images/painting-white-wall-with-blue-roller-1024x557.jpg"
                       alt="Painting a white wall with a blue roller"
                       fill
                       className="object-cover"
@@ -195,7 +195,7 @@ export default function CommercialPaintingFaqsPage() {
 
                   <figure className="relative my-8 aspect-[1024/581] w-full overflow-hidden">
                     <Image
-                      src="https://www.prioritycoatings.com.au/wp-content/uploads/2026/02/individual-engaged-in-home-painting-project-with-colorful-paint-cans-in-their-office-setting-1024x581.jpg"
+                      src="/images/individual-engaged-in-home-painting-project-with-colorful-paint-cans-in-their-office-setting-1024x581.jpg"
                       alt="Individual engaged in a painting project with colourful paint cans in an office setting"
                       fill
                       className="object-cover"
@@ -249,7 +249,7 @@ export default function CommercialPaintingFaqsPage() {
 
                   <figure className="relative my-8 aspect-[1024/616] w-full overflow-hidden">
                     <Image
-                      src="https://www.prioritycoatings.com.au/wp-content/uploads/2026/02/professional-renovation-crew-painting-walls-of-new-build-apartment-1024x616.jpg"
+                      src="/images/professional-renovation-crew-painting-walls-of-new-build-apartment-1024x616.jpg"
                       alt="Professional renovation crew painting walls of a new build apartment"
                       fill
                       className="object-cover"
@@ -292,7 +292,7 @@ export default function CommercialPaintingFaqsPage() {
 
                   <figure className="relative my-8 aspect-[1024/580] w-full overflow-hidden">
                     <Image
-                      src="https://www.prioritycoatings.com.au/wp-content/uploads/2026/02/construction-worker-doing-finish-renovation-at-apartment-1024x580.jpg"
+                      src="/images/construction-worker-doing-finish-renovation-at-apartment-1024x580.jpg"
                       alt="Construction worker doing finish renovation at an apartment"
                       fill
                       className="object-cover"
@@ -338,7 +338,7 @@ export default function CommercialPaintingFaqsPage() {
 
                   <figure className="relative my-8 aspect-[1024/547] w-full overflow-hidden">
                     <Image
-                      src="https://www.prioritycoatings.com.au/wp-content/uploads/2026/02/interior-designer-discussing-paint-swatches-with-painter-in-partially-renovated-room-1024x547.jpg"
+                      src="/images/interior-designer-discussing-paint-swatches-with-painter-in-partially-renovated-room-1024x547.jpg"
                       alt="Interior designer discussing paint swatches with a painter in a partially renovated room"
                       fill
                       className="object-cover"
@@ -378,7 +378,7 @@ export default function CommercialPaintingFaqsPage() {
                   <Link href="/commercial-painting/" className="not-prose my-8 block">
                     <span className="relative block aspect-[1024/256] w-full overflow-hidden">
                       <Image
-                        src="https://www.prioritycoatings.com.au/wp-content/uploads/2026/02/commercial-painting-faq-blog-cta-banner-1024x256.jpg"
+                        src="/images/commercial-painting-faq-blog-cta-banner-1024x256.jpg"
                         alt="Commercial painting FAQ blog CTA banner"
                         fill
                         className="object-cover"

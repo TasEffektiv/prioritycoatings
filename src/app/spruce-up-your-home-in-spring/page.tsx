@@ -83,7 +83,7 @@ export default function SpruceUpYourHomeInSpringPage() {
 
                 <div className="relative mt-6 aspect-[16/9] w-full overflow-hidden">
                   <Image
-                    src="https://www.prioritycoatings.com.au/wp-content/uploads/2024/11/spring-spruce-up-blog-banner.jpg"
+                    src="/images/spring-spruce-up-blog-banner.jpg"
                     alt="Spring spruce up blog banner"
                     fill
                     priority

@@ -83,7 +83,7 @@ export default function NeedPaintersSydneyPriorityOneCoatingsCanHelpPage() {
 
                 <div className="relative mt-6 aspect-[16/9] w-full overflow-hidden">
                   <Image
-                    src="https://www.prioritycoatings.com.au/wp-content/uploads/2023/02/sydney-painters-priority-one-coatings.jpg"
+                    src="/images/sydney-painters-priority-one-coatings.jpg"
                     alt="Sydney painters priority one coatings"
                     fill
                     priority

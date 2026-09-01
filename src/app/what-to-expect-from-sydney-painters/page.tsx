@@ -83,7 +83,7 @@ export default function WhatToExpectFromSydneyPaintersPage() {
 
                 <div className="relative mt-6 aspect-[16/9] w-full overflow-hidden">
                   <Image
-                    src="https://www.prioritycoatings.com.au/wp-content/uploads/2023/06/decorators-painting-a-wall-with-a-roller-during-renovation-scaled.jpg"
+                    src="/images/decorators-painting-a-wall-with-a-roller-during-renovation-scaled.jpg"
                     alt="decorators painting a wall with a roller during renovation"
                     fill
                     priority

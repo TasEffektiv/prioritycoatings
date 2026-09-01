@@ -83,7 +83,7 @@ export default function PaintColoursAndToolsGlossaryPage() {
 
                 <div className="relative mt-6 aspect-[2240/1260] w-full overflow-hidden">
                   <Image
-                    src="https://www.prioritycoatings.com.au/wp-content/uploads/2026/04/painting-glossary-blog-banner.jpg"
+                    src="/images/painting-glossary-blog-banner.jpg"
                     alt="Painting glossary blog banner"
                     fill
                     priority
@@ -149,7 +149,7 @@ export default function PaintColoursAndToolsGlossaryPage() {
 
                   <figure className="relative my-8 aspect-[1024/586] w-full overflow-hidden">
                     <Image
-                      src="https://www.prioritycoatings.com.au/wp-content/uploads/2026/04/top-down-view-at-cloth-and-paint-brush-over-old-wooden-chair-1024x586.jpg"
+                      src="/images/top-down-view-at-cloth-and-paint-brush-over-old-wooden-chair-1024x586.jpg"
                       alt="Top down view at cloth and paint brush over old wooden chair"
                       fill
                       className="object-cover"
@@ -198,7 +198,7 @@ export default function PaintColoursAndToolsGlossaryPage() {
 
                   <figure className="relative my-8 aspect-[1024/585] w-full overflow-hidden">
                     <Image
-                      src="https://www.prioritycoatings.com.au/wp-content/uploads/2026/04/cleaning-doors-from-old-paint-restoration-of-wooden-doors-1024x585.jpg"
+                      src="/images/cleaning-doors-from-old-paint-restoration-of-wooden-doors-1024x585.jpg"
                       alt="Cleaning doors from old paint, restoration of wooden doors"
                       fill
                       className="object-cover"
@@ -246,7 +246,7 @@ export default function PaintColoursAndToolsGlossaryPage() {
 
                   <figure className="relative my-8 aspect-[1024/584] w-full overflow-hidden">
                     <Image
-                      src="https://www.prioritycoatings.com.au/wp-content/uploads/2026/04/worker-putting-painter-s-tape-on-wall-in-room-1024x584.jpg"
+                      src="/images/worker-putting-painter-s-tape-on-wall-in-room-1024x584.jpg"
                       alt="Worker putting painter's tape on wall in room"
                       fill
                       className="object-cover"
@@ -295,7 +295,7 @@ export default function PaintColoursAndToolsGlossaryPage() {
 
                   <figure className="relative my-8 aspect-[1024/586] w-full overflow-hidden">
                     <Image
-                      src="https://www.prioritycoatings.com.au/wp-content/uploads/2026/04/white-paint-with-essentials-equipment-1024x586.jpg"
+                      src="/images/white-paint-with-essentials-equipment-1024x586.jpg"
                       alt="White paint with essential painting equipment"
                       fill
                       className="object-cover"
@@ -342,7 +342,7 @@ export default function PaintColoursAndToolsGlossaryPage() {
 
                   <figure className="relative my-8 aspect-[1024/580] w-full overflow-hidden">
                     <Image
-                      src="https://www.prioritycoatings.com.au/wp-content/uploads/2026/04/mixing-different-color-paint-together-for-painting-walls-in-cosmetic-renovations-1024x580.jpg"
+                      src="/images/mixing-different-color-paint-together-for-painting-walls-in-cosmetic-renovations-1024x580.jpg"
                       alt="Mixing different colour paint together for painting walls in cosmetic renovations"
                       fill
                       className="object-cover"
@@ -398,7 +398,7 @@ export default function PaintColoursAndToolsGlossaryPage() {
 
                   <div className="relative my-8 aspect-[1024/337] w-full overflow-hidden rounded-lg">
                     <Image
-                      src="https://www.prioritycoatings.com.au/wp-content/uploads/2026/04/priority-coatings-cta-banner-1-1024x337.png"
+                      src="/images/priority-coatings-cta-banner-1-1024x337.png"
                       alt="Transform your property with Sydney painters - Priority One Coatings"
                       fill
                       className="object-contain"

@@ -83,7 +83,7 @@ export default function PaintYourHouseInTheRightOrderPage() {
 
                 <div className="relative mt-6 aspect-[16/9] w-full overflow-hidden">
                   <Image
-                    src="https://www.prioritycoatings.com.au/wp-content/uploads/2023/11/young-man-painting-blue-wall-scaled.jpg"
+                    src="/images/young-man-painting-blue-wall-scaled.jpg"
                     alt="Young man painting a blue wall"
                     fill
                     priority

@@ -65,7 +65,7 @@ export default function IntroText() {
             <div className="mt-14 grid grid-cols-1 items-center gap-12 lg:grid-cols-2">
               <div className="overflow-hidden rounded-[0.05rem]">
                 <Image
-                  src="https://www.prioritycoatings.com.au/wp-content/uploads/2023/05/transform-the-appearance-of-your-property.jpg"
+                  src="/images/transform-the-appearance-of-your-property.jpg"
                   alt="transform the appearance of your property"
                   width={1200}
                   height={800}

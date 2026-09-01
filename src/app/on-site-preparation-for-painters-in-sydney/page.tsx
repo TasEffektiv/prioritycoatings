@@ -83,7 +83,7 @@ export default function OnSitePreparationForPaintersInSydneyPage() {
 
                 <div className="relative mt-6 aspect-[16/9] w-full overflow-hidden">
                   <Image
-                    src="https://www.prioritycoatings.com.au/wp-content/uploads/2024/06/instruments-for-repair-house-painting.jpg"
+                    src="/images/instruments-for-repair-house-painting.jpg"
                     alt="Instruments for repair house painting"
                     fill
                     priority

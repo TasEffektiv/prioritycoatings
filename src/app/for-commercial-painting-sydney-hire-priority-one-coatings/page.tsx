@@ -83,7 +83,7 @@ export default function ForCommercialPaintingSydneyHirePriorityOneCoatingsPage()
 
                 <div className="relative mt-6 aspect-[16/9] w-full overflow-hidden">
                   <Image
-                    src="https://www.prioritycoatings.com.au/wp-content/uploads/2023/04/commercial-building-painting-sydney.jpg"
+                    src="/images/commercial-building-painting-sydney.jpg"
                     alt="commercial building painting Sydney"
                     fill
                     priority

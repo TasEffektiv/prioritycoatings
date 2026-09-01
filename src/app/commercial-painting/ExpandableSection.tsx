@@ -62,7 +62,7 @@ export default function ExpandableSection() {
 
             <div className="mt-14 grid grid-cols-1 items-center gap-12 lg:grid-cols-2">
               <Image
-                src="https://www.prioritycoatings.com.au/wp-content/uploads/2023/06/sarta-thumb.jpg"
+                src="/images/sarta-thumb.jpg"
                 alt="Commercial property painting project"
                 width={2510}
                 height={1671}

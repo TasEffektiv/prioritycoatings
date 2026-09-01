@@ -83,7 +83,7 @@ export default function TipsForPaintingYourCeilingsPage() {
 
                 <div className="relative mt-6 aspect-[16/9] w-full overflow-hidden">
                   <Image
-                    src="https://www.prioritycoatings.com.au/wp-content/uploads/2023/05/how-to-paint-ceilings-blog-banner.jpg"
+                    src="/images/how-to-paint-ceilings-blog-banner.jpg"
                     alt="How to paint ceiling blog banner"
                     fill
                     priority
@@ -120,7 +120,7 @@ export default function TipsForPaintingYourCeilingsPage() {
 
                   <figure className="relative my-8 aspect-[3/2] w-full overflow-hidden">
                     <Image
-                      src="https://www.prioritycoatings.com.au/wp-content/uploads/2023/05/cover-floor-before-ceiling-painting.jpg"
+                      src="/images/cover-floor-before-ceiling-painting.jpg"
                       alt="Cover floor before ceiling painting"
                       fill
                       className="object-cover"
@@ -159,7 +159,7 @@ export default function TipsForPaintingYourCeilingsPage() {
 
                   <figure className="relative my-8 aspect-[3/2] w-full overflow-hidden">
                     <Image
-                      src="https://www.prioritycoatings.com.au/wp-content/uploads/2023/05/painting-the-ceiling-and-painter-uses-paintbrush.png"
+                      src="/images/painting-the-ceiling-and-painter-uses-paintbrush.png"
                       alt="Painting the ceiling and painter uses paintbrush"
                       fill
                       className="object-cover"
@@ -214,7 +214,7 @@ export default function TipsForPaintingYourCeilingsPage() {
 
                   <figure className="relative my-8 aspect-[3/2] w-full overflow-hidden">
                     <Image
-                      src="https://www.prioritycoatings.com.au/wp-content/uploads/2023/05/painting-a-white-gypsum-plaster-ceiling-with-paint-roller.png"
+                      src="/images/painting-a-white-gypsum-plaster-ceiling-with-paint-roller.png"
                       alt="Painting a white gypsum plaster ceiling with paint roller"
                       fill
                       className="object-cover"
@@ -270,7 +270,7 @@ export default function TipsForPaintingYourCeilingsPage() {
 
                   <figure className="relative my-8 aspect-[3/2] w-full overflow-hidden">
                     <Image
-                      src="https://www.prioritycoatings.com.au/wp-content/uploads/2023/05/safety-tools-for-ceiling-painting-work.jpg"
+                      src="/images/safety-tools-for-ceiling-painting-work.jpg"
                       alt="Safety tools for ceiling painting work"
                       fill
                       className="object-cover"

@@ -83,7 +83,7 @@ export default function HowToPaintYourHomeAHomeownersGuidePage() {
 
                 <div className="relative mt-6 aspect-[16/9] w-full overflow-hidden">
                   <Image
-                    src="https://www.prioritycoatings.com.au/wp-content/uploads/2018/06/house-painting-tips-for-homeowners.jpg"
+                    src="/images/house-painting-tips-for-homeowners.jpg"
                     alt="House painting tips for homeowners"
                     fill
                     priority
@@ -163,7 +163,7 @@ export default function HowToPaintYourHomeAHomeownersGuidePage() {
 
                   <figure className="relative my-8 aspect-[3/2] w-full overflow-hidden">
                     <Image
-                      src="https://www.prioritycoatings.com.au/wp-content/uploads/2018/06/house-painting-guide.jpg"
+                      src="/images/house-painting-guide.jpg"
                       alt="Small grey house with wooden deck, front yard with flower bed and lawn"
                       fill
                       className="object-cover"
@@ -181,7 +181,7 @@ export default function HowToPaintYourHomeAHomeownersGuidePage() {
 
                   <figure className="relative my-8 aspect-[3/2] w-full overflow-hidden">
                     <Image
-                      src="https://www.prioritycoatings.com.au/wp-content/uploads/2018/06/Before-Hiring-Residential-Painters-1.png"
+                      src="/images/Before-Hiring-Residential-Painters-1.png"
                       alt="Before hiring residential painters checklist"
                       fill
                       className="object-cover"

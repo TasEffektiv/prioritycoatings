@@ -83,7 +83,7 @@ export default function BuildingsStuccoPaintingRepairingPage() {
 
                 <div className="relative mt-6 aspect-[16/9] w-full overflow-hidden">
                   <Image
-                    src="https://www.prioritycoatings.com.au/wp-content/uploads/2025/06/residential-apartment-and-flat-building-exterior.jpg"
+                    src="/images/residential-apartment-and-flat-building-exterior.jpg"
                     alt="residential apartment and flat building exterior"
                     fill
                     priority
@@ -153,7 +153,7 @@ export default function BuildingsStuccoPaintingRepairingPage() {
 
                   <figure className="relative my-8 aspect-[3/2] w-full overflow-hidden">
                     <Image
-                      src="https://www.prioritycoatings.com.au/wp-content/uploads/2025/06/construction-worker-applies-plaster-to-building-facade.jpg"
+                      src="/images/construction-worker-applies-plaster-to-building-facade.jpg"
                       alt="Construction worker applies plaster to building facade"
                       fill
                       className="object-cover"

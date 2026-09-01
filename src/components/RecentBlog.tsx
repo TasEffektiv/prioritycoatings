@@ -5,25 +5,25 @@ const POSTS = [
   {
     title: "How to Fix a Bad Paint Job: Common Painting Mistakes",
     date: "April 30, 2026",
-    img: "https://www.prioritycoatings.com.au/wp-content/uploads/2026/05/how-to-fix-bad-paint-job-blog-banner.jpg",
+    img: "/images/how-to-fix-bad-paint-job-blog-banner.jpg",
     href: "/how-to-fix-a-bad-paint-job/",
   },
   {
     title: "Painting Commercial Building: The Best Practice Guide",
     date: "May 20, 2026",
-    img: "https://www.prioritycoatings.com.au/wp-content/uploads/2026/05/colorful-building-facade-in-city.jpg",
+    img: "/images/colorful-building-facade-in-city.jpg",
     href: "/painting-commercial-building-the-best-practice-guide/",
   },
   {
     title: "Essential Things to Know Before Painting Your Home Interiors",
     date: "May 10, 2026",
-    img: "https://www.prioritycoatings.com.au/wp-content/uploads/2026/05/repair-in-the-apartment-paints-the-wall-with-paint.jpg",
+    img: "/images/repair-in-the-apartment-paints-the-wall-with-paint.jpg",
     href: "/things-to-know-before-painting-home-interiors/",
   },
   {
     title: "Winter Exterior Painting In Sydney: Essential Tips",
     date: "June 10, 2026",
-    img: "https://www.prioritycoatings.com.au/wp-content/uploads/2026/06/residential-house-with-front-yard-in-snow.jpg",
+    img: "/images/residential-house-with-front-yard-in-snow.jpg",
     href: "/winter-exterior-house-painting-dos-and-donts/",
   },
 ];

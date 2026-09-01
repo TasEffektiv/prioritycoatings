@@ -38,7 +38,7 @@ export default function TransformSurfaceSection() {
             <div className="grid grid-cols-1 items-center gap-12 lg:grid-cols-2">
               <div className="relative h-[320px] w-full overflow-hidden sm:h-[420px]">
                 <Image
-                  src="https://www.prioritycoatings.com.au/wp-content/uploads/2023/06/epoxy-floor-coatings-img-scaled.jpg"
+                  src="/images/epoxy-floor-coatings-img-scaled.jpg"
                   alt="Painter applies epoxy flooring coatings"
                   fill
                   className="object-cover"

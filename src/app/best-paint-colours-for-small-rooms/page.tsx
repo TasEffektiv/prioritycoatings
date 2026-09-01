@@ -83,7 +83,7 @@ export default function BestPaintColoursForSmallRoomsPage() {
 
                 <div className="relative mt-6 aspect-[16/9] w-full overflow-hidden">
                   <Image
-                    src="https://www.prioritycoatings.com.au/wp-content/uploads/2024/01/gray-fabric-loveseat-near-brown-wooden-table.jpg"
+                    src="/images/gray-fabric-loveseat-near-brown-wooden-table.jpg"
                     alt="Gray fabric loveseat near brown wooden table"
                     fill
                     priority

@@ -52,7 +52,7 @@ export default function DangersOfDelayingExteriorPaintJobPage() {
 
                 <div className="relative mt-6 aspect-[16/9] w-full overflow-hidden">
                   <Image
-                    src="https://www.prioritycoatings.com.au/wp-content/uploads/2023/09/beautiful-house-exterior.jpg"
+                    src="/images/beautiful-house-exterior.jpg"
                     alt="beautiful house exterior"
                     fill
                     priority

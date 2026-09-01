@@ -83,7 +83,7 @@ export default function WaysToStoreLeftoverPaintPage() {
 
                 <div className="relative mt-6 aspect-[16/9] w-full overflow-hidden">
                   <Image
-                    src="https://www.prioritycoatings.com.au/wp-content/uploads/2024/02/ways-to-store-leftover-paint-blog-banner.jpg"
+                    src="/images/ways-to-store-leftover-paint-blog-banner.jpg"
                     alt="ways to store leftover paint blog banner"
                     fill
                     priority

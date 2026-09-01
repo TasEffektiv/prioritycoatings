@@ -83,7 +83,7 @@ export default function OurCommercialFitoutsSydneyPerformAnyJobPage() {
 
                 <div className="relative mt-6 aspect-[16/9] w-full overflow-hidden">
                   <Image
-                    src="https://www.prioritycoatings.com.au/wp-content/uploads/2023/02/commercial-office-fitouts.jpg"
+                    src="/images/commercial-office-fitouts.jpg"
                     alt="Commercial office fitouts"
                     fill
                     priority

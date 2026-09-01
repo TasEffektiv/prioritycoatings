@@ -83,7 +83,7 @@ export default function BrickMakeoverPage() {
 
                 <div className="relative mt-6 aspect-[16/9] w-full overflow-hidden">
                   <Image
-                    src="https://www.prioritycoatings.com.au/wp-content/uploads/2023/10/mountview-redbank-plains.jpg"
+                    src="/images/mountview-redbank-plains.jpg"
                     alt="Mountview Redbank Plains brick house"
                     fill
                     priority
@@ -133,7 +133,7 @@ export default function BrickMakeoverPage() {
 
                   <figure className="relative my-8 aspect-[900/500] w-full overflow-hidden">
                     <Image
-                      src="https://www.prioritycoatings.com.au/wp-content/uploads/2023/10/painter-painting-a-wall-in-gray-with-paint-roller.jpg"
+                      src="/images/painter-painting-a-wall-in-gray-with-paint-roller.jpg"
                       alt="Painter painting a wall in gray with a paint roller"
                       fill
                       className="object-cover"
@@ -209,7 +209,7 @@ export default function BrickMakeoverPage() {
 
                   <figure className="relative my-8 aspect-[900/500] w-full overflow-hidden">
                     <Image
-                      src="https://www.prioritycoatings.com.au/wp-content/uploads/2023/10/painting-the-bathroom-in-white-bathroom-whitewash.jpg"
+                      src="/images/painting-the-bathroom-in-white-bathroom-whitewash.jpg"
                       alt="Painting the bathroom in white, bathroom whitewash"
                       fill
                       className="object-cover"
@@ -267,7 +267,7 @@ export default function BrickMakeoverPage() {
 
                   <figure className="relative my-8 aspect-[900/500] w-full overflow-hidden">
                     <Image
-                      src="https://www.prioritycoatings.com.au/wp-content/uploads/2023/10/old-window-of-an-old-house-with-old-color.jpg"
+                      src="/images/old-window-of-an-old-house-with-old-color.jpg"
                       alt="Old window of an old house with old colour"
                       fill
                       className="object-cover"
@@ -324,7 +324,7 @@ export default function BrickMakeoverPage() {
 
                   <figure className="relative my-8 aspect-[900/550] w-full overflow-hidden">
                     <Image
-                      src="https://www.prioritycoatings.com.au/wp-content/uploads/2023/10/white-and-brown-house.jpg"
+                      src="/images/white-and-brown-house.jpg"
                       alt="White and brown brick house"
                       fill
                       className="object-cover"

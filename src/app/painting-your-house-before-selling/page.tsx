@@ -52,7 +52,7 @@ export default function PaintingYourHouseBeforeSellingPage() {
 
                 <div className="relative mt-6 aspect-[16/9] w-full overflow-hidden">
                   <Image
-                    src="https://www.prioritycoatings.com.au/wp-content/uploads/2023/08/house-with-yard-sign-sale.jpg"
+                    src="/images/house-with-yard-sign-sale.jpg"
                     alt="house with yard sign for sale"
                     fill
                     priority

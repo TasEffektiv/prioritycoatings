@@ -83,7 +83,7 @@ export default function HowToChooseBestStrataPaintersSydneyPage() {
 
                 <div className="relative mt-6 aspect-[16/9] w-full overflow-hidden">
                   <Image
-                    src="https://www.prioritycoatings.com.au/wp-content/uploads/2023/07/new-buildings-with-green-areas.jpg"
+                    src="/images/new-buildings-with-green-areas.jpg"
                     alt="New buildings with green areas"
                     fill
                     priority

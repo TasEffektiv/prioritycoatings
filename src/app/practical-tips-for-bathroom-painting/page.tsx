@@ -83,7 +83,7 @@ export default function PracticalTipsForBathroomPaintingPage() {
 
                 <div className="relative mt-6 aspect-[16/9] w-full overflow-hidden">
                   <Image
-                    src="https://www.prioritycoatings.com.au/wp-content/uploads/2025/02/bathroom-with-cabinets-and-window.jpg"
+                    src="/images/bathroom-with-cabinets-and-window.jpg"
                     alt="bathroom with cabinets and window"
                     fill
                     priority

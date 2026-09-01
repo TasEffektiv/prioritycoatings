@@ -24,7 +24,7 @@ export default function RightChoice() {
         className="flex items-center bg-cover bg-center px-6 py-16 sm:px-10 lg:px-16 lg:py-24"
         style={{
           backgroundImage:
-            "url(https://www.prioritycoatings.com.au/wp-content/uploads/2022/09/section-banner-image-min2.jpg)",
+            "url(/images/section-banner-image-min2.jpg)",
         }}
       >
         <div className="relative z-10 w-full max-w-[605px] bg-[#003c73f5] px-6 py-10 sm:px-[60px] sm:py-[60px] lg:absolute lg:left-1/2 lg:top-1/2 lg:w-[650px] lg:max-w-none lg:-translate-x-[507px] lg:-translate-y-1/2">
@@ -54,7 +54,7 @@ export default function RightChoice() {
         className="bg-brand-teal bg-cover bg-[top_right] bg-no-repeat bg-blend-multiply px-6 py-16 sm:px-10 lg:py-24 lg:pr-6 lg:pl-[260px]"
         style={{
           backgroundImage:
-            "url(https://www.prioritycoatings.com.au/wp-content/uploads/2022/04/home-right-bg.png)",
+            "url(/images/home-right-bg.png)",
         }}
       >
         <h2 className="font-heading text-[22px] font-bold leading-[35px] text-white sm:text-[30px] sm:leading-[40px] lg:text-[40px] lg:leading-[43px]">

@@ -117,7 +117,7 @@ export default function WinterExteriorHousePaintingDosAndDontsPage() {
 
                 <div className="relative mt-6 aspect-[1345/856] w-full overflow-hidden">
                   <Image
-                    src="https://www.prioritycoatings.com.au/wp-content/uploads/2026/06/residential-house-with-front-yard-in-snow.jpg"
+                    src="/images/residential-house-with-front-yard-in-snow.jpg"
                     alt="residential house with front yard in snow"
                     fill
                     priority
@@ -187,7 +187,7 @@ export default function WinterExteriorHousePaintingDosAndDontsPage() {
 
                   <figure className="relative my-8 aspect-[1343/776] w-full overflow-hidden">
                     <Image
-                      src="https://www.prioritycoatings.com.au/wp-content/uploads/2026/05/roof-of-a-building-with-snow-and-hanging-icicles.jpg"
+                      src="/images/roof-of-a-building-with-snow-and-hanging-icicles.jpg"
                       alt="Roof of a building with snow and hanging icicles"
                       fill
                       className="object-cover"
@@ -247,7 +247,7 @@ export default function WinterExteriorHousePaintingDosAndDontsPage() {
 
                   <figure className="relative my-8 aspect-[1342/757] w-full overflow-hidden">
                     <Image
-                      src="https://www.prioritycoatings.com.au/wp-content/uploads/2026/05/man-cleans-old-paint-on-a-wooden-door-with-sandpaper.jpg"
+                      src="/images/man-cleans-old-paint-on-a-wooden-door-with-sandpaper.jpg"
                       alt="Man cleans old paint on a wooden door with sandpaper"
                       fill
                       className="object-cover"

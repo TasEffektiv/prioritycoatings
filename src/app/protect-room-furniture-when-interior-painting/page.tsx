@@ -83,7 +83,7 @@ export default function ProtectRoomFurnitureWhenInteriorPaintingPage() {
 
                 <div className="relative mt-6 aspect-[16/9] w-full overflow-hidden">
                   <Image
-                    src="https://www.prioritycoatings.com.au/wp-content/uploads/2024/02/man-protecting-floor-with-sheet-scaled.jpg"
+                    src="/images/man-protecting-floor-with-sheet-scaled.jpg"
                     alt="man protecting floor with sheet"
                     fill
                     priority

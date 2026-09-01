@@ -52,7 +52,7 @@ export default function HowToRemovePopcornVermiculiteCeilingsPage() {
 
                 <div className="relative mt-6 aspect-[16/9] w-full overflow-hidden">
                   <Image
-                    src="https://www.prioritycoatings.com.au/wp-content/uploads/2023/08/popcorn-ceiling.jpg"
+                    src="/images/popcorn-ceiling.jpg"
                     alt="popcorn ceiling"
                     fill
                     priority
@@ -114,7 +114,7 @@ export default function HowToRemovePopcornVermiculiteCeilingsPage() {
 
                   <figure className="relative my-8 aspect-[9/5] w-full overflow-hidden">
                     <Image
-                      src="https://www.prioritycoatings.com.au/wp-content/uploads/2023/08/renovating-the-house.jpg"
+                      src="/images/renovating-the-house.jpg"
                       alt="Renovating the house"
                       fill
                       className="object-cover"
@@ -172,7 +172,7 @@ export default function HowToRemovePopcornVermiculiteCeilingsPage() {
 
                   <figure className="relative my-8 aspect-[9/5] w-full overflow-hidden">
                     <Image
-                      src="https://www.prioritycoatings.com.au/wp-content/uploads/2023/08/removal-popcorn-ceiling.jpg"
+                      src="/images/removal-popcorn-ceiling.jpg"
                       alt="Removal of popcorn ceiling"
                       fill
                       className="object-cover"
@@ -215,7 +215,7 @@ export default function HowToRemovePopcornVermiculiteCeilingsPage() {
 
                   <figure className="relative my-8 aspect-[16/9] w-full overflow-hidden">
                     <Image
-                      src="https://www.prioritycoatings.com.au/wp-content/uploads/2023/08/construction-worker-wearing-protective-white-gloves-and-blue-construction-coveralls-is-sanding-1024x576.jpg"
+                      src="/images/construction-worker-wearing-protective-white-gloves-and-blue-construction-coveralls-is-sanding-1024x576.jpg"
                       alt="Construction worker wearing protective white gloves and blue construction coveralls is sanding"
                       fill
                       className="object-cover"
@@ -244,7 +244,7 @@ export default function HowToRemovePopcornVermiculiteCeilingsPage() {
 
                   <figure className="relative my-8 aspect-[9/5] w-full overflow-hidden">
                     <Image
-                      src="https://www.prioritycoatings.com.au/wp-content/uploads/2023/08/painting-a-white-gypsum-plaster-ceiling-with-paint-roller.png"
+                      src="/images/painting-a-white-gypsum-plaster-ceiling-with-paint-roller.png"
                       alt="Painting a white gypsum plaster ceiling with paint roller"
                       fill
                       className="object-cover"
@@ -277,7 +277,7 @@ export default function HowToRemovePopcornVermiculiteCeilingsPage() {
 
                   <figure className="relative my-8 aspect-[1024/530] w-full overflow-hidden">
                     <Image
-                      src="https://www.prioritycoatings.com.au/wp-content/uploads/2023/08/popcorn-ceiling-removal-cta-banner-1024x530.jpg"
+                      src="/images/popcorn-ceiling-removal-cta-banner-1024x530.jpg"
                       alt="Popcorn ceiling removal CTA banner"
                       fill
                       className="object-cover"

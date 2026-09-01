@@ -136,7 +136,7 @@ export default function HowOftenShouldYouPaintYourHousePage() {
 
                 <div className="relative mt-6 aspect-[16/9] w-full overflow-hidden">
                   <Image
-                    src="https://www.prioritycoatings.com.au/wp-content/uploads/2024/01/how-often-should-you-paint-your-house-blog-banner.jpg"
+                    src="/images/how-often-should-you-paint-your-house-blog-banner.jpg"
                     alt="How often should you paint your house blog banner"
                     fill
                     priority
@@ -159,7 +159,7 @@ export default function HowOftenShouldYouPaintYourHousePage() {
 
                   <figure className="relative my-8 aspect-[3/2] w-full overflow-hidden">
                     <Image
-                      src="https://www.prioritycoatings.com.au/wp-content/uploads/2024/01/young-couple-painting-new-house-interior-wall.jpg"
+                      src="/images/young-couple-painting-new-house-interior-wall.jpg"
                       alt="Young couple painting new house interior wall"
                       fill
                       className="object-cover"
@@ -222,7 +222,7 @@ export default function HowOftenShouldYouPaintYourHousePage() {
 
                   <figure className="relative my-8 aspect-[3/2] w-full overflow-hidden">
                     <Image
-                      src="https://www.prioritycoatings.com.au/wp-content/uploads/2024/01/painter-man-painting-the-wall-in-home-with-paint-roller-and-white-color.jpg"
+                      src="/images/painter-man-painting-the-wall-in-home-with-paint-roller-and-white-color.jpg"
                       alt="Painter man painting the wall in home with paint roller and white color"
                       fill
                       className="object-cover"
@@ -355,7 +355,7 @@ export default function HowOftenShouldYouPaintYourHousePage() {
 
                   <figure className="relative my-8 aspect-[3/2] w-full overflow-hidden">
                     <Image
-                      src="https://www.prioritycoatings.com.au/wp-content/uploads/2024/01/handyman-painting-the-exterior-wall-of-house.jpg"
+                      src="/images/handyman-painting-the-exterior-wall-of-house.jpg"
                       alt="Handyman painting the exterior wall of house"
                       fill
                       className="object-cover"
@@ -394,7 +394,7 @@ export default function HowOftenShouldYouPaintYourHousePage() {
 
                   <figure className="relative my-8 aspect-[3/2] w-full overflow-hidden">
                     <Image
-                      src="https://www.prioritycoatings.com.au/wp-content/uploads/2024/01/housing-exterior.jpg"
+                      src="/images/housing-exterior.jpg"
                       alt="Housing exterior"
                       fill
                       className="object-cover"

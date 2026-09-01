@@ -12,7 +12,7 @@ export default function PageHeader({
       className="relative overflow-hidden bg-[#143049] bg-cover bg-[top_left] bg-no-repeat bg-blend-multiply py-[30px] md:py-[50px] lg:py-[100px]"
       style={{
         backgroundImage:
-          "url(https://www.prioritycoatings.com.au/wp-content/uploads/2022/04/lead-paint.jpg)",
+          "url(/images/lead-paint.jpg)",
       }}
     >
       <div className="mx-auto flex max-w-[1400px] flex-wrap items-center justify-between gap-4 px-6">

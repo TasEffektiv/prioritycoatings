@@ -83,7 +83,7 @@ export default function PaintDryAndPaintCurePage() {
 
                 <div className="relative mt-6 aspect-[16/9] w-full overflow-hidden">
                   <Image
-                    src="https://www.prioritycoatings.com.au/wp-content/uploads/2024/12/paint-dry-paint-cure-blog-banner.jpg"
+                    src="/images/paint-dry-paint-cure-blog-banner.jpg"
                     alt="Paint dry paint cure blog banner"
                     fill
                     priority

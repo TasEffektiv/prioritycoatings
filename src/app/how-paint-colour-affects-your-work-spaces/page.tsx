@@ -83,7 +83,7 @@ export default function HowPaintColourAffectsYourWorkSpacesPage() {
 
                 <div className="relative mt-6 aspect-[16/9] w-full overflow-hidden">
                   <Image
-                    src="https://www.prioritycoatings.com.au/wp-content/uploads/2025/06/hybrid-working-model-collage-scaled.jpg"
+                    src="/images/hybrid-working-model-collage-scaled.jpg"
                     alt="hybrid working model collage"
                     fill
                     priority

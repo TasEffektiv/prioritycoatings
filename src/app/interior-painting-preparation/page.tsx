@@ -83,7 +83,7 @@ export default function InteriorPaintingPreparationPage() {
 
                 <div className="relative mt-6 aspect-[16/9] w-full overflow-hidden">
                   <Image
-                    src="https://www.prioritycoatings.com.au/wp-content/uploads/2025/12/woman-stands-in-the-middle-of-a-room-with-plastic-covered-furniture-and-a-stepladder.jpg"
+                    src="/images/woman-stands-in-the-middle-of-a-room-with-plastic-covered-furniture-and-a-stepladder.jpg"
                     alt="Woman stands in the middle of a room with plastic-covered furniture and a stepladder"
                     fill
                     priority
@@ -132,7 +132,7 @@ export default function InteriorPaintingPreparationPage() {
 
                   <figure className="relative my-8 aspect-[1024/555] w-full overflow-hidden">
                     <Image
-                      src="https://www.prioritycoatings.com.au/wp-content/uploads/2025/12/couple-renovating-new-house-apartment-putting-protective-film-on-the-floor-1024x555.jpg"
+                      src="/images/couple-renovating-new-house-apartment-putting-protective-film-on-the-floor-1024x555.jpg"
                       alt="Couple renovating a new house apartment, putting protective film on the floor"
                       fill
                       className="object-cover"
@@ -190,7 +190,7 @@ export default function InteriorPaintingPreparationPage() {
 
                   <figure className="relative my-8 aspect-[1024/565] w-full overflow-hidden">
                     <Image
-                      src="https://www.prioritycoatings.com.au/wp-content/uploads/2025/12/specialist-in-a-mask-and-gloves-makes-the-treatment-of-the-wall-from-the-fungus-1024x565.jpg"
+                      src="/images/specialist-in-a-mask-and-gloves-makes-the-treatment-of-the-wall-from-the-fungus-1024x565.jpg"
                       alt="Specialist in a mask and gloves treats the wall for mould and fungus"
                       fill
                       className="object-cover"
@@ -230,7 +230,7 @@ export default function InteriorPaintingPreparationPage() {
 
                   <figure className="relative my-8 aspect-[1024/550] w-full overflow-hidden">
                     <Image
-                      src="https://www.prioritycoatings.com.au/wp-content/uploads/2025/12/painter-levels-the-walls-with-putty-with-a-wide-spatula-1024x550.jpg"
+                      src="/images/painter-levels-the-walls-with-putty-with-a-wide-spatula-1024x550.jpg"
                       alt="Painter levels the walls with putty using a wide spatula"
                       fill
                       className="object-cover"

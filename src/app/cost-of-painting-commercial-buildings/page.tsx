@@ -83,7 +83,7 @@ export default function CostOfPaintingCommercialBuildingsPage() {
 
                 <div className="relative mt-6 aspect-[1348/900] w-full overflow-hidden">
                   <Image
-                    src="https://www.prioritycoatings.com.au/wp-content/uploads/2026/06/view-of-sydney-in-cloudy-weather.jpg"
+                    src="/images/view-of-sydney-in-cloudy-weather.jpg"
                     alt="View of Sydney in cloudy weather"
                     fill
                     priority
@@ -151,7 +151,7 @@ export default function CostOfPaintingCommercialBuildingsPage() {
 
                   <figure className="relative my-8 aspect-[1341/835] w-full overflow-hidden rounded-[6px]">
                     <Image
-                      src="https://www.prioritycoatings.com.au/wp-content/uploads/2026/06/old-shabby-house.jpg"
+                      src="/images/old-shabby-house.jpg"
                       alt="Old shabby house"
                       fill
                       className="object-cover"
@@ -194,7 +194,7 @@ export default function CostOfPaintingCommercialBuildingsPage() {
 
                   <figure className="relative my-8 aspect-[936/1014] w-full max-w-[420px] overflow-hidden rounded-[6px]">
                     <Image
-                      src="https://www.prioritycoatings.com.au/wp-content/uploads/2026/06/commercial-painting-cost-factors-napkin.ai_.png"
+                      src="/images/commercial-painting-cost-factors-napkin.ai_.png"
                       alt="commercial painting cost factors napkin.ai"
                       fill
                       className="object-contain"
@@ -246,7 +246,7 @@ export default function CostOfPaintingCommercialBuildingsPage() {
 
                   <figure className="relative my-8 aspect-[1348/829] w-full overflow-hidden rounded-[6px]">
                     <Image
-                      src="https://www.prioritycoatings.com.au/wp-content/uploads/2026/06/luxurious-architecture-sydney.jpg"
+                      src="/images/luxurious-architecture-sydney.jpg"
                       alt="Luxurious architecture Sydney"
                       fill
                       className="object-cover"

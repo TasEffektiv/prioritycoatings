@@ -96,7 +96,7 @@ export default function LimewashPaintOrRenderPage() {
 
                 <div className="relative mt-6 aspect-[16/9] w-full overflow-hidden">
                   <Image
-                    src="https://www.prioritycoatings.com.au/wp-content/uploads/2026/01/limewash-paint-or-render-your-brick-house-blog-banner.jpg"
+                    src="/images/limewash-paint-or-render-your-brick-house-blog-banner.jpg"
                     alt="Limewash, paint, or render your brick house blog banner"
                     fill
                     priority
@@ -122,7 +122,7 @@ export default function LimewashPaintOrRenderPage() {
 
                   <figure className="relative my-8 aspect-[1024/579] w-full overflow-hidden">
                     <Image
-                      src="https://www.prioritycoatings.com.au/wp-content/uploads/2026/01/buckets-of-paint-and-lime-for-whitewashing-1024x579.jpg"
+                      src="/images/buckets-of-paint-and-lime-for-whitewashing-1024x579.jpg"
                       alt="Buckets of paint and lime for whitewashing"
                       fill
                       className="object-cover"
@@ -205,7 +205,7 @@ export default function LimewashPaintOrRenderPage() {
 
                   <figure className="relative my-8 aspect-[1024/618] w-full overflow-hidden">
                     <Image
-                      src="https://www.prioritycoatings.com.au/wp-content/uploads/2026/01/workers-hand-with-a-brush-painting-a-brick-wall-with-white-paint-1024x618.jpg"
+                      src="/images/workers-hand-with-a-brush-painting-a-brick-wall-with-white-paint-1024x618.jpg"
                       alt="Worker's hand with a brush painting a brick wall with white paint"
                       fill
                       className="object-cover"
@@ -287,7 +287,7 @@ export default function LimewashPaintOrRenderPage() {
 
                   <figure className="relative my-8 aspect-[1024/629] w-full overflow-hidden">
                     <Image
-                      src="https://www.prioritycoatings.com.au/wp-content/uploads/2026/01/man-working-on-brick-wall-1024x629.jpg"
+                      src="/images/man-working-on-brick-wall-1024x629.jpg"
                       alt="Man working on a brick wall"
                       fill
                       className="object-cover"
@@ -358,7 +358,7 @@ export default function LimewashPaintOrRenderPage() {
 
                   <figure className="relative my-8 aspect-[1024/597] w-full overflow-hidden">
                     <Image
-                      src="https://www.prioritycoatings.com.au/wp-content/uploads/2026/01/engineer-is-checking-the-house-after-the-renovate-1024x597.jpg"
+                      src="/images/engineer-is-checking-the-house-after-the-renovate-1024x597.jpg"
                       alt="Engineer checking the house after the renovation"
                       fill
                       className="object-cover"

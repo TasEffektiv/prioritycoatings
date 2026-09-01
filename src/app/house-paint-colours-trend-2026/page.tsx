@@ -83,7 +83,7 @@ export default function HousePaintColoursTrend2026Page() {
 
                 <div className="relative mt-6 aspect-[1188/668] w-full overflow-hidden">
                   <Image
-                    src="https://www.prioritycoatings.com.au/wp-content/uploads/2026/07/house-paint-colour-2026-blog-banner.jpg"
+                    src="/images/house-paint-colour-2026-blog-banner.jpg"
                     alt="House paint colour 2026 blog banner"
                     fill
                     priority
@@ -129,7 +129,7 @@ export default function HousePaintColoursTrend2026Page() {
 
                   <figure className="relative my-8 aspect-[1342/785] w-full overflow-hidden">
                     <Image
-                      src="https://www.prioritycoatings.com.au/wp-content/uploads/2026/07/the-child-paints-a-house-brush-out.jpg"
+                      src="/images/the-child-paints-a-house-brush-out.jpg"
                       alt="The child paints a house brush out"
                       fill
                       className="object-cover"
@@ -212,7 +212,7 @@ export default function HousePaintColoursTrend2026Page() {
 
                   <figure className="relative my-8 aspect-[1341/808] w-full overflow-hidden">
                     <Image
-                      src="https://www.prioritycoatings.com.au/wp-content/uploads/2026/07/young-couple-painting-walls-in-their-new-house.jpg"
+                      src="/images/young-couple-painting-walls-in-their-new-house.jpg"
                       alt="Young couple painting walls in their new house"
                       fill
                       className="object-cover"
@@ -296,7 +296,7 @@ export default function HousePaintColoursTrend2026Page() {
 
                   <figure className="relative my-8 aspect-[1574/900] w-full overflow-hidden">
                     <Image
-                      src="https://www.prioritycoatings.com.au/wp-content/uploads/2026/07/row-of-colorful-houses-with-potted-plants-in-front-of-the-doors-on-a-sunny-day.jpg"
+                      src="/images/row-of-colorful-houses-with-potted-plants-in-front-of-the-doors-on-a-sunny-day.jpg"
                       alt="Row of colorful houses with potted plants in front of the doors on a sunny day"
                       fill
                       className="object-cover"

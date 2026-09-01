@@ -83,7 +83,7 @@ export default function PantoneColourMochaMousseCanRedefineInteriorsPage() {
 
                 <div className="relative mt-6 aspect-[16/9] w-full overflow-hidden">
                   <Image
-                    src="https://www.prioritycoatings.com.au/wp-content/uploads/2024/12/pantone-colour-2025-mocha-mousse.png"
+                    src="/images/pantone-colour-2025-mocha-mousse.png"
                     alt="Pantone colour 2025 mocha mousse"
                     fill
                     priority
@@ -132,7 +132,7 @@ export default function PantoneColourMochaMousseCanRedefineInteriorsPage() {
 
                   <figure className="relative my-8 aspect-[3/2] w-full overflow-hidden">
                     <Image
-                      src="https://www.prioritycoatings.com.au/wp-content/uploads/2024/12/contrasting-outdoor-texture-design.jpg"
+                      src="/images/contrasting-outdoor-texture-design.jpg"
                       alt="Contrasting outdoor texture design"
                       fill
                       className="object-cover"
@@ -174,7 +174,7 @@ export default function PantoneColourMochaMousseCanRedefineInteriorsPage() {
 
                   <figure className="relative my-8 aspect-[3/2] w-full overflow-hidden">
                     <Image
-                      src="https://www.prioritycoatings.com.au/wp-content/uploads/2024/12/mocha-mousse-wall.jpg"
+                      src="/images/mocha-mousse-wall.jpg"
                       alt="Mocha mousse wall"
                       fill
                       className="object-cover"
@@ -246,7 +246,7 @@ export default function PantoneColourMochaMousseCanRedefineInteriorsPage() {
 
                   <figure className="relative my-8 aspect-[3/2] w-full overflow-hidden">
                     <Image
-                      src="https://www.prioritycoatings.com.au/wp-content/uploads/2024/12/house-front.jpg"
+                      src="/images/house-front.jpg"
                       alt="House front"
                       fill
                       className="object-cover"
@@ -306,7 +306,7 @@ export default function PantoneColourMochaMousseCanRedefineInteriorsPage() {
 
                   <figure className="relative my-8 aspect-[3/2] w-full overflow-hidden">
                     <Image
-                      src="https://www.prioritycoatings.com.au/wp-content/uploads/2024/12/interior-living-room-with-sofa.jpg"
+                      src="/images/interior-living-room-with-sofa.jpg"
                       alt="Interior living room with sofa"
                       fill
                       className="object-cover"

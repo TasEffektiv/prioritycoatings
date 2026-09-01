@@ -83,7 +83,7 @@ export default function WhyStainResistantPaintPage() {
 
                 <div className="relative mt-6 aspect-[16/9] w-full overflow-hidden">
                   <Image
-                    src="https://www.prioritycoatings.com.au/wp-content/uploads/2024/01/stain-resistant-paint-scaled.jpg"
+                    src="/images/stain-resistant-paint-scaled.jpg"
                     alt="stain resistant paint"
                     fill
                     priority
@@ -206,7 +206,7 @@ export default function WhyStainResistantPaintPage() {
 
                   <figure className="relative my-8 aspect-[3/2] w-full overflow-hidden">
                     <Image
-                      src="https://www.prioritycoatings.com.au/wp-content/uploads/2024/01/different-types-of-paints-1024x683.jpg"
+                      src="/images/different-types-of-paints-1024x683.jpg"
                       alt="different types of paints"
                       fill
                       className="object-cover"
@@ -296,7 +296,7 @@ export default function WhyStainResistantPaintPage() {
 
                   <figure className="relative my-8 aspect-[3/2] w-full overflow-hidden">
                     <Image
-                      src="https://www.prioritycoatings.com.au/wp-content/uploads/2024/01/painting-door-1024x683.jpg"
+                      src="/images/painting-door-1024x683.jpg"
                       alt="painting door"
                       fill
                       className="object-cover"

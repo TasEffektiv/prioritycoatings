@@ -83,7 +83,7 @@ export default function TouchUpWithoutPaintingWholeWallPage() {
 
                 <div className="relative mt-6 aspect-[16/9] w-full overflow-hidden">
                   <Image
-                    src="https://www.prioritycoatings.com.au/wp-content/uploads/2023/10/people-renovating-house-scaled.jpg"
+                    src="/images/people-renovating-house-scaled.jpg"
                     alt="Woman painting wall with roller"
                     fill
                     priority

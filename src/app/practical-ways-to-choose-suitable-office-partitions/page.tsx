@@ -83,7 +83,7 @@ export default function PracticalWaysToChooseSuitableOfficePartitionsPage() {
 
                 <div className="relative mt-6 aspect-[16/9] w-full overflow-hidden">
                   <Image
-                    src="https://www.prioritycoatings.com.au/wp-content/uploads/2021/12/Ways-to-choose-the-suitable-office-partitions.png"
+                    src="/images/Ways-to-choose-the-suitable-office-partitions.png"
                     alt="Ways to choose the suitable office partitions"
                     fill
                     priority
@@ -116,7 +116,7 @@ export default function PracticalWaysToChooseSuitableOfficePartitionsPage() {
 
                   <figure className="relative my-8 aspect-[3/2] w-full overflow-hidden">
                     <Image
-                      src="https://prioritycoatings.com.au/wp-content/uploads/2021/12/Cubicles-Priority-One-Coatings.png"
+                      src="/images/Cubicles-Priority-One-Coatings.png"
                       alt="Cubicles - Priority One Coatings"
                       fill
                       className="object-cover"
@@ -133,7 +133,7 @@ export default function PracticalWaysToChooseSuitableOfficePartitionsPage() {
 
                   <figure className="relative my-8 aspect-[3/2] w-full overflow-hidden">
                     <Image
-                      src="https://prioritycoatings.com.au/wp-content/uploads/2021/12/Accordion-Walls-Priority-One-Coatings.png"
+                      src="/images/Accordion-Walls-Priority-One-Coatings.png"
                       alt="Accordion Walls - Priority One Coatings"
                       fill
                       className="object-cover"
@@ -150,7 +150,7 @@ export default function PracticalWaysToChooseSuitableOfficePartitionsPage() {
 
                   <figure className="relative my-8 aspect-[3/2] w-full overflow-hidden">
                     <Image
-                      src="https://prioritycoatings.com.au/wp-content/uploads/2021/12/Wood-Timber-Partitions-Priority-One-Coatings.png"
+                      src="/images/Wood-Timber-Partitions-Priority-One-Coatings.png"
                       alt="Wood Timber Partitions - Priority One Coatings"
                       fill
                       className="object-cover"
@@ -167,7 +167,7 @@ export default function PracticalWaysToChooseSuitableOfficePartitionsPage() {
 
                   <figure className="relative my-8 aspect-[3/2] w-full overflow-hidden">
                     <Image
-                      src="https://prioritycoatings.com.au/wp-content/uploads/2021/12/Glass-partitions-Priority-One-Coatings.png"
+                      src="/images/Glass-partitions-Priority-One-Coatings.png"
                       alt="Glass partitions - Priority One Coatings"
                       fill
                       className="object-cover"
@@ -228,7 +228,7 @@ export default function PracticalWaysToChooseSuitableOfficePartitionsPage() {
 
                   <figure className="relative my-8 aspect-[3/2] w-full overflow-hidden">
                     <Image
-                      src="https://prioritycoatings.com.au/wp-content/uploads/2021/12/Dont-let-Partitions-Outshadow-your-Natural-Lighting-1.png"
+                      src="/images/Dont-let-Partitions-Outshadow-your-Natural-Lighting-1.png"
                       alt="Don't let Partitions Outshadow your Natural Lighting"
                       fill
                       className="object-cover"
@@ -256,7 +256,7 @@ export default function PracticalWaysToChooseSuitableOfficePartitionsPage() {
 
                   <figure className="relative my-8 aspect-[3/2] w-full overflow-hidden">
                     <Image
-                      src="https://prioritycoatings.com.au/wp-content/uploads/2021/12/Get-in-touch-with-professional-fit-out-experts-.png"
+                      src="/images/Get-in-touch-with-professional-fit-out-experts-.png"
                       alt="Get in touch with professional fit-out experts"
                       fill
                       className="object-cover"

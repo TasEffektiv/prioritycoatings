@@ -3,24 +3,24 @@ import { Phone } from "lucide-react";
 const PROJECTS = [
   {
     title: "Commercial",
-    img: "https://www.prioritycoatings.com.au/wp-content/uploads/2022/09/commercial-2013.jpg",
+    img: "/images/commercial-2013.jpg",
     href: "/recent-commercial-projects/",
   },
   {
     title: "Residential",
-    img: "https://www.prioritycoatings.com.au/wp-content/uploads/2022/09/house-painting-sydney.jpg",
+    img: "/images/house-painting-sydney.jpg",
     href: "/recent-residential-projects/",
   },
   {
     title: "Strata",
-    img: "https://www.prioritycoatings.com.au/wp-content/uploads/2022/09/strata-painting.jpg",
+    img: "/images/strata-painting.jpg",
     href: "/recent-strata-projects/",
   },
 ];
 
 const LEAD_REMOVAL = {
   title: "Lead Removal",
-  img: "https://www.prioritycoatings.com.au/wp-content/uploads/2022/09/lead-removing-repainting.jpg",
+  img: "/images/lead-removing-repainting.jpg",
   href: "/recent-lead-removal-projects/",
 };
 
@@ -69,7 +69,7 @@ export default function RecentProjects() {
           className="relative mt-16 overflow-hidden bg-cover bg-center py-16 sm:py-20 lg:py-24"
           style={{
             backgroundImage:
-              "linear-gradient(rgba(0,57,109,0.89), rgba(0,57,109,0.89)), url(https://www.prioritycoatings.com.au/wp-content/uploads/2023/07/painters-in-sydney.jpg)",
+              "linear-gradient(rgba(0,57,109,0.89), rgba(0,57,109,0.89)), url(/images/painters-in-sydney.jpg)",
           }}
         >
           <div className="mx-auto flex max-w-[1400px] flex-col items-center justify-center gap-8 px-6 text-center">

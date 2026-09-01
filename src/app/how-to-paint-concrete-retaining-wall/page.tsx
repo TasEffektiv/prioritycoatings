@@ -83,7 +83,7 @@ export default function ConcreteRetainingWallPage() {
 
                 <div className="relative mt-6 aspect-[16/9] w-full overflow-hidden">
                   <Image
-                    src="https://www.prioritycoatings.com.au/wp-content/uploads/2023/10/concrete-retaining-wall-blog-banner.jpg"
+                    src="/images/concrete-retaining-wall-blog-banner.jpg"
                     alt="Concrete retaining wall blog banner"
                     fill
                     priority
@@ -116,7 +116,7 @@ export default function ConcreteRetainingWallPage() {
 
                   <figure className="relative my-8 aspect-[900/506] w-full overflow-hidden">
                     <Image
-                      src="https://www.prioritycoatings.com.au/wp-content/uploads/2025/11/stone-gray-fence-in-the-park-gray-wall-in-thickets-edited-1.jpg"
+                      src="/images/stone-gray-fence-in-the-park-gray-wall-in-thickets-edited-1.jpg"
                       alt="Stone gray fence in the park, gray wall in thickets"
                       fill
                       className="object-cover"
@@ -168,7 +168,7 @@ export default function ConcreteRetainingWallPage() {
 
                   <figure className="relative my-8 aspect-[1024/683] w-full overflow-hidden">
                     <Image
-                      src="https://www.prioritycoatings.com.au/wp-content/uploads/2023/10/96006451_l-1-1024x683.jpg"
+                      src="/images/96006451_l-1-1024x683.jpg"
                       alt="Repairing a concrete wall"
                       fill
                       className="object-cover"
@@ -191,7 +191,7 @@ export default function ConcreteRetainingWallPage() {
 
                   <figure className="relative my-8 aspect-[1024/683] w-full overflow-hidden">
                     <Image
-                      src="https://www.prioritycoatings.com.au/wp-content/uploads/2023/10/196499176_l-1024x683.jpg"
+                      src="/images/196499176_l-1024x683.jpg"
                       alt="Painting tools and equipment"
                       fill
                       className="object-cover"
@@ -220,7 +220,7 @@ export default function ConcreteRetainingWallPage() {
 
                   <figure className="relative my-8 aspect-[559/1024] w-full max-w-md overflow-hidden">
                     <Image
-                      src="https://www.prioritycoatings.com.au/wp-content/uploads/2023/10/249375599_l-559x1024.jpg"
+                      src="/images/249375599_l-559x1024.jpg"
                       alt="Cleaning a concrete wall before painting"
                       fill
                       className="object-cover"
@@ -254,7 +254,7 @@ export default function ConcreteRetainingWallPage() {
 
                   <figure className="relative my-8 aspect-[1024/768] w-full overflow-hidden">
                     <Image
-                      src="https://www.prioritycoatings.com.au/wp-content/uploads/2023/10/244817866_l-1024x768.jpg"
+                      src="/images/244817866_l-1024x768.jpg"
                       alt="Priming a concrete wall"
                       fill
                       className="object-cover"
@@ -283,7 +283,7 @@ export default function ConcreteRetainingWallPage() {
 
                   <figure className="relative my-8 aspect-[1024/683] w-full overflow-hidden">
                     <Image
-                      src="https://www.prioritycoatings.com.au/wp-content/uploads/2023/10/185361541_l-1024x683.jpg"
+                      src="/images/185361541_l-1024x683.jpg"
                       alt="Painting a concrete retaining wall"
                       fill
                       className="object-cover"
@@ -327,7 +327,7 @@ export default function ConcreteRetainingWallPage() {
 
                   <figure className="relative my-8 aspect-[900/506] w-full overflow-hidden">
                     <Image
-                      src="https://www.prioritycoatings.com.au/wp-content/uploads/2025/11/interlocking-designed-retaining-wall-to-manage-earth-erosion-and-landscaping-1-edited.jpg"
+                      src="/images/interlocking-designed-retaining-wall-to-manage-earth-erosion-and-landscaping-1-edited.jpg"
                       alt="Interlocking designed retaining wall to manage earth erosion and landscaping"
                       fill
                       className="object-cover"

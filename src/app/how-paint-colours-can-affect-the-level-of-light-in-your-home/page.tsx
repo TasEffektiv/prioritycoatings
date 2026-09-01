@@ -84,7 +84,7 @@ export default function HowPaintColoursCanAffectTheLevelOfLightInYourHomePage() 
 
                 <div className="relative mt-6 aspect-[16/9] w-full overflow-hidden">
                   <Image
-                    src="https://www.prioritycoatings.com.au/wp-content/uploads/2015/10/How-Lighting-Impacts-Paint-Colours.png"
+                    src="/images/How-Lighting-Impacts-Paint-Colours.png"
                     alt="How Paint Colours Impacts The Lights - Priority One Coatings"
                     fill
                     priority
@@ -116,7 +116,7 @@ export default function HowPaintColoursCanAffectTheLevelOfLightInYourHomePage() 
 
                   <figure className="relative my-8 aspect-[3/2] w-full overflow-hidden">
                     <Image
-                      src="https://prioritycoatings.com.au/wp-content/uploads/2015/10/LRV-Light-Reflectance-Value-Priority-One-Coatings.jpg"
+                      src="/images/LRV-Light-Reflectance-Value-Priority-One-Coatings.jpg"
                       alt="LRV-Light Reflectance Value - Priority One Coatings"
                       fill
                       className="object-cover"
@@ -140,7 +140,7 @@ export default function HowPaintColoursCanAffectTheLevelOfLightInYourHomePage() 
 
                   <figure className="relative my-8 aspect-[3/2] w-full overflow-hidden">
                     <Image
-                      src="https://prioritycoatings.com.au/wp-content/uploads/2015/10/House-Paint-Colours-and-sunlight-Priority-One-Coatings.jpg"
+                      src="/images/House-Paint-Colours-and-sunlight-Priority-One-Coatings.jpg"
                       alt="House Paint Colours and sunlight - Priority One Coatings"
                       fill
                       className="object-cover"
@@ -164,7 +164,7 @@ export default function HowPaintColoursCanAffectTheLevelOfLightInYourHomePage() 
 
                   <figure className="relative my-8 aspect-[3/2] w-full overflow-hidden">
                     <Image
-                      src="https://prioritycoatings.com.au/wp-content/uploads/2015/10/Paint-colors-and-south-facing-room-Priority-One-Coatings.jpg"
+                      src="/images/Paint-colors-and-south-facing-room-Priority-One-Coatings.jpg"
                       alt="Paint colors and south facing room - Priority One Coatings"
                       fill
                       className="object-cover"
@@ -200,7 +200,7 @@ export default function HowPaintColoursCanAffectTheLevelOfLightInYourHomePage() 
 
                   <figure className="relative my-8 aspect-[3/2] w-full overflow-hidden">
                     <Image
-                      src="https://prioritycoatings.com.au/wp-content/uploads/2015/10/Paint-colours-and-west-facing-rooms-sunlight-Priority-One-Coatings.jpg"
+                      src="/images/Paint-colours-and-west-facing-rooms-sunlight-Priority-One-Coatings.jpg"
                       alt="Paint colours and west facing rooms sunlight - Priority One Coatings"
                       fill
                       className="object-cover"
@@ -221,7 +221,7 @@ export default function HowPaintColoursCanAffectTheLevelOfLightInYourHomePage() 
 
                   <figure className="relative my-8 aspect-[3/2] w-full overflow-hidden">
                     <Image
-                      src="https://prioritycoatings.com.au/wp-content/uploads/2015/10/East-facing-room-and-paint-colours-Priority-One-Coatings.jpg"
+                      src="/images/East-facing-room-and-paint-colours-Priority-One-Coatings.jpg"
                       alt="East facing room and paint colours - Priority One Coatings"
                       fill
                       className="object-cover"
@@ -244,7 +244,7 @@ export default function HowPaintColoursCanAffectTheLevelOfLightInYourHomePage() 
 
                   <figure className="relative my-8 aspect-[3/2] w-full overflow-hidden">
                     <Image
-                      src="https://prioritycoatings.com.au/wp-content/uploads/2015/10/Sunlight-in-the-bedrooms-Priority-One-Coatings.jpg"
+                      src="/images/Sunlight-in-the-bedrooms-Priority-One-Coatings.jpg"
                       alt="Sunlight in the bedrooms - Priority One Coatings"
                       fill
                       className="object-cover"
@@ -274,7 +274,7 @@ export default function HowPaintColoursCanAffectTheLevelOfLightInYourHomePage() 
 
                   <figure className="relative my-8 aspect-[3/2] w-full overflow-hidden">
                     <Image
-                      src="https://prioritycoatings.com.au/wp-content/uploads/2015/10/Paint-Colours-and-artifical-lighting-Priority-One-Coatings.jpg"
+                      src="/images/Paint-Colours-and-artifical-lighting-Priority-One-Coatings.jpg"
                       alt="Paint Colours and artifical lighting - Priority One Coatings"
                       fill
                       className="object-cover"
@@ -333,7 +333,7 @@ export default function HowPaintColoursCanAffectTheLevelOfLightInYourHomePage() 
 
                   <figure className="relative my-8 aspect-[3/2] w-full overflow-hidden">
                     <Image
-                      src="https://prioritycoatings.com.au/wp-content/uploads/2015/10/Properly-utilising-the-paint-colors-for-interiors-Priority-One-Coatings-.jpg"
+                      src="/images/Properly-utilising-the-paint-colors-for-interiors-Priority-One-Coatings-.jpg"
                       alt="Properly utilising the paint colors for interiors - Priority One Coatings"
                       fill
                       className="object-cover"

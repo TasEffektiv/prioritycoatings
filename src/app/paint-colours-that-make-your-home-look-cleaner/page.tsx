@@ -83,7 +83,7 @@ export default function PaintColoursThatMakeYourHomeLookCleanerPage() {
 
                 <div className="relative mt-6 aspect-[16/9] w-full overflow-hidden">
                   <Image
-                    src="https://www.prioritycoatings.com.au/wp-content/uploads/2023/11/cozy-dining-room-interior-with-wooden-furniture-scaled.jpg"
+                    src="/images/cozy-dining-room-interior-with-wooden-furniture-scaled.jpg"
                     alt="Cozy dining room interior with wooden furniture"
                     fill
                     priority

@@ -52,7 +52,7 @@ export default function HowLongToPaintAHousePage() {
 
                 <div className="relative mt-6 aspect-[16/9] w-full overflow-hidden">
                   <Image
-                    src="https://www.prioritycoatings.com.au/wp-content/uploads/2023/09/couple-painting-interior-wall-new-apartment-scaled.jpg"
+                    src="/images/couple-painting-interior-wall-new-apartment-scaled.jpg"
                     alt="couple painting interior wall new apartment"
                     fill
                     priority

@@ -83,7 +83,7 @@ export default function TheFutureOfTheCommercialFitoutPage() {
 
                 <div className="relative mt-6 aspect-[16/9] w-full overflow-hidden">
                   <Image
-                    src="https://www.prioritycoatings.com.au/wp-content/uploads/2017/05/pexels-photo-265573.jpeg"
+                    src="/images/pexels-photo-265573.jpeg"
                     alt="commercial fitout"
                     fill
                     priority
@@ -107,7 +107,7 @@ export default function TheFutureOfTheCommercialFitoutPage() {
 
                   <figure className="relative my-8 aspect-[3/2] w-full overflow-hidden">
                     <Image
-                      src="https://prioritycoatings.com.au/wp-content/uploads/2017/05/glass-seperated.jpg"
+                      src="/images/glass-seperated.jpg"
                       alt="glass seperated room"
                       fill
                       className="object-cover"
@@ -128,7 +128,7 @@ export default function TheFutureOfTheCommercialFitoutPage() {
 
                   <figure className="relative my-8 aspect-[3/2] w-full overflow-hidden">
                     <Image
-                      src="https://prioritycoatings.com.au/wp-content/uploads/2017/05/pexels-photo-284854.jpeg"
+                      src="/images/pexels-photo-284854.jpeg"
                       alt="energy efficiency"
                       fill
                       className="object-cover"
@@ -152,7 +152,7 @@ export default function TheFutureOfTheCommercialFitoutPage() {
 
                   <figure className="relative my-8 aspect-[3/2] w-full overflow-hidden">
                     <Image
-                      src="https://prioritycoatings.com.au/wp-content/uploads/2017/05/pexels-photo-284846.jpeg"
+                      src="/images/pexels-photo-284846.jpeg"
                       alt="comfortable office furniture"
                       fill
                       className="object-cover"
@@ -171,7 +171,7 @@ export default function TheFutureOfTheCommercialFitoutPage() {
 
                   <figure className="relative my-8 aspect-[3/2] w-full overflow-hidden">
                     <Image
-                      src="https://prioritycoatings.com.au/wp-content/uploads/2017/05/pexels-photo-380769.jpeg"
+                      src="/images/pexels-photo-380769.jpeg"
                       alt="smaller workspace"
                       fill
                       className="object-cover"

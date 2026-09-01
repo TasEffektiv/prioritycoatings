@@ -83,7 +83,7 @@ export default function CommercialPaintersSydneyCanTransformYourPropertyPage() {
 
                 <div className="relative mt-6 aspect-[16/9] w-full overflow-hidden">
                   <Image
-                    src="https://www.prioritycoatings.com.au/wp-content/uploads/2023/05/white-commercial-building-sydney.jpg"
+                    src="/images/white-commercial-building-sydney.jpg"
                     alt="White commercial building Sydney"
                     fill
                     priority

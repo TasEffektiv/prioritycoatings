@@ -83,7 +83,7 @@ export default function PressureWashBeforePaintingYourHousePage() {
 
                 <div className="relative mt-6 aspect-[16/9] w-full overflow-hidden">
                   <Image
-                    src="https://www.prioritycoatings.com.au/wp-content/uploads/2024/08/man-is-cleaning-terrace-with-pressure-cleaner.jpg"
+                    src="/images/man-is-cleaning-terrace-with-pressure-cleaner.jpg"
                     alt="man is cleaning terrace with pressure cleaner"
                     fill
                     priority

@@ -83,7 +83,7 @@ export default function HowToTreatPreventMouldOnWallsPage() {
 
                 <div className="relative mt-6 aspect-[16/9] w-full overflow-hidden">
                   <Image
-                    src="https://www.prioritycoatings.com.au/wp-content/uploads/2023/11/white-ceramic-bathtub-scaled.jpg"
+                    src="/images/white-ceramic-bathtub-scaled.jpg"
                     alt="White ceramic bathtub"
                     fill
                     priority

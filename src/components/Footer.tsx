@@ -66,14 +66,14 @@ export default function Footer() {
         className="pointer-events-none absolute inset-0 bg-cover bg-[0%_0%] mix-blend-multiply"
         style={{
           backgroundImage:
-            "url(https://www.prioritycoatings.com.au/wp-content/themes/webalive/assets/source/images/foo-bg.png)",
+            "url(/images/foo-bg.png)",
         }}
       />
       <div className="relative mx-auto max-w-[1400px] px-6 py-16">
         <div className="grid grid-cols-1 gap-12 sm:grid-cols-2 lg:grid-cols-5">
           <div className="lg:col-span-1">
             <Image
-              src="https://prioritycoatings.com.au/wp-content/uploads/2022/06/footer-logo-up.svg"
+              src="/images/footer-logo-up.svg"
               alt="Priority One Coatings Logo"
               width={170}
               height={64}

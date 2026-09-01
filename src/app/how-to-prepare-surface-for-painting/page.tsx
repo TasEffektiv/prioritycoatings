@@ -52,7 +52,7 @@ export default function HowToPrepareSurfaceForPaintingPage() {
 
                 <div className="relative mt-6 aspect-[16/9] w-full overflow-hidden">
                   <Image
-                    src="https://www.prioritycoatings.com.au/wp-content/uploads/2023/09/surface-prep-for-painting.jpg"
+                    src="/images/surface-prep-for-painting.jpg"
                     alt="surface prep for painting"
                     fill
                     priority

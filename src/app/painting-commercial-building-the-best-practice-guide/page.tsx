@@ -83,7 +83,7 @@ export default function PaintingCommercialBuildingBestPracticeGuidePage() {
 
                 <div className="relative mt-6 aspect-[16/9] w-full overflow-hidden">
                   <Image
-                    src="https://www.prioritycoatings.com.au/wp-content/uploads/2026/05/colorful-building-facade-in-city.jpg"
+                    src="/images/colorful-building-facade-in-city.jpg"
                     alt="Colorful building facade in city"
                     fill
                     priority
@@ -141,7 +141,7 @@ export default function PaintingCommercialBuildingBestPracticeGuidePage() {
 
                   <figure className="relative my-8 aspect-[1024/641] w-full overflow-hidden">
                     <Image
-                      src="https://www.prioritycoatings.com.au/wp-content/uploads/2026/06/scaffolding-at-the-neoclassical-house-restoration-of-old-building-in-greece.jpg"
+                      src="/images/scaffolding-at-the-neoclassical-house-restoration-of-old-building-in-greece.jpg"
                       alt="Scaffolding at a neoclassical building during restoration of an old building"
                       fill
                       className="object-cover"
@@ -203,7 +203,7 @@ export default function PaintingCommercialBuildingBestPracticeGuidePage() {
 
                   <figure className="relative my-8 aspect-[1024/576] w-full overflow-hidden">
                     <Image
-                      src="https://www.prioritycoatings.com.au/wp-content/uploads/2026/06/construction-worker-wearing-protective-white-gloves-and-blue-construction-coveralls-is-sanding.jpg"
+                      src="/images/construction-worker-wearing-protective-white-gloves-and-blue-construction-coveralls-is-sanding.jpg"
                       alt="Construction worker wearing protective white gloves and blue construction coveralls is sanding"
                       fill
                       className="object-cover"
@@ -287,7 +287,7 @@ export default function PaintingCommercialBuildingBestPracticeGuidePage() {
 
                   <figure className="relative my-8 aspect-[1024/644] w-full overflow-hidden">
                     <Image
-                      src="https://www.prioritycoatings.com.au/wp-content/uploads/2026/06/worker-paints-building-wall-renovating-works.jpg"
+                      src="/images/worker-paints-building-wall-renovating-works.jpg"
                       alt="Worker paints building wall renovating works"
                       fill
                       className="object-cover"
@@ -375,7 +375,7 @@ export default function PaintingCommercialBuildingBestPracticeGuidePage() {
 
                   <figure className="relative my-8 aspect-[1024/606] w-full overflow-hidden">
                     <Image
-                      src="https://www.prioritycoatings.com.au/wp-content/uploads/2026/06/professional-builder-using-a-paint-roller-applying-a-fresh-coat-of-paint-to-the-walls-of-a-building.jpg"
+                      src="/images/professional-builder-using-a-paint-roller-applying-a-fresh-coat-of-paint-to-the-walls-of-a-building.jpg"
                       alt="Professional builder using a paint roller applying a fresh coat of paint to the walls of a building"
                       fill
                       className="object-cover"

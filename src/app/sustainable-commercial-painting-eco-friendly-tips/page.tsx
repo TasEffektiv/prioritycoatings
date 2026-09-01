@@ -83,7 +83,7 @@ export default function SustainableCommercialPaintingPage() {
 
                 <div className="relative mt-6 aspect-[16/9] w-full overflow-hidden">
                   <Image
-                    src="https://www.prioritycoatings.com.au/wp-content/uploads/2026/08/sustainable-commercial-painting-chatgpt-image.jpg"
+                    src="/images/sustainable-commercial-painting-chatgpt-image.jpg"
                     alt="sustainable commercial painting ChatGPT image"
                     fill
                     priority

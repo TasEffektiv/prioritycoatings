@@ -83,7 +83,7 @@ export default function BenefitsOfHiringCommercialPaintersPage() {
 
                 <div className="relative mt-6 aspect-[16/9] w-full overflow-hidden">
                   <Image
-                    src="https://www.prioritycoatings.com.au/wp-content/uploads/2024/11/renovation-crew-painting-in-a-room.jpg"
+                    src="/images/renovation-crew-painting-in-a-room.jpg"
                     alt="Renovation crew painting in a room"
                     fill
                     priority

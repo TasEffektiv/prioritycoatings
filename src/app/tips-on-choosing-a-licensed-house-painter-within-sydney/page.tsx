@@ -83,7 +83,7 @@ export default function TipsOnChoosingALicensedHousePainterWithinSydneyPage() {
 
                 <div className="relative mt-6 aspect-[16/9] w-full overflow-hidden">
                   <Image
-                    src="https://www.prioritycoatings.com.au/wp-content/uploads/2021/10/licensed-house-painter-1.jpg"
+                    src="/images/licensed-house-painter-1.jpg"
                     alt="Licensed house painter"
                     fill
                     priority
@@ -141,7 +141,7 @@ export default function TipsOnChoosingALicensedHousePainterWithinSydneyPage() {
 
                   <figure className="relative my-8 aspect-[3/2] w-full overflow-hidden">
                     <Image
-                      src="https://prioritycoatings.com.au/wp-content/uploads/2021/10/experienced-painters.jpg"
+                      src="/images/experienced-painters.jpg"
                       alt="Experienced painters"
                       fill
                       className="object-cover"
@@ -169,7 +169,7 @@ export default function TipsOnChoosingALicensedHousePainterWithinSydneyPage() {
 
                   <figure className="relative my-8 aspect-[3/2] w-full overflow-hidden">
                     <Image
-                      src="https://prioritycoatings.com.au/wp-content/uploads/2021/10/house-color-consultant.jpg"
+                      src="/images/house-color-consultant.jpg"
                       alt="House colour consultant"
                       fill
                       className="object-cover"

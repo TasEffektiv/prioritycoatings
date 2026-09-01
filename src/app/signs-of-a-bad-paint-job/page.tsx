@@ -83,7 +83,7 @@ export default function SignsOfABadPaintJobPage() {
 
                 <div className="relative mt-6 aspect-[16/9] w-full overflow-hidden">
                   <Image
-                    src="https://www.prioritycoatings.com.au/wp-content/uploads/2026/04/peeling-pink-and-yellow-paint-on-the-wall.jpg"
+                    src="/images/peeling-pink-and-yellow-paint-on-the-wall.jpg"
                     alt="peeling pink and yellow paint on the wall"
                     fill
                     priority
@@ -374,7 +374,7 @@ export default function SignsOfABadPaintJobPage() {
 
                   <figure className="relative my-8 aspect-[1024/487] w-full overflow-hidden">
                     <Image
-                      src="https://www.prioritycoatings.com.au/wp-content/uploads/2026/04/signs-of-bad-paint-job-cta-banner-canva-ai-1024x487.png"
+                      src="/images/signs-of-bad-paint-job-cta-banner-canva-ai-1024x487.png"
                       alt="signs of a bad paint job CTA banner"
                       fill
                       className="object-cover"

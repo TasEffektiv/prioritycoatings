@@ -83,7 +83,7 @@ export default function MetalRoofPaintingPage() {
 
                 <div className="relative mt-6 aspect-[16/9] w-full overflow-hidden">
                   <Image
-                    src="https://www.prioritycoatings.com.au/wp-content/uploads/2025/10/painting-metal-roof-blog-banner.jpg"
+                    src="/images/painting-metal-roof-blog-banner.jpg"
                     alt="Painting metal roof blog banner"
                     fill
                     priority
@@ -163,7 +163,7 @@ export default function MetalRoofPaintingPage() {
 
                   <figure className="relative my-8 aspect-[1024/547] w-full overflow-hidden">
                     <Image
-                      src="https://www.prioritycoatings.com.au/wp-content/uploads/2025/10/worker-spray-red-color-on-roof-steel-for-house-construction-1024x547.jpg"
+                      src="/images/worker-spray-red-color-on-roof-steel-for-house-construction-1024x547.jpg"
                       alt="Worker spray-painting red colour on roof steel for house construction"
                       fill
                       className="object-cover"
@@ -248,7 +248,7 @@ export default function MetalRoofPaintingPage() {
 
                   <figure className="relative my-8 aspect-[1024/629] w-full overflow-hidden">
                     <Image
-                      src="https://www.prioritycoatings.com.au/wp-content/uploads/2025/10/bright-green-metal-roof-1-1024x629.jpg"
+                      src="/images/bright-green-metal-roof-1-1024x629.jpg"
                       alt="Bright green metal roof"
                       fill
                       className="object-cover"
@@ -316,7 +316,7 @@ export default function MetalRoofPaintingPage() {
 
                   <figure className="relative my-8 aspect-[1024/571] w-full overflow-hidden">
                     <Image
-                      src="https://www.prioritycoatings.com.au/wp-content/uploads/2025/10/man-crouches-down-painting-the-surface-of-a-roof-with-a-small-brush-1024x571.jpg"
+                      src="/images/man-crouches-down-painting-the-surface-of-a-roof-with-a-small-brush-1024x571.jpg"
                       alt="Man crouches down painting the surface of a roof with a small brush"
                       fill
                       className="object-cover"

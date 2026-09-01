@@ -110,7 +110,7 @@ export default function HowToRemoveOldPaintFromWallsPage() {
 
                 <div className="relative mt-6 aspect-[16/9] w-full overflow-hidden">
                   <Image
-                    src="https://www.prioritycoatings.com.au/wp-content/uploads/2024/07/texture-background-old-paint.jpg"
+                    src="/images/texture-background-old-paint.jpg"
                     alt="Remove Old Paint from Walls"
                     fill
                     priority
@@ -170,7 +170,7 @@ export default function HowToRemoveOldPaintFromWallsPage() {
 
                   <figure className="relative my-8 aspect-[3/2] w-full overflow-hidden">
                     <Image
-                      src="https://www.prioritycoatings.com.au/wp-content/uploads/2024/07/visual-selection-2-888x1024.png"
+                      src="/images/visual-selection-2-888x1024.png"
                       alt="Key paint removal methods for a smooth wall finish"
                       fill
                       className="object-cover"
@@ -264,7 +264,7 @@ export default function HowToRemoveOldPaintFromWallsPage() {
 
                   <figure className="relative my-8 aspect-[3/2] w-full overflow-hidden">
                     <Image
-                      src="https://www.prioritycoatings.com.au/wp-content/uploads/2024/07/Tips-for-removing-old-wall-paint-visual-selection-1024x543.png"
+                      src="/images/Tips-for-removing-old-wall-paint-visual-selection-1024x543.png"
                       alt="Tips for removing old wall paint"
                       fill
                       className="object-cover"

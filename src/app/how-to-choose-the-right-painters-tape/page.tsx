@@ -83,7 +83,7 @@ export default function PaintersTapePage() {
 
                 <div className="relative mt-6 aspect-[16/9] w-full overflow-hidden">
                   <Image
-                    src="https://www.prioritycoatings.com.au/wp-content/uploads/2026/03/man-is-sticking-adhesive-tape-into-the-wall-1.jpg"
+                    src="/images/man-is-sticking-adhesive-tape-into-the-wall-1.jpg"
                     alt="Man is sticking adhesive tape into the wall"
                     fill
                     priority
@@ -114,7 +114,7 @@ export default function PaintersTapePage() {
 
                   <figure className="relative my-8 aspect-[1024/576] w-full overflow-hidden">
                     <Image
-                      src="https://www.prioritycoatings.com.au/wp-content/uploads/2026/03/blue-painter-tape-is-neatly-applied-along-baseboards-and-a-corner-wall-junction-above-a-wood-floor-1024x576.jpg"
+                      src="/images/blue-painter-tape-is-neatly-applied-along-baseboards-and-a-corner-wall-junction-above-a-wood-floor-1024x576.jpg"
                       alt="Blue painter tape neatly applied along baseboards and a corner wall junction above a wood floor"
                       fill
                       className="object-cover"
@@ -160,7 +160,7 @@ export default function PaintersTapePage() {
 
                   <figure className="relative my-8 aspect-[1024/585] w-full overflow-hidden">
                     <Image
-                      src="https://www.prioritycoatings.com.au/wp-content/uploads/2026/03/man-sticks-protective-tape-on-the-wall-before-painting-1024x585.jpg"
+                      src="/images/man-sticks-protective-tape-on-the-wall-before-painting-1024x585.jpg"
                       alt="Man sticks protective tape on the wall before painting"
                       fill
                       className="object-cover"
@@ -224,7 +224,7 @@ export default function PaintersTapePage() {
 
                   <figure className="relative my-8 aspect-[1024/576] w-full overflow-hidden">
                     <Image
-                      src="https://www.prioritycoatings.com.au/wp-content/uploads/2026/03/a-corner-section-of-a-room-with-painters-tape-applied-along-the-baseboard-and-adjacent-walls-1024x576.jpg"
+                      src="/images/a-corner-section-of-a-room-with-painters-tape-applied-along-the-baseboard-and-adjacent-walls-1024x576.jpg"
                       alt="A corner section of a room with painter's tape applied along the baseboard and adjacent walls"
                       fill
                       className="object-cover"
@@ -291,7 +291,7 @@ export default function PaintersTapePage() {
 
                   <figure className="relative my-8 aspect-[1024/598] w-full overflow-hidden">
                     <Image
-                      src="https://www.prioritycoatings.com.au/wp-content/uploads/2026/03/man-concealing-wiring-1024x598.jpg"
+                      src="/images/man-concealing-wiring-1024x598.jpg"
                       alt="Man concealing wiring before painting"
                       fill
                       className="object-cover"

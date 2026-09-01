@@ -83,7 +83,7 @@ export default function HowToRemovePaintFromGlassPage() {
 
                 <div className="relative mt-6 aspect-[16/9] w-full overflow-hidden">
                   <Image
-                    src="https://www.prioritycoatings.com.au/wp-content/uploads/2025/04/how-to-remove-paint-from-glass-blog-banner.jpg"
+                    src="/images/how-to-remove-paint-from-glass-blog-banner.jpg"
                     alt="how to remove paint from glass blog banner"
                     fill
                     priority

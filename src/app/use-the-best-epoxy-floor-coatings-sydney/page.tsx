@@ -83,7 +83,7 @@ export default function UseTheBestEpoxyFloorCoatingsSydneyPage() {
 
                 <div className="relative mt-6 aspect-[16/9] w-full overflow-hidden">
                   <Image
-                    src="https://www.prioritycoatings.com.au/wp-content/uploads/2023/02/epoxy-floor-coatings-in-sydney-banner.jpg"
+                    src="/images/epoxy-floor-coatings-in-sydney-banner.jpg"
                     alt="Epoxy floor coatings in Sydney banner"
                     fill
                     priority

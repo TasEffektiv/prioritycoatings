@@ -64,7 +64,7 @@ export default function ExpandableSection() {
             <div className="mt-14 grid grid-cols-1 items-center gap-10 lg:grid-cols-2">
               <div className="relative aspect-[640/436] w-full overflow-hidden">
                 <Image
-                  src="https://www.prioritycoatings.com.au/wp-content/uploads/2023/06/building2.jpg"
+                  src="/images/building2.jpg"
                   alt="House exterior"
                   fill
                   className="object-cover"

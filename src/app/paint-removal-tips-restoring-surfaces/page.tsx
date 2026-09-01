@@ -83,7 +83,7 @@ export default function PaintRemovalTipsRestoringSurfacesPage() {
 
                 <div className="relative mt-6 aspect-[1349/900] w-full overflow-hidden">
                   <Image
-                    src="https://www.prioritycoatings.com.au/wp-content/uploads/2025/08/spatula-on-a-pink-surface.jpg"
+                    src="/images/spatula-on-a-pink-surface.jpg"
                     alt="Spatula on a pink surface"
                     fill
                     priority
@@ -177,7 +177,7 @@ export default function PaintRemovalTipsRestoringSurfacesPage() {
                   <figure className="relative my-8 aspect-[1024/284] w-full overflow-hidden">
                     <a href="https://www.prioritycoatings.com.au/how-to-remove-paint-from-glass/">
                       <Image
-                        src="https://www.prioritycoatings.com.au/wp-content/uploads/2025/08/how-to-remove-paint-from-glass-blog-banner-1024x284.jpg"
+                        src="/images/how-to-remove-paint-from-glass-blog-banner-1024x284.jpg"
                         alt="How to remove paint from glass blog banner"
                         fill
                         className="object-cover"

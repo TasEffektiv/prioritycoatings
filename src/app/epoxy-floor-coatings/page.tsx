@@ -15,10 +15,10 @@ export const metadata: Metadata = {
 };
 
 const RELATED_WORKS_GALLERY = [
-  "https://www.prioritycoatings.com.au/wp-content/uploads/2022/09/commercial-fitout-1.jpg",
-  "https://www.prioritycoatings.com.au/wp-content/uploads/2022/09/commercial-fitouts-2.jpg",
-  "https://www.prioritycoatings.com.au/wp-content/uploads/2022/09/commercial-interior-1.jpg",
-  "https://www.prioritycoatings.com.au/wp-content/uploads/2022/09/commercial-offfice-1.jpg",
+  "/images/commercial-fitout-1.jpg",
+  "/images/commercial-fitouts-2.jpg",
+  "/images/commercial-interior-1.jpg",
+  "/images/commercial-offfice-1.jpg",
 ];
 
 const WHY_CHOOSE = [
@@ -136,7 +136,7 @@ export default function EpoxyFloorCoatingsPage() {
           className="relative bg-[#143049] bg-cover bg-[top_left] bg-no-repeat bg-blend-multiply"
           style={{
             backgroundImage:
-              "url(https://www.prioritycoatings.com.au/wp-content/uploads/2022/04/lead-paint.jpg)",
+              "url(/images/lead-paint.jpg)",
           }}
         >
           <div className="mx-auto max-w-[1400px] px-6 pt-14 pb-28 text-center sm:pt-16 sm:pb-40 lg:pt-20 lg:pb-56">
@@ -157,7 +157,7 @@ export default function EpoxyFloorCoatingsPage() {
                 className="absolute inset-0 bg-cover bg-center"
                 style={{
                   backgroundImage:
-                    "url(https://prioritycoatings.com.au/wp-content/uploads/2022/09/epoxy-banner-min.jpg)",
+                    "url(/images/epoxy-banner-min.jpg)",
                 }}
               />
               <div className="absolute inset-0 bg-black/30" />
@@ -270,7 +270,7 @@ export default function EpoxyFloorCoatingsPage() {
               className="relative overflow-hidden bg-cover bg-center py-16 sm:py-20 lg:py-24"
               style={{
                 backgroundImage:
-                  "linear-gradient(rgba(0,63,117,0.89), rgba(0,63,117,0.89)), url(https://www.prioritycoatings.com.au/wp-content/uploads/2023/07/painters-in-sydney.jpg)",
+                  "linear-gradient(rgba(0,63,117,0.89), rgba(0,63,117,0.89)), url(/images/painters-in-sydney.jpg)",
               }}
             >
               <div className="mx-auto flex max-w-[1400px] flex-col items-center justify-center gap-8 px-6 text-center">
@@ -292,7 +292,7 @@ export default function EpoxyFloorCoatingsPage() {
         <section className="relative grid grid-cols-1 lg:grid-cols-2">
           <div className="relative h-[320px] w-full lg:h-auto lg:min-h-[420px]">
             <Image
-              src="https://www.prioritycoatings.com.au/wp-content/uploads/2022/09/insurance-banner-min.jpg"
+              src="/images/insurance-banner-min.jpg"
               alt="Priority One Coatings tradesperson at work"
               fill
               className="object-cover"
@@ -368,7 +368,7 @@ export default function EpoxyFloorCoatingsPage() {
                 className="pointer-events-none absolute inset-0 bg-cover bg-center opacity-[0.11]"
                 style={{
                   backgroundImage:
-                    "url(https://www.prioritycoatings.com.au/wp-content/uploads/2023/07/painters-in-sydney.jpg)",
+                    "url(/images/painters-in-sydney.jpg)",
                 }}
               />
               <div className="relative mx-auto max-w-[1400px] px-6">

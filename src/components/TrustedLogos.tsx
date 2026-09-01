@@ -1,13 +1,13 @@
 import Image from "next/image";
 
 const LOGOS = [
-  "https://prioritycoatings.com.au/wp-content/uploads/2022/04/taylor-new.png",
-  "https://prioritycoatings.com.au/wp-content/uploads/2022/04/nsw-government-new.png",
-  "https://prioritycoatings.com.au/wp-content/uploads/2022/04/nsw-rugby-league.png",
-  "https://prioritycoatings.com.au/wp-content/uploads/2022/04/carlile-swimming.png",
-  "https://prioritycoatings.com.au/wp-content/uploads/2022/04/fdc-new.png",
-  "https://prioritycoatings.com.au/wp-content/uploads/2022/04/colliers-international.png",
-  "https://prioritycoatings.com.au/wp-content/uploads/2022/04/linkedin.png",
+  "/images/taylor-new.png",
+  "/images/nsw-government-new.png",
+  "/images/nsw-rugby-league.png",
+  "/images/carlile-swimming.png",
+  "/images/fdc-new.png",
+  "/images/colliers-international.png",
+  "/images/linkedin.png",
 ];
 
 export default function TrustedLogos() {

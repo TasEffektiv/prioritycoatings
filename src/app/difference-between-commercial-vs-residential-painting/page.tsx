@@ -83,7 +83,7 @@ export default function CommercialVsResidentialPaintingPage() {
 
                 <div className="relative mt-6 aspect-[16/9] w-full overflow-hidden">
                   <Image
-                    src="https://www.prioritycoatings.com.au/wp-content/uploads/2023/10/commercial-vs-residential-painting-blog-banner.png"
+                    src="/images/commercial-vs-residential-painting-blog-banner.png"
                     alt="Commercial vs residential painting blog banner"
                     fill
                     priority

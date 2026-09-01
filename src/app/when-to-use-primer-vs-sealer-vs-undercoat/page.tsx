@@ -83,7 +83,7 @@ export default function WhenToUsePrimerVsSealerVsUndercoatPage() {
 
                 <div className="relative mt-6 aspect-[16/9] w-full overflow-hidden">
                   <Image
-                    src="https://www.prioritycoatings.com.au/wp-content/uploads/2023/12/young-couple-repairs-room.jpg"
+                    src="/images/young-couple-repairs-room.jpg"
                     alt="Young couple repairs room"
                     fill
                     priority

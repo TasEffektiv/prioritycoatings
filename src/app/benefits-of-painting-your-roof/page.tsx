@@ -83,7 +83,7 @@ export default function BenefitsOfPaintingYourRoofPage() {
 
                 <div className="relative mt-6 aspect-[16/9] w-full overflow-hidden">
                   <Image
-                    src="https://www.prioritycoatings.com.au/wp-content/uploads/2024/02/roofers-working-together-with-helmets-scaled.jpg"
+                    src="/images/roofers-working-together-with-helmets-scaled.jpg"
                     alt="roofers working together with helmets"
                     fill
                     priority

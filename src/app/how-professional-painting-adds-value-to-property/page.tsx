@@ -83,7 +83,7 @@ export default function HowProfessionalPaintingAddsValueToPropertyPage() {
 
                 <div className="relative mt-6 aspect-[1350/900] w-full overflow-hidden">
                   <Image
-                    src="https://www.prioritycoatings.com.au/wp-content/uploads/2025/09/room-painting-job-painting-roller-in-hand-of-worker.jpg"
+                    src="/images/room-painting-job-painting-roller-in-hand-of-worker.jpg"
                     alt="Room painting job painting roller in hand of worker"
                     fill
                     priority
@@ -118,7 +118,7 @@ export default function HowProfessionalPaintingAddsValueToPropertyPage() {
 
                   <figure className="relative my-8 aspect-[1024/551] w-full overflow-hidden">
                     <Image
-                      src="https://www.prioritycoatings.com.au/wp-content/uploads/2025/09/residential-area-along-the-river-3-1024x551.jpg"
+                      src="/images/residential-area-along-the-river-3-1024x551.jpg"
                       alt="Residential area along the river"
                       fill
                       className="object-cover"
@@ -191,7 +191,7 @@ export default function HowProfessionalPaintingAddsValueToPropertyPage() {
 
                   <figure className="relative my-8 aspect-[1024/541] w-full overflow-hidden">
                     <Image
-                      src="https://www.prioritycoatings.com.au/wp-content/uploads/2025/09/purple-paint-and-paint-brushes-for-home-improvement-project-1024x541.jpg"
+                      src="/images/purple-paint-and-paint-brushes-for-home-improvement-project-1024x541.jpg"
                       alt="Purple paint and paint brushes for home improvement project"
                       fill
                       className="object-cover"

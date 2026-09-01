@@ -83,7 +83,7 @@ export default function HowToFixABadPaintJobPage() {
 
                 <div className="relative mt-6 aspect-[16/9] w-full overflow-hidden">
                   <Image
-                    src="https://www.prioritycoatings.com.au/wp-content/uploads/2026/05/how-to-fix-bad-paint-job-blog-banner.jpg"
+                    src="/images/how-to-fix-bad-paint-job-blog-banner.jpg"
                     alt="how to fix bad paint job blog banner"
                     fill
                     priority
@@ -156,7 +156,7 @@ export default function HowToFixABadPaintJobPage() {
 
                   <figure className="relative my-8 aspect-[1024/589] w-full overflow-hidden">
                     <Image
-                      src="https://www.prioritycoatings.com.au/wp-content/uploads/2026/05/white-paint-with-essentials-equipments-1024x589.jpg"
+                      src="/images/white-paint-with-essentials-equipments-1024x589.jpg"
                       alt="wall colour change white paint with essentials equipment"
                       fill
                       className="object-cover"
@@ -223,7 +223,7 @@ export default function HowToFixABadPaintJobPage() {
 
                   <figure className="relative my-8 aspect-[1024/580] w-full overflow-hidden">
                     <Image
-                      src="https://www.prioritycoatings.com.au/wp-content/uploads/2026/05/woman-painter-in-a-protective-helmet-and-vest-with-paint-roller-1024x580.jpg"
+                      src="/images/woman-painter-in-a-protective-helmet-and-vest-with-paint-roller-1024x580.jpg"
                       alt="woman painter in a protective helmet and vest with paint roller"
                       fill
                       className="object-cover"
@@ -305,7 +305,7 @@ export default function HowToFixABadPaintJobPage() {
 
                   <figure className="relative my-8 aspect-[1024/338] w-full overflow-hidden">
                     <Image
-                      src="https://www.prioritycoatings.com.au/wp-content/uploads/2026/05/how-to-fix-a-bad-paint-job-cta-banner-1-1024x338.jpg"
+                      src="/images/how-to-fix-a-bad-paint-job-cta-banner-1-1024x338.jpg"
                       alt="how to fix a bad paint job CTA banner"
                       fill
                       className="object-cover"

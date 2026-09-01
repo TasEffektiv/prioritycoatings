@@ -1,6 +1,6 @@
 import type { GalleryImage } from "@/components/GalleryLightbox";
 
-const BASE = "https://www.prioritycoatings.com.au/wp-content/uploads/2022/09";
+const BASE = "/images";
 
 const FILES = [
   "painting-strata",

@@ -83,7 +83,7 @@ export default function HowToFindBestSydneyPaintingServicesPage() {
 
                 <div className="relative mt-6 aspect-[16/9] w-full overflow-hidden">
                   <Image
-                    src="https://www.prioritycoatings.com.au/wp-content/uploads/2023/07/painters-in-sydney.jpg"
+                    src="/images/painters-in-sydney.jpg"
                     alt="Painters in Sydney"
                     fill
                     priority

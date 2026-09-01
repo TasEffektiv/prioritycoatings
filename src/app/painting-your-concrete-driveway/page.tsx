@@ -90,7 +90,7 @@ export default function PaintingYourConcreteDrivewayPage() {
 
                 <div className="relative mt-6 aspect-[16/9] w-full overflow-hidden">
                   <Image
-                    src="https://www.prioritycoatings.com.au/wp-content/uploads/2024/05/luxury-house-exterior-with-brick-and-siding-trim-and-double-garage.jpg"
+                    src="/images/luxury-house-exterior-with-brick-and-siding-trim-and-double-garage.jpg"
                     alt="Luxury house exterior with brick and siding trim and double garage"
                     fill
                     priority
@@ -124,7 +124,7 @@ export default function PaintingYourConcreteDrivewayPage() {
 
                   <figure className="relative my-8 aspect-[665/1024] w-full max-w-[420px] overflow-hidden">
                     <Image
-                      src="https://www.prioritycoatings.com.au/wp-content/uploads/2024/05/painting-a-concrete-driveway-essential-materials-and-preparation-napkin.ai_-665x1024.png"
+                      src="/images/painting-a-concrete-driveway-essential-materials-and-preparation-napkin.ai_-665x1024.png"
                       alt="Painting a concrete driveway essential materials and preparation"
                       fill
                       className="object-cover"
@@ -251,7 +251,7 @@ export default function PaintingYourConcreteDrivewayPage() {
 
                   <figure className="relative my-8 aspect-[1024/337] w-full overflow-hidden">
                     <Image
-                      src="https://www.prioritycoatings.com.au/wp-content/uploads/2024/05/transform-your-property-cta-banner.jpg"
+                      src="/images/transform-your-property-cta-banner.jpg"
                       alt="Transform your property CTA banner"
                       fill
                       className="object-cover"

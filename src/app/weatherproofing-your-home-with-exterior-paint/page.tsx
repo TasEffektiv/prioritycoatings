@@ -83,7 +83,7 @@ export default function WeatherproofingYourHomeWithExteriorPaintPage() {
 
                 <div className="relative mt-6 aspect-[16/9] w-full overflow-hidden">
                   <Image
-                    src="https://www.prioritycoatings.com.au/wp-content/uploads/2024/04/brown-and-white-concrete-house-near-green-grass-field-during-daytime-scaled.jpg"
+                    src="/images/brown-and-white-concrete-house-near-green-grass-field-during-daytime-scaled.jpg"
                     alt="concrete house near green grass field during daytime"
                     fill
                     priority

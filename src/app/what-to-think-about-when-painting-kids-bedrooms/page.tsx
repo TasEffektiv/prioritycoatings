@@ -83,7 +83,7 @@ export default function WhatToThinkAboutWhenPaintingKidsBedroomsPage() {
 
                 <div className="relative mt-6 aspect-[16/9] w-full overflow-hidden">
                   <Image
-                    src="https://www.prioritycoatings.com.au/wp-content/uploads/2017/05/Painting-kids-room.jpg"
+                    src="/images/Painting-kids-room.jpg"
                     alt="House painters sydney"
                     fill
                     priority
@@ -126,7 +126,7 @@ export default function WhatToThinkAboutWhenPaintingKidsBedroomsPage() {
 
                   <figure className="relative my-8 aspect-[3/2] w-full overflow-hidden">
                     <Image
-                      src="https://prioritycoatings.com.au/wp-content/uploads/2017/05/Theme-of-a-room.jpg"
+                      src="/images/Theme-of-a-room.jpg"
                       alt="kids room theme"
                       fill
                       className="object-cover"
@@ -150,7 +150,7 @@ export default function WhatToThinkAboutWhenPaintingKidsBedroomsPage() {
 
                   <figure className="relative my-8 aspect-[3/2] w-full overflow-hidden">
                     <Image
-                      src="https://prioritycoatings.com.au/wp-content/uploads/2017/05/Bright-colours.jpg"
+                      src="/images/Bright-colours.jpg"
                       alt="Bright colours"
                       fill
                       className="object-cover"
@@ -179,7 +179,7 @@ export default function WhatToThinkAboutWhenPaintingKidsBedroomsPage() {
 
                   <figure className="relative my-8 aspect-[3/2] w-full overflow-hidden">
                     <Image
-                      src="https://prioritycoatings.com.au/wp-content/uploads/2017/05/Healthy-painting.jpg"
+                      src="/images/Healthy-painting.jpg"
                       alt="Healthy painting"
                       fill
                       className="object-cover"

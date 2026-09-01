@@ -83,7 +83,7 @@ export default function HousePaintingSecretsPage() {
 
                 <div className="relative mt-6 aspect-[16/9] w-full overflow-hidden">
                   <Image
-                    src="https://www.prioritycoatings.com.au/wp-content/uploads/2025/05/walls-are-painted-in-blue-and-orange-hues.jpg"
+                    src="/images/walls-are-painted-in-blue-and-orange-hues.jpg"
                     alt="home walls are painted in blue and orange hues"
                     fill
                     priority

@@ -83,7 +83,7 @@ export default function ThingsToKnowBeforePaintingHomeInteriorsPage() {
 
                 <div className="relative mt-6 aspect-[1459/900] w-full overflow-hidden">
                   <Image
-                    src="https://www.prioritycoatings.com.au/wp-content/uploads/2026/05/repair-in-the-apartment-paints-the-wall-with-paint.jpg"
+                    src="/images/repair-in-the-apartment-paints-the-wall-with-paint.jpg"
                     alt="repair in the apartment paints the wall with paint"
                     fill
                     priority
@@ -191,7 +191,7 @@ export default function ThingsToKnowBeforePaintingHomeInteriorsPage() {
 
                   <figure className="relative my-8 aspect-[1024/597] w-full overflow-hidden">
                     <Image
-                      src="https://www.prioritycoatings.com.au/wp-content/uploads/2026/05/repair-damaged-cracks-on-walls-drywall-ceilings-use-spatula-for-putting-gypsum-1024x597.jpg"
+                      src="/images/repair-damaged-cracks-on-walls-drywall-ceilings-use-spatula-for-putting-gypsum-1024x597.jpg"
                       alt="repair damaged cracks on walls drywall ceilings use spatula for putting gypsum"
                       fill
                       className="object-cover"
@@ -232,7 +232,7 @@ export default function ThingsToKnowBeforePaintingHomeInteriorsPage() {
 
                   <figure className="relative my-8 aspect-[1024/576] w-full overflow-hidden">
                     <Image
-                      src="https://www.prioritycoatings.com.au/wp-content/uploads/2026/05/woman-painting-wall-with-roller-brush-in-room-filled-with-painting-supplies-1024x576.jpg"
+                      src="/images/woman-painting-wall-with-roller-brush-in-room-filled-with-painting-supplies-1024x576.jpg"
                       alt="woman painting wall with roller brush in room filled with painting supplies"
                       fill
                       className="object-cover"
@@ -320,7 +320,7 @@ export default function ThingsToKnowBeforePaintingHomeInteriorsPage() {
 
                   <figure className="relative my-8 aspect-[1024/337] w-full overflow-hidden">
                     <Image
-                      src="https://www.prioritycoatings.com.au/wp-content/uploads/2026/05/know-before-interior-painting-cta-banner-1024x337.jpg"
+                      src="/images/know-before-interior-painting-cta-banner-1024x337.jpg"
                       alt="know before interior painting CTA banner"
                       fill
                       className="object-cover"

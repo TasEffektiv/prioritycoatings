@@ -15,10 +15,10 @@ export const metadata: Metadata = {
 };
 
 const RELATED_WORKS_GALLERY = [
-  "https://www.prioritycoatings.com.au/wp-content/uploads/2022/09/strata-2015.jpg",
-  "https://www.prioritycoatings.com.au/wp-content/uploads/2022/09/strata-painting-1.jpg",
-  "https://www.prioritycoatings.com.au/wp-content/uploads/2022/09/strata-painting-sydney-1.jpg",
-  "https://www.prioritycoatings.com.au/wp-content/uploads/2022/09/strata-work.jpg",
+  "/images/strata-2015.jpg",
+  "/images/strata-painting-1.jpg",
+  "/images/strata-painting-sydney-1.jpg",
+  "/images/strata-work.jpg",
 ];
 
 const PROPERTY_TYPES = [
@@ -126,7 +126,7 @@ export default function StrataPaintersSydneyPage() {
           className="relative bg-[#143049] bg-cover bg-[top_left] bg-no-repeat bg-blend-multiply"
           style={{
             backgroundImage:
-              "url(https://www.prioritycoatings.com.au/wp-content/uploads/2022/04/lead-paint.jpg)",
+              "url(/images/lead-paint.jpg)",
           }}
         >
           <div className="mx-auto max-w-[1400px] px-6 pt-14 pb-28 text-center sm:pt-16 sm:pb-40 lg:pt-20 lg:pb-56">
@@ -147,7 +147,7 @@ export default function StrataPaintersSydneyPage() {
                 className="absolute inset-0 bg-cover bg-center"
                 style={{
                   backgroundImage:
-                    "url(https://prioritycoatings.com.au/wp-content/uploads/2022/09/81541046_l-min.jpg)",
+                    "url(/images/81541046_l-min.jpg)",
                 }}
               />
               <div className="absolute inset-0 bg-black/30" />
@@ -284,7 +284,7 @@ export default function StrataPaintersSydneyPage() {
                 className="pointer-events-none absolute inset-0 bg-cover bg-center opacity-[0.11]"
                 style={{
                   backgroundImage:
-                    "url(https://www.prioritycoatings.com.au/wp-content/uploads/2023/07/painters-in-sydney.jpg)",
+                    "url(/images/painters-in-sydney.jpg)",
                 }}
               />
               <div className="relative mx-auto flex max-w-[1400px] flex-col items-center justify-center gap-8 px-6 text-center">
@@ -307,7 +307,7 @@ export default function StrataPaintersSydneyPage() {
           className="relative overflow-hidden bg-[#003c73] bg-[length:65%_100%] bg-[top_left] bg-no-repeat lg:min-h-[700px]"
           style={{
             backgroundImage:
-              "url(https://www.prioritycoatings.com.au/wp-content/uploads/2022/09/36753797_l-min.jpg)",
+              "url(/images/36753797_l-min.jpg)",
           }}
         >
           <div className="relative mx-auto flex max-w-[1400px] justify-end px-6 py-16 lg:min-h-[700px] lg:py-24">
@@ -383,7 +383,7 @@ export default function StrataPaintersSydneyPage() {
                 className="pointer-events-none absolute inset-0 bg-cover bg-center opacity-[0.11]"
                 style={{
                   backgroundImage:
-                    "url(https://www.prioritycoatings.com.au/wp-content/uploads/2023/07/painters-in-sydney.jpg)",
+                    "url(/images/painters-in-sydney.jpg)",
                 }}
               />
               <div className="relative mx-auto max-w-[1400px] px-6">

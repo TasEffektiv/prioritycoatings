@@ -83,7 +83,7 @@ export default function DifferentTypesOfIndustrialCoatingsPage() {
 
                 <div className="relative mt-6 aspect-[16/9] w-full overflow-hidden">
                   <Image
-                    src="https://www.prioritycoatings.com.au/wp-content/uploads/2024/01/different-types-of-industrial-coatings-blog-banner.jpg"
+                    src="/images/different-types-of-industrial-coatings-blog-banner.jpg"
                     alt="different types of industrial coatings blog banner"
                     fill
                     priority
@@ -105,7 +105,7 @@ export default function DifferentTypesOfIndustrialCoatingsPage() {
 
                   <figure className="relative my-8 aspect-[3/2] w-full overflow-hidden">
                     <Image
-                      src="https://www.prioritycoatings.com.au/wp-content/uploads/2024/01/epoxy-coatings.jpg"
+                      src="/images/epoxy-coatings.jpg"
                       alt="Epoxy coatings"
                       fill
                       className="object-cover"
@@ -138,7 +138,7 @@ export default function DifferentTypesOfIndustrialCoatingsPage() {
 
                   <figure className="relative my-8 aspect-[3/2] w-full overflow-hidden">
                     <Image
-                      src="https://www.prioritycoatings.com.au/wp-content/uploads/2024/01/modern-wastewater-treatment-plant.jpg"
+                      src="/images/modern-wastewater-treatment-plant.jpg"
                       alt="Modern wastewater treatment plant"
                       fill
                       className="object-cover"
@@ -169,7 +169,7 @@ export default function DifferentTypesOfIndustrialCoatingsPage() {
 
                   <figure className="relative my-8 aspect-[3/2] w-full overflow-hidden">
                     <Image
-                      src="https://www.prioritycoatings.com.au/wp-content/uploads/2024/01/carpenter-treating-wood-with-protection-paint.jpg"
+                      src="/images/carpenter-treating-wood-with-protection-paint.jpg"
                       alt="Carpenter treating wood with protection paint"
                       fill
                       className="object-cover"
@@ -213,7 +213,7 @@ export default function DifferentTypesOfIndustrialCoatingsPage() {
 
                   <figure className="relative my-8 aspect-[3/2] w-full overflow-hidden">
                     <Image
-                      src="https://www.prioritycoatings.com.au/wp-content/uploads/2024/01/crane-carry-a-heavy-metal-silo-in-industrial-complex.jpg"
+                      src="/images/crane-carry-a-heavy-metal-silo-in-industrial-complex.jpg"
                       alt="Crane carry a heavy metal silo in industrial complex"
                       fill
                       className="object-cover"
@@ -248,7 +248,7 @@ export default function DifferentTypesOfIndustrialCoatingsPage() {
 
                   <figure className="relative my-8 aspect-[3/2] w-full overflow-hidden">
                     <Image
-                      src="https://www.prioritycoatings.com.au/wp-content/uploads/2024/01/construction-worker-doing-his-job-with-belt.jpg"
+                      src="/images/construction-worker-doing-his-job-with-belt.jpg"
                       alt="Construction worker doing his job with belt"
                       fill
                       className="object-cover"
@@ -272,7 +272,7 @@ export default function DifferentTypesOfIndustrialCoatingsPage() {
 
                   <figure className="relative my-8 aspect-[3/2] w-full overflow-hidden">
                     <Image
-                      src="https://www.prioritycoatings.com.au/wp-content/uploads/2024/01/worker-painting-car-auto-service.jpg"
+                      src="/images/worker-painting-car-auto-service.jpg"
                       alt="Worker painting car auto service"
                       fill
                       className="object-cover"
@@ -298,7 +298,7 @@ export default function DifferentTypesOfIndustrialCoatingsPage() {
 
                   <figure className="relative my-8 aspect-[3/2] w-full overflow-hidden">
                     <Image
-                      src="https://www.prioritycoatings.com.au/wp-content/uploads/2024/01/cans-of-paint-closeup.jpg"
+                      src="/images/cans-of-paint-closeup.jpg"
                       alt="Cans of paint closeup"
                       fill
                       className="object-cover"
@@ -325,7 +325,7 @@ export default function DifferentTypesOfIndustrialCoatingsPage() {
 
                   <figure className="relative my-8 aspect-[3/2] w-full overflow-hidden">
                     <Image
-                      src="https://www.prioritycoatings.com.au/wp-content/uploads/2024/01/end-faces-of-metal-pipes.jpg"
+                      src="/images/end-faces-of-metal-pipes.jpg"
                       alt="End faces of metal pipes"
                       fill
                       className="object-cover"
@@ -350,7 +350,7 @@ export default function DifferentTypesOfIndustrialCoatingsPage() {
 
                   <figure className="relative my-8 aspect-[3/2] w-full overflow-hidden">
                     <Image
-                      src="https://www.prioritycoatings.com.au/wp-content/uploads/2024/01/cargo-ship-in-the-harbor.jpg"
+                      src="/images/cargo-ship-in-the-harbor.jpg"
                       alt="Cargo ship in the harbor"
                       fill
                       className="object-cover"

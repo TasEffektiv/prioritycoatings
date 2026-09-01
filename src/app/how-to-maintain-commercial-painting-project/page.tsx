@@ -83,7 +83,7 @@ export default function HowToMaintainCommercialPaintingProjectPage() {
 
                 <div className="relative mt-6 aspect-[16/9] w-full overflow-hidden">
                   <Image
-                    src="https://www.prioritycoatings.com.au/wp-content/uploads/2023/01/bright-new-commercial-buildings.jpg"
+                    src="/images/bright-new-commercial-buildings.jpg"
                     alt="Bright new commercial buildings"
                     fill
                     priority

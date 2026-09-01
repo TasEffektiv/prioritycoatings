@@ -52,7 +52,7 @@ export default function PaintingInHotWeatherPage() {
 
                 <div className="relative mt-6 aspect-[16/9] w-full overflow-hidden">
                   <Image
-                    src="https://www.prioritycoatings.com.au/wp-content/uploads/2023/10/house-painting-under-sun-scaled.jpg"
+                    src="/images/house-painting-under-sun-scaled.jpg"
                     alt="painting house exterior"
                     fill
                     priority

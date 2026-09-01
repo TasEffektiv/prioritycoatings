@@ -83,7 +83,7 @@ export default function TopInteriorPaintIdeasFor2024Page() {
 
                 <div className="relative mt-6 aspect-[16/9] w-full overflow-hidden">
                   <Image
-                    src="https://www.prioritycoatings.com.au/wp-content/uploads/2024/01/orange-and-black-sofa-with-throw-pillows-scaled.jpg"
+                    src="/images/orange-and-black-sofa-with-throw-pillows-scaled.jpg"
                     alt="Orange and black sofa with throw pillows"
                     fill
                     priority

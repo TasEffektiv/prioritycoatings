@@ -83,7 +83,7 @@ export default function FeatureWallColourIdeasPage() {
 
                 <div className="relative mt-6 aspect-[16/9] w-full overflow-hidden">
                   <Image
-                    src="https://www.prioritycoatings.com.au/wp-content/uploads/2025/02/armchair-with-checkered-pattern-feature-wall.jpg"
+                    src="/images/armchair-with-checkered-pattern-feature-wall.jpg"
                     alt="Armchair with checkered pattern feature wall"
                     fill
                     priority

@@ -83,7 +83,7 @@ export default function HowToTreatLeadPaintInCommercialBuildingPage() {
 
                 <div className="relative mt-6 aspect-[16/9] w-full overflow-hidden">
                   <Image
-                    src="https://www.prioritycoatings.com.au/wp-content/uploads/2022/10/lead-based-paint-removal.jpg"
+                    src="/images/lead-based-paint-removal.jpg"
                     alt="Lead based paint removal"
                     fill
                     priority
@@ -145,7 +145,7 @@ export default function HowToTreatLeadPaintInCommercialBuildingPage() {
 
                   <figure className="relative my-8 aspect-[3/2] w-full overflow-hidden">
                     <Image
-                      src="https://www.prioritycoatings.com.au/wp-content/uploads/2022/10/commercial-property-1.jpg"
+                      src="/images/commercial-property-1.jpg"
                       alt="Commercial property"
                       fill
                       className="object-cover"
@@ -227,7 +227,7 @@ export default function HowToTreatLeadPaintInCommercialBuildingPage() {
 
                   <figure className="relative my-8 aspect-[3/2] w-full overflow-hidden">
                     <Image
-                      src="https://www.prioritycoatings.com.au/wp-content/uploads/2022/10/lead-paint-removal-1.jpg"
+                      src="/images/lead-paint-removal-1.jpg"
                       alt="Lead paint removal"
                       fill
                       className="object-cover"

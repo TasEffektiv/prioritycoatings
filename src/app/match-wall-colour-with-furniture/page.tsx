@@ -83,7 +83,7 @@ export default function MatchWallColourWithFurniturePage() {
 
                 <div className="relative mt-6 aspect-[16/9] w-full overflow-hidden">
                   <Image
-                    src="https://www.prioritycoatings.com.au/wp-content/uploads/2024/05/interior-design-with-photoframes-blue-couch-scaled.jpg"
+                    src="/images/interior-design-with-photoframes-blue-couch-scaled.jpg"
                     alt="interior design with photoframes blue couch"
                     fill
                     priority

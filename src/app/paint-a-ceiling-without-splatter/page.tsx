@@ -83,7 +83,7 @@ export default function PaintACeilingWithoutSplatterPage() {
 
                 <div className="relative mt-6 aspect-[16/9] w-full overflow-hidden">
                   <Image
-                    src="https://www.prioritycoatings.com.au/wp-content/uploads/2025/02/painter-is-painting-house-ceiling.jpg"
+                    src="/images/painter-is-painting-house-ceiling.jpg"
                     alt="painter is painting house ceiling"
                     fill
                     priority

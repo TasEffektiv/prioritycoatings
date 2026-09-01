@@ -83,7 +83,7 @@ export default function PaintYourPropertyBeforeEofyPage() {
 
                 <div className="relative mt-6 aspect-[16/9] w-full overflow-hidden">
                   <Image
-                    src="https://www.prioritycoatings.com.au/wp-content/uploads/2024/06/house-with-yard-sign-open-house-scaled.jpg"
+                    src="/images/house-with-yard-sign-open-house-scaled.jpg"
                     alt="House with yard sign open house"
                     fill
                     priority

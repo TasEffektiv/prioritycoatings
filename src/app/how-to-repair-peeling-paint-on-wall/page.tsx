@@ -52,7 +52,7 @@ export default function HowToRepairPeelingPaintOnWallPage() {
 
                 <div className="relative mt-6 aspect-[16/9] w-full overflow-hidden">
                   <Image
-                    src="https://www.prioritycoatings.com.au/wp-content/uploads/2023/10/paint-peeling-off-rough-concrete-wall-scaled.jpg"
+                    src="/images/paint-peeling-off-rough-concrete-wall-scaled.jpg"
                     alt="paint peeling off rough concrete wall"
                     fill
                     priority

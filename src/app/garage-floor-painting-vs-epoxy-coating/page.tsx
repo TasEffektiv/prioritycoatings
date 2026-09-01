@@ -83,7 +83,7 @@ export default function GarageFloorPaintingVsEpoxyCoatingPage() {
 
                 <div className="relative mt-6 aspect-[16/9] w-full overflow-hidden">
                   <Image
-                    src="https://www.prioritycoatings.com.au/wp-content/uploads/2023/07/neon-light-inside-parking-garage.jpg"
+                    src="/images/neon-light-inside-parking-garage.jpg"
                     alt="Neon light inside parking garage"
                     fill
                     priority

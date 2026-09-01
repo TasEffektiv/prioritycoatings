@@ -83,7 +83,7 @@ export default function FourTipsOnChoosingTheRightColourForYourHomePage() {
 
                 <div className="relative mt-6 aspect-[16/9] w-full overflow-hidden">
                   <Image
-                    src="https://www.prioritycoatings.com.au/wp-content/uploads/2017/05/Painting-kids-room.jpg"
+                    src="/images/Painting-kids-room.jpg"
                     alt="Painting kids room"
                     fill
                     priority
@@ -123,7 +123,7 @@ export default function FourTipsOnChoosingTheRightColourForYourHomePage() {
 
                   <figure className="relative my-8 aspect-[3/2] w-full overflow-hidden">
                     <Image
-                      src="https://prioritycoatings.com.au/wp-content/uploads/2016/05/43944141_l1.jpg"
+                      src="/images/43944141_l1.jpg"
                       alt="Color combination, residential painting, interior colors"
                       fill
                       className="object-cover"
@@ -152,7 +152,7 @@ export default function FourTipsOnChoosingTheRightColourForYourHomePage() {
 
                   <figure className="relative my-8 aspect-[3/2] w-full overflow-hidden">
                     <Image
-                      src="https://www.prioritycoatings.com.au/wp-content/uploads/2017/11/choose-colour-palette.jpg"
+                      src="/images/choose-colour-palette.jpg"
                       alt="Choosing a colour palette for your home"
                       fill
                       className="object-cover"

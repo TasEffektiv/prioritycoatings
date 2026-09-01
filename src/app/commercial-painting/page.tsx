@@ -15,15 +15,15 @@ export const metadata: Metadata = {
 };
 
 const HERO_SLIDES = [
-  "https://prioritycoatings.com.au/wp-content/uploads/2022/09/1744172_l-min.jpg",
-  "https://prioritycoatings.com.au/wp-content/uploads/2022/09/5571529_l-min.jpg",
+  "/images/1744172_l-min.jpg",
+  "/images/5571529_l-min.jpg",
 ];
 
 const RELATED_WORKS_GALLERY = [
-  "https://www.prioritycoatings.com.au/wp-content/uploads/2022/09/commercial-property.jpg",
-  "https://www.prioritycoatings.com.au/wp-content/uploads/2022/09/commercial-property-2018.jpg",
-  "https://www.prioritycoatings.com.au/wp-content/uploads/2022/09/commercial-property-painting.jpg",
-  "https://www.prioritycoatings.com.au/wp-content/uploads/2022/09/commercial-property-sydney-1.jpg",
+  "/images/commercial-property.jpg",
+  "/images/commercial-property-2018.jpg",
+  "/images/commercial-property-painting.jpg",
+  "/images/commercial-property-sydney-1.jpg",
 ];
 
 const SERVICES_COLUMNS = [
@@ -196,7 +196,7 @@ export default function CommercialPaintingPage() {
           className="relative bg-[#143049] bg-cover bg-[top_left] bg-no-repeat bg-blend-multiply"
           style={{
             backgroundImage:
-              "url(https://www.prioritycoatings.com.au/wp-content/uploads/2022/04/lead-paint.jpg)",
+              "url(/images/lead-paint.jpg)",
           }}
         >
           <div className="mx-auto max-w-[1400px] px-6 pt-14 pb-28 text-center sm:pt-16 sm:pb-40 lg:pt-20 lg:pb-56">
@@ -356,7 +356,7 @@ export default function CommercialPaintingPage() {
               className="relative overflow-hidden bg-cover bg-center py-16 sm:py-20 lg:py-24"
               style={{
                 backgroundImage:
-                  "linear-gradient(rgba(0,57,109,0.89), rgba(0,57,109,0.89)), url(https://www.prioritycoatings.com.au/wp-content/uploads/2023/07/painters-in-sydney.jpg)",
+                  "linear-gradient(rgba(0,57,109,0.89), rgba(0,57,109,0.89)), url(/images/painters-in-sydney.jpg)",
               }}
             >
               <div className="mx-auto flex max-w-[1400px] flex-col items-center justify-center gap-8 px-6 text-center">
@@ -379,7 +379,7 @@ export default function CommercialPaintingPage() {
           className="relative flex items-center overflow-hidden bg-[#003c73] bg-[length:65%_100%] bg-[top_left] bg-no-repeat lg:min-h-[700px]"
           style={{
             backgroundImage:
-              "url(https://www.prioritycoatings.com.au/wp-content/uploads/2022/09/commercial-sca-folding-image.jpg)",
+              "url(/images/commercial-sca-folding-image.jpg)",
           }}
         >
           <div className="mx-auto flex w-full max-w-[1400px] justify-end px-6 py-16 lg:py-24">
@@ -462,7 +462,7 @@ export default function CommercialPaintingPage() {
                 className="pointer-events-none absolute inset-0 bg-cover bg-center opacity-[0.11]"
                 style={{
                   backgroundImage:
-                    "url(https://www.prioritycoatings.com.au/wp-content/uploads/2023/07/painters-in-sydney.jpg)",
+                    "url(/images/painters-in-sydney.jpg)",
                 }}
               />
               <div className="relative mx-auto max-w-[1400px] px-6">

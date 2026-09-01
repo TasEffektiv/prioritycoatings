@@ -83,7 +83,7 @@ export default function HowToCleanPaintedWallsPage() {
 
                 <div className="relative mt-6 aspect-[16/9] w-full overflow-hidden">
                   <Image
-                    src="https://www.prioritycoatings.com.au/wp-content/uploads/2024/01/hand-in-a-rubber-yellow-glove-wipes-a-chalked-heart-on-a-wall-with-a-sponge.jpg"
+                    src="/images/hand-in-a-rubber-yellow-glove-wipes-a-chalked-heart-on-a-wall-with-a-sponge.jpg"
                     alt="Hand in a rubber yellow glove wipes a chalked heart on a wall with a sponge"
                     fill
                     priority

@@ -83,7 +83,7 @@ export default function WaterproofingCommercialBuildingsPage() {
 
                 <div className="relative mt-6 aspect-[16/9] w-full overflow-hidden">
                   <Image
-                    src="https://www.prioritycoatings.com.au/wp-content/uploads/2025/02/waterproofing-commercial-buildings.jpg"
+                    src="/images/waterproofing-commercial-buildings.jpg"
                     alt="Waterproofing commercial buildings"
                     fill
                     priority

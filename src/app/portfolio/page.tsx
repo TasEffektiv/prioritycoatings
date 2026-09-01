@@ -12,22 +12,22 @@ export const metadata: Metadata = {
 const CATEGORIES = [
   {
     title: "Commercial",
-    img: "https://www.prioritycoatings.com.au/wp-content/uploads/2022/09/commercial-2013.jpg",
+    img: "/images/commercial-2013.jpg",
     href: "/recent-commercial-projects/",
   },
   {
     title: "Residential",
-    img: "https://www.prioritycoatings.com.au/wp-content/uploads/2022/09/house-painting-sydney.jpg",
+    img: "/images/house-painting-sydney.jpg",
     href: "/recent-residential-projects/",
   },
   {
     title: "Strata",
-    img: "https://www.prioritycoatings.com.au/wp-content/uploads/2022/09/strata-painting.jpg",
+    img: "/images/strata-painting.jpg",
     href: "/recent-strata-projects/",
   },
   {
     title: "Lead Removal",
-    img: "https://www.prioritycoatings.com.au/wp-content/uploads/2022/09/lead-removing-repainting.jpg",
+    img: "/images/lead-removing-repainting.jpg",
     href: "/recent-lead-removal-projects/",
   },
 ];

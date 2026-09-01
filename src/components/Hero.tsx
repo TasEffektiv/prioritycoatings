@@ -1,8 +1,8 @@
 import QuoteForm from "./QuoteForm";
 
 const SLIDES = [
-  "https://prioritycoatings.com.au/wp-content/uploads/2022/04/banner-one.jpg",
-  "https://prioritycoatings.com.au/wp-content/uploads/2022/04/banner-three.jpg",
+  "/images/banner-one.jpg",
+  "/images/banner-three.jpg",
 ];
 
 export default function Hero() {

@@ -83,7 +83,7 @@ export default function HowToRemoveWaterStainsFromWallsAndCeilingsPage() {
 
                 <div className="relative mt-6 aspect-[16/9] w-full overflow-hidden">
                   <Image
-                    src="https://www.prioritycoatings.com.au/wp-content/uploads/2023/02/water-stain-on-walls-and-ceilings.png"
+                    src="/images/water-stain-on-walls-and-ceilings.png"
                     alt="Water stain on walls and ceilings"
                     fill
                     priority
@@ -116,7 +116,7 @@ export default function HowToRemoveWaterStainsFromWallsAndCeilingsPage() {
 
                   <figure className="relative my-8 aspect-[9/5] w-full overflow-hidden">
                     <Image
-                      src="https://www.prioritycoatings.com.au/wp-content/uploads/2023/02/water-causing-damage-peeling-paint-and-mildew.jpg"
+                      src="/images/water-causing-damage-peeling-paint-and-mildew.jpg"
                       alt="Water damage causing peeling paint and mildew"
                       fill
                       className="object-cover"
@@ -163,7 +163,7 @@ export default function HowToRemoveWaterStainsFromWallsAndCeilingsPage() {
 
                   <figure className="relative my-8 aspect-[9/5] w-full overflow-hidden">
                     <Image
-                      src="https://www.prioritycoatings.com.au/wp-content/uploads/2023/02/water-leak-damaged-ceiling-and-stain-on-the-ceiling.jpg"
+                      src="/images/water-leak-damaged-ceiling-and-stain-on-the-ceiling.jpg"
                       alt="Water leak damaged ceiling and stain on the ceiling"
                       fill
                       className="object-cover"
@@ -236,7 +236,7 @@ export default function HowToRemoveWaterStainsFromWallsAndCeilingsPage() {
 
                   <figure className="relative my-8 aspect-[937/912] w-full max-w-[500px] overflow-hidden">
                     <Image
-                      src="https://www.prioritycoatings.com.au/wp-content/uploads/2023/02/tips-to-remove-water-stain-blog-image-napkin.ai_.png"
+                      src="/images/tips-to-remove-water-stain-blog-image-napkin.ai_.png"
                       alt="Tips to remove water stains from walls and ceilings"
                       fill
                       className="object-cover"
@@ -277,7 +277,7 @@ export default function HowToRemoveWaterStainsFromWallsAndCeilingsPage() {
                   <Link href="/5-essential-tools-you-need-to-paint-your-house/">
                     <figure className="relative my-8 aspect-[1024/239] w-full overflow-hidden">
                       <Image
-                        src="https://www.prioritycoatings.com.au/wp-content/uploads/2023/02/essential-tools-for-house-painting-banner-1-1024x239.jpg"
+                        src="/images/essential-tools-for-house-painting-banner-1-1024x239.jpg"
                         alt="Essential tools for house painting"
                         fill
                         className="object-cover"
@@ -314,7 +314,7 @@ export default function HowToRemoveWaterStainsFromWallsAndCeilingsPage() {
                   <Link href="/tips-on-choosing-a-licensed-house-painter-within-sydney/">
                     <figure className="relative my-8 aspect-[1024/237] w-full overflow-hidden">
                       <Image
-                        src="https://www.prioritycoatings.com.au/wp-content/uploads/2023/02/choosing-a-licensed-house-painter-banner-1024x237.jpg"
+                        src="/images/choosing-a-licensed-house-painter-banner-1024x237.jpg"
                         alt="How to choose a licensed house painter"
                         fill
                         className="object-cover"

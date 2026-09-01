@@ -83,7 +83,7 @@ export default function SavingOnHousePaintingCostsPage() {
 
                 <div className="relative mt-6 aspect-[2240/1260] w-full overflow-hidden">
                   <Image
-                    src="https://www.prioritycoatings.com.au/wp-content/uploads/2025/09/saving-on-house-painting-costs-blog-banner.jpg"
+                    src="/images/saving-on-house-painting-costs-blog-banner.jpg"
                     alt="Saving on house painting costs blog banner"
                     fill
                     priority
@@ -168,7 +168,7 @@ export default function SavingOnHousePaintingCostsPage() {
 
                   <figure className="relative my-8 aspect-[1024/511] w-full overflow-hidden">
                     <Image
-                      src="https://www.prioritycoatings.com.au/wp-content/uploads/2025/09/female-painter-paints-the-wall-of-the-facade-of-a-building-while-standing-on-the-stairs-1024x511.jpg"
+                      src="/images/female-painter-paints-the-wall-of-the-facade-of-a-building-while-standing-on-the-stairs-1024x511.jpg"
                       alt="Female painter paints the wall of the facade of a building while standing on the stairs"
                       fill
                       className="object-cover"
@@ -232,7 +232,7 @@ export default function SavingOnHousePaintingCostsPage() {
 
                   <figure className="relative my-8 aspect-[1024/479] w-full overflow-hidden">
                     <Image
-                      src="https://www.prioritycoatings.com.au/wp-content/uploads/2025/09/painter-in-gloves-holding-painting-roller-1024x479.jpg"
+                      src="/images/painter-in-gloves-holding-painting-roller-1024x479.jpg"
                       alt="Painter in gloves holding painting roller"
                       fill
                       className="object-cover"

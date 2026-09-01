@@ -83,7 +83,7 @@ export default function EfflorescenceInMasonryPage() {
 
                 <div className="relative mt-6 aspect-[16/9] w-full overflow-hidden">
                   <Image
-                    src="https://www.prioritycoatings.com.au/wp-content/uploads/2025/04/white-texture-brick-wall.jpg"
+                    src="/images/white-texture-brick-wall.jpg"
                     alt="white texture brick wall"
                     fill
                     priority

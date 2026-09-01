@@ -83,7 +83,7 @@ export default function HowToFixFlakyCeilingPage() {
 
                 <div className="relative mt-6 aspect-[16/9] w-full overflow-hidden">
                   <Image
-                    src="https://www.prioritycoatings.com.au/wp-content/uploads/2024/12/smoothing-a-peeling-ceiling-with-spatula.jpg"
+                    src="/images/smoothing-a-peeling-ceiling-with-spatula.jpg"
                     alt="Smoothing a peeling ceiling with spatula"
                     fill
                     priority

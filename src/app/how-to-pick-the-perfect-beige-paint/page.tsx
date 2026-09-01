@@ -83,7 +83,7 @@ export default function HowToPickThePerfectBeigePaintPage() {
 
                 <div className="relative mt-6 aspect-[16/9] w-full overflow-hidden">
                   <Image
-                    src="https://www.prioritycoatings.com.au/wp-content/uploads/2024/08/pick-the-perfect-beige-paint-blog-banner-1.jpg"
+                    src="/images/pick-the-perfect-beige-paint-blog-banner-1.jpg"
                     alt="pick the perfect beige paint blog banner"
                     fill
                     priority

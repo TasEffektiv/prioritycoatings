@@ -83,7 +83,7 @@ export default function TipsForPaintingYourFencePage() {
 
                 <div className="relative mt-6 aspect-[16/9] w-full overflow-hidden">
                   <Image
-                    src="https://www.prioritycoatings.com.au/wp-content/uploads/2024/11/planks-fence-dyeing-with-brown-paint-and-brush.jpg"
+                    src="/images/planks-fence-dyeing-with-brown-paint-and-brush.jpg"
                     alt="Planks fence dyeing with brown paint and brush"
                     fill
                     priority

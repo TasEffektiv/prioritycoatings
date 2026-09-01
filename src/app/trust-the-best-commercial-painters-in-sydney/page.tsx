@@ -83,7 +83,7 @@ export default function TrustTheBestCommercialPaintersInSydneyPage() {
 
                 <div className="relative mt-6 aspect-[16/9] w-full overflow-hidden">
                   <Image
-                    src="https://www.prioritycoatings.com.au/wp-content/uploads/2023/04/best-commercial-painters-sydney-blog-banner.jpg"
+                    src="/images/best-commercial-painters-sydney-blog-banner.jpg"
                     alt="best commercial painters in Sydney blog banner"
                     fill
                     priority

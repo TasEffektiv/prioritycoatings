@@ -83,7 +83,7 @@ export default function DrywallRepairTipsPage() {
 
                 <div className="relative mt-6 aspect-[16/9] w-full overflow-hidden">
                   <Image
-                    src="https://www.prioritycoatings.com.au/wp-content/uploads/2024/09/construction-worker-plastering-on-gypsum-walls.jpg"
+                    src="/images/construction-worker-plastering-on-gypsum-walls.jpg"
                     alt="Construction worker plastering on gypsum walls"
                     fill
                     priority

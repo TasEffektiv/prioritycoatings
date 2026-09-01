@@ -83,7 +83,7 @@ export default function HowToPaintCommercialBuildingPage() {
 
                 <div className="relative mt-6 aspect-[16/9] w-full overflow-hidden">
                   <Image
-                    src="https://www.prioritycoatings.com.au/wp-content/uploads/2022/11/paint-commercial-building.jpg"
+                    src="/images/paint-commercial-building.jpg"
                     alt="Paint commercial building"
                     fill
                     priority
@@ -161,7 +161,7 @@ export default function HowToPaintCommercialBuildingPage() {
 
                   <figure className="relative my-8 aspect-[3/2] w-full overflow-hidden">
                     <Image
-                      src="https://www.prioritycoatings.com.au/wp-content/uploads/2022/11/interior-commercial-building-painting.jpg"
+                      src="/images/interior-commercial-building-painting.jpg"
                       alt="Interior commercial building painting"
                       fill
                       className="object-cover"
@@ -221,7 +221,7 @@ export default function HowToPaintCommercialBuildingPage() {
 
                   <figure className="relative my-8 aspect-[3/2] w-full overflow-hidden">
                     <Image
-                      src="https://www.prioritycoatings.com.au/wp-content/uploads/2022/11/exterior-commercial-building-painting.jpg"
+                      src="/images/exterior-commercial-building-painting.jpg"
                       alt="Exterior commercial building painting"
                       fill
                       className="object-cover"

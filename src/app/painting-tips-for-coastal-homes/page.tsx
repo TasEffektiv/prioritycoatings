@@ -83,7 +83,7 @@ export default function PaintingTipsForCoastalHomesPage() {
 
                 <div className="relative mt-6 aspect-[16/9] w-full overflow-hidden">
                   <Image
-                    src="https://www.prioritycoatings.com.au/wp-content/uploads/2025/10/residential-houses-bunbury-australia.jpg"
+                    src="/images/residential-houses-bunbury-australia.jpg"
                     alt="Residential houses Bunbury Australia"
                     fill
                     priority
@@ -153,7 +153,7 @@ export default function PaintingTipsForCoastalHomesPage() {
 
                   <figure className="relative my-8 aspect-[1024/626] w-full overflow-hidden">
                     <Image
-                      src="https://www.prioritycoatings.com.au/wp-content/uploads/2025/10/handyman-painting-the-exterior-wall-of-the-house-1024x626.jpg"
+                      src="/images/handyman-painting-the-exterior-wall-of-the-house-1024x626.jpg"
                       alt="Handyman painting the exterior wall of the house"
                       fill
                       className="object-cover"
@@ -224,7 +224,7 @@ export default function PaintingTipsForCoastalHomesPage() {
 
                   <figure className="relative my-8 aspect-[1024/578] w-full overflow-hidden">
                     <Image
-                      src="https://www.prioritycoatings.com.au/wp-content/uploads/2025/10/house-painter-wearing-facial-protection-spray-painting-a-deck-1024x578.jpg"
+                      src="/images/house-painter-wearing-facial-protection-spray-painting-a-deck-1024x578.jpg"
                       alt="House painter wearing facial protection spray painting a deck"
                       fill
                       className="object-cover"
@@ -298,7 +298,7 @@ export default function PaintingTipsForCoastalHomesPage() {
 
                   <figure className="relative my-8 aspect-[1024/577] w-full overflow-hidden">
                     <Image
-                      src="https://www.prioritycoatings.com.au/wp-content/uploads/2025/10/house-with-maple-and-amazing-water-view-1024x577.jpg"
+                      src="/images/house-with-maple-and-amazing-water-view-1024x577.jpg"
                       alt="House with maple and amazing water view"
                       fill
                       className="object-cover"

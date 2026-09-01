@@ -83,7 +83,7 @@ export default function ExtendTheLifespanOfCommercialPaintJobPage() {
 
                 <div className="relative mt-6 aspect-[16/9] w-full overflow-hidden">
                   <Image
-                    src="https://www.prioritycoatings.com.au/wp-content/uploads/2023/12/room-with-pendant-lamps-and-rectangular-dining-set.jpg"
+                    src="/images/room-with-pendant-lamps-and-rectangular-dining-set.jpg"
                     alt="Room with pendant lamps and rectangular dining set"
                     fill
                     priority

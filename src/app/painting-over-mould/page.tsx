@@ -83,7 +83,7 @@ export default function PaintingOverMouldPage() {
 
                 <div className="relative mt-6 aspect-[16/9] w-full overflow-hidden">
                   <Image
-                    src="https://www.prioritycoatings.com.au/wp-content/uploads/2024/01/painting-over-mould-blog-banner.jpg"
+                    src="/images/painting-over-mould-blog-banner.jpg"
                     alt="Painting over mould blog banner"
                     fill
                     priority
@@ -120,7 +120,7 @@ export default function PaintingOverMouldPage() {
 
                   <figure className="relative my-8 aspect-[3/2] w-full overflow-hidden">
                     <Image
-                      src="https://www.prioritycoatings.com.au/wp-content/uploads/2024/01/hands-of-a-woman-pointing-at-fungus-on-the-ceiling-caused-by-water-leaks.jpg"
+                      src="/images/hands-of-a-woman-pointing-at-fungus-on-the-ceiling-caused-by-water-leaks.jpg"
                       alt="Hands of a woman pointing at fungus on the ceiling caused by water leaks"
                       fill
                       className="object-cover"
@@ -144,7 +144,7 @@ export default function PaintingOverMouldPage() {
 
                   <figure className="relative my-8 aspect-[3/2] w-full overflow-hidden">
                     <Image
-                      src="https://www.prioritycoatings.com.au/wp-content/uploads/2024/01/black-mold-buildup-in-the-corner-of-an-old-house-under-the-wallpaper.jpg"
+                      src="/images/black-mold-buildup-in-the-corner-of-an-old-house-under-the-wallpaper.jpg"
                       alt="Black mold buildup in the corner of an old house under the wallpaper"
                       fill
                       className="object-cover"
@@ -180,7 +180,7 @@ export default function PaintingOverMouldPage() {
 
                   <figure className="relative my-8 aspect-[3/2] w-full overflow-hidden">
                     <Image
-                      src="https://www.prioritycoatings.com.au/wp-content/uploads/2024/01/hand-with-brush-cleaning-mold-on-wall.jpg"
+                      src="/images/hand-with-brush-cleaning-mold-on-wall.jpg"
                       alt="Hand with brush cleaning mold on wall"
                       fill
                       className="object-cover"
@@ -218,7 +218,7 @@ export default function PaintingOverMouldPage() {
 
                   <figure className="relative my-8 aspect-[3/2] w-full overflow-hidden">
                     <Image
-                      src="https://www.prioritycoatings.com.au/wp-content/uploads/2024/01/woman-hand-with-palette-knife-or-scraper-and-cement-filling-for-house-renovation.jpg"
+                      src="/images/woman-hand-with-palette-knife-or-scraper-and-cement-filling-for-house-renovation.jpg"
                       alt="Woman hand with palette knife or scraper and cement filling for house renovation"
                       fill
                       className="object-cover"
@@ -262,7 +262,7 @@ export default function PaintingOverMouldPage() {
 
                   <figure className="relative my-8 aspect-[3/2] w-full overflow-hidden">
                     <Image
-                      src="https://www.prioritycoatings.com.au/wp-content/uploads/2024/01/worker-man-painter-paints-the-wall-with-beige-paint-with-a-roller.jpg"
+                      src="/images/worker-man-painter-paints-the-wall-with-beige-paint-with-a-roller.jpg"
                       alt="Worker man painter paints the wall with beige paint with a roller"
                       fill
                       className="object-cover"

@@ -15,10 +15,10 @@ export const metadata: Metadata = {
 };
 
 const RELATED_WORKS_GALLERY = [
-  "https://www.prioritycoatings.com.au/wp-content/uploads/2022/09/lead-paint-removal-and-repaint.jpg",
-  "https://www.prioritycoatings.com.au/wp-content/uploads/2022/09/lead-removal-repainting.jpg",
-  "https://www.prioritycoatings.com.au/wp-content/uploads/2022/09/lead-removing-and-repainting.jpg",
-  "https://www.prioritycoatings.com.au/wp-content/uploads/2022/09/lead-removing-repainting-3.jpg",
+  "/images/lead-paint-removal-and-repaint.jpg",
+  "/images/lead-removal-repainting.jpg",
+  "/images/lead-removing-and-repainting.jpg",
+  "/images/lead-removing-repainting-3.jpg",
 ];
 
 const SERVICES_LIST = [
@@ -126,7 +126,7 @@ export default function LeadPaintRemovalPage() {
           className="relative bg-[#143049] bg-cover bg-[top_left] bg-no-repeat bg-blend-multiply"
           style={{
             backgroundImage:
-              "url(https://www.prioritycoatings.com.au/wp-content/uploads/2022/04/lead-paint.jpg)",
+              "url(/images/lead-paint.jpg)",
           }}
         >
           <div className="mx-auto max-w-[1400px] px-6 pt-14 pb-28 text-center sm:pt-16 sm:pb-40 lg:pt-20 lg:pb-56">
@@ -148,7 +148,7 @@ export default function LeadPaintRemovalPage() {
                 className="absolute inset-0 bg-cover bg-center"
                 style={{
                   backgroundImage:
-                    "url(https://prioritycoatings.com.au/wp-content/uploads/2022/09/lead-removing-repainting-2.jpg)",
+                    "url(/images/lead-removing-repainting-2.jpg)",
                 }}
               />
               <div className="absolute inset-0 bg-black/30" />
@@ -250,7 +250,7 @@ export default function LeadPaintRemovalPage() {
               className="relative overflow-hidden bg-cover bg-center py-16 sm:py-20 lg:py-24"
               style={{
                 backgroundImage:
-                  "linear-gradient(rgba(0,57,109,0.89), rgba(0,57,109,0.89)), url(https://www.prioritycoatings.com.au/wp-content/uploads/2023/07/painters-in-sydney.jpg)",
+                  "linear-gradient(rgba(0,57,109,0.89), rgba(0,57,109,0.89)), url(/images/painters-in-sydney.jpg)",
               }}
             >
               <div className="mx-auto flex max-w-[1400px] flex-col items-center justify-center gap-8 px-6 text-center">
@@ -274,7 +274,7 @@ export default function LeadPaintRemovalPage() {
             className="absolute inset-y-0 left-0 hidden w-1/2 bg-cover bg-top lg:block"
             style={{
               backgroundImage:
-                "url(https://www.prioritycoatings.com.au/wp-content/uploads/2022/09/lead-removal-1.jpg)",
+                "url(/images/lead-removal-1.jpg)",
             }}
           />
           <div className="relative mx-auto flex max-w-[1400px] justify-end px-6 py-16 lg:min-h-[700px] lg:py-24">
@@ -349,7 +349,7 @@ export default function LeadPaintRemovalPage() {
                 className="pointer-events-none absolute inset-0 bg-cover bg-center opacity-[0.11]"
                 style={{
                   backgroundImage:
-                    "url(https://www.prioritycoatings.com.au/wp-content/uploads/2023/07/painters-in-sydney.jpg)",
+                    "url(/images/painters-in-sydney.jpg)",
                 }}
               />
               <div className="relative mx-auto max-w-[1400px] px-6">

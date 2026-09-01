@@ -83,7 +83,7 @@ export default function MistakesToAvoidPage() {
 
                 <div className="relative mt-6 aspect-[16/9] w-full overflow-hidden">
                   <Image
-                    src="https://www.prioritycoatings.com.au/wp-content/uploads/2026/03/man-painting-a-wall-with-a-paint-roller.jpg"
+                    src="/images/man-painting-a-wall-with-a-paint-roller.jpg"
                     alt="Man painting a wall with a paint roller"
                     fill
                     priority

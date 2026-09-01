@@ -83,7 +83,7 @@ export default function DuluxColourForecast2026Page() {
 
                 <div className="relative mt-6 aspect-[16/9] w-full overflow-hidden">
                   <Image
-                    src="https://www.prioritycoatings.com.au/wp-content/uploads/2025/11/dulux-colour-forecast-for-2026-blog-banner.jpg"
+                    src="/images/dulux-colour-forecast-for-2026-blog-banner.jpg"
                     alt="Dulux colour forecast for 2026 blog banner"
                     fill
                     priority
@@ -127,7 +127,7 @@ export default function DuluxColourForecast2026Page() {
 
                   <figure className="relative my-8 aspect-[1024/594] w-full overflow-hidden">
                     <Image
-                      src="https://www.prioritycoatings.com.au/wp-content/uploads/2025/11/armchair-in-a-minimalistic-striped-room-flooded-with-natural-light-1024x594.jpg"
+                      src="/images/armchair-in-a-minimalistic-striped-room-flooded-with-natural-light-1024x594.jpg"
                       alt="Armchair in a minimalistic striped room flooded with natural light"
                       fill
                       className="object-cover"
@@ -159,7 +159,7 @@ export default function DuluxColourForecast2026Page() {
 
                   <figure className="relative my-8 aspect-[1024/599] w-full overflow-hidden">
                     <Image
-                      src="https://www.prioritycoatings.com.au/wp-content/uploads/2025/11/man-checks-the-color-of-paint-on-color-fan-1024x599.jpg"
+                      src="/images/man-checks-the-color-of-paint-on-color-fan-1024x599.jpg"
                       alt="Man checks the colour of paint on a colour fan"
                       fill
                       className="object-cover"
@@ -228,7 +228,7 @@ export default function DuluxColourForecast2026Page() {
 
                   <figure className="relative my-8 aspect-[1024/606] w-full overflow-hidden">
                     <Image
-                      src="https://www.prioritycoatings.com.au/wp-content/uploads/2025/11/armchair-near-sofa-and-coffee-table-in-living-room-1024x606.jpg"
+                      src="/images/armchair-near-sofa-and-coffee-table-in-living-room-1024x606.jpg"
                       alt="Armchair near sofa and coffee table in living room"
                       fill
                       className="object-cover"

@@ -83,7 +83,7 @@ export default function UseAccentColoursOnYourHomesExteriorPage() {
 
                 <div className="relative mt-6 aspect-[16/9] w-full overflow-hidden">
                   <Image
-                    src="https://www.prioritycoatings.com.au/wp-content/uploads/2025/04/colorful-houses-on-a-leafy-residential-street.jpg"
+                    src="/images/colorful-houses-on-a-leafy-residential-street.jpg"
                     alt="colorful houses on a leafy residential street"
                     fill
                     priority

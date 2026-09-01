@@ -83,7 +83,7 @@ export default function InnovationsInPaintTechnology2024Page() {
 
                 <div className="relative mt-6 aspect-[16/9] w-full overflow-hidden">
                   <Image
-                    src="https://www.prioritycoatings.com.au/wp-content/uploads/2024/04/paint-technology-innovations-2024-blog-banner.jpg"
+                    src="/images/paint-technology-innovations-2024-blog-banner.jpg"
                     alt="paint technology innovations 2024 blog banner"
                     fill
                     priority

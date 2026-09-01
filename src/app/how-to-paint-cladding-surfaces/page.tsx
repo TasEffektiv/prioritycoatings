@@ -83,7 +83,7 @@ export default function HowToPaintCladdingSurfacesPage() {
 
                 <div className="relative mt-6 aspect-[16/9] w-full overflow-hidden">
                   <Image
-                    src="https://www.prioritycoatings.com.au/wp-content/uploads/2024/03/facade-of-a-regular-size-simple-house.jpg"
+                    src="/images/facade-of-a-regular-size-simple-house.jpg"
                     alt="Facade of a regular size simple house"
                     fill
                     priority
@@ -209,7 +209,7 @@ export default function HowToPaintCladdingSurfacesPage() {
                   <Link href="/contact-us/" className="my-8 block">
                     <span className="relative block aspect-[4/1] w-full overflow-hidden">
                       <Image
-                        src="https://www.prioritycoatings.com.au/wp-content/uploads/2024/03/Professional-Sydney-Painters-1024x256.png"
+                        src="/images/Professional-Sydney-Painters-1024x256.png"
                         alt="Professional Sydney Painters"
                         fill
                         className="object-cover"

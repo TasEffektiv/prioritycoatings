@@ -83,7 +83,7 @@ export default function TopPaintingFaqsPage() {
 
                 <div className="relative mt-6 aspect-[16/9] w-full overflow-hidden">
                   <Image
-                    src="https://www.prioritycoatings.com.au/wp-content/uploads/2026/03/common-faqs-blog-banner.jpg"
+                    src="/images/common-faqs-blog-banner.jpg"
                     alt="Common painting FAQs blog banner"
                     fill
                     priority

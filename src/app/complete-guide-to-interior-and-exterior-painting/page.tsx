@@ -149,7 +149,7 @@ export default function CompleteGuideInteriorExteriorPage() {
 
                 <div className="relative mt-6 aspect-[16/9] w-full overflow-hidden">
                   <Image
-                    src="https://www.prioritycoatings.com.au/wp-content/uploads/2026/01/residential-houses-at-battery-point-in-hobart-australia.jpg"
+                    src="/images/residential-houses-at-battery-point-in-hobart-australia.jpg"
                     alt="Residential houses at Battery Point in Hobart, Australia"
                     fill
                     priority
@@ -236,7 +236,7 @@ export default function CompleteGuideInteriorExteriorPage() {
 
                   <figure className="relative my-8 aspect-[1024/589] w-full overflow-hidden">
                     <Image
-                      src="https://www.prioritycoatings.com.au/wp-content/uploads/2026/01/open-plan-living-room-kitchen-contemporary-home-with-grey-sofa-1024x589.jpg"
+                      src="/images/open-plan-living-room-kitchen-contemporary-home-with-grey-sofa-1024x589.jpg"
                       alt="Open-plan living room and kitchen in a contemporary home with a grey sofa"
                       fill
                       className="object-cover"
@@ -321,7 +321,7 @@ export default function CompleteGuideInteriorExteriorPage() {
 
                   <figure className="relative my-8 aspect-[1024/593] w-full overflow-hidden">
                     <Image
-                      src="https://www.prioritycoatings.com.au/wp-content/uploads/2026/01/beautiful-modern-house-exterior-with-green-grass-1024x593.jpg"
+                      src="/images/beautiful-modern-house-exterior-with-green-grass-1024x593.jpg"
                       alt="Beautiful modern house exterior with green grass"
                       fill
                       className="object-cover"
@@ -409,7 +409,7 @@ export default function CompleteGuideInteriorExteriorPage() {
 
                   <figure className="relative my-8 aspect-[1024/574] w-full overflow-hidden">
                     <Image
-                      src="https://www.prioritycoatings.com.au/wp-content/uploads/2026/01/painting-tools-roller-paint-bucket-and-paintbrush-in-a-natural-light-1024x574.jpg"
+                      src="/images/painting-tools-roller-paint-bucket-and-paintbrush-in-a-natural-light-1024x574.jpg"
                       alt="Painting tools — roller, paint bucket and paintbrush — in natural light"
                       fill
                       className="object-cover"
@@ -481,7 +481,7 @@ export default function CompleteGuideInteriorExteriorPage() {
 
                   <figure className="relative my-8 aspect-[1024/539] w-full overflow-hidden">
                     <Image
-                      src="https://www.prioritycoatings.com.au/wp-content/uploads/2026/01/young-girl-paints-a-wooden-wall-with-a-roller-with-yellow-paint-1024x539.jpg"
+                      src="/images/young-girl-paints-a-wooden-wall-with-a-roller-with-yellow-paint-1024x539.jpg"
                       alt="Young girl paints a wooden wall with a roller and yellow paint"
                       fill
                       className="object-cover"
@@ -537,7 +537,7 @@ export default function CompleteGuideInteriorExteriorPage() {
 
                   <figure className="relative my-8 aspect-[1024/613] w-full overflow-hidden">
                     <Image
-                      src="https://www.prioritycoatings.com.au/wp-content/uploads/2026/01/before-and-after-living-room-renovation-with-beige-furniture-replaced-by-modern-interior-1024x613.jpg"
+                      src="/images/before-and-after-living-room-renovation-with-beige-furniture-replaced-by-modern-interior-1024x613.jpg"
                       alt="Before and after living room renovation with beige furniture replaced by a modern interior"
                       fill
                       className="object-cover"

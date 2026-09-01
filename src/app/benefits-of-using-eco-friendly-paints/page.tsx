@@ -83,7 +83,7 @@ export default function BenefitsOfUsingEcoFriendlyPaintsPage() {
 
                 <div className="relative mt-6 aspect-[16/9] w-full overflow-hidden">
                   <Image
-                    src="https://www.prioritycoatings.com.au/wp-content/uploads/2024/04/eco-friendly-paints-blog-banner.jpg"
+                    src="/images/eco-friendly-paints-blog-banner.jpg"
                     alt="Eco-friendly paints blog banner"
                     fill
                     priority

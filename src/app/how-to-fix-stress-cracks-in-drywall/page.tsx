@@ -83,7 +83,7 @@ export default function HowToFixStressCracksInDrywallPage() {
 
                 <div className="relative mt-6 aspect-[16/9] w-full overflow-hidden">
                   <Image
-                    src="https://www.prioritycoatings.com.au/wp-content/uploads/2025/06/cracked-wall-next-to-door-frame.jpg"
+                    src="/images/cracked-wall-next-to-door-frame.jpg"
                     alt="cracked wall next to door frame"
                     fill
                     priority
@@ -177,7 +177,7 @@ export default function HowToFixStressCracksInDrywallPage() {
 
                   <figure className="relative my-8 aspect-[3/2] w-full overflow-hidden">
                     <Image
-                      src="https://www.prioritycoatings.com.au/wp-content/uploads/2025/06/crack-in-a-wall.jpg"
+                      src="/images/crack-in-a-wall.jpg"
                       alt="Crack in a wall"
                       fill
                       className="object-cover"

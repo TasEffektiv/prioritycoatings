@@ -83,7 +83,7 @@ export default function PaintOverTheStainedWoodPage() {
 
                 <div className="relative mt-6 aspect-[1351/900] w-full overflow-hidden">
                   <Image
-                    src="https://www.prioritycoatings.com.au/wp-content/uploads/2025/08/hand-painting-blue-color-on-wooden-table.jpg"
+                    src="/images/hand-painting-blue-color-on-wooden-table.jpg"
                     alt="Hand painting blue colour on wooden table"
                     fill
                     priority

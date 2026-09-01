@@ -92,7 +92,7 @@ export default function PrepareCommercialBuildingsSurfacesForPaintingPage() {
 
                 <div className="relative mt-6 aspect-[16/9] w-full overflow-hidden">
                   <Image
-                    src="https://www.prioritycoatings.com.au/wp-content/uploads/2026/08/prepare-commercial-buildings-surfaces-for-painting-chatGPT-image-1.jpg"
+                    src="/images/prepare-commercial-buildings-surfaces-for-painting-chatGPT-image-1.jpg"
                     alt="Prepare commercial buildings surfaces for painting chatGPT image"
                     fill
                     priority
@@ -152,7 +152,7 @@ export default function PrepareCommercialBuildingsSurfacesForPaintingPage() {
 
                   <figure className="relative my-8 aspect-[3/2] w-full overflow-hidden">
                     <Image
-                      src="https://www.prioritycoatings.com.au/wp-content/uploads/2026/03/interior-of-the-apartment-without-decoration-in-gray-colors-rough-finish.jpg"
+                      src="/images/interior-of-the-apartment-without-decoration-in-gray-colors-rough-finish.jpg"
                       alt="Interior of the apartment without decoration in gray colours rough finish"
                       fill
                       className="object-cover"
@@ -218,7 +218,7 @@ export default function PrepareCommercialBuildingsSurfacesForPaintingPage() {
 
                   <figure className="relative my-8 aspect-[3/2] w-full overflow-hidden">
                     <Image
-                      src="https://www.prioritycoatings.com.au/wp-content/uploads/2026/03/painted-wall-old-peeling-paint-textured-background.jpg"
+                      src="/images/painted-wall-old-peeling-paint-textured-background.jpg"
                       alt="Painted wall old peeling paint textured background"
                       fill
                       className="object-cover"
@@ -273,7 +273,7 @@ export default function PrepareCommercialBuildingsSurfacesForPaintingPage() {
 
                   <figure className="relative my-8 aspect-[3/2] w-full overflow-hidden">
                     <Image
-                      src="https://www.prioritycoatings.com.au/wp-content/uploads/2026/03/painting-the-street-wall-with-a-roller-with-gray-paint.jpg"
+                      src="/images/painting-the-street-wall-with-a-roller-with-gray-paint.jpg"
                       alt="Painting the street wall with a roller with gray paint"
                       fill
                       className="object-cover"
@@ -333,7 +333,7 @@ export default function PrepareCommercialBuildingsSurfacesForPaintingPage() {
 
                   <figure className="relative my-8 aspect-[3/2] w-full overflow-hidden">
                     <Image
-                      src="https://www.prioritycoatings.com.au/wp-content/uploads/2026/03/two-builders-on-safety-scaffolding-make-yellow-decorative-plaster-on-the-wall.jpg"
+                      src="/images/two-builders-on-safety-scaffolding-make-yellow-decorative-plaster-on-the-wall.jpg"
                       alt="Two builders on safety scaffolding make yellow decorative plaster on the wall"
                       fill
                       className="object-cover"
@@ -451,7 +451,7 @@ export default function PrepareCommercialBuildingsSurfacesForPaintingPage() {
 
                   <figure className="relative my-8 aspect-[3/2] w-full overflow-hidden">
                     <Image
-                      src="https://www.prioritycoatings.com.au/wp-content/uploads/2026/03/construction-of-a-new-strip-shopping-center.jpg"
+                      src="/images/construction-of-a-new-strip-shopping-center.jpg"
                       alt="Construction of a new shopping center"
                       fill
                       className="object-cover"

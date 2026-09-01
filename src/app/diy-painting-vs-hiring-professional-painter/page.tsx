@@ -83,7 +83,7 @@ export default function DiyPaintingVsHiringProfessionalPainterPage() {
 
                 <div className="relative mt-6 aspect-[16/9] w-full overflow-hidden">
                   <Image
-                    src="https://www.prioritycoatings.com.au/wp-content/uploads/2023/11/diy-painting-vs-hiring-professional-painter-blog-banner.jpg"
+                    src="/images/diy-painting-vs-hiring-professional-painter-blog-banner.jpg"
                     alt="DIY painting vs hiring professional painter blog banner"
                     fill
                     priority

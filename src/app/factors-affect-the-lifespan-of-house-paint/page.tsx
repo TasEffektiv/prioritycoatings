@@ -83,7 +83,7 @@ export default function FactorsAffectTheLifespanOfHousePaintPage() {
 
                 <div className="relative mt-6 aspect-[16/9] w-full overflow-hidden">
                   <Image
-                    src="https://www.prioritycoatings.com.au/wp-content/uploads/2024/12/brown-and-white-concrete-house.jpg"
+                    src="/images/brown-and-white-concrete-house.jpg"
                     alt="Brown and white concrete house"
                     fill
                     priority

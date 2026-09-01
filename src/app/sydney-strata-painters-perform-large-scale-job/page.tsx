@@ -83,7 +83,7 @@ export default function SydneyStrataPaintersPerformLargeScaleJobPage() {
 
                 <div className="relative mt-6 aspect-[16/9] w-full overflow-hidden">
                   <Image
-                    src="https://www.prioritycoatings.com.au/wp-content/uploads/2023/03/strata-building-blog-banner.jpg"
+                    src="/images/strata-building-blog-banner.jpg"
                     alt="Strata building in Sydney"
                     fill
                     priority

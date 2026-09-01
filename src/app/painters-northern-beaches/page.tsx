@@ -47,7 +47,7 @@ export default function PaintersNorthernBeachesPage() {
           className="relative bg-[#143049] bg-cover bg-[top_left] bg-no-repeat bg-blend-multiply"
           style={{
             backgroundImage:
-              "url(https://www.prioritycoatings.com.au/wp-content/uploads/2022/04/lead-paint.jpg)",
+              "url(/images/lead-paint.jpg)",
           }}
         >
           <div className="mx-auto max-w-[1400px] px-6 py-16 text-center sm:py-20 lg:py-24">

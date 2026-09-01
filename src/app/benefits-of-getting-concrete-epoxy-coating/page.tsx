@@ -83,7 +83,7 @@ export default function BenefitsOfGettingConcreteEpoxyCoatingPage() {
 
                 <div className="relative mt-6 aspect-[16/9] w-full overflow-hidden">
                   <Image
-                    src="https://www.prioritycoatings.com.au/wp-content/uploads/2024/06/garage-with-concrete-ceiling-flooring-scaled.jpg"
+                    src="/images/garage-with-concrete-ceiling-flooring-scaled.jpg"
                     alt="Garage with concrete ceiling flooring"
                     fill
                     priority

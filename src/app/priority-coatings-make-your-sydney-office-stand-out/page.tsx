@@ -83,7 +83,7 @@ export default function PriorityCoatingsMakeYourSydneyOfficeStandOutPage() {
 
                 <div className="relative mt-6 aspect-[16/9] w-full overflow-hidden">
                   <Image
-                    src="https://www.prioritycoatings.com.au/wp-content/uploads/2023/03/commercial-fitouts-sydney.jpg"
+                    src="/images/commercial-fitouts-sydney.jpg"
                     alt="Commercial fitouts Sydney"
                     fill
                     priority

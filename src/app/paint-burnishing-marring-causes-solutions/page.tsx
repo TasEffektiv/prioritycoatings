@@ -83,7 +83,7 @@ export default function PaintBurnishingMarringCausesSolutionsPage() {
 
                 <div className="relative mt-6 aspect-[16/9] w-full overflow-hidden">
                   <Image
-                    src="https://www.prioritycoatings.com.au/wp-content/uploads/2025/07/wood-painting.jpg"
+                    src="/images/wood-painting.jpg"
                     alt="wood painting"
                     fill
                     priority

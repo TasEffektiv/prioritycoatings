@@ -83,7 +83,7 @@ export default function GuideToEggshellPaintFinishPage() {
 
                 <div className="relative mt-6 aspect-[16/9] w-full overflow-hidden">
                   <Image
-                    src="https://www.prioritycoatings.com.au/wp-content/uploads/2025/11/top-view-of-tin-with-purple-paint-and-brushes-on-blue-surface.jpg"
+                    src="/images/top-view-of-tin-with-purple-paint-and-brushes-on-blue-surface.jpg"
                     alt="Top view of tin with purple paint and brushes on blue surface"
                     fill
                     priority
@@ -153,7 +153,7 @@ export default function GuideToEggshellPaintFinishPage() {
 
                   <figure className="relative my-8 aspect-[1024/575] w-full overflow-hidden">
                     <Image
-                      src="https://www.prioritycoatings.com.au/wp-content/uploads/2025/11/sofa-in-modern-scandinavian-interior-design-1024x575.jpg"
+                      src="/images/sofa-in-modern-scandinavian-interior-design-1024x575.jpg"
                       alt="Sofa in a modern Scandinavian interior design"
                       fill
                       className="object-cover"
@@ -209,7 +209,7 @@ export default function GuideToEggshellPaintFinishPage() {
 
                   <figure className="relative my-8 aspect-[1024/580] w-full overflow-hidden">
                     <Image
-                      src="https://www.prioritycoatings.com.au/wp-content/uploads/2025/11/painter-painting-the-wall-edge-with-brush-1024x580.jpg"
+                      src="/images/painter-painting-the-wall-edge-with-brush-1024x580.jpg"
                       alt="Painter painting the wall edge with a brush"
                       fill
                       className="object-cover"
@@ -260,7 +260,7 @@ export default function GuideToEggshellPaintFinishPage() {
 
                   <figure className="relative my-8 aspect-[1024/545] w-full overflow-hidden">
                     <Image
-                      src="https://www.prioritycoatings.com.au/wp-content/uploads/2025/11/cleaning-a-wall-with-a-sponge-in-a-bright-room-1024x545.jpg"
+                      src="/images/cleaning-a-wall-with-a-sponge-in-a-bright-room-1024x545.jpg"
                       alt="Cleaning a wall with a sponge in a bright room"
                       fill
                       className="object-cover"

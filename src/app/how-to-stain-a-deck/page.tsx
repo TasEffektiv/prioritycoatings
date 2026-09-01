@@ -83,7 +83,7 @@ export default function HowToStainADeckPage() {
 
                 <div className="relative mt-6 aspect-[16/9] w-full overflow-hidden">
                   <Image
-                    src="https://www.prioritycoatings.com.au/wp-content/uploads/2024/02/how-to-stain-a-deck-blog-banner.jpg"
+                    src="/images/how-to-stain-a-deck-blog-banner.jpg"
                     alt="how to stain a deck blog banner"
                     fill
                     priority

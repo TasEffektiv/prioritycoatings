@@ -68,7 +68,7 @@ export default function Header() {
         <div className="mx-auto flex max-w-[1400px] items-center justify-between px-6 py-4">
           <Link href="/" className="shrink-0">
             <Image
-              src="https://www.prioritycoatings.com.au/wp-content/uploads/2022/04/logo.svg"
+              src="/images/logo.svg"
               alt="Priority One Coatings Logo"
               width={189}
               height={70}
@@ -115,7 +115,7 @@ export default function Header() {
         <div className="flex items-center justify-between bg-brand-blue px-4 py-3">
           <Link href="/">
             <Image
-              src="https://www.prioritycoatings.com.au/wp-content/uploads/2022/04/logo.svg"
+              src="/images/logo.svg"
               alt="Priority One Coatings Logo"
               width={140}
               height={52}

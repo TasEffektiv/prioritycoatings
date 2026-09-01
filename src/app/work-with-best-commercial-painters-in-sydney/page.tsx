@@ -83,7 +83,7 @@ export default function WorkWithBestCommercialPaintersInSydneyPage() {
 
                 <div className="relative mt-6 aspect-[16/9] w-full overflow-hidden">
                   <Image
-                    src="https://www.prioritycoatings.com.au/wp-content/uploads/2023/02/commercial-painters.jpg"
+                    src="/images/commercial-painters.jpg"
                     alt="Commercial painters"
                     fill
                     priority

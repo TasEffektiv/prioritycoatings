@@ -44,7 +44,7 @@ export default function WhyChooseUs() {
       className="bg-white bg-cover bg-center bg-no-repeat py-16 md:py-24"
       style={{
         backgroundImage:
-          "url(https://www.prioritycoatings.com.au/wp-content/uploads/2023/06/bg-box.png)",
+          "url(/images/bg-box.png)",
       }}
     >
       <div className="mx-auto max-w-[1400px] px-6">

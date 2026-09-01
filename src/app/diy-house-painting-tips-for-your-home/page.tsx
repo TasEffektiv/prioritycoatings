@@ -83,7 +83,7 @@ export default function DiyHousePaintingTipsForYourHomePage() {
 
                 <div className="relative mt-6 aspect-[16/9] w-full overflow-hidden">
                   <Image
-                    src="https://www.prioritycoatings.com.au/wp-content/uploads/2018/11/diy-house-painting-tips-for-your-home-scaled.jpg"
+                    src="/images/diy-house-painting-tips-for-your-home-scaled.jpg"
                     alt="DIY house painting"
                     fill
                     priority
@@ -155,7 +155,7 @@ export default function DiyHousePaintingTipsForYourHomePage() {
 
                   <figure className="relative my-8 aspect-[3/2] w-full overflow-hidden">
                     <Image
-                      src="https://prioritycoatings.com.au/wp-content/uploads/2018/11/house-painting-tips.png"
+                      src="/images/house-painting-tips.png"
                       alt="House painting tips"
                       fill
                       className="object-cover"

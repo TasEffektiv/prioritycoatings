@@ -83,7 +83,7 @@ export default function IdeasToMakeSmallRoomLookBiggerPage() {
 
                 <div className="relative mt-6 aspect-[16/9] w-full overflow-hidden">
                   <Image
-                    src="https://www.prioritycoatings.com.au/wp-content/uploads/2023/12/brown-wooden-chair-near-brown-wooden-table.jpg"
+                    src="/images/brown-wooden-chair-near-brown-wooden-table.jpg"
                     alt="Brown wooden chair near brown wooden table"
                     fill
                     priority

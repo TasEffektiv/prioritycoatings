@@ -78,7 +78,7 @@ export default function DifferentTypesOfTexturedPaintForWallsPage() {
 
                 <div className="relative mt-6 aspect-[16/9] w-full overflow-hidden">
                   <Image
-                    src="https://www.prioritycoatings.com.au/wp-content/uploads/2023/09/green-wall-paint-textured-background-scaled.jpg"
+                    src="/images/green-wall-paint-textured-background-scaled.jpg"
                     alt="green wall paint textured background"
                     fill
                     priority
@@ -123,7 +123,7 @@ export default function DifferentTypesOfTexturedPaintForWallsPage() {
 
                   <TextureBlock
                     title="1. Sand Swirl"
-                    img="https://www.prioritycoatings.com.au/wp-content/uploads/2023/09/181356526_l.jpg"
+                    img="/images/181356526_l.jpg"
                     alt="Sand swirl textured wall finish"
                   >
                     The paint for achieving this surface contains fine sand particles or sand-like additives that
@@ -135,7 +135,7 @@ export default function DifferentTypesOfTexturedPaintForWallsPage() {
 
                   <TextureBlock
                     title="2. Popcorn"
-                    img="https://www.prioritycoatings.com.au/wp-content/uploads/2023/09/115909185_l.jpg"
+                    img="/images/115909185_l.jpg"
                     alt="Popcorn textured ceiling finish"
                   >
                     Popcorn texture is mixed with water to expand small polystyrene chips. It creates a highly
@@ -148,7 +148,7 @@ export default function DifferentTypesOfTexturedPaintForWallsPage() {
 
                   <TextureBlock
                     title="3. Slap Brush"
-                    img="https://www.prioritycoatings.com.au/wp-content/uploads/2023/09/40293219_l.jpg"
+                    img="/images/40293219_l.jpg"
                     alt="Slap brush textured wall finish"
                   >
                     It creates a raised, patterned consistency on the wall when the brush is &ldquo;slapped&rdquo;
@@ -160,7 +160,7 @@ export default function DifferentTypesOfTexturedPaintForWallsPage() {
 
                   <TextureBlock
                     title="4. Orange Peel"
-                    img="https://www.prioritycoatings.com.au/wp-content/uploads/2023/09/69588751_l.jpg"
+                    img="/images/69588751_l.jpg"
                     alt="Orange peel textured wall finish"
                   >
                     This appearance resembles the surface of an orange peel. It is a great choice to enhance the
@@ -173,7 +173,7 @@ export default function DifferentTypesOfTexturedPaintForWallsPage() {
 
                   <TextureBlock
                     title="5. Hawk and Trowel"
-                    img="https://www.prioritycoatings.com.au/wp-content/uploads/2023/09/54732021_l.jpg"
+                    img="/images/54732021_l.jpg"
                     alt="Hawk and trowel textured wall finish"
                   >
                     This texture is a hand-applied drywall finish characterised by its random, swooped patterns.
@@ -187,7 +187,7 @@ export default function DifferentTypesOfTexturedPaintForWallsPage() {
 
                   <TextureBlock
                     title="6. Knockdown"
-                    img="https://www.prioritycoatings.com.au/wp-content/uploads/2023/09/knockdown-texture-1.jpg"
+                    img="/images/knockdown-texture-1.jpg"
                     alt="Knockdown textured wall finish"
                   >
                     A common characteristic of this surface is creating a mottled or stippled appearance on the
@@ -201,7 +201,7 @@ export default function DifferentTypesOfTexturedPaintForWallsPage() {
 
                   <TextureBlock
                     title="7. Skip Trowel:"
-                    img="https://www.prioritycoatings.com.au/wp-content/uploads/2023/09/skip-trowel-1-3.jpg"
+                    img="/images/skip-trowel-1-3.jpg"
                     alt="skip trowel"
                   >
                     This particular type is quite unique as it forms an irregular, hand-trowelled appearance on the
@@ -215,7 +215,7 @@ export default function DifferentTypesOfTexturedPaintForWallsPage() {
 
                   <TextureBlock
                     title="8. Splatter Knockdown"
-                    img="https://www.prioritycoatings.com.au/wp-content/uploads/2023/09/splatter-knockdown-4.webp"
+                    img="/images/splatter-knockdown-4.webp"
                     alt="Splatter knockdown textured wall finish"
                   >
                     It&rsquo;s a technique that combines two popular methods: splatter and knockdown. Sometimes, it
@@ -266,7 +266,7 @@ export default function DifferentTypesOfTexturedPaintForWallsPage() {
                   <Link href="/contact-us/" className="my-8 block">
                     <div className="relative aspect-[4/1] w-full overflow-hidden">
                       <Image
-                        src="https://www.prioritycoatings.com.au/wp-content/uploads/2023/09/poc-cta-2-1.png"
+                        src="/images/poc-cta-2-1.png"
                         alt="Contact Priority One Coatings for a free quote"
                         fill
                         className="object-contain"

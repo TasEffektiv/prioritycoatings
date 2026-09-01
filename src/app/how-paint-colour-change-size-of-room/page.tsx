@@ -52,7 +52,7 @@ export default function HowPaintColourChangeSizeOfRoomPage() {
 
                 <div className="relative mt-6 aspect-[16/9] w-full overflow-hidden">
                   <Image
-                    src="https://www.prioritycoatings.com.au/wp-content/uploads/2023/08/interior-design-with-photoframes-couch.jpg"
+                    src="/images/interior-design-with-photoframes-couch.jpg"
                     alt="interior design with photo frames and couch"
                     fill
                     priority

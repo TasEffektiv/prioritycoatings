@@ -83,7 +83,7 @@ export default function HowPaintersExtendSydneyHomeExteriorLifespanPage() {
 
                 <div className="relative mt-6 aspect-[16/9] w-full overflow-hidden">
                   <Image
-                    src="https://www.prioritycoatings.com.au/wp-content/uploads/2026/07/twostory-building-with-a-yellow-and-pink-facade.jpg"
+                    src="/images/twostory-building-with-a-yellow-and-pink-facade.jpg"
                     alt="Twostory building with a yellow and pink facade"
                     fill
                     priority
@@ -143,7 +143,7 @@ export default function HowPaintersExtendSydneyHomeExteriorLifespanPage() {
 
                   <figure className="relative my-8 aspect-[1348/788] w-full overflow-hidden">
                     <Image
-                      src="https://www.prioritycoatings.com.au/wp-content/uploads/2026/07/woman-making-cosmetic-alterations-of-house.jpg"
+                      src="/images/woman-making-cosmetic-alterations-of-house.jpg"
                       alt="Woman making cosmetic alterations of house"
                       fill
                       className="object-cover"
@@ -199,7 +199,7 @@ export default function HowPaintersExtendSydneyHomeExteriorLifespanPage() {
 
                   <figure className="relative my-8 aspect-[1342/780] w-full overflow-hidden">
                     <Image
-                      src="https://www.prioritycoatings.com.au/wp-content/uploads/2026/07/glass-window-on-gray-cement-wall-of-house-during-renovation-work.jpg"
+                      src="/images/glass-window-on-gray-cement-wall-of-house-during-renovation-work.jpg"
                       alt="Glass window on gray cement wall of house during renovation work"
                       fill
                       className="object-cover"
@@ -268,7 +268,7 @@ export default function HowPaintersExtendSydneyHomeExteriorLifespanPage() {
 
                   <figure className="relative my-8 aspect-[1344/809] w-full overflow-hidden">
                     <Image
-                      src="https://www.prioritycoatings.com.au/wp-content/uploads/2026/07/male-paints-white-trim-of-old-urban-home.jpg"
+                      src="/images/male-paints-white-trim-of-old-urban-home.jpg"
                       alt="Male paints white trim of old urban home"
                       fill
                       className="object-cover"
@@ -345,7 +345,7 @@ export default function HowPaintersExtendSydneyHomeExteriorLifespanPage() {
 
                   <figure className="relative my-8 aspect-[963/640] w-full overflow-hidden">
                     <Image
-                      src="https://www.prioritycoatings.com.au/wp-content/uploads/2026/07/why-homeowners-choose-professional-residential-painters-in-sydney-ChatGPT-image.jpg"
+                      src="/images/why-homeowners-choose-professional-residential-painters-in-sydney-ChatGPT-image.jpg"
                       alt="Why homeowners choose professional residential painters in Sydney"
                       fill
                       className="object-cover"

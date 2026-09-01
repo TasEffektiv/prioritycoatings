@@ -83,7 +83,7 @@ export default function PaintToMaximiseSpaceInSmallApartmentsPage() {
 
                 <div className="relative mt-6 aspect-[16/9] w-full overflow-hidden">
                   <Image
-                    src="https://www.prioritycoatings.com.au/wp-content/uploads/2025/10/house-bloks-of-flats-in-suburbs.jpg"
+                    src="/images/house-bloks-of-flats-in-suburbs.jpg"
                     alt="House blocks of flats in suburbs"
                     fill
                     priority
@@ -134,7 +134,7 @@ export default function PaintToMaximiseSpaceInSmallApartmentsPage() {
 
                   <figure className="relative my-8 aspect-[1024/574] w-full overflow-hidden">
                     <Image
-                      src="https://www.prioritycoatings.com.au/wp-content/uploads/2025/10/man-showing-a-spot-on-the-wall-to-painter-1024x574.jpg"
+                      src="/images/man-showing-a-spot-on-the-wall-to-painter-1024x574.jpg"
                       alt="Man showing a spot on the wall to a painter"
                       fill
                       className="object-cover"
@@ -209,7 +209,7 @@ export default function PaintToMaximiseSpaceInSmallApartmentsPage() {
 
                   <figure className="relative my-8 aspect-[1024/530] w-full overflow-hidden">
                     <Image
-                      src="https://www.prioritycoatings.com.au/wp-content/uploads/2025/10/person-painting-wall-with-roller-holding-colourful-palette-1-1024x530.jpg"
+                      src="/images/person-painting-wall-with-roller-holding-colourful-palette-1-1024x530.jpg"
                       alt="Person painting a wall with a roller, holding a colourful palette"
                       fill
                       className="object-cover"
@@ -290,7 +290,7 @@ export default function PaintToMaximiseSpaceInSmallApartmentsPage() {
 
                   <figure className="relative my-8 aspect-[1024/545] w-full overflow-hidden">
                     <Image
-                      src="https://www.prioritycoatings.com.au/wp-content/uploads/2025/10/couple-using-paint-rollers-on-wall-of-living-room-1024x545.jpg"
+                      src="/images/couple-using-paint-rollers-on-wall-of-living-room-1024x545.jpg"
                       alt="Couple using paint rollers on the wall of a living room"
                       fill
                       className="object-cover"

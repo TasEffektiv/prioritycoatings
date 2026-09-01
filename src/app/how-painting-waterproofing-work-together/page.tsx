@@ -83,7 +83,7 @@ export default function HowPaintingWaterproofingWorkTogetherPage() {
 
                 <div className="relative mt-6 aspect-[16/9] w-full overflow-hidden">
                   <Image
-                    src="https://www.prioritycoatings.com.au/wp-content/uploads/2025/07/worker-applies-bitumen-mastic-on-foundation.jpg"
+                    src="/images/worker-applies-bitumen-mastic-on-foundation.jpg"
                     alt="worker applies bitumen mastic on foundation"
                     fill
                     priority

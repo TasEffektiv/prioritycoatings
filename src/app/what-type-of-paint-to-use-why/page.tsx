@@ -83,7 +83,7 @@ export default function WhatTypeOfPaintToUseWhyPage() {
 
                 <div className="relative mt-6 aspect-[16/9] w-full overflow-hidden">
                   <Image
-                    src="https://www.prioritycoatings.com.au/wp-content/uploads/2025/03/paint-front-door-of-country-home.jpg"
+                    src="/images/paint-front-door-of-country-home.jpg"
                     alt="paint front door of country home"
                     fill
                     priority

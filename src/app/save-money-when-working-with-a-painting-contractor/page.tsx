@@ -83,7 +83,7 @@ export default function SaveMoneyWhenWorkingWithAPaintingContractorPage() {
 
                 <div className="relative mt-6 aspect-[16/9] w-full overflow-hidden">
                   <Image
-                    src="https://www.prioritycoatings.com.au/wp-content/uploads/2016/01/10127208_l.jpg"
+                    src="/images/10127208_l.jpg"
                     alt="working with a painting contractor"
                     fill
                     priority
@@ -165,7 +165,7 @@ export default function SaveMoneyWhenWorkingWithAPaintingContractorPage() {
 
                   <figure className="relative my-8 aspect-[3/2] w-full overflow-hidden">
                     <Image
-                      src="https://prioritycoatings.com.au/wp-content/uploads/2017/07/39893886_xxl.jpg"
+                      src="/images/39893886_xxl.jpg"
                       alt="Painting equipments"
                       fill
                       className="object-cover"
@@ -222,7 +222,7 @@ export default function SaveMoneyWhenWorkingWithAPaintingContractorPage() {
 
                   <figure className="relative my-8 aspect-[3/2] w-full overflow-hidden">
                     <Image
-                      src="https://prioritycoatings.com.au/wp-content/uploads/2017/07/10217136_l.jpg"
+                      src="/images/10217136_l.jpg"
                       alt="Choose painter carefully"
                       fill
                       className="object-cover"

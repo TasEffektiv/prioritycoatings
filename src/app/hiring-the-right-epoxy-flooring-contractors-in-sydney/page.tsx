@@ -83,7 +83,7 @@ export default function HiringTheRightEpoxyFlooringContractorsInSydneyPage() {
 
                 <div className="relative mt-6 aspect-[16/9] w-full overflow-hidden">
                   <Image
-                    src="https://www.prioritycoatings.com.au/wp-content/uploads/2023/05/epoxy-flooring-blog-banner.jpg"
+                    src="/images/epoxy-flooring-blog-banner.jpg"
                     alt="Epoxy flooring in Sydney"
                     fill
                     priority

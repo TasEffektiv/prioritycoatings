@@ -83,7 +83,7 @@ export default function HowToColourMatchYourPaintPage() {
 
                 <div className="relative mt-6 aspect-[16/9] w-full overflow-hidden">
                   <Image
-                    src="https://www.prioritycoatings.com.au/wp-content/uploads/2025/08/woman-with-palette-of-color-swatches-choosing-one-for-walls.jpg"
+                    src="/images/woman-with-palette-of-color-swatches-choosing-one-for-walls.jpg"
                     alt="woman with palette of colour swatches choosing one for walls"
                     fill
                     priority

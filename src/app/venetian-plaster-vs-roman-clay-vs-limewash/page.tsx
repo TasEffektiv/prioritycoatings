@@ -98,7 +98,7 @@ export default function VenetianPlasterVsRomanClayVsLimewashPage() {
 
                 <div className="relative mt-6 aspect-[16/9] w-full overflow-hidden">
                   <Image
-                    src="https://www.prioritycoatings.com.au/wp-content/uploads/2024/05/venetian-plaster-vs-roman-clay-vs-limewash-blog-banner-1.jpg"
+                    src="/images/venetian-plaster-vs-roman-clay-vs-limewash-blog-banner-1.jpg"
                     alt="Venetian plaster vs roman clay vs limewash blog banner"
                     fill
                     priority
@@ -133,7 +133,7 @@ export default function VenetianPlasterVsRomanClayVsLimewashPage() {
                   <h4>Limewash</h4>
                   <figure className="relative my-8 aspect-[985/563] w-full overflow-hidden">
                     <Image
-                      src="https://www.prioritycoatings.com.au/wp-content/uploads/2024/05/limewash-wall-finish-2.jpg"
+                      src="/images/limewash-wall-finish-2.jpg"
                       alt="Limewash wall finish"
                       fill
                       className="object-cover"
@@ -168,7 +168,7 @@ export default function VenetianPlasterVsRomanClayVsLimewashPage() {
                   <h4>Venetian Plaster</h4>
                   <figure className="relative my-8 aspect-[900/543] w-full overflow-hidden">
                     <Image
-                      src="https://www.prioritycoatings.com.au/wp-content/uploads/2024/05/venetial-plaster.jpg"
+                      src="/images/venetial-plaster.jpg"
                       alt="Venetian plaster"
                       fill
                       className="object-cover"
@@ -192,7 +192,7 @@ export default function VenetianPlasterVsRomanClayVsLimewashPage() {
                   <h4>Roman Clay</h4>
                   <figure className="relative my-8 aspect-[1024/618] w-full overflow-hidden">
                     <Image
-                      src="https://www.prioritycoatings.com.au/wp-content/uploads/2024/05/monochromatic-composition-with-vases-lamp-1024x618.jpg"
+                      src="/images/monochromatic-composition-with-vases-lamp-1024x618.jpg"
                       alt="Monochromatic composition with vases lamp"
                       fill
                       className="object-cover"
@@ -247,7 +247,7 @@ export default function VenetianPlasterVsRomanClayVsLimewashPage() {
                   <h3>Which finish to choose for your house?</h3>
                   <figure className="relative my-8 aspect-[1024/526] w-full overflow-hidden">
                     <Image
-                      src="https://www.prioritycoatings.com.au/wp-content/uploads/2024/05/flowerpot-with-green-succulent-plant-on-table-against-gray-plaster-wall-1024x526.jpg"
+                      src="/images/flowerpot-with-green-succulent-plant-on-table-against-gray-plaster-wall-1024x526.jpg"
                       alt="Flowerpot with green succulent plant on table against gray plaster wall"
                       fill
                       className="object-cover"
@@ -314,7 +314,7 @@ export default function VenetianPlasterVsRomanClayVsLimewashPage() {
                   <Link href="/contact-us/" className="not-prose my-8 block">
                     <figure className="relative aspect-[1024/281] w-full overflow-hidden">
                       <Image
-                        src="https://www.prioritycoatings.com.au/wp-content/uploads/2024/05/venetian-plaster-vs-roman-clay-vs-limewash-cta-banner-1.jpg"
+                        src="/images/venetian-plaster-vs-roman-clay-vs-limewash-cta-banner-1.jpg"
                         alt="Transform your walls with Priority One Coatings"
                         fill
                         className="object-cover"

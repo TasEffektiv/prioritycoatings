@@ -106,7 +106,7 @@ export default function SignsItsTimeToRepaintYourHousePage() {
 
                 <div className="relative mt-6 aspect-[16/9] w-full overflow-hidden">
                   <Image
-                    src="https://www.prioritycoatings.com.au/wp-content/uploads/2023/11/gray-wooden-house-scaled.jpg"
+                    src="/images/gray-wooden-house-scaled.jpg"
                     alt="Gray wooden house"
                     fill
                     priority
@@ -152,7 +152,7 @@ export default function SignsItsTimeToRepaintYourHousePage() {
 
                   <figure className="relative my-8 aspect-[3/2] w-full overflow-hidden">
                     <Image
-                      src="https://www.prioritycoatings.com.au/wp-content/uploads/2023/11/metal-gate-in-front-old-house-1.jpg"
+                      src="/images/metal-gate-in-front-old-house-1.jpg"
                       alt="Red bicycle parked beside a black metal gate in front of a house"
                       fill
                       className="object-cover"
@@ -204,7 +204,7 @@ export default function SignsItsTimeToRepaintYourHousePage() {
 
                   <figure className="relative my-8 aspect-[3/2] w-full overflow-hidden">
                     <Image
-                      src="https://www.prioritycoatings.com.au/wp-content/uploads/2023/11/wall-chalking-paint.jpg"
+                      src="/images/wall-chalking-paint.jpg"
                       alt="Close-up of chalking paint on a wall"
                       fill
                       className="object-cover"
@@ -255,7 +255,7 @@ export default function SignsItsTimeToRepaintYourHousePage() {
 
                   <figure className="relative my-8 aspect-[3/2] w-full overflow-hidden">
                     <Image
-                      src="https://www.prioritycoatings.com.au/wp-content/uploads/2023/11/olg-house-outdoor-lamps-turned-on.jpg"
+                      src="/images/olg-house-outdoor-lamps-turned-on.jpg"
                       alt="House exterior with outdoor lamps turned on at dusk"
                       fill
                       className="object-cover"
@@ -307,7 +307,7 @@ export default function SignsItsTimeToRepaintYourHousePage() {
 
                   <figure className="relative my-8 aspect-[3/2] w-full overflow-hidden">
                     <Image
-                      src="https://www.prioritycoatings.com.au/wp-content/uploads/2023/11/white-and-brown-concrete-house.jpg"
+                      src="/images/white-and-brown-concrete-house.jpg"
                       alt="White and brown concrete house exterior"
                       fill
                       className="object-cover"

@@ -83,7 +83,7 @@ export default function TipsForPaintingRenderedWallPage() {
 
                 <div className="relative mt-6 aspect-[16/9] w-full overflow-hidden">
                   <Image
-                    src="https://www.prioritycoatings.com.au/wp-content/uploads/2024/03/couple-painting-rendered-walls-together-scaled.jpg"
+                    src="/images/couple-painting-rendered-walls-together-scaled.jpg"
                     alt="Couple painting rendered walls together"
                     fill
                     priority

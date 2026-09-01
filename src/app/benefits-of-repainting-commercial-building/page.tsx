@@ -83,7 +83,7 @@ export default function BenefitsOfRepaintingCommercialBuildingPage() {
 
                 <div className="relative mt-6 aspect-[16/9] w-full overflow-hidden">
                   <Image
-                    src="https://www.prioritycoatings.com.au/wp-content/uploads/2023/01/repainting-your-commercial-building.jpg"
+                    src="/images/repainting-your-commercial-building.jpg"
                     alt="Repainting your commercial building"
                     fill
                     priority
@@ -135,7 +135,7 @@ export default function BenefitsOfRepaintingCommercialBuildingPage() {
                   <figure className="relative my-8 aspect-[1024/199] w-full overflow-hidden">
                     <Link href="/how-to-paint-commercial-building/">
                       <Image
-                        src="https://www.prioritycoatings.com.au/wp-content/uploads/2023/02/how-to-paint-commercial-building.jpg"
+                        src="/images/how-to-paint-commercial-building.jpg"
                         alt="How to paint commercial building"
                         fill
                         className="object-cover"
@@ -187,7 +187,7 @@ export default function BenefitsOfRepaintingCommercialBuildingPage() {
 
                   <figure className="relative my-8 aspect-[900/500] w-full overflow-hidden">
                     <Image
-                      src="https://www.prioritycoatings.com.au/wp-content/uploads/2023/02/office-interior.jpg"
+                      src="/images/office-interior.jpg"
                       alt="Office interior"
                       fill
                       className="object-cover"

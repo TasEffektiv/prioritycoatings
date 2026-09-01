@@ -83,7 +83,7 @@ export default function PaintingFoyerTransformTheEntrywayPage() {
 
                 <div className="relative mt-6 aspect-[16/9] w-full overflow-hidden">
                   <Image
-                    src="https://www.prioritycoatings.com.au/wp-content/uploads/2025/05/entrance-hallway-with-staircase.jpg"
+                    src="/images/entrance-hallway-with-staircase.jpg"
                     alt="entrance hallway with staircase"
                     fill
                     priority

@@ -83,7 +83,7 @@ export default function CommonCommercialPaintProblemsSolutionsPage() {
 
                 <div className="relative mt-6 aspect-[16/9] w-full overflow-hidden">
                   <Image
-                    src="https://www.prioritycoatings.com.au/wp-content/uploads/2023/03/commercial-paint-problems-solution-banner.jpg"
+                    src="/images/commercial-paint-problems-solution-banner.jpg"
                     alt="Commercial paint problems and solutions banner"
                     fill
                     priority
@@ -131,7 +131,7 @@ export default function CommonCommercialPaintProblemsSolutionsPage() {
 
                   <figure className="relative my-8 aspect-[3/2] w-full overflow-hidden">
                     <Image
-                      src="https://www.prioritycoatings.com.au/wp-content/uploads/2023/03/bubbling-paint-on-exterior-wall-due-to-neglect-and-lack-of-maintenance.jpg"
+                      src="/images/bubbling-paint-on-exterior-wall-due-to-neglect-and-lack-of-maintenance.jpg"
                       alt="Bubbling paint on exterior wall due to neglect and lack of maintenance"
                       fill
                       className="object-cover"
@@ -194,7 +194,7 @@ export default function CommonCommercialPaintProblemsSolutionsPage() {
 
                   <figure className="relative my-8 aspect-[3/2] w-full overflow-hidden">
                     <Image
-                      src="https://www.prioritycoatings.com.au/wp-content/uploads/2023/03/woman-cleaning-mold-from-wall-using-sponge.jpg"
+                      src="/images/woman-cleaning-mold-from-wall-using-sponge.jpg"
                       alt="Woman cleaning mould from wall using a sponge"
                       fill
                       className="object-cover"
@@ -258,7 +258,7 @@ export default function CommonCommercialPaintProblemsSolutionsPage() {
 
                   <figure className="relative my-8 aspect-[3/2] w-full overflow-hidden">
                     <Image
-                      src="https://www.prioritycoatings.com.au/wp-content/uploads/2023/03/the-texture-of-the-old-cracked-white-paint-old-broken-paint-on-a-concrete-rough-wall.jpg"
+                      src="/images/the-texture-of-the-old-cracked-white-paint-old-broken-paint-on-a-concrete-rough-wall.jpg"
                       alt="Texture of old cracked white paint on a concrete rough wall"
                       fill
                       className="object-cover"

@@ -83,7 +83,7 @@ export default function BestTimeToPaintYourHousePage() {
 
                 <div className="relative mt-6 aspect-[16/9] w-full overflow-hidden">
                   <Image
-                    src="https://www.prioritycoatings.com.au/wp-content/uploads/2023/10/charming-yellow-house-with-wooden-windows-green-grassy-garden-scaled.jpg"
+                    src="/images/charming-yellow-house-with-wooden-windows-green-grassy-garden-scaled.jpg"
                     alt="Charming yellow house with wooden windows and a green grassy garden"
                     fill
                     priority

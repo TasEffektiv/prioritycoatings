@@ -83,7 +83,7 @@ export default function DifferenceBetweenInteriorExteriorPaintPage() {
 
                 <div className="relative mt-6 aspect-[16/9] w-full overflow-hidden">
                   <Image
-                    src="https://www.prioritycoatings.com.au/wp-content/uploads/2023/12/house-painting.jpg"
+                    src="/images/house-painting.jpg"
                     alt="Picture of beautiful village house with garden"
                     fill
                     priority
@@ -114,7 +114,7 @@ export default function DifferenceBetweenInteriorExteriorPaintPage() {
 
                   <figure className="relative my-8 aspect-[3/2] w-full overflow-hidden">
                     <Image
-                      src="https://www.prioritycoatings.com.au/wp-content/uploads/2023/12/delighted-young-woman-holding-a-roller-and-painting-the-walls.jpg"
+                      src="/images/delighted-young-woman-holding-a-roller-and-painting-the-walls.jpg"
                       alt="Delighted young woman holding a roller and painting the walls"
                       fill
                       className="object-cover"
@@ -163,7 +163,7 @@ export default function DifferenceBetweenInteriorExteriorPaintPage() {
 
                   <figure className="relative my-8 aspect-[3/2] w-full overflow-hidden">
                     <Image
-                      src="https://www.prioritycoatings.com.au/wp-content/uploads/2023/12/beautiful-autumn-in-old-rustic-museum-district-of-kouvola-1.jpg"
+                      src="/images/beautiful-autumn-in-old-rustic-museum-district-of-kouvola-1.jpg"
                       alt="Beautiful autumn in old rustic museum district of Kouvola"
                       fill
                       className="object-cover"
@@ -251,7 +251,7 @@ export default function DifferenceBetweenInteriorExteriorPaintPage() {
 
                   <figure className="relative my-8 aspect-[3/2] w-full overflow-hidden">
                     <Image
-                      src="https://www.prioritycoatings.com.au/wp-content/uploads/2023/12/using-paint-roller-for-paint-building-wall.jpg"
+                      src="/images/using-paint-roller-for-paint-building-wall.jpg"
                       alt="Using paint roller for paint building wall"
                       fill
                       className="object-cover"

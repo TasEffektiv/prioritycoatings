@@ -83,7 +83,7 @@ export default function WaysToGetRidOfPaintSmellsPage() {
 
                 <div className="relative mt-6 aspect-[16/9] w-full overflow-hidden">
                   <Image
-                    src="https://www.prioritycoatings.com.au/wp-content/uploads/2024/03/ways-to-remove-paint-smell-blog-banner-1.jpg"
+                    src="/images/ways-to-remove-paint-smell-blog-banner-1.jpg"
                     alt="Ways to remove paint smell blog banner"
                     fill
                     priority

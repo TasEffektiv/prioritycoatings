@@ -31,7 +31,7 @@ export default function AboutUsPage() {
             <div>
               <div className="relative w-full">
                 <Image
-                  src="https://www.prioritycoatings.com.au/wp-content/uploads/2022/06/au.jpg"
+                  src="/images/au.jpg"
                   alt="commercial building"
                   width={2558}
                   height={1304}

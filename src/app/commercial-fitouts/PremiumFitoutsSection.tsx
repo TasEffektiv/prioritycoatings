@@ -64,7 +64,7 @@ export default function PremiumFitoutsSection() {
             <div className="mt-14 grid grid-cols-1 items-center gap-12 lg:grid-cols-2">
               <div className="relative h-[320px] w-full overflow-hidden sm:h-[420px]">
                 <Image
-                  src="https://www.prioritycoatings.com.au/wp-content/uploads/2023/06/fitout.jpg"
+                  src="/images/fitout.jpg"
                   alt="Happy employees in better office fitout"
                   fill
                   className="object-cover"

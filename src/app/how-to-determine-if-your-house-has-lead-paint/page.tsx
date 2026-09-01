@@ -83,7 +83,7 @@ export default function LeadPaintPage() {
 
                 <div className="relative mt-6 aspect-[16/9] w-full overflow-hidden">
                   <Image
-                    src="https://www.prioritycoatings.com.au/wp-content/uploads/2026/02/a-quiet-street-in-the-australian-country-town-of-pemberton.jpg"
+                    src="/images/a-quiet-street-in-the-australian-country-town-of-pemberton.jpg"
                     alt="A quiet street in the Australian country town of Pemberton"
                     fill
                     priority
@@ -117,7 +117,7 @@ export default function LeadPaintPage() {
 
                   <figure className="relative my-8 aspect-[1024/587] w-full overflow-hidden">
                     <Image
-                      src="https://www.prioritycoatings.com.au/wp-content/uploads/2026/02/builder-points-at-wall-while-supervisor-looks-1024x587.jpg"
+                      src="/images/builder-points-at-wall-while-supervisor-looks-1024x587.jpg"
                       alt="Builder points at wall while supervisor looks"
                       fill
                       className="object-cover"
@@ -171,7 +171,7 @@ export default function LeadPaintPage() {
 
                   <figure className="relative my-8 aspect-[960/618] w-full overflow-hidden">
                     <Image
-                      src="https://www.prioritycoatings.com.au/wp-content/uploads/2026/02/understanding-the-paint-is-decaying-visula-by-napkin.ai_.png"
+                      src="/images/understanding-the-paint-is-decaying-visula-by-napkin.ai_.png"
                       alt="Signs that show a painted surface is decaying"
                       fill
                       className="object-cover"
@@ -211,7 +211,7 @@ export default function LeadPaintPage() {
 
                   <figure className="relative my-8 aspect-[1024/560] w-full overflow-hidden">
                     <Image
-                      src="https://www.prioritycoatings.com.au/wp-content/uploads/2026/02/indoor-damp-air-quality-iaq-testing-a-close-up-view-of-an-indoor-environmental-quality-assessor-1024x560.jpg"
+                      src="/images/indoor-damp-air-quality-iaq-testing-a-close-up-view-of-an-indoor-environmental-quality-assessor-1024x560.jpg"
                       alt="Indoor damp air quality testing by an indoor environmental quality assessor"
                       fill
                       className="object-cover"
@@ -267,7 +267,7 @@ export default function LeadPaintPage() {
 
                   <figure className="relative my-8 aspect-[1024/573] w-full overflow-hidden">
                     <Image
-                      src="https://www.prioritycoatings.com.au/wp-content/uploads/2026/02/two-house-painters-in-hazmat-suits-removing-lead-paint-from-an-old-house-1024x573.jpg"
+                      src="/images/two-house-painters-in-hazmat-suits-removing-lead-paint-from-an-old-house-1024x573.jpg"
                       alt="Two house painters in hazmat suits removing lead paint from an old house"
                       fill
                       className="object-cover"

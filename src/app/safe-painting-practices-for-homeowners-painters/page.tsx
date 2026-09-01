@@ -83,7 +83,7 @@ export default function SafePaintingPracticesForHomeownersPaintersPage() {
 
                 <div className="relative mt-6 aspect-[16/9] w-full overflow-hidden">
                   <Image
-                    src="https://www.prioritycoatings.com.au/wp-content/uploads/2025/05/safe-painting-practices-blog-banner.jpg"
+                    src="/images/safe-painting-practices-blog-banner.jpg"
                     alt="safe painting practices blog banner"
                     fill
                     priority

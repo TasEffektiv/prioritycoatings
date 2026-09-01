@@ -38,7 +38,7 @@ export default function ExpertsSection() {
             <div className="grid grid-cols-1 items-center gap-12 lg:grid-cols-2">
               <div className="relative h-[320px] w-full overflow-hidden sm:h-[420px]">
                 <Image
-                  src="https://www.prioritycoatings.com.au/wp-content/uploads/2023/06/paint-remove.jpg"
+                  src="/images/paint-remove.jpg"
                   alt="Professionals remove lead-based paint"
                   fill
                   className="object-cover"

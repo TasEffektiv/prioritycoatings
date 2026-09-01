@@ -83,7 +83,7 @@ export default function PaintScrapingVsPressureWashingPage() {
 
                 <div className="relative mt-6 aspect-[16/9] w-full overflow-hidden">
                   <Image
-                    src="https://www.prioritycoatings.com.au/wp-content/uploads/2025/04/paint-scraping-vs-pressure-washing-blog-banner.jpg"
+                    src="/images/paint-scraping-vs-pressure-washing-blog-banner.jpg"
                     alt="paint scraping vs pressure washing blog banner"
                     fill
                     priority

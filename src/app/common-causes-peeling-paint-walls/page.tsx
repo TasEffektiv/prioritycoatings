@@ -83,7 +83,7 @@ export default function CommonCausesPeelingPaintWallsPage() {
 
                 <div className="relative mt-6 aspect-[16/9] w-full overflow-hidden">
                   <Image
-                    src="https://www.prioritycoatings.com.au/wp-content/uploads/2019/05/Common-Causes-of-Peeling-Paint-on-Walls-prioritycoatings.com_.au_.png"
+                    src="/images/Common-Causes-of-Peeling-Paint-on-Walls-prioritycoatings.com_.au_.png"
                     alt="Common causes of peeling paint on walls"
                     fill
                     priority
@@ -188,7 +188,7 @@ export default function CommonCausesPeelingPaintWallsPage() {
 
                   <figure className="relative my-8 aspect-[3/2] w-full overflow-hidden">
                     <Image
-                      src="https://prioritycoatings.com.au/wp-content/uploads/2019/05/painting-on-wall-prioritycoatings.com_.au_.jpg"
+                      src="/images/painting-on-wall-prioritycoatings.com_.au_.jpg"
                       alt="A young man painting wall with roller"
                       fill
                       className="object-cover"

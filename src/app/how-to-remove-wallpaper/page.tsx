@@ -83,7 +83,7 @@ export default function HowToRemoveWallpaperPage() {
 
                 <div className="relative mt-6 aspect-[16/9] w-full overflow-hidden">
                   <Image
-                    src="https://www.prioritycoatings.com.au/wp-content/uploads/2024/08/girl-removing-wallpaper-blog-banner.jpg"
+                    src="/images/girl-removing-wallpaper-blog-banner.jpg"
                     alt="girl removing wallpaper blog banner"
                     fill
                     priority
