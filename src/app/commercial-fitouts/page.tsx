@@ -228,6 +228,8 @@ export default function CommercialFitoutsPage() {
                   compact
                   widthClassName="lg:max-w-[630px]"
                   nameFieldWidthClassName="w-full lg:w-[500px]"
+                  netlifyFormName="Commercial Fitouts Sydney Page Form"
+                  netlifyActionPath="/forms/commercial-fitouts-quote.html"
                 />
               </div>
             </div>
