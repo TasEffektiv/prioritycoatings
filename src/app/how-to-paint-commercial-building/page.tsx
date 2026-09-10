@@ -100,7 +100,8 @@ export default function HowToPaintCommercialBuildingPage() {
                     src="/images/paint-commercial-building.jpg"
                     alt="Paint commercial building"
                     fill
-                    priority
+                    preload
+                    fetchPriority="high"
                     className="object-cover"
                   />
                 </div>

@@ -69,7 +69,8 @@ export default function DangersOfDelayingExteriorPaintJobPage() {
                     src="/images/beautiful-house-exterior.jpg"
                     alt="beautiful house exterior"
                     fill
-                    priority
+                    preload
+                    fetchPriority="high"
                     className="object-cover"
                   />
                 </div>

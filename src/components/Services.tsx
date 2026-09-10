@@ -76,7 +76,7 @@ export default function Services() {
         className="pointer-events-none absolute inset-0 bg-cover bg-center mix-blend-multiply"
         style={{
           backgroundImage:
-            "url(/images/service-bg.png)",
+            "url(/images/service-bg.webp)",
         }}
       />
       <div className="relative mx-auto max-w-[1400px] px-6">

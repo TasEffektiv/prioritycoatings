@@ -100,7 +100,8 @@ export default function FourTipsOnChoosingTheRightColourForYourHomePage() {
                     src="/images/Painting-kids-room.jpg"
                     alt="Painting kids room"
                     fill
-                    priority
+                    preload
+                    fetchPriority="high"
                     className="object-cover"
                   />
                 </div>

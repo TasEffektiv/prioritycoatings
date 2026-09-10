@@ -100,7 +100,8 @@ export default function ConcreteRetainingWallPage() {
                     src="/images/concrete-retaining-wall-blog-banner.jpg"
                     alt="Concrete retaining wall blog banner"
                     fill
-                    priority
+                    preload
+                    fetchPriority="high"
                     className="object-cover"
                   />
                 </div>

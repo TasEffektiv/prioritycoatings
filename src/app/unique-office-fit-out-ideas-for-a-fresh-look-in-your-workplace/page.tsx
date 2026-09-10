@@ -102,7 +102,8 @@ export default function UniqueOfficeFitOutIdeasPage() {
                     src="/images/unique-office-fit-out-ideas-banner.jpg"
                     alt="modern open space office"
                     fill
-                    priority
+                    preload
+                    fetchPriority="high"
                     className="object-cover"
                   />
                 </div>

@@ -100,7 +100,8 @@ export default function NeedPaintersSydneyPriorityOneCoatingsCanHelpPage() {
                     src="/images/sydney-painters-priority-one-coatings.jpg"
                     alt="Sydney painters priority one coatings"
                     fill
-                    priority
+                    preload
+                    fetchPriority="high"
                     className="object-cover"
                   />
                 </div>

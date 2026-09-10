@@ -100,7 +100,8 @@ export default function OnSitePreparationForPaintersInSydneyPage() {
                     src="/images/instruments-for-repair-house-painting.jpg"
                     alt="Instruments for repair house painting"
                     fill
-                    priority
+                    preload
+                    fetchPriority="high"
                     className="object-cover"
                   />
                 </div>

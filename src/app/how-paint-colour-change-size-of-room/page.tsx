@@ -69,7 +69,8 @@ export default function HowPaintColourChangeSizeOfRoomPage() {
                     src="/images/interior-design-with-photoframes-couch.jpg"
                     alt="interior design with photo frames and couch"
                     fill
-                    priority
+                    preload
+                    fetchPriority="high"
                     className="object-cover"
                   />
                 </div>

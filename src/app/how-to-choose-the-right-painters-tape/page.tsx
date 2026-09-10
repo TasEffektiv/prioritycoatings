@@ -100,7 +100,8 @@ export default function PaintersTapePage() {
                     src="/images/man-is-sticking-adhesive-tape-into-the-wall-1.jpg"
                     alt="Man is sticking adhesive tape into the wall"
                     fill
-                    priority
+                    preload
+                    fetchPriority="high"
                     className="object-cover"
                   />
                 </div>

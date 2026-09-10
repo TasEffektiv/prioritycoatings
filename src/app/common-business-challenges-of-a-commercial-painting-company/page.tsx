@@ -102,7 +102,8 @@ export default function CommonBusinessChallengesPage() {
                     src="/images/commercial-painting-business-challenges-banner.jpg"
                     alt="commercial painting business planning"
                     fill
-                    priority
+                    preload
+                    fetchPriority="high"
                     className="object-cover"
                   />
                 </div>

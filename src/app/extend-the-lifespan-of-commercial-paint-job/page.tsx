@@ -100,7 +100,8 @@ export default function ExtendTheLifespanOfCommercialPaintJobPage() {
                     src="/images/room-with-pendant-lamps-and-rectangular-dining-set.jpg"
                     alt="Room with pendant lamps and rectangular dining set"
                     fill
-                    priority
+                    preload
+                    fetchPriority="high"
                     className="object-cover"
                   />
                 </div>

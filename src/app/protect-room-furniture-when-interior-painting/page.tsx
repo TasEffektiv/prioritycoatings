@@ -100,7 +100,8 @@ export default function ProtectRoomFurnitureWhenInteriorPaintingPage() {
                     src="/images/man-protecting-floor-with-sheet-scaled.jpg"
                     alt="man protecting floor with sheet"
                     fill
-                    priority
+                    preload
+                    fetchPriority="high"
                     className="object-cover"
                   />
                 </div>

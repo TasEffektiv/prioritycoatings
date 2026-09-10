@@ -100,7 +100,8 @@ export default function HousePaintingSecretsPage() {
                     src="/images/walls-are-painted-in-blue-and-orange-hues.jpg"
                     alt="home walls are painted in blue and orange hues"
                     fill
-                    priority
+                    preload
+                    fetchPriority="high"
                     className="object-cover"
                   />
                 </div>

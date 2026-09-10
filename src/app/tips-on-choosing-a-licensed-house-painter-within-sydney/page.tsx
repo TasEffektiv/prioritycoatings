@@ -100,7 +100,8 @@ export default function TipsOnChoosingALicensedHousePainterWithinSydneyPage() {
                     src="/images/licensed-house-painter-1.jpg"
                     alt="Licensed house painter"
                     fill
-                    priority
+                    preload
+                    fetchPriority="high"
                     className="object-cover"
                   />
                 </div>

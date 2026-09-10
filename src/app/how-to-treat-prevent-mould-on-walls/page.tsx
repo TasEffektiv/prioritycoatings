@@ -100,7 +100,8 @@ export default function HowToTreatPreventMouldOnWallsPage() {
                     src="/images/white-ceramic-bathtub-scaled.jpg"
                     alt="White ceramic bathtub"
                     fill
-                    priority
+                    preload
+                    fetchPriority="high"
                     className="object-cover"
                   />
                 </div>

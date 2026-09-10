@@ -100,7 +100,8 @@ export default function HiringTheRightEpoxyFlooringContractorsInSydneyPage() {
                     src="/images/epoxy-flooring-blog-banner.jpg"
                     alt="Epoxy flooring in Sydney"
                     fill
-                    priority
+                    preload
+                    fetchPriority="high"
                     className="object-cover"
                   />
                 </div>

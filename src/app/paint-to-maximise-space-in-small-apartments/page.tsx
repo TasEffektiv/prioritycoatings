@@ -100,7 +100,8 @@ export default function PaintToMaximiseSpaceInSmallApartmentsPage() {
                     src="/images/house-bloks-of-flats-in-suburbs.jpg"
                     alt="House blocks of flats in suburbs"
                     fill
-                    priority
+                    preload
+                    fetchPriority="high"
                     className="object-cover"
                   />
                 </div>

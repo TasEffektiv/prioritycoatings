@@ -100,7 +100,8 @@ export default function SydneyStrataPaintersPerformLargeScaleJobPage() {
                     src="/images/strata-building-blog-banner.jpg"
                     alt="Strata building in Sydney"
                     fill
-                    priority
+                    preload
+                    fetchPriority="high"
                     className="object-cover"
                   />
                 </div>

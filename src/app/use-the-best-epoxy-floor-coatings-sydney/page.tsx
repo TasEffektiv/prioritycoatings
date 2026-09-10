@@ -100,7 +100,8 @@ export default function UseTheBestEpoxyFloorCoatingsSydneyPage() {
                     src="/images/epoxy-floor-coatings-in-sydney-banner.jpg"
                     alt="Epoxy floor coatings in Sydney banner"
                     fill
-                    priority
+                    preload
+                    fetchPriority="high"
                     className="object-cover"
                   />
                 </div>

@@ -100,7 +100,8 @@ export default function PaintACeilingWithoutSplatterPage() {
                     src="/images/painter-is-painting-house-ceiling.jpg"
                     alt="painter is painting house ceiling"
                     fill
-                    priority
+                    preload
+                    fetchPriority="high"
                     className="object-cover"
                   />
                 </div>

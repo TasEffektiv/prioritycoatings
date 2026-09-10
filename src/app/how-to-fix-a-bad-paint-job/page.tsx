@@ -100,7 +100,8 @@ export default function HowToFixABadPaintJobPage() {
                     src="/images/how-to-fix-bad-paint-job-blog-banner.jpg"
                     alt="how to fix bad paint job blog banner"
                     fill
-                    priority
+                    preload
+                    fetchPriority="high"
                     className="object-cover"
                   />
                 </div>

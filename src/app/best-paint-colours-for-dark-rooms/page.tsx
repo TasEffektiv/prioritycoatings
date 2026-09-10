@@ -100,7 +100,8 @@ export default function BestPaintColoursForDarkRoomsPage() {
                     src="/images/dark-room-inside-house-scaled.jpg"
                     alt="dark room inside house"
                     fill
-                    priority
+                    preload
+                    fetchPriority="high"
                     className="object-cover"
                   />
                 </div>

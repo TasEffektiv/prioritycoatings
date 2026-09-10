@@ -166,7 +166,8 @@ export default function CompleteGuideInteriorExteriorPage() {
                     src="/images/residential-houses-at-battery-point-in-hobart-australia.jpg"
                     alt="Residential houses at Battery Point in Hobart, Australia"
                     fill
-                    priority
+                    preload
+                    fetchPriority="high"
                     className="object-cover"
                   />
                 </div>

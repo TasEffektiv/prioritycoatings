@@ -100,7 +100,8 @@ export default function ForCommercialPaintingSydneyHirePriorityOneCoatingsPage()
                     src="/images/commercial-building-painting-sydney.jpg"
                     alt="commercial building painting Sydney"
                     fill
-                    priority
+                    preload
+                    fetchPriority="high"
                     className="object-cover"
                   />
                 </div>

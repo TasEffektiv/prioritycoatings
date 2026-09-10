@@ -100,7 +100,8 @@ export default function PaintColoursAndToolsGlossaryPage() {
                     src="/images/painting-glossary-blog-banner.jpg"
                     alt="Painting glossary blog banner"
                     fill
-                    priority
+                    preload
+                    fetchPriority="high"
                     className="object-cover"
                   />
                 </div>

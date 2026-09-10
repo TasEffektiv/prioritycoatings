@@ -69,7 +69,8 @@ export default function HowToRepairPeelingPaintOnWallPage() {
                     src="/images/paint-peeling-off-rough-concrete-wall-scaled.jpg"
                     alt="paint peeling off rough concrete wall"
                     fill
-                    priority
+                    preload
+                    fetchPriority="high"
                     className="object-cover"
                   />
                 </div>

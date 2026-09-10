@@ -100,7 +100,8 @@ export default function HowToPaintYourHomeAHomeownersGuidePage() {
                     src="/images/house-painting-tips-for-homeowners.jpg"
                     alt="House painting tips for homeowners"
                     fill
-                    priority
+                    preload
+                    fetchPriority="high"
                     className="object-cover"
                   />
                 </div>

@@ -100,7 +100,8 @@ export default function TopInteriorPaintIdeasFor2024Page() {
                     src="/images/orange-and-black-sofa-with-throw-pillows-scaled.jpg"
                     alt="Orange and black sofa with throw pillows"
                     fill
-                    priority
+                    preload
+                    fetchPriority="high"
                     className="object-cover"
                   />
                 </div>

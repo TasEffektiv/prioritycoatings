@@ -100,7 +100,8 @@ export default function PreparingWeatherboardHouseForPaintingPage() {
                     src="/images/weatherboard-house-siding-installation-scaled.jpg"
                     alt="Weatherboard house siding installation"
                     fill
-                    priority
+                    preload
+                    fetchPriority="high"
                     className="object-cover"
                   />
                 </div>

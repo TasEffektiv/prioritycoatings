@@ -101,7 +101,8 @@ export default function ExteriorRepaintFrequencyPage() {
                     src="/images/exterior-house-painting-frequency.png"
                     alt="Exterior house painting frequency"
                     fill
-                    priority
+                    preload
+                    fetchPriority="high"
                     className="object-cover"
                   />
                 </div>

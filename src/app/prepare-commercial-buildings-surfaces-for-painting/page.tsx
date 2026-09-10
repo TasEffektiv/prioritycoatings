@@ -109,7 +109,8 @@ export default function PrepareCommercialBuildingsSurfacesForPaintingPage() {
                     src="/images/prepare-commercial-buildings-surfaces-for-painting-chatGPT-image-1.jpg"
                     alt="Prepare commercial buildings surfaces for painting chatGPT image"
                     fill
-                    priority
+                    preload
+                    fetchPriority="high"
                     className="object-cover"
                   />
                 </div>

@@ -100,7 +100,8 @@ export default function WhatToThinkAboutWhenPaintingKidsBedroomsPage() {
                     src="/images/Painting-kids-room.jpg"
                     alt="House painters sydney"
                     fill
-                    priority
+                    preload
+                    fetchPriority="high"
                     className="object-cover"
                   />
                 </div>

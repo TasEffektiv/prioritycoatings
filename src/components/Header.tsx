@@ -72,7 +72,8 @@ export default function Header() {
               alt="Priority One Coatings Logo"
               width={189}
               height={70}
-              priority
+              preload
+              fetchPriority="high"
             />
           </Link>
           <div className="flex items-center gap-9 text-sm text-white">
@@ -119,7 +120,8 @@ export default function Header() {
               alt="Priority One Coatings Logo"
               width={140}
               height={52}
-              priority
+              preload
+              fetchPriority="high"
             />
           </Link>
           <button

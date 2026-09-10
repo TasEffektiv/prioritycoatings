@@ -100,7 +100,8 @@ export default function SavingOnHousePaintingCostsPage() {
                     src="/images/saving-on-house-painting-costs-blog-banner.jpg"
                     alt="Saving on house painting costs blog banner"
                     fill
-                    priority
+                    preload
+                    fetchPriority="high"
                     className="object-cover"
                   />
                 </div>

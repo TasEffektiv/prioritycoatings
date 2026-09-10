@@ -100,7 +100,8 @@ export default function CommonCommercialPaintProblemsSolutionsPage() {
                     src="/images/commercial-paint-problems-solution-banner.jpg"
                     alt="Commercial paint problems and solutions banner"
                     fill
-                    priority
+                    preload
+                    fetchPriority="high"
                     className="object-cover"
                   />
                 </div>

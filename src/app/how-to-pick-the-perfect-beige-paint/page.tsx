@@ -100,7 +100,8 @@ export default function HowToPickThePerfectBeigePaintPage() {
                     src="/images/pick-the-perfect-beige-paint-blog-banner-1.jpg"
                     alt="pick the perfect beige paint blog banner"
                     fill
-                    priority
+                    preload
+                    fetchPriority="high"
                     className="object-cover"
                   />
                 </div>

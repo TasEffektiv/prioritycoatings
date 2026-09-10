@@ -100,7 +100,8 @@ export default function PaintYourPropertyBeforeEofyPage() {
                     src="/images/house-with-yard-sign-open-house-scaled.jpg"
                     alt="House with yard sign open house"
                     fill
-                    priority
+                    preload
+                    fetchPriority="high"
                     className="object-cover"
                   />
                 </div>

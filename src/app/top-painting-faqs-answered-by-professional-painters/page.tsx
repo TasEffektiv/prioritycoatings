@@ -100,7 +100,8 @@ export default function TopPaintingFaqsPage() {
                     src="/images/common-faqs-blog-banner.jpg"
                     alt="Common painting FAQs blog banner"
                     fill
-                    priority
+                    preload
+                    fetchPriority="high"
                     className="object-cover"
                   />
                 </div>

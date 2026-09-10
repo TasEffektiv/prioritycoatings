@@ -100,7 +100,8 @@ export default function HowToRemovePaintFromGlassPage() {
                     src="/images/how-to-remove-paint-from-glass-blog-banner.jpg"
                     alt="how to remove paint from glass blog banner"
                     fill
-                    priority
+                    preload
+                    fetchPriority="high"
                     className="object-cover"
                   />
                 </div>

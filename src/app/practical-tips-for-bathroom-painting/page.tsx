@@ -100,7 +100,8 @@ export default function PracticalTipsForBathroomPaintingPage() {
                     src="/images/bathroom-with-cabinets-and-window.jpg"
                     alt="bathroom with cabinets and window"
                     fill
-                    priority
+                    preload
+                    fetchPriority="high"
                     className="object-cover"
                   />
                 </div>

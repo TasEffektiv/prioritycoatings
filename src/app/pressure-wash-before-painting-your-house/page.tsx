@@ -100,7 +100,8 @@ export default function PressureWashBeforePaintingYourHousePage() {
                     src="/images/man-is-cleaning-terrace-with-pressure-cleaner.jpg"
                     alt="man is cleaning terrace with pressure cleaner"
                     fill
-                    priority
+                    preload
+                    fetchPriority="high"
                     className="object-cover"
                   />
                 </div>

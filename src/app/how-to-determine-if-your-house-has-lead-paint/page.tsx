@@ -100,7 +100,8 @@ export default function LeadPaintPage() {
                     src="/images/a-quiet-street-in-the-australian-country-town-of-pemberton.jpg"
                     alt="A quiet street in the Australian country town of Pemberton"
                     fill
-                    priority
+                    preload
+                    fetchPriority="high"
                     className="object-cover"
                   />
                 </div>

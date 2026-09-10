@@ -100,7 +100,8 @@ export default function HowPaintColourAffectsYourWorkSpacesPage() {
                     src="/images/hybrid-working-model-collage-scaled.jpg"
                     alt="hybrid working model collage"
                     fill
-                    priority
+                    preload
+                    fetchPriority="high"
                     className="object-cover"
                   />
                 </div>

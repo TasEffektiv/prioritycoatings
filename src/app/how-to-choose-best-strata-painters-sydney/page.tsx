@@ -100,7 +100,8 @@ export default function HowToChooseBestStrataPaintersSydneyPage() {
                     src="/images/new-buildings-with-green-areas.jpg"
                     alt="New buildings with green areas"
                     fill
-                    priority
+                    preload
+                    fetchPriority="high"
                     className="object-cover"
                   />
                 </div>

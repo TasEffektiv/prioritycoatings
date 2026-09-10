@@ -100,7 +100,8 @@ export default function BuildingsStuccoPaintingRepairingPage() {
                     src="/images/residential-apartment-and-flat-building-exterior.jpg"
                     alt="residential apartment and flat building exterior"
                     fill
-                    priority
+                    preload
+                    fetchPriority="high"
                     className="object-cover"
                   />
                 </div>

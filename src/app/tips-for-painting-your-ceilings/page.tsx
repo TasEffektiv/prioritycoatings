@@ -100,7 +100,8 @@ export default function TipsForPaintingYourCeilingsPage() {
                     src="/images/how-to-paint-ceilings-blog-banner.jpg"
                     alt="How to paint ceiling blog banner"
                     fill
-                    priority
+                    preload
+                    fetchPriority="high"
                     className="object-cover"
                   />
                 </div>

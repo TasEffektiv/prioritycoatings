@@ -100,7 +100,8 @@ export default function CommonCommercialPaintingMistakesToAvoidPage() {
                     src="/images/commercial-building-blog-banner-1.jpg"
                     alt="commercial building blog banner"
                     fill
-                    priority
+                    preload
+                    fetchPriority="high"
                     className="object-cover"
                   />
                 </div>

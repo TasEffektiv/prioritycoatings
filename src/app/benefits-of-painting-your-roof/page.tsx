@@ -100,7 +100,8 @@ export default function BenefitsOfPaintingYourRoofPage() {
                     src="/images/roofers-working-together-with-helmets-scaled.jpg"
                     alt="roofers working together with helmets"
                     fill
-                    priority
+                    preload
+                    fetchPriority="high"
                     className="object-cover"
                   />
                 </div>

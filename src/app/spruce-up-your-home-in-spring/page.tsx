@@ -100,7 +100,8 @@ export default function SpruceUpYourHomeInSpringPage() {
                     src="/images/spring-spruce-up-blog-banner.jpg"
                     alt="Spring spruce up blog banner"
                     fill
-                    priority
+                    preload
+                    fetchPriority="high"
                     className="object-cover"
                   />
                 </div>

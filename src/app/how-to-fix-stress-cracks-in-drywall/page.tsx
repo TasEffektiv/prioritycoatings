@@ -100,7 +100,8 @@ export default function HowToFixStressCracksInDrywallPage() {
                     src="/images/cracked-wall-next-to-door-frame.jpg"
                     alt="cracked wall next to door frame"
                     fill
-                    priority
+                    preload
+                    fetchPriority="high"
                     className="object-cover"
                   />
                 </div>

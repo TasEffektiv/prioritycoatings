@@ -100,7 +100,8 @@ export default function CommonCausesPeelingPaintWallsPage() {
                     src="/images/Common-Causes-of-Peeling-Paint-on-Walls-prioritycoatings.com_.au_.png"
                     alt="Common causes of peeling paint on walls"
                     fill
-                    priority
+                    preload
+                    fetchPriority="high"
                     className="object-cover"
                   />
                 </div>

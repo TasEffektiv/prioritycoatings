@@ -66,7 +66,7 @@ export default function Footer() {
         className="pointer-events-none absolute inset-0 bg-cover bg-[0%_0%] mix-blend-multiply"
         style={{
           backgroundImage:
-            "url(/images/foo-bg.png)",
+            "url(/images/foo-bg.webp)",
         }}
       />
       <div className="relative mx-auto max-w-[1400px] px-6 py-16">

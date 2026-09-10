@@ -69,7 +69,8 @@ export default function PlanForYourNextCommercialPaintingProjectPage() {
                     src="/images/painter-spraying-powder-paint-from-gun.jpg"
                     alt="painter spraying powder paint from gun"
                     fill
-                    priority
+                    preload
+                    fetchPriority="high"
                     className="object-cover"
                   />
                 </div>

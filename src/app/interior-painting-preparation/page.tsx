@@ -100,7 +100,8 @@ export default function InteriorPaintingPreparationPage() {
                     src="/images/woman-stands-in-the-middle-of-a-room-with-plastic-covered-furniture-and-a-stepladder.jpg"
                     alt="Woman stands in the middle of a room with plastic-covered furniture and a stepladder"
                     fill
-                    priority
+                    preload
+                    fetchPriority="high"
                     className="object-cover"
                   />
                 </div>

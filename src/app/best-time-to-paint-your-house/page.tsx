@@ -100,7 +100,8 @@ export default function BestTimeToPaintYourHousePage() {
                     src="/images/charming-yellow-house-with-wooden-windows-green-grassy-garden-scaled.jpg"
                     alt="Charming yellow house with wooden windows and a green grassy garden"
                     fill
-                    priority
+                    preload
+                    fetchPriority="high"
                     className="object-cover"
                   />
                 </div>

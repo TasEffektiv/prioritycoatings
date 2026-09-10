@@ -100,7 +100,8 @@ export default function OurCommercialFitoutsSydneyPerformAnyJobPage() {
                     src="/images/commercial-office-fitouts.jpg"
                     alt="Commercial office fitouts"
                     fill
-                    priority
+                    preload
+                    fetchPriority="high"
                     className="object-cover"
                   />
                 </div>

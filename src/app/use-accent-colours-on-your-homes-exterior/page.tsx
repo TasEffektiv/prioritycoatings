@@ -100,7 +100,8 @@ export default function UseAccentColoursOnYourHomesExteriorPage() {
                     src="/images/colorful-houses-on-a-leafy-residential-street.jpg"
                     alt="colorful houses on a leafy residential street"
                     fill
-                    priority
+                    preload
+                    fetchPriority="high"
                     className="object-cover"
                   />
                 </div>

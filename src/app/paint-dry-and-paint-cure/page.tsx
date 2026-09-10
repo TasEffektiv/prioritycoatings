@@ -100,7 +100,8 @@ export default function PaintDryAndPaintCurePage() {
                     src="/images/paint-dry-paint-cure-blog-banner.jpg"
                     alt="Paint dry paint cure blog banner"
                     fill
-                    priority
+                    preload
+                    fetchPriority="high"
                     className="object-cover"
                   />
                 </div>

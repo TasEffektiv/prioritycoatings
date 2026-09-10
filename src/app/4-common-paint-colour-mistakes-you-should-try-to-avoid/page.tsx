@@ -101,7 +101,8 @@ export default function PaintColourMistakesPage() {
                     src="/images/common-paint-colour-mistakes-to-avoid.jpg"
                     alt="Common home paint colour mistakes to avoid"
                     fill
-                    priority
+                    preload
+                    fetchPriority="high"
                     className="object-cover"
                   />
                 </div>

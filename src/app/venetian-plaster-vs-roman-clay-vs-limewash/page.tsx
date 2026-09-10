@@ -115,7 +115,8 @@ export default function VenetianPlasterVsRomanClayVsLimewashPage() {
                     src="/images/venetian-plaster-vs-roman-clay-vs-limewash-blog-banner-1.jpg"
                     alt="Venetian plaster vs roman clay vs limewash blog banner"
                     fill
-                    priority
+                    preload
+                    fetchPriority="high"
                     className="object-cover"
                   />
                 </div>

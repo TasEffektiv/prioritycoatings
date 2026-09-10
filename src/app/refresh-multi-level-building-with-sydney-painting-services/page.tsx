@@ -100,7 +100,8 @@ export default function RefreshMultiLevelBuildingWithSydneyPaintingServicesPage(
                     src="/images/office-skyscrapers-business-district.jpg"
                     alt="multi-level building"
                     fill
-                    priority
+                    preload
+                    fetchPriority="high"
                     className="object-cover"
                   />
                 </div>

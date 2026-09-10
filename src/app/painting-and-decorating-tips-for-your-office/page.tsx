@@ -101,7 +101,8 @@ export default function OfficePaintingDecoratingTipsPage() {
                     src="/images/painting-and-decorating-tips-for-your-office-banner.png"
                     alt="Painting and decorating tips for your office"
                     fill
-                    priority
+                    preload
+                    fetchPriority="high"
                     className="object-cover"
                   />
                 </div>

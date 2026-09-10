@@ -100,7 +100,8 @@ export default function DifferentTypesOfIndustrialCoatingsPage() {
                     src="/images/different-types-of-industrial-coatings-blog-banner.jpg"
                     alt="different types of industrial coatings blog banner"
                     fill
-                    priority
+                    preload
+                    fetchPriority="high"
                     className="object-cover"
                   />
                 </div>

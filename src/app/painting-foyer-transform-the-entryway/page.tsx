@@ -100,7 +100,8 @@ export default function PaintingFoyerTransformTheEntrywayPage() {
                     src="/images/entrance-hallway-with-staircase.jpg"
                     alt="entrance hallway with staircase"
                     fill
-                    priority
+                    preload
+                    fetchPriority="high"
                     className="object-cover"
                   />
                 </div>

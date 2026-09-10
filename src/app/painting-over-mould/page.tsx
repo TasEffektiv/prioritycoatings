@@ -100,7 +100,8 @@ export default function PaintingOverMouldPage() {
                     src="/images/painting-over-mould-blog-banner.jpg"
                     alt="Painting over mould blog banner"
                     fill
-                    priority
+                    preload
+                    fetchPriority="high"
                     className="object-cover"
                   />
                 </div>

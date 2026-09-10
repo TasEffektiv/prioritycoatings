@@ -100,7 +100,8 @@ export default function HowToCleanPaintedWallsPage() {
                     src="/images/hand-in-a-rubber-yellow-glove-wipes-a-chalked-heart-on-a-wall-with-a-sponge.jpg"
                     alt="Hand in a rubber yellow glove wipes a chalked heart on a wall with a sponge"
                     fill
-                    priority
+                    preload
+                    fetchPriority="high"
                     className="object-cover"
                   />
                 </div>

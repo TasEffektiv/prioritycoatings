@@ -100,7 +100,8 @@ export default function CostOfPaintingCommercialBuildingsPage() {
                     src="/images/view-of-sydney-in-cloudy-weather.jpg"
                     alt="View of Sydney in cloudy weather"
                     fill
-                    priority
+                    preload
+                    fetchPriority="high"
                     className="object-cover"
                   />
                 </div>

@@ -102,7 +102,8 @@ export default function LivingRoomColoursInfographicPage() {
                     src="/images/living-room-interior-colours.jpg"
                     alt="Living room interior colours"
                     fill
-                    priority
+                    preload
+                    fetchPriority="high"
                     className="object-cover"
                   />
                 </div>

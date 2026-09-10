@@ -100,7 +100,8 @@ export default function TipsForPaintingYourFencePage() {
                     src="/images/planks-fence-dyeing-with-brown-paint-and-brush.jpg"
                     alt="Planks fence dyeing with brown paint and brush"
                     fill
-                    priority
+                    preload
+                    fetchPriority="high"
                     className="object-cover"
                   />
                 </div>

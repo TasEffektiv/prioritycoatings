@@ -100,7 +100,8 @@ export default function WaterproofingCommercialBuildingsPage() {
                     src="/images/waterproofing-commercial-buildings.jpg"
                     alt="Waterproofing commercial buildings"
                     fill
-                    priority
+                    preload
+                    fetchPriority="high"
                     className="object-cover"
                   />
                 </div>

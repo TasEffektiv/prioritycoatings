@@ -100,7 +100,8 @@ export default function PracticalWaysToChooseSuitableOfficePartitionsPage() {
                     src="/images/Ways-to-choose-the-suitable-office-partitions.png"
                     alt="Ways to choose the suitable office partitions"
                     fill
-                    priority
+                    preload
+                    fetchPriority="high"
                     className="object-cover"
                   />
                 </div>

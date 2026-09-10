@@ -113,7 +113,8 @@ export default function LimewashPaintOrRenderPage() {
                     src="/images/limewash-paint-or-render-your-brick-house-blog-banner.jpg"
                     alt="Limewash, paint, or render your brick house blog banner"
                     fill
-                    priority
+                    preload
+                    fetchPriority="high"
                     className="object-cover"
                   />
                 </div>

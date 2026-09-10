@@ -100,7 +100,8 @@ export default function SafePaintingPracticesForHomeownersPaintersPage() {
                     src="/images/safe-painting-practices-blog-banner.jpg"
                     alt="safe painting practices blog banner"
                     fill
-                    priority
+                    preload
+                    fetchPriority="high"
                     className="object-cover"
                   />
                 </div>

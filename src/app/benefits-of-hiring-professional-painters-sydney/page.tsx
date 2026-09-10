@@ -100,7 +100,8 @@ export default function BenefitsOfHiringProfessionalPaintersSydneyPage() {
                     src="/images/professional-painters-blog-banner.jpg"
                     alt="Professional painters blog banner"
                     fill
-                    priority
+                    preload
+                    fetchPriority="high"
                     className="object-cover"
                   />
                 </div>

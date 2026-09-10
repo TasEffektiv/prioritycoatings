@@ -69,7 +69,8 @@ export default function HowLongToPaintAHousePage() {
                     src="/images/couple-painting-interior-wall-new-apartment-scaled.jpg"
                     alt="couple painting interior wall new apartment"
                     fill
-                    priority
+                    preload
+                    fetchPriority="high"
                     className="object-cover"
                   />
                 </div>

@@ -69,7 +69,8 @@ export default function PaintingInHotWeatherPage() {
                     src="/images/house-painting-under-sun-scaled.jpg"
                     alt="painting house exterior"
                     fill
-                    priority
+                    preload
+                    fetchPriority="high"
                     className="object-cover"
                   />
                 </div>

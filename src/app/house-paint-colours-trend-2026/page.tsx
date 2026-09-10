@@ -100,7 +100,8 @@ export default function HousePaintColoursTrend2026Page() {
                     src="/images/house-paint-colour-2026-blog-banner.jpg"
                     alt="House paint colour 2026 blog banner"
                     fill
-                    priority
+                    preload
+                    fetchPriority="high"
                     className="object-cover"
                   />
                 </div>

@@ -100,7 +100,8 @@ export default function HowPaintingWaterproofingWorkTogetherPage() {
                     src="/images/worker-applies-bitumen-mastic-on-foundation.jpg"
                     alt="worker applies bitumen mastic on foundation"
                     fill
-                    priority
+                    preload
+                    fetchPriority="high"
                     className="object-cover"
                   />
                 </div>

@@ -100,7 +100,8 @@ export default function CommercialPaintingFaqsPage() {
                     src="/images/commercial-painting-faq-blog-banner.jpg"
                     alt="Commercial painting FAQ blog banner"
                     fill
-                    priority
+                    preload
+                    fetchPriority="high"
                     className="object-cover"
                   />
                 </div>

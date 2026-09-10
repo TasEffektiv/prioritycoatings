@@ -100,7 +100,8 @@ export default function SaveMoneyWhenWorkingWithAPaintingContractorPage() {
                     src="/images/10127208_l.jpg"
                     alt="working with a painting contractor"
                     fill
-                    priority
+                    preload
+                    fetchPriority="high"
                     className="object-cover"
                   />
                 </div>

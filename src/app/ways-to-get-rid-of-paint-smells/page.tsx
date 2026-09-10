@@ -100,7 +100,8 @@ export default function WaysToGetRidOfPaintSmellsPage() {
                     src="/images/ways-to-remove-paint-smell-blog-banner-1.jpg"
                     alt="Ways to remove paint smell blog banner"
                     fill
-                    priority
+                    preload
+                    fetchPriority="high"
                     className="object-cover"
                   />
                 </div>

@@ -100,7 +100,8 @@ export default function DrywallRepairTipsPage() {
                     src="/images/construction-worker-plastering-on-gypsum-walls.jpg"
                     alt="Construction worker plastering on gypsum walls"
                     fill
-                    priority
+                    preload
+                    fetchPriority="high"
                     className="object-cover"
                   />
                 </div>

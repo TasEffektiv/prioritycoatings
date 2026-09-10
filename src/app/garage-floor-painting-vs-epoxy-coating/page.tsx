@@ -100,7 +100,8 @@ export default function GarageFloorPaintingVsEpoxyCoatingPage() {
                     src="/images/neon-light-inside-parking-garage.jpg"
                     alt="Neon light inside parking garage"
                     fill
-                    priority
+                    preload
+                    fetchPriority="high"
                     className="object-cover"
                   />
                 </div>

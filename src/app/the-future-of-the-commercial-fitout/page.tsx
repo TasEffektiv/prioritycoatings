@@ -100,7 +100,8 @@ export default function TheFutureOfTheCommercialFitoutPage() {
                     src="/images/pexels-photo-265573.jpeg"
                     alt="commercial fitout"
                     fill
-                    priority
+                    preload
+                    fetchPriority="high"
                     className="object-cover"
                   />
                 </div>

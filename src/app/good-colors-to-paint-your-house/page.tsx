@@ -101,7 +101,8 @@ export default function GoodColoursToPaintYourHousePage() {
                     src="/images/good-colours-to-paint-your-house-spring.jpg"
                     alt="spring house painting"
                     fill
-                    priority
+                    preload
+                    fetchPriority="high"
                     className="object-cover"
                   />
                 </div>

@@ -101,7 +101,8 @@ export default function WinterInteriorPaintingPage() {
                     src="/images/reasons-to-paint-your-home-interior-in-winter.png"
                     alt="Reasons to paint your home interior in winter"
                     fill
-                    priority
+                    preload
+                    fetchPriority="high"
                     className="object-cover"
                   />
                 </div>

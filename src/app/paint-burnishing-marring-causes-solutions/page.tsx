@@ -100,7 +100,8 @@ export default function PaintBurnishingMarringCausesSolutionsPage() {
                     src="/images/wood-painting.jpg"
                     alt="wood painting"
                     fill
-                    priority
+                    preload
+                    fetchPriority="high"
                     className="object-cover"
                   />
                 </div>

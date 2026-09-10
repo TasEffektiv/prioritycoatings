@@ -69,7 +69,8 @@ export default function HowToRemovePopcornVermiculiteCeilingsPage() {
                     src="/images/popcorn-ceiling.jpg"
                     alt="popcorn ceiling"
                     fill
-                    priority
+                    preload
+                    fetchPriority="high"
                     className="object-cover"
                   />
                 </div>

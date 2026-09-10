@@ -17,6 +17,7 @@ export default function Hero() {
               alt=""
               fill
               preload={i === 0}
+              fetchPriority={i === 0 ? "high" : undefined}
               sizes="100vw"
               className="object-cover object-center"
             />

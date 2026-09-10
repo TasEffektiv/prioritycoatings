@@ -100,7 +100,8 @@ export default function HowToRemoveWallpaperPage() {
                     src="/images/girl-removing-wallpaper-blog-banner.jpg"
                     alt="girl removing wallpaper blog banner"
                     fill
-                    priority
+                    preload
+                    fetchPriority="high"
                     className="object-cover"
                   />
                 </div>

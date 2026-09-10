@@ -100,7 +100,8 @@ export default function WhenToUsePrimerVsSealerVsUndercoatPage() {
                     src="/images/young-couple-repairs-room.jpg"
                     alt="Young couple repairs room"
                     fill
-                    priority
+                    preload
+                    fetchPriority="high"
                     className="object-cover"
                   />
                 </div>

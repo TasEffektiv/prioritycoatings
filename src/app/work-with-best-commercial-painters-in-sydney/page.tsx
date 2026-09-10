@@ -100,7 +100,8 @@ export default function WorkWithBestCommercialPaintersInSydneyPage() {
                     src="/images/commercial-painters.jpg"
                     alt="Commercial painters"
                     fill
-                    priority
+                    preload
+                    fetchPriority="high"
                     className="object-cover"
                   />
                 </div>

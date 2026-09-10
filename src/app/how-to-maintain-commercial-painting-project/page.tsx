@@ -100,7 +100,8 @@ export default function HowToMaintainCommercialPaintingProjectPage() {
                     src="/images/bright-new-commercial-buildings.jpg"
                     alt="Bright new commercial buildings"
                     fill
-                    priority
+                    preload
+                    fetchPriority="high"
                     className="object-cover"
                   />
                 </div>

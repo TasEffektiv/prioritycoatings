@@ -100,7 +100,8 @@ export default function KeepYourPropertyLookingFreshWithPriorityOneCoatingsPage(
                     src="/images/transform-the-appearance-of-your-property.jpg"
                     alt="Transform the appearance of your property"
                     fill
-                    priority
+                    preload
+                    fetchPriority="high"
                     className="object-cover"
                   />
                 </div>

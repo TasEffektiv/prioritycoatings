@@ -102,7 +102,8 @@ export default function LightReflectanceValuePage() {
                     src="/images/light-reflectance-value-lrv-chart.png"
                     alt="Light Reflectance Value LRV chart"
                     fill
-                    priority
+                    preload
+                    fetchPriority="high"
                     className="object-cover"
                   />
                 </div>

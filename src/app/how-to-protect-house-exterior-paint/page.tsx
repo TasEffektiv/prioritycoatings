@@ -100,7 +100,8 @@ export default function HowToProtectHouseExteriorPaintPage() {
                     src="/images/how-to-protect-house-exterior-paint-blog-banner.jpg"
                     alt="how to protect house exterior paint blog banner"
                     fill
-                    priority
+                    preload
+                    fetchPriority="high"
                     className="object-cover"
                   />
                 </div>

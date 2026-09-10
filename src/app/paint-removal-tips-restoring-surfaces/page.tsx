@@ -100,7 +100,8 @@ export default function PaintRemovalTipsRestoringSurfacesPage() {
                     src="/images/spatula-on-a-pink-surface.jpg"
                     alt="Spatula on a pink surface"
                     fill
-                    priority
+                    preload
+                    fetchPriority="high"
                     className="object-cover"
                   />
                 </div>

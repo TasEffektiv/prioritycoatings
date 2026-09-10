@@ -100,7 +100,8 @@ export default function HowProfessionalPaintingAddsValueToPropertyPage() {
                     src="/images/room-painting-job-painting-roller-in-hand-of-worker.jpg"
                     alt="Room painting job painting roller in hand of worker"
                     fill
-                    priority
+                    preload
+                    fetchPriority="high"
                     className="object-cover"
                   />
                 </div>

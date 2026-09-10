@@ -100,7 +100,8 @@ export default function GuideToReglazingWindowsPage() {
                     src="/images/windows-of-house.jpg"
                     alt="windows of house"
                     fill
-                    priority
+                    preload
+                    fetchPriority="high"
                     className="object-cover"
                   />
                 </div>

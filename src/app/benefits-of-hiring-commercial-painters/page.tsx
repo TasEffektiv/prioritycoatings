@@ -100,7 +100,8 @@ export default function BenefitsOfHiringCommercialPaintersPage() {
                     src="/images/renovation-crew-painting-in-a-room.jpg"
                     alt="Renovation crew painting in a room"
                     fill
-                    priority
+                    preload
+                    fetchPriority="high"
                     className="object-cover"
                   />
                 </div>

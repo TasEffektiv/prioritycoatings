@@ -100,7 +100,8 @@ export default function GuideToEggshellPaintFinishPage() {
                     src="/images/top-view-of-tin-with-purple-paint-and-brushes-on-blue-surface.jpg"
                     alt="Top view of tin with purple paint and brushes on blue surface"
                     fill
-                    priority
+                    preload
+                    fetchPriority="high"
                     className="object-cover"
                   />
                 </div>

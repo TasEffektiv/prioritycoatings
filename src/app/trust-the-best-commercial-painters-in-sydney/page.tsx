@@ -100,7 +100,8 @@ export default function TrustTheBestCommercialPaintersInSydneyPage() {
                     src="/images/best-commercial-painters-sydney-blog-banner.jpg"
                     alt="best commercial painters in Sydney blog banner"
                     fill
-                    priority
+                    preload
+                    fetchPriority="high"
                     className="object-cover"
                   />
                 </div>

@@ -100,7 +100,8 @@ export default function HowToFindBestSydneyPaintingServicesPage() {
                     src="/images/painters-in-sydney.jpg"
                     alt="Painters in Sydney"
                     fill
-                    priority
+                    preload
+                    fetchPriority="high"
                     className="object-cover"
                   />
                 </div>

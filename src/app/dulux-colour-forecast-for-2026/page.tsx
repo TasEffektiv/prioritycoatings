@@ -100,7 +100,8 @@ export default function DuluxColourForecast2026Page() {
                     src="/images/dulux-colour-forecast-for-2026-blog-banner.jpg"
                     alt="Dulux colour forecast for 2026 blog banner"
                     fill
-                    priority
+                    preload
+                    fetchPriority="high"
                     className="object-cover"
                   />
                 </div>

@@ -100,7 +100,8 @@ export default function WeatherproofingYourHomeWithExteriorPaintPage() {
                     src="/images/brown-and-white-concrete-house-near-green-grass-field-during-daytime-scaled.jpg"
                     alt="concrete house near green grass field during daytime"
                     fill
-                    priority
+                    preload
+                    fetchPriority="high"
                     className="object-cover"
                   />
                 </div>

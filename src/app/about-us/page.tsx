@@ -39,7 +39,8 @@ export default function AboutUsPage() {
                   width={2558}
                   height={1304}
                   sizes="(min-width: 1024px) 40vw, 100vw"
-                  priority
+                  preload
+                  fetchPriority="high"
                   className="h-auto w-full object-contain"
                 />
               </div>

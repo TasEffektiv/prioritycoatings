@@ -69,7 +69,8 @@ export default function PaintingYourHouseBeforeSellingPage() {
                     src="/images/house-with-yard-sign-sale.jpg"
                     alt="house with yard sign for sale"
                     fill
-                    priority
+                    preload
+                    fetchPriority="high"
                     className="object-cover"
                   />
                 </div>

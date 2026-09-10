@@ -100,7 +100,8 @@ export default function CalculateAverageCostOfInteriorExteriorPaintingPage() {
                     src="/images/calculate-the-cost-of-house-painting.jpg"
                     alt="Calculate the cost of house painting"
                     fill
-                    priority
+                    preload
+                    fetchPriority="high"
                     className="object-cover"
                   />
                 </div>

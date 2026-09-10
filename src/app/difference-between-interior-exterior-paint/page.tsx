@@ -100,7 +100,8 @@ export default function DifferenceBetweenInteriorExteriorPaintPage() {
                     src="/images/house-painting.jpg"
                     alt="Picture of beautiful village house with garden"
                     fill
-                    priority
+                    preload
+                    fetchPriority="high"
                     className="object-cover"
                   />
                 </div>

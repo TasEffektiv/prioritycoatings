@@ -100,7 +100,8 @@ export default function WhatToExpectFromSydneyPaintersPage() {
                     src="/images/decorators-painting-a-wall-with-a-roller-during-renovation-scaled.jpg"
                     alt="decorators painting a wall with a roller during renovation"
                     fill
-                    priority
+                    preload
+                    fetchPriority="high"
                     className="object-cover"
                   />
                 </div>

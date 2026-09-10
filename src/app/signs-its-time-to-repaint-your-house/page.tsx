@@ -123,7 +123,8 @@ export default function SignsItsTimeToRepaintYourHousePage() {
                     src="/images/gray-wooden-house-scaled.jpg"
                     alt="Gray wooden house"
                     fill
-                    priority
+                    preload
+                    fetchPriority="high"
                     className="object-cover"
                   />
                 </div>

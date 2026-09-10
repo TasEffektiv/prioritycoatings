@@ -100,7 +100,8 @@ export default function HowToColourMatchYourPaintPage() {
                     src="/images/woman-with-palette-of-color-swatches-choosing-one-for-walls.jpg"
                     alt="woman with palette of colour swatches choosing one for walls"
                     fill
-                    priority
+                    preload
+                    fetchPriority="high"
                     className="object-cover"
                   />
                 </div>

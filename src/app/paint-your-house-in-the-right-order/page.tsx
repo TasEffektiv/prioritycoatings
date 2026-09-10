@@ -100,7 +100,8 @@ export default function PaintYourHouseInTheRightOrderPage() {
                     src="/images/young-man-painting-blue-wall-scaled.jpg"
                     alt="Young man painting a blue wall"
                     fill
-                    priority
+                    preload
+                    fetchPriority="high"
                     className="object-cover"
                   />
                 </div>

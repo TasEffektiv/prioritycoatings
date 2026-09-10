@@ -101,7 +101,8 @@ export default function HowStrataPaintingCanHelpYourBusinessIn2017Page() {
                     src="/images/pexels-photo-271699.jpeg"
                     alt="commercial building"
                     fill
-                    priority
+                    preload
+                    fetchPriority="high"
                     className="object-cover"
                   />
                 </div>

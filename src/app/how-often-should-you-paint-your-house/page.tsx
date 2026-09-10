@@ -153,7 +153,8 @@ export default function HowOftenShouldYouPaintYourHousePage() {
                     src="/images/how-often-should-you-paint-your-house-blog-banner.jpg"
                     alt="How often should you paint your house blog banner"
                     fill
-                    priority
+                    preload
+                    fetchPriority="high"
                     className="object-cover"
                   />
                 </div>

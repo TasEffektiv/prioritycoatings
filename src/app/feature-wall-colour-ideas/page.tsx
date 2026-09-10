@@ -100,7 +100,8 @@ export default function FeatureWallColourIdeasPage() {
                     src="/images/armchair-with-checkered-pattern-feature-wall.jpg"
                     alt="Armchair with checkered pattern feature wall"
                     fill
-                    priority
+                    preload
+                    fetchPriority="high"
                     className="object-cover"
                   />
                 </div>

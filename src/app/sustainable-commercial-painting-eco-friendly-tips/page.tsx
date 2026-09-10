@@ -100,7 +100,8 @@ export default function SustainableCommercialPaintingPage() {
                     src="/images/sustainable-commercial-painting-chatgpt-image.jpg"
                     alt="sustainable commercial painting ChatGPT image"
                     fill
-                    priority
+                    preload
+                    fetchPriority="high"
                     className="object-cover"
                   />
                 </div>

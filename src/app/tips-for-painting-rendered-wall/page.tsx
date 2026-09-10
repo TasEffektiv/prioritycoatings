@@ -100,7 +100,8 @@ export default function TipsForPaintingRenderedWallPage() {
                     src="/images/couple-painting-rendered-walls-together-scaled.jpg"
                     alt="Couple painting rendered walls together"
                     fill
-                    priority
+                    preload
+                    fetchPriority="high"
                     className="object-cover"
                   />
                 </div>

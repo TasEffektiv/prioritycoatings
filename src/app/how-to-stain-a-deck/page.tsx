@@ -100,7 +100,8 @@ export default function HowToStainADeckPage() {
                     src="/images/how-to-stain-a-deck-blog-banner.jpg"
                     alt="how to stain a deck blog banner"
                     fill
-                    priority
+                    preload
+                    fetchPriority="high"
                     className="object-cover"
                   />
                 </div>

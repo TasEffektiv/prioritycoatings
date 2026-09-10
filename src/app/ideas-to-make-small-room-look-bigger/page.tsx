@@ -100,7 +100,8 @@ export default function IdeasToMakeSmallRoomLookBiggerPage() {
                     src="/images/brown-wooden-chair-near-brown-wooden-table.jpg"
                     alt="Brown wooden chair near brown wooden table"
                     fill
-                    priority
+                    preload
+                    fetchPriority="high"
                     className="object-cover"
                   />
                 </div>

@@ -101,7 +101,8 @@ export default function FiveEssentialToolsYouNeedToPaintYourHousePage() {
                     src="/images/house-painting-tools.jpg"
                     alt="house painting tools"
                     fill
-                    priority
+                    preload
+                    fetchPriority="high"
                     className="object-cover"
                   />
                 </div>

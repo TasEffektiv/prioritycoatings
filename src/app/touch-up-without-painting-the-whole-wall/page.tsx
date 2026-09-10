@@ -100,7 +100,8 @@ export default function TouchUpWithoutPaintingWholeWallPage() {
                     src="/images/people-renovating-house-scaled.jpg"
                     alt="Woman painting wall with roller"
                     fill
-                    priority
+                    preload
+                    fetchPriority="high"
                     className="object-cover"
                   />
                 </div>

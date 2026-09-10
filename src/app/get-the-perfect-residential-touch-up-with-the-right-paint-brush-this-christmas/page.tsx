@@ -102,7 +102,8 @@ export default function ResidentialTouchUpPaintBrushPage() {
                     src="/images/residential-touch-up-paint-brush-christmas.jpg"
                     alt="residential touch-up in Christmas"
                     fill
-                    priority
+                    preload
+                    fetchPriority="high"
                     className="object-cover"
                   />
                 </div>

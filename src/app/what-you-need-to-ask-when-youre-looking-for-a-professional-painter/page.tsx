@@ -102,7 +102,8 @@ export default function ProfessionalPainterQuestionsPage() {
                     src="/images/questions-to-ask-a-professional-painter.jpg"
                     alt="Questions to ask when choosing a professional painter"
                     fill
-                    priority
+                    preload
+                    fetchPriority="high"
                     className="object-cover"
                   />
                 </div>

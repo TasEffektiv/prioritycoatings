@@ -100,7 +100,8 @@ export default function PaintingDifferentExteriorSidingPage() {
                     src="/images/house-vinyl-siding.jpg"
                     alt="house vinyl siding"
                     fill
-                    priority
+                    preload
+                    fetchPriority="high"
                     className="object-cover"
                   />
                 </div>

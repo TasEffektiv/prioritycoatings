@@ -100,7 +100,8 @@ export default function SummerPaintColoursToCoolYourHomePage() {
                     src="/images/kitchen-with-island-and-table.jpg"
                     alt="Kitchen with island and table"
                     fill
-                    priority
+                    preload
+                    fetchPriority="high"
                     className="object-cover"
                   />
                 </div>

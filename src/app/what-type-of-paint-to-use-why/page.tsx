@@ -100,7 +100,8 @@ export default function WhatTypeOfPaintToUseWhyPage() {
                     src="/images/paint-front-door-of-country-home.jpg"
                     alt="paint front door of country home"
                     fill
-                    priority
+                    preload
+                    fetchPriority="high"
                     className="object-cover"
                   />
                 </div>

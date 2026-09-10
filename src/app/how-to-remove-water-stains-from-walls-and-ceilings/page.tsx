@@ -100,7 +100,8 @@ export default function HowToRemoveWaterStainsFromWallsAndCeilingsPage() {
                     src="/images/water-stain-on-walls-and-ceilings.png"
                     alt="Water stain on walls and ceilings"
                     fill
-                    priority
+                    preload
+                    fetchPriority="high"
                     className="object-cover"
                   />
                 </div>

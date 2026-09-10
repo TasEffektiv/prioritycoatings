@@ -69,7 +69,8 @@ export default function HowToPrepareSurfaceForPaintingPage() {
                     src="/images/surface-prep-for-painting.jpg"
                     alt="surface prep for painting"
                     fill
-                    priority
+                    preload
+                    fetchPriority="high"
                     className="object-cover"
                   />
                 </div>

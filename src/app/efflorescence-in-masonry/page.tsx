@@ -100,7 +100,8 @@ export default function EfflorescenceInMasonryPage() {
                     src="/images/white-texture-brick-wall.jpg"
                     alt="white texture brick wall"
                     fill
-                    priority
+                    preload
+                    fetchPriority="high"
                     className="object-cover"
                   />
                 </div>

@@ -100,7 +100,8 @@ export default function GetYourEpoxyFlooringDoneWithPriorityOneCoatingsPage() {
                     src="/images/epoxy-floor-coatings-1.jpg"
                     alt="Epoxy floor coatings"
                     fill
-                    priority
+                    preload
+                    fetchPriority="high"
                     className="object-cover"
                   />
                 </div>

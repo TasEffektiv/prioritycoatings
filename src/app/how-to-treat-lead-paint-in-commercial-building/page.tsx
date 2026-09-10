@@ -100,7 +100,8 @@ export default function HowToTreatLeadPaintInCommercialBuildingPage() {
                     src="/images/lead-based-paint-removal.jpg"
                     alt="Lead based paint removal"
                     fill
-                    priority
+                    preload
+                    fetchPriority="high"
                     className="object-cover"
                   />
                 </div>

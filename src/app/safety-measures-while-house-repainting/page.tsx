@@ -101,7 +101,8 @@ export default function SafetyMeasuresWhileHouseRepaintingPage() {
                     src="/images/safety-measures-while-repainting-your-house-banner.jpg"
                     alt="house repainting"
                     fill
-                    priority
+                    preload
+                    fetchPriority="high"
                     className="object-cover"
                   />
                 </div>

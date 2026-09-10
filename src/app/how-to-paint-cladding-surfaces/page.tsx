@@ -100,7 +100,8 @@ export default function HowToPaintCladdingSurfacesPage() {
                     src="/images/facade-of-a-regular-size-simple-house.jpg"
                     alt="Facade of a regular size simple house"
                     fill
-                    priority
+                    preload
+                    fetchPriority="high"
                     className="object-cover"
                   />
                 </div>

@@ -100,7 +100,8 @@ export default function PaintingCommercialBuildingBestPracticeGuidePage() {
                     src="/images/colorful-building-facade-in-city.jpg"
                     alt="Colorful building facade in city"
                     fill
-                    priority
+                    preload
+                    fetchPriority="high"
                     className="object-cover"
                   />
                 </div>

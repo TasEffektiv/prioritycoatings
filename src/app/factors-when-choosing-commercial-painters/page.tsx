@@ -100,7 +100,8 @@ export default function FactorsWhenChoosingCommercialPaintersPage() {
                     src="/images/commercial-painters-sydney-blog-banner.jpg"
                     alt="commercial painters in Sydney"
                     fill
-                    priority
+                    preload
+                    fetchPriority="high"
                     className="object-cover"
                   />
                 </div>

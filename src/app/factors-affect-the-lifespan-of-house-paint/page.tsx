@@ -100,7 +100,8 @@ export default function FactorsAffectTheLifespanOfHousePaintPage() {
                     src="/images/brown-and-white-concrete-house.jpg"
                     alt="Brown and white concrete house"
                     fill
-                    priority
+                    preload
+                    fetchPriority="high"
                     className="object-cover"
                   />
                 </div>

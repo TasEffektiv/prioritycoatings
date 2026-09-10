@@ -100,7 +100,8 @@ export default function HowToHireSydneyPaintingServicesPage() {
                     src="/images/sydney-painting-services-blog-banner.jpg"
                     alt="Sydney painting services blog banner"
                     fill
-                    priority
+                    preload
+                    fetchPriority="high"
                     className="object-cover"
                   />
                 </div>

@@ -100,7 +100,8 @@ export default function MetalRoofPaintingPage() {
                     src="/images/painting-metal-roof-blog-banner.jpg"
                     alt="Painting metal roof blog banner"
                     fill
-                    priority
+                    preload
+                    fetchPriority="high"
                     className="object-cover"
                   />
                 </div>

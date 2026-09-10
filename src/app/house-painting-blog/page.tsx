@@ -101,7 +101,8 @@ export default function HousePaintingBlogPage() {
                     src="/images/priority-one-coatings-team-painting-tools.jpg"
                     alt="painting tools - Priority One Coatings"
                     fill
-                    priority
+                    preload
+                    fetchPriority="high"
                     className="object-cover"
                   />
                 </div>

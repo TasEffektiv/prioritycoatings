@@ -107,7 +107,8 @@ export default function PaintingYourConcreteDrivewayPage() {
                     src="/images/luxury-house-exterior-with-brick-and-siding-trim-and-double-garage.jpg"
                     alt="Luxury house exterior with brick and siding trim and double garage"
                     fill
-                    priority
+                    preload
+                    fetchPriority="high"
                     className="object-cover"
                   />
                 </div>

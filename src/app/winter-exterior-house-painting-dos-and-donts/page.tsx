@@ -134,7 +134,8 @@ export default function WinterExteriorHousePaintingDosAndDontsPage() {
                     src="/images/residential-house-with-front-yard-in-snow.jpg"
                     alt="residential house with front yard in snow"
                     fill
-                    priority
+                    preload
+                    fetchPriority="high"
                     className="object-cover"
                   />
                 </div>

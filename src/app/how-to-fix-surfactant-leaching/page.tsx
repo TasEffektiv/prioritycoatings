@@ -100,7 +100,8 @@ export default function HowToFixSurfactantLeachingPage() {
                     src="/images/brush-dipped-in-a-jar-with-paint.jpg"
                     alt="brush dipped in a jar with paint"
                     fill
-                    priority
+                    preload
+                    fetchPriority="high"
                     className="object-cover"
                   />
                 </div>

@@ -100,7 +100,8 @@ export default function BenefitsOfRepaintingCommercialBuildingPage() {
                     src="/images/repainting-your-commercial-building.jpg"
                     alt="Repainting your commercial building"
                     fill
-                    priority
+                    preload
+                    fetchPriority="high"
                     className="object-cover"
                   />
                 </div>

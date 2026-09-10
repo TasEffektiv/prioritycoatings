@@ -100,7 +100,8 @@ export default function TipsToSaveMoneyWhenHiringSydneyPaintersPage() {
                     src="/images/house-painter-sydney.jpg"
                     alt="House painter Sydney"
                     fill
-                    priority
+                    preload
+                    fetchPriority="high"
                     className="object-cover"
                   />
                 </div>

@@ -100,7 +100,8 @@ export default function PaintColoursThatMakeYourHomeLookCleanerPage() {
                     src="/images/cozy-dining-room-interior-with-wooden-furniture-scaled.jpg"
                     alt="Cozy dining room interior with wooden furniture"
                     fill
-                    priority
+                    preload
+                    fetchPriority="high"
                     className="object-cover"
                   />
                 </div>

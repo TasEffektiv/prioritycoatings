@@ -100,7 +100,8 @@ export default function BestEpoxyFloorCoatingsForCommercialSpacePage() {
                     src="/images/epoxy-flooring-for-commercial-space-banner.jpg"
                     alt="epoxy flooring for commercial space banner"
                     fill
-                    priority
+                    preload
+                    fetchPriority="high"
                     className="object-cover"
                   />
                 </div>

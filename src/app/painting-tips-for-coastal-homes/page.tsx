@@ -100,7 +100,8 @@ export default function PaintingTipsForCoastalHomesPage() {
                     src="/images/residential-houses-bunbury-australia.jpg"
                     alt="Residential houses Bunbury Australia"
                     fill
-                    priority
+                    preload
+                    fetchPriority="high"
                     className="object-cover"
                   />
                 </div>

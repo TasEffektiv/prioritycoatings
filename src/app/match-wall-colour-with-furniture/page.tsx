@@ -100,7 +100,8 @@ export default function MatchWallColourWithFurniturePage() {
                     src="/images/interior-design-with-photoframes-blue-couch-scaled.jpg"
                     alt="interior design with photoframes blue couch"
                     fill
-                    priority
+                    preload
+                    fetchPriority="high"
                     className="object-cover"
                   />
                 </div>

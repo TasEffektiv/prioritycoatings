@@ -100,7 +100,8 @@ export default function HowPaintersExtendSydneyHomeExteriorLifespanPage() {
                     src="/images/twostory-building-with-a-yellow-and-pink-facade.jpg"
                     alt="Twostory building with a yellow and pink facade"
                     fill
-                    priority
+                    preload
+                    fetchPriority="high"
                     className="object-cover"
                   />
                 </div>

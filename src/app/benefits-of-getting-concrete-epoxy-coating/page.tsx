@@ -100,7 +100,8 @@ export default function BenefitsOfGettingConcreteEpoxyCoatingPage() {
                     src="/images/garage-with-concrete-ceiling-flooring-scaled.jpg"
                     alt="Garage with concrete ceiling flooring"
                     fill
-                    priority
+                    preload
+                    fetchPriority="high"
                     className="object-cover"
                   />
                 </div>

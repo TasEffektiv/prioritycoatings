@@ -101,7 +101,8 @@ export default function HowPaintColoursCanAffectTheLevelOfLightInYourHomePage() 
                     src="/images/How-Lighting-Impacts-Paint-Colours.png"
                     alt="How Paint Colours Impacts The Lights - Priority One Coatings"
                     fill
-                    priority
+                    preload
+                    fetchPriority="high"
                     className="object-cover"
                   />
                 </div>

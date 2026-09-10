@@ -95,7 +95,8 @@ export default function DifferentTypesOfTexturedPaintForWallsPage() {
                     src="/images/green-wall-paint-textured-background-scaled.jpg"
                     alt="green wall paint textured background"
                     fill
-                    priority
+                    preload
+                    fetchPriority="high"
                     className="object-cover"
                   />
                 </div>

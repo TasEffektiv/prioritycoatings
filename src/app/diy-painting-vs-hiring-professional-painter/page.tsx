@@ -100,7 +100,8 @@ export default function DiyPaintingVsHiringProfessionalPainterPage() {
                     src="/images/diy-painting-vs-hiring-professional-painter-blog-banner.jpg"
                     alt="DIY painting vs hiring professional painter blog banner"
                     fill
-                    priority
+                    preload
+                    fetchPriority="high"
                     className="object-cover"
                   />
                 </div>

@@ -100,7 +100,8 @@ export default function DifferenceBetweenPaintAndCoatingsPage() {
                     src="/images/top-view-paint-can-scaled.jpg"
                     alt="Top view paint can"
                     fill
-                    priority
+                    preload
+                    fetchPriority="high"
                     className="object-cover"
                   />
                 </div>

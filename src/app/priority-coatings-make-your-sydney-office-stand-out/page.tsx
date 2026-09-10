@@ -100,7 +100,8 @@ export default function PriorityCoatingsMakeYourSydneyOfficeStandOutPage() {
                     src="/images/commercial-fitouts-sydney.jpg"
                     alt="Commercial fitouts Sydney"
                     fill
-                    priority
+                    preload
+                    fetchPriority="high"
                     className="object-cover"
                   />
                 </div>

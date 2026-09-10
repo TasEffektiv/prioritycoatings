@@ -100,7 +100,8 @@ export default function WaysToStoreLeftoverPaintPage() {
                     src="/images/ways-to-store-leftover-paint-blog-banner.jpg"
                     alt="ways to store leftover paint blog banner"
                     fill
-                    priority
+                    preload
+                    fetchPriority="high"
                     className="object-cover"
                   />
                 </div>

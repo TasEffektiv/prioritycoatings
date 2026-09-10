@@ -100,7 +100,8 @@ export default function MistakesToAvoidPage() {
                     src="/images/man-painting-a-wall-with-a-paint-roller.jpg"
                     alt="Man painting a wall with a paint roller"
                     fill
-                    priority
+                    preload
+                    fetchPriority="high"
                     className="object-cover"
                   />
                 </div>

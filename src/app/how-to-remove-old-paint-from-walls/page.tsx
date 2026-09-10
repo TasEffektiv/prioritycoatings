@@ -127,7 +127,8 @@ export default function HowToRemoveOldPaintFromWallsPage() {
                     src="/images/texture-background-old-paint.jpg"
                     alt="Remove Old Paint from Walls"
                     fill
-                    priority
+                    preload
+                    fetchPriority="high"
                     className="object-cover"
                   />
                 </div>

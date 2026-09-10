@@ -100,7 +100,8 @@ export default function BrickMakeoverPage() {
                     src="/images/mountview-redbank-plains.jpg"
                     alt="Mountview Redbank Plains brick house"
                     fill
-                    priority
+                    preload
+                    fetchPriority="high"
                     className="object-cover"
                   />
                 </div>

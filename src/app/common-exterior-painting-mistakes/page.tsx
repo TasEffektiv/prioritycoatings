@@ -100,7 +100,8 @@ export default function CommonExteriorPaintingMistakesPage() {
                     src="/images/private-house-exterior-with-a-garden.jpg"
                     alt="private house exterior with a garden"
                     fill
-                    priority
+                    preload
+                    fetchPriority="high"
                     className="object-cover"
                   />
                 </div>

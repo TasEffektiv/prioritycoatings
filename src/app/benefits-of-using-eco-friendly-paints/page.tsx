@@ -100,7 +100,8 @@ export default function BenefitsOfUsingEcoFriendlyPaintsPage() {
                     src="/images/eco-friendly-paints-blog-banner.jpg"
                     alt="Eco-friendly paints blog banner"
                     fill
-                    priority
+                    preload
+                    fetchPriority="high"
                     className="object-cover"
                   />
                 </div>

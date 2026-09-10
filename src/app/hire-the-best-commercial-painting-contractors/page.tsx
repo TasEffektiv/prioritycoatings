@@ -100,7 +100,8 @@ export default function HireTheBestCommercialPaintingContractorsPage() {
                     src="/images/commercial-painting-blog-banner.jpg"
                     alt="commercial painting blog banner"
                     fill
-                    priority
+                    preload
+                    fetchPriority="high"
                     className="object-cover"
                   />
                 </div>

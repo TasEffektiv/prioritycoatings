@@ -100,7 +100,8 @@ export default function CommercialVsResidentialPaintingPage() {
                     src="/images/commercial-vs-residential-painting-blog-banner.png"
                     alt="Commercial vs residential painting blog banner"
                     fill
-                    priority
+                    preload
+                    fetchPriority="high"
                     className="object-cover"
                   />
                 </div>

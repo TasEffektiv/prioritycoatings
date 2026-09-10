@@ -100,7 +100,8 @@ export default function ThingsToKnowBeforePaintingHomeInteriorsPage() {
                     src="/images/repair-in-the-apartment-paints-the-wall-with-paint.jpg"
                     alt="repair in the apartment paints the wall with paint"
                     fill
-                    priority
+                    preload
+                    fetchPriority="high"
                     className="object-cover"
                   />
                 </div>

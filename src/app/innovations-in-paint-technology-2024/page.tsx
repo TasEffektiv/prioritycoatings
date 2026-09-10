@@ -100,7 +100,8 @@ export default function InnovationsInPaintTechnology2024Page() {
                     src="/images/paint-technology-innovations-2024-blog-banner.jpg"
                     alt="paint technology innovations 2024 blog banner"
                     fill
-                    priority
+                    preload
+                    fetchPriority="high"
                     className="object-cover"
                   />
                 </div>

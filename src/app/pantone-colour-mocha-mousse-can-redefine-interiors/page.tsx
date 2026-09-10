@@ -100,7 +100,8 @@ export default function PantoneColourMochaMousseCanRedefineInteriorsPage() {
                     src="/images/pantone-colour-2025-mocha-mousse.png"
                     alt="Pantone colour 2025 mocha mousse"
                     fill
-                    priority
+                    preload
+                    fetchPriority="high"
                     className="object-cover"
                   />
                 </div>

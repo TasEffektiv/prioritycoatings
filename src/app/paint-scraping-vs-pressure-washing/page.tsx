@@ -100,7 +100,8 @@ export default function PaintScrapingVsPressureWashingPage() {
                     src="/images/paint-scraping-vs-pressure-washing-blog-banner.jpg"
                     alt="paint scraping vs pressure washing blog banner"
                     fill
-                    priority
+                    preload
+                    fetchPriority="high"
                     className="object-cover"
                   />
                 </div>

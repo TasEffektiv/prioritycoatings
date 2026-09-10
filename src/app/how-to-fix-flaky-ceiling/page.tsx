@@ -100,7 +100,8 @@ export default function HowToFixFlakyCeilingPage() {
                     src="/images/smoothing-a-peeling-ceiling-with-spatula.jpg"
                     alt="Smoothing a peeling ceiling with spatula"
                     fill
-                    priority
+                    preload
+                    fetchPriority="high"
                     className="object-cover"
                   />
                 </div>

@@ -100,7 +100,8 @@ export default function PaintOverTheStainedWoodPage() {
                     src="/images/hand-painting-blue-color-on-wooden-table.jpg"
                     alt="Hand painting blue colour on wooden table"
                     fill
-                    priority
+                    preload
+                    fetchPriority="high"
                     className="object-cover"
                   />
                 </div>

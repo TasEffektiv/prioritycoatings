@@ -100,7 +100,8 @@ export default function CommercialPaintersSydneyCanTransformYourPropertyPage() {
                     src="/images/white-commercial-building-sydney.jpg"
                     alt="White commercial building Sydney"
                     fill
-                    priority
+                    preload
+                    fetchPriority="high"
                     className="object-cover"
                   />
                 </div>

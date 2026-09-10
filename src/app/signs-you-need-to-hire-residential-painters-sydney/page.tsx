@@ -100,7 +100,8 @@ export default function SignsYouNeedToHireResidentialPaintersSydneyPage() {
                     src="/images/paint-workspace-remodel-design.jpg"
                     alt="paint workspace remodel design"
                     fill
-                    priority
+                    preload
+                    fetchPriority="high"
                     className="object-cover"
                   />
                 </div>

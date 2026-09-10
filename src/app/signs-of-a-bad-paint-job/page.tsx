@@ -100,7 +100,8 @@ export default function SignsOfABadPaintJobPage() {
                     src="/images/peeling-pink-and-yellow-paint-on-the-wall.jpg"
                     alt="peeling pink and yellow paint on the wall"
                     fill
-                    priority
+                    preload
+                    fetchPriority="high"
                     className="object-cover"
                   />
                 </div>

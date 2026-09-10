@@ -100,7 +100,8 @@ export default function VocPaintVsLowVocPaintVsNoVocPaintPage() {
                     src="/images/painter-holding-paint-can.jpg"
                     alt="painter holding paint can"
                     fill
-                    priority
+                    preload
+                    fetchPriority="high"
                     className="object-cover"
                   />
                 </div>

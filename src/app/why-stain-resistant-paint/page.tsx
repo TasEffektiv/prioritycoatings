@@ -100,7 +100,8 @@ export default function WhyStainResistantPaintPage() {
                     src="/images/stain-resistant-paint-scaled.jpg"
                     alt="stain resistant paint"
                     fill
-                    priority
+                    preload
+                    fetchPriority="high"
                     className="object-cover"
                   />
                 </div>

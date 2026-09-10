@@ -100,7 +100,8 @@ export default function BestPaintColoursForSmallRoomsPage() {
                     src="/images/gray-fabric-loveseat-near-brown-wooden-table.jpg"
                     alt="Gray fabric loveseat near brown wooden table"
                     fill
-                    priority
+                    preload
+                    fetchPriority="high"
                     className="object-cover"
                   />
                 </div>

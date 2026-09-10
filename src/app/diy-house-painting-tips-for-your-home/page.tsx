@@ -100,7 +100,8 @@ export default function DiyHousePaintingTipsForYourHomePage() {
                     src="/images/diy-house-painting-tips-for-your-home-scaled.jpg"
                     alt="DIY house painting"
                     fill
-                    priority
+                    preload
+                    fetchPriority="high"
                     className="object-cover"
                   />
                 </div>
