@@ -9,6 +9,9 @@ export const metadata: Metadata = {
   title: "Preparing a Weatherboard House for Painting | Priority One Coatings",
   description:
     "Before painting weatherboards, consider few things, like removing old paint and cleaning the surface. Let's learn how to prepare a weatherboard house for painting.",
+  alternates: {
+    canonical: "/preparing-weatherboard-house-for-painting",
+  },
 };
 
 const POST_URL = "https://www.prioritycoatings.com.au/preparing-weatherboard-house-for-painting/";

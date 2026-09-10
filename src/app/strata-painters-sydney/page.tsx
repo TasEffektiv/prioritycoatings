@@ -12,6 +12,9 @@ export const metadata: Metadata = {
   title: "Experienced Strata Painters Sydney | Priority One Coatings",
   description:
     "Priority can help you when you need strata painters. Strata managers all over Sydney rely on us when it comes to painting strata properties. Call us (02 9808 5900) today!",
+  alternates: {
+    canonical: "/strata-painters-sydney",
+  },
 };
 
 const RELATED_WORKS_GALLERY = [

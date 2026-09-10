@@ -9,6 +9,9 @@ export const metadata: Metadata = {
   title: "What to Ask When Choosing a Professional Painter | Priority One Coatings",
   description:
     "Hiring a painter? Learn the key questions to ask about experience, insurance, materials and warranties before choosing a professional painter in Sydney.",
+  alternates: {
+    canonical: "/what-you-need-to-ask-when-youre-looking-for-a-professional-painter",
+  },
 };
 
 const POST_URL =

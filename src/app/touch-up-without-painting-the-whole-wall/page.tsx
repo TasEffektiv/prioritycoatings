@@ -9,6 +9,9 @@ export const metadata: Metadata = {
   title: "Ways to Touch Up Without Painting the Whole Wall | Priority One Coatings",
   description:
     "Touching up without repainting the whole wall is a good option. If you need help fixing the wall, hire the best residential painters in Sydney, Priority Coatings.",
+  alternates: {
+    canonical: "/touch-up-without-painting-the-whole-wall",
+  },
 };
 
 const POST_URL = "https://www.prioritycoatings.com.au/touch-up-without-painting-the-whole-wall/";

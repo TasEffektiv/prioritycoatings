@@ -9,6 +9,9 @@ export const metadata: Metadata = {
   title: "How to Clean Painted Walls | Priority One Coatings",
   description:
     "Check out how to clean walls to remove scuffs and stains from all paint finishes. Our Sydney painters can remove every kind of stain from walls. Call us today.",
+  alternates: {
+    canonical: "/how-to-clean-painted-walls",
+  },
 };
 
 const POST_URL = "https://www.prioritycoatings.com.au/how-to-clean-painted-walls/";

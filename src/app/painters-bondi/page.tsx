@@ -10,6 +10,9 @@ export const metadata: Metadata = {
   title: "Residential & Commercial Painters Bondi | Priority Coatings",
   description:
     "We are professional painters offering all types of interior and exterior painting services in Bondi. Call us for free quotes and get quality painting services.",
+  alternates: {
+    canonical: "/painters-bondi",
+  },
 };
 
 const SERVICES_LIST = [

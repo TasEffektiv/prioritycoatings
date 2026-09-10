@@ -9,6 +9,9 @@ export const metadata: Metadata = {
   title: "How Professional Painting Can Add Value to Your Property | Priority One Coatings",
   description:
     "Professional painting can enhance curb appeal, durability, and market value of your Sydney home. Learn how expert Sydney painters boost your property&rsquo;s value.",
+  alternates: {
+    canonical: "/how-professional-painting-adds-value-to-property",
+  },
 };
 
 const POST_URL = "https://www.prioritycoatings.com.au/how-professional-painting-adds-value-to-property/";

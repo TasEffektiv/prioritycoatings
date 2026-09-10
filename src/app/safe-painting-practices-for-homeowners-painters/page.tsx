@@ -9,6 +9,9 @@ export const metadata: Metadata = {
   title: "Safe Painting Practices for Homeowners & Painters | Priority One Coatings",
   description:
     "Painting can present several hazards if not done correctly. Learn the safest painting practices, from choosing paint to PPE, ventilation and safe storage.",
+  alternates: {
+    canonical: "/safe-painting-practices-for-homeowners-painters",
+  },
 };
 
 const POST_URL = "https://www.prioritycoatings.com.au/safe-painting-practices-for-homeowners-painters/";

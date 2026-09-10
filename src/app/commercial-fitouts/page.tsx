@@ -12,6 +12,9 @@ export const metadata: Metadata = {
   title: "Commercial Fitouts Sydney | Priority One Coatings",
   description:
     "Sydney's best commercial office fitouts solutions. Priority One Coatings has been delivering commercial fitouts across the Sydney region for over 32 years.",
+  alternates: {
+    canonical: "/commercial-fitouts",
+  },
 };
 
 const HERO_SLIDES = [

@@ -9,6 +9,9 @@ export const metadata: Metadata = {
   title: "7 Common Causes of Peeling Paint on Walls | Priority One Coatings",
   description:
     "Peeling paint is more than an eyesore — it can point to moisture, humidity, poor surface prep or even a lead paint health risk. Discover the 7 most common causes of peeling paint on walls and how to stop it for good.",
+  alternates: {
+    canonical: "/common-causes-peeling-paint-walls",
+  },
 };
 
 const POST_URL = "https://www.prioritycoatings.com.au/common-causes-peeling-paint-walls/";

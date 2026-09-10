@@ -9,6 +9,9 @@ export const metadata: Metadata = {
   title: "Protect Your House Exterior Painting | Priority One Coatings",
   description:
     "Surface preparation, right paint, proper application, and maintenance are crucial for house exterior paint. Check how to protect your house exterior painting.",
+  alternates: {
+    canonical: "/how-to-protect-house-exterior-paint",
+  },
 };
 
 const POST_URL = "https://www.prioritycoatings.com.au/how-to-protect-house-exterior-paint/";

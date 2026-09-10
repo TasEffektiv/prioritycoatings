@@ -9,6 +9,9 @@ export const metadata: Metadata = {
   title: "Factors That Affect the Lifespan of House Paint | Priority One Coatings",
   description:
     "Rain, hail, snow, and sunlight can cause extensive damage to house paint. Explore factors that can affect the lifespan of residential painting. Contact us for more.",
+  alternates: {
+    canonical: "/factors-affect-the-lifespan-of-house-paint",
+  },
 };
 
 const POST_URL = "https://www.prioritycoatings.com.au/factors-affect-the-lifespan-of-house-paint/";

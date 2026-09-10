@@ -10,6 +10,9 @@ export const metadata: Metadata = {
   title: "Painters Bronte | Priority Coatings",
   description:
     "Get your commercial & residential painting projects done by experienced local painters in Bronte. Highly skilled & reliable local painters! Call 02 9808 5900!",
+  alternates: {
+    canonical: "/painters-bronte",
+  },
 };
 
 const SERVICES_LIST = [

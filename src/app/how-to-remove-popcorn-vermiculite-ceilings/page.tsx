@@ -10,6 +10,9 @@ export const metadata: Metadata = {
   title: "How to Remove Popcorn Ceilings: Easy Tips and Tricks | Priority One Coatings",
   description:
     "Thinking about removing a popcorn or vermiculite ceiling? Learn the safe, step-by-step process, from asbestos testing to sanding and refinishing.",
+  alternates: {
+    canonical: "/how-to-remove-popcorn-vermiculite-ceilings",
+  },
 };
 
 const POST_URL = "https://www.prioritycoatings.com.au/how-to-remove-popcorn-vermiculite-ceilings/";

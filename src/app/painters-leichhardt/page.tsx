@@ -10,6 +10,9 @@ export const metadata: Metadata = {
   title: "Painters Leichhardt | Priority Coatings",
   description:
     "Dulux accredited local painters in Leichhardt to complete your painting projects, including interior & exterior painting, right on time. Call us & get a free quote!",
+  alternates: {
+    canonical: "/painters-leichhardt",
+  },
 };
 
 const SERVICES_LIST = [

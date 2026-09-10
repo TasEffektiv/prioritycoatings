@@ -9,6 +9,9 @@ export const metadata: Metadata = {
   title: "Testimonials | Priority One Coatings",
   description:
     "See what our clients say about Priority One Coatings — trusted Sydney painters delivering reliable, high-quality residential, commercial and strata painting services.",
+  alternates: {
+    canonical: "/testimonials",
+  },
 };
 
 export default function TestimonialsPage() {

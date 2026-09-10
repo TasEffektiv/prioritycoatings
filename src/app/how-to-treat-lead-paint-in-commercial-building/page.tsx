@@ -9,6 +9,9 @@ export const metadata: Metadata = {
   title: "How To Treat Lead Paint Found in A Commercial Building? | Priority One Coatings",
   description:
     "Removing lead paint is not a DIY job; it's best to call in the professionals. Let's check how to treat lead paint found in commercial properties effectively.",
+  alternates: {
+    canonical: "/how-to-treat-lead-paint-in-commercial-building",
+  },
 };
 
 const POST_URL = "https://www.prioritycoatings.com.au/how-to-treat-lead-paint-in-commercial-building/";

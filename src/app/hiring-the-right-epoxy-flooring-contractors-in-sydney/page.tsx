@@ -9,6 +9,9 @@ export const metadata: Metadata = {
   title: "Hiring the Right Epoxy Flooring Contractors in Sydney | Priority One Coatings",
   description:
     "If you want to hire the right epoxy flooring contractor in Sydney, contact us today. We specialises in all kinds of epoxy floor coatings in Sydney. Get a free Quote.",
+  alternates: {
+    canonical: "/hiring-the-right-epoxy-flooring-contractors-in-sydney",
+  },
 };
 
 const POST_URL = "https://www.prioritycoatings.com.au/hiring-the-right-epoxy-flooring-contractors-in-sydney/";

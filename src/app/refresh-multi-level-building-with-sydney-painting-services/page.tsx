@@ -9,6 +9,9 @@ export const metadata: Metadata = {
   title: "Refresh Your Multi-Level Building With Sydney Painting Services | Priority One Coatings",
   description:
     "If you want to refresh your multi-level building and give it a new life, get in touch with Priority One Coatings. We will assist you with all your painting needs.",
+  alternates: {
+    canonical: "/refresh-multi-level-building-with-sydney-painting-services",
+  },
 };
 
 const POST_URL = "https://www.prioritycoatings.com.au/refresh-multi-level-building-with-sydney-painting-services/";

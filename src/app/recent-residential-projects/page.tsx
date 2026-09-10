@@ -9,6 +9,9 @@ export const metadata: Metadata = {
   title: "Portfolio | Residential Projects | Priority One Coatings",
   description:
     "Browse recent residential painting projects by Priority One Coatings — quality workmanship across Sydney homes.",
+  alternates: {
+    canonical: "/recent-residential-projects",
+  },
 };
 
 export default function RecentResidentialProjectsPage() {

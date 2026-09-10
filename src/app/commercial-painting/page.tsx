@@ -12,6 +12,9 @@ export const metadata: Metadata = {
   title: "Commercial Painters | Commercial Painting Services Sydney",
   description:
     "Quality commercial painting services for office, retail, and government buildings in Sydney. Trusted commercial painting contractors with 30+ years of experience.",
+  alternates: {
+    canonical: "/commercial-painting",
+  },
 };
 
 const HERO_SLIDES = [

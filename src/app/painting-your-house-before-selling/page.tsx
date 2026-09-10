@@ -10,6 +10,9 @@ export const metadata: Metadata = {
   title: "Painting Your House Before Selling | Priority One Coatings",
   description:
     "Wondering if it's worth painting your house before selling? Learn how a fresh coat of paint can boost curb appeal, perceived value and ROI.",
+  alternates: {
+    canonical: "/painting-your-house-before-selling",
+  },
 };
 
 const POST_URL = "https://www.prioritycoatings.com.au/painting-your-house-before-selling/";

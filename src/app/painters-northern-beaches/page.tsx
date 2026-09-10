@@ -10,6 +10,9 @@ export const metadata: Metadata = {
   title: "Painters Northern Beaches | Priority Coatings",
   description:
     "For commercial & residential painting projects, call Dulux accredited painters in Northern Beaches. Fully insured painting services at reasonable rates. Contact now!",
+  alternates: {
+    canonical: "/painters-northern-beaches",
+  },
 };
 
 const WHY_CHOOSE_US = [

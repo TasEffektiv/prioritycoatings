@@ -9,6 +9,9 @@ export const metadata: Metadata = {
   title: "Pressure Wash Before Painting Your House | Priority One Coatings",
   description:
     "Pressure washing is a great way to clean the house exterior. It removes dirt & grime to reveal a clean surface ready for painting. Check reasons of pressure washing.",
+  alternates: {
+    canonical: "/pressure-wash-before-painting-your-house",
+  },
 };
 
 const POST_URL = "https://www.prioritycoatings.com.au/pressure-wash-before-painting-your-house/";

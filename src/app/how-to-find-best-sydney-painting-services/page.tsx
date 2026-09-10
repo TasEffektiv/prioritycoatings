@@ -9,6 +9,9 @@ export const metadata: Metadata = {
   title: "How to Find the Best Sydney Painting Services | Priority One Coatings",
   description:
     "Searching for reliable painters? Learn how to find the best Sydney painting services with tips on referrals, reviews, licensing, quotes and communication.",
+  alternates: {
+    canonical: "/how-to-find-best-sydney-painting-services",
+  },
 };
 
 const POST_URL = "https://www.prioritycoatings.com.au/how-to-find-best-sydney-painting-services/";

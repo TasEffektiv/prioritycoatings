@@ -14,6 +14,9 @@ export const metadata: Metadata = {
   title: "DIY | Blog | Page 3 | Priority One Coatings",
   description:
     "DIY painting tips, guides and expert advice from Priority One Coatings — Sydney's residential and commercial painting specialists.",
+  alternates: {
+    canonical: "/category/diy/page/3",
+  },
 };
 
 export default function DiyCategoryPageThree() {

@@ -9,6 +9,9 @@ export const metadata: Metadata = {
   title: "How to Fix a Bad Paint Job: Common Painting Mistakes | Priority One Coatings",
   description:
     "Whether it's streaks, roller marks, or uneven coverage, a bad paint job is frustrating. Check fixes that will help you without repainting the entire surface.",
+  alternates: {
+    canonical: "/how-to-fix-a-bad-paint-job",
+  },
 };
 
 const POST_URL = "https://www.prioritycoatings.com.au/how-to-fix-a-bad-paint-job/";

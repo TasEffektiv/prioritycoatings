@@ -12,6 +12,9 @@ export const metadata: Metadata = {
   title: "Lead Paint Removal Specialists Sydney | Priority One Coatings",
   description:
     "We offer safe lead-based paint removal in Sydney with expert & trained staff. Priority One Coatings has experienced Sydney painters for removing lead paint.",
+  alternates: {
+    canonical: "/lead-paint-removal",
+  },
 };
 
 const RELATED_WORKS_GALLERY = [

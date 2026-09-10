@@ -9,6 +9,9 @@ export const metadata: Metadata = {
   title: "5 Ways You Can Save Money When Working With a Painting Contractor (2026 Update) | Priority One Coatings",
   description:
     "There are ways you can save money while working with a painting contractor. Explore what you can try to reduce costs on your next painting project in Sydney.",
+  alternates: {
+    canonical: "/save-money-when-working-with-a-painting-contractor",
+  },
 };
 
 const POST_URL = "https://www.prioritycoatings.com.au/save-money-when-working-with-a-painting-contractor/";

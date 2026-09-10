@@ -7,6 +7,9 @@ export const metadata: Metadata = {
   title: "Portfolio | Priority One Coatings",
   description:
     "Browse Priority One Coatings' portfolio of commercial, residential, strata and lead removal projects across Sydney.",
+  alternates: {
+    canonical: "/portfolio",
+  },
 };
 
 const CATEGORIES = [

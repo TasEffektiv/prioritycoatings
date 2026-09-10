@@ -10,6 +10,9 @@ export const metadata: Metadata = {
   title: "Painters Balmain | Priority Coatings",
   description:
     "Get professional painters in Balmain for all your painting needs of residential, commercial & strata projects. Quality painting & personalised service. Call NOW!",
+  alternates: {
+    canonical: "/painters-balmain",
+  },
 };
 
 const SERVICES_LIST = [

@@ -9,6 +9,9 @@ export const metadata: Metadata = {
   title: "How to Fix Stress Cracks in Drywall | Priority One Coatings",
   description:
     "Drywall stress cracks appear over doors and windows or along drywall seams, usually caused by building movement, settling, or temperature changes. Learn to fix it.",
+  alternates: {
+    canonical: "/how-to-fix-stress-cracks-in-drywall",
+  },
 };
 
 const POST_URL = "https://www.prioritycoatings.com.au/how-to-fix-stress-cracks-in-drywall/";

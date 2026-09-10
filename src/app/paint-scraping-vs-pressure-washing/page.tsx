@@ -9,6 +9,9 @@ export const metadata: Metadata = {
   title: "Paint Scraping vs. Pressure Washing | Priority One Coatings",
   description:
     "For surface preparation, pressure washing usually outperforms paint scraping. Explore which one is the best pre-paint process for cleaning to paint adhesion.",
+  alternates: {
+    canonical: "/paint-scraping-vs-pressure-washing",
+  },
 };
 
 const POST_URL = "https://www.prioritycoatings.com.au/paint-scraping-vs-pressure-washing/";

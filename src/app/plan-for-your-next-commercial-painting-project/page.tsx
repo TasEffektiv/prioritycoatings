@@ -10,6 +10,9 @@ export const metadata: Metadata = {
   title: "Plan for Your Next Commercial Painting Project | Priority One Coatings",
   description:
     "Planning a commercial painting project? Follow these steps to schedule, budget and choose the right commercial painters in Sydney with Priority One Coatings.",
+  alternates: {
+    canonical: "/plan-for-your-next-commercial-painting-project",
+  },
 };
 
 const POST_URL = "https://www.prioritycoatings.com.au/plan-for-your-next-commercial-painting-project/";

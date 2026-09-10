@@ -9,6 +9,9 @@ export const metadata: Metadata = {
   title: "DIY Painting vs Hiring a Professional Painter | Priority One Coatings",
   description:
     "When painting your property in Sydney, there are many things to consider. Let's check if DIY paint or professional paint works best for you. For more, contact us!",
+  alternates: {
+    canonical: "/diy-painting-vs-hiring-professional-painter",
+  },
 };
 
 const POST_URL = "https://www.prioritycoatings.com.au/diy-painting-vs-hiring-professional-painter/";

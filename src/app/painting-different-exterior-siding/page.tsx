@@ -9,6 +9,9 @@ export const metadata: Metadata = {
   title: "How Different Types of Exterior Siding Are Painted | Priority One Coatings",
   description:
     "Discover the best paints and finishes for vinyl, wood, fibre cement and metal siding, plus how to paint each exterior siding type correctly.",
+  alternates: {
+    canonical: "/painting-different-exterior-siding",
+  },
 };
 
 const POST_URL = "https://www.prioritycoatings.com.au/painting-different-exterior-siding/";

@@ -9,6 +9,9 @@ export const metadata: Metadata = {
   title: "What to Think About When Painting Kids’ Bedrooms | Priority One Coatings",
   description:
     "Doing a quality DIY paint job requires more than just the equipment and the know-how, it's also about matching styles and creating the right atmosphere in every room.",
+  alternates: {
+    canonical: "/what-to-think-about-when-painting-kids-bedrooms",
+  },
 };
 
 const POST_URL = "https://www.prioritycoatings.com.au/what-to-think-about-when-painting-kids-bedrooms/";

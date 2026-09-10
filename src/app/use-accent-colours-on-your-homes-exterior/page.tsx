@@ -9,6 +9,9 @@ export const metadata: Metadata = {
   title: "Use Accent Colours on Your Home's Exterior | Priority One Coatings",
   description:
     "For home exterior, using accent colours can enhance curb appeal and create visual interest. Explore to get inspiration for exterior paint colour schemes.",
+  alternates: {
+    canonical: "/use-accent-colours-on-your-homes-exterior",
+  },
 };
 
 const POST_URL = "https://www.prioritycoatings.com.au/use-accent-colours-on-your-homes-exterior/";

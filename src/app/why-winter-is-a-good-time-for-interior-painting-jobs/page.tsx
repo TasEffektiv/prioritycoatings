@@ -9,6 +9,9 @@ export const metadata: Metadata = {
   title: "Why Winter Is a Good Time for Interior Painting | Priority One Coatings",
   description:
     "Discover why winter can be the ideal season for interior painting jobs, from cheaper quotes and faster drying times to more flexible scheduling.",
+  alternates: {
+    canonical: "/why-winter-is-a-good-time-for-interior-painting-jobs",
+  },
 };
 
 const POST_URL = "https://www.prioritycoatings.com.au/why-winter-is-a-good-time-for-interior-painting-jobs/";

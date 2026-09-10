@@ -9,6 +9,9 @@ export const metadata: Metadata = {
   title: "Difference Between Commercial & Residential Painting | Priority One Coatings",
   description:
     "There are several differences between commercial and residential painting. Contact us for your next painting project, and get the best painting services.",
+  alternates: {
+    canonical: "/difference-between-commercial-vs-residential-painting",
+  },
 };
 
 const POST_URL = "https://www.prioritycoatings.com.au/difference-between-commercial-vs-residential-painting/";

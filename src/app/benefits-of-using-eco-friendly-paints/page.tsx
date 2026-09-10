@@ -9,6 +9,9 @@ export const metadata: Metadata = {
   title: "Benefits of Using Eco-Friendly Paints | Priority One Coatings",
   description:
     "Using eco-friendly paints offers advantages. Low-VOC paints are better for your health and the environment. Explore the benefits of eco-friendly paints.",
+  alternates: {
+    canonical: "/benefits-of-using-eco-friendly-paints",
+  },
 };
 
 const POST_URL = "https://www.prioritycoatings.com.au/benefits-of-using-eco-friendly-paints/";

@@ -9,6 +9,9 @@ export const metadata: Metadata = {
   title: "Signs You Need to Hire Residential Painters in Sydney | Priority One Coatings",
   description:
     "If your house in Sydney has any of the signs that you need to hire residential painters, contact us today and let us handle all your painting needs.",
+  alternates: {
+    canonical: "/signs-you-need-to-hire-residential-painters-sydney",
+  },
 };
 
 const POST_URL = "https://www.prioritycoatings.com.au/signs-you-need-to-hire-residential-painters-sydney/";

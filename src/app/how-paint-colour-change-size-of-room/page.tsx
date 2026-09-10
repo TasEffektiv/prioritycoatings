@@ -10,6 +10,9 @@ export const metadata: Metadata = {
   title: "How Paint Colour Can Change The Perceived Size Of A Room | Priority One Coatings",
   description:
     "Discover how the right paint colours and shades can make a small room feel bigger, a long room feel shorter, or a low ceiling feel higher.",
+  alternates: {
+    canonical: "/how-paint-colour-change-size-of-room",
+  },
 };
 
 const POST_URL = "https://www.prioritycoatings.com.au/how-paint-colour-change-size-of-room/";

@@ -9,6 +9,9 @@ export const metadata: Metadata = {
   title: "Portfolio | Strata Projects | Priority One Coatings",
   description:
     "Priority One Coatings works for any big or small strata painting projects in Sydney. Check out what we have done for our clients.",
+  alternates: {
+    canonical: "/recent-strata-projects",
+  },
 };
 
 export default function RecentStrataProjectsPage() {

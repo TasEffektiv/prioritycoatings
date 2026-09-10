@@ -9,6 +9,9 @@ export const metadata: Metadata = {
   title: "Paint Over the Stained Wood | Priority One Coatings",
   description:
     "With good preparation, like cleaning and sanding to remove the shine, and using a primer to ensure adhesion, you can paint over stained wood. Check to learn more.",
+  alternates: {
+    canonical: "/paint-over-the-stained-wood",
+  },
 };
 
 const POST_URL = "https://www.prioritycoatings.com.au/paint-over-the-stained-wood/";

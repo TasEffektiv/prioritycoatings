@@ -9,6 +9,9 @@ export const metadata: Metadata = {
   title: "Best Epoxy Floor Coatings for Commercial Space | Priority One Coatings",
   description:
     "Epoxy floor coatings are ideal for large and high-traffic areas. It is chemical resistant and non-slippery. Let's check the best epoxy flooring for your business.",
+  alternates: {
+    canonical: "/best-epoxy-floor-coatings-for-commercial-space",
+  },
 };
 
 const POST_URL = "https://www.prioritycoatings.com.au/best-epoxy-floor-coatings-for-commercial-space/";

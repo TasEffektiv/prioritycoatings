@@ -9,6 +9,9 @@ export const metadata: Metadata = {
   title: "Ways to Store Leftover Paint | Priority One Coatings",
   description:
     "If you follow the proper ways and store the unused paint correctly, it can have a shelf life of 2 years or more. Here are some tips for storing leftover paint.",
+  alternates: {
+    canonical: "/ways-to-store-leftover-paint",
+  },
 };
 
 const POST_URL = "https://www.prioritycoatings.com.au/ways-to-store-leftover-paint/";

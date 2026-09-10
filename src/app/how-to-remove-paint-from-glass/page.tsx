@@ -9,6 +9,9 @@ export const metadata: Metadata = {
   title: "Removing Paint from Glass | Priority One Coatings",
   description:
     "While doing DIY painting around your home, you need safe methods for a spotless cleanup. Check tips to remove paint from glass surfaces, whether wet or dry.",
+  alternates: {
+    canonical: "/how-to-remove-paint-from-glass",
+  },
 };
 
 const POST_URL = "https://www.prioritycoatings.com.au/how-to-remove-paint-from-glass/";

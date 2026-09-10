@@ -11,6 +11,9 @@ export const metadata: Metadata = {
   title: "Blog | Page 6 | Priority One Coatings",
   description:
     "Painting and decorating tips, trends and expert advice from Priority One Coatings — Sydney's residential and commercial painting specialists.",
+  alternates: {
+    canonical: "/blog/page/6",
+  },
 };
 
 export default function BlogPageSix() {

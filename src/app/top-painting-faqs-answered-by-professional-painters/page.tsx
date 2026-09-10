@@ -9,6 +9,9 @@ export const metadata: Metadata = {
   title: "Top Painting FAQs Answered by Professional Painters | Priority One Coatings",
   description:
     "Clear answers to the most common painting questions — cost, timelines, paint types, warranties and more — from Sydney's Priority One Coatings.",
+  alternates: {
+    canonical: "/top-painting-faqs-answered-by-professional-painters",
+  },
 };
 
 const POST_URL = "https://www.prioritycoatings.com.au/top-painting-faqs-answered-by-professional-painters/";

@@ -9,6 +9,9 @@ export const metadata: Metadata = {
   title: "How to Prepare Surfaces Before Painting Commercial Buildings | Priority One Coatings",
   description:
     "Commercial painting surface preparation is essential for a durable, professional finish. Learn how to prepare surfaces before painting commercial buildings.",
+  alternates: {
+    canonical: "/prepare-commercial-buildings-surfaces-for-painting",
+  },
 };
 
 const POST_URL = "https://www.prioritycoatings.com.au/prepare-commercial-buildings-surfaces-for-painting/";

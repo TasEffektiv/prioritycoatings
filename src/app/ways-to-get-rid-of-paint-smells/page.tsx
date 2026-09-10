@@ -9,6 +9,9 @@ export const metadata: Metadata = {
   title: "Natural Ways to Eliminate the Smell of Fresh Paint | Priority One Coatings",
   description:
     "Paint fumes made you nauseous? Can't stand the lingering smell of fresh paint? Check the tips and tricks to minimise or eliminate the aroma of paint. Contact us.",
+  alternates: {
+    canonical: "/ways-to-get-rid-of-paint-smells",
+  },
 };
 
 const POST_URL = "https://www.prioritycoatings.com.au/ways-to-get-rid-of-paint-smells/";

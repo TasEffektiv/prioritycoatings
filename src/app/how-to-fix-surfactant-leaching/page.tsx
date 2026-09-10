@@ -9,6 +9,9 @@ export const metadata: Metadata = {
   title: "Guide on Surfactant Leaching | Priority One Coatings",
   description:
     "Surfactant leaching, an issue with latex paints, is caused by cool, humid conditions during the paint drying. Check easy prevention tips for surfactant leaching.",
+  alternates: {
+    canonical: "/how-to-fix-surfactant-leaching",
+  },
 };
 
 const POST_URL = "https://www.prioritycoatings.com.au/how-to-fix-surfactant-leaching/";

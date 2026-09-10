@@ -9,6 +9,9 @@ export const metadata: Metadata = {
   title: "Tips on Choosing a Licensed House Painter in Sydney | Priority One Coatings",
   description:
     "If you're looking to hire local painters in Sydney, here's a quick guide you can use. We have tips for selecting the right licensed painter for your job.",
+  alternates: {
+    canonical: "/tips-on-choosing-a-licensed-house-painter-within-sydney",
+  },
 };
 
 const POST_URL = "https://www.prioritycoatings.com.au/tips-on-choosing-a-licensed-house-painter-within-sydney/";

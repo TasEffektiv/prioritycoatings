@@ -9,6 +9,9 @@ export const metadata: Metadata = {
   title: "Common Business Challenges of a Commercial Painting Company | Priority One Coatings",
   description:
     "From reputation and cash flow to skilled labour and compliance, explore the common business challenges facing commercial painting companies and how to manage them.",
+  alternates: {
+    canonical: "/common-business-challenges-of-a-commercial-painting-company",
+  },
 };
 
 const POST_URL =

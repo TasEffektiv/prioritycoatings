@@ -9,6 +9,9 @@ export const metadata: Metadata = {
   title: "Paint Your House in the Right Order | Priority One Coatings",
   description:
     "From ceiling to wall painting, you should paint your house in the right order. Let's explore the correct order to paint a room. For more info, contact us today.",
+  alternates: {
+    canonical: "/paint-your-house-in-the-right-order",
+  },
 };
 
 const POST_URL = "https://www.prioritycoatings.com.au/paint-your-house-in-the-right-order/";

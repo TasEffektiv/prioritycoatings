@@ -9,6 +9,9 @@ export const metadata: Metadata = {
   title: "Practical Tips for Bathroom Painting | Priority One Coatings",
   description:
     "Painting a bathroom is unlike any other room due to the moisture and the number of built-in fixtures. Check the tips to have a better bathroom painting experience!",
+  alternates: {
+    canonical: "/practical-tips-for-bathroom-painting",
+  },
 };
 
 const POST_URL = "https://www.prioritycoatings.com.au/practical-tips-for-bathroom-painting/";

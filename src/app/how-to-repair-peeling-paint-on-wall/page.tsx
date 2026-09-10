@@ -10,6 +10,9 @@ export const metadata: Metadata = {
   title: "How to Repair Peeling Paint on Wall | Priority One Coatings",
   description:
     "Peeling paint from walls looks terrible and can deter your family, tenants, or prospective employees. Explore this step-by-step guide and learn how to fix it.",
+  alternates: {
+    canonical: "/how-to-repair-peeling-paint-on-wall",
+  },
 };
 
 const POST_URL = "https://www.prioritycoatings.com.au/how-to-repair-peeling-paint-on-wall/";

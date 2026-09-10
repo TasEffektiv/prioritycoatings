@@ -9,6 +9,9 @@ export const metadata: Metadata = {
   title: "Painting Metal Roof – Tips & Tricks | Priority One Coatings",
   description:
     "Painting a metal roof effectively with the right materials and techniques will enhance durability, prevent rust, and give the roof a fresh, long-lasting finish.",
+  alternates: {
+    canonical: "/metal-roof-painting",
+  },
 };
 
 const POST_URL = "https://www.prioritycoatings.com.au/metal-roof-painting/";

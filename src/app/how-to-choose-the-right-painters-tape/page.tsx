@@ -9,6 +9,9 @@ export const metadata: Metadata = {
   title: "How to Choose the Right Painter's Tape | Priority One Coatings",
   description:
     "A guide to choosing the right painter's tape for your project — types, key features, application steps and common mistakes to avoid.",
+  alternates: {
+    canonical: "/how-to-choose-the-right-painters-tape",
+  },
 };
 
 const POST_URL = "https://www.prioritycoatings.com.au/how-to-choose-the-right-painters-tape/";

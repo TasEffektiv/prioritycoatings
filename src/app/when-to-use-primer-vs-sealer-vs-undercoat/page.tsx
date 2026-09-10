@@ -9,6 +9,9 @@ export const metadata: Metadata = {
   title: "When to Use the Primer, Sealer & Undercoat | Priority One Coatings",
   description:
     "Primers are applied to new surfaces, and an undercoat is used after a primer. However, a sealer is used to seal porous surfaces. For more info, read the article.",
+  alternates: {
+    canonical: "/when-to-use-primer-vs-sealer-vs-undercoat",
+  },
 };
 
 const POST_URL = "https://www.prioritycoatings.com.au/when-to-use-primer-vs-sealer-vs-undercoat/";

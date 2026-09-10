@@ -9,6 +9,9 @@ export const metadata: Metadata = {
   title: "Different Types of Industrial Coatings | Priority One Coatings",
   description:
     "Industrial coatings ensure protection against mechanical, chemical and environmental degradation. Explore the common types of industrial coatings available.",
+  alternates: {
+    canonical: "/different-types-of-industrial-coatings",
+  },
 };
 
 const POST_URL = "https://www.prioritycoatings.com.au/different-types-of-industrial-coatings/";

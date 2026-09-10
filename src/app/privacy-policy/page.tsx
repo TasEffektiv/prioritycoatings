@@ -7,6 +7,9 @@ export const metadata: Metadata = {
   title: "Website Privacy Policy | Priority One Coatings",
   description:
     "Read the privacy policy for Priority One Coatings, Sydney's trusted painting & decorating company, and how we collect, use and protect your personal information.",
+  alternates: {
+    canonical: "/privacy-policy",
+  },
 };
 
 export default function PrivacyPolicyPage() {

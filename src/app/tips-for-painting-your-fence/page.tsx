@@ -9,6 +9,9 @@ export const metadata: Metadata = {
   title: "Tips for Painting Your Fence | Priority One Coatings",
   description:
     "Fence painting is challenging. Explore these tips to make your fence painting job easy and long-lasting. Contact us to get the best paint finish for your fence.",
+  alternates: {
+    canonical: "/tips-for-painting-your-fence",
+  },
 };
 
 const POST_URL = "https://www.prioritycoatings.com.au/tips-for-painting-your-fence/";

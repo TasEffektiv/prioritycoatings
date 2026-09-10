@@ -9,6 +9,9 @@ export const metadata: Metadata = {
   title: "Garage Floor Painting vs Epoxy Coating | Priority One Coatings",
   description:
     "Garage floor paint or epoxy coating? Compare durability, cost and performance to find the right protective finish for your Sydney garage floor.",
+  alternates: {
+    canonical: "/garage-floor-painting-vs-epoxy-coating",
+  },
 };
 
 const POST_URL = "https://www.prioritycoatings.com.au/garage-floor-painting-vs-epoxy-coating/";

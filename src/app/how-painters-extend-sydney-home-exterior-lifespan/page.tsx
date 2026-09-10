@@ -9,6 +9,9 @@ export const metadata: Metadata = {
   title: "How Painters Extend Sydney Home Exterior Lifespan | Priority One Coatings",
   description:
     "Learn how professional painters extend the lifespan of Sydney home exteriors through preparation, suitable coatings, expert application and ongoing maintenance.",
+  alternates: {
+    canonical: "/how-painters-extend-sydney-home-exterior-lifespan",
+  },
 };
 
 const POST_URL = "https://www.prioritycoatings.com.au/how-painters-extend-sydney-home-exterior-lifespan/";

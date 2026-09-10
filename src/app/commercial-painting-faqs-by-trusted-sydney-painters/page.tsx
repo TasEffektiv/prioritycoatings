@@ -9,6 +9,9 @@ export const metadata: Metadata = {
   title: "Commercial Painting FAQs By Trusted Sydney Painters | Priority One Coatings",
   description:
     "Answers to the most common questions about commercial painting in Sydney — cost, insurance, process, timelines and choosing the right contractor.",
+  alternates: {
+    canonical: "/commercial-painting-faqs-by-trusted-sydney-painters",
+  },
 };
 
 const POST_URL = "https://www.prioritycoatings.com.au/commercial-painting-faqs-by-trusted-sydney-painters/";

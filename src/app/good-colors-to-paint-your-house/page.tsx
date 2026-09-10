@@ -9,6 +9,9 @@ export const metadata: Metadata = {
   title: "Good Colours to Paint Your House | Priority One Coatings",
   description:
     "Looking for paint colour inspiration for your home? See good colour choices for the bedroom, kitchen, bathroom and living room from Sydney's painters.",
+  alternates: {
+    canonical: "/good-colors-to-paint-your-house",
+  },
 };
 
 const POST_URL = "https://www.prioritycoatings.com.au/good-colors-to-paint-your-house/";

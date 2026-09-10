@@ -9,6 +9,9 @@ export const metadata: Metadata = {
   title: "Protect Your Room & Furniture When Interior Painting | Priority One Coatings",
   description:
     "Moving and covering furniture, using drop cloths, and taping off areas will protect your room from paint splatters. Protecting surfaces also saves clean-up costs.",
+  alternates: {
+    canonical: "/protect-room-furniture-when-interior-painting",
+  },
 };
 
 const POST_URL = "https://www.prioritycoatings.com.au/protect-room-furniture-when-interior-painting/";

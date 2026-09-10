@@ -9,6 +9,9 @@ export const metadata: Metadata = {
   title: "Paint Your Property Before EOFY | Priority One Coatings",
   description:
     "Painting a building before EOFY offers several benefits, including tax deductions and opportunities for higher rentals. Contact us for the next painting project.",
+  alternates: {
+    canonical: "/paint-your-property-before-eofy",
+  },
 };
 
 const POST_URL = "https://www.prioritycoatings.com.au/paint-your-property-before-eofy/";

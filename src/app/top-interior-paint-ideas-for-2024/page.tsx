@@ -9,6 +9,9 @@ export const metadata: Metadata = {
   title: "Top Interior Paint Ideas for 2024: Elevate Your Space with Colour | Priority One Coatings",
   description:
     "As we enter 2024, a fresh new wave of paint trends is emerging. Let's explore the hottest interior paint ideas for 2024 that will redefine your living spaces.",
+  alternates: {
+    canonical: "/top-interior-paint-ideas-for-2024",
+  },
 };
 
 const POST_URL = "https://www.prioritycoatings.com.au/top-interior-paint-ideas-for-2024/";

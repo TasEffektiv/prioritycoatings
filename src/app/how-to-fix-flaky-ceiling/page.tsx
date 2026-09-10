@@ -9,6 +9,9 @@ export const metadata: Metadata = {
   title: "How to Fix Flaky Ceiling | Priority One Coatings",
   description:
     "Peeling paint on the ceiling is a common issue for Sydney homeowners. Follow this step-by-step guide to fix your flaky ceiling. For more info, contact us today.",
+  alternates: {
+    canonical: "/how-to-fix-flaky-ceiling",
+  },
 };
 
 const POST_URL = "https://www.prioritycoatings.com.au/how-to-fix-flaky-ceiling/";

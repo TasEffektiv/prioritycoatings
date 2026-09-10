@@ -9,6 +9,9 @@ export const metadata: Metadata = {
   title: "Feature Wall Colour Ideas | Priority One Coatings",
   description:
     "Choosing the right colour for your feature wall can be a daunting task. Let's explore some exclusive feature wall colour ideas to make your task easy.",
+  alternates: {
+    canonical: "/feature-wall-colour-ideas",
+  },
 };
 
 const POST_URL = "https://www.prioritycoatings.com.au/feature-wall-colour-ideas/";

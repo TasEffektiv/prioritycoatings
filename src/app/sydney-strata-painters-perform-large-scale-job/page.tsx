@@ -9,6 +9,9 @@ export const metadata: Metadata = {
   title: "Our Sydney Strata Painters Can Perform Any Large-Scale Job | Priority One Coatings",
   description:
     "Priority One Coatings' accredited strata painters in Sydney handle projects of any size, from high-rises to residential estates, with quality and affordability.",
+  alternates: {
+    canonical: "/sydney-strata-painters-perform-large-scale-job",
+  },
 };
 
 const POST_URL = "https://www.prioritycoatings.com.au/sydney-strata-painters-perform-large-scale-job/";

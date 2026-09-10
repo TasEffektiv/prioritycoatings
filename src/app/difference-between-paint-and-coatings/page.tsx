@@ -9,6 +9,9 @@ export const metadata: Metadata = {
   title: "Difference Between Paint and Coatings | Priority One Coatings",
   description:
     "Coating is a general term for applying a material layer to a substrate, while painting is a type of coating. Check the differences between paint and coatings.",
+  alternates: {
+    canonical: "/difference-between-paint-and-coatings",
+  },
 };
 
 const POST_URL = "https://www.prioritycoatings.com.au/difference-between-paint-and-coatings/";

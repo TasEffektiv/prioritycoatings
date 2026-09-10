@@ -9,6 +9,9 @@ export const metadata: Metadata = {
   title: "Venetian Plaster vs. Roman Clay vs. Limewash",
   description:
     "Roman Clay, Venetian Plaster, and Limewash are popular wall finishes due to their exclusive characteristics. Check the difference between these wall finishes.",
+  alternates: {
+    canonical: "/venetian-plaster-vs-roman-clay-vs-limewash",
+  },
 };
 
 const POST_URL = "https://www.prioritycoatings.com.au/venetian-plaster-vs-roman-clay-vs-limewash/";

@@ -9,6 +9,9 @@ export const metadata: Metadata = {
   title: "How to Maintain Your Commercial Painting Project | Priority One Coatings",
   description:
     "From project planning to regular cleaning and paint finish upkeep, learn how to maintain your commercial painting project with tips from Priority One Coatings.",
+  alternates: {
+    canonical: "/how-to-maintain-commercial-painting-project",
+  },
 };
 
 const POST_URL = "https://www.prioritycoatings.com.au/how-to-maintain-commercial-painting-project/";

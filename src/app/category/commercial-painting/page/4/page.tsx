@@ -14,6 +14,9 @@ export const metadata: Metadata = {
   title: "Commercial Painting | Blog | Page 4 | Priority One Coatings",
   description:
     "Commercial painting tips, guides and expert advice from Priority One Coatings — Sydney's residential and commercial painting specialists.",
+  alternates: {
+    canonical: "/category/commercial-painting/page/4",
+  },
 };
 
 export default function CommercialPaintingCategoryPageFour() {

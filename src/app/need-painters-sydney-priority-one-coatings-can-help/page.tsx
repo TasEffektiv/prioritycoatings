@@ -9,6 +9,9 @@ export const metadata: Metadata = {
   title: "Need Painters in Sydney? Priority One Coatings Can Help | Priority One Coatings",
   description:
     "Choosing the right painting company matters. See why Priority One Coatings is one of Sydney's leading painting contractors for homes, offices and strata.",
+  alternates: {
+    canonical: "/need-painters-sydney-priority-one-coatings-can-help",
+  },
 };
 
 const POST_URL = "https://www.prioritycoatings.com.au/need-painters-sydney-priority-one-coatings-can-help/";

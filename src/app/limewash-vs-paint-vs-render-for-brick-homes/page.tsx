@@ -9,6 +9,9 @@ export const metadata: Metadata = {
   title: "Limewash, Paint, or Render Your Brick House | Priority One Coatings",
   description:
     "Limewash, paint or render — compare the pros, cons and lifespan of each brick finish to choose the right option for your Sydney home.",
+  alternates: {
+    canonical: "/limewash-vs-paint-vs-render-for-brick-homes",
+  },
 };
 
 const POST_URL = "https://www.prioritycoatings.com.au/limewash-vs-paint-vs-render-for-brick-homes/";

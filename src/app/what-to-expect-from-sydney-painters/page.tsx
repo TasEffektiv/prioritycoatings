@@ -9,6 +9,9 @@ export const metadata: Metadata = {
   title: "What to Expect from Sydney Painters | Priority One Coatings",
   description:
     "Hire Sydney painters for quality & value. They offer interior & exterior painting for residential, commercial, and strata projects. Get free quotes!",
+  alternates: {
+    canonical: "/what-to-expect-from-sydney-painters",
+  },
 };
 
 const POST_URL = "https://www.prioritycoatings.com.au/what-to-expect-from-sydney-painters/";

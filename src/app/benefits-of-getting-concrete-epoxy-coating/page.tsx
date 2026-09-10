@@ -9,6 +9,9 @@ export const metadata: Metadata = {
   title: "Benefits of Getting Concrete Epoxy Coating | Priority One Coatings",
   description:
     "If old concrete floor needs renovation, epoxy is one of the best materials to update the look and prevent future wear & tear. Check the benefits of concrete epoxy coating.",
+  alternates: {
+    canonical: "/benefits-of-getting-concrete-epoxy-coating",
+  },
 };
 
 const POST_URL = "https://www.prioritycoatings.com.au/benefits-of-getting-concrete-epoxy-coating/";

@@ -9,6 +9,9 @@ export const metadata: Metadata = {
   title: "5 Essential Tools You Need To Paint Your House | Priority One Coatings",
   description:
     "Thinking about DIY house painting? Here's a checklist of the essential tools and equipment you need to get the job done with the best possible finish.",
+  alternates: {
+    canonical: "/5-essential-tools-you-need-to-paint-your-house",
+  },
 };
 
 const POST_URL = "https://www.prioritycoatings.com.au/5-essential-tools-you-need-to-paint-your-house/";

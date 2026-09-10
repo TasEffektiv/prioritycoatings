@@ -9,6 +9,9 @@ export const metadata: Metadata = {
   title: "Only Hire the Best Commercial Painting Contractors | Priority One Coatings",
   description:
     "If you want the perfect commercial paint job done at the first chance and want to save your property and money, hire the best commercial painting contractors.",
+  alternates: {
+    canonical: "/hire-the-best-commercial-painting-contractors",
+  },
 };
 
 const POST_URL = "https://www.prioritycoatings.com.au/hire-the-best-commercial-painting-contractors/";

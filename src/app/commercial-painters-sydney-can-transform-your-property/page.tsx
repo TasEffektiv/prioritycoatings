@@ -9,6 +9,9 @@ export const metadata: Metadata = {
   title: "How Commercial Painters in Sydney Can Transform Your Property | Priority One Coatings",
   description:
     "If you are looking for a commercial painting contractor near you, hire Priority One Coatings in Sydney. Contact today to give your building a brand-new look.",
+  alternates: {
+    canonical: "/commercial-painters-sydney-can-transform-your-property",
+  },
 };
 
 const POST_URL = "https://www.prioritycoatings.com.au/commercial-painters-sydney-can-transform-your-property/";

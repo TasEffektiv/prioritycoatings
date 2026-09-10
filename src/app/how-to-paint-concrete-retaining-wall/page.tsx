@@ -9,6 +9,9 @@ export const metadata: Metadata = {
   title: "How to Paint Concrete Retaining Wall | Priority One Coatings",
   description:
     "Concrete retaining wall painting usually requires premium tools, supplies, and expert painters. Contact us and give a facial uplift to your retaining wall.",
+  alternates: {
+    canonical: "/how-to-paint-concrete-retaining-wall",
+  },
 };
 
 const POST_URL = "https://www.prioritycoatings.com.au/how-to-paint-concrete-retaining-wall/";

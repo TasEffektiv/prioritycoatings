@@ -12,6 +12,9 @@ export const metadata: Metadata = {
   title: "Expert Residential Painters Sydney | Priority One Coatings",
   description:
     "Our expert house painters offer the highest quality of interior & exterior residential painting in Sydney. For affordable house painting services, contact us!",
+  alternates: {
+    canonical: "/residential-painters",
+  },
 };
 
 const RELATED_WORKS_GALLERY = [

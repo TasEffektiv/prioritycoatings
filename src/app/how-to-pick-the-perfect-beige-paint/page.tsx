@@ -9,6 +9,9 @@ export const metadata: Metadata = {
   title: "How to Pick the Perfect Beige Paint | Priority One Coatings",
   description:
     "For homeowners in Sydney, beige is one of the safest options for house painting. Explore how to pick the perfect beige paint for your next renovation project.",
+  alternates: {
+    canonical: "/how-to-pick-the-perfect-beige-paint",
+  },
 };
 
 const POST_URL = "https://www.prioritycoatings.com.au/how-to-pick-the-perfect-beige-paint/";

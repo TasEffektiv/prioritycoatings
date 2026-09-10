@@ -9,6 +9,9 @@ export const metadata: Metadata = {
   title: "Top 5 Ways To Waterproof Commercial Buildings | Priority One Coatings",
   description:
     "The benefits of waterproofing extend beyond preserving the structural integrity of your commercial building. Explore the essential reasons and core benefits.",
+  alternates: {
+    canonical: "/waterproofing-commercial-buildings",
+  },
 };
 
 const POST_URL = "https://www.prioritycoatings.com.au/waterproofing-commercial-buildings/";

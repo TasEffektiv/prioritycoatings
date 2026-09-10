@@ -9,6 +9,9 @@ export const metadata: Metadata = {
   title: "Ideas to Make A Small Room Look Bigger | Priority One Coatings",
   description:
     "If you want to make your small space feel bigger, explore some easy tips. To renovate your home to look more prominent, contact Priority One Coatings.",
+  alternates: {
+    canonical: "/ideas-to-make-small-room-look-bigger",
+  },
 };
 
 const POST_URL = "https://www.prioritycoatings.com.au/ideas-to-make-small-room-look-bigger/";

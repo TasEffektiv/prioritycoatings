@@ -10,6 +10,9 @@ export const metadata: Metadata = {
   title: "Painters Haberfield | Your Local Painters | Priority One Coatings",
   description:
     "For any interior and exterior painting projects, contact experienced and reliable painters in Haberfield. Highly trained & affordable painters! Get a free Quote!",
+  alternates: {
+    canonical: "/painters-haberfield",
+  },
 };
 
 const SERVICES_LIST = [

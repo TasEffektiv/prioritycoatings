@@ -9,6 +9,9 @@ export const metadata: Metadata = {
   title: "Keep Your Property Looking Fresh with The Leading Painting Services in Sydney | Priority One Coatings",
   description:
     "Our team of painters in Sydney will transform your property and give it the fresh new look you've been dreaming of. To begin your next painting project, contact us.",
+  alternates: {
+    canonical: "/keep-your-property-looking-fresh-with-priority-one-coatings",
+  },
 };
 
 const POST_URL = "https://www.prioritycoatings.com.au/keep-your-property-looking-fresh-with-priority-one-coatings/";

@@ -9,6 +9,9 @@ export const metadata: Metadata = {
   title: "Mistakes to Avoid When Hiring Residential Painters in Sydney | Priority One Coatings",
   description:
     "From price-only decisions to skipped contracts, here are the common mistakes Sydney homeowners make when hiring residential painters — and how to avoid them.",
+  alternates: {
+    canonical: "/mistakes-to-avoid-when-hiring-residential-painters",
+  },
 };
 
 const POST_URL = "https://www.prioritycoatings.com.au/mistakes-to-avoid-when-hiring-residential-painters/";

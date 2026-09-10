@@ -12,6 +12,9 @@ export const metadata: Metadata = {
   title: "Epoxy Floor Coatings Sydney | Priority One Coatings",
   description:
     "Priority One Coatings specialise in high-quality epoxy coatings in Sydney for commercial & industrial premises. Contact us for all kinds of epoxy flooring solutions!",
+  alternates: {
+    canonical: "/epoxy-floor-coatings",
+  },
 };
 
 const RELATED_WORKS_GALLERY = [

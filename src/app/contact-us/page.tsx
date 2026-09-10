@@ -8,6 +8,9 @@ export const metadata: Metadata = {
   title: "Contact Us | Priority One Coatings",
   description:
     "Get in touch with Priority One Coatings — Sydney's trusted painting & decorating company since 1988. Call, email, or send us a message for a free quote.",
+  alternates: {
+    canonical: "/contact-us",
+  },
 };
 
 const CONTACT_DETAILS = [

@@ -9,6 +9,9 @@ export const metadata: Metadata = {
   title: "Paint Dry and Paint Cure | Priority One Coatings",
   description:
     "Paint drying and paint curing are two often confusing decorating terms. Let's explore the basic of paint dry and paint cure and the difference between both process.",
+  alternates: {
+    canonical: "/paint-dry-and-paint-cure",
+  },
 };
 
 const POST_URL = "https://www.prioritycoatings.com.au/paint-dry-and-paint-cure/";

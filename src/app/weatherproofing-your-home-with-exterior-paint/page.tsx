@@ -9,6 +9,9 @@ export const metadata: Metadata = {
   title: "Weatherproofing Your Home with Exterior Paint | Priority One Coatings",
   description:
     "Exterior paint protects your home from harsh weather. It creates a barrier against moisture and UV damage. Learn how to weatherproof your home with external painting.",
+  alternates: {
+    canonical: "/weatherproofing-your-home-with-exterior-paint",
+  },
 };
 
 const POST_URL = "https://www.prioritycoatings.com.au/weatherproofing-your-home-with-exterior-paint/";

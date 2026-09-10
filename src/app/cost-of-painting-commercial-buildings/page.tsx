@@ -9,6 +9,9 @@ export const metadata: Metadata = {
   title: "The Cost of Painting A Commercial Space | Priority One Coatings",
   description:
     "Find out what impacts the cost of commercial painting, including property size, coating selection, repairs, accessibility, and project scope.",
+  alternates: {
+    canonical: "/cost-of-painting-commercial-buildings",
+  },
 };
 
 const POST_URL = "https://www.prioritycoatings.com.au/cost-of-painting-commercial-buildings/";

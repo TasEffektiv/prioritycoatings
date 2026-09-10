@@ -9,6 +9,9 @@ export const metadata: Metadata = {
   title: "Drywall Repair Tips | Priority One Coatings",
   description:
     "Over time, wear and tear can make Sydney homeowners repair drywall. Check out the essential tips you need to know when fixing drywall damage in your home.",
+  alternates: {
+    canonical: "/drywall-repair-tips",
+  },
 };
 
 const POST_URL = "https://www.prioritycoatings.com.au/drywall-repair-tips/";

@@ -9,6 +9,9 @@ export const metadata: Metadata = {
   title: "Guide to Reglazing Windows | Priority One Coatings",
   description:
     "A step-by-step guide to reglazing windows — the tools, materials and technique needed to repair cracked putty and restore a weather-tight seal.",
+  alternates: {
+    canonical: "/guide-to-reglazing-windows",
+  },
 };
 
 const POST_URL = "https://www.prioritycoatings.com.au/guide-to-reglazing-windows/";

@@ -9,6 +9,9 @@ export const metadata: Metadata = {
   title: "House Painting Secrets | Priority One Coatings",
   description:
     "House painting has lots of secrets, from selecting the right sheen to mastering application techniques. Learn the insider tips for a stunning result.",
+  alternates: {
+    canonical: "/house-painting-secrets",
+  },
 };
 
 const POST_URL = "https://www.prioritycoatings.com.au/house-painting-secrets/";

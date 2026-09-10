@@ -9,6 +9,9 @@ export const metadata: Metadata = {
   title: "Guide to Eggshell Paint Finish | Priority One Coatings",
   description:
     "Explore the eggshell paint finish and learn where to use it, its benefits, durability, and how it enhances walls with a soft texture and low-sheen look.",
+  alternates: {
+    canonical: "/guide-to-eggshell-paint-finish",
+  },
 };
 
 const POST_URL = "https://www.prioritycoatings.com.au/guide-to-eggshell-paint-finish/";

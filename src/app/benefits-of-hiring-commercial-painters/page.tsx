@@ -9,6 +9,9 @@ export const metadata: Metadata = {
   title: "Benefits of Hiring Commercial Painters | Priority One Coatings",
   description:
     "Expert commercial painters, Priority One Coatings, can get a building back in working order soon. So, hiring a commercial painter can improve your painting project.",
+  alternates: {
+    canonical: "/benefits-of-hiring-commercial-painters",
+  },
 };
 
 const POST_URL = "https://www.prioritycoatings.com.au/benefits-of-hiring-commercial-painters/";

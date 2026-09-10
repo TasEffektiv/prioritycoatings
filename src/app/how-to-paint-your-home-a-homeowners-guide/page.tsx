@@ -9,6 +9,9 @@ export const metadata: Metadata = {
   title: "How to Paint Your Home – A Homeowner's Guide | Priority One Coatings",
   description:
     "A homeowner's guide to painting your home, covering colour selection, lighting and LRV, and what to look for before hiring a residential painting company.",
+  alternates: {
+    canonical: "/how-to-paint-your-home-a-homeowners-guide",
+  },
 };
 
 const POST_URL = "https://www.prioritycoatings.com.au/how-to-paint-your-home-a-homeowners-guide/";

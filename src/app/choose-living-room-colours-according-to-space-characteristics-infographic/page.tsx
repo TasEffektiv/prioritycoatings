@@ -9,6 +9,9 @@ export const metadata: Metadata = {
   title: "Choose Living Room Colours by Space Characteristics | Priority One Coatings",
   description:
     "Learn how natural light, room use and furniture should guide your living room colour choices, plus a handy infographic with quick tips.",
+  alternates: {
+    canonical: "/choose-living-room-colours-according-to-space-characteristics-infographic",
+  },
 };
 
 const POST_URL =

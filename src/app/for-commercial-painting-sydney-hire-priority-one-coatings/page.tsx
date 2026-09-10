@@ -9,6 +9,9 @@ export const metadata: Metadata = {
   title: "Looking for Commercial Painting Sydney-wide? Hire Priority One Coatings | Priority One Coatings",
   description:
     "A tired-looking commercial building brings down the image of your business. Hire Priority One Coatings today and let us give your commercial property a better look!",
+  alternates: {
+    canonical: "/for-commercial-painting-sydney-hire-priority-one-coatings",
+  },
 };
 
 const POST_URL = "https://www.prioritycoatings.com.au/for-commercial-painting-sydney-hire-priority-one-coatings/";

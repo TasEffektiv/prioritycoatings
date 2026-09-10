@@ -9,6 +9,9 @@ export const metadata: Metadata = {
   title: "Benefits of Repainting Your Commercial Building | Priority One Coatings",
   description:
     "From rebranding to increased foot traffic and market value, discover the benefits of repainting your commercial building with Priority One Coatings.",
+  alternates: {
+    canonical: "/benefits-of-repainting-commercial-building",
+  },
 };
 
 const POST_URL = "https://www.prioritycoatings.com.au/benefits-of-repainting-commercial-building/";

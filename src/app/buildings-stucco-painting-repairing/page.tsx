@@ -9,6 +9,9 @@ export const metadata: Metadata = {
   title: "Buildings Stucco Painting & Repairing | Priority One Coatings",
   description:
     "Stucco painting and repair involves addressing damage and applying a fresh coat of paint. Learn more about building stucco issues, painting and repairing.",
+  alternates: {
+    canonical: "/buildings-stucco-painting-repairing",
+  },
 };
 
 const POST_URL = "https://www.prioritycoatings.com.au/buildings-stucco-painting-repairing/";

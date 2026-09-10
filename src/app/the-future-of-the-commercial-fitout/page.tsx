@@ -9,6 +9,9 @@ export const metadata: Metadata = {
   title: "The Future of the Commercial Office Fit Out | Priority One Coatings",
   description:
     "From sustainable design to flexible workspace, the future of commercial office fitouts is limitless. Check office fit-out trends shaping how offices are built.",
+  alternates: {
+    canonical: "/the-future-of-the-commercial-fitout",
+  },
 };
 
 const POST_URL = "https://www.prioritycoatings.com.au/the-future-of-the-commercial-fitout/";

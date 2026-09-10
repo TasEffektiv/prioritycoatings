@@ -9,6 +9,9 @@ export const metadata: Metadata = {
   title: "Extend the Lifespan of Commercial Paint Job | Priority One Coatings",
   description:
     "Commercial paint's lifespan depends on the coating quality and how well it's applied. Let's check what maintenance you can do to improve paintwork longevity.",
+  alternates: {
+    canonical: "/extend-the-lifespan-of-commercial-paint-job",
+  },
 };
 
 const POST_URL = "https://www.prioritycoatings.com.au/extend-the-lifespan-of-commercial-paint-job/";

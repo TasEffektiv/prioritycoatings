@@ -9,6 +9,9 @@ export const metadata: Metadata = {
   title: "Brick Makeover Guide: Limewash, Whitewash, German Smear | Priority One Coatings",
   description:
     "Let's compare three top finishes: Limewash, Whitewash, & the German Smear. Choose the best brick makeover for your house! Contact us for your brick house makeover!",
+  alternates: {
+    canonical: "/brick-makeover-limewash-whitewash-german-smear",
+  },
 };
 
 const POST_URL = "https://www.prioritycoatings.com.au/brick-makeover-limewash-whitewash-german-smear/";

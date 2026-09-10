@@ -9,6 +9,9 @@ export const metadata: Metadata = {
   title: "Tips for Painting Rendered Wall | Priority One Coatings",
   description:
     "With the right tools and the right kind of paint, you can easily paint over your home's cement-rendered walls. Check the tips to make your job easier.",
+  alternates: {
+    canonical: "/tips-for-painting-rendered-wall",
+  },
 };
 
 const POST_URL = "https://www.prioritycoatings.com.au/tips-for-painting-rendered-wall/";

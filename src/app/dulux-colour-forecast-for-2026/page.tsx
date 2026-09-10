@@ -9,6 +9,9 @@ export const metadata: Metadata = {
   title: "Dulux Colour Forecast for 2026 | Priority One Coatings",
   description:
     "Discover the Dulux Colour Forecast for 2026 — a shift towards warm neutrals, soft pastels and bold hues across the Elemental, Ethereal and Evoke palettes.",
+  alternates: {
+    canonical: "/dulux-colour-forecast-for-2026",
+  },
 };
 
 const POST_URL = "https://www.prioritycoatings.com.au/dulux-colour-forecast-for-2026/";

@@ -9,6 +9,9 @@ export const metadata: Metadata = {
   title: "Essential Things to Know Before Painting Your Home Interiors | Priority One Coatings",
   description:
     "Everything to consider before painting your home interiors — surface prep, paint types and finishes, weather, colour selection, and DIY tips for a professional result.",
+  alternates: {
+    canonical: "/things-to-know-before-painting-home-interiors",
+  },
 };
 
 const POST_URL = "https://www.prioritycoatings.com.au/things-to-know-before-painting-home-interiors/";

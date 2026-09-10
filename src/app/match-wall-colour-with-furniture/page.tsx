@@ -9,6 +9,9 @@ export const metadata: Metadata = {
   title: "Match Wall Colour with Furniture | Priority One Coatings",
   description:
     "If you want to match your furniture and wall colour, here are some common tips. If you still can't decide and get confused, consult with Priority One Coatings.",
+  alternates: {
+    canonical: "/match-wall-colour-with-furniture",
+  },
 };
 
 const POST_URL = "https://www.prioritycoatings.com.au/match-wall-colour-with-furniture/";

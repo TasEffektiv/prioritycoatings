@@ -9,6 +9,9 @@ export const metadata: Metadata = {
   title: "How to Remove Water Stains on Walls & Ceilings | Priority One Coatings",
   description:
     "Water stains on walls and ceilings are a common Sydney home problem. Learn what causes them, how to remove them safely, and how to stop them from returning.",
+  alternates: {
+    canonical: "/how-to-remove-water-stains-from-walls-and-ceilings",
+  },
 };
 
 const POST_URL = "https://www.prioritycoatings.com.au/how-to-remove-water-stains-from-walls-and-ceilings/";

@@ -9,6 +9,9 @@ export const metadata: Metadata = {
   title: "Benefits of Painting Your Roof | Priority One Coatings",
   description:
     "Regular roof painting can help keep your home cooler and save on energy. It also maintains your roof's quality. Check the benefits of painting for aged roofs.",
+  alternates: {
+    canonical: "/benefits-of-painting-your-roof",
+  },
 };
 
 const POST_URL = "https://www.prioritycoatings.com.au/benefits-of-painting-your-roof/";

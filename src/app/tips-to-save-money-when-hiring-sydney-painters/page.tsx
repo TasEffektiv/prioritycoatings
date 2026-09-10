@@ -9,6 +9,9 @@ export const metadata: Metadata = {
   title: "5 Strategies to Save Money When Hiring Sydney Painters | Priority One Coatings",
   description:
     "Planning a repaint on a budget? Discover five practical tips to save money when hiring Sydney painters without compromising on quality or results.",
+  alternates: {
+    canonical: "/tips-to-save-money-when-hiring-sydney-painters",
+  },
 };
 
 const POST_URL = "https://www.prioritycoatings.com.au/tips-to-save-money-when-hiring-sydney-painters/";

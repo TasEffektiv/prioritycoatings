@@ -10,6 +10,9 @@ export const metadata: Metadata = {
   title: "Painters Mosman | Priority Coatings",
   description:
     "Guaranteed quality for residential & commercial painting projects in Mosman. Highly skilled & professional Mosman painters. Call 02 9808 5900 & Get a free quote NOW!",
+  alternates: {
+    canonical: "/painters-mosman",
+  },
 };
 
 const SERVICES_LIST = [

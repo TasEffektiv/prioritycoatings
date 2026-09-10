@@ -9,6 +9,9 @@ export const metadata: Metadata = {
   title: "Make Sure You Use the Best Epoxy Floor Coatings in Sydney | Priority One Coatings",
   description:
     "Get durable, stylish epoxy floor coatings in Sydney from Priority One Coatings, trusted for over 32 years of quality flooring solutions.",
+  alternates: {
+    canonical: "/use-the-best-epoxy-floor-coatings-sydney",
+  },
 };
 
 const POST_URL = "https://www.prioritycoatings.com.au/use-the-best-epoxy-floor-coatings-sydney/";

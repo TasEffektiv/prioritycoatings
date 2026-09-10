@@ -9,6 +9,9 @@ export const metadata: Metadata = {
   title: "Why Do You Need Stain-Resistant Paints? | Priority One Coatings",
   description:
     "Stain-resistant paints offer superior protection against stains and dirt. Learn the benefits, application areas, types and tips for stain-resistant paints.",
+  alternates: {
+    canonical: "/why-stain-resistant-paint",
+  },
 };
 
 const POST_URL = "https://www.prioritycoatings.com.au/why-stain-resistant-paint/";

@@ -9,6 +9,9 @@ export const metadata: Metadata = {
   title: "Winter Exterior Painting In Sydney: Essential Tips | Priority One Coatings",
   description:
     "Planning exterior house painting in winter? Get expert advice on winter exterior house painting, including key do's and don'ts to achieve a professional finish.",
+  alternates: {
+    canonical: "/winter-exterior-house-painting-dos-and-donts",
+  },
 };
 
 const POST_URL = "https://www.prioritycoatings.com.au/winter-exterior-house-painting-dos-and-donts/";

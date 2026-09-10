@@ -9,6 +9,9 @@ export const metadata: Metadata = {
   title: "Paint Removal Tips For Restoring The Surfaces | Priority One Coatings",
   description:
     "For painted surface restoration, removing paint is essential. Explore to learn paint removal tips and contact Priority One Coatings for restoring the surfaces.",
+  alternates: {
+    canonical: "/paint-removal-tips-restoring-surfaces",
+  },
 };
 
 const POST_URL = "https://www.prioritycoatings.com.au/paint-removal-tips-restoring-surfaces/";

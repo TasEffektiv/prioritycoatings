@@ -9,6 +9,9 @@ export const metadata: Metadata = {
   title: "Painting A Foyer - Transform the Entryway | Priority One Coatings",
   description:
     "A home's foyer serves as its first impression. Discover the best foyer paint colours, finishes and entryway paint ideas to transform your entrance hall.",
+  alternates: {
+    canonical: "/painting-foyer-transform-the-entryway",
+  },
 };
 
 const POST_URL = "https://www.prioritycoatings.com.au/painting-foyer-transform-the-entryway/";

@@ -9,6 +9,9 @@ export const metadata: Metadata = {
   title: "How Often Should You Paint Your House Exterior? | Priority One Coatings",
   description:
     "Wondering how often to repaint your house exterior? Learn what affects paint lifespan and the warning signs it's time for a fresh coat.",
+  alternates: {
+    canonical: "/how-often-should-the-exterior-of-the-house-be-painted",
+  },
 };
 
 const POST_URL = "https://www.prioritycoatings.com.au/how-often-should-the-exterior-of-the-house-be-painted/";

@@ -9,6 +9,9 @@ export const metadata: Metadata = {
   title: "How to Paint Cladding Surfaces | Priority One Coatings",
   description:
     "Cladding, mainly wood, often requires painting or staining. Check out some expert tips for a successful cladding painting project. For more info, contact us.",
+  alternates: {
+    canonical: "/how-to-paint-cladding-surfaces",
+  },
 };
 
 const POST_URL = "https://www.prioritycoatings.com.au/how-to-paint-cladding-surfaces/";

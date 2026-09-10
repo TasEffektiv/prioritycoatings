@@ -7,6 +7,9 @@ export const metadata: Metadata = {
   title: "Website Terms and Conditions | Priority One Coatings",
   description:
     "Read the website terms and conditions for Priority One Coatings, Sydney's trusted painting & decorating company.",
+  alternates: {
+    canonical: "/terms-and-conditions",
+  },
 };
 
 export default function TermsAndConditionsPage() {

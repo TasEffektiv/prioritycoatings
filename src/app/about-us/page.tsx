@@ -8,6 +8,9 @@ export const metadata: Metadata = {
   title: "About Us | Priority One Coatings",
   description:
     "Established in 1988, Priority One Coatings is a Sydney painting & decorating company with old school values, delivering premium residential, commercial, and strata painting services.",
+  alternates: {
+    canonical: "/about-us",
+  },
 };
 
 const SERVICES_LIST = [

@@ -9,6 +9,9 @@ export const metadata: Metadata = {
   title: "On-Site Preparation for Painters in Sydney | Priority One Coatings",
   description:
     "Proper house painting preparation is vital for a building project. Let's explore the steps our Sydney painters follow on-site while preparing for the paint job.",
+  alternates: {
+    canonical: "/on-site-preparation-for-painters-in-sydney",
+  },
 };
 
 const POST_URL = "https://www.prioritycoatings.com.au/on-site-preparation-for-painters-in-sydney/";

@@ -9,6 +9,9 @@ export const metadata: Metadata = {
   title: "Painting and Decorating Tips for Your Office | Priority One Coatings",
   description:
     "Choosing office paint colours affects mood and productivity. Explore colour psychology and practical decorating tips for commercial workplaces.",
+  alternates: {
+    canonical: "/painting-and-decorating-tips-for-your-office",
+  },
 };
 
 const POST_URL = "https://www.prioritycoatings.com.au/painting-and-decorating-tips-for-your-office/";

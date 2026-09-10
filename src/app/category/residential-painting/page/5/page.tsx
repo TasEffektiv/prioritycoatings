@@ -14,6 +14,9 @@ export const metadata: Metadata = {
   title: "Residential Painting | Blog | Page 5 | Priority One Coatings",
   description:
     "Residential painting tips, guides and expert advice from Priority One Coatings — Sydney's residential and commercial painting specialists.",
+  alternates: {
+    canonical: "/category/residential-painting/page/5",
+  },
 };
 
 export default function ResidentialPaintingCategoryPageFive() {

@@ -9,6 +9,9 @@ export const metadata: Metadata = {
   title: "VOC Paint vs. Low-VOC Paint vs. No-VOC Paint | Priority One Coatings",
   description:
     "VOC free paint is the healthiest choice for your home. Explore the dangers of VOCs, how to avoid low-VOC paints, and why you should only use zero-VOC paint.",
+  alternates: {
+    canonical: "/voc-paint-vs-low-voc-paint-vs-no-voc-paint",
+  },
 };
 
 const POST_URL = "https://www.prioritycoatings.com.au/voc-paint-vs-low-voc-paint-vs-no-voc-paint/";

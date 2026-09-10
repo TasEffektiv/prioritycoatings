@@ -9,6 +9,9 @@ export const metadata: Metadata = {
   title: "The Benefits of Hiring Professional Painters in Sydney | Priority One Coatings",
   description:
     "Discover why hiring professional painters in Sydney beats DIY, from expertise and quality finishes to cost-effectiveness and reliable, insured service.",
+  alternates: {
+    canonical: "/benefits-of-hiring-professional-painters-sydney",
+  },
 };
 
 const POST_URL = "https://www.prioritycoatings.com.au/benefits-of-hiring-professional-painters-sydney/";

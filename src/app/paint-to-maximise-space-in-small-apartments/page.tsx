@@ -9,6 +9,9 @@ export const metadata: Metadata = {
   title: "Paint to Maximise Space in Small Apartments | Priority One Coatings",
   description:
     "With the right paint colours and techniques, you can maximise spaces and transform your home. Explore painting tips to make your small apartment look bigger.",
+  alternates: {
+    canonical: "/paint-to-maximise-space-in-small-apartments",
+  },
 };
 
 const POST_URL = "https://www.prioritycoatings.com.au/paint-to-maximise-space-in-small-apartments/";

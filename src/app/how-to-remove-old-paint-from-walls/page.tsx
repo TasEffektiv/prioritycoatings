@@ -9,6 +9,9 @@ export const metadata: Metadata = {
   title: "How to Remove Old Paint from Walls | Priority One Coatings",
   description:
     "If you're considering repainting the walls, remove old paint first. Removing paint can sometimes damage the wall - review techniques.",
+  alternates: {
+    canonical: "/how-to-remove-old-paint-from-walls",
+  },
 };
 
 const POST_URL = "https://www.prioritycoatings.com.au/how-to-remove-old-paint-from-walls/";

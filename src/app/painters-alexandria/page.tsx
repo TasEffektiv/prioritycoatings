@@ -10,6 +10,9 @@ export const metadata: Metadata = {
   title: "Painters in Alexandria | Priority Coatings",
   description:
     "For renovation & painting your home or office, rely on qualified local painters in Alexandria. Get affordable & quality painting services in Alexandria. Contact now.",
+  alternates: {
+    canonical: "/painters-alexandria",
+  },
 };
 
 const SERVICES_LIST = [

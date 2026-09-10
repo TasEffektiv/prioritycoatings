@@ -9,6 +9,9 @@ export const metadata: Metadata = {
   title: "Priority One Coatings Will Make Your Sydney Office Stand Out | Priority One Coatings",
   description:
     "Planning an office fitout in Sydney? Priority One Coatings delivers customised, high-quality office fitouts that reflect your brand and boost productivity.",
+  alternates: {
+    canonical: "/priority-coatings-make-your-sydney-office-stand-out",
+  },
 };
 
 const POST_URL = "https://www.prioritycoatings.com.au/priority-coatings-make-your-sydney-office-stand-out/";

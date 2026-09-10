@@ -9,6 +9,9 @@ export const metadata: Metadata = {
   title: "Safety Measures While Repainting Your House | Priority One Coatings",
   description:
     "Planning a DIY repaint? Learn the key safety measures for preparing your workspace, using tools and ladders safely, and knowing when to call a professional.",
+  alternates: {
+    canonical: "/safety-measures-while-house-repainting",
+  },
 };
 
 const POST_URL = "https://www.prioritycoatings.com.au/safety-measures-while-house-repainting/";

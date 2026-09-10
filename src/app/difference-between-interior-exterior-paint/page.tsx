@@ -9,6 +9,9 @@ export const metadata: Metadata = {
   title: "The Difference Between Interior & Exterior Paint | Priority One Coatings",
   description:
     "The difference between interior & exterior paint is in the formulation, and they are not interchangeable. So, to give your home a painting makeover, contact us.",
+  alternates: {
+    canonical: "/difference-between-interior-exterior-paint",
+  },
 };
 
 const POST_URL = "https://www.prioritycoatings.com.au/difference-between-interior-exterior-paint/";

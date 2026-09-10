@@ -9,6 +9,9 @@ export const metadata: Metadata = {
   title: "Saving on House Painting Costs | Priority One Coatings",
   description:
     "The rate for painting a house is influenced by factors like paint and materials. Our tips will help you cut costs for your interior and exterior house painting.",
+  alternates: {
+    canonical: "/saving-on-house-painting-costs",
+  },
 };
 
 const POST_URL = "https://www.prioritycoatings.com.au/saving-on-house-painting-costs/";

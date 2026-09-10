@@ -10,6 +10,9 @@ export const metadata: Metadata = {
   title: "How to Prepare Surface For Painting | Priority One Coatings",
   description:
     "Whether you are painting on the exterior or the interior, the basic and essential aspect is paint surface preparation. Explore the guide to surface preparation.",
+  alternates: {
+    canonical: "/how-to-prepare-surface-for-painting",
+  },
 };
 
 const POST_URL = "https://www.prioritycoatings.com.au/how-to-prepare-surface-for-painting/";

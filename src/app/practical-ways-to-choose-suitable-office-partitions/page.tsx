@@ -9,6 +9,9 @@ export const metadata: Metadata = {
   title: "8 Practical Ways to Choose the Right Partitions for Your Office | Priority One Coatings",
   description:
     "Choosing the right office partitions keeps your workplace comfortable and productive. Discover 8 practical tips for selecting suitable partitions for your office.",
+  alternates: {
+    canonical: "/practical-ways-to-choose-suitable-office-partitions",
+  },
 };
 
 const POST_URL = "https://www.prioritycoatings.com.au/practical-ways-to-choose-suitable-office-partitions/";

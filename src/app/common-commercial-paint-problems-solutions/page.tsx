@@ -9,6 +9,9 @@ export const metadata: Metadata = {
   title: "Common Commercial Paint Problems & Solutions | Priority One Coatings",
   description:
     "Discover common commercial paint problems such as bubbling, chalking, mould and cracking, along with expert solutions from Priority One Coatings' Sydney painters.",
+  alternates: {
+    canonical: "/common-commercial-paint-problems-solutions",
+  },
 };
 
 const POST_URL = "https://www.prioritycoatings.com.au/common-commercial-paint-problems-solutions/";

@@ -9,6 +9,9 @@ export const metadata: Metadata = {
   title: "Best Paint Colours for Small Rooms | Priority One Coatings",
   description:
     "White is a popular paint colour for small spaces, but it's not the only option. Explore our list of the best paint colours for small spaces. Contact us for more.",
+  alternates: {
+    canonical: "/best-paint-colours-for-small-rooms",
+  },
 };
 
 const POST_URL = "https://www.prioritycoatings.com.au/best-paint-colours-for-small-rooms/";

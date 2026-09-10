@@ -9,6 +9,9 @@ export const metadata: Metadata = {
   title: "Unique Office Fit-Out Ideas for a Fresh Look in Your Workplace | Priority One Coatings",
   description:
     "Discover unique office fit-out ideas to boost mood and productivity. See how colour, natural light and feature walls can transform your Sydney workplace.",
+  alternates: {
+    canonical: "/unique-office-fit-out-ideas-for-a-fresh-look-in-your-workplace",
+  },
 };
 
 const POST_URL =

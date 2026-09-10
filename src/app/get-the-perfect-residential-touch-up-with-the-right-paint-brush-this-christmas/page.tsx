@@ -9,6 +9,9 @@ export const metadata: Metadata = {
   title: "Get the Perfect Residential Touch-Up with the Right Paint Brush | Priority One Coatings",
   description:
     "Choosing the right paint brush makes all the difference to a residential touch-up. Learn about bristle types, sizes and shapes before your next DIY job.",
+  alternates: {
+    canonical: "/get-the-perfect-residential-touch-up-with-the-right-paint-brush-this-christmas",
+  },
 };
 
 const POST_URL =

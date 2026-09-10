@@ -9,6 +9,9 @@ export const metadata: Metadata = {
   title: "How to Paint a Commercial Building? | Priority One Coatings",
   description:
     "Painting commercial buildings comes with its own set of challenges. Check the top tips for interior and exterior commercial building painting for next project.",
+  alternates: {
+    canonical: "/how-to-paint-commercial-building",
+  },
 };
 
 const POST_URL = "https://www.prioritycoatings.com.au/how-to-paint-commercial-building/";

@@ -9,6 +9,9 @@ export const metadata: Metadata = {
   title: "Welcome to Sydney's Top Painters Priority One Coatings New WebSite | Priority One Coatings",
   description:
     "Meet Priority One Coatings, Sydney's trusted residential, commercial and strata painters since 1988. Explore our services, accreditations and specialties.",
+  alternates: {
+    canonical: "/house-painting-blog",
+  },
 };
 
 const POST_URL = "https://www.prioritycoatings.com.au/house-painting-blog/";

@@ -9,6 +9,9 @@ export const metadata: Metadata = {
   title: "Sustainable Commercial Painting Practices: Eco-Friendly Tips | Priority One Coatings",
   description:
     "Discover eco-friendly commercial painting practices — low VOC paints, waste reduction and durable coatings — to help Sydney businesses paint more sustainably.",
+  alternates: {
+    canonical: "/sustainable-commercial-painting-eco-friendly-tips",
+  },
 };
 
 const POST_URL = "https://www.prioritycoatings.com.au/sustainable-commercial-painting-eco-friendly-tips/";

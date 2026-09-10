@@ -10,6 +10,9 @@ export const metadata: Metadata = {
   title: "How Long Does It Take to Paint a House? | Priority One Coatings",
   description:
     "Wondering how long it takes to paint a house? Explore the key factors that affect residential painting timelines with Priority One Coatings.",
+  alternates: {
+    canonical: "/how-long-to-paint-a-house",
+  },
 };
 
 const POST_URL = "https://www.prioritycoatings.com.au/how-long-to-paint-a-house/";

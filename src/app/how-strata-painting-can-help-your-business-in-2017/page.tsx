@@ -9,6 +9,9 @@ export const metadata: Metadata = {
   title: "How Strata Painting Can Help Your Business | Priority One Coatings",
   description:
     "Maintaining a positive image with your client base starts with your building's appearance. Discover how strata and commercial painting can help your business.",
+  alternates: {
+    canonical: "/how-strata-painting-can-help-your-business-in-2017",
+  },
 };
 
 const POST_URL = "https://www.prioritycoatings.com.au/how-strata-painting-can-help-your-business-in-2017/";

@@ -9,6 +9,9 @@ export const metadata: Metadata = {
   title: "How Often Should You Paint Your House | Priority One Coatings",
   description:
     "Good quality paints should last 5-10 years, but exterior paint wears more quickly and often needs repainting. Check how often you should paint your house.",
+  alternates: {
+    canonical: "/how-often-should-you-paint-your-house",
+  },
 };
 
 const POST_URL = "https://www.prioritycoatings.com.au/how-often-should-you-paint-your-house/";

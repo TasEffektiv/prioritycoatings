@@ -9,6 +9,9 @@ export const metadata: Metadata = {
   title: "Our Commercial Fitouts Sydney Specialists Can Perform Any Job | Priority One Coatings",
   description:
     "Priority One Coatings delivers expert office fitouts and commercial refurbishment services across Sydney's commercial, retail and hospitality industries.",
+  alternates: {
+    canonical: "/our-commercial-fitouts-sydney-perform-any-job",
+  },
 };
 
 const POST_URL = "https://www.prioritycoatings.com.au/our-commercial-fitouts-sydney-perform-any-job/";

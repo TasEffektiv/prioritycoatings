@@ -9,6 +9,9 @@ export const metadata: Metadata = {
   title: "The Best Time to Paint Your House | Priority One Coatings",
   description:
     "House renovation requires convenient weather, temperature and humidity for better results. When painting your Sydney home, consider spring to hire Sydney painters.",
+  alternates: {
+    canonical: "/best-time-to-paint-your-house",
+  },
 };
 
 const POST_URL = "https://www.prioritycoatings.com.au/best-time-to-paint-your-house/";

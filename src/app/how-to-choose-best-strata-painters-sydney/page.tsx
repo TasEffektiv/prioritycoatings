@@ -9,6 +9,9 @@ export const metadata: Metadata = {
   title: "How to Choose the Best Strata Painters in Sydney | Priority One Coatings",
   description:
     "Looking to repaint your strata complex? Discover how to choose the best strata painters in Sydney with our tips on experience, reputation, quotes and credentials.",
+  alternates: {
+    canonical: "/how-to-choose-best-strata-painters-sydney",
+  },
 };
 
 const POST_URL = "https://www.prioritycoatings.com.au/how-to-choose-best-strata-painters-sydney/";
