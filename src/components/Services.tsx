@@ -72,12 +72,14 @@ export default function Services() {
 
   return (
     <section className="relative overflow-hidden bg-brand-navy py-16 md:py-24">
-      <div
-        className="pointer-events-none absolute inset-0 bg-cover bg-center mix-blend-multiply"
-        style={{
-          backgroundImage:
-            "url(/images/service-bg.webp)",
-        }}
+      <Image
+        src="/images/service-bg.webp"
+        alt=""
+        fill
+        sizes="100vw"
+        quality={40}
+        loading="lazy"
+        className="pointer-events-none object-cover mix-blend-multiply"
       />
       <div className="relative mx-auto max-w-[1400px] px-6">
         <h2 className="text-center text-3xl font-extrabold text-white sm:text-4xl">
@@ -107,10 +109,9 @@ export default function Services() {
                       <p className="mt-3 line-clamp-3 text-sm leading-relaxed text-black/70">{s.desc}</p>
                       <a
                         href={s.href}
-                        aria-label={`Learn more about ${s.title}`}
                         className="mt-auto inline-flex items-center gap-2 self-center pt-5 pr-6 text-[15px] font-bold tracking-wide text-brand-teal opacity-0 transition-opacity duration-500 hover:opacity-70 group-hover:opacity-100"
                       >
-                        Learn More
+                        Learn More <span className="sr-only">about {s.title}</span>
                         <svg
                           aria-hidden="true"
                           viewBox="0 0 20 14"

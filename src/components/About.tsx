@@ -11,6 +11,7 @@ export default function About() {
             width={683}
             height={559}
             sizes="(min-width: 1024px) calc(50vw - 24px), calc(100vw - 48px)"
+            quality={70}
             className="h-auto w-full"
           />
         </div>

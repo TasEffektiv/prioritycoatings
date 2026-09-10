@@ -62,12 +62,14 @@ function FooterColumn({
 export default function Footer() {
   return (
     <footer className="relative overflow-hidden bg-[#001c35]">
-      <div
-        className="pointer-events-none absolute inset-0 bg-cover bg-[0%_0%] mix-blend-multiply"
-        style={{
-          backgroundImage:
-            "url(/images/foo-bg.webp)",
-        }}
+      <Image
+        src="/images/foo-bg.webp"
+        alt=""
+        fill
+        sizes="100vw"
+        quality={40}
+        loading="lazy"
+        className="pointer-events-none object-cover object-[0%_0%] mix-blend-multiply"
       />
       <div className="relative mx-auto max-w-[1400px] px-6 py-16">
         <div className="grid grid-cols-1 gap-12 sm:grid-cols-2 lg:grid-cols-5">

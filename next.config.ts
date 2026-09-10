@@ -6,7 +6,9 @@ const nextConfig: NextConfig = {
       { protocol: "https", hostname: "www.prioritycoatings.com.au" },
       { protocol: "https", hostname: "prioritycoatings.com.au" },
     ],
-    qualities: [70, 75],
+    // 40 covers decorative section backgrounds that are partially obscured
+    // by overlays/blend modes, where extra compression is imperceptible.
+    qualities: [40, 70, 75],
   },
 };
 

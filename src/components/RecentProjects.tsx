@@ -1,4 +1,5 @@
 import { Phone } from "lucide-react";
+import Image from "next/image";
 
 const PROJECTS = [
   {
@@ -28,18 +29,21 @@ function ProjectCard({ title, img, href, tall }: { title: string; img: string; h
   return (
     <a
       href={href}
-      aria-label={`View ${title} painting projects`}
-      className={`group relative block overflow-hidden bg-cover bg-center transition-[background-size] duration-500 group-hover:[background-size:110%] ${
-        tall ? "h-64" : "h-80"
-      }`}
-      style={{ backgroundImage: `url(${img})` }}
+      className={`group relative block overflow-hidden ${tall ? "h-64" : "h-80"}`}
     >
+      <Image
+        src={img}
+        alt=""
+        fill
+        sizes="(min-width: 640px) 33vw, 100vw"
+        className="object-cover transition-transform duration-500 group-hover:scale-110"
+      />
       <div className="absolute inset-x-0 bottom-0 p-6">
         <span className="inline-block bg-brand-teal px-4 py-2 text-sm font-bold text-white">
           {title}
         </span>
         <span className="mt-3 flex items-center gap-2 text-sm font-bold text-white opacity-0 transition-opacity duration-300 group-hover:opacity-100">
-          Learn More
+          Learn More <span className="sr-only">about {title} painting projects</span>
           <svg aria-hidden="true" viewBox="0 0 20 14" className="h-[10px] w-[14px] shrink-0 fill-current">
             <path d="M12.6 0.6 11.2 2l3.3 3.3H0v2h14.5L11.2 10.6 12.6 12l6-6z" />
           </svg>
@@ -66,13 +70,17 @@ export default function RecentProjects() {
           <ProjectCard {...LEAD_REMOVAL} tall />
         </div>
 
-        <div
-          className="relative mt-16 overflow-hidden bg-cover bg-center py-16 sm:py-20 lg:py-24"
-          style={{
-            backgroundImage:
-              "linear-gradient(rgba(0,57,109,0.89), rgba(0,57,109,0.89)), url(/images/painters-in-sydney.jpg)",
-          }}
-        >
+        <div className="relative mt-16 overflow-hidden py-16 sm:py-20 lg:py-24">
+          <Image
+            src="/images/painters-in-sydney.jpg"
+            alt=""
+            fill
+            sizes="100vw"
+            quality={40}
+            loading="lazy"
+            className="-z-10 object-cover"
+          />
+          <div className="absolute inset-0 -z-10 bg-[rgba(0,57,109,0.89)]" />
           <div className="mx-auto flex max-w-[1400px] flex-col items-center justify-center gap-8 px-6 text-center">
             <h3 className="font-heading text-2xl font-bold text-white sm:text-[32px] lg:text-[41px]">
               Call Us For A Free Quote

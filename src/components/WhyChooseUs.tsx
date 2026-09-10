@@ -1,4 +1,5 @@
 import { CheckCircle2 } from "lucide-react";
+import Image from "next/image";
 import Link from "next/link";
 
 const ITEMS = [
@@ -40,14 +41,17 @@ function Card({ title, body }: { title: string; body: string }) {
 
 export default function WhyChooseUs() {
   return (
-    <section
-      className="bg-white bg-cover bg-center bg-no-repeat py-16 md:py-24"
-      style={{
-        backgroundImage:
-          "url(/images/bg-box.webp)",
-      }}
-    >
-      <div className="mx-auto max-w-[1400px] px-6">
+    <section className="relative overflow-hidden bg-white py-16 md:py-24">
+      <Image
+        src="/images/bg-box.webp"
+        alt=""
+        fill
+        sizes="100vw"
+        quality={40}
+        loading="lazy"
+        className="-z-10 object-cover"
+      />
+      <div className="relative mx-auto max-w-[1400px] px-6">
         <h2 className="text-center text-3xl font-extrabold text-black sm:text-4xl">
           Why Choose Priority One Coatings
         </h2>

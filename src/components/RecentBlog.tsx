@@ -40,6 +40,7 @@ function BlogCard({ post }: { post: (typeof POSTS)[number] }) {
             src={post.img}
             alt={post.title}
             fill
+            sizes="(min-width: 1024px) 25vw, (min-width: 640px) 50vw, 100vw"
             className="object-cover transition-transform duration-500 group-hover:scale-105"
           />
         </div>
