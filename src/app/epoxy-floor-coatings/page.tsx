@@ -4,7 +4,7 @@ import { CheckCircle2, Phone } from "lucide-react";
 import Header from "@/components/Header";
 import Breadcrumb from "@/components/Breadcrumb";
 import JsonLd from "@/components/JsonLd";
-import { serviceSchema } from "@/lib/schema";
+import { serviceSchema, faqSchema } from "@/lib/schema";
 import Footer from "@/components/Footer";
 import Faq from "@/components/Faq";
 import QuoteForm from "@/components/QuoteForm";
@@ -143,6 +143,7 @@ export default function EpoxyFloorCoatingsPage() {
             "Priority One Coatings specialise in high-quality epoxy coatings in Sydney for commercial & industrial premises. Contact us for all kinds of epoxy flooring solutions!",
           path: "/epoxy-floor-coatings",
         })} />
+      <JsonLd data={faqSchema(FAQS)} />
       <main>
         {/* Hero: navy title band */}
         <section

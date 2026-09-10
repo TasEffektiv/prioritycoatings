@@ -4,7 +4,7 @@ import { CheckCircle2, Phone } from "lucide-react";
 import Header from "@/components/Header";
 import Breadcrumb from "@/components/Breadcrumb";
 import JsonLd from "@/components/JsonLd";
-import { serviceSchema } from "@/lib/schema";
+import { serviceSchema, faqSchema } from "@/lib/schema";
 import Footer from "@/components/Footer";
 import Faq from "@/components/Faq";
 import QuoteForm from "@/components/QuoteForm";
@@ -159,6 +159,7 @@ export default function CommercialFitoutsPage() {
             "Sydney's best commercial office fitouts solutions. Priority One Coatings has been delivering commercial fitouts across the Sydney region for over 32 years.",
           path: "/commercial-fitouts",
         })} />
+      <JsonLd data={faqSchema(FAQS)} />
       <main>
         {/* Hero: navy title band */}
         <section

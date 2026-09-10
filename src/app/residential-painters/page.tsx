@@ -4,7 +4,7 @@ import { CheckCircle2, Phone } from "lucide-react";
 import Header from "@/components/Header";
 import Breadcrumb from "@/components/Breadcrumb";
 import JsonLd from "@/components/JsonLd";
-import { serviceSchema } from "@/lib/schema";
+import { serviceSchema, faqSchema } from "@/lib/schema";
 import Footer from "@/components/Footer";
 import Faq from "@/components/Faq";
 import QuoteForm from "@/components/QuoteForm";
@@ -161,6 +161,7 @@ export default function ResidentialPaintersPage() {
             "Our expert house painters offer the highest quality of interior & exterior residential painting in Sydney. For affordable house painting services, contact us!",
           path: "/residential-painters",
         })} />
+      <JsonLd data={faqSchema(FAQS)} />
       <main>
         {/* Hero: navy title band */}
         <section

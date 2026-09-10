@@ -4,7 +4,7 @@ import { CheckCircle2, Phone } from "lucide-react";
 import Header from "@/components/Header";
 import Breadcrumb from "@/components/Breadcrumb";
 import JsonLd from "@/components/JsonLd";
-import { serviceSchema } from "@/lib/schema";
+import { serviceSchema, faqSchema } from "@/lib/schema";
 import Footer from "@/components/Footer";
 import Faq from "@/components/Faq";
 import QuoteForm from "@/components/QuoteForm";
@@ -133,6 +133,7 @@ export default function StrataPaintersSydneyPage() {
             "Priority can help you when you need strata painters. Strata managers all over Sydney rely on us when it comes to painting strata properties.",
           path: "/strata-painters-sydney",
         })} />
+      <JsonLd data={faqSchema(FAQS)} />
       <main>
         {/* Hero: navy title band */}
         <section
