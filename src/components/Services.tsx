@@ -107,6 +107,7 @@ export default function Services() {
                       <p className="mt-3 line-clamp-3 text-sm leading-relaxed text-black/70">{s.desc}</p>
                       <a
                         href={s.href}
+                        aria-label={`Learn more about ${s.title}`}
                         className="mt-auto inline-flex items-center gap-2 self-center pt-5 pr-6 text-[15px] font-bold tracking-wide text-brand-teal opacity-0 transition-opacity duration-500 hover:opacity-70 group-hover:opacity-100"
                       >
                         Learn More
