@@ -6,9 +6,9 @@ import "./globals.css";
 
 const proximaNova = localFont({
   src: [
-    { path: "../fonts/proxima-nova/ProximaNova-Regular.woff", weight: "400", style: "normal" },
-    { path: "../fonts/proxima-nova/ProximaNova-Bold.woff", weight: "500 800", style: "normal" },
-    { path: "../fonts/proxima-nova/ProximaNova-Black.woff", weight: "900", style: "normal" },
+    { path: "../fonts/proxima-nova/ProximaNova-Regular.woff2", weight: "400", style: "normal" },
+    { path: "../fonts/proxima-nova/ProximaNova-Bold.woff2", weight: "500 800", style: "normal" },
+    { path: "../fonts/proxima-nova/ProximaNova-Black.woff2", weight: "900", style: "normal" },
   ],
   variable: "--font-proxima-nova",
   display: "swap",
