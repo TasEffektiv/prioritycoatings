@@ -162,14 +162,17 @@ export default function CommercialFitoutsPage() {
       <JsonLd data={faqSchema(FAQS)} />
       <main>
         {/* Hero: navy title band */}
-        <section
-          className="relative bg-[#143049] bg-cover bg-[top_left] bg-no-repeat bg-blend-multiply"
-          style={{
-            backgroundImage:
-              "url(/images/lead-paint.jpg)",
-          }}
-        >
-          <div className="mx-auto max-w-[1400px] px-6 pt-14 pb-28 text-center sm:pt-16 sm:pb-40 lg:pt-20 lg:pb-56">
+        <section className="relative overflow-hidden bg-[#143049]">
+          <Image
+            src="/images/lead-paint.jpg"
+            alt=""
+            fill
+            preload
+            fetchPriority="high"
+            sizes="100vw"
+            className="object-cover object-[top_left] mix-blend-multiply"
+          />
+          <div className="relative mx-auto max-w-[1400px] px-6 pt-14 pb-28 text-center sm:pt-16 sm:pb-40 lg:pt-20 lg:pb-56">
             <h1 className="font-heading text-[38px] font-extrabold leading-[1.15] text-white sm:text-[45px] lg:text-[64px] lg:leading-[76px]">
               Commercial Fitouts Sydney
             </h1>
@@ -186,9 +189,17 @@ export default function CommercialFitoutsPage() {
               {HERO_SLIDES.map((src, i) => (
                 <div
                   key={src}
-                  className="fitout-slide absolute inset-0 bg-cover bg-center opacity-0"
-                  style={{ backgroundImage: `url(${src})`, animationDelay: `${i * 5}s` }}
-                />
+                  className="fitout-slide absolute inset-0 opacity-0"
+                  style={{ animationDelay: `${i * 5}s` }}
+                >
+                  <Image
+                    src={src}
+                    alt=""
+                    fill
+                    sizes="(min-width: 1450px) 1600px, 100vw"
+                    className="object-cover object-center"
+                  />
+                </div>
               ))}
               <div className="absolute inset-0 bg-black/30" />
               <div className="relative z-10 flex h-full items-center">

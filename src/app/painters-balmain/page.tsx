@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Image from "next/image";
 import { CheckCircle2 } from "lucide-react";
 import Header from "@/components/Header";
 import Breadcrumb from "@/components/Breadcrumb";
@@ -50,14 +51,17 @@ export default function PaintersBalmainPage() {
         })} />
       <main>
         {/* Hero: navy title band */}
-        <section
-          className="relative bg-[#143049] bg-cover bg-[top_left] bg-no-repeat bg-blend-multiply"
-          style={{
-            backgroundImage:
-              "url(/images/lead-paint.jpg)",
-          }}
-        >
-          <div className="mx-auto max-w-[1400px] px-6 py-16 text-center sm:py-20 lg:py-24">
+        <section className="relative overflow-hidden bg-[#143049]">
+          <Image
+            src="/images/lead-paint.jpg"
+            alt=""
+            fill
+            preload
+            fetchPriority="high"
+            sizes="100vw"
+            className="object-cover object-[top_left] mix-blend-multiply"
+          />
+          <div className="relative mx-auto max-w-[1400px] px-6 py-16 text-center sm:py-20 lg:py-24">
             <h1 className="font-heading text-[32px] font-extrabold leading-[1.2] text-white sm:text-[40px] lg:text-[52px]">
               Professional &amp; Affordable Painters &ndash; Balmain
             </h1>

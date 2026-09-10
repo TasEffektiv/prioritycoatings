@@ -16,7 +16,7 @@ export default function Hero() {
               src={src}
               alt=""
               fill
-              priority={i === 0}
+              preload={i === 0}
               sizes="100vw"
               className="object-cover object-center"
             />
