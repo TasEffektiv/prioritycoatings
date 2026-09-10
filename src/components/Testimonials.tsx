@@ -35,7 +35,7 @@ export default function Testimonials() {
           <button
             onClick={scrollPrev}
             aria-label="Previous testimonial"
-            className="flex items-center gap-2 text-lg font-bold text-brand-navy opacity-40 transition-opacity hover:opacity-100"
+            className="flex items-center gap-2 text-lg font-bold text-brand-navy transition-opacity hover:opacity-70"
           >
             <ArrowLeft size={18} /> Prev
           </button>

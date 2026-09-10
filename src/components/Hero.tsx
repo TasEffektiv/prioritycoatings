@@ -1,3 +1,4 @@
+import Image from "next/image";
 import QuoteForm from "./QuoteForm";
 
 const SLIDES = [
@@ -10,14 +11,16 @@ export default function Hero() {
     <section className="relative overflow-hidden bg-black">
       <div className="absolute inset-0">
         {SLIDES.map((src, i) => (
-          <div
-            key={src}
-            className="hero-slide absolute inset-0 bg-cover bg-center opacity-0"
-            style={{
-              backgroundImage: `url(${src})`,
-              animationDelay: `${i * 5}s`,
-            }}
-          />
+          <div key={src} className="hero-slide absolute inset-0 opacity-0">
+            <Image
+              src={src}
+              alt=""
+              fill
+              priority={i === 0}
+              sizes="100vw"
+              className="object-cover object-center"
+            />
+          </div>
         ))}
         <div className="absolute inset-0 bg-black/30" />
       </div>

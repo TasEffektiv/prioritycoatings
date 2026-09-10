@@ -37,7 +37,7 @@ function FooterColumn({
 }) {
   return (
     <div>
-      <h5 className="mb-5 text-sm font-bold uppercase tracking-wide text-white">
+      <h4 className="mb-5 text-sm font-bold uppercase tracking-wide text-white">
         {headingHref ? (
           <a href={headingHref} className="transition-colors hover:text-brand-teal">
             {heading}
@@ -45,7 +45,7 @@ function FooterColumn({
         ) : (
           heading
         )}
-      </h5>
+      </h4>
       <ul className="space-y-3">
         {links.map((l) => (
           <li key={l.label}>
@@ -96,7 +96,7 @@ export default function Footer() {
           <FooterColumn heading="Portfolio" headingHref="/portfolio/" links={PORTFOLIO_LINKS} />
 
           <div>
-            <h5 className="mb-5 text-sm font-bold uppercase tracking-wide text-white">Follow Us On</h5>
+            <h4 className="mb-5 text-sm font-bold uppercase tracking-wide text-white">Follow Us On</h4>
             <div className="flex gap-3">
               <a
                 href="https://www.facebook.com/PriorityOneCoatings"

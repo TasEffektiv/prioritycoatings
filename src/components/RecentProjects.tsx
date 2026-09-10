@@ -28,6 +28,7 @@ function ProjectCard({ title, img, href, tall }: { title: string; img: string; h
   return (
     <a
       href={href}
+      aria-label={`View ${title} painting projects`}
       className={`group relative block overflow-hidden bg-cover bg-center transition-[background-size] duration-500 group-hover:[background-size:110%] ${
         tall ? "h-64" : "h-80"
       }`}
@@ -73,9 +74,9 @@ export default function RecentProjects() {
           }}
         >
           <div className="mx-auto flex max-w-[1400px] flex-col items-center justify-center gap-8 px-6 text-center">
-            <h4 className="font-heading text-2xl font-bold text-white sm:text-[32px] lg:text-[41px]">
+            <h3 className="font-heading text-2xl font-bold text-white sm:text-[32px] lg:text-[41px]">
               Call Us For A Free Quote
-            </h4>
+            </h3>
             <a
               href="tel:+0298085900"
               className="flex items-center gap-2 rounded-[0.05rem] bg-brand-teal px-10 py-[15px] font-heading text-lg font-bold text-white transition-colors hover:bg-brand-teal-dark sm:px-[70px]"
