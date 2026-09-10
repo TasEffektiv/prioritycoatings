@@ -3,6 +3,9 @@ import Image from "next/image";
 import Link from "next/link";
 import { Mail } from "lucide-react";
 import Header from "@/components/Header";
+import Breadcrumb from "@/components/Breadcrumb";
+import JsonLd from "@/components/JsonLd";
+import { articleSchema } from "@/lib/schema";
 import Footer from "@/components/Footer";
 
 export const metadata: Metadata = {
@@ -66,6 +69,14 @@ export default function TouchUpWithoutPaintingWholeWallPage() {
   return (
     <div id="top">
       <Header />
+      <Breadcrumb items={[{ label: "Blog", path: "/blog/" }, { label: "Ways to Touch Up Without Painting the Whole Wall", path: "/touch-up-without-painting-the-whole-wall/" }]} />
+      <JsonLd data={articleSchema({
+          headline: "Ways to Touch Up Without Painting the Whole Wall",
+          description: "Touching up without repainting the whole wall is a good option. If you need help fixing the wall, hire the best residential painters in Sydney, Priority Coatings.",
+          path: "/touch-up-without-painting-the-whole-wall",
+          image: "/images/people-renovating-house-scaled.jpg",
+          datePublished: "October 12, 2023",
+        })} />
       <main>
         <section className="bg-[#f6f7fc] pb-[60px] pt-[30px]">
           <div className="mx-auto max-w-[1430px] px-[15px]">

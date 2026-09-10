@@ -3,6 +3,9 @@ import Image from "next/image";
 import Link from "next/link";
 import { Mail } from "lucide-react";
 import Header from "@/components/Header";
+import Breadcrumb from "@/components/Breadcrumb";
+import JsonLd from "@/components/JsonLd";
+import { articleSchema } from "@/lib/schema";
 import Footer from "@/components/Footer";
 
 export const metadata: Metadata = {
@@ -66,6 +69,14 @@ export default function RefreshMultiLevelBuildingWithSydneyPaintingServicesPage(
   return (
     <div id="top">
       <Header />
+      <Breadcrumb items={[{ label: "Blog", path: "/blog/" }, { label: "Refresh Your Multi-Level Building With Sydney Painting Services", path: "/refresh-multi-level-building-with-sydney-painting-services/" }]} />
+      <JsonLd data={articleSchema({
+          headline: "Refresh Your Multi-Level Building With Sydney Painting Services",
+          description: "If you want to refresh your multi-level building and give it a new life, get in touch with Priority One Coatings. We will assist you with all your painting needs.",
+          path: "/refresh-multi-level-building-with-sydney-painting-services",
+          image: "/images/office-skyscrapers-business-district.jpg",
+          datePublished: "April 13, 2023",
+        })} />
       <main>
         <section className="bg-[#f6f7fc] pb-[60px] pt-[30px]">
           <div className="mx-auto max-w-[1430px] px-[15px]">

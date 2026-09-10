@@ -3,6 +3,9 @@ import Image from "next/image";
 import Link from "next/link";
 import { Mail } from "lucide-react";
 import Header from "@/components/Header";
+import Breadcrumb from "@/components/Breadcrumb";
+import JsonLd from "@/components/JsonLd";
+import { articleSchema } from "@/lib/schema";
 import Footer from "@/components/Footer";
 import BlogSidebar from "@/components/blog/BlogSidebar";
 
@@ -61,6 +64,14 @@ export default function DifferentTypesOfTexturedPaintForWallsPage() {
   return (
     <div id="top">
       <Header />
+      <Breadcrumb items={[{ label: "Blog", path: "/blog/" }, { label: "Guide to Textured Paint: 9 Types of Texture Paint Finishes", path: "/different-types-of-textured-paint-for-walls/" }]} />
+      <JsonLd data={articleSchema({
+          headline: "Guide to Textured Paint: 9 Types of Texture Paint Finishes",
+          description: "Different types of textured paint can be used to create many effects in your interior spaces. To give your place a complete makeover, contact us.",
+          path: "/different-types-of-textured-paint-for-walls",
+          image: "/images/green-wall-paint-textured-background-scaled.jpg",
+          datePublished: "September 14, 2023",
+        })} />
       <main>
         <section className="bg-[#f6f7fc] pb-[60px] pt-[30px]">
           <div className="mx-auto max-w-[1430px] px-[15px]">

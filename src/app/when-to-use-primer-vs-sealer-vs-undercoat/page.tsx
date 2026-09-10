@@ -3,6 +3,9 @@ import Image from "next/image";
 import Link from "next/link";
 import { Mail } from "lucide-react";
 import Header from "@/components/Header";
+import Breadcrumb from "@/components/Breadcrumb";
+import JsonLd from "@/components/JsonLd";
+import { articleSchema } from "@/lib/schema";
 import Footer from "@/components/Footer";
 
 export const metadata: Metadata = {
@@ -66,6 +69,14 @@ export default function WhenToUsePrimerVsSealerVsUndercoatPage() {
   return (
     <div id="top">
       <Header />
+      <Breadcrumb items={[{ label: "Blog", path: "/blog/" }, { label: "When to Use the Primer, Sealer & Undercoat", path: "/when-to-use-primer-vs-sealer-vs-undercoat/" }]} />
+      <JsonLd data={articleSchema({
+          headline: "When to Use the Primer, Sealer & Undercoat",
+          description: "Primers are applied to new surfaces, and an undercoat is used after a primer. However, a sealer is used to seal porous surfaces. For more info, read the article.",
+          path: "/when-to-use-primer-vs-sealer-vs-undercoat",
+          image: "/images/young-couple-repairs-room.jpg",
+          datePublished: "December 21, 2023",
+        })} />
       <main>
         <section className="bg-[#f6f7fc] pb-[60px] pt-[30px]">
           <div className="mx-auto max-w-[1430px] px-[15px]">

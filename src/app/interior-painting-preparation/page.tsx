@@ -3,6 +3,9 @@ import Image from "next/image";
 import Link from "next/link";
 import { Mail } from "lucide-react";
 import Header from "@/components/Header";
+import Breadcrumb from "@/components/Breadcrumb";
+import JsonLd from "@/components/JsonLd";
+import { articleSchema } from "@/lib/schema";
 import Footer from "@/components/Footer";
 
 export const metadata: Metadata = {
@@ -66,6 +69,14 @@ export default function InteriorPaintingPreparationPage() {
   return (
     <div id="top">
       <Header />
+      <Breadcrumb items={[{ label: "Blog", path: "/blog/" }, { label: "Interior Painting Preparation", path: "/interior-painting-preparation/" }]} />
+      <JsonLd data={articleSchema({
+          headline: "Interior Painting Preparation",
+          description: "A step-by-step guide to preparing a room for interior painting — what to do yourself, what your painters should handle, and precautions for different wall types.",
+          path: "/interior-painting-preparation",
+          image: "/images/woman-stands-in-the-middle-of-a-room-with-plastic-covered-furniture-and-a-stepladder.jpg",
+          datePublished: "December 10, 2025",
+        })} />
       <main>
         <section className="bg-[#f6f7fc] pb-[60px] pt-[30px]">
           <div className="mx-auto max-w-[1430px] px-[15px]">

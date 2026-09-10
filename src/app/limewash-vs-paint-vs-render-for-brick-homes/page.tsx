@@ -3,6 +3,9 @@ import Image from "next/image";
 import Link from "next/link";
 import { Mail } from "lucide-react";
 import Header from "@/components/Header";
+import Breadcrumb from "@/components/Breadcrumb";
+import JsonLd from "@/components/JsonLd";
+import { articleSchema } from "@/lib/schema";
 import Footer from "@/components/Footer";
 
 export const metadata: Metadata = {
@@ -79,6 +82,14 @@ export default function LimewashPaintOrRenderPage() {
   return (
     <div id="top">
       <Header />
+      <Breadcrumb items={[{ label: "Blog", path: "/blog/" }, { label: "Limewash, Paint, or Render Your Brick House", path: "/limewash-vs-paint-vs-render-for-brick-homes/" }]} />
+      <JsonLd data={articleSchema({
+          headline: "Limewash, Paint, or Render Your Brick House",
+          description: "Limewash, paint or render — compare the pros, cons and lifespan of each brick finish to choose the right option for your Sydney home.",
+          path: "/limewash-vs-paint-vs-render-for-brick-homes",
+          image: "/images/limewash-paint-or-render-your-brick-house-blog-banner.jpg",
+          datePublished: "January 20, 2026",
+        })} />
       <main>
         <section className="bg-[#f6f7fc] pb-[60px] pt-[30px]">
           <div className="mx-auto max-w-[1430px] px-[15px]">

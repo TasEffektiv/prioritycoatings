@@ -1,5 +1,7 @@
 import type { Metadata } from "next";
 import localFont from "next/font/local";
+import JsonLd from "@/components/JsonLd";
+import { organizationSchema } from "@/lib/schema";
 import "./globals.css";
 
 const proximaNova = localFont({
@@ -20,6 +22,7 @@ export const metadata: Metadata = {
   alternates: {
     canonical: "/",
   },
+  manifest: "/site.webmanifest",
 };
 
 export default function RootLayout({ children }: LayoutProps<"/">) {
@@ -29,6 +32,7 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
       className={`${proximaNova.variable} scroll-smooth`}
     >
       <body className="min-h-screen bg-white font-body text-[#212529] antialiased">
+        <JsonLd data={organizationSchema()} />
         {children}
       </body>
     </html>

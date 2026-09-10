@@ -3,6 +3,9 @@ import Image from "next/image";
 import Link from "next/link";
 import { Mail } from "lucide-react";
 import Header from "@/components/Header";
+import Breadcrumb from "@/components/Breadcrumb";
+import JsonLd from "@/components/JsonLd";
+import { articleSchema } from "@/lib/schema";
 import Footer from "@/components/Footer";
 
 export const metadata: Metadata = {
@@ -66,6 +69,14 @@ export default function MatchWallColourWithFurniturePage() {
   return (
     <div id="top">
       <Header />
+      <Breadcrumb items={[{ label: "Blog", path: "/blog/" }, { label: "Match Wall Colour with Furniture", path: "/match-wall-colour-with-furniture/" }]} />
+      <JsonLd data={articleSchema({
+          headline: "Match Wall Colour with Furniture",
+          description: "If you want to match your furniture and wall colour, here are some common tips. If you still can't decide and get confused, consult with Priority One Coatings.",
+          path: "/match-wall-colour-with-furniture",
+          image: "/images/interior-design-with-photoframes-blue-couch-scaled.jpg",
+          datePublished: "May 13, 2024",
+        })} />
       <main>
         <section className="bg-[#f6f7fc] pb-[60px] pt-[30px]">
           <div className="mx-auto max-w-[1430px] px-[15px]">

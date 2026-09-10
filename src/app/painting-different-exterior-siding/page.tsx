@@ -3,6 +3,9 @@ import Image from "next/image";
 import Link from "next/link";
 import { Mail } from "lucide-react";
 import Header from "@/components/Header";
+import Breadcrumb from "@/components/Breadcrumb";
+import JsonLd from "@/components/JsonLd";
+import { articleSchema } from "@/lib/schema";
 import Footer from "@/components/Footer";
 
 export const metadata: Metadata = {
@@ -66,6 +69,14 @@ export default function PaintingDifferentExteriorSidingPage() {
   return (
     <div id="top">
       <Header />
+      <Breadcrumb items={[{ label: "Blog", path: "/blog/" }, { label: "How Different Types of Exterior Siding Are Painted", path: "/painting-different-exterior-siding/" }]} />
+      <JsonLd data={articleSchema({
+          headline: "How Different Types of Exterior Siding Are Painted",
+          description: "Discover the best paints and finishes for vinyl, wood, fibre cement and metal siding, plus how to paint each exterior siding type correctly.",
+          path: "/painting-different-exterior-siding",
+          image: "/images/house-vinyl-siding.jpg",
+          datePublished: "July 30, 2025",
+        })} />
       <main>
         <section className="bg-[#f6f7fc] pb-[60px] pt-[30px]">
           <div className="mx-auto max-w-[1430px] px-[15px]">

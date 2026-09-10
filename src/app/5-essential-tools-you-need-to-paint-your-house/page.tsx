@@ -3,6 +3,9 @@ import Image from "next/image";
 import Link from "next/link";
 import { Mail } from "lucide-react";
 import Header from "@/components/Header";
+import Breadcrumb from "@/components/Breadcrumb";
+import JsonLd from "@/components/JsonLd";
+import { articleSchema } from "@/lib/schema";
 import Footer from "@/components/Footer";
 
 export const metadata: Metadata = {
@@ -67,6 +70,14 @@ export default function FiveEssentialToolsYouNeedToPaintYourHousePage() {
   return (
     <div id="top">
       <Header />
+      <Breadcrumb items={[{ label: "Blog", path: "/blog/" }, { label: "5 Essential Tools You Need To Paint Your House", path: "/5-essential-tools-you-need-to-paint-your-house/" }]} />
+      <JsonLd data={articleSchema({
+          headline: "5 Essential Tools You Need To Paint Your House",
+          description: "Thinking about DIY house painting? Here's a checklist of the essential tools and equipment you need to get the job done with the best possible finish.",
+          path: "/5-essential-tools-you-need-to-paint-your-house",
+          image: "/images/house-painting-tools.jpg",
+          datePublished: "March 6, 2017",
+        })} />
       <main>
         <section className="bg-[#f6f7fc] pb-[60px] pt-[30px]">
           <div className="mx-auto max-w-[1430px] px-[15px]">

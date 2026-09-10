@@ -3,6 +3,9 @@ import Image from "next/image";
 import Link from "next/link";
 import { Mail } from "lucide-react";
 import Header from "@/components/Header";
+import Breadcrumb from "@/components/Breadcrumb";
+import JsonLd from "@/components/JsonLd";
+import { articleSchema } from "@/lib/schema";
 import Footer from "@/components/Footer";
 import BlogSidebar from "@/components/blog/BlogSidebar";
 
@@ -35,6 +38,14 @@ export default function PaintingInHotWeatherPage() {
   return (
     <div id="top">
       <Header />
+      <Breadcrumb items={[{ label: "Blog", path: "/blog/" }, { label: "Painting in Hot Weather", path: "/painting-in-hot-weather/" }]} />
+      <JsonLd data={articleSchema({
+          headline: "Painting in Hot Weather",
+          description: "The climate of Sydney can be challenging for painting. So, if you need to hire an expert painting company in Sydney, contact Priority One Coatings today.",
+          path: "/painting-in-hot-weather",
+          image: "/images/house-painting-under-sun-scaled.jpg",
+          datePublished: "September 28, 2023",
+        })} />
       <main>
         <section className="bg-[#f6f7fc] pb-[60px] pt-[30px]">
           <div className="mx-auto max-w-[1430px] px-[15px]">

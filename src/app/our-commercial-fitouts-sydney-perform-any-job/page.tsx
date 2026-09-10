@@ -3,6 +3,9 @@ import Image from "next/image";
 import Link from "next/link";
 import { Mail } from "lucide-react";
 import Header from "@/components/Header";
+import Breadcrumb from "@/components/Breadcrumb";
+import JsonLd from "@/components/JsonLd";
+import { articleSchema } from "@/lib/schema";
 import Footer from "@/components/Footer";
 
 export const metadata: Metadata = {
@@ -66,6 +69,14 @@ export default function OurCommercialFitoutsSydneyPerformAnyJobPage() {
   return (
     <div id="top">
       <Header />
+      <Breadcrumb items={[{ label: "Blog", path: "/blog/" }, { label: "Our Commercial Fitouts Sydney Specialists Can Perform Any Job", path: "/our-commercial-fitouts-sydney-perform-any-job/" }]} />
+      <JsonLd data={articleSchema({
+          headline: "Our Commercial Fitouts Sydney Specialists Can Perform Any Job",
+          description: "Priority One Coatings delivers expert office fitouts and commercial refurbishment services across Sydney's commercial, retail and hospitality industries.",
+          path: "/our-commercial-fitouts-sydney-perform-any-job",
+          image: "/images/commercial-office-fitouts.jpg",
+          datePublished: "February 21, 2023",
+        })} />
       <main>
         <section className="bg-[#f6f7fc] pb-[60px] pt-[30px]">
           <div className="mx-auto max-w-[1430px] px-[15px]">

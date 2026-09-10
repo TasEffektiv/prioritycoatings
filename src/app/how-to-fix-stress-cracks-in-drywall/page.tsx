@@ -3,6 +3,9 @@ import Image from "next/image";
 import Link from "next/link";
 import { Mail } from "lucide-react";
 import Header from "@/components/Header";
+import Breadcrumb from "@/components/Breadcrumb";
+import JsonLd from "@/components/JsonLd";
+import { articleSchema } from "@/lib/schema";
 import Footer from "@/components/Footer";
 
 export const metadata: Metadata = {
@@ -66,6 +69,14 @@ export default function HowToFixStressCracksInDrywallPage() {
   return (
     <div id="top">
       <Header />
+      <Breadcrumb items={[{ label: "Blog", path: "/blog/" }, { label: "How to Fix Stress Cracks in Drywall", path: "/how-to-fix-stress-cracks-in-drywall/" }]} />
+      <JsonLd data={articleSchema({
+          headline: "How to Fix Stress Cracks in Drywall",
+          description: "Drywall stress cracks appear over doors and windows or along drywall seams, usually caused by building movement, settling, or temperature changes. Learn to fix it.",
+          path: "/how-to-fix-stress-cracks-in-drywall",
+          image: "/images/cracked-wall-next-to-door-frame.jpg",
+          datePublished: "June 18, 2025",
+        })} />
       <main>
         <section className="bg-[#f6f7fc] pb-[60px] pt-[30px]">
           <div className="mx-auto max-w-[1430px] px-[15px]">

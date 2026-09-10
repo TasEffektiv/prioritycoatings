@@ -3,6 +3,9 @@ import Image from "next/image";
 import Link from "next/link";
 import { Mail } from "lucide-react";
 import Header from "@/components/Header";
+import Breadcrumb from "@/components/Breadcrumb";
+import JsonLd from "@/components/JsonLd";
+import { articleSchema } from "@/lib/schema";
 import Footer from "@/components/Footer";
 
 export const metadata: Metadata = {
@@ -66,6 +69,14 @@ export default function BrickMakeoverPage() {
   return (
     <div id="top">
       <Header />
+      <Breadcrumb items={[{ label: "Blog", path: "/blog/" }, { label: "Brick Makeover Guide: Limewash, Whitewash, German Smear", path: "/brick-makeover-limewash-whitewash-german-smear/" }]} />
+      <JsonLd data={articleSchema({
+          headline: "Brick Makeover Guide: Limewash, Whitewash, German Smear",
+          description: "Let's compare three top finishes: Limewash, Whitewash, & the German Smear. Choose the best brick makeover for your house! Contact us for your brick house makeover!",
+          path: "/brick-makeover-limewash-whitewash-german-smear",
+          image: "/images/mountview-redbank-plains.jpg",
+          datePublished: "October 16, 2023",
+        })} />
       <main>
         <section className="bg-[#f6f7fc] pb-[60px] pt-[30px]">
           <div className="mx-auto max-w-[1430px] px-[15px]">

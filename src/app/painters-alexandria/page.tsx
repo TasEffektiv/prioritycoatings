@@ -1,6 +1,9 @@
 import type { Metadata } from "next";
 import { CheckCircle2 } from "lucide-react";
 import Header from "@/components/Header";
+import Breadcrumb from "@/components/Breadcrumb";
+import JsonLd from "@/components/JsonLd";
+import { serviceSchema } from "@/lib/schema";
 import Footer from "@/components/Footer";
 import QuoteForm from "@/components/QuoteForm";
 import CertLogos from "@/components/CertLogos";
@@ -37,6 +40,14 @@ export default function PaintersAlexandriaPage() {
   return (
     <div id="top">
       <Header />
+      <Breadcrumb items={[{ label: "Alexandria", path: "/painters-alexandria/" }]} />
+      <JsonLd data={serviceSchema({
+          name: "Painting Services in Alexandria",
+          description:
+            "Qualified local painters in Alexandria offering affordable & quality residential and commercial painting services.",
+          path: "/painters-alexandria",
+          areaServed: "Alexandria, NSW",
+        })} />
       <main>
         {/* Hero: navy title band */}
         <section

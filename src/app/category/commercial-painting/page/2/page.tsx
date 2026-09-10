@@ -26,7 +26,7 @@ export default function CommercialPaintingCategoryPageTwo() {
     <div id="top">
       <Header />
       <main>
-        <PageHeader title={CATEGORY} parent={{ label: "Blog", href: "/blog/" }} />
+        <PageHeader path="/category/commercial-painting/page/2" title={CATEGORY} parent={{ label: "Blog", href: "/blog/" }} />
 
         <section className="bg-[#f6f7fc] pb-[60px] pt-[50px] lg:pt-[80px]">
           <div className="mx-auto max-w-[1430px] px-[15px]">

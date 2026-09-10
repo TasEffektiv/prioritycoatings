@@ -3,6 +3,9 @@ import Image from "next/image";
 import Link from "next/link";
 import { Mail } from "lucide-react";
 import Header from "@/components/Header";
+import Breadcrumb from "@/components/Breadcrumb";
+import JsonLd from "@/components/JsonLd";
+import { articleSchema } from "@/lib/schema";
 import Footer from "@/components/Footer";
 
 export const metadata: Metadata = {
@@ -66,6 +69,14 @@ export default function HowToColourMatchYourPaintPage() {
   return (
     <div id="top">
       <Header />
+      <Breadcrumb items={[{ label: "Blog", path: "/blog/" }, { label: "How to Colour Match Your Paint", path: "/how-to-colour-match-your-paint/" }]} />
+      <JsonLd data={articleSchema({
+          headline: "How to Colour Match Your Paint",
+          description: "Learn how to colour match your paint using paint chips, colour wheels, spectrophotometers and apps — practical tips from Sydney's Priority One Coatings.",
+          path: "/how-to-colour-match-your-paint",
+          image: "/images/woman-with-palette-of-color-swatches-choosing-one-for-walls.jpg",
+          datePublished: "August 14, 2025",
+        })} />
       <main>
         <section className="bg-[#f6f7fc] pb-[60px] pt-[30px]">
           <div className="mx-auto max-w-[1430px] px-[15px]">

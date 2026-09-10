@@ -3,6 +3,9 @@ import Image from "next/image";
 import Link from "next/link";
 import { Mail } from "lucide-react";
 import Header from "@/components/Header";
+import Breadcrumb from "@/components/Breadcrumb";
+import JsonLd from "@/components/JsonLd";
+import { articleSchema } from "@/lib/schema";
 import Footer from "@/components/Footer";
 import BlogSidebar from "@/components/blog/BlogSidebar";
 
@@ -35,6 +38,14 @@ export default function HowPaintColourChangeSizeOfRoomPage() {
   return (
     <div id="top">
       <Header />
+      <Breadcrumb items={[{ label: "Blog", path: "/blog/" }, { label: "How Paint Colour Can Change The Perceived Size Of A Room", path: "/how-paint-colour-change-size-of-room/" }]} />
+      <JsonLd data={articleSchema({
+          headline: "How Paint Colour Can Change The Perceived Size Of A Room",
+          description: "Discover how the right paint colours and shades can make a small room feel bigger, a long room feel shorter, or a low ceiling feel higher.",
+          path: "/how-paint-colour-change-size-of-room",
+          image: "/images/interior-design-with-photoframes-couch.jpg",
+          datePublished: "August 21, 2023",
+        })} />
       <main>
         <section className="bg-[#f6f7fc] pb-[60px] pt-[30px]">
           <div className="mx-auto max-w-[1430px] px-[15px]">

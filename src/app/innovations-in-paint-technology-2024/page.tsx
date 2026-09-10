@@ -3,6 +3,9 @@ import Image from "next/image";
 import Link from "next/link";
 import { Mail } from "lucide-react";
 import Header from "@/components/Header";
+import Breadcrumb from "@/components/Breadcrumb";
+import JsonLd from "@/components/JsonLd";
+import { articleSchema } from "@/lib/schema";
 import Footer from "@/components/Footer";
 
 export const metadata: Metadata = {
@@ -66,6 +69,14 @@ export default function InnovationsInPaintTechnology2024Page() {
   return (
     <div id="top">
       <Header />
+      <Breadcrumb items={[{ label: "Blog", path: "/blog/" }, { label: "Innovations in Paint Technology 2024", path: "/innovations-in-paint-technology-2024/" }]} />
+      <JsonLd data={articleSchema({
+          headline: "Innovations in Paint Technology 2024",
+          description: "Discover paint technology advancments to make house painting more than just a new colour and how innovations in paint technology and trends impacting in 2024.",
+          path: "/innovations-in-paint-technology-2024",
+          image: "/images/paint-technology-innovations-2024-blog-banner.jpg",
+          datePublished: "April 28, 2024",
+        })} />
       <main>
         <section className="bg-[#f6f7fc] pb-[60px] pt-[30px]">
           <div className="mx-auto max-w-[1430px] px-[15px]">

@@ -3,6 +3,9 @@ import Image from "next/image";
 import Link from "next/link";
 import { Mail } from "lucide-react";
 import Header from "@/components/Header";
+import Breadcrumb from "@/components/Breadcrumb";
+import JsonLd from "@/components/JsonLd";
+import { articleSchema } from "@/lib/schema";
 import Footer from "@/components/Footer";
 
 export const metadata: Metadata = {
@@ -66,6 +69,14 @@ export default function PaintingTipsForCoastalHomesPage() {
   return (
     <div id="top">
       <Header />
+      <Breadcrumb items={[{ label: "Blog", path: "/blog/" }, { label: "Painting Tips for Coastal Homes", path: "/painting-tips-for-coastal-homes/" }]} />
+      <JsonLd data={articleSchema({
+          headline: "Painting Tips for Coastal Homes",
+          description: "Protect your coastal home exterior from salt and moisture with the right paint, equipment, and techniques. Explore the painting tips for your seaside property.",
+          path: "/painting-tips-for-coastal-homes",
+          image: "/images/residential-houses-bunbury-australia.jpg",
+          datePublished: "October 30, 2025",
+        })} />
       <main>
         <section className="bg-[#f6f7fc] pb-[60px] pt-[30px]">
           <div className="mx-auto max-w-[1430px] px-[15px]">

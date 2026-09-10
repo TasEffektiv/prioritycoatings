@@ -3,6 +3,9 @@ import Image from "next/image";
 import Link from "next/link";
 import { Mail } from "lucide-react";
 import Header from "@/components/Header";
+import Breadcrumb from "@/components/Breadcrumb";
+import JsonLd from "@/components/JsonLd";
+import { articleSchema } from "@/lib/schema";
 import Footer from "@/components/Footer";
 
 export const metadata: Metadata = {
@@ -66,6 +69,14 @@ export default function SaveMoneyWhenWorkingWithAPaintingContractorPage() {
   return (
     <div id="top">
       <Header />
+      <Breadcrumb items={[{ label: "Blog", path: "/blog/" }, { label: "5 Ways You Can Save Money When Working With a Painting Contractor (2026 Update)", path: "/save-money-when-working-with-a-painting-contractor/" }]} />
+      <JsonLd data={articleSchema({
+          headline: "5 Ways You Can Save Money When Working With a Painting Contractor (2026 Update)",
+          description: "There are ways you can save money while working with a painting contractor. Explore what you can try to reduce costs on your next painting project in Sydney.",
+          path: "/save-money-when-working-with-a-painting-contractor",
+          image: "/images/10127208_l.jpg",
+          datePublished: "July 30, 2017",
+        })} />
       <main>
         <section className="bg-[#f6f7fc] pb-[60px] pt-[30px]">
           <div className="mx-auto max-w-[1430px] px-[15px]">

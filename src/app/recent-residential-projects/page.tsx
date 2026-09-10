@@ -19,7 +19,7 @@ export default function RecentResidentialProjectsPage() {
     <div id="top">
       <Header />
       <main>
-        <PageHeader title="Residential" parent={{ label: "Portfolio" }} />
+        <PageHeader path="/recent-residential-projects" title="Residential" parent={{ label: "Portfolio", href: "/portfolio/" }} />
 
         <section className="bg-white py-[50px] md:py-[80px]">
           <div className="mx-auto max-w-[1400px] px-6">

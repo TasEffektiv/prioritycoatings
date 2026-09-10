@@ -23,7 +23,7 @@ export default function BlogPageEleven() {
     <div id="top">
       <Header />
       <main>
-        <PageHeader title="Blog" />
+        <PageHeader path="/blog/page/11" title="Blog" />
 
         <section className="bg-[#f6f7fc] pb-[60px] pt-[50px] lg:pt-[80px]">
           <div className="mx-auto max-w-[1430px] px-[15px]">

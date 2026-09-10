@@ -3,6 +3,9 @@ import Image from "next/image";
 import Link from "next/link";
 import { Mail } from "lucide-react";
 import Header from "@/components/Header";
+import Breadcrumb from "@/components/Breadcrumb";
+import JsonLd from "@/components/JsonLd";
+import { articleSchema } from "@/lib/schema";
 import Footer from "@/components/Footer";
 
 export const metadata: Metadata = {
@@ -66,6 +69,14 @@ export default function CommercialVsResidentialPaintingPage() {
   return (
     <div id="top">
       <Header />
+      <Breadcrumb items={[{ label: "Blog", path: "/blog/" }, { label: "Difference Between Commercial & Residential Painting", path: "/difference-between-commercial-vs-residential-painting/" }]} />
+      <JsonLd data={articleSchema({
+          headline: "Difference Between Commercial & Residential Painting",
+          description: "There are several differences between commercial and residential painting. Contact us for your next painting project, and get the best painting services.",
+          path: "/difference-between-commercial-vs-residential-painting",
+          image: "/images/commercial-vs-residential-painting-blog-banner.png",
+          datePublished: "October 19, 2023",
+        })} />
       <main>
         <section className="bg-[#f6f7fc] pb-[60px] pt-[30px]">
           <div className="mx-auto max-w-[1430px] px-[15px]">

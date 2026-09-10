@@ -3,6 +3,9 @@ import Image from "next/image";
 import Link from "next/link";
 import { Mail } from "lucide-react";
 import Header from "@/components/Header";
+import Breadcrumb from "@/components/Breadcrumb";
+import JsonLd from "@/components/JsonLd";
+import { articleSchema } from "@/lib/schema";
 import Footer from "@/components/Footer";
 
 export const metadata: Metadata = {
@@ -66,6 +69,14 @@ export default function PaintBurnishingMarringCausesSolutionsPage() {
   return (
     <div id="top">
       <Header />
+      <Breadcrumb items={[{ label: "Blog", path: "/blog/" }, { label: "Paint Burnishing or Marring – Causes & Solutions", path: "/paint-burnishing-marring-causes-solutions/" }]} />
+      <JsonLd data={articleSchema({
+          headline: "Paint Burnishing or Marring – Causes & Solutions",
+          description: "Marring or burnishing is shiny spots on a paint surface, possibly caused by scrubbing dirt or stains. Learn how to fix burnishing or marring on painted surfaces.",
+          path: "/paint-burnishing-marring-causes-solutions",
+          image: "/images/wood-painting.jpg",
+          datePublished: "July 10, 2025",
+        })} />
       <main>
         <section className="bg-[#f6f7fc] pb-[60px] pt-[30px]">
           <div className="mx-auto max-w-[1430px] px-[15px]">

@@ -3,6 +3,9 @@ import Image from "next/image";
 import Link from "next/link";
 import { Mail } from "lucide-react";
 import Header from "@/components/Header";
+import Breadcrumb from "@/components/Breadcrumb";
+import JsonLd from "@/components/JsonLd";
+import { articleSchema } from "@/lib/schema";
 import Footer from "@/components/Footer";
 
 export const metadata: Metadata = {
@@ -66,6 +69,14 @@ export default function PaintersTapePage() {
   return (
     <div id="top">
       <Header />
+      <Breadcrumb items={[{ label: "Blog", path: "/blog/" }, { label: "How to Choose the Right Painter's Tape", path: "/how-to-choose-the-right-painters-tape/" }]} />
+      <JsonLd data={articleSchema({
+          headline: "How to Choose the Right Painter's Tape",
+          description: "A guide to choosing the right painter's tape for your project — types, key features, application steps and common mistakes to avoid.",
+          path: "/how-to-choose-the-right-painters-tape",
+          image: "/images/man-is-sticking-adhesive-tape-into-the-wall-1.jpg",
+          datePublished: "March 10, 2026",
+        })} />
       <main>
         <section className="bg-[#f6f7fc] pb-[60px] pt-[30px]">
           <div className="mx-auto max-w-[1430px] px-[15px]">

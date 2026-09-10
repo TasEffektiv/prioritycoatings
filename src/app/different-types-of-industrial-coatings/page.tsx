@@ -3,6 +3,9 @@ import Image from "next/image";
 import Link from "next/link";
 import { Mail } from "lucide-react";
 import Header from "@/components/Header";
+import Breadcrumb from "@/components/Breadcrumb";
+import JsonLd from "@/components/JsonLd";
+import { articleSchema } from "@/lib/schema";
 import Footer from "@/components/Footer";
 
 export const metadata: Metadata = {
@@ -66,6 +69,14 @@ export default function DifferentTypesOfIndustrialCoatingsPage() {
   return (
     <div id="top">
       <Header />
+      <Breadcrumb items={[{ label: "Blog", path: "/blog/" }, { label: "Different Types of Industrial Coatings", path: "/different-types-of-industrial-coatings/" }]} />
+      <JsonLd data={articleSchema({
+          headline: "Different Types of Industrial Coatings",
+          description: "Industrial coatings ensure protection against mechanical, chemical and environmental degradation. Explore the common types of industrial coatings available.",
+          path: "/different-types-of-industrial-coatings",
+          image: "/images/different-types-of-industrial-coatings-blog-banner.jpg",
+          datePublished: "May 25, 2025",
+        })} />
       <main>
         <section className="bg-[#f6f7fc] pb-[60px] pt-[30px]">
           <div className="mx-auto max-w-[1430px] px-[15px]">

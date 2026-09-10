@@ -3,6 +3,9 @@ import Image from "next/image";
 import Link from "next/link";
 import { Mail } from "lucide-react";
 import Header from "@/components/Header";
+import Breadcrumb from "@/components/Breadcrumb";
+import JsonLd from "@/components/JsonLd";
+import { articleSchema } from "@/lib/schema";
 import Footer from "@/components/Footer";
 
 export const metadata: Metadata = {
@@ -66,6 +69,14 @@ export default function VocPaintVsLowVocPaintVsNoVocPaintPage() {
   return (
     <div id="top">
       <Header />
+      <Breadcrumb items={[{ label: "Blog", path: "/blog/" }, { label: "VOC Paint vs. Low-VOC Paint vs. No-VOC Paint", path: "/voc-paint-vs-low-voc-paint-vs-no-voc-paint/" }]} />
+      <JsonLd data={articleSchema({
+          headline: "VOC Paint vs. Low-VOC Paint vs. No-VOC Paint",
+          description: "VOC free paint is the healthiest choice for your home. Explore the dangers of VOCs, how to avoid low-VOC paints, and why you should only use zero-VOC paint.",
+          path: "/voc-paint-vs-low-voc-paint-vs-no-voc-paint",
+          image: "/images/painter-holding-paint-can.jpg",
+          datePublished: "July 14, 2024",
+        })} />
       <main>
         <section className="bg-[#f6f7fc] pb-[60px] pt-[30px]">
           <div className="mx-auto max-w-[1430px] px-[15px]">

@@ -1,6 +1,9 @@
 import type { Metadata } from "next";
 import { CheckCircle2 } from "lucide-react";
 import Header from "@/components/Header";
+import Breadcrumb from "@/components/Breadcrumb";
+import JsonLd from "@/components/JsonLd";
+import { serviceSchema } from "@/lib/schema";
 import Footer from "@/components/Footer";
 import QuoteForm from "@/components/QuoteForm";
 import CertLogos from "@/components/CertLogos";
@@ -37,6 +40,14 @@ export default function PaintersBondiPage() {
   return (
     <div id="top">
       <Header />
+      <Breadcrumb items={[{ label: "Bondi", path: "/painters-bondi/" }]} />
+      <JsonLd data={serviceSchema({
+          name: "Painting Services in Bondi",
+          description:
+            "Professional painters offering all types of interior and exterior painting services in Bondi.",
+          path: "/painters-bondi",
+          areaServed: "Bondi, NSW",
+        })} />
       <main>
         {/* Hero: navy title band */}
         <section

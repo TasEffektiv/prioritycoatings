@@ -3,6 +3,9 @@ import Image from "next/image";
 import Link from "next/link";
 import { Mail } from "lucide-react";
 import Header from "@/components/Header";
+import Breadcrumb from "@/components/Breadcrumb";
+import JsonLd from "@/components/JsonLd";
+import { articleSchema } from "@/lib/schema";
 import Footer from "@/components/Footer";
 
 export const metadata: Metadata = {
@@ -66,6 +69,14 @@ export default function HousePaintColoursTrend2026Page() {
   return (
     <div id="top">
       <Header />
+      <Breadcrumb items={[{ label: "Blog", path: "/blog/" }, { label: "House Paint Colour Trends 2026: For Australian Homes", path: "/house-paint-colours-trend-2026/" }]} />
+      <JsonLd data={articleSchema({
+          headline: "House Paint Colour Trends 2026: For Australian Homes",
+          description: "The right palette can make a significant impact on both your house's aesthetics and value. Explore 2026 house painting colour trends for Australian homes.",
+          path: "/house-paint-colours-trend-2026",
+          image: "/images/house-paint-colour-2026-blog-banner.jpg",
+          datePublished: "July 10, 2026",
+        })} />
       <main>
         <section className="bg-[#f6f7fc] pb-[60px] pt-[30px]">
           <div className="mx-auto max-w-[1430px] px-[15px]">

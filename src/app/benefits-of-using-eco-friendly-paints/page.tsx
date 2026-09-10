@@ -3,6 +3,9 @@ import Image from "next/image";
 import Link from "next/link";
 import { Mail } from "lucide-react";
 import Header from "@/components/Header";
+import Breadcrumb from "@/components/Breadcrumb";
+import JsonLd from "@/components/JsonLd";
+import { articleSchema } from "@/lib/schema";
 import Footer from "@/components/Footer";
 
 export const metadata: Metadata = {
@@ -66,6 +69,14 @@ export default function BenefitsOfUsingEcoFriendlyPaintsPage() {
   return (
     <div id="top">
       <Header />
+      <Breadcrumb items={[{ label: "Blog", path: "/blog/" }, { label: "Benefits of Using Eco-Friendly Paints", path: "/benefits-of-using-eco-friendly-paints/" }]} />
+      <JsonLd data={articleSchema({
+          headline: "Benefits of Using Eco-Friendly Paints",
+          description: "Using eco-friendly paints offers advantages. Low-VOC paints are better for your health and the environment. Explore the benefits of eco-friendly paints.",
+          path: "/benefits-of-using-eco-friendly-paints",
+          image: "/images/eco-friendly-paints-blog-banner.jpg",
+          datePublished: "April 14, 2024",
+        })} />
       <main>
         <section className="bg-[#f6f7fc] pb-[60px] pt-[30px]">
           <div className="mx-auto max-w-[1430px] px-[15px]">

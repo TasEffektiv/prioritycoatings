@@ -3,6 +3,9 @@ import Image from "next/image";
 import Link from "next/link";
 import { Mail } from "lucide-react";
 import Header from "@/components/Header";
+import Breadcrumb from "@/components/Breadcrumb";
+import JsonLd from "@/components/JsonLd";
+import { articleSchema } from "@/lib/schema";
 import Footer from "@/components/Footer";
 
 export const metadata: Metadata = {
@@ -93,6 +96,14 @@ export default function HowToRemoveOldPaintFromWallsPage() {
   return (
     <div id="top">
       <Header />
+      <Breadcrumb items={[{ label: "Blog", path: "/blog/" }, { label: "How to Remove Old Paint from Walls", path: "/how-to-remove-old-paint-from-walls/" }]} />
+      <JsonLd data={articleSchema({
+          headline: "How to Remove Old Paint from Walls",
+          description: "If you're considering repainting the walls, remove old paint first. Removing paint can sometimes damage the wall - review techniques.",
+          path: "/how-to-remove-old-paint-from-walls",
+          image: "/images/texture-background-old-paint.jpg",
+          datePublished: "July 7, 2024",
+        })} />
       <main>
         <section className="bg-[#f6f7fc] pb-[60px] pt-[30px]">
           <div className="mx-auto max-w-[1430px] px-[15px]">

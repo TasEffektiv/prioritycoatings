@@ -3,6 +3,9 @@ import Image from "next/image";
 import Link from "next/link";
 import { Mail } from "lucide-react";
 import Header from "@/components/Header";
+import Breadcrumb from "@/components/Breadcrumb";
+import JsonLd from "@/components/JsonLd";
+import { articleSchema } from "@/lib/schema";
 import Footer from "@/components/Footer";
 
 export const metadata: Metadata = {
@@ -67,6 +70,14 @@ export default function HowStrataPaintingCanHelpYourBusinessIn2017Page() {
   return (
     <div id="top">
       <Header />
+      <Breadcrumb items={[{ label: "Blog", path: "/blog/" }, { label: "How Strata Painting Can Help Your Business", path: "/how-strata-painting-can-help-your-business-in-2017/" }]} />
+      <JsonLd data={articleSchema({
+          headline: "How Strata Painting Can Help Your Business",
+          description: "Maintaining a positive image with your client base starts with your building's appearance. Discover how strata and commercial painting can help your business.",
+          path: "/how-strata-painting-can-help-your-business-in-2017",
+          image: "/images/pexels-photo-271699.jpeg",
+          datePublished: "February 17, 2017",
+        })} />
       <main>
         <section className="bg-[#f6f7fc] pb-[60px] pt-[30px]">
           <div className="mx-auto max-w-[1430px] px-[15px]">

@@ -3,6 +3,9 @@ import Image from "next/image";
 import Link from "next/link";
 import { Mail } from "lucide-react";
 import Header from "@/components/Header";
+import Breadcrumb from "@/components/Breadcrumb";
+import JsonLd from "@/components/JsonLd";
+import { articleSchema } from "@/lib/schema";
 import Footer from "@/components/Footer";
 
 export const metadata: Metadata = {
@@ -67,6 +70,14 @@ export default function SafetyMeasuresWhileHouseRepaintingPage() {
   return (
     <div id="top">
       <Header />
+      <Breadcrumb items={[{ label: "Blog", path: "/blog/" }, { label: "Safety Measures While Repainting Your House", path: "/safety-measures-while-house-repainting/" }]} />
+      <JsonLd data={articleSchema({
+          headline: "Safety Measures While Repainting Your House",
+          description: "Planning a DIY repaint? Learn the key safety measures for preparing your workspace, using tools and ladders safely, and knowing when to call a professional.",
+          path: "/safety-measures-while-house-repainting",
+          image: "/images/safety-measures-while-repainting-your-house-banner.jpg",
+          datePublished: "January 25, 2016",
+        })} />
       <main>
         <section className="bg-[#f6f7fc] pb-[60px] pt-[30px]">
           <div className="mx-auto max-w-[1430px] px-[15px]">

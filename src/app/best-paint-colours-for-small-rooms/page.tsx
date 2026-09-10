@@ -3,6 +3,9 @@ import Image from "next/image";
 import Link from "next/link";
 import { Mail } from "lucide-react";
 import Header from "@/components/Header";
+import Breadcrumb from "@/components/Breadcrumb";
+import JsonLd from "@/components/JsonLd";
+import { articleSchema } from "@/lib/schema";
 import Footer from "@/components/Footer";
 
 export const metadata: Metadata = {
@@ -66,6 +69,14 @@ export default function BestPaintColoursForSmallRoomsPage() {
   return (
     <div id="top">
       <Header />
+      <Breadcrumb items={[{ label: "Blog", path: "/blog/" }, { label: "Best Paint Colours for Small Rooms", path: "/best-paint-colours-for-small-rooms/" }]} />
+      <JsonLd data={articleSchema({
+          headline: "Best Paint Colours for Small Rooms",
+          description: "White is a popular paint colour for small spaces, but it's not the only option. Explore our list of the best paint colours for small spaces. Contact us for more.",
+          path: "/best-paint-colours-for-small-rooms",
+          image: "/images/gray-fabric-loveseat-near-brown-wooden-table.jpg",
+          datePublished: "January 18, 2024",
+        })} />
       <main>
         <section className="bg-[#f6f7fc] pb-[60px] pt-[30px]">
           <div className="mx-auto max-w-[1430px] px-[15px]">

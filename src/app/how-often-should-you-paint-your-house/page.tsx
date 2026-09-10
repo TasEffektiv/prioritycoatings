@@ -3,6 +3,9 @@ import Image from "next/image";
 import Link from "next/link";
 import { Mail } from "lucide-react";
 import Header from "@/components/Header";
+import Breadcrumb from "@/components/Breadcrumb";
+import JsonLd from "@/components/JsonLd";
+import { articleSchema } from "@/lib/schema";
 import Footer from "@/components/Footer";
 
 export const metadata: Metadata = {
@@ -119,6 +122,14 @@ export default function HowOftenShouldYouPaintYourHousePage() {
   return (
     <div id="top">
       <Header />
+      <Breadcrumb items={[{ label: "Blog", path: "/blog/" }, { label: "How Often Should You Paint Your House", path: "/how-often-should-you-paint-your-house/" }]} />
+      <JsonLd data={articleSchema({
+          headline: "How Often Should You Paint Your House",
+          description: "Good quality paints should last 5-10 years, but exterior paint wears more quickly and often needs repainting. Check how often you should paint your house.",
+          path: "/how-often-should-you-paint-your-house",
+          image: "/images/how-often-should-you-paint-your-house-blog-banner.jpg",
+          datePublished: "December 31, 2023",
+        })} />
       <main>
         <section className="bg-[#f6f7fc] pb-[60px] pt-[30px]">
           <div className="mx-auto max-w-[1430px] px-[15px]">

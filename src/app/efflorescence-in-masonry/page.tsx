@@ -3,6 +3,9 @@ import Image from "next/image";
 import Link from "next/link";
 import { Mail } from "lucide-react";
 import Header from "@/components/Header";
+import Breadcrumb from "@/components/Breadcrumb";
+import JsonLd from "@/components/JsonLd";
+import { articleSchema } from "@/lib/schema";
 import Footer from "@/components/Footer";
 
 export const metadata: Metadata = {
@@ -66,6 +69,14 @@ export default function EfflorescenceInMasonryPage() {
   return (
     <div id="top">
       <Header />
+      <Breadcrumb items={[{ label: "Blog", path: "/blog/" }, { label: "Efflorescence in Masonry", path: "/efflorescence-in-masonry/" }]} />
+      <JsonLd data={articleSchema({
+          headline: "Efflorescence in Masonry",
+          description: "Efflorescence or whitish salt deposits on concrete, brick, or mortar are common in masonry walls. Learn to fix underlying moisture issues causing efflorescence.",
+          path: "/efflorescence-in-masonry",
+          image: "/images/white-texture-brick-wall.jpg",
+          datePublished: "April 28, 2025",
+        })} />
       <main>
         <section className="bg-[#f6f7fc] pb-[60px] pt-[30px]">
           <div className="mx-auto max-w-[1430px] px-[15px]">

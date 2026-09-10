@@ -3,6 +3,9 @@ import Image from "next/image";
 import Link from "next/link";
 import { Mail } from "lucide-react";
 import Header from "@/components/Header";
+import Breadcrumb from "@/components/Breadcrumb";
+import JsonLd from "@/components/JsonLd";
+import { articleSchema } from "@/lib/schema";
 import Footer from "@/components/Footer";
 
 export const metadata: Metadata = {
@@ -68,6 +71,14 @@ export default function CommonBusinessChallengesPage() {
   return (
     <div id="top">
       <Header />
+      <Breadcrumb items={[{ label: "Blog", path: "/blog/" }, { label: "Common Business Challenges of a Commercial Painting Company", path: "/common-business-challenges-of-a-commercial-painting-company/" }]} />
+      <JsonLd data={articleSchema({
+          headline: "Common Business Challenges of a Commercial Painting Company",
+          description: "From reputation and cash flow to skilled labour and compliance, explore the common business challenges facing commercial painting companies and how to manage them.",
+          path: "/common-business-challenges-of-a-commercial-painting-company",
+          image: "/images/commercial-painting-business-challenges-banner.jpg",
+          datePublished: "September 22, 2015",
+        })} />
       <main>
         <section className="bg-[#f6f7fc] pb-[60px] pt-[30px]">
           <div className="mx-auto max-w-[1430px] px-[15px]">

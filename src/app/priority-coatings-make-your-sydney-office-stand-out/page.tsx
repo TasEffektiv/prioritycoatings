@@ -3,6 +3,9 @@ import Image from "next/image";
 import Link from "next/link";
 import { Mail } from "lucide-react";
 import Header from "@/components/Header";
+import Breadcrumb from "@/components/Breadcrumb";
+import JsonLd from "@/components/JsonLd";
+import { articleSchema } from "@/lib/schema";
 import Footer from "@/components/Footer";
 
 export const metadata: Metadata = {
@@ -66,6 +69,14 @@ export default function PriorityCoatingsMakeYourSydneyOfficeStandOutPage() {
   return (
     <div id="top">
       <Header />
+      <Breadcrumb items={[{ label: "Blog", path: "/blog/" }, { label: "Priority One Coatings Will Make Your Sydney Office Stand Out", path: "/priority-coatings-make-your-sydney-office-stand-out/" }]} />
+      <JsonLd data={articleSchema({
+          headline: "Priority One Coatings Will Make Your Sydney Office Stand Out",
+          description: "Planning an office fitout in Sydney? Priority One Coatings delivers customised, high-quality office fitouts that reflect your brand and boost productivity.",
+          path: "/priority-coatings-make-your-sydney-office-stand-out",
+          image: "/images/commercial-fitouts-sydney.jpg",
+          datePublished: "March 7, 2023",
+        })} />
       <main>
         <section className="bg-[#f6f7fc] pb-[60px] pt-[30px]">
           <div className="mx-auto max-w-[1430px] px-[15px]">

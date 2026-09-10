@@ -3,6 +3,9 @@ import Image from "next/image";
 import Link from "next/link";
 import { Mail } from "lucide-react";
 import Header from "@/components/Header";
+import Breadcrumb from "@/components/Breadcrumb";
+import JsonLd from "@/components/JsonLd";
+import { articleSchema } from "@/lib/schema";
 import Footer from "@/components/Footer";
 
 export const metadata: Metadata = {
@@ -66,6 +69,14 @@ export default function CalculateAverageCostOfInteriorExteriorPaintingPage() {
   return (
     <div id="top">
       <Header />
+      <Breadcrumb items={[{ label: "Blog", path: "/blog/" }, { label: "How to Calculate Average Cost of Interior and Exterior House Painting", path: "/calculate-average-cost-of-interior-exterior-painting/" }]} />
+      <JsonLd data={articleSchema({
+          headline: "How to Calculate Average Cost of Interior and Exterior House Painting",
+          description: "The average house painting cost in Australia is one of the homeowners' major concerns. Let's calculate the cost of painting your home before hiring painters in Sydney.",
+          path: "/calculate-average-cost-of-interior-exterior-painting",
+          image: "/images/calculate-the-cost-of-house-painting.jpg",
+          datePublished: "September 26, 2022",
+        })} />
       <main>
         <section className="bg-[#f6f7fc] pb-[60px] pt-[30px]">
           <div className="mx-auto max-w-[1430px] px-[15px]">

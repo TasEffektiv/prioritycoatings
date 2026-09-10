@@ -3,6 +3,9 @@ import Image from "next/image";
 import Link from "next/link";
 import { Mail } from "lucide-react";
 import Header from "@/components/Header";
+import Breadcrumb from "@/components/Breadcrumb";
+import JsonLd from "@/components/JsonLd";
+import { articleSchema } from "@/lib/schema";
 import Footer from "@/components/Footer";
 
 export const metadata: Metadata = {
@@ -66,6 +69,14 @@ export default function PaintColoursThatMakeYourHomeLookCleanerPage() {
   return (
     <div id="top">
       <Header />
+      <Breadcrumb items={[{ label: "Blog", path: "/blog/" }, { label: "Paint Colours That Make Your Home Look Cleaner", path: "/paint-colours-that-make-your-home-look-cleaner/" }]} />
+      <JsonLd data={articleSchema({
+          headline: "Paint Colours That Make Your Home Look Cleaner",
+          description: "Do you want a cleaner-looking house but don't know how to achieve it? Let's check which colours are at the top of the list to create a cleaner and crisper home.",
+          path: "/paint-colours-that-make-your-home-look-cleaner",
+          image: "/images/cozy-dining-room-interior-with-wooden-furniture-scaled.jpg",
+          datePublished: "November 13, 2023",
+        })} />
       <main>
         <section className="bg-[#f6f7fc] pb-[60px] pt-[30px]">
           <div className="mx-auto max-w-[1430px] px-[15px]">

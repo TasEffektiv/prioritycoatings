@@ -3,6 +3,9 @@ import Image from "next/image";
 import Link from "next/link";
 import { Mail } from "lucide-react";
 import Header from "@/components/Header";
+import Breadcrumb from "@/components/Breadcrumb";
+import JsonLd from "@/components/JsonLd";
+import { articleSchema } from "@/lib/schema";
 import Footer from "@/components/Footer";
 
 export const metadata: Metadata = {
@@ -67,6 +70,14 @@ export default function HowPaintColoursCanAffectTheLevelOfLightInYourHomePage() 
   return (
     <div id="top">
       <Header />
+      <Breadcrumb items={[{ label: "Blog", path: "/blog/" }, { label: "How Paint Colours Can Impacts the Lights of Your Interiors", path: "/how-paint-colours-can-affect-the-level-of-light-in-your-home/" }]} />
+      <JsonLd data={articleSchema({
+          headline: "How Paint Colours Can Impacts the Lights of Your Interiors",
+          description: "Discover how paint colours affect the level of natural and artificial light in your home, from Light Reflectance Value to picking colours for south, north, east and west-facing rooms.",
+          path: "/how-paint-colours-can-affect-the-level-of-light-in-your-home",
+          image: "/images/How-Lighting-Impacts-Paint-Colours.png",
+          datePublished: "December 31, 2020",
+        })} />
       <main>
         <section className="bg-[#f6f7fc] pb-[60px] pt-[30px]">
           <div className="mx-auto max-w-[1430px] px-[15px]">

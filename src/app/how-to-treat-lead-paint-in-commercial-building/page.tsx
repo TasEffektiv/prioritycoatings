@@ -3,6 +3,9 @@ import Image from "next/image";
 import Link from "next/link";
 import { Mail } from "lucide-react";
 import Header from "@/components/Header";
+import Breadcrumb from "@/components/Breadcrumb";
+import JsonLd from "@/components/JsonLd";
+import { articleSchema } from "@/lib/schema";
 import Footer from "@/components/Footer";
 
 export const metadata: Metadata = {
@@ -66,6 +69,14 @@ export default function HowToTreatLeadPaintInCommercialBuildingPage() {
   return (
     <div id="top">
       <Header />
+      <Breadcrumb items={[{ label: "Blog", path: "/blog/" }, { label: "How To Treat Lead Paint Found in A Commercial Building?", path: "/how-to-treat-lead-paint-in-commercial-building/" }]} />
+      <JsonLd data={articleSchema({
+          headline: "How To Treat Lead Paint Found in A Commercial Building?",
+          description: "Removing lead paint is not a DIY job; it's best to call in the professionals. Let's check how to treat lead paint found in commercial properties effectively.",
+          path: "/how-to-treat-lead-paint-in-commercial-building",
+          image: "/images/lead-based-paint-removal.jpg",
+          datePublished: "October 6, 2022",
+        })} />
       <main>
         <section className="bg-[#f6f7fc] pb-[60px] pt-[30px]">
           <div className="mx-auto max-w-[1430px] px-[15px]">

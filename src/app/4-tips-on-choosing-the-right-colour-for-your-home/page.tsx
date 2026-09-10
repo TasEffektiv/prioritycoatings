@@ -3,6 +3,9 @@ import Image from "next/image";
 import Link from "next/link";
 import { Mail } from "lucide-react";
 import Header from "@/components/Header";
+import Breadcrumb from "@/components/Breadcrumb";
+import JsonLd from "@/components/JsonLd";
+import { articleSchema } from "@/lib/schema";
 import Footer from "@/components/Footer";
 
 export const metadata: Metadata = {
@@ -66,6 +69,14 @@ export default function FourTipsOnChoosingTheRightColourForYourHomePage() {
   return (
     <div id="top">
       <Header />
+      <Breadcrumb items={[{ label: "Blog", path: "/blog/" }, { label: "4 Tips On Choosing the Right Colour for Your Home", path: "/4-tips-on-choosing-the-right-colour-for-your-home/" }]} />
+      <JsonLd data={articleSchema({
+          headline: "4 Tips On Choosing the Right Colour for Your Home",
+          description: "Picking the right paint colour for your home can be tough with so many options on offer. Here are 4 key tips to help you choose the right colour and avoid a costly repaint.",
+          path: "/4-tips-on-choosing-the-right-colour-for-your-home",
+          image: "/images/Painting-kids-room.jpg",
+          datePublished: "November 5, 2017",
+        })} />
       <main>
         <section className="bg-[#f6f7fc] pb-[60px] pt-[30px]">
           <div className="mx-auto max-w-[1430px] px-[15px]">

@@ -3,6 +3,9 @@ import Image from "next/image";
 import Link from "next/link";
 import { Mail } from "lucide-react";
 import Header from "@/components/Header";
+import Breadcrumb from "@/components/Breadcrumb";
+import JsonLd from "@/components/JsonLd";
+import { articleSchema } from "@/lib/schema";
 import Footer from "@/components/Footer";
 
 export const metadata: Metadata = {
@@ -67,6 +70,14 @@ export default function GoodColoursToPaintYourHousePage() {
   return (
     <div id="top">
       <Header />
+      <Breadcrumb items={[{ label: "Blog", path: "/blog/" }, { label: "Good Colours to Paint Your House", path: "/good-colors-to-paint-your-house/" }]} />
+      <JsonLd data={articleSchema({
+          headline: "Good Colours to Paint Your House",
+          description: "Looking for paint colour inspiration for your home? See good colour choices for the bedroom, kitchen, bathroom and living room from Sydney's painters.",
+          path: "/good-colors-to-paint-your-house",
+          image: "/images/good-colours-to-paint-your-house-spring.jpg",
+          datePublished: "October 30, 2016",
+        })} />
       <main>
         <section className="bg-[#f6f7fc] pb-[60px] pt-[30px]">
           <div className="mx-auto max-w-[1430px] px-[15px]">

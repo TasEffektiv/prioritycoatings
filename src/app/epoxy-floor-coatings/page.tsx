@@ -2,6 +2,9 @@ import type { Metadata } from "next";
 import Image from "next/image";
 import { CheckCircle2, Phone } from "lucide-react";
 import Header from "@/components/Header";
+import Breadcrumb from "@/components/Breadcrumb";
+import JsonLd from "@/components/JsonLd";
+import { serviceSchema } from "@/lib/schema";
 import Footer from "@/components/Footer";
 import Faq from "@/components/Faq";
 import QuoteForm from "@/components/QuoteForm";
@@ -133,6 +136,13 @@ export default function EpoxyFloorCoatingsPage() {
   return (
     <div id="top">
       <Header />
+      <Breadcrumb items={[{ label: "Epoxy Floor Coatings", path: "/epoxy-floor-coatings/" }]} />
+      <JsonLd data={serviceSchema({
+          name: "Epoxy Floor Coatings",
+          description:
+            "Priority One Coatings specialise in high-quality epoxy coatings in Sydney for commercial & industrial premises. Contact us for all kinds of epoxy flooring solutions!",
+          path: "/epoxy-floor-coatings",
+        })} />
       <main>
         {/* Hero: navy title band */}
         <section

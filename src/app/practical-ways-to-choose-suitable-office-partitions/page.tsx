@@ -3,6 +3,9 @@ import Image from "next/image";
 import Link from "next/link";
 import { Mail } from "lucide-react";
 import Header from "@/components/Header";
+import Breadcrumb from "@/components/Breadcrumb";
+import JsonLd from "@/components/JsonLd";
+import { articleSchema } from "@/lib/schema";
 import Footer from "@/components/Footer";
 
 export const metadata: Metadata = {
@@ -66,6 +69,14 @@ export default function PracticalWaysToChooseSuitableOfficePartitionsPage() {
   return (
     <div id="top">
       <Header />
+      <Breadcrumb items={[{ label: "Blog", path: "/blog/" }, { label: "8 Practical Ways to Choose the Right Partitions for Your Office", path: "/practical-ways-to-choose-suitable-office-partitions/" }]} />
+      <JsonLd data={articleSchema({
+          headline: "8 Practical Ways to Choose the Right Partitions for Your Office",
+          description: "Choosing the right office partitions keeps your workplace comfortable and productive. Discover 8 practical tips for selecting suitable partitions for your office.",
+          path: "/practical-ways-to-choose-suitable-office-partitions",
+          image: "/images/Ways-to-choose-the-suitable-office-partitions.png",
+          datePublished: "December 19, 2021",
+        })} />
       <main>
         <section className="bg-[#f6f7fc] pb-[60px] pt-[30px]">
           <div className="mx-auto max-w-[1430px] px-[15px]">

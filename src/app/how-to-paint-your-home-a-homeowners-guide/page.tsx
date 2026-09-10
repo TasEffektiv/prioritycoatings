@@ -3,6 +3,9 @@ import Image from "next/image";
 import Link from "next/link";
 import { Mail } from "lucide-react";
 import Header from "@/components/Header";
+import Breadcrumb from "@/components/Breadcrumb";
+import JsonLd from "@/components/JsonLd";
+import { articleSchema } from "@/lib/schema";
 import Footer from "@/components/Footer";
 
 export const metadata: Metadata = {
@@ -66,6 +69,14 @@ export default function HowToPaintYourHomeAHomeownersGuidePage() {
   return (
     <div id="top">
       <Header />
+      <Breadcrumb items={[{ label: "Blog", path: "/blog/" }, { label: "How to Paint Your Home – A Homeowner's Guide", path: "/how-to-paint-your-home-a-homeowners-guide/" }]} />
+      <JsonLd data={articleSchema({
+          headline: "How to Paint Your Home – A Homeowner's Guide",
+          description: "A homeowner's guide to painting your home, covering colour selection, lighting and LRV, and what to look for before hiring a residential painting company.",
+          path: "/how-to-paint-your-home-a-homeowners-guide",
+          image: "/images/house-painting-tips-for-homeowners.jpg",
+          datePublished: "June 14, 2018",
+        })} />
       <main>
         <section className="bg-[#f6f7fc] pb-[60px] pt-[30px]">
           <div className="mx-auto max-w-[1430px] px-[15px]">

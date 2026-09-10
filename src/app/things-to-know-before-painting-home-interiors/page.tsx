@@ -3,6 +3,9 @@ import Image from "next/image";
 import Link from "next/link";
 import { Mail } from "lucide-react";
 import Header from "@/components/Header";
+import Breadcrumb from "@/components/Breadcrumb";
+import JsonLd from "@/components/JsonLd";
+import { articleSchema } from "@/lib/schema";
 import Footer from "@/components/Footer";
 
 export const metadata: Metadata = {
@@ -66,6 +69,14 @@ export default function ThingsToKnowBeforePaintingHomeInteriorsPage() {
   return (
     <div id="top">
       <Header />
+      <Breadcrumb items={[{ label: "Blog", path: "/blog/" }, { label: "Essential Things to Know Before Painting Your Home Interiors", path: "/things-to-know-before-painting-home-interiors/" }]} />
+      <JsonLd data={articleSchema({
+          headline: "Essential Things to Know Before Painting Your Home Interiors",
+          description: "Everything to consider before painting your home interiors — surface prep, paint types and finishes, weather, colour selection, and DIY tips for a professional result.",
+          path: "/things-to-know-before-painting-home-interiors",
+          image: "/images/repair-in-the-apartment-paints-the-wall-with-paint.jpg",
+          datePublished: "May 10, 2026",
+        })} />
       <main>
         <section className="bg-[#f6f7fc] pb-[60px] pt-[30px]">
           <div className="mx-auto max-w-[1430px] px-[15px]">

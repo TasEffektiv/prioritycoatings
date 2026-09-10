@@ -3,6 +3,9 @@ import Image from "next/image";
 import Link from "next/link";
 import { Mail } from "lucide-react";
 import Header from "@/components/Header";
+import Breadcrumb from "@/components/Breadcrumb";
+import JsonLd from "@/components/JsonLd";
+import { articleSchema } from "@/lib/schema";
 import Footer from "@/components/Footer";
 
 export const metadata: Metadata = {
@@ -68,6 +71,14 @@ export default function ProfessionalPainterQuestionsPage() {
   return (
     <div id="top">
       <Header />
+      <Breadcrumb items={[{ label: "Blog", path: "/blog/" }, { label: "What You Need to Ask When You're Looking for a Professional Painter", path: "/what-you-need-to-ask-when-youre-looking-for-a-professional-painter/" }]} />
+      <JsonLd data={articleSchema({
+          headline: "What You Need to Ask When You're Looking for a Professional Painter",
+          description: "Hiring a painter? Learn the key questions to ask about experience, insurance, materials and warranties before choosing a professional painter in Sydney.",
+          path: "/what-you-need-to-ask-when-youre-looking-for-a-professional-painter",
+          image: "/images/questions-to-ask-a-professional-painter.jpg",
+          datePublished: "August 4, 2016",
+        })} />
       <main>
         <section className="bg-[#f6f7fc] pb-[60px] pt-[30px]">
           <div className="mx-auto max-w-[1430px] px-[15px]">

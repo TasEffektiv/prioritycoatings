@@ -19,7 +19,7 @@ export default function RecentStrataProjectsPage() {
     <div id="top">
       <Header />
       <main>
-        <PageHeader title="Strata" parent={{ label: "Portfolio" }} />
+        <PageHeader path="/recent-strata-projects" title="Strata" parent={{ label: "Portfolio", href: "/portfolio/" }} />
 
         <section className="bg-white py-[50px] md:py-[80px]">
           <div className="mx-auto max-w-[1400px] px-6">

@@ -3,6 +3,9 @@ import Image from "next/image";
 import Link from "next/link";
 import { Mail } from "lucide-react";
 import Header from "@/components/Header";
+import Breadcrumb from "@/components/Breadcrumb";
+import JsonLd from "@/components/JsonLd";
+import { articleSchema } from "@/lib/schema";
 import Footer from "@/components/Footer";
 
 export const metadata: Metadata = {
@@ -66,6 +69,14 @@ export default function WaterproofingCommercialBuildingsPage() {
   return (
     <div id="top">
       <Header />
+      <Breadcrumb items={[{ label: "Blog", path: "/blog/" }, { label: "Top 5 Ways To Waterproof Commercial Buildings", path: "/waterproofing-commercial-buildings/" }]} />
+      <JsonLd data={articleSchema({
+          headline: "Top 5 Ways To Waterproof Commercial Buildings",
+          description: "The benefits of waterproofing extend beyond preserving the structural integrity of your commercial building. Explore the essential reasons and core benefits.",
+          path: "/waterproofing-commercial-buildings",
+          image: "/images/waterproofing-commercial-buildings.jpg",
+          datePublished: "January 30, 2025",
+        })} />
       <main>
         <section className="bg-[#f6f7fc] pb-[60px] pt-[30px]">
           <div className="mx-auto max-w-[1430px] px-[15px]">

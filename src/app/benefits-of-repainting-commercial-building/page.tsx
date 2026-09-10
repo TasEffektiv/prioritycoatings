@@ -3,6 +3,9 @@ import Image from "next/image";
 import Link from "next/link";
 import { Mail } from "lucide-react";
 import Header from "@/components/Header";
+import Breadcrumb from "@/components/Breadcrumb";
+import JsonLd from "@/components/JsonLd";
+import { articleSchema } from "@/lib/schema";
 import Footer from "@/components/Footer";
 
 export const metadata: Metadata = {
@@ -66,6 +69,14 @@ export default function BenefitsOfRepaintingCommercialBuildingPage() {
   return (
     <div id="top">
       <Header />
+      <Breadcrumb items={[{ label: "Blog", path: "/blog/" }, { label: "Benefits of Repainting Your Commercial Building", path: "/benefits-of-repainting-commercial-building/" }]} />
+      <JsonLd data={articleSchema({
+          headline: "Benefits of Repainting Your Commercial Building",
+          description: "From rebranding to increased foot traffic and market value, discover the benefits of repainting your commercial building with Priority One Coatings.",
+          path: "/benefits-of-repainting-commercial-building",
+          image: "/images/repainting-your-commercial-building.jpg",
+          datePublished: "January 31, 2023",
+        })} />
       <main>
         <section className="bg-[#f6f7fc] pb-[60px] pt-[30px]">
           <div className="mx-auto max-w-[1430px] px-[15px]">

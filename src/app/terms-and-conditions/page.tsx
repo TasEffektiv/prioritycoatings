@@ -17,7 +17,7 @@ export default function TermsAndConditionsPage() {
     <div id="top">
       <Header />
       <main>
-        <PageHeader title="Terms and Conditions" />
+        <PageHeader path="/terms-and-conditions" title="Terms and Conditions" />
 
         <section className="bg-white py-16 md:py-24">
           <div className="mx-auto max-w-[1400px] px-6">

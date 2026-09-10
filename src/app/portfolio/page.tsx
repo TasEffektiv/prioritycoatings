@@ -62,7 +62,7 @@ export default function PortfolioPage() {
     <div id="top">
       <Header />
       <main>
-        <PageHeader title="Portfolio" />
+        <PageHeader path="/portfolio" title="Portfolio" />
 
         <section className="bg-white py-[50px] md:py-[80px]">
           <div className="mx-auto max-w-[1400px] px-6">

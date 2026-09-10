@@ -3,6 +3,9 @@ import Image from "next/image";
 import Link from "next/link";
 import { Mail } from "lucide-react";
 import Header from "@/components/Header";
+import Breadcrumb from "@/components/Breadcrumb";
+import JsonLd from "@/components/JsonLd";
+import { articleSchema } from "@/lib/schema";
 import Footer from "@/components/Footer";
 
 export const metadata: Metadata = {
@@ -66,6 +69,14 @@ export default function PracticalTipsForBathroomPaintingPage() {
   return (
     <div id="top">
       <Header />
+      <Breadcrumb items={[{ label: "Blog", path: "/blog/" }, { label: "Practical Tips for Bathroom Painting", path: "/practical-tips-for-bathroom-painting/" }]} />
+      <JsonLd data={articleSchema({
+          headline: "Practical Tips for Bathroom Painting",
+          description: "Painting a bathroom is unlike any other room due to the moisture and the number of built-in fixtures. Check the tips to have a better bathroom painting experience!",
+          path: "/practical-tips-for-bathroom-painting",
+          image: "/images/bathroom-with-cabinets-and-window.jpg",
+          datePublished: "February 18, 2025",
+        })} />
       <main>
         <section className="bg-[#f6f7fc] pb-[60px] pt-[30px]">
           <div className="mx-auto max-w-[1430px] px-[15px]">

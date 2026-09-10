@@ -3,6 +3,9 @@ import Image from "next/image";
 import Link from "next/link";
 import { Mail } from "lucide-react";
 import Header from "@/components/Header";
+import Breadcrumb from "@/components/Breadcrumb";
+import JsonLd from "@/components/JsonLd";
+import { articleSchema } from "@/lib/schema";
 import Footer from "@/components/Footer";
 import BlogSidebar from "@/components/blog/BlogSidebar";
 
@@ -35,6 +38,14 @@ export default function HowLongToPaintAHousePage() {
   return (
     <div id="top">
       <Header />
+      <Breadcrumb items={[{ label: "Blog", path: "/blog/" }, { label: "How Long Does It Take to Paint a House?", path: "/how-long-to-paint-a-house/" }]} />
+      <JsonLd data={articleSchema({
+          headline: "How Long Does It Take to Paint a House?",
+          description: "Wondering how long it takes to paint a house? Explore the key factors that affect residential painting timelines with Priority One Coatings.",
+          path: "/how-long-to-paint-a-house",
+          image: "/images/couple-painting-interior-wall-new-apartment-scaled.jpg",
+          datePublished: "September 7, 2023",
+        })} />
       <main>
         <section className="bg-[#f6f7fc] pb-[60px] pt-[30px]">
           <div className="mx-auto max-w-[1430px] px-[15px]">

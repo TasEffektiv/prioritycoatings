@@ -3,6 +3,9 @@ import Image from "next/image";
 import Link from "next/link";
 import { Mail } from "lucide-react";
 import Header from "@/components/Header";
+import Breadcrumb from "@/components/Breadcrumb";
+import JsonLd from "@/components/JsonLd";
+import { articleSchema } from "@/lib/schema";
 import Footer from "@/components/Footer";
 
 export const metadata: Metadata = {
@@ -66,6 +69,14 @@ export default function GuideToEggshellPaintFinishPage() {
   return (
     <div id="top">
       <Header />
+      <Breadcrumb items={[{ label: "Blog", path: "/blog/" }, { label: "Guide to Eggshell Paint Finish", path: "/guide-to-eggshell-paint-finish/" }]} />
+      <JsonLd data={articleSchema({
+          headline: "Guide to Eggshell Paint Finish",
+          description: "Explore the eggshell paint finish and learn where to use it, its benefits, durability, and how it enhances walls with a soft texture and low-sheen look.",
+          path: "/guide-to-eggshell-paint-finish",
+          image: "/images/top-view-of-tin-with-purple-paint-and-brushes-on-blue-surface.jpg",
+          datePublished: "November 10, 2025",
+        })} />
       <main>
         <section className="bg-[#f6f7fc] pb-[60px] pt-[30px]">
           <div className="mx-auto max-w-[1430px] px-[15px]">

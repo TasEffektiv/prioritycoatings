@@ -3,6 +3,9 @@ import Image from "next/image";
 import Link from "next/link";
 import { Mail } from "lucide-react";
 import Header from "@/components/Header";
+import Breadcrumb from "@/components/Breadcrumb";
+import JsonLd from "@/components/JsonLd";
+import { articleSchema } from "@/lib/schema";
 import Footer from "@/components/Footer";
 import BlogSidebar from "@/components/blog/BlogSidebar";
 
@@ -35,6 +38,14 @@ export default function HowToPrepareSurfaceForPaintingPage() {
   return (
     <div id="top">
       <Header />
+      <Breadcrumb items={[{ label: "Blog", path: "/blog/" }, { label: "How to Prepare Surface For Painting", path: "/how-to-prepare-surface-for-painting/" }]} />
+      <JsonLd data={articleSchema({
+          headline: "How to Prepare Surface For Painting",
+          description: "Whether you are painting on the exterior or the interior, the basic and essential aspect is paint surface preparation. Explore the guide to surface preparation.",
+          path: "/how-to-prepare-surface-for-painting",
+          image: "/images/surface-prep-for-painting.jpg",
+          datePublished: "September 17, 2023",
+        })} />
       <main>
         <section className="bg-[#f6f7fc] pb-[60px] pt-[30px]">
           <div className="mx-auto max-w-[1430px] px-[15px]">

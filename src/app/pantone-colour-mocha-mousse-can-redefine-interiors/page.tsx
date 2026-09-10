@@ -3,6 +3,9 @@ import Image from "next/image";
 import Link from "next/link";
 import { Mail } from "lucide-react";
 import Header from "@/components/Header";
+import Breadcrumb from "@/components/Breadcrumb";
+import JsonLd from "@/components/JsonLd";
+import { articleSchema } from "@/lib/schema";
 import Footer from "@/components/Footer";
 
 export const metadata: Metadata = {
@@ -66,6 +69,14 @@ export default function PantoneColourMochaMousseCanRedefineInteriorsPage() {
   return (
     <div id="top">
       <Header />
+      <Breadcrumb items={[{ label: "Blog", path: "/blog/" }, { label: "How Pantone Colour 2025 Can Redefine Interiors", path: "/pantone-colour-mocha-mousse-can-redefine-interiors/" }]} />
+      <JsonLd data={articleSchema({
+          headline: "How Pantone Colour 2025 Can Redefine Interiors",
+          description: "The earthy hue Mocha Mousse is the Pantone colour of the year for 2025. It redefines interior design by bringing warmth and balance into every corner of your home.",
+          path: "/pantone-colour-mocha-mousse-can-redefine-interiors",
+          image: "/images/pantone-colour-2025-mocha-mousse.png",
+          datePublished: "December 26, 2024",
+        })} />
       <main>
         <section className="bg-[#f6f7fc] pb-[60px] pt-[30px]">
           <div className="mx-auto max-w-[1430px] px-[15px]">

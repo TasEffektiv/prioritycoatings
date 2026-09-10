@@ -3,6 +3,9 @@ import Image from "next/image";
 import Link from "next/link";
 import { Mail } from "lucide-react";
 import Header from "@/components/Header";
+import Breadcrumb from "@/components/Breadcrumb";
+import JsonLd from "@/components/JsonLd";
+import { articleSchema } from "@/lib/schema";
 import Footer from "@/components/Footer";
 
 export const metadata: Metadata = {
@@ -66,6 +69,14 @@ export default function PaintOverTheStainedWoodPage() {
   return (
     <div id="top">
       <Header />
+      <Breadcrumb items={[{ label: "Blog", path: "/blog/" }, { label: "Paint Over the Stained Wood", path: "/paint-over-the-stained-wood/" }]} />
+      <JsonLd data={articleSchema({
+          headline: "Paint Over the Stained Wood",
+          description: "With good preparation, like cleaning and sanding to remove the shine, and using a primer to ensure adhesion, you can paint over stained wood. Check to learn more.",
+          path: "/paint-over-the-stained-wood",
+          image: "/images/hand-painting-blue-color-on-wooden-table.jpg",
+          datePublished: "August 21, 2025",
+        })} />
       <main>
         <section className="bg-[#f6f7fc] pb-[60px] pt-[30px]">
           <div className="mx-auto max-w-[1430px] px-[15px]">

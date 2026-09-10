@@ -3,6 +3,9 @@ import Image from "next/image";
 import Link from "next/link";
 import { Mail } from "lucide-react";
 import Header from "@/components/Header";
+import Breadcrumb from "@/components/Breadcrumb";
+import JsonLd from "@/components/JsonLd";
+import { articleSchema } from "@/lib/schema";
 import Footer from "@/components/Footer";
 
 export const metadata: Metadata = {
@@ -66,6 +69,14 @@ export default function BenefitsOfHiringCommercialPaintersPage() {
   return (
     <div id="top">
       <Header />
+      <Breadcrumb items={[{ label: "Blog", path: "/blog/" }, { label: "Benefits of Hiring Commercial Painters", path: "/benefits-of-hiring-commercial-painters/" }]} />
+      <JsonLd data={articleSchema({
+          headline: "Benefits of Hiring Commercial Painters",
+          description: "Expert commercial painters, Priority One Coatings, can get a building back in working order soon. So, hiring a commercial painter can improve your painting project.",
+          path: "/benefits-of-hiring-commercial-painters",
+          image: "/images/renovation-crew-painting-in-a-room.jpg",
+          datePublished: "November 14, 2024",
+        })} />
       <main>
         <section className="bg-[#f6f7fc] pb-[60px] pt-[30px]">
           <div className="mx-auto max-w-[1430px] px-[15px]">

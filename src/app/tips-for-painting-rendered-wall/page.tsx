@@ -3,6 +3,9 @@ import Image from "next/image";
 import Link from "next/link";
 import { Mail } from "lucide-react";
 import Header from "@/components/Header";
+import Breadcrumb from "@/components/Breadcrumb";
+import JsonLd from "@/components/JsonLd";
+import { articleSchema } from "@/lib/schema";
 import Footer from "@/components/Footer";
 
 export const metadata: Metadata = {
@@ -66,6 +69,14 @@ export default function TipsForPaintingRenderedWallPage() {
   return (
     <div id="top">
       <Header />
+      <Breadcrumb items={[{ label: "Blog", path: "/blog/" }, { label: "Tips for Painting Rendered Wall", path: "/tips-for-painting-rendered-wall/" }]} />
+      <JsonLd data={articleSchema({
+          headline: "Tips for Painting Rendered Wall",
+          description: "With the right tools and the right kind of paint, you can easily paint over your home's cement-rendered walls. Check the tips to make your job easier.",
+          path: "/tips-for-painting-rendered-wall",
+          image: "/images/couple-painting-rendered-walls-together-scaled.jpg",
+          datePublished: "March 14, 2024",
+        })} />
       <main>
         <section className="bg-[#f6f7fc] pb-[60px] pt-[30px]">
           <div className="mx-auto max-w-[1430px] px-[15px]">

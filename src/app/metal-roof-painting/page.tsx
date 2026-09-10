@@ -3,6 +3,9 @@ import Image from "next/image";
 import Link from "next/link";
 import { Mail } from "lucide-react";
 import Header from "@/components/Header";
+import Breadcrumb from "@/components/Breadcrumb";
+import JsonLd from "@/components/JsonLd";
+import { articleSchema } from "@/lib/schema";
 import Footer from "@/components/Footer";
 
 export const metadata: Metadata = {
@@ -66,6 +69,14 @@ export default function MetalRoofPaintingPage() {
   return (
     <div id="top">
       <Header />
+      <Breadcrumb items={[{ label: "Blog", path: "/blog/" }, { label: "Painting Metal Roof – Tips & Tricks", path: "/metal-roof-painting/" }]} />
+      <JsonLd data={articleSchema({
+          headline: "Painting Metal Roof – Tips & Tricks",
+          description: "Painting a metal roof effectively with the right materials and techniques will enhance durability, prevent rust, and give the roof a fresh, long-lasting finish.",
+          path: "/metal-roof-painting",
+          image: "/images/painting-metal-roof-blog-banner.jpg",
+          datePublished: "October 20, 2025",
+        })} />
       <main>
         <section className="bg-[#f6f7fc] pb-[60px] pt-[30px]">
           <div className="mx-auto max-w-[1430px] px-[15px]">

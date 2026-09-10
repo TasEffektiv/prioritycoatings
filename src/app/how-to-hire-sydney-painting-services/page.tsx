@@ -3,6 +3,9 @@ import Image from "next/image";
 import Link from "next/link";
 import { Mail } from "lucide-react";
 import Header from "@/components/Header";
+import Breadcrumb from "@/components/Breadcrumb";
+import JsonLd from "@/components/JsonLd";
+import { articleSchema } from "@/lib/schema";
 import Footer from "@/components/Footer";
 
 export const metadata: Metadata = {
@@ -66,6 +69,14 @@ export default function HowToHireSydneyPaintingServicesPage() {
   return (
     <div id="top">
       <Header />
+      <Breadcrumb items={[{ label: "Blog", path: "/blog/" }, { label: "How to Hire Sydney Painting Services?", path: "/how-to-hire-sydney-painting-services/" }]} />
+      <JsonLd data={articleSchema({
+          headline: "How to Hire Sydney Painting Services?",
+          description: "Hiring Sydney painting services is not easy, but you can check this blog post to ensure you are not risking your property in amateur hands. Contact us today!",
+          path: "/how-to-hire-sydney-painting-services",
+          image: "/images/sydney-painting-services-blog-banner.jpg",
+          datePublished: "March 28, 2023",
+        })} />
       <main>
         <section className="bg-[#f6f7fc] pb-[60px] pt-[30px]">
           <div className="mx-auto max-w-[1430px] px-[15px]">

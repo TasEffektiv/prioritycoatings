@@ -3,6 +3,9 @@ import Image from "next/image";
 import Link from "next/link";
 import { Mail } from "lucide-react";
 import Header from "@/components/Header";
+import Breadcrumb from "@/components/Breadcrumb";
+import JsonLd from "@/components/JsonLd";
+import { articleSchema } from "@/lib/schema";
 import Footer from "@/components/Footer";
 
 export const metadata: Metadata = {
@@ -66,6 +69,14 @@ export default function DifferenceBetweenInteriorExteriorPaintPage() {
   return (
     <div id="top">
       <Header />
+      <Breadcrumb items={[{ label: "Blog", path: "/blog/" }, { label: "The Difference Between Interior & Exterior Paint", path: "/difference-between-interior-exterior-paint/" }]} />
+      <JsonLd data={articleSchema({
+          headline: "The Difference Between Interior & Exterior Paint",
+          description: "The difference between interior & exterior paint is in the formulation, and they are not interchangeable. So, to give your home a painting makeover, contact us.",
+          path: "/difference-between-interior-exterior-paint",
+          image: "/images/house-painting.jpg",
+          datePublished: "December 17, 2023",
+        })} />
       <main>
         <section className="bg-[#f6f7fc] pb-[60px] pt-[30px]">
           <div className="mx-auto max-w-[1430px] px-[15px]">

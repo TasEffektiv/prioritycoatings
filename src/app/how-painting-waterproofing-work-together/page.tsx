@@ -3,6 +3,9 @@ import Image from "next/image";
 import Link from "next/link";
 import { Mail } from "lucide-react";
 import Header from "@/components/Header";
+import Breadcrumb from "@/components/Breadcrumb";
+import JsonLd from "@/components/JsonLd";
+import { articleSchema } from "@/lib/schema";
 import Footer from "@/components/Footer";
 
 export const metadata: Metadata = {
@@ -66,6 +69,14 @@ export default function HowPaintingWaterproofingWorkTogetherPage() {
   return (
     <div id="top">
       <Header />
+      <Breadcrumb items={[{ label: "Blog", path: "/blog/" }, { label: "How Do Painting & Waterproofing Work Together", path: "/how-painting-waterproofing-work-together/" }]} />
+      <JsonLd data={articleSchema({
+          headline: "How Do Painting & Waterproofing Work Together",
+          description: "Discover why painting and waterproofing should be planned together to protect walls, roofs and interiors from moisture damage and premature paint failure.",
+          path: "/how-painting-waterproofing-work-together",
+          image: "/images/worker-applies-bitumen-mastic-on-foundation.jpg",
+          datePublished: "July 20, 2025",
+        })} />
       <main>
         <section className="bg-[#f6f7fc] pb-[60px] pt-[30px]">
           <div className="mx-auto max-w-[1430px] px-[15px]">

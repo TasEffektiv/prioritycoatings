@@ -3,6 +3,9 @@ import Image from "next/image";
 import Link from "next/link";
 import { Mail } from "lucide-react";
 import Header from "@/components/Header";
+import Breadcrumb from "@/components/Breadcrumb";
+import JsonLd from "@/components/JsonLd";
+import { articleSchema } from "@/lib/schema";
 import Footer from "@/components/Footer";
 import BlogSidebar from "@/components/blog/BlogSidebar";
 
@@ -35,6 +38,14 @@ export default function PlanForYourNextCommercialPaintingProjectPage() {
   return (
     <div id="top">
       <Header />
+      <Breadcrumb items={[{ label: "Blog", path: "/blog/" }, { label: "Plan for Your Next Commercial Painting Project", path: "/plan-for-your-next-commercial-painting-project/" }]} />
+      <JsonLd data={articleSchema({
+          headline: "Plan for Your Next Commercial Painting Project",
+          description: "Planning a commercial painting project? Follow these steps to schedule, budget and choose the right commercial painters in Sydney with Priority One Coatings.",
+          path: "/plan-for-your-next-commercial-painting-project",
+          image: "/images/painter-spraying-powder-paint-from-gun.jpg",
+          datePublished: "August 28, 2023",
+        })} />
       <main>
         <section className="bg-[#f6f7fc] pb-[60px] pt-[30px]">
           <div className="mx-auto max-w-[1430px] px-[15px]">

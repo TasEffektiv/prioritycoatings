@@ -3,6 +3,9 @@ import Image from "next/image";
 import Link from "next/link";
 import { Mail } from "lucide-react";
 import Header from "@/components/Header";
+import Breadcrumb from "@/components/Breadcrumb";
+import JsonLd from "@/components/JsonLd";
+import { articleSchema } from "@/lib/schema";
 import Footer from "@/components/Footer";
 
 export const metadata: Metadata = {
@@ -67,6 +70,14 @@ export default function WinterInteriorPaintingPage() {
   return (
     <div id="top">
       <Header />
+      <Breadcrumb items={[{ label: "Blog", path: "/blog/" }, { label: "Why Winter Is a Good Time for Interior Painting Jobs", path: "/why-winter-is-a-good-time-for-interior-painting-jobs/" }]} />
+      <JsonLd data={articleSchema({
+          headline: "Why Winter Is a Good Time for Interior Painting Jobs",
+          description: "Discover why winter can be the ideal season for interior painting jobs, from cheaper quotes and faster drying times to more flexible scheduling.",
+          path: "/why-winter-is-a-good-time-for-interior-painting-jobs",
+          image: "/images/reasons-to-paint-your-home-interior-in-winter.png",
+          datePublished: "July 26, 2016",
+        })} />
       <main>
         <section className="bg-[#f6f7fc] pb-[60px] pt-[30px]">
           <div className="mx-auto max-w-[1430px] px-[15px]">

@@ -3,6 +3,9 @@ import Image from "next/image";
 import Link from "next/link";
 import { Mail } from "lucide-react";
 import Header from "@/components/Header";
+import Breadcrumb from "@/components/Breadcrumb";
+import JsonLd from "@/components/JsonLd";
+import { articleSchema } from "@/lib/schema";
 import Footer from "@/components/Footer";
 
 export const metadata: Metadata = {
@@ -66,6 +69,14 @@ export default function BenefitsOfHiringProfessionalPaintersSydneyPage() {
   return (
     <div id="top">
       <Header />
+      <Breadcrumb items={[{ label: "Blog", path: "/blog/" }, { label: "The Benefits of Hiring Professional Painters in Sydney", path: "/benefits-of-hiring-professional-painters-sydney/" }]} />
+      <JsonLd data={articleSchema({
+          headline: "The Benefits of Hiring Professional Painters in Sydney",
+          description: "Discover why hiring professional painters in Sydney beats DIY, from expertise and quality finishes to cost-effectiveness and reliable, insured service.",
+          path: "/benefits-of-hiring-professional-painters-sydney",
+          image: "/images/professional-painters-blog-banner.jpg",
+          datePublished: "July 18, 2023",
+        })} />
       <main>
         <section className="bg-[#f6f7fc] pb-[60px] pt-[30px]">
           <div className="mx-auto max-w-[1430px] px-[15px]">

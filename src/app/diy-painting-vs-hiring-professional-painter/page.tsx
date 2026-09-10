@@ -3,6 +3,9 @@ import Image from "next/image";
 import Link from "next/link";
 import { Mail } from "lucide-react";
 import Header from "@/components/Header";
+import Breadcrumb from "@/components/Breadcrumb";
+import JsonLd from "@/components/JsonLd";
+import { articleSchema } from "@/lib/schema";
 import Footer from "@/components/Footer";
 
 export const metadata: Metadata = {
@@ -66,6 +69,14 @@ export default function DiyPaintingVsHiringProfessionalPainterPage() {
   return (
     <div id="top">
       <Header />
+      <Breadcrumb items={[{ label: "Blog", path: "/blog/" }, { label: "DIY Painting vs Hiring a Professional Painter", path: "/diy-painting-vs-hiring-professional-painter/" }]} />
+      <JsonLd data={articleSchema({
+          headline: "DIY Painting vs Hiring a Professional Painter",
+          description: "When painting your property in Sydney, there are many things to consider. Let's check if DIY paint or professional paint works best for you. For more, contact us!",
+          path: "/diy-painting-vs-hiring-professional-painter",
+          image: "/images/diy-painting-vs-hiring-professional-painter-blog-banner.jpg",
+          datePublished: "November 6, 2023",
+        })} />
       <main>
         <section className="bg-[#f6f7fc] pb-[60px] pt-[30px]">
           <div className="mx-auto max-w-[1430px] px-[15px]">

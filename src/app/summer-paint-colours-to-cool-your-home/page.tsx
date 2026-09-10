@@ -3,6 +3,9 @@ import Image from "next/image";
 import Link from "next/link";
 import { Mail } from "lucide-react";
 import Header from "@/components/Header";
+import Breadcrumb from "@/components/Breadcrumb";
+import JsonLd from "@/components/JsonLd";
+import { articleSchema } from "@/lib/schema";
 import Footer from "@/components/Footer";
 
 export const metadata: Metadata = {
@@ -66,6 +69,14 @@ export default function SummerPaintColoursToCoolYourHomePage() {
   return (
     <div id="top">
       <Header />
+      <Breadcrumb items={[{ label: "Blog", path: "/blog/" }, { label: "Summer Paint Colours to Cool Your Home", path: "/summer-paint-colours-to-cool-your-home/" }]} />
+      <JsonLd data={articleSchema({
+          headline: "Summer Paint Colours to Cool Your Home",
+          description: "If you are a homeowner in Sydney struggling to manage your property during the summertime, a cool colour palette for a house painting project can help you a lot.",
+          path: "/summer-paint-colours-to-cool-your-home",
+          image: "/images/kitchen-with-island-and-table.jpg",
+          datePublished: "December 7, 2023",
+        })} />
       <main>
         <section className="bg-[#f6f7fc] pb-[60px] pt-[30px]">
           <div className="mx-auto max-w-[1430px] px-[15px]">

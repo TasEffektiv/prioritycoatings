@@ -3,6 +3,9 @@ import Image from "next/image";
 import Link from "next/link";
 import { Mail } from "lucide-react";
 import Header from "@/components/Header";
+import Breadcrumb from "@/components/Breadcrumb";
+import JsonLd from "@/components/JsonLd";
+import { articleSchema } from "@/lib/schema";
 import Footer from "@/components/Footer";
 
 export const metadata: Metadata = {
@@ -66,6 +69,14 @@ export default function HowToCleanPaintedWallsPage() {
   return (
     <div id="top">
       <Header />
+      <Breadcrumb items={[{ label: "Blog", path: "/blog/" }, { label: "How to Clean Painted Walls", path: "/how-to-clean-painted-walls/" }]} />
+      <JsonLd data={articleSchema({
+          headline: "How to Clean Painted Walls",
+          description: "Check out how to clean walls to remove scuffs and stains from all paint finishes. Our Sydney painters can remove every kind of stain from walls. Call us today.",
+          path: "/how-to-clean-painted-walls",
+          image: "/images/hand-in-a-rubber-yellow-glove-wipes-a-chalked-heart-on-a-wall-with-a-sponge.jpg",
+          datePublished: "January 4, 2024",
+        })} />
       <main>
         <section className="bg-[#f6f7fc] pb-[60px] pt-[30px]">
           <div className="mx-auto max-w-[1430px] px-[15px]">

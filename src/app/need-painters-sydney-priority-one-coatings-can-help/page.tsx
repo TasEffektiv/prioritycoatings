@@ -3,6 +3,9 @@ import Image from "next/image";
 import Link from "next/link";
 import { Mail } from "lucide-react";
 import Header from "@/components/Header";
+import Breadcrumb from "@/components/Breadcrumb";
+import JsonLd from "@/components/JsonLd";
+import { articleSchema } from "@/lib/schema";
 import Footer from "@/components/Footer";
 
 export const metadata: Metadata = {
@@ -66,6 +69,14 @@ export default function NeedPaintersSydneyPriorityOneCoatingsCanHelpPage() {
   return (
     <div id="top">
       <Header />
+      <Breadcrumb items={[{ label: "Blog", path: "/blog/" }, { label: "Need Painters in Sydney? Priority One Coatings Can Help", path: "/need-painters-sydney-priority-one-coatings-can-help/" }]} />
+      <JsonLd data={articleSchema({
+          headline: "Need Painters in Sydney? Priority One Coatings Can Help",
+          description: "Choosing the right painting company matters. See why Priority One Coatings is one of Sydney's leading painting contractors for homes, offices and strata.",
+          path: "/need-painters-sydney-priority-one-coatings-can-help",
+          image: "/images/sydney-painters-priority-one-coatings.jpg",
+          datePublished: "February 7, 2023",
+        })} />
       <main>
         <section className="bg-[#f6f7fc] pb-[60px] pt-[30px]">
           <div className="mx-auto max-w-[1430px] px-[15px]">

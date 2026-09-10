@@ -3,6 +3,9 @@ import Image from "next/image";
 import Link from "next/link";
 import { Mail } from "lucide-react";
 import Header from "@/components/Header";
+import Breadcrumb from "@/components/Breadcrumb";
+import JsonLd from "@/components/JsonLd";
+import { articleSchema } from "@/lib/schema";
 import Footer from "@/components/Footer";
 
 export const metadata: Metadata = {
@@ -66,6 +69,14 @@ export default function CommonCausesPeelingPaintWallsPage() {
   return (
     <div id="top">
       <Header />
+      <Breadcrumb items={[{ label: "Blog", path: "/blog/" }, { label: "7 Common Causes of Peeling Paint on Walls", path: "/common-causes-peeling-paint-walls/" }]} />
+      <JsonLd data={articleSchema({
+          headline: "7 Common Causes of Peeling Paint on Walls",
+          description: "Peeling paint is more than an eyesore — it can point to moisture, humidity, poor surface prep or even a lead paint health risk. Discover the 7 most common causes of peeling paint on walls and how to stop it for good.",
+          path: "/common-causes-peeling-paint-walls",
+          image: "/images/Common-Causes-of-Peeling-Paint-on-Walls-prioritycoatings.com_.au_.png",
+          datePublished: "May 19, 2019",
+        })} />
       <main>
         <section className="bg-[#f6f7fc] pb-[60px] pt-[30px]">
           <div className="mx-auto max-w-[1430px] px-[15px]">

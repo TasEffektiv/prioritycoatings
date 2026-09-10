@@ -3,6 +3,9 @@ import Image from "next/image";
 import Link from "next/link";
 import { Mail } from "lucide-react";
 import Header from "@/components/Header";
+import Breadcrumb from "@/components/Breadcrumb";
+import JsonLd from "@/components/JsonLd";
+import { articleSchema } from "@/lib/schema";
 import Footer from "@/components/Footer";
 
 export const metadata: Metadata = {
@@ -66,6 +69,14 @@ export default function GetYourEpoxyFlooringDoneWithPriorityOneCoatingsPage() {
   return (
     <div id="top">
       <Header />
+      <Breadcrumb items={[{ label: "Blog", path: "/blog/" }, { label: "Get Your Epoxy Flooring Done with Our Epoxy Floor Coating Experts in Sydney", path: "/get-your-epoxy-flooring-done-with-priority-one-coatings/" }]} />
+      <JsonLd data={articleSchema({
+          headline: "Get Your Epoxy Flooring Done with Our Epoxy Floor Coating Experts in Sydney",
+          description: "If you want your epoxy flooring done with the best epoxy flooring contractor in Sydney, hire Priority One Coatings. For the best epoxy floor coatings. contact us.",
+          path: "/get-your-epoxy-flooring-done-with-priority-one-coatings",
+          image: "/images/epoxy-floor-coatings-1.jpg",
+          datePublished: "May 11, 2023",
+        })} />
       <main>
         <section className="bg-[#f6f7fc] pb-[60px] pt-[30px]">
           <div className="mx-auto max-w-[1430px] px-[15px]">

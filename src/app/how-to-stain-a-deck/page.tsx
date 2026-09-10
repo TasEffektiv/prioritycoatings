@@ -3,6 +3,9 @@ import Image from "next/image";
 import Link from "next/link";
 import { Mail } from "lucide-react";
 import Header from "@/components/Header";
+import Breadcrumb from "@/components/Breadcrumb";
+import JsonLd from "@/components/JsonLd";
+import { articleSchema } from "@/lib/schema";
 import Footer from "@/components/Footer";
 
 export const metadata: Metadata = {
@@ -66,6 +69,14 @@ export default function HowToStainADeckPage() {
   return (
     <div id="top">
       <Header />
+      <Breadcrumb items={[{ label: "Blog", path: "/blog/" }, { label: "How to Stain a Deck", path: "/how-to-stain-a-deck/" }]} />
+      <JsonLd data={articleSchema({
+          headline: "How to Stain a Deck",
+          description: "Staining your deck will help to preserve the timber and keep it looking fresh, making it a worthwhile investment for your outdoor space. Let's stain your deck.",
+          path: "/how-to-stain-a-deck",
+          image: "/images/how-to-stain-a-deck-blog-banner.jpg",
+          datePublished: "February 20, 2024",
+        })} />
       <main>
         <section className="bg-[#f6f7fc] pb-[60px] pt-[30px]">
           <div className="mx-auto max-w-[1430px] px-[15px]">

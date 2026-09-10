@@ -3,6 +3,9 @@ import Image from "next/image";
 import Link from "next/link";
 import { Mail } from "lucide-react";
 import Header from "@/components/Header";
+import Breadcrumb from "@/components/Breadcrumb";
+import JsonLd from "@/components/JsonLd";
+import { articleSchema } from "@/lib/schema";
 import Footer from "@/components/Footer";
 
 export const metadata: Metadata = {
@@ -66,6 +69,14 @@ export default function HowToTreatPreventMouldOnWallsPage() {
   return (
     <div id="top">
       <Header />
+      <Breadcrumb items={[{ label: "Blog", path: "/blog/" }, { label: "How to Treat & Prevent Mould on Walls", path: "/how-to-treat-prevent-mould-on-walls/" }]} />
+      <JsonLd data={articleSchema({
+          headline: "How to Treat & Prevent Mould on Walls",
+          description: "The key to mould prevention is keeping air moisture to a minimum. Let's discover how to treat and prevent mould in your bathrooms, kitchens, rooms, and laundry.",
+          path: "/how-to-treat-prevent-mould-on-walls",
+          image: "/images/white-ceramic-bathtub-scaled.jpg",
+          datePublished: "November 20, 2023",
+        })} />
       <main>
         <section className="bg-[#f6f7fc] pb-[60px] pt-[30px]">
           <div className="mx-auto max-w-[1430px] px-[15px]">

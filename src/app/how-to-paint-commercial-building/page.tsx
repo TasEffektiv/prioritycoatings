@@ -3,6 +3,9 @@ import Image from "next/image";
 import Link from "next/link";
 import { Mail } from "lucide-react";
 import Header from "@/components/Header";
+import Breadcrumb from "@/components/Breadcrumb";
+import JsonLd from "@/components/JsonLd";
+import { articleSchema } from "@/lib/schema";
 import Footer from "@/components/Footer";
 
 export const metadata: Metadata = {
@@ -66,6 +69,14 @@ export default function HowToPaintCommercialBuildingPage() {
   return (
     <div id="top">
       <Header />
+      <Breadcrumb items={[{ label: "Blog", path: "/blog/" }, { label: "How to Paint a Commercial Building?", path: "/how-to-paint-commercial-building/" }]} />
+      <JsonLd data={articleSchema({
+          headline: "How to Paint a Commercial Building?",
+          description: "Painting commercial buildings comes with its own set of challenges. Check the top tips for interior and exterior commercial building painting for next project.",
+          path: "/how-to-paint-commercial-building",
+          image: "/images/paint-commercial-building.jpg",
+          datePublished: "November 22, 2022",
+        })} />
       <main>
         <section className="bg-[#f6f7fc] pb-[60px] pt-[30px]">
           <div className="mx-auto max-w-[1430px] px-[15px]">

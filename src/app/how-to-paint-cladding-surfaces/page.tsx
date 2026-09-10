@@ -3,6 +3,9 @@ import Image from "next/image";
 import Link from "next/link";
 import { Mail } from "lucide-react";
 import Header from "@/components/Header";
+import Breadcrumb from "@/components/Breadcrumb";
+import JsonLd from "@/components/JsonLd";
+import { articleSchema } from "@/lib/schema";
 import Footer from "@/components/Footer";
 
 export const metadata: Metadata = {
@@ -66,6 +69,14 @@ export default function HowToPaintCladdingSurfacesPage() {
   return (
     <div id="top">
       <Header />
+      <Breadcrumb items={[{ label: "Blog", path: "/blog/" }, { label: "How to Paint Cladding Surfaces", path: "/how-to-paint-cladding-surfaces/" }]} />
+      <JsonLd data={articleSchema({
+          headline: "How to Paint Cladding Surfaces",
+          description: "Cladding, mainly wood, often requires painting or staining. Check out some expert tips for a successful cladding painting project. For more info, contact us.",
+          path: "/how-to-paint-cladding-surfaces",
+          image: "/images/facade-of-a-regular-size-simple-house.jpg",
+          datePublished: "March 21, 2024",
+        })} />
       <main>
         <section className="bg-[#f6f7fc] pb-[60px] pt-[30px]">
           <div className="mx-auto max-w-[1430px] px-[15px]">

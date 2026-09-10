@@ -3,6 +3,9 @@ import Image from "next/image";
 import Link from "next/link";
 import { Mail } from "lucide-react";
 import Header from "@/components/Header";
+import Breadcrumb from "@/components/Breadcrumb";
+import JsonLd from "@/components/JsonLd";
+import { articleSchema } from "@/lib/schema";
 import Footer from "@/components/Footer";
 
 export const metadata: Metadata = {
@@ -66,6 +69,14 @@ export default function PaintScrapingVsPressureWashingPage() {
   return (
     <div id="top">
       <Header />
+      <Breadcrumb items={[{ label: "Blog", path: "/blog/" }, { label: "Paint Scraping vs. Pressure Washing", path: "/paint-scraping-vs-pressure-washing/" }]} />
+      <JsonLd data={articleSchema({
+          headline: "Paint Scraping vs. Pressure Washing",
+          description: "For surface preparation, pressure washing usually outperforms paint scraping. Explore which one is the best pre-paint process for cleaning to paint adhesion.",
+          path: "/paint-scraping-vs-pressure-washing",
+          image: "/images/paint-scraping-vs-pressure-washing-blog-banner.jpg",
+          datePublished: "March 30, 2025",
+        })} />
       <main>
         <section className="bg-[#f6f7fc] pb-[60px] pt-[30px]">
           <div className="mx-auto max-w-[1430px] px-[15px]">

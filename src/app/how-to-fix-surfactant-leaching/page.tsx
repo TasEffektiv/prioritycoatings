@@ -3,6 +3,9 @@ import Image from "next/image";
 import Link from "next/link";
 import { Mail } from "lucide-react";
 import Header from "@/components/Header";
+import Breadcrumb from "@/components/Breadcrumb";
+import JsonLd from "@/components/JsonLd";
+import { articleSchema } from "@/lib/schema";
 import Footer from "@/components/Footer";
 
 export const metadata: Metadata = {
@@ -66,6 +69,14 @@ export default function HowToFixSurfactantLeachingPage() {
   return (
     <div id="top">
       <Header />
+      <Breadcrumb items={[{ label: "Blog", path: "/blog/" }, { label: "Guide on Surfactant Leaching", path: "/how-to-fix-surfactant-leaching/" }]} />
+      <JsonLd data={articleSchema({
+          headline: "Guide on Surfactant Leaching",
+          description: "Surfactant leaching, an issue with latex paints, is caused by cool, humid conditions during the paint drying. Check easy prevention tips for surfactant leaching.",
+          path: "/how-to-fix-surfactant-leaching",
+          image: "/images/brush-dipped-in-a-jar-with-paint.jpg",
+          datePublished: "April 21, 2025",
+        })} />
       <main>
         <section className="bg-[#f6f7fc] pb-[60px] pt-[30px]">
           <div className="mx-auto max-w-[1430px] px-[15px]">

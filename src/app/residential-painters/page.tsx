@@ -2,6 +2,9 @@ import type { Metadata } from "next";
 import Image from "next/image";
 import { CheckCircle2, Phone } from "lucide-react";
 import Header from "@/components/Header";
+import Breadcrumb from "@/components/Breadcrumb";
+import JsonLd from "@/components/JsonLd";
+import { serviceSchema } from "@/lib/schema";
 import Footer from "@/components/Footer";
 import Faq from "@/components/Faq";
 import QuoteForm from "@/components/QuoteForm";
@@ -151,6 +154,13 @@ export default function ResidentialPaintersPage() {
   return (
     <div id="top">
       <Header />
+      <Breadcrumb items={[{ label: "Residential Painting", path: "/residential-painters/" }]} />
+      <JsonLd data={serviceSchema({
+          name: "Residential Painting",
+          description:
+            "Our expert house painters offer the highest quality of interior & exterior residential painting in Sydney. For affordable house painting services, contact us!",
+          path: "/residential-painters",
+        })} />
       <main>
         {/* Hero: navy title band */}
         <section

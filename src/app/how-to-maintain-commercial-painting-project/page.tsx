@@ -3,6 +3,9 @@ import Image from "next/image";
 import Link from "next/link";
 import { Mail } from "lucide-react";
 import Header from "@/components/Header";
+import Breadcrumb from "@/components/Breadcrumb";
+import JsonLd from "@/components/JsonLd";
+import { articleSchema } from "@/lib/schema";
 import Footer from "@/components/Footer";
 
 export const metadata: Metadata = {
@@ -66,6 +69,14 @@ export default function HowToMaintainCommercialPaintingProjectPage() {
   return (
     <div id="top">
       <Header />
+      <Breadcrumb items={[{ label: "Blog", path: "/blog/" }, { label: "How to Maintain Your Commercial Painting Project", path: "/how-to-maintain-commercial-painting-project/" }]} />
+      <JsonLd data={articleSchema({
+          headline: "How to Maintain Your Commercial Painting Project",
+          description: "From project planning to regular cleaning and paint finish upkeep, learn how to maintain your commercial painting project with tips from Priority One Coatings.",
+          path: "/how-to-maintain-commercial-painting-project",
+          image: "/images/bright-new-commercial-buildings.jpg",
+          datePublished: "December 22, 2022",
+        })} />
       <main>
         <section className="bg-[#f6f7fc] pb-[60px] pt-[30px]">
           <div className="mx-auto max-w-[1430px] px-[15px]">

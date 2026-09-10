@@ -3,6 +3,9 @@ import Image from "next/image";
 import Link from "next/link";
 import { Mail } from "lucide-react";
 import Header from "@/components/Header";
+import Breadcrumb from "@/components/Breadcrumb";
+import JsonLd from "@/components/JsonLd";
+import { articleSchema } from "@/lib/schema";
 import Footer from "@/components/Footer";
 
 export const metadata: Metadata = {
@@ -66,6 +69,14 @@ export default function TopInteriorPaintIdeasFor2024Page() {
   return (
     <div id="top">
       <Header />
+      <Breadcrumb items={[{ label: "Blog", path: "/blog/" }, { label: "Top Interior Paint Ideas for 2024: Elevate Your Space with Colour", path: "/top-interior-paint-ideas-for-2024/" }]} />
+      <JsonLd data={articleSchema({
+          headline: "Top Interior Paint Ideas for 2024: Elevate Your Space with Colour",
+          description: "As we enter 2024, a fresh new wave of paint trends is emerging. Let's explore the hottest interior paint ideas for 2024 that will redefine your living spaces.",
+          path: "/top-interior-paint-ideas-for-2024",
+          image: "/images/orange-and-black-sofa-with-throw-pillows-scaled.jpg",
+          datePublished: "January 11, 2024",
+        })} />
       <main>
         <section className="bg-[#f6f7fc] pb-[60px] pt-[30px]">
           <div className="mx-auto max-w-[1430px] px-[15px]">

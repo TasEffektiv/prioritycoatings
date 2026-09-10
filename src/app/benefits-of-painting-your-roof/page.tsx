@@ -3,6 +3,9 @@ import Image from "next/image";
 import Link from "next/link";
 import { Mail } from "lucide-react";
 import Header from "@/components/Header";
+import Breadcrumb from "@/components/Breadcrumb";
+import JsonLd from "@/components/JsonLd";
+import { articleSchema } from "@/lib/schema";
 import Footer from "@/components/Footer";
 
 export const metadata: Metadata = {
@@ -66,6 +69,14 @@ export default function BenefitsOfPaintingYourRoofPage() {
   return (
     <div id="top">
       <Header />
+      <Breadcrumb items={[{ label: "Blog", path: "/blog/" }, { label: "Benefits of Painting Your Roof", path: "/benefits-of-painting-your-roof/" }]} />
+      <JsonLd data={articleSchema({
+          headline: "Benefits of Painting Your Roof",
+          description: "Regular roof painting can help keep your home cooler and save on energy. It also maintains your roof's quality. Check the benefits of painting for aged roofs.",
+          path: "/benefits-of-painting-your-roof",
+          image: "/images/roofers-working-together-with-helmets-scaled.jpg",
+          datePublished: "February 13, 2024",
+        })} />
       <main>
         <section className="bg-[#f6f7fc] pb-[60px] pt-[30px]">
           <div className="mx-auto max-w-[1430px] px-[15px]">

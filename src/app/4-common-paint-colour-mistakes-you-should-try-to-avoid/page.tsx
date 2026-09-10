@@ -3,6 +3,9 @@ import Image from "next/image";
 import Link from "next/link";
 import { Mail } from "lucide-react";
 import Header from "@/components/Header";
+import Breadcrumb from "@/components/Breadcrumb";
+import JsonLd from "@/components/JsonLd";
+import { articleSchema } from "@/lib/schema";
 import Footer from "@/components/Footer";
 
 export const metadata: Metadata = {
@@ -67,6 +70,14 @@ export default function PaintColourMistakesPage() {
   return (
     <div id="top">
       <Header />
+      <Breadcrumb items={[{ label: "Blog", path: "/blog/" }, { label: "4 Common Paint Colour Mistakes You Should Try to Avoid", path: "/4-common-paint-colour-mistakes-you-should-try-to-avoid/" }]} />
+      <JsonLd data={articleSchema({
+          headline: "4 Common Paint Colour Mistakes You Should Try to Avoid",
+          description: "Choosing a paint colour is trickier than it looks. Learn four common colour mistakes homeowners make and how to avoid them with help from Sydney painters.",
+          path: "/4-common-paint-colour-mistakes-you-should-try-to-avoid",
+          image: "/images/common-paint-colour-mistakes-to-avoid.jpg",
+          datePublished: "January 24, 2017",
+        })} />
       <main>
         <section className="bg-[#f6f7fc] pb-[60px] pt-[30px]">
           <div className="mx-auto max-w-[1430px] px-[15px]">

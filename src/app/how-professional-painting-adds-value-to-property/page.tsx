@@ -3,6 +3,9 @@ import Image from "next/image";
 import Link from "next/link";
 import { Mail } from "lucide-react";
 import Header from "@/components/Header";
+import Breadcrumb from "@/components/Breadcrumb";
+import JsonLd from "@/components/JsonLd";
+import { articleSchema } from "@/lib/schema";
 import Footer from "@/components/Footer";
 
 export const metadata: Metadata = {
@@ -66,6 +69,14 @@ export default function HowProfessionalPaintingAddsValueToPropertyPage() {
   return (
     <div id="top">
       <Header />
+      <Breadcrumb items={[{ label: "Blog", path: "/blog/" }, { label: "How Professional Painting Can Add Value to Your Property", path: "/how-professional-painting-adds-value-to-property/" }]} />
+      <JsonLd data={articleSchema({
+          headline: "How Professional Painting Can Add Value to Your Property",
+          description: "Professional painting can enhance curb appeal, durability, and market value of your Sydney home. Learn how expert Sydney painters boost your property&rsquo;s value.",
+          path: "/how-professional-painting-adds-value-to-property",
+          image: "/images/room-painting-job-painting-roller-in-hand-of-worker.jpg",
+          datePublished: "September 20, 2025",
+        })} />
       <main>
         <section className="bg-[#f6f7fc] pb-[60px] pt-[30px]">
           <div className="mx-auto max-w-[1430px] px-[15px]">

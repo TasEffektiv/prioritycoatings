@@ -67,7 +67,7 @@ export default function ContactUsPage() {
     <div id="top">
       <Header />
       <main>
-        <PageHeader title="Contact Us" />
+        <PageHeader path="/contact-us" title="Contact Us" />
 
         <section className="relative z-10 py-16 md:py-24">
           <div className="mx-auto grid max-w-[1400px] grid-cols-1 gap-12 px-6 lg:grid-cols-2 lg:items-start">

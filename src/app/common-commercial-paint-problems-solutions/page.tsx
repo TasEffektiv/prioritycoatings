@@ -3,6 +3,9 @@ import Image from "next/image";
 import Link from "next/link";
 import { Mail } from "lucide-react";
 import Header from "@/components/Header";
+import Breadcrumb from "@/components/Breadcrumb";
+import JsonLd from "@/components/JsonLd";
+import { articleSchema } from "@/lib/schema";
 import Footer from "@/components/Footer";
 
 export const metadata: Metadata = {
@@ -66,6 +69,14 @@ export default function CommonCommercialPaintProblemsSolutionsPage() {
   return (
     <div id="top">
       <Header />
+      <Breadcrumb items={[{ label: "Blog", path: "/blog/" }, { label: "Common Commercial Paint Problems & Solutions", path: "/common-commercial-paint-problems-solutions/" }]} />
+      <JsonLd data={articleSchema({
+          headline: "Common Commercial Paint Problems & Solutions",
+          description: "Discover common commercial paint problems such as bubbling, chalking, mould and cracking, along with expert solutions from Priority One Coatings' Sydney painters.",
+          path: "/common-commercial-paint-problems-solutions",
+          image: "/images/commercial-paint-problems-solution-banner.jpg",
+          datePublished: "March 16, 2023",
+        })} />
       <main>
         <section className="bg-[#f6f7fc] pb-[60px] pt-[30px]">
           <div className="mx-auto max-w-[1430px] px-[15px]">

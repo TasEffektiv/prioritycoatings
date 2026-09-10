@@ -3,6 +3,9 @@ import Image from "next/image";
 import Link from "next/link";
 import { Mail } from "lucide-react";
 import Header from "@/components/Header";
+import Breadcrumb from "@/components/Breadcrumb";
+import JsonLd from "@/components/JsonLd";
+import { articleSchema } from "@/lib/schema";
 import Footer from "@/components/Footer";
 
 export const metadata: Metadata = {
@@ -66,6 +69,14 @@ export default function WaysToGetRidOfPaintSmellsPage() {
   return (
     <div id="top">
       <Header />
+      <Breadcrumb items={[{ label: "Blog", path: "/blog/" }, { label: "Natural Ways to Eliminate the Smell of Fresh Paint", path: "/ways-to-get-rid-of-paint-smells/" }]} />
+      <JsonLd data={articleSchema({
+          headline: "Natural Ways to Eliminate the Smell of Fresh Paint",
+          description: "Paint fumes made you nauseous? Can't stand the lingering smell of fresh paint? Check the tips and tricks to minimise or eliminate the aroma of paint. Contact us.",
+          path: "/ways-to-get-rid-of-paint-smells",
+          image: "/images/ways-to-remove-paint-smell-blog-banner-1.jpg",
+          datePublished: "March 28, 2024",
+        })} />
       <main>
         <section className="bg-[#f6f7fc] pb-[60px] pt-[30px]">
           <div className="mx-auto max-w-[1430px] px-[15px]">

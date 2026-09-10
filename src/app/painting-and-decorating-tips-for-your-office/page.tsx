@@ -3,6 +3,9 @@ import Image from "next/image";
 import Link from "next/link";
 import { Mail } from "lucide-react";
 import Header from "@/components/Header";
+import Breadcrumb from "@/components/Breadcrumb";
+import JsonLd from "@/components/JsonLd";
+import { articleSchema } from "@/lib/schema";
 import Footer from "@/components/Footer";
 
 export const metadata: Metadata = {
@@ -67,6 +70,14 @@ export default function OfficePaintingDecoratingTipsPage() {
   return (
     <div id="top">
       <Header />
+      <Breadcrumb items={[{ label: "Blog", path: "/blog/" }, { label: "Painting and Decorating Tips for Your Office", path: "/painting-and-decorating-tips-for-your-office/" }]} />
+      <JsonLd data={articleSchema({
+          headline: "Painting and Decorating Tips for Your Office",
+          description: "Choosing office paint colours affects mood and productivity. Explore colour psychology and practical decorating tips for commercial workplaces.",
+          path: "/painting-and-decorating-tips-for-your-office",
+          image: "/images/painting-and-decorating-tips-for-your-office-banner.png",
+          datePublished: "May 12, 2016",
+        })} />
       <main>
         <section className="bg-[#f6f7fc] pb-[60px] pt-[30px]">
           <div className="mx-auto max-w-[1430px] px-[15px]">

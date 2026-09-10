@@ -3,6 +3,9 @@ import Image from "next/image";
 import Link from "next/link";
 import { Mail } from "lucide-react";
 import Header from "@/components/Header";
+import Breadcrumb from "@/components/Breadcrumb";
+import JsonLd from "@/components/JsonLd";
+import { articleSchema } from "@/lib/schema";
 import Footer from "@/components/Footer";
 
 export const metadata: Metadata = {
@@ -66,6 +69,14 @@ export default function BestPaintColoursForDarkRoomsPage() {
   return (
     <div id="top">
       <Header />
+      <Breadcrumb items={[{ label: "Blog", path: "/blog/" }, { label: "The Best Paint Colours for Dark Rooms", path: "/best-paint-colours-for-dark-rooms/" }]} />
+      <JsonLd data={articleSchema({
+          headline: "The Best Paint Colours for Dark Rooms",
+          description: "One of the best colours to use in a room with low natural light is a light neutral with warm undertones. Let's explore which colours work best for dark rooms.",
+          path: "/best-paint-colours-for-dark-rooms",
+          image: "/images/dark-room-inside-house-scaled.jpg",
+          datePublished: "May 6, 2024",
+        })} />
       <main>
         <section className="bg-[#f6f7fc] pb-[60px] pt-[30px]">
           <div className="mx-auto max-w-[1430px] px-[15px]">

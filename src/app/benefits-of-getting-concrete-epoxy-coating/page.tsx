@@ -3,6 +3,9 @@ import Image from "next/image";
 import Link from "next/link";
 import { Mail } from "lucide-react";
 import Header from "@/components/Header";
+import Breadcrumb from "@/components/Breadcrumb";
+import JsonLd from "@/components/JsonLd";
+import { articleSchema } from "@/lib/schema";
 import Footer from "@/components/Footer";
 
 export const metadata: Metadata = {
@@ -66,6 +69,14 @@ export default function BenefitsOfGettingConcreteEpoxyCoatingPage() {
   return (
     <div id="top">
       <Header />
+      <Breadcrumb items={[{ label: "Blog", path: "/blog/" }, { label: "Benefits of Getting Concrete Epoxy Coating", path: "/benefits-of-getting-concrete-epoxy-coating/" }]} />
+      <JsonLd data={articleSchema({
+          headline: "Benefits of Getting Concrete Epoxy Coating",
+          description: "If old concrete floor needs renovation, epoxy is one of the best materials to update the look and prevent future wear & tear. Check the benefits of concrete epoxy coating.",
+          path: "/benefits-of-getting-concrete-epoxy-coating",
+          image: "/images/garage-with-concrete-ceiling-flooring-scaled.jpg",
+          datePublished: "June 13, 2024",
+        })} />
       <main>
         <section className="bg-[#f6f7fc] pb-[60px] pt-[30px]">
           <div className="mx-auto max-w-[1430px] px-[15px]">

@@ -2,6 +2,9 @@ import type { Metadata } from "next";
 import Image from "next/image";
 import { CheckCircle2, Phone } from "lucide-react";
 import Header from "@/components/Header";
+import Breadcrumb from "@/components/Breadcrumb";
+import JsonLd from "@/components/JsonLd";
+import { serviceSchema } from "@/lib/schema";
 import Footer from "@/components/Footer";
 import Faq from "@/components/Faq";
 import QuoteForm from "@/components/QuoteForm";
@@ -123,6 +126,13 @@ export default function LeadPaintRemovalPage() {
   return (
     <div id="top">
       <Header />
+      <Breadcrumb items={[{ label: "Lead Paint Removal", path: "/lead-paint-removal/" }]} />
+      <JsonLd data={serviceSchema({
+          name: "Lead Paint Removal",
+          description:
+            "We offer safe lead-based paint removal in Sydney with expert & trained staff. Priority One Coatings has experienced Sydney painters for removing lead paint.",
+          path: "/lead-paint-removal",
+        })} />
       <main>
         {/* Hero: navy title band */}
         <section

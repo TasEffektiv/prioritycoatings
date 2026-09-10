@@ -1,6 +1,9 @@
 import type { Metadata } from "next";
 import { CheckCircle2 } from "lucide-react";
 import Header from "@/components/Header";
+import Breadcrumb from "@/components/Breadcrumb";
+import JsonLd from "@/components/JsonLd";
+import { serviceSchema } from "@/lib/schema";
 import Footer from "@/components/Footer";
 import QuoteForm from "@/components/QuoteForm";
 import CertLogos from "@/components/CertLogos";
@@ -45,6 +48,14 @@ export default function PaintersHaberfieldPage() {
   return (
     <div id="top">
       <Header />
+      <Breadcrumb items={[{ label: "Haberfield", path: "/painters-haberfield/" }]} />
+      <JsonLd data={serviceSchema({
+          name: "Painting Services in Haberfield",
+          description:
+            "Experienced and reliable painters in Haberfield for interior and exterior painting projects.",
+          path: "/painters-haberfield",
+          areaServed: "Haberfield, NSW",
+        })} />
       <main>
         {/* Hero: navy title band */}
         <section

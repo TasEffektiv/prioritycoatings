@@ -3,6 +3,9 @@ import Image from "next/image";
 import Link from "next/link";
 import { Mail } from "lucide-react";
 import Header from "@/components/Header";
+import Breadcrumb from "@/components/Breadcrumb";
+import JsonLd from "@/components/JsonLd";
+import { articleSchema } from "@/lib/schema";
 import Footer from "@/components/Footer";
 
 export const metadata: Metadata = {
@@ -66,6 +69,14 @@ export default function DuluxColourForecast2026Page() {
   return (
     <div id="top">
       <Header />
+      <Breadcrumb items={[{ label: "Blog", path: "/blog/" }, { label: "Dulux Colour Forecast for 2026", path: "/dulux-colour-forecast-for-2026/" }]} />
+      <JsonLd data={articleSchema({
+          headline: "Dulux Colour Forecast for 2026",
+          description: "Discover the Dulux Colour Forecast for 2026 — a shift towards warm neutrals, soft pastels and bold hues across the Elemental, Ethereal and Evoke palettes.",
+          path: "/dulux-colour-forecast-for-2026",
+          image: "/images/dulux-colour-forecast-for-2026-blog-banner.jpg",
+          datePublished: "January 30, 2026",
+        })} />
       <main>
         <section className="bg-[#f6f7fc] pb-[60px] pt-[30px]">
           <div className="mx-auto max-w-[1430px] px-[15px]">

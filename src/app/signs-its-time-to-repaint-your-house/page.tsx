@@ -3,6 +3,9 @@ import Image from "next/image";
 import Link from "next/link";
 import { Mail } from "lucide-react";
 import Header from "@/components/Header";
+import Breadcrumb from "@/components/Breadcrumb";
+import JsonLd from "@/components/JsonLd";
+import { articleSchema } from "@/lib/schema";
 import Footer from "@/components/Footer";
 
 export const metadata: Metadata = {
@@ -89,6 +92,14 @@ export default function SignsItsTimeToRepaintYourHousePage() {
   return (
     <div id="top">
       <Header />
+      <Breadcrumb items={[{ label: "Blog", path: "/blog/" }, { label: "Signs It's Time to Repaint Your House", path: "/signs-its-time-to-repaint-your-house/" }]} />
+      <JsonLd data={articleSchema({
+          headline: "Signs It's Time to Repaint Your House",
+          description: "Peeling, cracking, flaking or chipping of the paint are common signs that your home needs a fresh coat of paint. Let's check when it's time to repaint your house.",
+          path: "/signs-its-time-to-repaint-your-house",
+          image: "/images/gray-wooden-house-scaled.jpg",
+          datePublished: "November 30, 2023",
+        })} />
       <main>
         <section className="bg-[#f6f7fc] pb-[60px] pt-[30px]">
           <div className="mx-auto max-w-[1430px] px-[15px]">

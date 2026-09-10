@@ -1,12 +1,22 @@
 import Link from "next/link";
+import JsonLd from "./JsonLd";
+import { breadcrumbSchema } from "@/lib/schema";
 
 export default function PageHeader({
   title,
   parent,
+  path,
 }: {
   title: string;
   parent?: { label: string; href?: string };
+  path: string;
 }) {
+  const trail = [
+    { label: "Home", path: "/" },
+    ...(parent ? [{ label: parent.label, path: (parent.href ?? path).replace(/\/$/, "") || "/" }] : []),
+    { label: title, path },
+  ];
+
   return (
     <section
       className="relative overflow-hidden bg-[#143049] bg-cover bg-[top_left] bg-no-repeat bg-blend-multiply py-[30px] md:py-[50px] lg:py-[100px]"
@@ -39,6 +49,7 @@ export default function PageHeader({
           <span className="text-brand-teal">{title}</span>
         </div>
       </div>
+      <JsonLd data={breadcrumbSchema(trail)} />
     </section>
   );
 }

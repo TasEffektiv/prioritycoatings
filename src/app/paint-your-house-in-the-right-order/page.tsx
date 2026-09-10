@@ -3,6 +3,9 @@ import Image from "next/image";
 import Link from "next/link";
 import { Mail } from "lucide-react";
 import Header from "@/components/Header";
+import Breadcrumb from "@/components/Breadcrumb";
+import JsonLd from "@/components/JsonLd";
+import { articleSchema } from "@/lib/schema";
 import Footer from "@/components/Footer";
 
 export const metadata: Metadata = {
@@ -66,6 +69,14 @@ export default function PaintYourHouseInTheRightOrderPage() {
   return (
     <div id="top">
       <Header />
+      <Breadcrumb items={[{ label: "Blog", path: "/blog/" }, { label: "Paint Your House in the Right Order", path: "/paint-your-house-in-the-right-order/" }]} />
+      <JsonLd data={articleSchema({
+          headline: "Paint Your House in the Right Order",
+          description: "From ceiling to wall painting, you should paint your house in the right order. Let's explore the correct order to paint a room. For more info, contact us today.",
+          path: "/paint-your-house-in-the-right-order",
+          image: "/images/young-man-painting-blue-wall-scaled.jpg",
+          datePublished: "November 27, 2023",
+        })} />
       <main>
         <section className="bg-[#f6f7fc] pb-[60px] pt-[30px]">
           <div className="mx-auto max-w-[1430px] px-[15px]">

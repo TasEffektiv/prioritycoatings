@@ -3,6 +3,9 @@ import Image from "next/image";
 import Link from "next/link";
 import { Mail } from "lucide-react";
 import Header from "@/components/Header";
+import Breadcrumb from "@/components/Breadcrumb";
+import JsonLd from "@/components/JsonLd";
+import { articleSchema } from "@/lib/schema";
 import Footer from "@/components/Footer";
 
 export const metadata: Metadata = {
@@ -66,6 +69,14 @@ export default function HowPaintersExtendSydneyHomeExteriorLifespanPage() {
   return (
     <div id="top">
       <Header />
+      <Breadcrumb items={[{ label: "Blog", path: "/blog/" }, { label: "How Painters Extend Sydney Home Exterior Lifespan", path: "/how-painters-extend-sydney-home-exterior-lifespan/" }]} />
+      <JsonLd data={articleSchema({
+          headline: "How Painters Extend Sydney Home Exterior Lifespan",
+          description: "Learn how professional painters extend the lifespan of Sydney home exteriors through preparation, suitable coatings, expert application and ongoing maintenance.",
+          path: "/how-painters-extend-sydney-home-exterior-lifespan",
+          image: "/images/twostory-building-with-a-yellow-and-pink-facade.jpg",
+          datePublished: "July 20, 2026",
+        })} />
       <main>
         <section className="bg-[#f6f7fc] pb-[60px] pt-[30px]">
           <div className="mx-auto max-w-[1430px] px-[15px]">

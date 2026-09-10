@@ -3,6 +3,9 @@ import Image from "next/image";
 import Link from "next/link";
 import { Mail } from "lucide-react";
 import Header from "@/components/Header";
+import Breadcrumb from "@/components/Breadcrumb";
+import JsonLd from "@/components/JsonLd";
+import { articleSchema } from "@/lib/schema";
 import Footer from "@/components/Footer";
 
 export const metadata: Metadata = {
@@ -66,6 +69,14 @@ export default function CommercialPaintingFaqsPage() {
   return (
     <div id="top">
       <Header />
+      <Breadcrumb items={[{ label: "Blog", path: "/blog/" }, { label: "Commercial Painting FAQs By Trusted Sydney Painters", path: "/commercial-painting-faqs-by-trusted-sydney-painters/" }]} />
+      <JsonLd data={articleSchema({
+          headline: "Commercial Painting FAQs By Trusted Sydney Painters",
+          description: "Answers to the most common questions about commercial painting in Sydney — cost, insurance, process, timelines and choosing the right contractor.",
+          path: "/commercial-painting-faqs-by-trusted-sydney-painters",
+          image: "/images/commercial-painting-faq-blog-banner.jpg",
+          datePublished: "February 9, 2026",
+        })} />
       <main>
         <section className="bg-[#f6f7fc] pb-[60px] pt-[30px]">
           <div className="mx-auto max-w-[1430px] px-[15px]">

@@ -3,6 +3,9 @@ import Image from "next/image";
 import Link from "next/link";
 import { Mail } from "lucide-react";
 import Header from "@/components/Header";
+import Breadcrumb from "@/components/Breadcrumb";
+import JsonLd from "@/components/JsonLd";
+import { articleSchema } from "@/lib/schema";
 import Footer from "@/components/Footer";
 
 export const metadata: Metadata = {
@@ -66,6 +69,14 @@ export default function SignsOfABadPaintJobPage() {
   return (
     <div id="top">
       <Header />
+      <Breadcrumb items={[{ label: "Blog", path: "/blog/" }, { label: "Signs of a Bad Paint Job: Understand Painting Mistakes", path: "/signs-of-a-bad-paint-job/" }]} />
+      <JsonLd data={articleSchema({
+          headline: "Signs of a Bad Paint Job: Understand Painting Mistakes",
+          description: "Peeling, bubbling, or uneven paint? Spot the signs of a bad paint job before it's too late and get professional solutions from Priority One Coatings.",
+          path: "/signs-of-a-bad-paint-job",
+          image: "/images/peeling-pink-and-yellow-paint-on-the-wall.jpg",
+          datePublished: "April 20, 2026",
+        })} />
       <main>
         <section className="bg-[#f6f7fc] pb-[60px] pt-[30px]">
           <div className="mx-auto max-w-[1430px] px-[15px]">

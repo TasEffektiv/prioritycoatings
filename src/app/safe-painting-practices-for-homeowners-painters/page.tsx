@@ -3,6 +3,9 @@ import Image from "next/image";
 import Link from "next/link";
 import { Mail } from "lucide-react";
 import Header from "@/components/Header";
+import Breadcrumb from "@/components/Breadcrumb";
+import JsonLd from "@/components/JsonLd";
+import { articleSchema } from "@/lib/schema";
 import Footer from "@/components/Footer";
 
 export const metadata: Metadata = {
@@ -66,6 +69,14 @@ export default function SafePaintingPracticesForHomeownersPaintersPage() {
   return (
     <div id="top">
       <Header />
+      <Breadcrumb items={[{ label: "Blog", path: "/blog/" }, { label: "Safe Painting Practices for Homeowners & Painters", path: "/safe-painting-practices-for-homeowners-painters/" }]} />
+      <JsonLd data={articleSchema({
+          headline: "Safe Painting Practices for Homeowners & Painters",
+          description: "Painting can present several hazards if not done correctly. Learn the safest painting practices, from choosing paint to PPE, ventilation and safe storage.",
+          path: "/safe-painting-practices-for-homeowners-painters",
+          image: "/images/safe-painting-practices-blog-banner.jpg",
+          datePublished: "May 14, 2025",
+        })} />
       <main>
         <section className="bg-[#f6f7fc] pb-[60px] pt-[30px]">
           <div className="mx-auto max-w-[1430px] px-[15px]">

@@ -27,7 +27,7 @@ export default function AboutUsPage() {
     <div id="top">
       <Header />
       <main>
-        <PageHeader title="About Us" />
+        <PageHeader path="/about-us" title="About Us" />
 
         <section className="bg-white py-16 md:py-24">
           <div className="mx-auto grid max-w-[1400px] grid-cols-1 gap-12 px-6 lg:grid-cols-[2fr_3fr] lg:items-start">

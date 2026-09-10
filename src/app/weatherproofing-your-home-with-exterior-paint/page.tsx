@@ -3,6 +3,9 @@ import Image from "next/image";
 import Link from "next/link";
 import { Mail } from "lucide-react";
 import Header from "@/components/Header";
+import Breadcrumb from "@/components/Breadcrumb";
+import JsonLd from "@/components/JsonLd";
+import { articleSchema } from "@/lib/schema";
 import Footer from "@/components/Footer";
 
 export const metadata: Metadata = {
@@ -66,6 +69,14 @@ export default function WeatherproofingYourHomeWithExteriorPaintPage() {
   return (
     <div id="top">
       <Header />
+      <Breadcrumb items={[{ label: "Blog", path: "/blog/" }, { label: "Weatherproofing Your Home with Exterior Paint", path: "/weatherproofing-your-home-with-exterior-paint/" }]} />
+      <JsonLd data={articleSchema({
+          headline: "Weatherproofing Your Home with Exterior Paint",
+          description: "Exterior paint protects your home from harsh weather. It creates a barrier against moisture and UV damage. Learn how to weatherproof your home with external painting.",
+          path: "/weatherproofing-your-home-with-exterior-paint",
+          image: "/images/brown-and-white-concrete-house-near-green-grass-field-during-daytime-scaled.jpg",
+          datePublished: "April 21, 2024",
+        })} />
       <main>
         <section className="bg-[#f6f7fc] pb-[60px] pt-[30px]">
           <div className="mx-auto max-w-[1430px] px-[15px]">

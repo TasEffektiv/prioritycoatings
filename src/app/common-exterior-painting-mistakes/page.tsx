@@ -3,6 +3,9 @@ import Image from "next/image";
 import Link from "next/link";
 import { Mail } from "lucide-react";
 import Header from "@/components/Header";
+import Breadcrumb from "@/components/Breadcrumb";
+import JsonLd from "@/components/JsonLd";
+import { articleSchema } from "@/lib/schema";
 import Footer from "@/components/Footer";
 
 export const metadata: Metadata = {
@@ -66,6 +69,14 @@ export default function CommonExteriorPaintingMistakesPage() {
   return (
     <div id="top">
       <Header />
+      <Breadcrumb items={[{ label: "Blog", path: "/blog/" }, { label: "Common Exterior Painting Mistakes", path: "/common-exterior-painting-mistakes/" }]} />
+      <JsonLd data={articleSchema({
+          headline: "Common Exterior Painting Mistakes",
+          description: "It's easy to make mistakes when painting the exterior of your house. Check five common errors in exterior painting to make sure you don't make any of these.",
+          path: "/common-exterior-painting-mistakes",
+          image: "/images/private-house-exterior-with-a-garden.jpg",
+          datePublished: "February 12, 2025",
+        })} />
       <main>
         <section className="bg-[#f6f7fc] pb-[60px] pt-[30px]">
           <div className="mx-auto max-w-[1430px] px-[15px]">

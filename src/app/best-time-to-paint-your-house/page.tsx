@@ -3,6 +3,9 @@ import Image from "next/image";
 import Link from "next/link";
 import { Mail } from "lucide-react";
 import Header from "@/components/Header";
+import Breadcrumb from "@/components/Breadcrumb";
+import JsonLd from "@/components/JsonLd";
+import { articleSchema } from "@/lib/schema";
 import Footer from "@/components/Footer";
 
 export const metadata: Metadata = {
@@ -66,6 +69,14 @@ export default function BestTimeToPaintYourHousePage() {
   return (
     <div id="top">
       <Header />
+      <Breadcrumb items={[{ label: "Blog", path: "/blog/" }, { label: "The Best Time to Paint Your House", path: "/best-time-to-paint-your-house/" }]} />
+      <JsonLd data={articleSchema({
+          headline: "The Best Time to Paint Your House",
+          description: "House renovation requires convenient weather, temperature and humidity for better results. When painting your Sydney home, consider spring to hire Sydney painters.",
+          path: "/best-time-to-paint-your-house",
+          image: "/images/charming-yellow-house-with-wooden-windows-green-grassy-garden-scaled.jpg",
+          datePublished: "October 26, 2023",
+        })} />
       <main>
         <section className="bg-[#f6f7fc] pb-[60px] pt-[30px]">
           <div className="mx-auto max-w-[1430px] px-[15px]">

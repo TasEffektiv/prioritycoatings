@@ -3,6 +3,9 @@ import Image from "next/image";
 import Link from "next/link";
 import { Mail } from "lucide-react";
 import Header from "@/components/Header";
+import Breadcrumb from "@/components/Breadcrumb";
+import JsonLd from "@/components/JsonLd";
+import { articleSchema } from "@/lib/schema";
 import Footer from "@/components/Footer";
 
 export const metadata: Metadata = {
@@ -81,6 +84,14 @@ export default function VenetianPlasterVsRomanClayVsLimewashPage() {
   return (
     <div id="top">
       <Header />
+      <Breadcrumb items={[{ label: "Blog", path: "/blog/" }, { label: "Venetian Plaster vs. Roman Clay vs. Limewash", path: "/venetian-plaster-vs-roman-clay-vs-limewash/" }]} />
+      <JsonLd data={articleSchema({
+          headline: "Venetian Plaster vs. Roman Clay vs. Limewash",
+          description: "Roman Clay, Venetian Plaster, and Limewash are popular wall finishes due to their exclusive characteristics. Check the difference between these wall finishes.",
+          path: "/venetian-plaster-vs-roman-clay-vs-limewash",
+          image: "/images/venetian-plaster-vs-roman-clay-vs-limewash-blog-banner-1.jpg",
+          datePublished: "May 27, 2024",
+        })} />
       <main>
         <section className="bg-[#f6f7fc] pb-[60px] pt-[30px]">
           <div className="mx-auto max-w-[1430px] px-[15px]">

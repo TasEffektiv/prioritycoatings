@@ -3,6 +3,9 @@ import Image from "next/image";
 import Link from "next/link";
 import { Mail } from "lucide-react";
 import Header from "@/components/Header";
+import Breadcrumb from "@/components/Breadcrumb";
+import JsonLd from "@/components/JsonLd";
+import { articleSchema } from "@/lib/schema";
 import Footer from "@/components/Footer";
 
 export const metadata: Metadata = {
@@ -67,6 +70,14 @@ export default function ExteriorRepaintFrequencyPage() {
   return (
     <div id="top">
       <Header />
+      <Breadcrumb items={[{ label: "Blog", path: "/blog/" }, { label: "How Often Should the Exterior of the House Be Painted", path: "/how-often-should-the-exterior-of-the-house-be-painted/" }]} />
+      <JsonLd data={articleSchema({
+          headline: "How Often Should the Exterior of the House Be Painted",
+          description: "Wondering how often to repaint your house exterior? Learn what affects paint lifespan and the warning signs it's time for a fresh coat.",
+          path: "/how-often-should-the-exterior-of-the-house-be-painted",
+          image: "/images/exterior-house-painting-frequency.png",
+          datePublished: "April 11, 2016",
+        })} />
       <main>
         <section className="bg-[#f6f7fc] pb-[60px] pt-[30px]">
           <div className="mx-auto max-w-[1430px] px-[15px]">

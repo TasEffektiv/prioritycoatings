@@ -19,7 +19,7 @@ export default function TestimonialsPage() {
     <div id="top">
       <Header />
       <main>
-        <PageHeader title="Testimonials" />
+        <PageHeader path="/testimonials" title="Testimonials" />
 
         <section className="bg-white py-16 md:py-24">
           <div className="mx-auto max-w-[1400px] px-6">

@@ -3,6 +3,9 @@ import Image from "next/image";
 import Link from "next/link";
 import { Mail } from "lucide-react";
 import Header from "@/components/Header";
+import Breadcrumb from "@/components/Breadcrumb";
+import JsonLd from "@/components/JsonLd";
+import { articleSchema } from "@/lib/schema";
 import Footer from "@/components/Footer";
 
 export const metadata: Metadata = {
@@ -66,6 +69,14 @@ export default function TheFutureOfTheCommercialFitoutPage() {
   return (
     <div id="top">
       <Header />
+      <Breadcrumb items={[{ label: "Blog", path: "/blog/" }, { label: "The Future of the Commercial Office Fit Out", path: "/the-future-of-the-commercial-fitout/" }]} />
+      <JsonLd data={articleSchema({
+          headline: "The Future of the Commercial Office Fit Out",
+          description: "From sustainable design to flexible workspace, the future of commercial office fitouts is limitless. Check office fit-out trends shaping how offices are built.",
+          path: "/the-future-of-the-commercial-fitout",
+          image: "/images/pexels-photo-265573.jpeg",
+          datePublished: "May 29, 2017",
+        })} />
       <main>
         <section className="bg-[#f6f7fc] pb-[60px] pt-[30px]">
           <div className="mx-auto max-w-[1430px] px-[15px]">

@@ -3,6 +3,9 @@ import Image from "next/image";
 import Link from "next/link";
 import { Mail } from "lucide-react";
 import Header from "@/components/Header";
+import Breadcrumb from "@/components/Breadcrumb";
+import JsonLd from "@/components/JsonLd";
+import { articleSchema } from "@/lib/schema";
 import Footer from "@/components/Footer";
 
 export const metadata: Metadata = {
@@ -66,6 +69,14 @@ export default function HowToProtectHouseExteriorPaintPage() {
   return (
     <div id="top">
       <Header />
+      <Breadcrumb items={[{ label: "Blog", path: "/blog/" }, { label: "Protect Your House Exterior Painting", path: "/how-to-protect-house-exterior-paint/" }]} />
+      <JsonLd data={articleSchema({
+          headline: "Protect Your House Exterior Painting",
+          description: "Surface preparation, right paint, proper application, and maintenance are crucial for house exterior paint. Check how to protect your house exterior painting.",
+          path: "/how-to-protect-house-exterior-paint",
+          image: "/images/how-to-protect-house-exterior-paint-blog-banner.jpg",
+          datePublished: "April 7, 2025",
+        })} />
       <main>
         <section className="bg-[#f6f7fc] pb-[60px] pt-[30px]">
           <div className="mx-auto max-w-[1430px] px-[15px]">

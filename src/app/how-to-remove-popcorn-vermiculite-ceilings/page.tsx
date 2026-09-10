@@ -3,6 +3,9 @@ import Image from "next/image";
 import Link from "next/link";
 import { Mail } from "lucide-react";
 import Header from "@/components/Header";
+import Breadcrumb from "@/components/Breadcrumb";
+import JsonLd from "@/components/JsonLd";
+import { articleSchema } from "@/lib/schema";
 import Footer from "@/components/Footer";
 import BlogSidebar from "@/components/blog/BlogSidebar";
 
@@ -35,6 +38,14 @@ export default function HowToRemovePopcornVermiculiteCeilingsPage() {
   return (
     <div id="top">
       <Header />
+      <Breadcrumb items={[{ label: "Blog", path: "/blog/" }, { label: "How to Remove Popcorn Ceilings: Easy Tips and Tricks", path: "/how-to-remove-popcorn-vermiculite-ceilings/" }]} />
+      <JsonLd data={articleSchema({
+          headline: "How to Remove Popcorn Ceilings: Easy Tips and Tricks",
+          description: "Thinking about removing a popcorn or vermiculite ceiling? Learn the safe, step-by-step process, from asbestos testing to sanding and refinishing.",
+          path: "/how-to-remove-popcorn-vermiculite-ceilings",
+          image: "/images/popcorn-ceiling.jpg",
+          datePublished: "August 31, 2023",
+        })} />
       <main>
         <section className="bg-[#f6f7fc] pb-[60px] pt-[30px]">
           <div className="mx-auto max-w-[1430px] px-[15px]">

@@ -3,6 +3,9 @@ import Image from "next/image";
 import Link from "next/link";
 import { Mail } from "lucide-react";
 import Header from "@/components/Header";
+import Breadcrumb from "@/components/Breadcrumb";
+import JsonLd from "@/components/JsonLd";
+import { articleSchema } from "@/lib/schema";
 import Footer from "@/components/Footer";
 
 export const metadata: Metadata = {
@@ -66,6 +69,14 @@ export default function HowToFixFlakyCeilingPage() {
   return (
     <div id="top">
       <Header />
+      <Breadcrumb items={[{ label: "Blog", path: "/blog/" }, { label: "How to Fix Flaky Ceiling", path: "/how-to-fix-flaky-ceiling/" }]} />
+      <JsonLd data={articleSchema({
+          headline: "How to Fix Flaky Ceiling",
+          description: "Peeling paint on the ceiling is a common issue for Sydney homeowners. Follow this step-by-step guide to fix your flaky ceiling. For more info, contact us today.",
+          path: "/how-to-fix-flaky-ceiling",
+          image: "/images/smoothing-a-peeling-ceiling-with-spatula.jpg",
+          datePublished: "December 19, 2024",
+        })} />
       <main>
         <section className="bg-[#f6f7fc] pb-[60px] pt-[30px]">
           <div className="mx-auto max-w-[1430px] px-[15px]">

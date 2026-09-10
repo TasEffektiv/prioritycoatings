@@ -17,7 +17,7 @@ export default function PrivacyPolicyPage() {
     <div id="top">
       <Header />
       <main>
-        <PageHeader title="Privacy Policy" />
+        <PageHeader path="/privacy-policy" title="Privacy Policy" />
 
         <section className="bg-white py-16 md:py-24">
           <div className="mx-auto max-w-[1400px] px-6">

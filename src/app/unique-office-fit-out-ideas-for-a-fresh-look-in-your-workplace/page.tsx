@@ -3,6 +3,9 @@ import Image from "next/image";
 import Link from "next/link";
 import { Mail } from "lucide-react";
 import Header from "@/components/Header";
+import Breadcrumb from "@/components/Breadcrumb";
+import JsonLd from "@/components/JsonLd";
+import { articleSchema } from "@/lib/schema";
 import Footer from "@/components/Footer";
 
 export const metadata: Metadata = {
@@ -68,6 +71,14 @@ export default function UniqueOfficeFitOutIdeasPage() {
   return (
     <div id="top">
       <Header />
+      <Breadcrumb items={[{ label: "Blog", path: "/blog/" }, { label: "Unique Office Fit-Out Ideas for a Fresh Look in Your Workplace", path: "/unique-office-fit-out-ideas-for-a-fresh-look-in-your-workplace/" }]} />
+      <JsonLd data={articleSchema({
+          headline: "Unique Office Fit-Out Ideas for a Fresh Look in Your Workplace",
+          description: "Discover unique office fit-out ideas to boost mood and productivity. See how colour, natural light and feature walls can transform your Sydney workplace.",
+          path: "/unique-office-fit-out-ideas-for-a-fresh-look-in-your-workplace",
+          image: "/images/unique-office-fit-out-ideas-banner.jpg",
+          datePublished: "September 27, 2016",
+        })} />
       <main>
         <section className="bg-[#f6f7fc] pb-[60px] pt-[30px]">
           <div className="mx-auto max-w-[1430px] px-[15px]">

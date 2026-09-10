@@ -3,6 +3,9 @@ import Image from "next/image";
 import Link from "next/link";
 import { Mail } from "lucide-react";
 import Header from "@/components/Header";
+import Breadcrumb from "@/components/Breadcrumb";
+import JsonLd from "@/components/JsonLd";
+import { articleSchema } from "@/lib/schema";
 import Footer from "@/components/Footer";
 import BlogSidebar from "@/components/blog/BlogSidebar";
 
@@ -35,6 +38,14 @@ export default function PaintingYourHouseBeforeSellingPage() {
   return (
     <div id="top">
       <Header />
+      <Breadcrumb items={[{ label: "Blog", path: "/blog/" }, { label: "Painting Your House Before Selling", path: "/painting-your-house-before-selling/" }]} />
+      <JsonLd data={articleSchema({
+          headline: "Painting Your House Before Selling",
+          description: "Wondering if it's worth painting your house before selling? Learn how a fresh coat of paint can boost curb appeal, perceived value and ROI.",
+          path: "/painting-your-house-before-selling",
+          image: "/images/house-with-yard-sign-sale.jpg",
+          datePublished: "August 14, 2023",
+        })} />
       <main>
         <section className="bg-[#f6f7fc] pb-[60px] pt-[30px]">
           <div className="mx-auto max-w-[1430px] px-[15px]">

@@ -3,6 +3,9 @@ import Image from "next/image";
 import Link from "next/link";
 import { Mail } from "lucide-react";
 import Header from "@/components/Header";
+import Breadcrumb from "@/components/Breadcrumb";
+import JsonLd from "@/components/JsonLd";
+import { articleSchema } from "@/lib/schema";
 import Footer from "@/components/Footer";
 
 export const metadata: Metadata = {
@@ -68,6 +71,14 @@ export default function LivingRoomColoursInfographicPage() {
   return (
     <div id="top">
       <Header />
+      <Breadcrumb items={[{ label: "Blog", path: "/blog/" }, { label: "Choose Living Room Colours According to Space Characteristics (Infographic)", path: "/choose-living-room-colours-according-to-space-characteristics-infographic/" }]} />
+      <JsonLd data={articleSchema({
+          headline: "Choose Living Room Colours According to Space Characteristics (Infographic)",
+          description: "Learn how natural light, room use and furniture should guide your living room colour choices, plus a handy infographic with quick tips.",
+          path: "/choose-living-room-colours-according-to-space-characteristics-infographic",
+          image: "/images/living-room-interior-colours.jpg",
+          datePublished: "July 25, 2016",
+        })} />
       <main>
         <section className="bg-[#f6f7fc] pb-[60px] pt-[30px]">
           <div className="mx-auto max-w-[1430px] px-[15px]">

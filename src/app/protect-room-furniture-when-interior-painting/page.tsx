@@ -3,6 +3,9 @@ import Image from "next/image";
 import Link from "next/link";
 import { Mail } from "lucide-react";
 import Header from "@/components/Header";
+import Breadcrumb from "@/components/Breadcrumb";
+import JsonLd from "@/components/JsonLd";
+import { articleSchema } from "@/lib/schema";
 import Footer from "@/components/Footer";
 
 export const metadata: Metadata = {
@@ -66,6 +69,14 @@ export default function ProtectRoomFurnitureWhenInteriorPaintingPage() {
   return (
     <div id="top">
       <Header />
+      <Breadcrumb items={[{ label: "Blog", path: "/blog/" }, { label: "Protect Your Room & Furniture When Interior Painting", path: "/protect-room-furniture-when-interior-painting/" }]} />
+      <JsonLd data={articleSchema({
+          headline: "Protect Your Room & Furniture When Interior Painting",
+          description: "Moving and covering furniture, using drop cloths, and taping off areas will protect your room from paint splatters. Protecting surfaces also saves clean-up costs.",
+          path: "/protect-room-furniture-when-interior-painting",
+          image: "/images/man-protecting-floor-with-sheet-scaled.jpg",
+          datePublished: "February 27, 2024",
+        })} />
       <main>
         <section className="bg-[#f6f7fc] pb-[60px] pt-[30px]">
           <div className="mx-auto max-w-[1430px] px-[15px]">
