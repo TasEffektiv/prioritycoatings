@@ -8,7 +8,7 @@ import { RESIDENTIAL_PROJECTS } from "@/data/residentialProjects";
 export const metadata: Metadata = {
   title: "Portfolio | Residential Projects | Priority One Coatings",
   description:
-    "Browse recent residential painting projects by Priority One Coatings — quality workmanship across Sydney homes.",
+    "Priority One Coatings works for any big or small residential painting projects in Sydney. Check out what we have done for our clients.",
   alternates: {
     canonical: "/recent-residential-projects",
   },

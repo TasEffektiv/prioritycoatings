@@ -11,7 +11,7 @@ import Footer from "@/components/Footer";
 export const metadata: Metadata = {
   title: "How to Stain a Deck | Priority One Coatings",
   description:
-    "Staining your deck will help to preserve the timber and keep it looking fresh, making it a worthwhile investment for your outdoor space. Let's stain your deck.",
+    "Staining your deck will help to preserve the timber and keep it looking fresh, making it a worthwhile investment for your outdoor space. Let's stain your deck .",
   alternates: {
     canonical: "/how-to-stain-a-deck",
   },

@@ -11,7 +11,7 @@ import Footer from "@/components/Footer";
 export const metadata: Metadata = {
   title: "Top Painting FAQs Answered by Professional Painters | Priority One Coatings",
   description:
-    "Clear answers to the most common painting questions — cost, timelines, paint types, warranties and more — from Sydney's Priority One Coatings.",
+    "Planning a painting project? Get expert answers to the top painting FAQs, from choosing the right paint to preparation, costs, and long-lasting finishes.",
   alternates: {
     canonical: "/top-painting-faqs-answered-by-professional-painters",
   },

@@ -11,7 +11,7 @@ import Footer from "@/components/Footer";
 export const metadata: Metadata = {
   title: "How Paint Colours Can Impacts the Lights of Your Interiors | Priority One Coatings",
   description:
-    "Discover how paint colours affect the level of natural and artificial light in your home, from Light Reflectance Value to picking colours for south, north, east and west-facing rooms.",
+    "There are many factors at play when choosing the right paint colours that reflect light and brightness in your home. Contact us for more info or get a free Quote!",
   alternates: {
     canonical: "/how-paint-colours-can-affect-the-level-of-light-in-your-home",
   },

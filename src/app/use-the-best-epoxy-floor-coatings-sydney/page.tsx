@@ -11,7 +11,7 @@ import Footer from "@/components/Footer";
 export const metadata: Metadata = {
   title: "Make Sure You Use the Best Epoxy Floor Coatings in Sydney | Priority One Coatings",
   description:
-    "Get durable, stylish epoxy floor coatings in Sydney from Priority One Coatings, trusted for over 32 years of quality flooring solutions.",
+    "Floors are the first thing to notice, be it your business showroom or living place. To get the durable and glossiest epoxy coating for your floors, mail us today!",
   alternates: {
     canonical: "/use-the-best-epoxy-floor-coatings-sydney",
   },

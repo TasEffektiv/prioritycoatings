@@ -11,7 +11,7 @@ import Footer from "@/components/Footer";
 export const metadata: Metadata = {
   title: "How to Find the Best Sydney Painting Services | Priority One Coatings",
   description:
-    "Searching for reliable painters? Learn how to find the best Sydney painting services with tips on referrals, reviews, licensing, quotes and communication.",
+    "A fresh coat of paint breathes new life into your space. But finding the best Sydney painting services can be a daunting task. Contact Priority One Coatings.",
   alternates: {
     canonical: "/how-to-find-best-sydney-painting-services",
   },

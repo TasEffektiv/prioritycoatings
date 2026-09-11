@@ -11,7 +11,7 @@ import Footer from "@/components/Footer";
 export const metadata: Metadata = {
   title: "How to Choose the Best Strata Painters in Sydney | Priority One Coatings",
   description:
-    "Looking to repaint your strata complex? Discover how to choose the best strata painters in Sydney with our tips on experience, reputation, quotes and credentials.",
+    "If you are looking to renovate your strata complex in Sydney with a fresh coat of paint, Priority One Coatings got you covered. For more, call 02 9808 5900.",
   alternates: {
     canonical: "/how-to-choose-best-strata-painters-sydney",
   },

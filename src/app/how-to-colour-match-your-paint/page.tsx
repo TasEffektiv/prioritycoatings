@@ -11,7 +11,7 @@ import Footer from "@/components/Footer";
 export const metadata: Metadata = {
   title: "How to Colour Match Your Paint | Priority One Coatings",
   description:
-    "Learn how to colour match your paint using paint chips, colour wheels, spectrophotometers and apps — practical tips from Sydney's Priority One Coatings.",
+    "Colour matching helps to ensure that your new paint perfectly matches the existing colour. Although matching paint can be challenging, explore to learn more.",
   alternates: {
     canonical: "/how-to-colour-match-your-paint",
   },

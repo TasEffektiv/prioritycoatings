@@ -11,7 +11,7 @@ import Footer from "@/components/Footer";
 export const metadata: Metadata = {
   title: "Guide to Reglazing Windows | Priority One Coatings",
   description:
-    "A step-by-step guide to reglazing windows — the tools, materials and technique needed to repair cracked putty and restore a weather-tight seal.",
+    "Reglazing windows involves removing old glazing (putty) and replacing it, finishing with touch-up paint. Explore how reglazing can bring life to your windows.",
   alternates: {
     canonical: "/guide-to-reglazing-windows",
   },

@@ -9,9 +9,9 @@ import { articleSchema } from "@/lib/schema";
 import Footer from "@/components/Footer";
 
 export const metadata: Metadata = {
-  title: "Unique Office Fit-Out Ideas for a Fresh Look in Your Workplace | Priority One Coatings",
+  title: "Unique Office Fit-out Ideas For A Fresh Look In Your Workplace | Priority One Coatings",
   description:
-    "Discover unique office fit-out ideas to boost mood and productivity. See how colour, natural light and feature walls can transform your Sydney workplace.",
+    "We’ve gone through a few common stylistic elements that are getting more popular for office fit-outs in Sydney. Contact us for more info or get a free Quote!",
   alternates: {
     canonical: "/unique-office-fit-out-ideas-for-a-fresh-look-in-your-workplace",
   },

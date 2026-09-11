@@ -9,9 +9,9 @@ import { articleSchema } from "@/lib/schema";
 import Footer from "@/components/Footer";
 
 export const metadata: Metadata = {
-  title: "How to Paint Your Home – A Homeowner's Guide | Priority One Coatings",
+  title: "How to Paint Your Home - A Homeowner's Guide | Priority One Coatings",
   description:
-    "A homeowner's guide to painting your home, covering colour selection, lighting and LRV, and what to look for before hiring a residential painting company.",
+    "Painting and decorating your home can add significantly to your property value. Check out this homeowner's guide. For more info, contact us or get a free Quote!",
   alternates: {
     canonical: "/how-to-paint-your-home-a-homeowners-guide",
   },

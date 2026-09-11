@@ -11,7 +11,7 @@ import Footer from "@/components/Footer";
 export const metadata: Metadata = {
   title: "How Different Types of Exterior Siding Are Painted | Priority One Coatings",
   description:
-    "Discover the best paints and finishes for vinyl, wood, fibre cement and metal siding, plus how to paint each exterior siding type correctly.",
+    "Different siding materials require specific painting techniques and products for optimal results. Learn how various types of exterior siding are painted.",
   alternates: {
     canonical: "/painting-different-exterior-siding",
   },

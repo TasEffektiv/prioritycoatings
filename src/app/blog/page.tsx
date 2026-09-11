@@ -8,9 +8,9 @@ import BlogSidebar from "@/components/blog/BlogSidebar";
 import { POSTS, paginate } from "@/lib/blog";
 
 export const metadata: Metadata = {
-  title: "Blog | Priority One Coatings",
+  title: "Painting And Decorating Blog By Priority One Coatings",
   description:
-    "Painting and decorating tips, trends and expert advice from Priority One Coatings — Sydney's residential and commercial painting specialists.",
+    "Visit our painting and decorating blog page frequently for industry updates, news, DIY info, and painting and renovation tips and tricks from our experts.",
   alternates: {
     canonical: "/blog",
   },

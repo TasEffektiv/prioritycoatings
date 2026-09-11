@@ -11,7 +11,7 @@ import Footer from "@/components/Footer";
 export const metadata: Metadata = {
   title: "Different Types of Industrial Coatings | Priority One Coatings",
   description:
-    "Industrial coatings ensure protection against mechanical, chemical and environmental degradation. Explore the common types of industrial coatings available.",
+    "Explore different types of industrial coatings. Discover the benefits and tradeoffs of different industrial coating types. Contact us for premium epoxy coatings.",
   alternates: {
     canonical: "/different-types-of-industrial-coatings",
   },

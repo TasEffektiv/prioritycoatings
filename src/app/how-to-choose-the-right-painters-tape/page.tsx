@@ -11,7 +11,7 @@ import Footer from "@/components/Footer";
 export const metadata: Metadata = {
   title: "How to Choose the Right Painter's Tape | Priority One Coatings",
   description:
-    "A guide to choosing the right painter's tape for your project — types, key features, application steps and common mistakes to avoid.",
+    "Choosing the right painter’s tape makes big difference for clean paint lines. Explore different tape types, surfaces, and tips for professional painting finish.",
   alternates: {
     canonical: "/how-to-choose-the-right-painters-tape",
   },

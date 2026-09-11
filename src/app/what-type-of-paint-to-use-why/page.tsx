@@ -11,7 +11,7 @@ import Footer from "@/components/Footer";
 export const metadata: Metadata = {
   title: "What Type of Paint to Use & Why | Priority One Coatings",
   description:
-    "Depending on the surface, you can decide the type of paint to use for your house. Let's explore the types of paint and their uses to make an informed decision.",
+    "Depending on the surface, you can decide the type of paint to use for your house. Let’s explore the types of paint and their uses to make an informed decision.",
   alternates: {
     canonical: "/what-type-of-paint-to-use-why",
   },

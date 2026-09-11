@@ -9,7 +9,7 @@ import { articleSchema } from "@/lib/schema";
 import Footer from "@/components/Footer";
 
 export const metadata: Metadata = {
-  title: "Painting Metal Roof – Tips & Tricks | Priority One Coatings",
+  title: "Painting Metal Roof - Tips & Tricks | Priority One Coatings",
   description:
     "Painting a metal roof effectively with the right materials and techniques will enhance durability, prevent rust, and give the roof a fresh, long-lasting finish.",
   alternates: {

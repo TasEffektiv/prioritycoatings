@@ -9,9 +9,9 @@ import { articleSchema } from "@/lib/schema";
 import Footer from "@/components/Footer";
 
 export const metadata: Metadata = {
-  title: "House Paint Colour Trends 2026: For Australian Homes | Priority One Coatings",
+  title: "House Paint Colour Trends 2026: For Australian Homes",
   description:
-    "The right palette can make a significant impact on both your house's aesthetics and value. Explore 2026 house painting colour trends for Australian homes.",
+    "The right palette can have a significant impact on a house's aesthetics and value. Check 2026 interior & exterior house painting colour schemes in Australia.",
   alternates: {
     canonical: "/house-paint-colours-trend-2026",
   },

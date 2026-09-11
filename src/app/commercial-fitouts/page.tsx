@@ -12,9 +12,9 @@ import CertLogos from "@/components/CertLogos";
 import PremiumFitoutsSection from "./PremiumFitoutsSection";
 
 export const metadata: Metadata = {
-  title: "Commercial Fitouts Sydney | Priority One Coatings",
+  title: "Office Fitout | Commercial Fitouts Sydney | Priority One Coatings",
   description:
-    "Sydney's best commercial office fitouts solutions. Priority One Coatings has been delivering commercial fitouts across the Sydney region for over 32 years.",
+    "Transform your workplace with an interior office fit-out with our specialised and cost-effective commercial office fit out service in Sydney and the nearby areas.",
   alternates: {
     canonical: "/commercial-fitouts",
   },

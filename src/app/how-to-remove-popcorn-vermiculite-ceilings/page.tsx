@@ -10,9 +10,9 @@ import Footer from "@/components/Footer";
 import BlogSidebar from "@/components/blog/BlogSidebar";
 
 export const metadata: Metadata = {
-  title: "How to Remove Popcorn Ceilings: Easy Tips and Tricks | Priority One Coatings",
+  title: "How to Remove Popcorn Ceilings: Easy Tips and Tricks",
   description:
-    "Thinking about removing a popcorn or vermiculite ceiling? Learn the safe, step-by-step process, from asbestos testing to sanding and refinishing.",
+    "Due to the presence of asbestos, popcorn ceilings are long out of style. If you need a popcorn ceiling removal, check the process. For more, contact us.",
   alternates: {
     canonical: "/how-to-remove-popcorn-vermiculite-ceilings",
   },

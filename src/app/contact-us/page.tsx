@@ -5,9 +5,9 @@ import Footer from "@/components/Footer";
 import ContactForm from "@/components/ContactForm";
 
 export const metadata: Metadata = {
-  title: "Contact Us | Priority One Coatings",
+  title: "Contact Us | Residential & Commercial Painting Quote Sydney",
   description:
-    "Get in touch with Priority One Coatings — Sydney's trusted painting & decorating company since 1988. Call, email, or send us a message for a free quote.",
+    "Get your Free Painting Quotes Sydney with Priority One Coatings. Fast, no obligation quotes for Sydney suburbs. Licensed & fully insured. Call us at 02 9808 5900.",
   alternates: {
     canonical: "/contact-us",
   },

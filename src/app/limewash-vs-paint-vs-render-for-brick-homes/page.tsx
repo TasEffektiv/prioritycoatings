@@ -11,7 +11,7 @@ import Footer from "@/components/Footer";
 export const metadata: Metadata = {
   title: "Limewash, Paint, or Render Your Brick House | Priority One Coatings",
   description:
-    "Limewash, paint or render — compare the pros, cons and lifespan of each brick finish to choose the right option for your Sydney home.",
+    "Not sure whether to limewash, paint or render your brick house? Explore the pros and cons of limewash, paint and render to choose the best finish for your home.",
   alternates: {
     canonical: "/limewash-vs-paint-vs-render-for-brick-homes",
   },

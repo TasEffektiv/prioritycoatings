@@ -9,9 +9,9 @@ import { articleSchema } from "@/lib/schema";
 import Footer from "@/components/Footer";
 
 export const metadata: Metadata = {
-  title: "Winter Exterior Painting In Sydney: Essential Tips | Priority One Coatings",
+  title: "Winter Exterior Painting In Sydney: Essential Tips",
   description:
-    "Planning exterior house painting in winter? Get expert advice on winter exterior house painting, including key do's and don'ts to achieve a professional finish.",
+    "Planning exterior house painting in winter? Get expert advice on winter exterior house painting, including key do's and don’ts to achieve a professional finish.",
   alternates: {
     canonical: "/winter-exterior-house-painting-dos-and-donts",
   },

@@ -9,7 +9,7 @@ import { articleSchema } from "@/lib/schema";
 import Footer from "@/components/Footer";
 
 export const metadata: Metadata = {
-  title: "How to Prepare Surfaces Before Painting Commercial Buildings | Priority One Coatings",
+  title: "How to Prepare Surfaces Before Painting Commercial Buildings",
   description:
     "Commercial painting surface preparation is essential for a durable, professional finish. Learn how to prepare surfaces before painting commercial buildings.",
   alternates: {

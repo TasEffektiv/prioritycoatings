@@ -11,7 +11,7 @@ import Footer from "@/components/Footer";
 export const metadata: Metadata = {
   title: "Painting A Foyer - Transform the Entryway | Priority One Coatings",
   description:
-    "A home's foyer serves as its first impression. Discover the best foyer paint colours, finishes and entryway paint ideas to transform your entrance hall.",
+    "A new coat of paint can upgrade your front foyer to a stunning entryway. Check the tips on painting your foyer to transform a beautiful home entryway.",
   alternates: {
     canonical: "/painting-foyer-transform-the-entryway",
   },

@@ -9,9 +9,9 @@ import { articleSchema } from "@/lib/schema";
 import Footer from "@/components/Footer";
 
 export const metadata: Metadata = {
-  title: "How Painters Extend Sydney Home Exterior Lifespan | Priority One Coatings",
+  title: "How Painters Extend Sydney Home Exterior Lifespan",
   description:
-    "Learn how professional painters extend the lifespan of Sydney home exteriors through preparation, suitable coatings, expert application and ongoing maintenance.",
+    "Extend your home exterior lifespan with surface preparation, durable coatings, and regular maintenance. Learn how Priority One Coatings helps Sydney homeowners.",
   alternates: {
     canonical: "/how-painters-extend-sydney-home-exterior-lifespan",
   },

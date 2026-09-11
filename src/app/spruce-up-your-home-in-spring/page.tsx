@@ -11,7 +11,7 @@ import Footer from "@/components/Footer";
 export const metadata: Metadata = {
   title: "Spruce Up Your Home in Spring | Priority One Coatings",
   description:
-    "Spring is filled with a sense of renewal. Cleaning, painting, and doing general maintenance to freshen up your home. Check ways to give your home a spring spruce up.",
+    "Spring is filled with a sense of renewal. Cleaning, painting, and doing general maintenance to freshen up your home. Check ways to give your home a spring spruce up.",
   alternates: {
     canonical: "/spruce-up-your-home-in-spring",
   },

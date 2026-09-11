@@ -9,9 +9,9 @@ import { articleSchema } from "@/lib/schema";
 import Footer from "@/components/Footer";
 
 export const metadata: Metadata = {
-  title: "Good Colours to Paint Your House | Priority One Coatings",
+  title: "Good Colours to Paint Your Rooms in this Spring | Priority One Coatings",
   description:
-    "Looking for paint colour inspiration for your home? See good colour choices for the bedroom, kitchen, bathroom and living room from Sydney's painters.",
+    "If you’re looking to get some interior house painting done this spring, these various painting ideas can be very effective. Contact us for more info or get a free Quote!",
   alternates: {
     canonical: "/good-colors-to-paint-your-house",
   },

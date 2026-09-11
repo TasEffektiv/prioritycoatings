@@ -11,7 +11,7 @@ import Footer from "@/components/Footer";
 export const metadata: Metadata = {
   title: "Innovations in Paint Technology 2024 | Priority One Coatings",
   description:
-    "Discover paint technology advancments to make house painting more than just a new colour and how innovations in paint technology and trends impacting in 2024.",
+    "Discover paint technology advancments to make house painting more than just a new colour and how innovations in paint technology and trends impacting in 2024.",
   alternates: {
     canonical: "/innovations-in-paint-technology-2024",
   },

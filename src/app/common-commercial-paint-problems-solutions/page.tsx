@@ -11,7 +11,7 @@ import Footer from "@/components/Footer";
 export const metadata: Metadata = {
   title: "Common Commercial Paint Problems & Solutions | Priority One Coatings",
   description:
-    "Discover common commercial paint problems such as bubbling, chalking, mould and cracking, along with expert solutions from Priority One Coatings' Sydney painters.",
+    "Fix common paint problems in your property with the best commercial painters in Sydney. Our Sydney painting services correct bubbling, fading, and peeling in a paint job.",
   alternates: {
     canonical: "/common-commercial-paint-problems-solutions",
   },

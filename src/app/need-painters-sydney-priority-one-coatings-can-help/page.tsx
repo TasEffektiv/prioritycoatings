@@ -11,7 +11,7 @@ import Footer from "@/components/Footer";
 export const metadata: Metadata = {
   title: "Need Painters in Sydney? Priority One Coatings Can Help | Priority One Coatings",
   description:
-    "Choosing the right painting company matters. See why Priority One Coatings is one of Sydney's leading painting contractors for homes, offices and strata.",
+    "When painting your home, strata property or office building, you want to ensure the job is done perfectly. Need painters in Sydney? Priority One Coatings Can Help.",
   alternates: {
     canonical: "/need-painters-sydney-priority-one-coatings-can-help",
   },

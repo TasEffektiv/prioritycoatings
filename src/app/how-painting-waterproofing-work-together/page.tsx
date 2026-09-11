@@ -11,7 +11,7 @@ import Footer from "@/components/Footer";
 export const metadata: Metadata = {
   title: "How Do Painting & Waterproofing Work Together | Priority One Coatings",
   description:
-    "Discover why painting and waterproofing should be planned together to protect walls, roofs and interiors from moisture damage and premature paint failure.",
+    "Waterproofing prevents water penetration, and waterproof paint protects surfaces from water damage. While working together can provide an extra layer of protection.",
   alternates: {
     canonical: "/how-painting-waterproofing-work-together",
   },

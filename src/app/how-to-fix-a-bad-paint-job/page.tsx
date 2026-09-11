@@ -9,9 +9,9 @@ import { articleSchema } from "@/lib/schema";
 import Footer from "@/components/Footer";
 
 export const metadata: Metadata = {
-  title: "How to Fix a Bad Paint Job: Common Painting Mistakes | Priority One Coatings",
+  title: "How to Fix a Bad Paint Job: Common Painting Mistakes",
   description:
-    "Whether it's streaks, roller marks, or uneven coverage, a bad paint job is frustrating. Check fixes that will help you without repainting the entire surface.",
+    "Whether it’s streaks, roller marks, or uneven coverage, a bad paint job is frustrating. Check fixes that will help you without repainting the entire surface.",
   alternates: {
     canonical: "/how-to-fix-a-bad-paint-job",
   },

@@ -16,9 +16,9 @@ const proximaNova = localFont({
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://www.prioritycoatings.com.au"),
-  title: "Painters Sydney | Residential & Commercial Painting | Priority One Coatings",
+  title: "Painters Sydney | Residential & Commercial Painting Services",
   description:
-    "Affordable residential & commercial painting services in Sydney. Quality workmanship, premium finishes and reliable local painters for over 38 years.",
+    "Looking for professional painters in Sydney? Get affordable interior & exterior painting services from a fully insured & licensed painting company in Sydney.",
   alternates: {
     canonical: "/",
   },

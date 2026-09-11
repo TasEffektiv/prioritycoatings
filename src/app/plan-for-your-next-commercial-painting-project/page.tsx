@@ -12,7 +12,7 @@ import BlogSidebar from "@/components/blog/BlogSidebar";
 export const metadata: Metadata = {
   title: "Plan for Your Next Commercial Painting Project | Priority One Coatings",
   description:
-    "Planning a commercial painting project? Follow these steps to schedule, budget and choose the right commercial painters in Sydney with Priority One Coatings.",
+    "If you want to make your property more appealing and attract more customers, start planning for your next commercial painting project. Also, it's better to choose Priority Coatings.",
   alternates: {
     canonical: "/plan-for-your-next-commercial-painting-project",
   },

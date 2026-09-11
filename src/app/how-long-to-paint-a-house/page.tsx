@@ -12,7 +12,7 @@ import BlogSidebar from "@/components/blog/BlogSidebar";
 export const metadata: Metadata = {
   title: "How Long Does It Take to Paint a House? | Priority One Coatings",
   description:
-    "Wondering how long it takes to paint a house? Explore the key factors that affect residential painting timelines with Priority One Coatings.",
+    "Painting a house doesn't take forever. To give your house a unique and appealing look within the shortest duration, hire the best residential painters in Sydney.",
   alternates: {
     canonical: "/how-long-to-paint-a-house",
   },

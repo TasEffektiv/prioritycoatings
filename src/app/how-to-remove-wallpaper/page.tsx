@@ -9,7 +9,7 @@ import { articleSchema } from "@/lib/schema";
 import Footer from "@/components/Footer";
 
 export const metadata: Metadata = {
-  title: "How to Remove Wallpaper: A Step By Step Guide | Priority One Coatings",
+  title: "How to Remove Wallpaper: A Step By Step Guide",
   description:
     "If you are looking for simple and effective ways to remove wallpaper, this article provides a step-by-step guide for getting rid of old wallpaper from your walls.",
   alternates: {

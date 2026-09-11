@@ -9,9 +9,9 @@ import { articleSchema } from "@/lib/schema";
 import Footer from "@/components/Footer";
 
 export const metadata: Metadata = {
-  title: "Sustainable Commercial Painting Practices: Eco-Friendly Tips | Priority One Coatings",
+  title: "Sustainable Commercial Painting Practices: Eco-Friendly Tips",
   description:
-    "Discover eco-friendly commercial painting practices — low VOC paints, waste reduction and durable coatings — to help Sydney businesses paint more sustainably.",
+    "Sustainable commercial painting practices have become crucial across Sydney. Explore practical eco-friendly painting tips for durable, professional finishes.",
   alternates: {
     canonical: "/sustainable-commercial-painting-eco-friendly-tips",
   },

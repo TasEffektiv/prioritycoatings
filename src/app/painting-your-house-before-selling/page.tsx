@@ -12,7 +12,7 @@ import BlogSidebar from "@/components/blog/BlogSidebar";
 export const metadata: Metadata = {
   title: "Painting Your House Before Selling | Priority One Coatings",
   description:
-    "Wondering if it's worth painting your house before selling? Learn how a fresh coat of paint can boost curb appeal, perceived value and ROI.",
+    "Painting your house before selling is a strategic move that can offer significant advantages. Consider hiring expert house painters like Priority One Coatings.",
   alternates: {
     canonical: "/painting-your-house-before-selling",
   },

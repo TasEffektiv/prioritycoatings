@@ -11,7 +11,7 @@ import Footer from "@/components/Footer";
 export const metadata: Metadata = {
   title: "Interior Painting Preparation | Priority One Coatings",
   description:
-    "A step-by-step guide to preparing a room for interior painting — what to do yourself, what your painters should handle, and precautions for different wall types.",
+    "Proper interior painting preparation is essential. Get expert tips on cleaning, sanding, priming and setting up your space for a flawless interior paint job.",
   alternates: {
     canonical: "/interior-painting-preparation",
   },

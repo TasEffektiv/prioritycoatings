@@ -6,9 +6,9 @@ import TestimonialCard from "@/components/TestimonialCard";
 import { TESTIMONIALS } from "@/data/testimonials";
 
 export const metadata: Metadata = {
-  title: "Testimonials | Priority One Coatings",
+  title: "Testimonials | Our Client's Word of Mouth | Priority One Coatings",
   description:
-    "See what our clients say about Priority One Coatings — trusted Sydney painters delivering reliable, high-quality residential, commercial and strata painting services.",
+    "At Priority One Coatings, our excellence is defined by our client's reviews. Check out our client's word of mouth for our professional painters in Sydney.",
   alternates: {
     canonical: "/testimonials",
   },

@@ -11,7 +11,7 @@ import Footer from "@/components/Footer";
 export const metadata: Metadata = {
   title: "Dulux Colour Forecast for 2026 | Priority One Coatings",
   description:
-    "Discover the Dulux Colour Forecast for 2026 — a shift towards warm neutrals, soft pastels and bold hues across the Elemental, Ethereal and Evoke palettes.",
+    "Dulux Colour Forecast for 2026 welcomes warm neutrals, soft pastels, and earthy tones. Explore the shades set to shape interior and exterior painting in 2026.",
   alternates: {
     canonical: "/dulux-colour-forecast-for-2026",
   },

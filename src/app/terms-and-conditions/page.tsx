@@ -6,7 +6,7 @@ import Footer from "@/components/Footer";
 export const metadata: Metadata = {
   title: "Website Terms and Conditions | Priority One Coatings",
   description:
-    "Read the website terms and conditions for Priority One Coatings, Sydney's trusted painting & decorating company.",
+    "By using our website and the services and information offered on our site, you are agreeing to be bound to these terms & conditions which may get changed at any time.",
   alternates: {
     canonical: "/terms-and-conditions",
   },

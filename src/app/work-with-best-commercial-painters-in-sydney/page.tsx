@@ -11,7 +11,7 @@ import Footer from "@/components/Footer";
 export const metadata: Metadata = {
   title: "Work with The Best Commercial Painters in Sydney | Priority One Coatings",
   description:
-    "Painting your commercial building means giving your company a new look that reflects your brand. See why Priority One Coatings is Sydney's trusted choice.",
+    "There are plenty of painting companies available in Sydney. Priority One Coatings can be the best choice for your commercial property. Call 02 9808 5900 today.",
   alternates: {
     canonical: "/work-with-best-commercial-painters-in-sydney",
   },

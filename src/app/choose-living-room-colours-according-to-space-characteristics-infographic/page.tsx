@@ -9,9 +9,9 @@ import { articleSchema } from "@/lib/schema";
 import Footer from "@/components/Footer";
 
 export const metadata: Metadata = {
-  title: "Choose Living Room Colours by Space Characteristics | Priority One Coatings",
+  title: "Choose Living Room Colours According To Space Characteristics (Infographic) | Priority One Coatings",
   description:
-    "Learn how natural light, room use and furniture should guide your living room colour choices, plus a handy infographic with quick tips.",
+    "Check out the infographic for easy tips to help you through the process when decorating your living room. Contact us for more info or get a free Quote!",
   alternates: {
     canonical: "/choose-living-room-colours-according-to-space-characteristics-infographic",
   },

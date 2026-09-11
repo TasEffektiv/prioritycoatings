@@ -11,7 +11,7 @@ import Footer from "@/components/Footer";
 export const metadata: Metadata = {
   title: "The Best Paint Colours for Dark Rooms | Priority One Coatings",
   description:
-    "One of the best colours to use in a room with low natural light is a light neutral with warm undertones. Let's explore which colours work best for dark rooms.",
+    "One of the best colours to use in a room with low natural light is a light neutral with warm undertones. Let's explore which colours work best for dark rooms.",
   alternates: {
     canonical: "/best-paint-colours-for-dark-rooms",
   },

@@ -9,9 +9,9 @@ import { articleSchema } from "@/lib/schema";
 import Footer from "@/components/Footer";
 
 export const metadata: Metadata = {
-  title: "Signs of a Bad Paint Job: Understand Painting Mistakes | Priority One Coatings",
+  title: "Signs of a Bad Paint Job: Understand Painting Mistakes",
   description:
-    "Peeling, bubbling, or uneven paint? Spot the signs of a bad paint job before it's too late and get professional solutions from Priority One Coatings.",
+    "Peeling, bubbling, or uneven paint? Spot the signs of a bad paint job before it’s too late and get professional solutions from Priority One Coatings.",
   alternates: {
     canonical: "/signs-of-a-bad-paint-job",
   },

@@ -11,7 +11,7 @@ import Footer from "@/components/Footer";
 export const metadata: Metadata = {
   title: "How Can Paint Colour Affects Your Work Spaces | Priority One Coatings",
   description:
-    "Paint colours impact emotions and psychological responses and affect workspaces by influencing employee productivity. Learn more about office colour psychology.",
+    "Paint colours impact emotions and psychological responses and affect workspaces by influencing employee productivity. Learn more about office colour psychology.",
   alternates: {
     canonical: "/how-paint-colour-affects-your-work-spaces",
   },

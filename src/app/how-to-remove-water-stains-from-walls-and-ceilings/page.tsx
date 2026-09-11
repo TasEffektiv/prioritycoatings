@@ -9,9 +9,9 @@ import { articleSchema } from "@/lib/schema";
 import Footer from "@/components/Footer";
 
 export const metadata: Metadata = {
-  title: "How to Remove Water Stains on Walls & Ceilings | Priority One Coatings",
+  title: "How to Remove Water Stains on Walls & Ceilings",
   description:
-    "Water stains on walls and ceilings are a common Sydney home problem. Learn what causes them, how to remove them safely, and how to stop them from returning.",
+    "Water stains on walls and ceilings can be damaging. These stains occur for various factors, including leakage. Let's check some easy steps to remove the stains.",
   alternates: {
     canonical: "/how-to-remove-water-stains-from-walls-and-ceilings",
   },

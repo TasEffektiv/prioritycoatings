@@ -11,7 +11,7 @@ import Footer from "@/components/Footer";
 export const metadata: Metadata = {
   title: "Commercial Painting FAQs By Trusted Sydney Painters | Priority One Coatings",
   description:
-    "Answers to the most common questions about commercial painting in Sydney — cost, insurance, process, timelines and choosing the right contractor.",
+    "Explore top commercial painting FAQs answered by trusted Sydney painters and get expert advice on costs, timelines, preparation, and maintaining your building.",
   alternates: {
     canonical: "/commercial-painting-faqs-by-trusted-sydney-painters",
   },

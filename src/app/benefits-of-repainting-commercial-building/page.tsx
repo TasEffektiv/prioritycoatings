@@ -11,7 +11,7 @@ import Footer from "@/components/Footer";
 export const metadata: Metadata = {
   title: "Benefits of Repainting Your Commercial Building | Priority One Coatings",
   description:
-    "From rebranding to increased foot traffic and market value, discover the benefits of repainting your commercial building with Priority One Coatings.",
+    "There are many reasons to repaint your commercial property. Check the article and explore the benefits of repainting your building. For more info, Call 02 9808 5900.",
   alternates: {
     canonical: "/benefits-of-repainting-commercial-building",
   },

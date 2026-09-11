@@ -11,7 +11,7 @@ import Footer from "@/components/Footer";
 export const metadata: Metadata = {
   title: "Safe Painting Practices for Homeowners & Painters | Priority One Coatings",
   description:
-    "Painting can present several hazards if not done correctly. Learn the safest painting practices, from choosing paint to PPE, ventilation and safe storage.",
+    "Safe painting practices involve choosing safe materials, preparing adequately, and handling disposal. Learn safe painting tips for homeowners & professionals.",
   alternates: {
     canonical: "/safe-painting-practices-for-homeowners-painters",
   },

@@ -10,7 +10,7 @@ import Footer from "@/components/Footer";
 import BlogSidebar from "@/components/blog/BlogSidebar";
 
 export const metadata: Metadata = {
-  title: "Guide to Textured Paint: 9 Types of Texture Paint Finishes | Priority One Coatings",
+  title: "Guide to Textured Paint: 9 Types of Texture Paint Finishes",
   description:
     "Different types of textured paint can be used to create many effects in your interior spaces. To give your place a complete makeover, contact us.",
   alternates: {

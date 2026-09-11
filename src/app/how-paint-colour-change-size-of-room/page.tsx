@@ -12,7 +12,7 @@ import BlogSidebar from "@/components/blog/BlogSidebar";
 export const metadata: Metadata = {
   title: "How Paint Colour Can Change The Perceived Size Of A Room | Priority One Coatings",
   description:
-    "Discover how the right paint colours and shades can make a small room feel bigger, a long room feel shorter, or a low ceiling feel higher.",
+    "A professional colour consultant can advise you on the ideal colours for your home. So, if you are looking to repaint, contact Priority One Coatings.",
   alternates: {
     canonical: "/how-paint-colour-change-size-of-room",
   },

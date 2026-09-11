@@ -4,9 +4,9 @@ import PageHeader from "@/components/PageHeader";
 import Footer from "@/components/Footer";
 
 export const metadata: Metadata = {
-  title: "Portfolio | Priority One Coatings",
+  title: "Portfolio | Recent Projects | Priority One Coatings",
   description:
-    "Browse Priority One Coatings' portfolio of commercial, residential, strata and lead removal projects across Sydney.",
+    "Priority One Coatings works for any big or small commercial and residential painting projects in Sydney. Check out what we have done for our clients!",
   alternates: {
     canonical: "/portfolio",
   },

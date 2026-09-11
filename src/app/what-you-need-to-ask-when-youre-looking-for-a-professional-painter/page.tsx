@@ -9,9 +9,9 @@ import { articleSchema } from "@/lib/schema";
 import Footer from "@/components/Footer";
 
 export const metadata: Metadata = {
-  title: "What to Ask When Choosing a Professional Painter | Priority One Coatings",
+  title: "What You Need to Ask While Choosing A Professional Painter | Priority One Coatings",
   description:
-    "Hiring a painter? Learn the key questions to ask about experience, insurance, materials and warranties before choosing a professional painter in Sydney.",
+    "Painting or renovating your space is not a thing you do very often. Check the top questions you must ask before you hire a painter. Contact us for your next project.",
   alternates: {
     canonical: "/what-you-need-to-ask-when-youre-looking-for-a-professional-painter",
   },

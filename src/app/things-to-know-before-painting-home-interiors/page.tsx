@@ -9,9 +9,9 @@ import { articleSchema } from "@/lib/schema";
 import Footer from "@/components/Footer";
 
 export const metadata: Metadata = {
-  title: "Essential Things to Know Before Painting Your Home Interiors | Priority One Coatings",
+  title: "Essential Things to Know Before Painting Your Home Interiors",
   description:
-    "Everything to consider before painting your home interiors — surface prep, paint types and finishes, weather, colour selection, and DIY tips for a professional result.",
+    "A fresh coat of paint can transform your home interior. Learn the essentials of colour selection, DIY vs professional service, and expert tips before you start.",
   alternates: {
     canonical: "/things-to-know-before-painting-home-interiors",
   },

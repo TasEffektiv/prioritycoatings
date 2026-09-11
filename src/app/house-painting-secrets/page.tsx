@@ -11,7 +11,7 @@ import Footer from "@/components/Footer";
 export const metadata: Metadata = {
   title: "House Painting Secrets | Priority One Coatings",
   description:
-    "House painting has lots of secrets, from selecting the right sheen to mastering application techniques. Learn the insider tips for a stunning result.",
+    "House painting prioritises surface preparation, the right paint, and proper techniques. Learn all the house painting secrets to achieve the best paint finish.",
   alternates: {
     canonical: "/house-painting-secrets",
   },

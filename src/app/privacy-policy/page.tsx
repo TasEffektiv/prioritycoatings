@@ -6,7 +6,7 @@ import Footer from "@/components/Footer";
 export const metadata: Metadata = {
   title: "Website Privacy Policy | Priority One Coatings",
   description:
-    "Read the privacy policy for Priority One Coatings, Sydney's trusted painting & decorating company, and how we collect, use and protect your personal information.",
+    "This Privacy Policy describes our procedures regarding the collection, use, and disclosure of your information when you use the service and tells you about your privacy rights.",
   alternates: {
     canonical: "/privacy-policy",
   },

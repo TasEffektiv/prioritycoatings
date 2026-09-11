@@ -11,7 +11,7 @@ import Footer from "@/components/Footer";
 export const metadata: Metadata = {
   title: "Priority One Coatings Will Make Your Sydney Office Stand Out | Priority One Coatings",
   description:
-    "Planning an office fitout in Sydney? Priority One Coatings delivers customised, high-quality office fitouts that reflect your brand and boost productivity.",
+    "Are you ready to take your office fitout to the next level? Partner with Priority One Coatings & let us transform your office a fully functional and modern workplace.",
   alternates: {
     canonical: "/priority-coatings-make-your-sydney-office-stand-out",
   },

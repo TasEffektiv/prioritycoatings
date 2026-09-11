@@ -9,9 +9,9 @@ import { articleSchema } from "@/lib/schema";
 import Footer from "@/components/Footer";
 
 export const metadata: Metadata = {
-  title: "Why Winter Is a Good Time for Interior Painting | Priority One Coatings",
+  title: "Why Winter is A Good Time for Interior Painting Jobs? | Priority One Coatings",
   description:
-    "Discover why winter can be the ideal season for interior painting jobs, from cheaper quotes and faster drying times to more flexible scheduling.",
+    "Winter is a perfect time to give your home a complete makeover. Let’s explore why winter is the ideal season for interior painting. For more info, call 02 9808 5900.",
   alternates: {
     canonical: "/why-winter-is-a-good-time-for-interior-painting-jobs",
   },

@@ -5,9 +5,9 @@ import PageHeader from "@/components/PageHeader";
 import Footer from "@/components/Footer";
 
 export const metadata: Metadata = {
-  title: "About Us | Priority One Coatings",
+  title: "About Us | Sydney Residential & Commercial Painters Since 1988",
   description:
-    "Established in 1988, Priority One Coatings is a Sydney painting & decorating company with old school values, delivering premium residential, commercial, and strata painting services.",
+    "Specialising in both interior & exterior painting, Priority One Coatings delivers quality residential & commercial painting in Sydney with 35+ years of experience.",
   alternates: {
     canonical: "/about-us",
   },

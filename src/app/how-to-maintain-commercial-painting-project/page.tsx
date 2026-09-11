@@ -11,7 +11,7 @@ import Footer from "@/components/Footer";
 export const metadata: Metadata = {
   title: "How to Maintain Your Commercial Painting Project | Priority One Coatings",
   description:
-    "From project planning to regular cleaning and paint finish upkeep, learn how to maintain your commercial painting project with tips from Priority One Coatings.",
+    "Maintaining commercial property to keep it fresh and open for business is an important aspect that business owners neglect. For more info, contact us today!",
   alternates: {
     canonical: "/how-to-maintain-commercial-painting-project",
   },

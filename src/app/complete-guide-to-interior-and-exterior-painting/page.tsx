@@ -11,7 +11,7 @@ import Footer from "@/components/Footer";
 export const metadata: Metadata = {
   title: "Complete Guide to Interior and Exterior Painting | Priority One Coatings",
   description:
-    "Everything you need to know about interior and exterior painting — benefits, key differences, preparation, techniques and FAQs — from Priority One Coatings.",
+    "Explore our guide to interior and exterior painting, with case studies and advice on painting processes, materials and considerations for long-lasting results.",
   alternates: {
     canonical: "/complete-guide-to-interior-and-exterior-painting",
   },

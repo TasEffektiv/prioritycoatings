@@ -11,7 +11,7 @@ import Footer from "@/components/Footer";
 export const metadata: Metadata = {
   title: "How to Determine if Your House Has Lead Paint | Priority One Coatings",
   description:
-    "Learn how to tell if your home has lead-based paint, why it's dangerous, how to test for it, and what to do if you find it.",
+    "Not sure if your house has lead paint? Learn to identify lead paint in your home, including common signs, testing methods, and when to seek professional advice.",
   alternates: {
     canonical: "/how-to-determine-if-your-house-has-lead-paint",
   },

@@ -9,9 +9,9 @@ import { articleSchema } from "@/lib/schema";
 import Footer from "@/components/Footer";
 
 export const metadata: Metadata = {
-  title: "Light Reflectance Value and What It Means for Your Colour Choices | Priority One Coatings",
+  title: "Light Reflectance Value & What It Means For Your Colour Choices | Priority One Coatings",
   description:
-    "Learn what Light Reflectance Value (LRV) is, how it is measured, and how it can help you choose the right interior and exterior paint colours.",
+    "Whether it's for a DIY or professional job, LRV is a good guideline when considering your home's colour selection. Contact us for more info or get a free Quote!",
   alternates: {
     canonical: "/light-reflectance-value-and-what-it-means-for-your-colour-choices",
   },

@@ -9,9 +9,9 @@ import { articleSchema } from "@/lib/schema";
 import Footer from "@/components/Footer";
 
 export const metadata: Metadata = {
-  title: "How Often Should You Paint Your House Exterior? | Priority One Coatings",
+  title: "How Often To Paint Your House Exterior | Priority One Coatings",
   description:
-    "Wondering how often to repaint your house exterior? Learn what affects paint lifespan and the warning signs it's time for a fresh coat.",
+    "Do you know when it's time to repaint your Sydney house exterior? Your home exteriors need repainting about every 5 years. Contact us for your house repainting!",
   alternates: {
     canonical: "/how-often-should-the-exterior-of-the-house-be-painted",
   },

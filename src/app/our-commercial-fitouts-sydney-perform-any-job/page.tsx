@@ -11,7 +11,7 @@ import Footer from "@/components/Footer";
 export const metadata: Metadata = {
   title: "Our Commercial Fitouts Sydney Specialists Can Perform Any Job | Priority One Coatings",
   description:
-    "Priority One Coatings delivers expert office fitouts and commercial refurbishment services across Sydney's commercial, retail and hospitality industries.",
+    "If you are searching for a commercial office fitouts company in Sydney, look no further than Priority One Coatings. Call 02 9808 5900 to discuss your fit-out project.",
   alternates: {
     canonical: "/our-commercial-fitouts-sydney-perform-any-job",
   },

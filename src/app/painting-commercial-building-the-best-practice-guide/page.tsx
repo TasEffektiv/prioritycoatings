@@ -9,7 +9,7 @@ import { articleSchema } from "@/lib/schema";
 import Footer from "@/components/Footer";
 
 export const metadata: Metadata = {
-  title: "Painting Commercial Building: The Best Practice Guide | Priority One Coatings",
+  title: "Painting Commercial Building: The Best Practice Guide",
   description:
     "Explore the best practices for commercial building painting in Sydney, including preparation, coatings, safety standards, and maintenance tips. Contact for more.",
   alternates: {
