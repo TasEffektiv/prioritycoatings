@@ -27,9 +27,9 @@
     "typescript": "^5"
   },
   "browserslist": [
-    "chrome >= 84",
-    "edge >= 84",
-    "firefox >= 78",
+    "chrome >= 93",
+    "edge >= 93",
+    "firefox >= 92",
     "safari >= 15.4",
     "ios_saf >= 15.4"
   ]

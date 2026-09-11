@@ -9,6 +9,7 @@ const nextConfig: NextConfig = {
     // 40 covers decorative section backgrounds that are partially obscured
     // by overlays/blend modes, where extra compression is imperceptible.
     qualities: [40, 70, 75],
+    formats: ["image/avif", "image/webp"],
   },
 };
 
