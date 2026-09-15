@@ -1,0 +1,15 @@
+# WordPress form plugins used a redirect-to-a-static-page pattern for
+# post-submit confirmation ("/thank-you/", "/quote-form-submitted/"). The
+# Next.js rebuild replaced that with an inline success state on the form
+# itself (see QuoteForm.tsx / ContactForm.tsx), so these two pages have no
+# equivalent route. Redirect them rather than leaving old indexed/bookmarked
+# links to 404.
+[[redirects]]
+  from = "/thank-you/"
+  to = "/"
+  status = 301
+
+[[redirects]]
+  from = "/quote-form-submitted/"
+  to = "/"
+  status = 301
