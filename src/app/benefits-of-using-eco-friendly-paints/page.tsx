@@ -13,7 +13,7 @@ export const metadata: Metadata = {
   description:
     "Using eco-friendly paints offers advantages. Low-VOC paints are better for your health and the environment. Explore the benefits of eco-friendly paints.",
   alternates: {
-    canonical: "/benefits-of-using-eco-friendly-paints",
+    canonical: "/benefits-of-using-eco-friendly-paints/",
   },
 };
 

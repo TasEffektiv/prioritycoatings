@@ -15,7 +15,7 @@ export const metadata: Metadata = {
   description:
     "Get professional painters in Balmain for all your painting needs of residential, commercial & strata projects. Quality painting & personalised service. Call NOW!",
   alternates: {
-    canonical: "/painters-balmain",
+    canonical: "/painters-balmain/",
   },
 };
 

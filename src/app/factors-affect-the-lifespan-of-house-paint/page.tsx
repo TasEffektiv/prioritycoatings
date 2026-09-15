@@ -13,7 +13,7 @@ export const metadata: Metadata = {
   description:
     "Rain, hail, snow, and sunlight can cause extensive damage to house paint. Explore factors that can affect the lifespan of residential painting. Contact us for more.",
   alternates: {
-    canonical: "/factors-affect-the-lifespan-of-house-paint",
+    canonical: "/factors-affect-the-lifespan-of-house-paint/",
   },
 };
 

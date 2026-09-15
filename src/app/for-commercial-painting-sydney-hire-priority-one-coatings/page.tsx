@@ -13,7 +13,7 @@ export const metadata: Metadata = {
   description:
     "A tired-looking commercial building brings down the image of your business. Hire Priority One Coatings today and let us give your commercial property a better look!",
   alternates: {
-    canonical: "/for-commercial-painting-sydney-hire-priority-one-coatings",
+    canonical: "/for-commercial-painting-sydney-hire-priority-one-coatings/",
   },
 };
 

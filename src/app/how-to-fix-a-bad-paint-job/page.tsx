@@ -13,7 +13,7 @@ export const metadata: Metadata = {
   description:
     "Whether it’s streaks, roller marks, or uneven coverage, a bad paint job is frustrating. Check fixes that will help you without repainting the entire surface.",
   alternates: {
-    canonical: "/how-to-fix-a-bad-paint-job",
+    canonical: "/how-to-fix-a-bad-paint-job/",
   },
 };
 

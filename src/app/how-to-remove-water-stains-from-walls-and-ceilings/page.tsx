@@ -13,7 +13,7 @@ export const metadata: Metadata = {
   description:
     "Water stains on walls and ceilings can be damaging. These stains occur for various factors, including leakage. Let's check some easy steps to remove the stains.",
   alternates: {
-    canonical: "/how-to-remove-water-stains-from-walls-and-ceilings",
+    canonical: "/how-to-remove-water-stains-from-walls-and-ceilings/",
   },
 };
 

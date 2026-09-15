@@ -13,7 +13,7 @@ export const metadata: Metadata = {
   description:
     "Pressure washing is a great way to clean the house exterior. It removes dirt & grime to reveal a clean surface ready for painting. Check reasons of pressure washing.",
   alternates: {
-    canonical: "/pressure-wash-before-painting-your-house",
+    canonical: "/pressure-wash-before-painting-your-house/",
   },
 };
 

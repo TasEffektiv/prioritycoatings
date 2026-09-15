@@ -10,7 +10,7 @@ export const metadata: Metadata = {
   description:
     "At Priority One Coatings, our excellence is defined by our client's reviews. Check out our client's word of mouth for our professional painters in Sydney.",
   alternates: {
-    canonical: "/testimonials",
+    canonical: "/testimonials/",
   },
 };
 

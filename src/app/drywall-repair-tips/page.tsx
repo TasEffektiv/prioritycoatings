@@ -13,7 +13,7 @@ export const metadata: Metadata = {
   description:
     "Over time, wear and tear can make Sydney homeowners repair drywall. Check out the essential tips you need to know when fixing drywall damage in your home.",
   alternates: {
-    canonical: "/drywall-repair-tips",
+    canonical: "/drywall-repair-tips/",
   },
 };
 

@@ -13,7 +13,7 @@ export const metadata: Metadata = {
   description:
     "Whether it's for a DIY or professional job, LRV is a good guideline when considering your home's colour selection. Contact us for more info or get a free Quote!",
   alternates: {
-    canonical: "/light-reflectance-value-and-what-it-means-for-your-colour-choices",
+    canonical: "/light-reflectance-value-and-what-it-means-for-your-colour-choices/",
   },
 };
 

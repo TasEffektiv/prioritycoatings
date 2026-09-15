@@ -15,7 +15,7 @@ export const metadata: Metadata = {
   description:
     "We are professional painters offering all types of interior and exterior painting services in Bondi. Call us for free quotes and get quality painting services.",
   alternates: {
-    canonical: "/painters-bondi",
+    canonical: "/painters-bondi/",
   },
 };
 

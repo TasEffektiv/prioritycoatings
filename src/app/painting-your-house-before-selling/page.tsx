@@ -14,7 +14,7 @@ export const metadata: Metadata = {
   description:
     "Painting your house before selling is a strategic move that can offer significant advantages. Consider hiring expert house painters like Priority One Coatings.",
   alternates: {
-    canonical: "/painting-your-house-before-selling",
+    canonical: "/painting-your-house-before-selling/",
   },
 };
 

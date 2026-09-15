@@ -13,7 +13,7 @@ export const metadata: Metadata = {
   description:
     "Planning a painting project? Explore essential terms of paint, colours, and tools in this easy-to-understand glossary, perfect for homeowners and DIY painters.",
   alternates: {
-    canonical: "/paint-colours-and-tools-glossary-you-need",
+    canonical: "/paint-colours-and-tools-glossary-you-need/",
   },
 };
 

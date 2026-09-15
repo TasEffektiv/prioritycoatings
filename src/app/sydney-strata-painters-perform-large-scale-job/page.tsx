@@ -13,7 +13,7 @@ export const metadata: Metadata = {
   description:
     "With over 32 years of experience, we work on properties of all scales and kinds with our skilled and efficient strata painters in Sydney. Contact us for a free quote.",
   alternates: {
-    canonical: "/sydney-strata-painters-perform-large-scale-job",
+    canonical: "/sydney-strata-painters-perform-large-scale-job/",
   },
 };
 

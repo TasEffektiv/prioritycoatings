@@ -80,7 +80,11 @@ export default function sitemap(): MetadataRoute.Sitemap {
     const lastModified = BLOG_LAST_MODIFIED.get(route) ?? new Date();
 
     return {
-      url: `${BASE_URL}${route}`,
+      // Every live URL is indexed with a trailing slash, and next.config.ts
+      // now enforces that as the canonical form (trailingSlash: true) — the
+      // sitemap needs to advertise that same form, even though `route` itself
+      // (the raw filesystem path) stays slash-free for the lookups above.
+      url: route === "/" ? `${BASE_URL}/` : `${BASE_URL}${route}/`,
       lastModified,
       changeFrequency,
       priority,

@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   description:
     "Specialising in both interior & exterior painting, Priority One Coatings delivers quality residential & commercial painting in Sydney with 35+ years of experience.",
   alternates: {
-    canonical: "/about-us",
+    canonical: "/about-us/",
   },
 };
 

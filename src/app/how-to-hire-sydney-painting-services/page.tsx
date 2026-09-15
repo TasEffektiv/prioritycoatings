@@ -13,7 +13,7 @@ export const metadata: Metadata = {
   description:
     "Hiring Sydney painting services is not easy, but you can check this blog post to ensure you are not risking your property in amateur hands. Contact us today!",
   alternates: {
-    canonical: "/how-to-hire-sydney-painting-services",
+    canonical: "/how-to-hire-sydney-painting-services/",
   },
 };
 

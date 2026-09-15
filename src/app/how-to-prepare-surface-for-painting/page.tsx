@@ -14,7 +14,7 @@ export const metadata: Metadata = {
   description:
     "Whether you are painting on the exterior or the interior, the basic and essential aspect is paint surface preparation. Explore the guide to surface preparation.",
   alternates: {
-    canonical: "/how-to-prepare-surface-for-painting",
+    canonical: "/how-to-prepare-surface-for-painting/",
   },
 };
 

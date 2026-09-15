@@ -13,7 +13,7 @@ export const metadata: Metadata = {
   description:
     "Choosing office paint colours affects mood and productivity. Explore colour psychology and practical decorating tips for commercial workplaces.",
   alternates: {
-    canonical: "/painting-and-decorating-tips-for-your-office",
+    canonical: "/painting-and-decorating-tips-for-your-office/",
   },
 };
 

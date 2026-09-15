@@ -13,7 +13,7 @@ export const metadata: Metadata = {
   description:
     "Concrete retaining wall painting usually requires premium tools, supplies, and expert painters. Contact us and give a facial uplift to your retaining wall.",
   alternates: {
-    canonical: "/how-to-paint-concrete-retaining-wall",
+    canonical: "/how-to-paint-concrete-retaining-wall/",
   },
 };
 

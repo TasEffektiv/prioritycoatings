@@ -13,7 +13,7 @@ export const metadata: Metadata = {
   description:
     "Explore top commercial painting FAQs answered by trusted Sydney painters and get expert advice on costs, timelines, preparation, and maintaining your building.",
   alternates: {
-    canonical: "/commercial-painting-faqs-by-trusted-sydney-painters",
+    canonical: "/commercial-painting-faqs-by-trusted-sydney-painters/",
   },
 };
 

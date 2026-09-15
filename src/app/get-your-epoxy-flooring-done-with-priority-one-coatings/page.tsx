@@ -13,7 +13,7 @@ export const metadata: Metadata = {
   description:
     "If you want your epoxy flooring done with the best epoxy flooring contractor in Sydney, hire Priority One Coatings. For the best epoxy floor coatings. contact us.",
   alternates: {
-    canonical: "/get-your-epoxy-flooring-done-with-priority-one-coatings",
+    canonical: "/get-your-epoxy-flooring-done-with-priority-one-coatings/",
   },
 };
 

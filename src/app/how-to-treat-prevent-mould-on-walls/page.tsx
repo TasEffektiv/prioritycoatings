@@ -13,7 +13,7 @@ export const metadata: Metadata = {
   description:
     "The key to mould prevention is keeping air moisture to a minimum. Let's discover how to treat and prevent mould in your bathrooms, kitchens, rooms, and laundry.",
   alternates: {
-    canonical: "/how-to-treat-prevent-mould-on-walls",
+    canonical: "/how-to-treat-prevent-mould-on-walls/",
   },
 };
 

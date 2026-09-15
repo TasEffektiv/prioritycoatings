@@ -13,7 +13,7 @@ export const metadata: Metadata = {
   description:
     "Sustainable commercial painting practices have become crucial across Sydney. Explore practical eco-friendly painting tips for durable, professional finishes.",
   alternates: {
-    canonical: "/sustainable-commercial-painting-eco-friendly-tips",
+    canonical: "/sustainable-commercial-painting-eco-friendly-tips/",
   },
 };
 

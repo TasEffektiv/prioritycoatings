@@ -13,7 +13,7 @@ export const metadata: Metadata = {
   description:
     "Explore different types of industrial coatings. Discover the benefits and tradeoffs of different industrial coating types. Contact us for premium epoxy coatings.",
   alternates: {
-    canonical: "/different-types-of-industrial-coatings",
+    canonical: "/different-types-of-industrial-coatings/",
   },
 };
 

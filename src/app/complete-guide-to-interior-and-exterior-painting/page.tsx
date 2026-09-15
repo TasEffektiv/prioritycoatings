@@ -13,7 +13,7 @@ export const metadata: Metadata = {
   description:
     "Explore our guide to interior and exterior painting, with case studies and advice on painting processes, materials and considerations for long-lasting results.",
   alternates: {
-    canonical: "/complete-guide-to-interior-and-exterior-painting",
+    canonical: "/complete-guide-to-interior-and-exterior-painting/",
   },
 };
 

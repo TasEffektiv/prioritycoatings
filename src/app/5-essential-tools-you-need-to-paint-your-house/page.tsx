@@ -13,7 +13,7 @@ export const metadata: Metadata = {
   description:
     "Thinking about DIY house painting? Here's a checklist of the essential tools and equipment you need to get the job done with the best possible finish.",
   alternates: {
-    canonical: "/5-essential-tools-you-need-to-paint-your-house",
+    canonical: "/5-essential-tools-you-need-to-paint-your-house/",
   },
 };
 

@@ -13,7 +13,7 @@ export const metadata: Metadata = {
   description:
     "There are many reasons to repaint your commercial property. Check the article and explore the benefits of repainting your building. For more info, Call 02 9808 5900.",
   alternates: {
-    canonical: "/benefits-of-repainting-commercial-building",
+    canonical: "/benefits-of-repainting-commercial-building/",
   },
 };
 

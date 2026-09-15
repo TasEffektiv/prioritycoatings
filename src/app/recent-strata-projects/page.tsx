@@ -10,7 +10,7 @@ export const metadata: Metadata = {
   description:
     "Priority One Coatings works for any big or small strata painting projects in Sydney. Check out what we have done for our clients.",
   alternates: {
-    canonical: "/recent-strata-projects",
+    canonical: "/recent-strata-projects/",
   },
 };
 

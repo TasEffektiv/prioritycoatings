@@ -13,7 +13,7 @@ export const metadata: Metadata = {
   description:
     "For surface preparation, pressure washing usually outperforms paint scraping. Explore which one is the best pre-paint process for cleaning to paint adhesion.",
   alternates: {
-    canonical: "/paint-scraping-vs-pressure-washing",
+    canonical: "/paint-scraping-vs-pressure-washing/",
   },
 };
 

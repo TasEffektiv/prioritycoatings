@@ -13,7 +13,7 @@ export const metadata: Metadata = {
   description:
     "Planning exterior house painting in winter? Get expert advice on winter exterior house painting, including key do's and don’ts to achieve a professional finish.",
   alternates: {
-    canonical: "/winter-exterior-house-painting-dos-and-donts",
+    canonical: "/winter-exterior-house-painting-dos-and-donts/",
   },
 };
 

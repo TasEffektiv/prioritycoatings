@@ -13,7 +13,7 @@ export const metadata: Metadata = {
   description:
     "There are plenty of painting companies available in Sydney. Priority One Coatings can be the best choice for your commercial property. Call 02 9808 5900 today.",
   alternates: {
-    canonical: "/work-with-best-commercial-painters-in-sydney",
+    canonical: "/work-with-best-commercial-painters-in-sydney/",
   },
 };
 

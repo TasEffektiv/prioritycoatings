@@ -13,7 +13,7 @@ export const metadata: Metadata = {
   description:
     "Cladding, mainly wood, often requires painting or staining. Check out some expert tips for a successful cladding painting project. For more info, contact us.",
   alternates: {
-    canonical: "/how-to-paint-cladding-surfaces",
+    canonical: "/how-to-paint-cladding-surfaces/",
   },
 };
 

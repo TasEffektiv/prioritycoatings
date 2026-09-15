@@ -13,7 +13,7 @@ export const metadata: Metadata = {
   description:
     "With the right tools and the right kind of paint, you can easily paint over your home's cement-rendered walls. Check the tips to make your job easier.",
   alternates: {
-    canonical: "/tips-for-painting-rendered-wall",
+    canonical: "/tips-for-painting-rendered-wall/",
   },
 };
 

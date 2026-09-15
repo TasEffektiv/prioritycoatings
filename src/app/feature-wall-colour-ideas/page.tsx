@@ -13,7 +13,7 @@ export const metadata: Metadata = {
   description:
     "Choosing the right colour for your feature wall can be a daunting task. Let's explore some exclusive feature wall colour ideas to make your task easy.",
   alternates: {
-    canonical: "/feature-wall-colour-ideas",
+    canonical: "/feature-wall-colour-ideas/",
   },
 };
 

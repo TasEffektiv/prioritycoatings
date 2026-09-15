@@ -13,7 +13,7 @@ export const metadata: Metadata = {
   description:
     "Professional painting can enhance curb appeal, durability, and market value of your Sydney home. Learn how expert Sydney painters boost your property’s value.",
   alternates: {
-    canonical: "/how-professional-painting-adds-value-to-property",
+    canonical: "/how-professional-painting-adds-value-to-property/",
   },
 };
 

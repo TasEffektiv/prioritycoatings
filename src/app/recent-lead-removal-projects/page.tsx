@@ -10,7 +10,7 @@ export const metadata: Metadata = {
   description:
     "Priority One Coatings works for any big or small lead paint removal projects in Sydney. Check out what we have done for our clients.",
   alternates: {
-    canonical: "/recent-lead-removal-projects",
+    canonical: "/recent-lead-removal-projects/",
   },
 };
 

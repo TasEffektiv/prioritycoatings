@@ -13,7 +13,7 @@ export const metadata: Metadata = {
   description:
     "Peeling paint is more than an eyesore — it can point to moisture, humidity, poor surface prep or even a lead paint health risk. Discover the 7 most common causes of peeling paint on walls and how to stop it for good.",
   alternates: {
-    canonical: "/common-causes-peeling-paint-walls",
+    canonical: "/common-causes-peeling-paint-walls/",
   },
 };
 

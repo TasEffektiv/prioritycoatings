@@ -14,7 +14,7 @@ export const metadata: Metadata = {
   description:
     "Due to the presence of asbestos, popcorn ceilings are long out of style. If you need a popcorn ceiling removal, check the process. For more, contact us.",
   alternates: {
-    canonical: "/how-to-remove-popcorn-vermiculite-ceilings",
+    canonical: "/how-to-remove-popcorn-vermiculite-ceilings/",
   },
 };
 

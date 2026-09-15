@@ -14,7 +14,7 @@ export const metadata: Metadata = {
   description:
     "Peeling paint from walls looks terrible and can deter your family, tenants, or prospective employees. Explore this step-by-step guide and learn how to fix it.",
   alternates: {
-    canonical: "/how-to-repair-peeling-paint-on-wall",
+    canonical: "/how-to-repair-peeling-paint-on-wall/",
   },
 };
 

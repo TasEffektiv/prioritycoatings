@@ -13,7 +13,7 @@ export const metadata: Metadata = {
   description:
     "Maintaining a positive image with your client base starts with your building's appearance. Discover how strata and commercial painting can help your business.",
   alternates: {
-    canonical: "/how-strata-painting-can-help-your-business-in-2017",
+    canonical: "/how-strata-painting-can-help-your-business-in-2017/",
   },
 };
 

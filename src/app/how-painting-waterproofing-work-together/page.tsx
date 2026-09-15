@@ -13,7 +13,7 @@ export const metadata: Metadata = {
   description:
     "Waterproofing prevents water penetration, and waterproof paint protects surfaces from water damage. While working together can provide an extra layer of protection.",
   alternates: {
-    canonical: "/how-painting-waterproofing-work-together",
+    canonical: "/how-painting-waterproofing-work-together/",
   },
 };
 

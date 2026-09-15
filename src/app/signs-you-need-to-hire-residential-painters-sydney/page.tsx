@@ -13,7 +13,7 @@ export const metadata: Metadata = {
   description:
     "If your house in Sydney has any of the signs that you need to hire residential painters, contact us today and let us handle all your painting needs.",
   alternates: {
-    canonical: "/signs-you-need-to-hire-residential-painters-sydney",
+    canonical: "/signs-you-need-to-hire-residential-painters-sydney/",
   },
 };
 

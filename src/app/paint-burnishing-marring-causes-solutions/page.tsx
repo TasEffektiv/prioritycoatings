@@ -13,7 +13,7 @@ export const metadata: Metadata = {
   description:
     "Marring or burnishing is shiny spots on a paint surface, possibly caused by scrubbing dirt or stains. Learn how to fix burnishing or marring on painted surfaces.",
   alternates: {
-    canonical: "/paint-burnishing-marring-causes-solutions",
+    canonical: "/paint-burnishing-marring-causes-solutions/",
   },
 };
 

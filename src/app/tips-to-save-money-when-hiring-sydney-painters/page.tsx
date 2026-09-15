@@ -13,7 +13,7 @@ export const metadata: Metadata = {
   description:
     "Hiring Sydney painters doesn't have to be a financial burden. Explore five tips to save money while working with professional painting services in Sydney.",
   alternates: {
-    canonical: "/tips-to-save-money-when-hiring-sydney-painters",
+    canonical: "/tips-to-save-money-when-hiring-sydney-painters/",
   },
 };
 

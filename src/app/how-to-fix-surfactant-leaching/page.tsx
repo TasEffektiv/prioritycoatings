@@ -13,7 +13,7 @@ export const metadata: Metadata = {
   description:
     "Surfactant leaching, an issue with latex paints, is caused by cool, humid conditions during the paint drying. Check easy prevention tips for surfactant leaching.",
   alternates: {
-    canonical: "/how-to-fix-surfactant-leaching",
+    canonical: "/how-to-fix-surfactant-leaching/",
   },
 };
 

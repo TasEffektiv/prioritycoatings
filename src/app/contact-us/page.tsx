@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   description:
     "Get your Free Painting Quotes Sydney with Priority One Coatings. Fast, no obligation quotes for Sydney suburbs. Licensed & fully insured. Call us at 02 9808 5900.",
   alternates: {
-    canonical: "/contact-us",
+    canonical: "/contact-us/",
   },
 };
 

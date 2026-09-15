@@ -13,7 +13,7 @@ export const metadata: Metadata = {
   description:
     "The benefits of waterproofing extend beyond preserving the structural integrity of your commercial building. Explore the essential reasons and core benefits.",
   alternates: {
-    canonical: "/waterproofing-commercial-buildings",
+    canonical: "/waterproofing-commercial-buildings/",
   },
 };
 

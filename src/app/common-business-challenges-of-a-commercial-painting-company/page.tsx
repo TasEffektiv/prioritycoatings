@@ -13,7 +13,7 @@ export const metadata: Metadata = {
   description:
     "From reputation and cash flow to skilled labour and compliance, explore the common business challenges facing commercial painting companies and how to manage them.",
   alternates: {
-    canonical: "/common-business-challenges-of-a-commercial-painting-company",
+    canonical: "/common-business-challenges-of-a-commercial-painting-company/",
   },
 };
 

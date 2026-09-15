@@ -13,7 +13,7 @@ export const metadata: Metadata = {
   description:
     "Stain-resistant paints offer superior protection against stains and dirt. Learn the benefits, application areas, types and tips for stain-resistant paints.",
   alternates: {
-    canonical: "/why-stain-resistant-paint",
+    canonical: "/why-stain-resistant-paint/",
   },
 };
 

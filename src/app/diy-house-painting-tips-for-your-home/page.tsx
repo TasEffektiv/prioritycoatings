@@ -13,7 +13,7 @@ export const metadata: Metadata = {
   description:
     "Planning a DIY paint job? These practical house painting tips cover planning, purchases, tools, and technique to help you keep your home colourful and looking its best.",
   alternates: {
-    canonical: "/diy-house-painting-tips-for-your-home",
+    canonical: "/diy-house-painting-tips-for-your-home/",
   },
 };
 

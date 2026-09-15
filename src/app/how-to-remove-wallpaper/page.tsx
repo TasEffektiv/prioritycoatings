@@ -13,7 +13,7 @@ export const metadata: Metadata = {
   description:
     "If you are looking for simple and effective ways to remove wallpaper, this article provides a step-by-step guide for getting rid of old wallpaper from your walls.",
   alternates: {
-    canonical: "/how-to-remove-wallpaper",
+    canonical: "/how-to-remove-wallpaper/",
   },
 };
 

@@ -13,7 +13,7 @@ export const metadata: Metadata = {
   description:
     "For homeowners in Sydney, beige is one of the safest options for house painting. Explore how to pick the perfect beige paint for your next renovation project.",
   alternates: {
-    canonical: "/how-to-pick-the-perfect-beige-paint",
+    canonical: "/how-to-pick-the-perfect-beige-paint/",
   },
 };
 

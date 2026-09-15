@@ -13,7 +13,7 @@ export const metadata: Metadata = {
   description:
     "Dulux Colour Forecast for 2026 welcomes warm neutrals, soft pastels, and earthy tones. Explore the shades set to shape interior and exterior painting in 2026.",
   alternates: {
-    canonical: "/dulux-colour-forecast-for-2026",
+    canonical: "/dulux-colour-forecast-for-2026/",
   },
 };
 

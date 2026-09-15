@@ -13,7 +13,7 @@ export const metadata: Metadata = {
   description:
     "Roman Clay, Venetian Plaster, and Limewash are popular wall finishes due to their exclusive characteristics. Check the difference between these wall finishes.",
   alternates: {
-    canonical: "/venetian-plaster-vs-roman-clay-vs-limewash",
+    canonical: "/venetian-plaster-vs-roman-clay-vs-limewash/",
   },
 };
 

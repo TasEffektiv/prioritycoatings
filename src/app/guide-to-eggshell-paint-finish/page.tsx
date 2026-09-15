@@ -13,7 +13,7 @@ export const metadata: Metadata = {
   description:
     "Explore the eggshell paint finish and learn where to use it, its benefits, durability, and how it enhances walls with a soft texture and low-sheen look.",
   alternates: {
-    canonical: "/guide-to-eggshell-paint-finish",
+    canonical: "/guide-to-eggshell-paint-finish/",
   },
 };
 

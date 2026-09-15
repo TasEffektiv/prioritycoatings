@@ -13,7 +13,7 @@ export const metadata: Metadata = {
   description:
     "With good preparation, like cleaning and sanding to remove the shine, and using a primer to ensure adhesion, you can paint over stained wood. Check to learn more.",
   alternates: {
-    canonical: "/paint-over-the-stained-wood",
+    canonical: "/paint-over-the-stained-wood/",
   },
 };
 

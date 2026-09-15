@@ -13,7 +13,7 @@ export const metadata: Metadata = {
   description:
     "Choosing the right painter’s tape makes big difference for clean paint lines. Explore different tape types, surfaces, and tips for professional painting finish.",
   alternates: {
-    canonical: "/how-to-choose-the-right-painters-tape",
+    canonical: "/how-to-choose-the-right-painters-tape/",
   },
 };
 

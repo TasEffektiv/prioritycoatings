@@ -13,7 +13,7 @@ export const metadata: Metadata = {
   description:
     "If you want the perfect commercial paint job done at the first chance and want to save your property and money, hire the best commercial painting contractors.",
   alternates: {
-    canonical: "/hire-the-best-commercial-painting-contractors",
+    canonical: "/hire-the-best-commercial-painting-contractors/",
   },
 };
 

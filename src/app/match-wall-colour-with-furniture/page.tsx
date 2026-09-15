@@ -13,7 +13,7 @@ export const metadata: Metadata = {
   description:
     "If you want to match your furniture and wall colour, here are some common tips. If you still can't decide and get confused, consult with Priority One Coatings.",
   alternates: {
-    canonical: "/match-wall-colour-with-furniture",
+    canonical: "/match-wall-colour-with-furniture/",
   },
 };
 

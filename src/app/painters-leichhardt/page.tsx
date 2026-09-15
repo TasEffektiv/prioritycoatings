@@ -15,7 +15,7 @@ export const metadata: Metadata = {
   description:
     "Dulux accredited local painters in Leichhardt to complete your painting projects, including interior & exterior painting, right on time. Call us & get a free quote!",
   alternates: {
-    canonical: "/painters-leichhardt",
+    canonical: "/painters-leichhardt/",
   },
 };
 

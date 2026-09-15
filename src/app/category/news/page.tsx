@@ -15,7 +15,7 @@ export const metadata: Metadata = {
   description:
     "The latest news, trends and updates from Priority One Coatings — Sydney's residential and commercial painting specialists.",
   alternates: {
-    canonical: "/category/news",
+    canonical: "/category/news/",
   },
 };
 

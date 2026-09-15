@@ -13,7 +13,7 @@ export const metadata: Metadata = {
   description:
     "Extend your home exterior lifespan with surface preparation, durable coatings, and regular maintenance. Learn how Priority One Coatings helps Sydney homeowners.",
   alternates: {
-    canonical: "/how-painters-extend-sydney-home-exterior-lifespan",
+    canonical: "/how-painters-extend-sydney-home-exterior-lifespan/",
   },
 };
 

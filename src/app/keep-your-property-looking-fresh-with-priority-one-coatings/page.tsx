@@ -13,7 +13,7 @@ export const metadata: Metadata = {
   description:
     "Our team of painters in Sydney will transform your property and give it the fresh new look you've been dreaming of. To begin your next painting project, contact us.",
   alternates: {
-    canonical: "/keep-your-property-looking-fresh-with-priority-one-coatings",
+    canonical: "/keep-your-property-looking-fresh-with-priority-one-coatings/",
   },
 };
 

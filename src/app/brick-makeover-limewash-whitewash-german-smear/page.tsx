@@ -13,7 +13,7 @@ export const metadata: Metadata = {
   description:
     "Let's compare three top finishes: Limewash, Whitewash, & the German Smear. Choose the best brick makeover for your house! Contact us for your brick house makeover!",
   alternates: {
-    canonical: "/brick-makeover-limewash-whitewash-german-smear",
+    canonical: "/brick-makeover-limewash-whitewash-german-smear/",
   },
 };
 

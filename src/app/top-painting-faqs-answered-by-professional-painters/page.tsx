@@ -13,7 +13,7 @@ export const metadata: Metadata = {
   description:
     "Planning a painting project? Get expert answers to the top painting FAQs, from choosing the right paint to preparation, costs, and long-lasting finishes.",
   alternates: {
-    canonical: "/top-painting-faqs-answered-by-professional-painters",
+    canonical: "/top-painting-faqs-answered-by-professional-painters/",
   },
 };
 

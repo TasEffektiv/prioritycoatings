@@ -14,7 +14,7 @@ export const metadata: Metadata = {
   description:
     "Painting a house doesn't take forever. To give your house a unique and appealing look within the shortest duration, hire the best residential painters in Sydney.",
   alternates: {
-    canonical: "/how-long-to-paint-a-house",
+    canonical: "/how-long-to-paint-a-house/",
   },
 };
 

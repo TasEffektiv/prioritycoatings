@@ -13,7 +13,7 @@ export const metadata: Metadata = {
   description:
     "Safe painting practices involve choosing safe materials, preparing adequately, and handling disposal. Learn safe painting tips for homeowners & professionals.",
   alternates: {
-    canonical: "/safe-painting-practices-for-homeowners-painters",
+    canonical: "/safe-painting-practices-for-homeowners-painters/",
   },
 };
 

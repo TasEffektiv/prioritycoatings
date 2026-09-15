@@ -13,7 +13,7 @@ export const metadata: Metadata = {
   description:
     "If you're looking to hire local painters in Sydney, here's a quick guide you can use. We have tips for selecting the right licensed painter for your job.",
   alternates: {
-    canonical: "/tips-on-choosing-a-licensed-house-painter-within-sydney",
+    canonical: "/tips-on-choosing-a-licensed-house-painter-within-sydney/",
   },
 };
 

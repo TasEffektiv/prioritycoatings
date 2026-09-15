@@ -13,7 +13,7 @@ export const metadata: Metadata = {
   description:
     "Paint drying and paint curing are two often confusing decorating terms. Let's explore the basic of paint dry and paint cure and the difference between both process.",
   alternates: {
-    canonical: "/paint-dry-and-paint-cure",
+    canonical: "/paint-dry-and-paint-cure/",
   },
 };
 

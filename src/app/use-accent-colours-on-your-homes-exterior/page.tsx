@@ -13,7 +13,7 @@ export const metadata: Metadata = {
   description:
     "For home exterior, using accent colours can enhance curb appeal and create visual interest. Explore to get inspiration for exterior paint colour schemes.",
   alternates: {
-    canonical: "/use-accent-colours-on-your-homes-exterior",
+    canonical: "/use-accent-colours-on-your-homes-exterior/",
   },
 };
 

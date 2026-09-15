@@ -13,7 +13,7 @@ export const metadata: Metadata = {
   description:
     "Touching up without repainting the whole wall is a good option. If you need help fixing the wall, hire the best residential painters in Sydney, Priority Coatings.",
   alternates: {
-    canonical: "/touch-up-without-painting-the-whole-wall",
+    canonical: "/touch-up-without-painting-the-whole-wall/",
   },
 };
 

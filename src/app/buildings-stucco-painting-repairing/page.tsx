@@ -13,7 +13,7 @@ export const metadata: Metadata = {
   description:
     "Stucco painting and repair involves addressing damage and applying a fresh coat of paint. Learn more about building stucco issues, painting and repairing.",
   alternates: {
-    canonical: "/buildings-stucco-painting-repairing",
+    canonical: "/buildings-stucco-painting-repairing/",
   },
 };
 

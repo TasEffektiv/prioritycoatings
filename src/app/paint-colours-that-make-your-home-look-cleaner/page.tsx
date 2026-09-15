@@ -13,7 +13,7 @@ export const metadata: Metadata = {
   description:
     "Do you want a cleaner-looking house but don't know how to achieve it? Let's check which colours are at the top of the list to create a cleaner and crisper home.",
   alternates: {
-    canonical: "/paint-colours-that-make-your-home-look-cleaner",
+    canonical: "/paint-colours-that-make-your-home-look-cleaner/",
   },
 };
 

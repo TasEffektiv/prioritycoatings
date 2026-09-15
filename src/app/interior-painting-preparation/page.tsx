@@ -13,7 +13,7 @@ export const metadata: Metadata = {
   description:
     "Proper interior painting preparation is essential. Get expert tips on cleaning, sanding, priming and setting up your space for a flawless interior paint job.",
   alternates: {
-    canonical: "/interior-painting-preparation",
+    canonical: "/interior-painting-preparation/",
   },
 };
 

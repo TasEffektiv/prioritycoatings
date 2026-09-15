@@ -13,7 +13,7 @@ export const metadata: Metadata = {
   description:
     "Do you know when it's time to repaint your Sydney house exterior? Your home exteriors need repainting about every 5 years. Contact us for your house repainting!",
   alternates: {
-    canonical: "/how-often-should-the-exterior-of-the-house-be-painted",
+    canonical: "/how-often-should-the-exterior-of-the-house-be-painted/",
   },
 };
 

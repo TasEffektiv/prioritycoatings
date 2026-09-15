@@ -13,7 +13,7 @@ export const metadata: Metadata = {
   description:
     "Exterior paint protects your home from harsh weather. It creates a barrier against moisture and UV damage. Learn how to weatherproof your home with external painting.",
   alternates: {
-    canonical: "/weatherproofing-your-home-with-exterior-paint",
+    canonical: "/weatherproofing-your-home-with-exterior-paint/",
   },
 };
 

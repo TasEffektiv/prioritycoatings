@@ -13,7 +13,7 @@ export const metadata: Metadata = {
   description:
     "While doing DIY painting around your home, you need safe methods for a spotless cleanup. Check tips to remove paint from glass surfaces, whether wet or dry.",
   alternates: {
-    canonical: "/how-to-remove-paint-from-glass",
+    canonical: "/how-to-remove-paint-from-glass/",
   },
 };
 

@@ -13,7 +13,7 @@ export const metadata: Metadata = {
   description:
     "Peeling, cracking, flaking or chipping of the paint are common signs that your home needs a fresh coat of paint. Let's check when it's time to repaint your house.",
   alternates: {
-    canonical: "/signs-its-time-to-repaint-your-house",
+    canonical: "/signs-its-time-to-repaint-your-house/",
   },
 };
 

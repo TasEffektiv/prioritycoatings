@@ -12,7 +12,7 @@ export const metadata: Metadata = {
   description:
     "Visit our painting and decorating blog page frequently for industry updates, news, DIY info, and painting and renovation tips and tricks from our experts.",
   alternates: {
-    canonical: "/blog",
+    canonical: "/blog/",
   },
 };
 

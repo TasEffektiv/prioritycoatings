@@ -13,7 +13,7 @@ export const metadata: Metadata = {
   description:
     "Find out what impacts the cost of commercial painting, including property size, coating selection, repairs, accessibility, and project scope.",
   alternates: {
-    canonical: "/cost-of-painting-commercial-buildings",
+    canonical: "/cost-of-painting-commercial-buildings/",
   },
 };
 

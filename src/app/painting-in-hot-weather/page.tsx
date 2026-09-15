@@ -14,7 +14,7 @@ export const metadata: Metadata = {
   description:
     "The climate of Sydney can be challenging for painting. So, if you need to hire an expert painting company in Sydney, contact Priority One Coatings today.",
   alternates: {
-    canonical: "/painting-in-hot-weather",
+    canonical: "/painting-in-hot-weather/",
   },
 };
 

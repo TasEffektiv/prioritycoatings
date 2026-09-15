@@ -13,7 +13,7 @@ export const metadata: Metadata = {
   description:
     "Avoid pitfalls when hiring residential painters in Sydney. Check the mistakes homeowners make and how to choose the right Sydney painters for a flawless finish.",
   alternates: {
-    canonical: "/mistakes-to-avoid-when-hiring-residential-painters",
+    canonical: "/mistakes-to-avoid-when-hiring-residential-painters/",
   },
 };
 

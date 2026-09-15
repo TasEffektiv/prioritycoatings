@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   description:
     "This Privacy Policy describes our procedures regarding the collection, use, and disclosure of your information when you use the service and tells you about your privacy rights.",
   alternates: {
-    canonical: "/privacy-policy",
+    canonical: "/privacy-policy/",
   },
 };
 

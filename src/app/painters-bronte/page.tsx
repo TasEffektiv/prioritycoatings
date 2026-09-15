@@ -15,7 +15,7 @@ export const metadata: Metadata = {
   description:
     "Get your commercial & residential painting projects done by experienced local painters in Bronte. Highly skilled & reliable local painters! Call 02 9808 5900!",
   alternates: {
-    canonical: "/painters-bronte",
+    canonical: "/painters-bronte/",
   },
 };
 

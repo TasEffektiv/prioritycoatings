@@ -13,7 +13,7 @@ export const metadata: Metadata = {
   description:
     "House painting prioritises surface preparation, the right paint, and proper techniques. Learn all the house painting secrets to achieve the best paint finish.",
   alternates: {
-    canonical: "/house-painting-secrets",
+    canonical: "/house-painting-secrets/",
   },
 };
 

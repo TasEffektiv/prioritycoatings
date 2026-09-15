@@ -15,7 +15,7 @@ export const metadata: Metadata = {
   description:
     "For commercial & residential painting projects, call Dulux accredited painters in Northern Beaches. Fully insured painting services at reasonable rates. Contact now!",
   alternates: {
-    canonical: "/painters-northern-beaches",
+    canonical: "/painters-northern-beaches/",
   },
 };
 

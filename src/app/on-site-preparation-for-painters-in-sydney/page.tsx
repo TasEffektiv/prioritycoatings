@@ -13,7 +13,7 @@ export const metadata: Metadata = {
   description:
     "Proper house painting preparation is vital for a building project. Let's explore the steps our Sydney painters follow on-site while preparing for the paint job.",
   alternates: {
-    canonical: "/on-site-preparation-for-painters-in-sydney",
+    canonical: "/on-site-preparation-for-painters-in-sydney/",
   },
 };
 

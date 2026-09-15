@@ -15,7 +15,7 @@ export const metadata: Metadata = {
   description:
     "For any interior and exterior painting projects, contact experienced and reliable painters in Haberfield. Highly trained & affordable painters! Get a free Quote!",
   alternates: {
-    canonical: "/painters-haberfield",
+    canonical: "/painters-haberfield/",
   },
 };
 

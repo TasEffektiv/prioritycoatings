@@ -13,7 +13,7 @@ export const metadata: Metadata = {
   description:
     "Winter is a perfect time to give your home a complete makeover. Let’s explore why winter is the ideal season for interior painting. For more info, call 02 9808 5900.",
   alternates: {
-    canonical: "/why-winter-is-a-good-time-for-interior-painting-jobs",
+    canonical: "/why-winter-is-a-good-time-for-interior-painting-jobs/",
   },
 };
 

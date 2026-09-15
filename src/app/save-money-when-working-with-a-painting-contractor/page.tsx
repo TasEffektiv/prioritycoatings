@@ -13,7 +13,7 @@ export const metadata: Metadata = {
   description:
     "There are ways you can save money while working with a painting contractor. Explore what you can try to reduce costs on your next painting project in Sydney.",
   alternates: {
-    canonical: "/save-money-when-working-with-a-painting-contractor",
+    canonical: "/save-money-when-working-with-a-painting-contractor/",
   },
 };
 

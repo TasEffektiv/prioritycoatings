@@ -14,7 +14,7 @@ export const metadata: Metadata = {
   description:
     "Different types of textured paint can be used to create many effects in your interior spaces. To give your place a complete makeover, contact us.",
   alternates: {
-    canonical: "/different-types-of-textured-paint-for-walls",
+    canonical: "/different-types-of-textured-paint-for-walls/",
   },
 };
 

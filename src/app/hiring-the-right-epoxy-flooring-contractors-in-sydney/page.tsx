@@ -13,7 +13,7 @@ export const metadata: Metadata = {
   description:
     "If you want to hire the right epoxy flooring contractor in Sydney, contact us today. We specialises in all kinds of epoxy floor coatings in Sydney. Get a free Quote.",
   alternates: {
-    canonical: "/hiring-the-right-epoxy-flooring-contractors-in-sydney",
+    canonical: "/hiring-the-right-epoxy-flooring-contractors-in-sydney/",
   },
 };
 

@@ -13,7 +13,7 @@ export const metadata: Metadata = {
   description:
     "Explore the most common commercial painting mistakes and hire Priority One Coatings, Sydney's leading painting company, to avoid potentially costly mistakes.",
   alternates: {
-    canonical: "/common-commercial-painting-mistakes-to-avoid",
+    canonical: "/common-commercial-painting-mistakes-to-avoid/",
   },
 };
 

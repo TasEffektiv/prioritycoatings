@@ -13,7 +13,7 @@ export const metadata: Metadata = {
   description:
     "Regular roof painting can help keep your home cooler and save on energy. It also maintains your roof's quality. Check the benefits of painting for aged roofs.",
   alternates: {
-    canonical: "/benefits-of-painting-your-roof",
+    canonical: "/benefits-of-painting-your-roof/",
   },
 };
 

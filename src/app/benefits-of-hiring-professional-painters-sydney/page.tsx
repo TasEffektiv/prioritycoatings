@@ -13,7 +13,7 @@ export const metadata: Metadata = {
   description:
     "Whether you need a touch-up or a complete home makeover, hire professional painters for a stress-free and successful painting project. For more, call 02 9808 5900.",
   alternates: {
-    canonical: "/benefits-of-hiring-professional-painters-sydney",
+    canonical: "/benefits-of-hiring-professional-painters-sydney/",
   },
 };
 

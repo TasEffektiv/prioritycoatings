@@ -13,7 +13,7 @@ export const metadata: Metadata = {
   description:
     "Painting ceilings with a roller is one of the easiest ways to apply paints. Let's explore the best tips for painting your ceilings and getting a better finish.",
   alternates: {
-    canonical: "/tips-for-painting-your-ceilings",
+    canonical: "/tips-for-painting-your-ceilings/",
   },
 };
 

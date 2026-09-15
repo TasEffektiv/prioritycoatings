@@ -13,7 +13,7 @@ export const metadata: Metadata = {
   description:
     "Good quality paints should last 5-10 years, but exterior paint wears more quickly and often needs repainting. Check how often you should paint your house.",
   alternates: {
-    canonical: "/how-often-should-you-paint-your-house",
+    canonical: "/how-often-should-you-paint-your-house/",
   },
 };
 

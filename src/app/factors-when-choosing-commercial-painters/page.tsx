@@ -13,7 +13,7 @@ export const metadata: Metadata = {
   description:
     "Explore the factors to consider when choosing a commercial painter. Contact Priority One Coatings and hire the best painters for your commercial projects in Sydney.",
   alternates: {
-    canonical: "/factors-when-choosing-commercial-painters",
+    canonical: "/factors-when-choosing-commercial-painters/",
   },
 };
 

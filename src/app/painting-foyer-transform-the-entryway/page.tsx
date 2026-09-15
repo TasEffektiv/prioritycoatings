@@ -13,7 +13,7 @@ export const metadata: Metadata = {
   description:
     "A new coat of paint can upgrade your front foyer to a stunning entryway. Check the tips on painting your foyer to transform a beautiful home entryway.",
   alternates: {
-    canonical: "/painting-foyer-transform-the-entryway",
+    canonical: "/painting-foyer-transform-the-entryway/",
   },
 };
 

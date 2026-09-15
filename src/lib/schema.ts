@@ -6,8 +6,18 @@ export const ORGANIZATION_ID = `${SITE_URL}/#organization`;
 
 const LOGO_URL = `${SITE_URL}/images/logo.svg`;
 
+// For page paths: every live URL is indexed with a trailing slash, and
+// next.config.ts now enforces that as the canonical form. Callers pass
+// paths both with and without a trailing slash, so normalize here rather
+// than relying on every call site to be consistent.
 export function absoluteUrl(path: string) {
-  return path === "/" ? `${SITE_URL}/` : `${SITE_URL}${path}`;
+  if (path === "/") return `${SITE_URL}/`;
+  return `${SITE_URL}${path.endsWith("/") ? path : `${path}/`}`;
+}
+
+// For asset paths (images, etc.) — must NOT gain a trailing slash.
+function absoluteAssetUrl(path: string) {
+  return `${SITE_URL}${path}`;
 }
 
 export function organizationSchema() {
@@ -144,7 +154,7 @@ export function articleSchema({
     "@type": "Article",
     headline,
     description,
-    image: absoluteUrl(image),
+    image: absoluteAssetUrl(image),
     datePublished: iso,
     dateModified: iso,
     url: absoluteUrl(path),

@@ -13,7 +13,7 @@ export const metadata: Metadata = {
   description:
     "Painting a bathroom is unlike any other room due to the moisture and the number of built-in fixtures. Check the tips to have a better bathroom painting experience!",
   alternates: {
-    canonical: "/practical-tips-for-bathroom-painting",
+    canonical: "/practical-tips-for-bathroom-painting/",
   },
 };
 

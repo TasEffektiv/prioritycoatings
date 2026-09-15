@@ -13,7 +13,7 @@ export const metadata: Metadata = {
   description:
     "For painted surface restoration, removing paint is essential. Explore to learn paint removal tips and contact Priority One Coatings for restoring the surfaces.",
   alternates: {
-    canonical: "/paint-removal-tips-restoring-surfaces",
+    canonical: "/paint-removal-tips-restoring-surfaces/",
   },
 };
 

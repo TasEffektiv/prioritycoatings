@@ -13,7 +13,7 @@ export const metadata: Metadata = {
   description:
     "We’ve gone through a few common stylistic elements that are getting more popular for office fit-outs in Sydney. Contact us for more info or get a free Quote!",
   alternates: {
-    canonical: "/unique-office-fit-out-ideas-for-a-fresh-look-in-your-workplace",
+    canonical: "/unique-office-fit-out-ideas-for-a-fresh-look-in-your-workplace/",
   },
 };
 

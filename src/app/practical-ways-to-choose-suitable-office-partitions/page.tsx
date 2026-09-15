@@ -13,7 +13,7 @@ export const metadata: Metadata = {
   description:
     "Choosing the right office partitions keeps your workplace comfortable and productive. Discover 8 practical tips for selecting suitable partitions for your office.",
   alternates: {
-    canonical: "/practical-ways-to-choose-suitable-office-partitions",
+    canonical: "/practical-ways-to-choose-suitable-office-partitions/",
   },
 };
 

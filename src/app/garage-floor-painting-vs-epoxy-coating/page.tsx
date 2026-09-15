@@ -13,7 +13,7 @@ export const metadata: Metadata = {
   description:
     "Both floor painting and epoxy coatings are suitable for your garage floor. So, be it epoxy floor coating or any other painting services, contact us today.",
   alternates: {
-    canonical: "/garage-floor-painting-vs-epoxy-coating",
+    canonical: "/garage-floor-painting-vs-epoxy-coating/",
   },
 };
 

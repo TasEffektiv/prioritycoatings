@@ -13,7 +13,7 @@ export const metadata: Metadata = {
   description:
     "Are you ready to take your office fitout to the next level? Partner with Priority One Coatings & let us transform your office a fully functional and modern workplace.",
   alternates: {
-    canonical: "/priority-coatings-make-your-sydney-office-stand-out",
+    canonical: "/priority-coatings-make-your-sydney-office-stand-out/",
   },
 };
 

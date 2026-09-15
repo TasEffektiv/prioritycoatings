@@ -13,7 +13,7 @@ export const metadata: Metadata = {
   description:
     "Paint fumes made you nauseous? Can't stand the lingering smell of fresh paint? Check the tips and tricks to minimise or eliminate the aroma of paint. Contact us.",
   alternates: {
-    canonical: "/ways-to-get-rid-of-paint-smells",
+    canonical: "/ways-to-get-rid-of-paint-smells/",
   },
 };
 

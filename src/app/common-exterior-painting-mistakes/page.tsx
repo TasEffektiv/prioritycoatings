@@ -13,7 +13,7 @@ export const metadata: Metadata = {
   description:
     "It's easy to make mistakes when painting the exterior of your house. Check five common errors in exterior painting to make sure you don't make any of these.",
   alternates: {
-    canonical: "/common-exterior-painting-mistakes",
+    canonical: "/common-exterior-painting-mistakes/",
   },
 };
 

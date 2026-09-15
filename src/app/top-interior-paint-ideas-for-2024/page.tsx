@@ -13,7 +13,7 @@ export const metadata: Metadata = {
   description:
     "As we enter 2024, a fresh new wave of paint trends is emerging. Let's explore the hottest interior paint ideas for 2024 that will redefine your living spaces.",
   alternates: {
-    canonical: "/top-interior-paint-ideas-for-2024",
+    canonical: "/top-interior-paint-ideas-for-2024/",
   },
 };
 

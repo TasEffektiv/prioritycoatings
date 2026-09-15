@@ -13,7 +13,7 @@ export const metadata: Metadata = {
   description:
     "One of the best colours to use in a room with low natural light is a light neutral with warm undertones. Let's explore which colours work best for dark rooms.",
   alternates: {
-    canonical: "/best-paint-colours-for-dark-rooms",
+    canonical: "/best-paint-colours-for-dark-rooms/",
   },
 };
 

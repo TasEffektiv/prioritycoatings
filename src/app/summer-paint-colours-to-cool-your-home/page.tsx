@@ -13,7 +13,7 @@ export const metadata: Metadata = {
   description:
     "If you are a homeowner in Sydney struggling to manage your property during the summertime, a cool colour palette for a house painting project can help you a lot.",
   alternates: {
-    canonical: "/summer-paint-colours-to-cool-your-home",
+    canonical: "/summer-paint-colours-to-cool-your-home/",
   },
 };
 

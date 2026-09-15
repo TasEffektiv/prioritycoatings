@@ -13,7 +13,7 @@ export const metadata: Metadata = {
   description:
     "Choosing a paint colour is trickier than it looks. Learn four common colour mistakes homeowners make and how to avoid them with help from Sydney painters.",
   alternates: {
-    canonical: "/4-common-paint-colour-mistakes-you-should-try-to-avoid",
+    canonical: "/4-common-paint-colour-mistakes-you-should-try-to-avoid/",
   },
 };
 

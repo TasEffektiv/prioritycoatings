@@ -14,7 +14,7 @@ export const metadata: Metadata = {
   description:
     "Delaying your home exterior paint job only results in vulnerable losses. Contact our professional painters in Sydney and get the exterior paint job done.",
   alternates: {
-    canonical: "/dangers-of-delaying-exterior-paint-job",
+    canonical: "/dangers-of-delaying-exterior-paint-job/",
   },
 };
 

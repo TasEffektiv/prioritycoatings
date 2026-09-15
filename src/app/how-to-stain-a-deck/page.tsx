@@ -13,7 +13,7 @@ export const metadata: Metadata = {
   description:
     "Staining your deck will help to preserve the timber and keep it looking fresh, making it a worthwhile investment for your outdoor space. Let's stain your deck .",
   alternates: {
-    canonical: "/how-to-stain-a-deck",
+    canonical: "/how-to-stain-a-deck/",
   },
 };
 

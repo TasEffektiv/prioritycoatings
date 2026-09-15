@@ -13,7 +13,7 @@ export const metadata: Metadata = {
   description:
     "A fresh coat of paint breathes new life into your space. But finding the best Sydney painting services can be a daunting task. Contact Priority One Coatings.",
   alternates: {
-    canonical: "/how-to-find-best-sydney-painting-services",
+    canonical: "/how-to-find-best-sydney-painting-services/",
   },
 };
 

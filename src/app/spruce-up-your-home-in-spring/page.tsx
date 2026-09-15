@@ -13,7 +13,7 @@ export const metadata: Metadata = {
   description:
     "Spring is filled with a sense of renewal. Cleaning, painting, and doing general maintenance to freshen up your home. Check ways to give your home a spring spruce up.",
   alternates: {
-    canonical: "/spruce-up-your-home-in-spring",
+    canonical: "/spruce-up-your-home-in-spring/",
   },
 };
 

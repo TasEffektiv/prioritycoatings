@@ -13,7 +13,7 @@ export const metadata: Metadata = {
   description:
     "If you're considering repainting the walls, remove old paint first. Removing paint can sometimes damage the wall - review techniques.",
   alternates: {
-    canonical: "/how-to-remove-old-paint-from-walls",
+    canonical: "/how-to-remove-old-paint-from-walls/",
   },
 };
 

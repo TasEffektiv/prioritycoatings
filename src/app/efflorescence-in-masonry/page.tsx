@@ -13,7 +13,7 @@ export const metadata: Metadata = {
   description:
     "Efflorescence or whitish salt deposits on concrete, brick, or mortar are common in masonry walls. Learn to fix underlying moisture issues causing efflorescence.",
   alternates: {
-    canonical: "/efflorescence-in-masonry",
+    canonical: "/efflorescence-in-masonry/",
   },
 };
 

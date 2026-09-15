@@ -13,7 +13,7 @@ export const metadata: Metadata = {
   description:
     "Meet Priority One Coatings, Sydney's trusted residential, commercial and strata painters since 1988. Explore our services, accreditations and specialties.",
   alternates: {
-    canonical: "/house-painting-blog",
+    canonical: "/house-painting-blog/",
   },
 };
 

@@ -13,7 +13,7 @@ export const metadata: Metadata = {
   description:
     "If you want to refresh your multi-level building and give it a new life, get in touch with Priority One Coatings. We will assist you with all your painting needs.",
   alternates: {
-    canonical: "/refresh-multi-level-building-with-sydney-painting-services",
+    canonical: "/refresh-multi-level-building-with-sydney-painting-services/",
   },
 };
 

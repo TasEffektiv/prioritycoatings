@@ -13,7 +13,7 @@ export const metadata: Metadata = {
   description:
     "The right palette can have a significant impact on a house's aesthetics and value. Check 2026 interior & exterior house painting colour schemes in Australia.",
   alternates: {
-    canonical: "/house-paint-colours-trend-2026",
+    canonical: "/house-paint-colours-trend-2026/",
   },
 };
 

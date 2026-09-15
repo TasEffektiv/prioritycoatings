@@ -13,7 +13,7 @@ export const metadata: Metadata = {
   description:
     "The earthy hue Mocha Mousse is the Pantone colour of the year for 2025. It redefines interior design by bringing warmth and balance into every corner of your home.",
   alternates: {
-    canonical: "/pantone-colour-mocha-mousse-can-redefine-interiors",
+    canonical: "/pantone-colour-mocha-mousse-can-redefine-interiors/",
   },
 };
 

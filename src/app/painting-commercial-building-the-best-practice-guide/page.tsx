@@ -13,7 +13,7 @@ export const metadata: Metadata = {
   description:
     "Explore the best practices for commercial building painting in Sydney, including preparation, coatings, safety standards, and maintenance tips. Contact for more.",
   alternates: {
-    canonical: "/painting-commercial-building-the-best-practice-guide",
+    canonical: "/painting-commercial-building-the-best-practice-guide/",
   },
 };
 

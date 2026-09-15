@@ -13,7 +13,7 @@ export const metadata: Metadata = {
   description:
     "Painting or renovating your space is not a thing you do very often. Check the top questions you must ask before you hire a painter. Contact us for your next project.",
   alternates: {
-    canonical: "/what-you-need-to-ask-when-youre-looking-for-a-professional-painter",
+    canonical: "/what-you-need-to-ask-when-youre-looking-for-a-professional-painter/",
   },
 };
 

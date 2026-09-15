@@ -15,7 +15,7 @@ export const metadata: Metadata = {
   description:
     "Guaranteed quality for residential & commercial painting projects in Mosman. Highly skilled & professional Mosman painters. Call 02 9808 5900 & Get a free quote NOW!",
   alternates: {
-    canonical: "/painters-mosman",
+    canonical: "/painters-mosman/",
   },
 };
 

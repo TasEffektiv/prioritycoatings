@@ -13,7 +13,7 @@ export const metadata: Metadata = {
   description:
     "Not sure whether to limewash, paint or render your brick house? Explore the pros and cons of limewash, paint and render to choose the best finish for your home.",
   alternates: {
-    canonical: "/limewash-vs-paint-vs-render-for-brick-homes",
+    canonical: "/limewash-vs-paint-vs-render-for-brick-homes/",
   },
 };
 

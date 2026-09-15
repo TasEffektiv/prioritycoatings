@@ -13,7 +13,7 @@ export const metadata: Metadata = {
   description:
     "White is a popular paint colour for small spaces, but it's not the only option. Explore our list of the best paint colours for small spaces. Contact us for more.",
   alternates: {
-    canonical: "/best-paint-colours-for-small-rooms",
+    canonical: "/best-paint-colours-for-small-rooms/",
   },
 };
 

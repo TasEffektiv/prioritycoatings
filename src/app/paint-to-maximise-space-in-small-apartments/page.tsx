@@ -13,7 +13,7 @@ export const metadata: Metadata = {
   description:
     "With the right paint colours and techniques, you can maximise spaces and transform your home. Explore painting tips to make your small apartment look bigger.",
   alternates: {
-    canonical: "/paint-to-maximise-space-in-small-apartments",
+    canonical: "/paint-to-maximise-space-in-small-apartments/",
   },
 };
 

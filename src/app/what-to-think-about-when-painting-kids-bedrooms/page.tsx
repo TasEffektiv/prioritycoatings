@@ -13,7 +13,7 @@ export const metadata: Metadata = {
   description:
     "Doing a quality DIY paint job requires more than just the equipment and the know-how, it's also about matching styles and creating the right atmosphere in every room.",
   alternates: {
-    canonical: "/what-to-think-about-when-painting-kids-bedrooms",
+    canonical: "/what-to-think-about-when-painting-kids-bedrooms/",
   },
 };
 

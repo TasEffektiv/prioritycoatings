@@ -13,7 +13,7 @@ export const metadata: Metadata = {
   description:
     "Not sure if your house has lead paint? Learn to identify lead paint in your home, including common signs, testing methods, and when to seek professional advice.",
   alternates: {
-    canonical: "/how-to-determine-if-your-house-has-lead-paint",
+    canonical: "/how-to-determine-if-your-house-has-lead-paint/",
   },
 };
 

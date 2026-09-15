@@ -13,7 +13,7 @@ export const metadata: Metadata = {
   description:
     "When painting your home, strata property or office building, you want to ensure the job is done perfectly. Need painters in Sydney? Priority One Coatings Can Help.",
   alternates: {
-    canonical: "/need-painters-sydney-priority-one-coatings-can-help",
+    canonical: "/need-painters-sydney-priority-one-coatings-can-help/",
   },
 };
 

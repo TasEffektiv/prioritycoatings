@@ -16,7 +16,7 @@ export const metadata: Metadata = {
   description:
     "Priority can help you when you need strata painters. Strata managers all over Sydney rely on us when it comes to painting strata properties. Call us (02 9808 5900) today!",
   alternates: {
-    canonical: "/strata-painters-sydney",
+    canonical: "/strata-painters-sydney/",
   },
 };
 

@@ -13,7 +13,7 @@ export const metadata: Metadata = {
   description:
     "The average house painting cost in Australia is one of the homeowners' major concerns. Let's calculate the cost of painting your home before hiring painters in Sydney.",
   alternates: {
-    canonical: "/calculate-average-cost-of-interior-exterior-painting",
+    canonical: "/calculate-average-cost-of-interior-exterior-painting/",
   },
 };
 

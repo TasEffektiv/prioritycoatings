@@ -13,7 +13,7 @@ export const metadata: Metadata = {
   description:
     "Planning a DIY repaint? Learn the key safety measures for preparing your workspace, using tools and ladders safely, and knowing when to call a professional.",
   alternates: {
-    canonical: "/safety-measures-while-house-repainting",
+    canonical: "/safety-measures-while-house-repainting/",
   },
 };
 

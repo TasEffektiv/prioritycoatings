@@ -13,7 +13,7 @@ export const metadata: Metadata = {
   description:
     "Moving and covering furniture, using drop cloths, and taping off areas will protect your room from paint splatters. Protecting surfaces also saves clean-up costs.",
   alternates: {
-    canonical: "/protect-room-furniture-when-interior-painting",
+    canonical: "/protect-room-furniture-when-interior-painting/",
   },
 };
 

@@ -16,7 +16,7 @@ export const metadata: Metadata = {
   description:
     "Transform your workplace with an interior office fit-out with our specialised and cost-effective commercial office fit out service in Sydney and the nearby areas.",
   alternates: {
-    canonical: "/commercial-fitouts",
+    canonical: "/commercial-fitouts/",
   },
 };
 

@@ -16,7 +16,7 @@ export const metadata: Metadata = {
   description:
     "Our expert house painters offer the highest quality of interior & exterior residential painting in Sydney. For affordable house painting services, contact us!",
   alternates: {
-    canonical: "/residential-painters",
+    canonical: "/residential-painters/",
   },
 };
 

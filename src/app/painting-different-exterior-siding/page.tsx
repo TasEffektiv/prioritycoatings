@@ -13,7 +13,7 @@ export const metadata: Metadata = {
   description:
     "Different siding materials require specific painting techniques and products for optimal results. Learn how various types of exterior siding are painted.",
   alternates: {
-    canonical: "/painting-different-exterior-siding",
+    canonical: "/painting-different-exterior-siding/",
   },
 };
 

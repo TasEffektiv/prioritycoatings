@@ -13,7 +13,7 @@ export const metadata: Metadata = {
   description:
     "Drywall stress cracks appear over doors and windows or along drywall seams, usually caused by building movement, settling, or temperature changes. Learn to fix it.",
   alternates: {
-    canonical: "/how-to-fix-stress-cracks-in-drywall",
+    canonical: "/how-to-fix-stress-cracks-in-drywall/",
   },
 };
 

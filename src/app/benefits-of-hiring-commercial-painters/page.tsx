@@ -13,7 +13,7 @@ export const metadata: Metadata = {
   description:
     "Expert commercial painters, Priority One Coatings, can get a building back in working order soon. So, hiring a commercial painter can improve your painting project.",
   alternates: {
-    canonical: "/benefits-of-hiring-commercial-painters",
+    canonical: "/benefits-of-hiring-commercial-painters/",
   },
 };
 

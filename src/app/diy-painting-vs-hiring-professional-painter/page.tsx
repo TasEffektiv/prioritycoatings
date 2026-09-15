@@ -13,7 +13,7 @@ export const metadata: Metadata = {
   description:
     "When painting your property in Sydney, there are many things to consider. Let's check if DIY paint or professional paint works best for you. For more, contact us!",
   alternates: {
-    canonical: "/diy-painting-vs-hiring-professional-painter",
+    canonical: "/diy-painting-vs-hiring-professional-painter/",
   },
 };
 

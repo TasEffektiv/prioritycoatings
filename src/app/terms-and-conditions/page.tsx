@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   description:
     "By using our website and the services and information offered on our site, you are agreeing to be bound to these terms & conditions which may get changed at any time.",
   alternates: {
-    canonical: "/terms-and-conditions",
+    canonical: "/terms-and-conditions/",
   },
 };
 

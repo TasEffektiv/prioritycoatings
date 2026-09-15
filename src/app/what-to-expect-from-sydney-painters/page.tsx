@@ -13,7 +13,7 @@ export const metadata: Metadata = {
   description:
     "Hire Sydney painters for quality & value. They offer interior & exterior painting for residential, commercial, and strata projects. Get free quotes!",
   alternates: {
-    canonical: "/what-to-expect-from-sydney-painters",
+    canonical: "/what-to-expect-from-sydney-painters/",
   },
 };
 

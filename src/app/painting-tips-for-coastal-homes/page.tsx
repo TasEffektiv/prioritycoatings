@@ -13,7 +13,7 @@ export const metadata: Metadata = {
   description:
     "Protect your coastal home exterior from salt and moisture with the right paint, equipment, and techniques. Explore the painting tips for your seaside property.",
   alternates: {
-    canonical: "/painting-tips-for-coastal-homes",
+    canonical: "/painting-tips-for-coastal-homes/",
   },
 };
 

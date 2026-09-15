@@ -13,7 +13,7 @@ export const metadata: Metadata = {
   description:
     "Colour matching helps to ensure that your new paint perfectly matches the existing colour. Although matching paint can be challenging, explore to learn more.",
   alternates: {
-    canonical: "/how-to-colour-match-your-paint",
+    canonical: "/how-to-colour-match-your-paint/",
   },
 };
 

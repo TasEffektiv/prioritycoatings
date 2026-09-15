@@ -13,7 +13,7 @@ export const metadata: Metadata = {
   description:
     "A fresh coat of paint can transform your home interior. Learn the essentials of colour selection, DIY vs professional service, and expert tips before you start.",
   alternates: {
-    canonical: "/things-to-know-before-painting-home-interiors",
+    canonical: "/things-to-know-before-painting-home-interiors/",
   },
 };
 

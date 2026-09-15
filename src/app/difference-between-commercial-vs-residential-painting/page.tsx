@@ -13,7 +13,7 @@ export const metadata: Metadata = {
   description:
     "There are several differences between commercial and residential painting. Contact us for your next painting project, and get the best painting services.",
   alternates: {
-    canonical: "/difference-between-commercial-vs-residential-painting",
+    canonical: "/difference-between-commercial-vs-residential-painting/",
   },
 };
 

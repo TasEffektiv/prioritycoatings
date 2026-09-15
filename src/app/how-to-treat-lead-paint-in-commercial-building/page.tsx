@@ -13,7 +13,7 @@ export const metadata: Metadata = {
   description:
     "Removing lead paint is not a DIY job; it's best to call in the professionals. Let's check how to treat lead paint found in commercial properties effectively.",
   alternates: {
-    canonical: "/how-to-treat-lead-paint-in-commercial-building",
+    canonical: "/how-to-treat-lead-paint-in-commercial-building/",
   },
 };
 

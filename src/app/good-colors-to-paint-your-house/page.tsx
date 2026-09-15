@@ -13,7 +13,7 @@ export const metadata: Metadata = {
   description:
     "If you’re looking to get some interior house painting done this spring, these various painting ideas can be very effective. Contact us for more info or get a free Quote!",
   alternates: {
-    canonical: "/good-colors-to-paint-your-house",
+    canonical: "/good-colors-to-paint-your-house/",
   },
 };
 

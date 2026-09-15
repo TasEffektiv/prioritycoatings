@@ -13,7 +13,7 @@ export const metadata: Metadata = {
   description:
     "From sustainable design to flexible workspace, the future of commercial office fitouts is limitless. Check office fit-out trends shaping how offices are built.",
   alternates: {
-    canonical: "/the-future-of-the-commercial-fitout",
+    canonical: "/the-future-of-the-commercial-fitout/",
   },
 };
 

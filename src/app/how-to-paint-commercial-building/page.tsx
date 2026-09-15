@@ -13,7 +13,7 @@ export const metadata: Metadata = {
   description:
     "Painting commercial buildings comes with its own set of challenges. Check the top tips for interior and exterior commercial building painting for next project.",
   alternates: {
-    canonical: "/how-to-paint-commercial-building",
+    canonical: "/how-to-paint-commercial-building/",
   },
 };
 

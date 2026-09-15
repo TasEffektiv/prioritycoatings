@@ -13,7 +13,7 @@ export const metadata: Metadata = {
   description:
     "If you are a business owner in Sydney and searching for painters to give your company a fresh new look, then Priority One Coatings can be the best choice in Sydney!",
   alternates: {
-    canonical: "/trust-the-best-commercial-painters-in-sydney",
+    canonical: "/trust-the-best-commercial-painters-in-sydney/",
   },
 };
 

@@ -13,7 +13,7 @@ export const metadata: Metadata = {
   description:
     "Reglazing windows involves removing old glazing (putty) and replacing it, finishing with touch-up paint. Explore how reglazing can bring life to your windows.",
   alternates: {
-    canonical: "/guide-to-reglazing-windows",
+    canonical: "/guide-to-reglazing-windows/",
   },
 };
 

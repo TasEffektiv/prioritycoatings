@@ -13,7 +13,7 @@ export const metadata: Metadata = {
   description:
     "House renovation requires convenient weather, temperature and humidity for better results. When painting your Sydney home, consider spring to hire Sydney painters.",
   alternates: {
-    canonical: "/best-time-to-paint-your-house",
+    canonical: "/best-time-to-paint-your-house/",
   },
 };
 

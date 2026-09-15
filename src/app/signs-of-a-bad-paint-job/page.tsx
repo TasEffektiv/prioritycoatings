@@ -13,7 +13,7 @@ export const metadata: Metadata = {
   description:
     "Peeling, bubbling, or uneven paint? Spot the signs of a bad paint job before it’s too late and get professional solutions from Priority One Coatings.",
   alternates: {
-    canonical: "/signs-of-a-bad-paint-job",
+    canonical: "/signs-of-a-bad-paint-job/",
   },
 };
 

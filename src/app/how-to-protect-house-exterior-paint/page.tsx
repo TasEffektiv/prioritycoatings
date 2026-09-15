@@ -13,7 +13,7 @@ export const metadata: Metadata = {
   description:
     "Surface preparation, right paint, proper application, and maintenance are crucial for house exterior paint. Check how to protect your house exterior painting.",
   alternates: {
-    canonical: "/how-to-protect-house-exterior-paint",
+    canonical: "/how-to-protect-house-exterior-paint/",
   },
 };
 

@@ -13,7 +13,7 @@ export const metadata: Metadata = {
   description:
     "Painting a building before EOFY offers several benefits, including tax deductions and opportunities for higher rentals. Contact us for the next painting project.",
   alternates: {
-    canonical: "/paint-your-property-before-eofy",
+    canonical: "/paint-your-property-before-eofy/",
   },
 };
 

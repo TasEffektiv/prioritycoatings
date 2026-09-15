@@ -14,7 +14,7 @@ export const metadata: Metadata = {
   description:
     "A professional colour consultant can advise you on the ideal colours for your home. So, if you are looking to repaint, contact Priority One Coatings.",
   alternates: {
-    canonical: "/how-paint-colour-change-size-of-room",
+    canonical: "/how-paint-colour-change-size-of-room/",
   },
 };
 

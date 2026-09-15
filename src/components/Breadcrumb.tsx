@@ -26,7 +26,7 @@ export default function Breadcrumb({ items }: { items: Crumb[] }) {
           );
         })}
       </ol>
-      <JsonLd data={breadcrumbSchema(trail.map((c) => ({ ...c, path: c.path.replace(/\/$/, "") || "/" })))} />
+      <JsonLd data={breadcrumbSchema(trail)} />
     </nav>
   );
 }

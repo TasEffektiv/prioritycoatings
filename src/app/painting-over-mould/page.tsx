@@ -13,7 +13,7 @@ export const metadata: Metadata = {
   description:
     "As a quick fix, you can paint over mould or a damp wall. Explore the effective process for painting over any fungus on the wall. Contact us to get more info.",
   alternates: {
-    canonical: "/painting-over-mould",
+    canonical: "/painting-over-mould/",
   },
 };
 

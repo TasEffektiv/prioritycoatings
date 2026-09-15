@@ -15,7 +15,7 @@ export const metadata: Metadata = {
   description:
     "For renovation & painting your home or office, rely on qualified local painters in Alexandria. Get affordable & quality painting services in Alexandria. Contact now.",
   alternates: {
-    canonical: "/painters-alexandria",
+    canonical: "/painters-alexandria/",
   },
 };
 

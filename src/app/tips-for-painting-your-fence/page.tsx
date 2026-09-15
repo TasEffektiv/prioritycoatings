@@ -13,7 +13,7 @@ export const metadata: Metadata = {
   description:
     "Fence painting is challenging. Explore these tips to make your fence painting job easy and long-lasting. Contact us to get the best paint finish for your fence.",
   alternates: {
-    canonical: "/tips-for-painting-your-fence",
+    canonical: "/tips-for-painting-your-fence/",
   },
 };
 

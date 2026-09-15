@@ -16,7 +16,7 @@ export const metadata: Metadata = {
   description:
     "Quality commercial painting services for office, retail, and government buildings in Sydney. Trusted commercial painting contractors with 30+ years of experience.",
   alternates: {
-    canonical: "/commercial-painting",
+    canonical: "/commercial-painting/",
   },
 };
 

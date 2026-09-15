@@ -13,7 +13,7 @@ export const metadata: Metadata = {
   description:
     "Before painting weatherboards, consider few things, like removing old paint and cleaning the surface. Let's learn how to prepare a weatherboard house for painting.",
   alternates: {
-    canonical: "/preparing-weatherboard-house-for-painting",
+    canonical: "/preparing-weatherboard-house-for-painting/",
   },
 };
 

@@ -12,7 +12,7 @@ export const metadata: Metadata = {
   description:
     "Painting and decorating tips, trends and expert advice from Priority One Coatings — Sydney's residential and commercial painting specialists.",
   alternates: {
-    canonical: "/blog/page/14",
+    canonical: "/blog/page/14/",
   },
 };
 

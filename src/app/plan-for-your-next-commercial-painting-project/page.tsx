@@ -14,7 +14,7 @@ export const metadata: Metadata = {
   description:
     "If you want to make your property more appealing and attract more customers, start planning for your next commercial painting project. Also, it's better to choose Priority Coatings.",
   alternates: {
-    canonical: "/plan-for-your-next-commercial-painting-project",
+    canonical: "/plan-for-your-next-commercial-painting-project/",
   },
 };
 

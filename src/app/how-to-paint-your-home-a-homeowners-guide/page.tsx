@@ -13,7 +13,7 @@ export const metadata: Metadata = {
   description:
     "Painting and decorating your home can add significantly to your property value. Check out this homeowner's guide. For more info, contact us or get a free Quote!",
   alternates: {
-    canonical: "/how-to-paint-your-home-a-homeowners-guide",
+    canonical: "/how-to-paint-your-home-a-homeowners-guide/",
   },
 };
 

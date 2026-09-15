@@ -13,7 +13,7 @@ export const metadata: Metadata = {
   description:
     "Maintaining commercial property to keep it fresh and open for business is an important aspect that business owners neglect. For more info, contact us today!",
   alternates: {
-    canonical: "/how-to-maintain-commercial-painting-project",
+    canonical: "/how-to-maintain-commercial-painting-project/",
   },
 };
 

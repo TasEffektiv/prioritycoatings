@@ -13,7 +13,7 @@ export const metadata: Metadata = {
   description:
     "Check out the infographic for easy tips to help you through the process when decorating your living room. Contact us for more info or get a free Quote!",
   alternates: {
-    canonical: "/choose-living-room-colours-according-to-space-characteristics-infographic",
+    canonical: "/choose-living-room-colours-according-to-space-characteristics-infographic/",
   },
 };
 

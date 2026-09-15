@@ -13,7 +13,7 @@ export const metadata: Metadata = {
   description:
     "Floors are the first thing to notice, be it your business showroom or living place. To get the durable and glossiest epoxy coating for your floors, mail us today!",
   alternates: {
-    canonical: "/use-the-best-epoxy-floor-coatings-sydney",
+    canonical: "/use-the-best-epoxy-floor-coatings-sydney/",
   },
 };
 
