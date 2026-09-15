@@ -14,15 +14,33 @@ const proximaNova = localFont({
   display: "swap",
 });
 
+const SITE_NAME = "Priority One Coatings";
+const DEFAULT_TITLE = "Painters Sydney | Residential & Commercial Painting Services";
+const DEFAULT_DESCRIPTION =
+  "Looking for professional painters in Sydney? Get affordable interior & exterior painting services from a fully insured & licensed painting company in Sydney.";
+
 export const metadata: Metadata = {
   metadataBase: new URL("https://www.prioritycoatings.com.au"),
-  title: "Painters Sydney | Residential & Commercial Painting Services",
-  description:
-    "Looking for professional painters in Sydney? Get affordable interior & exterior painting services from a fully insured & licensed painting company in Sydney.",
+  title: DEFAULT_TITLE,
+  description: DEFAULT_DESCRIPTION,
   alternates: {
     canonical: "/",
   },
   manifest: "/site.webmanifest",
+  openGraph: {
+    type: "website",
+    locale: "en_AU",
+    siteName: SITE_NAME,
+    title: DEFAULT_TITLE,
+    description: DEFAULT_DESCRIPTION,
+    images: ["/android-chrome-512x512.png"],
+  },
+  twitter: {
+    card: "summary",
+    title: DEFAULT_TITLE,
+    description: DEFAULT_DESCRIPTION,
+    images: ["/android-chrome-512x512.png"],
+  },
 };
 
 export default function RootLayout({ children }: LayoutProps<"/">) {
