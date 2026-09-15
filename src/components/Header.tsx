@@ -139,24 +139,29 @@ export default function Header() {
             <ul className="divide-y divide-white/10 font-heading text-sm font-semibold text-white">
               {NAV_ITEMS.map((item) => (
                 <li key={item.label}>
-                  <div className="flex items-center justify-between px-4 py-3">
-                    <Link href={item.href} onClick={() => !item.children && setMobileOpen(false)}>
+                  {item.children ? (
+                    <button
+                      className="flex w-full items-center justify-between px-4 py-3 text-left"
+                      onClick={() =>
+                        setOpenSub((cur) => (cur === item.label ? null : item.label))
+                      }
+                      aria-label={`Toggle ${item.label} submenu`}
+                    >
+                      {item.label}
+                      <ChevronDown
+                        size={16}
+                        className={openSub === item.label ? "rotate-180 transition-transform" : "transition-transform"}
+                      />
+                    </button>
+                  ) : (
+                    <Link
+                      href={item.href}
+                      onClick={() => setMobileOpen(false)}
+                      className="block px-4 py-3"
+                    >
                       {item.label}
                     </Link>
-                    {item.children && (
-                      <button
-                        onClick={() =>
-                          setOpenSub((cur) => (cur === item.label ? null : item.label))
-                        }
-                        aria-label={`Toggle ${item.label} submenu`}
-                      >
-                        <ChevronDown
-                          size={16}
-                          className={openSub === item.label ? "rotate-180 transition-transform" : "transition-transform"}
-                        />
-                      </button>
-                    )}
-                  </div>
+                  )}
                   {item.children && openSub === item.label && (
                     <ul className="bg-brand-navy-deep pb-2">
                       {item.children.map((child) => (
