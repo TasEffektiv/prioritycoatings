@@ -121,9 +121,13 @@ const MONTHS = [
   "December",
 ];
 
-// Parses "Month D, YYYY" into "YYYY-MM-DD" without going through Date(), which
-// resolves "January 30, 2026" as local midnight and shifts the date by a day
-// under toISOString() whenever the build machine isn't UTC.
+// Parses "Month D, YYYY" into "YYYY-MM-DDT00:00:00+10:00" without going through
+// Date(), which resolves "January 30, 2026" as local midnight and shifts the
+// date by a day under toISOString() whenever the build machine isn't UTC. The
+// fixed +10:00 (Sydney standard time) offset gives schema.org's datePublished/
+// dateModified a full, timezone-qualified datetime, as Google's Rich Results
+// Test expects, without needing real DST-aware date math for a value that's
+// only ever displayed as a date.
 function toIsoDate(dateStr: string): string {
   const match = dateStr.match(/^([A-Za-z]+)\s+(\d{1,2}),\s+(\d{4})$/);
   if (!match) throw new Error(`Unrecognised date format: ${dateStr}`);
@@ -132,7 +136,7 @@ function toIsoDate(dateStr: string): string {
   if (monthIndex === -1) throw new Error(`Unrecognised month: ${monthName}`);
   const mm = String(monthIndex + 1).padStart(2, "0");
   const dd = day.padStart(2, "0");
-  return `${year}-${mm}-${dd}`;
+  return `${year}-${mm}-${dd}T00:00:00+10:00`;
 }
 
 export function articleSchema({
