@@ -69,19 +69,15 @@ export default function RecentProjects() {
         <div className="mt-6">
           <ProjectCard {...LEAD_REMOVAL} tall />
         </div>
+      </div>
 
-        <div className="relative mt-16 overflow-hidden py-16 sm:py-20 lg:py-24">
-          <Image
-            src="/images/painters-in-sydney.jpg"
-            alt=""
-            fill
-            sizes="100vw"
-            quality={40}
-            loading="lazy"
-            className="-z-10 object-cover"
+      <div className="mx-auto max-w-[1600px] px-6 pt-10 md:pt-16">
+        <div className="relative overflow-hidden bg-[#003f75] py-16 sm:py-20 lg:py-24">
+          <div
+            className="pointer-events-none absolute inset-0 bg-cover bg-center opacity-[0.11]"
+            style={{ backgroundImage: "url(/images/painters-in-sydney.jpg)" }}
           />
-          <div className="absolute inset-0 -z-10 bg-[rgba(0,57,109,0.89)]" />
-          <div className="mx-auto flex max-w-[1400px] flex-col items-center justify-center gap-8 px-6 text-center">
+          <div className="relative mx-auto flex max-w-[1400px] flex-col items-center justify-center gap-8 px-6 text-center">
             <h3 className="font-heading text-2xl font-bold text-white sm:text-[32px] lg:text-[41px]">
               Call Us For A Free Quote
             </h3>
