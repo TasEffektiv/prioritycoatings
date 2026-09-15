@@ -1,8 +1,21 @@
 import type { Metadata } from "next";
 import localFont from "next/font/local";
+import { GoogleAnalytics } from "@next/third-parties/google";
 import JsonLd from "@/components/JsonLd";
 import { organizationSchema } from "@/lib/schema";
 import "./globals.css";
+
+// The live site's old Universal Analytics property (UA-29443955-1) stopped
+// collecting data when Google sunset UA in July 2024 — there's nothing to
+// migrate from it. Set NEXT_PUBLIC_GA_MEASUREMENT_ID (a GA4 "G-XXXXXXX" ID)
+// in Netlify's environment variables once a GA4 property exists; until then
+// this stays unset and no analytics script loads.
+const GA_MEASUREMENT_ID = process.env.NEXT_PUBLIC_GA_MEASUREMENT_ID;
+
+// Set GOOGLE_SITE_VERIFICATION in Netlify's environment variables with the
+// meta-tag verification code from Google Search Console once the property
+// is (re)verified for this domain. Leave unset to omit the tag entirely.
+const GOOGLE_SITE_VERIFICATION = process.env.GOOGLE_SITE_VERIFICATION;
 
 const proximaNova = localFont({
   src: [
@@ -27,6 +40,7 @@ export const metadata: Metadata = {
     canonical: "/",
   },
   manifest: "/site.webmanifest",
+  verification: GOOGLE_SITE_VERIFICATION ? { google: GOOGLE_SITE_VERIFICATION } : undefined,
   openGraph: {
     type: "website",
     locale: "en_AU",
@@ -52,6 +66,7 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
       <body className="min-h-screen bg-white font-body text-[#212529] antialiased">
         <JsonLd data={organizationSchema()} />
         {children}
+        {GA_MEASUREMENT_ID && <GoogleAnalytics gaId={GA_MEASUREMENT_ID} />}
       </body>
     </html>
   );
