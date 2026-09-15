@@ -337,13 +337,17 @@ export default function CommercialFitoutsPage() {
         {/* Call CTA */}
         <section className="bg-white pb-10 md:pb-16">
           <div className="mx-auto max-w-[1600px] px-6">
-            <div
-              className="relative overflow-hidden bg-cover bg-center py-16 sm:py-20 lg:py-24"
-              style={{
-                backgroundImage:
-                  "linear-gradient(rgba(0,57,109,0.89), rgba(0,57,109,0.89)), url(/images/painters-in-sydney.jpg)",
-              }}
-            >
+            <div className="relative overflow-hidden py-16 sm:py-20 lg:py-24">
+              <Image
+                src="/images/painters-in-sydney.jpg"
+                alt=""
+                fill
+                sizes="100vw"
+                quality={40}
+                loading="lazy"
+                className="-z-10 object-cover"
+              />
+              <div className="absolute inset-0 -z-10 bg-[rgba(0,57,109,0.89)]" />
               <div className="mx-auto flex max-w-[1400px] flex-col items-center justify-center gap-8 px-6 text-center">
                 <h4 className="font-heading text-2xl font-bold text-white sm:text-[32px] lg:text-[41px]">
                   Call Us For A Free Quote
@@ -446,12 +450,14 @@ export default function CommercialFitoutsPage() {
         <section className="bg-white py-10 md:py-16">
           <div className="mx-auto max-w-[1600px] px-6">
             <div className="relative overflow-hidden bg-[#003f75] py-16 text-center sm:py-24">
-              <div
-                className="pointer-events-none absolute inset-0 bg-cover bg-center opacity-[0.11]"
-                style={{
-                  backgroundImage:
-                    "url(/images/painters-in-sydney.jpg)",
-                }}
+              <Image
+                src="/images/painters-in-sydney.jpg"
+                alt=""
+                fill
+                sizes="100vw"
+                quality={40}
+                loading="lazy"
+                className="pointer-events-none -z-10 object-cover opacity-[0.11]"
               />
               <div className="relative mx-auto max-w-[1400px] px-6">
                 <h3 className="font-heading text-[32px] font-bold leading-[42px] text-white min-[768px]:text-[30px] min-[768px]:leading-[40px] min-[1025px]:text-[41px] min-[1025px]:leading-[49px]">

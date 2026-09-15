@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Image from "next/image";
 import Header from "@/components/Header";
 import PageHeader from "@/components/PageHeader";
 import Footer from "@/components/Footer";
@@ -37,11 +38,14 @@ const CATEGORIES = [
 
 function CategoryCard({ title, img, href }: { title: string; img: string; href: string }) {
   return (
-    <a
-      href={href}
-      className="group relative block h-80 overflow-hidden bg-cover bg-center transition-[background-size] duration-500 hover:[background-size:110%]"
-      style={{ backgroundImage: `url(${img})` }}
-    >
+    <a href={href} className="group relative block h-80 overflow-hidden">
+      <Image
+        src={img}
+        alt=""
+        fill
+        sizes="(min-width: 640px) 50vw, 100vw"
+        className="object-cover transition-transform duration-500 group-hover:scale-110"
+      />
       <div className="absolute inset-x-0 bottom-0 p-6">
         <span className="inline-block bg-brand-teal px-4 py-2 text-sm font-bold text-white">
           {title}

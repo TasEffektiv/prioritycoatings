@@ -161,12 +161,13 @@ export default function LeadPaintRemovalPage() {
         <section className="relative -mt-20 sm:-mt-28 lg:-mt-40">
           <div className="px-1 md:px-0">
             <div className="relative mx-auto h-[300px] w-full max-w-[1230px] overflow-hidden md:h-[400px] lg:h-[542px] min-[1450px]:max-w-[1600px]">
-              <div
-                className="absolute inset-0 bg-cover bg-center"
-                style={{
-                  backgroundImage:
-                    "url(/images/lead-removing-repainting-2.jpg)",
-                }}
+              <Image
+                src="/images/lead-removing-repainting-2.jpg"
+                alt=""
+                fill
+                sizes="(min-width: 1450px) 1600px, 100vw"
+                loading="eager"
+                className="object-cover"
               />
               <div className="absolute inset-0 bg-black/30" />
               <div className="relative z-10 flex h-full items-center">
@@ -265,13 +266,17 @@ export default function LeadPaintRemovalPage() {
         {/* Call CTA */}
         <section className="bg-white pb-10 md:pb-16">
           <div className="mx-auto max-w-[1600px] px-6">
-            <div
-              className="relative overflow-hidden bg-cover bg-center py-16 sm:py-20 lg:py-24"
-              style={{
-                backgroundImage:
-                  "linear-gradient(rgba(0,57,109,0.89), rgba(0,57,109,0.89)), url(/images/painters-in-sydney.jpg)",
-              }}
-            >
+            <div className="relative overflow-hidden py-16 sm:py-20 lg:py-24">
+              <Image
+                src="/images/painters-in-sydney.jpg"
+                alt=""
+                fill
+                sizes="100vw"
+                quality={40}
+                loading="lazy"
+                className="-z-10 object-cover"
+              />
+              <div className="absolute inset-0 -z-10 bg-[rgba(0,57,109,0.89)]" />
               <div className="mx-auto flex max-w-[1400px] flex-col items-center justify-center gap-8 px-6 text-center">
                 <h4 className="font-heading text-2xl font-bold text-white sm:text-[32px] lg:text-[41px]">
                   Call Us For A Free Quote
@@ -289,13 +294,15 @@ export default function LeadPaintRemovalPage() {
 
         {/* Insurances */}
         <section className="relative overflow-hidden bg-[#003c73] lg:min-h-[700px]">
-          <div
-            className="absolute inset-y-0 left-0 hidden w-1/2 bg-cover bg-top lg:block"
-            style={{
-              backgroundImage:
-                "url(/images/lead-removal-1.jpg)",
-            }}
-          />
+          <div className="absolute inset-y-0 left-0 hidden w-1/2 lg:block">
+            <Image
+              src="/images/lead-removal-1.jpg"
+              alt=""
+              fill
+              sizes="50vw"
+              className="object-cover object-top"
+            />
+          </div>
           <div className="relative mx-auto flex max-w-[1400px] justify-end px-6 py-16 lg:min-h-[700px] lg:py-24">
             <div className="w-full max-w-[636px] bg-white px-8 py-10 shadow-lg sm:pt-20 sm:pr-[50px] sm:pb-[60px] sm:pl-[85px]">
               <h2 className="font-heading text-2xl font-extrabold leading-tight text-black sm:text-3xl">
@@ -364,12 +371,14 @@ export default function LeadPaintRemovalPage() {
         <section className="bg-white py-10 md:py-16">
           <div className="mx-auto max-w-[1600px] px-6">
             <div className="relative overflow-hidden bg-[#003f75] py-16 text-center sm:py-24">
-              <div
-                className="pointer-events-none absolute inset-0 bg-cover bg-center opacity-[0.11]"
-                style={{
-                  backgroundImage:
-                    "url(/images/painters-in-sydney.jpg)",
-                }}
+              <Image
+                src="/images/painters-in-sydney.jpg"
+                alt=""
+                fill
+                sizes="100vw"
+                quality={40}
+                loading="lazy"
+                className="pointer-events-none -z-10 object-cover opacity-[0.11]"
               />
               <div className="relative mx-auto max-w-[1400px] px-6">
                 <h3 className="font-heading text-[32px] font-bold leading-[42px] text-white min-[768px]:text-[30px] min-[768px]:leading-[40px] min-[1025px]:text-[41px] min-[1025px]:leading-[49px]">
