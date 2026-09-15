@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Link from "next/link";
 import JsonLd from "./JsonLd";
 import { breadcrumbSchema } from "@/lib/schema";
@@ -18,14 +19,16 @@ export default function PageHeader({
   ];
 
   return (
-    <section
-      className="relative overflow-hidden bg-[#143049] bg-cover bg-[top_left] bg-no-repeat bg-blend-multiply py-[30px] md:py-[50px] lg:py-[100px]"
-      style={{
-        backgroundImage:
-          "url(/images/lead-paint.jpg)",
-      }}
-    >
-      <div className="mx-auto flex max-w-[1400px] flex-wrap items-center justify-between gap-4 px-6">
+    <section className="relative overflow-hidden bg-[#143049] py-[30px] md:py-[50px] lg:py-[100px]">
+      <Image
+        src="/images/lead-paint.jpg"
+        alt=""
+        fill
+        sizes="100vw"
+        loading="eager"
+        className="-z-10 object-cover object-left-top mix-blend-multiply"
+      />
+      <div className="relative mx-auto flex max-w-[1400px] flex-wrap items-center justify-between gap-4 px-6">
         <h1 className="font-heading text-4xl font-extrabold text-white sm:text-5xl lg:text-[64px]">
           {title}
         </h1>
