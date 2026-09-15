@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { buildMetadata } from "@/lib/metadata";
 import Image from "next/image";
 import Link from "next/link";
 import { Mail } from "lucide-react";
@@ -9,14 +10,11 @@ import { articleSchema } from "@/lib/schema";
 import Footer from "@/components/Footer";
 import BlogSidebar from "@/components/blog/BlogSidebar";
 
-export const metadata: Metadata = {
+export const metadata: Metadata = buildMetadata({
   title: "Painting Your House Before Selling | Priority One Coatings",
-  description:
-    "Painting your house before selling is a strategic move that can offer significant advantages. Consider hiring expert house painters like Priority One Coatings.",
-  alternates: {
-    canonical: "/painting-your-house-before-selling/",
-  },
-};
+  description: "Painting your house before selling is a strategic move that can offer significant advantages. Consider hiring expert house painters like Priority One Coatings.",
+  path: "/painting-your-house-before-selling/",
+});
 
 const POST_URL = "https://www.prioritycoatings.com.au/painting-your-house-before-selling/";
 

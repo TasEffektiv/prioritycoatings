@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { buildMetadata } from "@/lib/metadata";
 import Image from "next/image";
 import Link from "next/link";
 import { Mail } from "lucide-react";
@@ -8,14 +9,11 @@ import JsonLd from "@/components/JsonLd";
 import { articleSchema } from "@/lib/schema";
 import Footer from "@/components/Footer";
 
-export const metadata: Metadata = {
+export const metadata: Metadata = buildMetadata({
   title: "Paint A Ceiling Without Splatter | Priority One Coatings",
-  description:
-    "Painting your ceilings doesn't have to be daunting if you learn the right technique. Here are useful tips on painting a ceiling without splatter or dripping.",
-  alternates: {
-    canonical: "/paint-a-ceiling-without-splatter/",
-  },
-};
+  description: "Painting your ceilings doesn't have to be daunting if you learn the right technique. Here are useful tips on painting a ceiling without splatter or dripping.",
+  path: "/paint-a-ceiling-without-splatter/",
+});
 
 const POST_URL = "https://www.prioritycoatings.com.au/paint-a-ceiling-without-splatter/";
 

@@ -1,18 +1,16 @@
 import type { Metadata } from "next";
+import { buildMetadata } from "@/lib/metadata";
 import Header from "@/components/Header";
 import PageHeader from "@/components/PageHeader";
 import Footer from "@/components/Footer";
 import GalleryLightbox from "@/components/GalleryLightbox";
 import { LEAD_REMOVAL_PROJECTS } from "@/data/leadRemovalProjects";
 
-export const metadata: Metadata = {
+export const metadata: Metadata = buildMetadata({
   title: "Portfolio | Lead Removal Projects | Priority One Coatings",
-  description:
-    "Priority One Coatings works for any big or small lead paint removal projects in Sydney. Check out what we have done for our clients.",
-  alternates: {
-    canonical: "/recent-lead-removal-projects/",
-  },
-};
+  description: "Priority One Coatings works for any big or small lead paint removal projects in Sydney. Check out what we have done for our clients.",
+  path: "/recent-lead-removal-projects/",
+});
 
 export default function RecentLeadRemovalProjectsPage() {
   return (

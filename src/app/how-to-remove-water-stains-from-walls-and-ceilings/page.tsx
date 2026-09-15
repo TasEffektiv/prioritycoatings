@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { buildMetadata } from "@/lib/metadata";
 import Image from "next/image";
 import Link from "next/link";
 import { Mail } from "lucide-react";
@@ -8,14 +9,11 @@ import JsonLd from "@/components/JsonLd";
 import { articleSchema } from "@/lib/schema";
 import Footer from "@/components/Footer";
 
-export const metadata: Metadata = {
+export const metadata: Metadata = buildMetadata({
   title: "How to Remove Water Stains on Walls & Ceilings",
-  description:
-    "Water stains on walls and ceilings can be damaging. These stains occur for various factors, including leakage. Let's check some easy steps to remove the stains.",
-  alternates: {
-    canonical: "/how-to-remove-water-stains-from-walls-and-ceilings/",
-  },
-};
+  description: "Water stains on walls and ceilings can be damaging. These stains occur for various factors, including leakage. Let's check some easy steps to remove the stains.",
+  path: "/how-to-remove-water-stains-from-walls-and-ceilings/",
+});
 
 const POST_URL = "https://www.prioritycoatings.com.au/how-to-remove-water-stains-from-walls-and-ceilings/";
 

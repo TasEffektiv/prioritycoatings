@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { buildMetadata } from "@/lib/metadata";
 import Image from "next/image";
 import Link from "next/link";
 import { Mail } from "lucide-react";
@@ -8,14 +9,11 @@ import JsonLd from "@/components/JsonLd";
 import { articleSchema } from "@/lib/schema";
 import Footer from "@/components/Footer";
 
-export const metadata: Metadata = {
+export const metadata: Metadata = buildMetadata({
   title: "4 Tips On Choosing the Right Colour for Your Home | Priority One Coatings",
-  description:
-    "Picking the right paint colour for your home can be tough with so many options on offer. Here are 4 key tips to help you choose the right colour and avoid a costly repaint.",
-  alternates: {
-    canonical: "/4-tips-on-choosing-the-right-colour-for-your-home/",
-  },
-};
+  description: "Picking the right paint colour for your home can be tough with so many options on offer. Here are 4 key tips to help you choose the right colour and avoid a costly repaint.",
+  path: "/4-tips-on-choosing-the-right-colour-for-your-home/",
+});
 
 const POST_URL = "https://www.prioritycoatings.com.au/4-tips-on-choosing-the-right-colour-for-your-home/";
 

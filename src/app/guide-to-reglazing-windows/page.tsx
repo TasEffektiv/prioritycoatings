@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { buildMetadata } from "@/lib/metadata";
 import Image from "next/image";
 import Link from "next/link";
 import { Mail } from "lucide-react";
@@ -8,14 +9,11 @@ import JsonLd from "@/components/JsonLd";
 import { articleSchema } from "@/lib/schema";
 import Footer from "@/components/Footer";
 
-export const metadata: Metadata = {
+export const metadata: Metadata = buildMetadata({
   title: "Guide to Reglazing Windows | Priority One Coatings",
-  description:
-    "Reglazing windows involves removing old glazing (putty) and replacing it, finishing with touch-up paint. Explore how reglazing can bring life to your windows.",
-  alternates: {
-    canonical: "/guide-to-reglazing-windows/",
-  },
-};
+  description: "Reglazing windows involves removing old glazing (putty) and replacing it, finishing with touch-up paint. Explore how reglazing can bring life to your windows.",
+  path: "/guide-to-reglazing-windows/",
+});
 
 const POST_URL = "https://www.prioritycoatings.com.au/guide-to-reglazing-windows/";
 

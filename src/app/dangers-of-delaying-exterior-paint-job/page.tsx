@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { buildMetadata } from "@/lib/metadata";
 import Image from "next/image";
 import Link from "next/link";
 import { Mail } from "lucide-react";
@@ -9,14 +10,11 @@ import { articleSchema } from "@/lib/schema";
 import Footer from "@/components/Footer";
 import BlogSidebar from "@/components/blog/BlogSidebar";
 
-export const metadata: Metadata = {
+export const metadata: Metadata = buildMetadata({
   title: "Dangers of Delaying an Exterior Paint Job | Priority One Coatings",
-  description:
-    "Delaying your home exterior paint job only results in vulnerable losses. Contact our professional painters in Sydney and get the exterior paint job done.",
-  alternates: {
-    canonical: "/dangers-of-delaying-exterior-paint-job/",
-  },
-};
+  description: "Delaying your home exterior paint job only results in vulnerable losses. Contact our professional painters in Sydney and get the exterior paint job done.",
+  path: "/dangers-of-delaying-exterior-paint-job/",
+});
 
 const POST_URL = "https://www.prioritycoatings.com.au/dangers-of-delaying-exterior-paint-job/";
 

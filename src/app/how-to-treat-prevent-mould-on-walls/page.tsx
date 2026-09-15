@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { buildMetadata } from "@/lib/metadata";
 import Image from "next/image";
 import Link from "next/link";
 import { Mail } from "lucide-react";
@@ -8,14 +9,11 @@ import JsonLd from "@/components/JsonLd";
 import { articleSchema } from "@/lib/schema";
 import Footer from "@/components/Footer";
 
-export const metadata: Metadata = {
+export const metadata: Metadata = buildMetadata({
   title: "How to Treat & Prevent Mould on Walls | Priority One Coatings",
-  description:
-    "The key to mould prevention is keeping air moisture to a minimum. Let's discover how to treat and prevent mould in your bathrooms, kitchens, rooms, and laundry.",
-  alternates: {
-    canonical: "/how-to-treat-prevent-mould-on-walls/",
-  },
-};
+  description: "The key to mould prevention is keeping air moisture to a minimum. Let's discover how to treat and prevent mould in your bathrooms, kitchens, rooms, and laundry.",
+  path: "/how-to-treat-prevent-mould-on-walls/",
+});
 
 const POST_URL = "https://www.prioritycoatings.com.au/how-to-treat-prevent-mould-on-walls/";
 

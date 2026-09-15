@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { buildMetadata } from "@/lib/metadata";
 import Image from "next/image";
 import Link from "next/link";
 import { Mail } from "lucide-react";
@@ -8,14 +9,11 @@ import JsonLd from "@/components/JsonLd";
 import { articleSchema } from "@/lib/schema";
 import Footer from "@/components/Footer";
 
-export const metadata: Metadata = {
+export const metadata: Metadata = buildMetadata({
   title: "Welcome to Sydney's Top Painters Priority One Coatings New WebSite | Priority One Coatings",
-  description:
-    "Meet Priority One Coatings, Sydney's trusted residential, commercial and strata painters since 1988. Explore our services, accreditations and specialties.",
-  alternates: {
-    canonical: "/house-painting-blog/",
-  },
-};
+  description: "Meet Priority One Coatings, Sydney's trusted residential, commercial and strata painters since 1988. Explore our services, accreditations and specialties.",
+  path: "/house-painting-blog/",
+});
 
 const POST_URL = "https://www.prioritycoatings.com.au/house-painting-blog/";
 const POST_TITLE = "Welcome to Sydney's Top Painters Priority One Coatings New WebSite";

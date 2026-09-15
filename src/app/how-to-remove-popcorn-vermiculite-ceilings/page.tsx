@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { buildMetadata } from "@/lib/metadata";
 import Image from "next/image";
 import Link from "next/link";
 import { Mail } from "lucide-react";
@@ -9,14 +10,11 @@ import { articleSchema } from "@/lib/schema";
 import Footer from "@/components/Footer";
 import BlogSidebar from "@/components/blog/BlogSidebar";
 
-export const metadata: Metadata = {
+export const metadata: Metadata = buildMetadata({
   title: "How to Remove Popcorn Ceilings: Easy Tips and Tricks",
-  description:
-    "Due to the presence of asbestos, popcorn ceilings are long out of style. If you need a popcorn ceiling removal, check the process. For more, contact us.",
-  alternates: {
-    canonical: "/how-to-remove-popcorn-vermiculite-ceilings/",
-  },
-};
+  description: "Due to the presence of asbestos, popcorn ceilings are long out of style. If you need a popcorn ceiling removal, check the process. For more, contact us.",
+  path: "/how-to-remove-popcorn-vermiculite-ceilings/",
+});
 
 const POST_URL = "https://www.prioritycoatings.com.au/how-to-remove-popcorn-vermiculite-ceilings/";
 

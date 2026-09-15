@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { buildMetadata } from "@/lib/metadata";
 import Image from "next/image";
 import Link from "next/link";
 import { Mail } from "lucide-react";
@@ -8,14 +9,11 @@ import JsonLd from "@/components/JsonLd";
 import { articleSchema } from "@/lib/schema";
 import Footer from "@/components/Footer";
 
-export const metadata: Metadata = {
+export const metadata: Metadata = buildMetadata({
   title: "Pressure Wash Before Painting Your House | Priority One Coatings",
-  description:
-    "Pressure washing is a great way to clean the house exterior. It removes dirt & grime to reveal a clean surface ready for painting. Check reasons of pressure washing.",
-  alternates: {
-    canonical: "/pressure-wash-before-painting-your-house/",
-  },
-};
+  description: "Pressure washing is a great way to clean the house exterior. It removes dirt & grime to reveal a clean surface ready for painting. Check reasons of pressure washing.",
+  path: "/pressure-wash-before-painting-your-house/",
+});
 
 const POST_URL = "https://www.prioritycoatings.com.au/pressure-wash-before-painting-your-house/";
 

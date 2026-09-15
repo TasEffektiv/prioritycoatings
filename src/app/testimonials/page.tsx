@@ -1,18 +1,16 @@
 import type { Metadata } from "next";
+import { buildMetadata } from "@/lib/metadata";
 import Header from "@/components/Header";
 import PageHeader from "@/components/PageHeader";
 import Footer from "@/components/Footer";
 import TestimonialCard from "@/components/TestimonialCard";
 import { TESTIMONIALS } from "@/data/testimonials";
 
-export const metadata: Metadata = {
+export const metadata: Metadata = buildMetadata({
   title: "Testimonials | Our Client's Word of Mouth | Priority One Coatings",
-  description:
-    "At Priority One Coatings, our excellence is defined by our client's reviews. Check out our client's word of mouth for our professional painters in Sydney.",
-  alternates: {
-    canonical: "/testimonials/",
-  },
-};
+  description: "At Priority One Coatings, our excellence is defined by our client's reviews. Check out our client's word of mouth for our professional painters in Sydney.",
+  path: "/testimonials/",
+});
 
 export default function TestimonialsPage() {
   return (

@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { buildMetadata } from "@/lib/metadata";
 import Image from "next/image";
 import Link from "next/link";
 import { Mail } from "lucide-react";
@@ -8,14 +9,11 @@ import JsonLd from "@/components/JsonLd";
 import { articleSchema } from "@/lib/schema";
 import Footer from "@/components/Footer";
 
-export const metadata: Metadata = {
+export const metadata: Metadata = buildMetadata({
   title: "Paint, Colours, And Tools - Glossary You Need | Priority One Coatings",
-  description:
-    "Planning a painting project? Explore essential terms of paint, colours, and tools in this easy-to-understand glossary, perfect for homeowners and DIY painters.",
-  alternates: {
-    canonical: "/paint-colours-and-tools-glossary-you-need/",
-  },
-};
+  description: "Planning a painting project? Explore essential terms of paint, colours, and tools in this easy-to-understand glossary, perfect for homeowners and DIY painters.",
+  path: "/paint-colours-and-tools-glossary-you-need/",
+});
 
 const POST_URL = "https://www.prioritycoatings.com.au/paint-colours-and-tools-glossary-you-need/";
 

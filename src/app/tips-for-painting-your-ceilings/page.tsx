@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { buildMetadata } from "@/lib/metadata";
 import Image from "next/image";
 import Link from "next/link";
 import { Mail } from "lucide-react";
@@ -8,14 +9,11 @@ import JsonLd from "@/components/JsonLd";
 import { articleSchema } from "@/lib/schema";
 import Footer from "@/components/Footer";
 
-export const metadata: Metadata = {
+export const metadata: Metadata = buildMetadata({
   title: "Tips for Painting Your Ceilings | Priority One Coatings",
-  description:
-    "Painting ceilings with a roller is one of the easiest ways to apply paints. Let's explore the best tips for painting your ceilings and getting a better finish.",
-  alternates: {
-    canonical: "/tips-for-painting-your-ceilings/",
-  },
-};
+  description: "Painting ceilings with a roller is one of the easiest ways to apply paints. Let's explore the best tips for painting your ceilings and getting a better finish.",
+  path: "/tips-for-painting-your-ceilings/",
+});
 
 const POST_URL = "https://www.prioritycoatings.com.au/tips-for-painting-your-ceilings/";
 

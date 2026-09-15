@@ -1,16 +1,14 @@
 import type { Metadata } from "next";
+import { buildMetadata } from "@/lib/metadata";
 import Header from "@/components/Header";
 import PageHeader from "@/components/PageHeader";
 import Footer from "@/components/Footer";
 
-export const metadata: Metadata = {
+export const metadata: Metadata = buildMetadata({
   title: "Website Privacy Policy | Priority One Coatings",
-  description:
-    "This Privacy Policy describes our procedures regarding the collection, use, and disclosure of your information when you use the service and tells you about your privacy rights.",
-  alternates: {
-    canonical: "/privacy-policy/",
-  },
-};
+  description: "This Privacy Policy describes our procedures regarding the collection, use, and disclosure of your information when you use the service and tells you about your privacy rights.",
+  path: "/privacy-policy/",
+});
 
 export default function PrivacyPolicyPage() {
   return (

@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { buildMetadata } from "@/lib/metadata";
 import Image from "next/image";
 import Link from "next/link";
 import { Mail } from "lucide-react";
@@ -8,14 +9,11 @@ import JsonLd from "@/components/JsonLd";
 import { articleSchema } from "@/lib/schema";
 import Footer from "@/components/Footer";
 
-export const metadata: Metadata = {
+export const metadata: Metadata = buildMetadata({
   title: "How to Fix a Bad Paint Job: Common Painting Mistakes",
-  description:
-    "Whether it’s streaks, roller marks, or uneven coverage, a bad paint job is frustrating. Check fixes that will help you without repainting the entire surface.",
-  alternates: {
-    canonical: "/how-to-fix-a-bad-paint-job/",
-  },
-};
+  description: "Whether it’s streaks, roller marks, or uneven coverage, a bad paint job is frustrating. Check fixes that will help you without repainting the entire surface.",
+  path: "/how-to-fix-a-bad-paint-job/",
+});
 
 const POST_URL = "https://www.prioritycoatings.com.au/how-to-fix-a-bad-paint-job/";
 

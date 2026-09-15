@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { buildMetadata } from "@/lib/metadata";
 import Image from "next/image";
 import Link from "next/link";
 import { Mail } from "lucide-react";
@@ -8,14 +9,11 @@ import JsonLd from "@/components/JsonLd";
 import { articleSchema } from "@/lib/schema";
 import Footer from "@/components/Footer";
 
-export const metadata: Metadata = {
+export const metadata: Metadata = buildMetadata({
   title: "The Cost of Painting A Commercial Space | Priority One Coatings",
-  description:
-    "Find out what impacts the cost of commercial painting, including property size, coating selection, repairs, accessibility, and project scope.",
-  alternates: {
-    canonical: "/cost-of-painting-commercial-buildings/",
-  },
-};
+  description: "Find out what impacts the cost of commercial painting, including property size, coating selection, repairs, accessibility, and project scope.",
+  path: "/cost-of-painting-commercial-buildings/",
+});
 
 const POST_URL = "https://www.prioritycoatings.com.au/cost-of-painting-commercial-buildings/";
 

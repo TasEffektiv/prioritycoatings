@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { buildMetadata } from "@/lib/metadata";
 import Image from "next/image";
 import Link from "next/link";
 import { Mail } from "lucide-react";
@@ -8,14 +9,11 @@ import JsonLd from "@/components/JsonLd";
 import { articleSchema } from "@/lib/schema";
 import Footer from "@/components/Footer";
 
-export const metadata: Metadata = {
+export const metadata: Metadata = buildMetadata({
   title: "Guide to Eggshell Paint Finish | Priority One Coatings",
-  description:
-    "Explore the eggshell paint finish and learn where to use it, its benefits, durability, and how it enhances walls with a soft texture and low-sheen look.",
-  alternates: {
-    canonical: "/guide-to-eggshell-paint-finish/",
-  },
-};
+  description: "Explore the eggshell paint finish and learn where to use it, its benefits, durability, and how it enhances walls with a soft texture and low-sheen look.",
+  path: "/guide-to-eggshell-paint-finish/",
+});
 
 const POST_URL = "https://www.prioritycoatings.com.au/guide-to-eggshell-paint-finish/";
 

@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { buildMetadata } from "@/lib/metadata";
 import Header from "@/components/Header";
 import PageHeader from "@/components/PageHeader";
 import Footer from "@/components/Footer";
@@ -10,14 +11,11 @@ import { POSTS, paginate, type Category } from "@/lib/blog";
 const CATEGORY: Category = "Commercial Painting";
 const categoryPosts = POSTS.filter((post) => post.categories.includes(CATEGORY));
 
-export const metadata: Metadata = {
+export const metadata: Metadata = buildMetadata({
   title: "Commercial Painting | Blog | Page 4 | Priority One Coatings",
-  description:
-    "Commercial painting tips, guides and expert advice from Priority One Coatings — Sydney's residential and commercial painting specialists.",
-  alternates: {
-    canonical: "/category/commercial-painting/page/4/",
-  },
-};
+  description: "Commercial painting tips, guides and expert advice from Priority One Coatings — Sydney's residential and commercial painting specialists.",
+  path: "/category/commercial-painting/page/4/",
+});
 
 export default function CommercialPaintingCategoryPageFour() {
   const { items, totalPages } = paginate(categoryPosts, 4);

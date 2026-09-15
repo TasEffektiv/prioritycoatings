@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { buildMetadata } from "@/lib/metadata";
 import Image from "next/image";
 import Link from "next/link";
 import { Mail } from "lucide-react";
@@ -8,14 +9,11 @@ import JsonLd from "@/components/JsonLd";
 import { articleSchema } from "@/lib/schema";
 import Footer from "@/components/Footer";
 
-export const metadata: Metadata = {
+export const metadata: Metadata = buildMetadata({
   title: "Paint Removal Tips For Restoring The Surfaces | Priority One Coatings",
-  description:
-    "For painted surface restoration, removing paint is essential. Explore to learn paint removal tips and contact Priority One Coatings for restoring the surfaces.",
-  alternates: {
-    canonical: "/paint-removal-tips-restoring-surfaces/",
-  },
-};
+  description: "For painted surface restoration, removing paint is essential. Explore to learn paint removal tips and contact Priority One Coatings for restoring the surfaces.",
+  path: "/paint-removal-tips-restoring-surfaces/",
+});
 
 const POST_URL = "https://www.prioritycoatings.com.au/paint-removal-tips-restoring-surfaces/";
 

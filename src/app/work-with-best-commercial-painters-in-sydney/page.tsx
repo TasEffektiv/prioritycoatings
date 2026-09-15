@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { buildMetadata } from "@/lib/metadata";
 import Image from "next/image";
 import Link from "next/link";
 import { Mail } from "lucide-react";
@@ -8,14 +9,11 @@ import JsonLd from "@/components/JsonLd";
 import { articleSchema } from "@/lib/schema";
 import Footer from "@/components/Footer";
 
-export const metadata: Metadata = {
+export const metadata: Metadata = buildMetadata({
   title: "Work with The Best Commercial Painters in Sydney | Priority One Coatings",
-  description:
-    "There are plenty of painting companies available in Sydney. Priority One Coatings can be the best choice for your commercial property. Call 02 9808 5900 today.",
-  alternates: {
-    canonical: "/work-with-best-commercial-painters-in-sydney/",
-  },
-};
+  description: "There are plenty of painting companies available in Sydney. Priority One Coatings can be the best choice for your commercial property. Call 02 9808 5900 today.",
+  path: "/work-with-best-commercial-painters-in-sydney/",
+});
 
 const POST_URL = "https://www.prioritycoatings.com.au/work-with-best-commercial-painters-in-sydney/";
 

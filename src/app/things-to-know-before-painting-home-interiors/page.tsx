@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { buildMetadata } from "@/lib/metadata";
 import Image from "next/image";
 import Link from "next/link";
 import { Mail } from "lucide-react";
@@ -8,14 +9,11 @@ import JsonLd from "@/components/JsonLd";
 import { articleSchema } from "@/lib/schema";
 import Footer from "@/components/Footer";
 
-export const metadata: Metadata = {
+export const metadata: Metadata = buildMetadata({
   title: "Essential Things to Know Before Painting Your Home Interiors",
-  description:
-    "A fresh coat of paint can transform your home interior. Learn the essentials of colour selection, DIY vs professional service, and expert tips before you start.",
-  alternates: {
-    canonical: "/things-to-know-before-painting-home-interiors/",
-  },
-};
+  description: "A fresh coat of paint can transform your home interior. Learn the essentials of colour selection, DIY vs professional service, and expert tips before you start.",
+  path: "/things-to-know-before-painting-home-interiors/",
+});
 
 const POST_URL = "https://www.prioritycoatings.com.au/things-to-know-before-painting-home-interiors/";
 

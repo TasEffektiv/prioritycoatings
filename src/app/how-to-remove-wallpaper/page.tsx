@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { buildMetadata } from "@/lib/metadata";
 import Image from "next/image";
 import Link from "next/link";
 import { Mail } from "lucide-react";
@@ -8,14 +9,11 @@ import JsonLd from "@/components/JsonLd";
 import { articleSchema } from "@/lib/schema";
 import Footer from "@/components/Footer";
 
-export const metadata: Metadata = {
+export const metadata: Metadata = buildMetadata({
   title: "How to Remove Wallpaper: A Step By Step Guide",
-  description:
-    "If you are looking for simple and effective ways to remove wallpaper, this article provides a step-by-step guide for getting rid of old wallpaper from your walls.",
-  alternates: {
-    canonical: "/how-to-remove-wallpaper/",
-  },
-};
+  description: "If you are looking for simple and effective ways to remove wallpaper, this article provides a step-by-step guide for getting rid of old wallpaper from your walls.",
+  path: "/how-to-remove-wallpaper/",
+});
 
 const POST_URL = "https://www.prioritycoatings.com.au/how-to-remove-wallpaper/";
 

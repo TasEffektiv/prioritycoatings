@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { buildMetadata } from "@/lib/metadata";
 import Image from "next/image";
 import Link from "next/link";
 import { Mail } from "lucide-react";
@@ -8,14 +9,11 @@ import JsonLd from "@/components/JsonLd";
 import { articleSchema } from "@/lib/schema";
 import Footer from "@/components/Footer";
 
-export const metadata: Metadata = {
+export const metadata: Metadata = buildMetadata({
   title: "How to Maintain Your Commercial Painting Project | Priority One Coatings",
-  description:
-    "Maintaining commercial property to keep it fresh and open for business is an important aspect that business owners neglect. For more info, contact us today!",
-  alternates: {
-    canonical: "/how-to-maintain-commercial-painting-project/",
-  },
-};
+  description: "Maintaining commercial property to keep it fresh and open for business is an important aspect that business owners neglect. For more info, contact us today!",
+  path: "/how-to-maintain-commercial-painting-project/",
+});
 
 const POST_URL = "https://www.prioritycoatings.com.au/how-to-maintain-commercial-painting-project/";
 

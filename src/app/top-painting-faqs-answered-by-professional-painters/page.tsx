@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { buildMetadata } from "@/lib/metadata";
 import Image from "next/image";
 import Link from "next/link";
 import { Mail } from "lucide-react";
@@ -8,14 +9,11 @@ import JsonLd from "@/components/JsonLd";
 import { articleSchema } from "@/lib/schema";
 import Footer from "@/components/Footer";
 
-export const metadata: Metadata = {
+export const metadata: Metadata = buildMetadata({
   title: "Top Painting FAQs Answered by Professional Painters | Priority One Coatings",
-  description:
-    "Planning a painting project? Get expert answers to the top painting FAQs, from choosing the right paint to preparation, costs, and long-lasting finishes.",
-  alternates: {
-    canonical: "/top-painting-faqs-answered-by-professional-painters/",
-  },
-};
+  description: "Planning a painting project? Get expert answers to the top painting FAQs, from choosing the right paint to preparation, costs, and long-lasting finishes.",
+  path: "/top-painting-faqs-answered-by-professional-painters/",
+});
 
 const POST_URL = "https://www.prioritycoatings.com.au/top-painting-faqs-answered-by-professional-painters/";
 

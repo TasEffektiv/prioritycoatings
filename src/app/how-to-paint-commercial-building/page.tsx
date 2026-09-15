@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { buildMetadata } from "@/lib/metadata";
 import Image from "next/image";
 import Link from "next/link";
 import { Mail } from "lucide-react";
@@ -8,14 +9,11 @@ import JsonLd from "@/components/JsonLd";
 import { articleSchema } from "@/lib/schema";
 import Footer from "@/components/Footer";
 
-export const metadata: Metadata = {
+export const metadata: Metadata = buildMetadata({
   title: "How to Paint a Commercial Building? | Priority One Coatings",
-  description:
-    "Painting commercial buildings comes with its own set of challenges. Check the top tips for interior and exterior commercial building painting for next project.",
-  alternates: {
-    canonical: "/how-to-paint-commercial-building/",
-  },
-};
+  description: "Painting commercial buildings comes with its own set of challenges. Check the top tips for interior and exterior commercial building painting for next project.",
+  path: "/how-to-paint-commercial-building/",
+});
 
 const POST_URL = "https://www.prioritycoatings.com.au/how-to-paint-commercial-building/";
 

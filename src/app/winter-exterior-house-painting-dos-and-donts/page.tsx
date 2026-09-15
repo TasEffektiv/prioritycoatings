@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { buildMetadata } from "@/lib/metadata";
 import Image from "next/image";
 import Link from "next/link";
 import { Mail } from "lucide-react";
@@ -8,14 +9,11 @@ import JsonLd from "@/components/JsonLd";
 import { articleSchema } from "@/lib/schema";
 import Footer from "@/components/Footer";
 
-export const metadata: Metadata = {
+export const metadata: Metadata = buildMetadata({
   title: "Winter Exterior Painting In Sydney: Essential Tips",
-  description:
-    "Planning exterior house painting in winter? Get expert advice on winter exterior house painting, including key do's and don’ts to achieve a professional finish.",
-  alternates: {
-    canonical: "/winter-exterior-house-painting-dos-and-donts/",
-  },
-};
+  description: "Planning exterior house painting in winter? Get expert advice on winter exterior house painting, including key do's and don’ts to achieve a professional finish.",
+  path: "/winter-exterior-house-painting-dos-and-donts/",
+});
 
 const POST_URL = "https://www.prioritycoatings.com.au/winter-exterior-house-painting-dos-and-donts/";
 

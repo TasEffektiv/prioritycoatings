@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { buildMetadata } from "@/lib/metadata";
 import Image from "next/image";
 import Link from "next/link";
 import { Mail } from "lucide-react";
@@ -8,14 +9,11 @@ import JsonLd from "@/components/JsonLd";
 import { articleSchema } from "@/lib/schema";
 import Footer from "@/components/Footer";
 
-export const metadata: Metadata = {
+export const metadata: Metadata = buildMetadata({
   title: "How Pantone Colour 2025 Can Redefine Interiors | Priority One Coatings",
-  description:
-    "The earthy hue Mocha Mousse is the Pantone colour of the year for 2025. It redefines interior design by bringing warmth and balance into every corner of your home.",
-  alternates: {
-    canonical: "/pantone-colour-mocha-mousse-can-redefine-interiors/",
-  },
-};
+  description: "The earthy hue Mocha Mousse is the Pantone colour of the year for 2025. It redefines interior design by bringing warmth and balance into every corner of your home.",
+  path: "/pantone-colour-mocha-mousse-can-redefine-interiors/",
+});
 
 const POST_URL = "https://www.prioritycoatings.com.au/pantone-colour-mocha-mousse-can-redefine-interiors/";
 

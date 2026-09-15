@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { buildMetadata } from "@/lib/metadata";
 import Image from "next/image";
 import Link from "next/link";
 import { Mail } from "lucide-react";
@@ -8,14 +9,11 @@ import JsonLd from "@/components/JsonLd";
 import { articleSchema } from "@/lib/schema";
 import Footer from "@/components/Footer";
 
-export const metadata: Metadata = {
+export const metadata: Metadata = buildMetadata({
   title: "How to Fix Flaky Ceiling | Priority One Coatings",
-  description:
-    "Peeling paint on the ceiling is a common issue for Sydney homeowners. Follow this step-by-step guide to fix your flaky ceiling. For more info, contact us today.",
-  alternates: {
-    canonical: "/how-to-fix-flaky-ceiling/",
-  },
-};
+  description: "Peeling paint on the ceiling is a common issue for Sydney homeowners. Follow this step-by-step guide to fix your flaky ceiling. For more info, contact us today.",
+  path: "/how-to-fix-flaky-ceiling/",
+});
 
 const POST_URL = "https://www.prioritycoatings.com.au/how-to-fix-flaky-ceiling/";
 

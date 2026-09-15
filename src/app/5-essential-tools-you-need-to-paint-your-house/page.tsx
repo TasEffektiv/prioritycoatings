@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { buildMetadata } from "@/lib/metadata";
 import Image from "next/image";
 import Link from "next/link";
 import { Mail } from "lucide-react";
@@ -8,14 +9,11 @@ import JsonLd from "@/components/JsonLd";
 import { articleSchema } from "@/lib/schema";
 import Footer from "@/components/Footer";
 
-export const metadata: Metadata = {
+export const metadata: Metadata = buildMetadata({
   title: "5 Essential Tools You Need To Paint Your House | Priority One Coatings",
-  description:
-    "Thinking about DIY house painting? Here's a checklist of the essential tools and equipment you need to get the job done with the best possible finish.",
-  alternates: {
-    canonical: "/5-essential-tools-you-need-to-paint-your-house/",
-  },
-};
+  description: "Thinking about DIY house painting? Here's a checklist of the essential tools and equipment you need to get the job done with the best possible finish.",
+  path: "/5-essential-tools-you-need-to-paint-your-house/",
+});
 
 const POST_URL = "https://www.prioritycoatings.com.au/5-essential-tools-you-need-to-paint-your-house/";
 const POST_TITLE = "5 Essential Tools You Need To Paint Your House";

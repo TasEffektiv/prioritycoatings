@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { buildMetadata } from "@/lib/metadata";
 import Image from "next/image";
 import Link from "next/link";
 import { Mail } from "lucide-react";
@@ -8,14 +9,11 @@ import JsonLd from "@/components/JsonLd";
 import { articleSchema } from "@/lib/schema";
 import Footer from "@/components/Footer";
 
-export const metadata: Metadata = {
+export const metadata: Metadata = buildMetadata({
   title: "How Different Types of Exterior Siding Are Painted | Priority One Coatings",
-  description:
-    "Different siding materials require specific painting techniques and products for optimal results. Learn how various types of exterior siding are painted.",
-  alternates: {
-    canonical: "/painting-different-exterior-siding/",
-  },
-};
+  description: "Different siding materials require specific painting techniques and products for optimal results. Learn how various types of exterior siding are painted.",
+  path: "/painting-different-exterior-siding/",
+});
 
 const POST_URL = "https://www.prioritycoatings.com.au/painting-different-exterior-siding/";
 

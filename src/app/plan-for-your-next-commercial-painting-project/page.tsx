@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { buildMetadata } from "@/lib/metadata";
 import Image from "next/image";
 import Link from "next/link";
 import { Mail } from "lucide-react";
@@ -9,14 +10,11 @@ import { articleSchema } from "@/lib/schema";
 import Footer from "@/components/Footer";
 import BlogSidebar from "@/components/blog/BlogSidebar";
 
-export const metadata: Metadata = {
+export const metadata: Metadata = buildMetadata({
   title: "Plan for Your Next Commercial Painting Project | Priority One Coatings",
-  description:
-    "If you want to make your property more appealing and attract more customers, start planning for your next commercial painting project. Also, it's better to choose Priority Coatings.",
-  alternates: {
-    canonical: "/plan-for-your-next-commercial-painting-project/",
-  },
-};
+  description: "If you want to make your property more appealing and attract more customers, start planning for your next commercial painting project. Also, it's better to choose Priority Coatings.",
+  path: "/plan-for-your-next-commercial-painting-project/",
+});
 
 const POST_URL = "https://www.prioritycoatings.com.au/plan-for-your-next-commercial-painting-project/";
 

@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { buildMetadata } from "@/lib/metadata";
 import Image from "next/image";
 import Link from "next/link";
 import { Mail } from "lucide-react";
@@ -8,14 +9,11 @@ import JsonLd from "@/components/JsonLd";
 import { articleSchema } from "@/lib/schema";
 import Footer from "@/components/Footer";
 
-export const metadata: Metadata = {
+export const metadata: Metadata = buildMetadata({
   title: "How To Treat Lead Paint Found in A Commercial Building? | Priority One Coatings",
-  description:
-    "Removing lead paint is not a DIY job; it's best to call in the professionals. Let's check how to treat lead paint found in commercial properties effectively.",
-  alternates: {
-    canonical: "/how-to-treat-lead-paint-in-commercial-building/",
-  },
-};
+  description: "Removing lead paint is not a DIY job; it's best to call in the professionals. Let's check how to treat lead paint found in commercial properties effectively.",
+  path: "/how-to-treat-lead-paint-in-commercial-building/",
+});
 
 const POST_URL = "https://www.prioritycoatings.com.au/how-to-treat-lead-paint-in-commercial-building/";
 

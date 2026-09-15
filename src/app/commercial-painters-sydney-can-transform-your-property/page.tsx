@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { buildMetadata } from "@/lib/metadata";
 import Image from "next/image";
 import Link from "next/link";
 import { Mail } from "lucide-react";
@@ -8,14 +9,11 @@ import JsonLd from "@/components/JsonLd";
 import { articleSchema } from "@/lib/schema";
 import Footer from "@/components/Footer";
 
-export const metadata: Metadata = {
+export const metadata: Metadata = buildMetadata({
   title: "How Commercial Painters in Sydney Can Transform Your Property | Priority One Coatings",
-  description:
-    "If you are looking for a commercial painting contractor near you, hire Priority One Coatings in Sydney. Contact today to give your building a brand-new look.",
-  alternates: {
-    canonical: "/commercial-painters-sydney-can-transform-your-property/",
-  },
-};
+  description: "If you are looking for a commercial painting contractor near you, hire Priority One Coatings in Sydney. Contact today to give your building a brand-new look.",
+  path: "/commercial-painters-sydney-can-transform-your-property/",
+});
 
 const POST_URL = "https://www.prioritycoatings.com.au/commercial-painters-sydney-can-transform-your-property/";
 

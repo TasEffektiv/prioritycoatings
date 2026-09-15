@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { buildMetadata } from "@/lib/metadata";
 import Image from "next/image";
 import Link from "next/link";
 import { Mail } from "lucide-react";
@@ -8,14 +9,11 @@ import JsonLd from "@/components/JsonLd";
 import { articleSchema } from "@/lib/schema";
 import Footer from "@/components/Footer";
 
-export const metadata: Metadata = {
+export const metadata: Metadata = buildMetadata({
   title: "Benefits of Repainting Your Commercial Building | Priority One Coatings",
-  description:
-    "There are many reasons to repaint your commercial property. Check the article and explore the benefits of repainting your building. For more info, Call 02 9808 5900.",
-  alternates: {
-    canonical: "/benefits-of-repainting-commercial-building/",
-  },
-};
+  description: "There are many reasons to repaint your commercial property. Check the article and explore the benefits of repainting your building. For more info, Call 02 9808 5900.",
+  path: "/benefits-of-repainting-commercial-building/",
+});
 
 const POST_URL = "https://www.prioritycoatings.com.au/benefits-of-repainting-commercial-building/";
 

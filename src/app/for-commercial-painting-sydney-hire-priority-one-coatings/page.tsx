@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { buildMetadata } from "@/lib/metadata";
 import Image from "next/image";
 import Link from "next/link";
 import { Mail } from "lucide-react";
@@ -8,14 +9,11 @@ import JsonLd from "@/components/JsonLd";
 import { articleSchema } from "@/lib/schema";
 import Footer from "@/components/Footer";
 
-export const metadata: Metadata = {
+export const metadata: Metadata = buildMetadata({
   title: "Looking for Commercial Painting Sydney-wide? Hire Priority One Coatings | Priority One Coatings",
-  description:
-    "A tired-looking commercial building brings down the image of your business. Hire Priority One Coatings today and let us give your commercial property a better look!",
-  alternates: {
-    canonical: "/for-commercial-painting-sydney-hire-priority-one-coatings/",
-  },
-};
+  description: "A tired-looking commercial building brings down the image of your business. Hire Priority One Coatings today and let us give your commercial property a better look!",
+  path: "/for-commercial-painting-sydney-hire-priority-one-coatings/",
+});
 
 const POST_URL = "https://www.prioritycoatings.com.au/for-commercial-painting-sydney-hire-priority-one-coatings/";
 

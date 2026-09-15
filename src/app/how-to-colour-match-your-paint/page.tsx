@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { buildMetadata } from "@/lib/metadata";
 import Image from "next/image";
 import Link from "next/link";
 import { Mail } from "lucide-react";
@@ -8,14 +9,11 @@ import JsonLd from "@/components/JsonLd";
 import { articleSchema } from "@/lib/schema";
 import Footer from "@/components/Footer";
 
-export const metadata: Metadata = {
+export const metadata: Metadata = buildMetadata({
   title: "How to Colour Match Your Paint | Priority One Coatings",
-  description:
-    "Colour matching helps to ensure that your new paint perfectly matches the existing colour. Although matching paint can be challenging, explore to learn more.",
-  alternates: {
-    canonical: "/how-to-colour-match-your-paint/",
-  },
-};
+  description: "Colour matching helps to ensure that your new paint perfectly matches the existing colour. Although matching paint can be challenging, explore to learn more.",
+  path: "/how-to-colour-match-your-paint/",
+});
 
 const POST_URL = "https://www.prioritycoatings.com.au/how-to-colour-match-your-paint/";
 

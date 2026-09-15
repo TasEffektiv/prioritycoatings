@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { buildMetadata } from "@/lib/metadata";
 import Image from "next/image";
 import Link from "next/link";
 import { Mail } from "lucide-react";
@@ -8,14 +9,11 @@ import JsonLd from "@/components/JsonLd";
 import { articleSchema } from "@/lib/schema";
 import Footer from "@/components/Footer";
 
-export const metadata: Metadata = {
+export const metadata: Metadata = buildMetadata({
   title: "Benefits of Painting Your Roof | Priority One Coatings",
-  description:
-    "Regular roof painting can help keep your home cooler and save on energy. It also maintains your roof's quality. Check the benefits of painting for aged roofs.",
-  alternates: {
-    canonical: "/benefits-of-painting-your-roof/",
-  },
-};
+  description: "Regular roof painting can help keep your home cooler and save on energy. It also maintains your roof's quality. Check the benefits of painting for aged roofs.",
+  path: "/benefits-of-painting-your-roof/",
+});
 
 const POST_URL = "https://www.prioritycoatings.com.au/benefits-of-painting-your-roof/";
 

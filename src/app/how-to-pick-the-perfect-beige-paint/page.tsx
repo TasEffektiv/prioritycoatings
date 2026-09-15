@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { buildMetadata } from "@/lib/metadata";
 import Image from "next/image";
 import Link from "next/link";
 import { Mail } from "lucide-react";
@@ -8,14 +9,11 @@ import JsonLd from "@/components/JsonLd";
 import { articleSchema } from "@/lib/schema";
 import Footer from "@/components/Footer";
 
-export const metadata: Metadata = {
+export const metadata: Metadata = buildMetadata({
   title: "How to Pick the Perfect Beige Paint | Priority One Coatings",
-  description:
-    "For homeowners in Sydney, beige is one of the safest options for house painting. Explore how to pick the perfect beige paint for your next renovation project.",
-  alternates: {
-    canonical: "/how-to-pick-the-perfect-beige-paint/",
-  },
-};
+  description: "For homeowners in Sydney, beige is one of the safest options for house painting. Explore how to pick the perfect beige paint for your next renovation project.",
+  path: "/how-to-pick-the-perfect-beige-paint/",
+});
 
 const POST_URL = "https://www.prioritycoatings.com.au/how-to-pick-the-perfect-beige-paint/";
 

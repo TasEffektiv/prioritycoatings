@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { buildMetadata } from "@/lib/metadata";
 import Image from "next/image";
 import Link from "next/link";
 import { Mail } from "lucide-react";
@@ -8,14 +9,11 @@ import JsonLd from "@/components/JsonLd";
 import { articleSchema } from "@/lib/schema";
 import Footer from "@/components/Footer";
 
-export const metadata: Metadata = {
+export const metadata: Metadata = buildMetadata({
   title: "Paint Your Property Before EOFY | Priority One Coatings",
-  description:
-    "Painting a building before EOFY offers several benefits, including tax deductions and opportunities for higher rentals. Contact us for the next painting project.",
-  alternates: {
-    canonical: "/paint-your-property-before-eofy/",
-  },
-};
+  description: "Painting a building before EOFY offers several benefits, including tax deductions and opportunities for higher rentals. Contact us for the next painting project.",
+  path: "/paint-your-property-before-eofy/",
+});
 
 const POST_URL = "https://www.prioritycoatings.com.au/paint-your-property-before-eofy/";
 

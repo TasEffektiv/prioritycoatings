@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { buildMetadata } from "@/lib/metadata";
 import Image from "next/image";
 import Link from "next/link";
 import { Mail } from "lucide-react";
@@ -8,14 +9,11 @@ import JsonLd from "@/components/JsonLd";
 import { articleSchema } from "@/lib/schema";
 import Footer from "@/components/Footer";
 
-export const metadata: Metadata = {
+export const metadata: Metadata = buildMetadata({
   title: "How Can Paint Colour Affects Your Work Spaces | Priority One Coatings",
-  description:
-    "Paint colours impact emotions and psychological responses and affect workspaces by influencing employee productivity. Learn more about office colour psychology.",
-  alternates: {
-    canonical: "/how-paint-colour-affects-your-work-spaces/",
-  },
-};
+  description: "Paint colours impact emotions and psychological responses and affect workspaces by influencing employee productivity. Learn more about office colour psychology.",
+  path: "/how-paint-colour-affects-your-work-spaces/",
+});
 
 const POST_URL = "https://www.prioritycoatings.com.au/how-paint-colour-affects-your-work-spaces/";
 

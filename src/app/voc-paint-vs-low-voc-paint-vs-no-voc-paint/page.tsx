@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { buildMetadata } from "@/lib/metadata";
 import Image from "next/image";
 import Link from "next/link";
 import { Mail } from "lucide-react";
@@ -8,14 +9,11 @@ import JsonLd from "@/components/JsonLd";
 import { articleSchema } from "@/lib/schema";
 import Footer from "@/components/Footer";
 
-export const metadata: Metadata = {
+export const metadata: Metadata = buildMetadata({
   title: "VOC Paint vs. Low-VOC Paint vs. No-VOC Paint | Priority One Coatings",
-  description:
-    "VOC free paint is the healthiest choice for your home. Explore the dangers of VOCs, how to avoid low-VOC paints, and why you should only use zero-VOC paint.",
-  alternates: {
-    canonical: "/voc-paint-vs-low-voc-paint-vs-no-voc-paint/",
-  },
-};
+  description: "VOC free paint is the healthiest choice for your home. Explore the dangers of VOCs, how to avoid low-VOC paints, and why you should only use zero-VOC paint.",
+  path: "/voc-paint-vs-low-voc-paint-vs-no-voc-paint/",
+});
 
 const POST_URL = "https://www.prioritycoatings.com.au/voc-paint-vs-low-voc-paint-vs-no-voc-paint/";
 

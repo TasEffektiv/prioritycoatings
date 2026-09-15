@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { buildMetadata } from "@/lib/metadata";
 import Image from "next/image";
 import Link from "next/link";
 import { Mail } from "lucide-react";
@@ -8,14 +9,11 @@ import JsonLd from "@/components/JsonLd";
 import { articleSchema } from "@/lib/schema";
 import Footer from "@/components/Footer";
 
-export const metadata: Metadata = {
+export const metadata: Metadata = buildMetadata({
   title: "How Do Painting & Waterproofing Work Together | Priority One Coatings",
-  description:
-    "Waterproofing prevents water penetration, and waterproof paint protects surfaces from water damage. While working together can provide an extra layer of protection.",
-  alternates: {
-    canonical: "/how-painting-waterproofing-work-together/",
-  },
-};
+  description: "Waterproofing prevents water penetration, and waterproof paint protects surfaces from water damage. While working together can provide an extra layer of protection.",
+  path: "/how-painting-waterproofing-work-together/",
+});
 
 const POST_URL = "https://www.prioritycoatings.com.au/how-painting-waterproofing-work-together/";
 

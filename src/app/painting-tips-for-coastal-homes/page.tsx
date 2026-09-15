@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { buildMetadata } from "@/lib/metadata";
 import Image from "next/image";
 import Link from "next/link";
 import { Mail } from "lucide-react";
@@ -8,14 +9,11 @@ import JsonLd from "@/components/JsonLd";
 import { articleSchema } from "@/lib/schema";
 import Footer from "@/components/Footer";
 
-export const metadata: Metadata = {
+export const metadata: Metadata = buildMetadata({
   title: "Painting Tips for Coastal Homes | Priority One Coatings",
-  description:
-    "Protect your coastal home exterior from salt and moisture with the right paint, equipment, and techniques. Explore the painting tips for your seaside property.",
-  alternates: {
-    canonical: "/painting-tips-for-coastal-homes/",
-  },
-};
+  description: "Protect your coastal home exterior from salt and moisture with the right paint, equipment, and techniques. Explore the painting tips for your seaside property.",
+  path: "/painting-tips-for-coastal-homes/",
+});
 
 const POST_URL = "https://www.prioritycoatings.com.au/painting-tips-for-coastal-homes/";
 

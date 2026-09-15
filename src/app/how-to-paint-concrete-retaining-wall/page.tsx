@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { buildMetadata } from "@/lib/metadata";
 import Image from "next/image";
 import Link from "next/link";
 import { Mail } from "lucide-react";
@@ -8,14 +9,11 @@ import JsonLd from "@/components/JsonLd";
 import { articleSchema } from "@/lib/schema";
 import Footer from "@/components/Footer";
 
-export const metadata: Metadata = {
+export const metadata: Metadata = buildMetadata({
   title: "How to Paint Concrete Retaining Wall | Priority One Coatings",
-  description:
-    "Concrete retaining wall painting usually requires premium tools, supplies, and expert painters. Contact us and give a facial uplift to your retaining wall.",
-  alternates: {
-    canonical: "/how-to-paint-concrete-retaining-wall/",
-  },
-};
+  description: "Concrete retaining wall painting usually requires premium tools, supplies, and expert painters. Contact us and give a facial uplift to your retaining wall.",
+  path: "/how-to-paint-concrete-retaining-wall/",
+});
 
 const POST_URL = "https://www.prioritycoatings.com.au/how-to-paint-concrete-retaining-wall/";
 

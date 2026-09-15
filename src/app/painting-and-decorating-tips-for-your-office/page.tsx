@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { buildMetadata } from "@/lib/metadata";
 import Image from "next/image";
 import Link from "next/link";
 import { Mail } from "lucide-react";
@@ -8,14 +9,11 @@ import JsonLd from "@/components/JsonLd";
 import { articleSchema } from "@/lib/schema";
 import Footer from "@/components/Footer";
 
-export const metadata: Metadata = {
+export const metadata: Metadata = buildMetadata({
   title: "Painting and Decorating Tips for Your Office | Priority One Coatings",
-  description:
-    "Choosing office paint colours affects mood and productivity. Explore colour psychology and practical decorating tips for commercial workplaces.",
-  alternates: {
-    canonical: "/painting-and-decorating-tips-for-your-office/",
-  },
-};
+  description: "Choosing office paint colours affects mood and productivity. Explore colour psychology and practical decorating tips for commercial workplaces.",
+  path: "/painting-and-decorating-tips-for-your-office/",
+});
 
 const POST_URL = "https://www.prioritycoatings.com.au/painting-and-decorating-tips-for-your-office/";
 const POST_TITLE = "Painting and Decorating Tips for Your Office";

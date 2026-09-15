@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { buildMetadata } from "@/lib/metadata";
 import Image from "next/image";
 import Link from "next/link";
 import { Mail } from "lucide-react";
@@ -8,14 +9,11 @@ import JsonLd from "@/components/JsonLd";
 import { articleSchema } from "@/lib/schema";
 import Footer from "@/components/Footer";
 
-export const metadata: Metadata = {
+export const metadata: Metadata = buildMetadata({
   title: "Dulux Colour Forecast for 2026 | Priority One Coatings",
-  description:
-    "Dulux Colour Forecast for 2026 welcomes warm neutrals, soft pastels, and earthy tones. Explore the shades set to shape interior and exterior painting in 2026.",
-  alternates: {
-    canonical: "/dulux-colour-forecast-for-2026/",
-  },
-};
+  description: "Dulux Colour Forecast for 2026 welcomes warm neutrals, soft pastels, and earthy tones. Explore the shades set to shape interior and exterior painting in 2026.",
+  path: "/dulux-colour-forecast-for-2026/",
+});
 
 const POST_URL = "https://www.prioritycoatings.com.au/dulux-colour-forecast-for-2026/";
 

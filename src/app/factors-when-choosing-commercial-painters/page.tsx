@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { buildMetadata } from "@/lib/metadata";
 import Image from "next/image";
 import Link from "next/link";
 import { Mail } from "lucide-react";
@@ -8,14 +9,11 @@ import JsonLd from "@/components/JsonLd";
 import { articleSchema } from "@/lib/schema";
 import Footer from "@/components/Footer";
 
-export const metadata: Metadata = {
+export const metadata: Metadata = buildMetadata({
   title: "Factors to Consider When Choosing Commercial Painters | Priority One Coatings",
-  description:
-    "Explore the factors to consider when choosing a commercial painter. Contact Priority One Coatings and hire the best painters for your commercial projects in Sydney.",
-  alternates: {
-    canonical: "/factors-when-choosing-commercial-painters/",
-  },
-};
+  description: "Explore the factors to consider when choosing a commercial painter. Contact Priority One Coatings and hire the best painters for your commercial projects in Sydney.",
+  path: "/factors-when-choosing-commercial-painters/",
+});
 
 const POST_URL = "https://www.prioritycoatings.com.au/factors-when-choosing-commercial-painters/";
 

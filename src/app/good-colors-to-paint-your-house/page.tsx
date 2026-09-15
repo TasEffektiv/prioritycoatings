@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { buildMetadata } from "@/lib/metadata";
 import Image from "next/image";
 import Link from "next/link";
 import { Mail } from "lucide-react";
@@ -8,14 +9,11 @@ import JsonLd from "@/components/JsonLd";
 import { articleSchema } from "@/lib/schema";
 import Footer from "@/components/Footer";
 
-export const metadata: Metadata = {
+export const metadata: Metadata = buildMetadata({
   title: "Good Colours to Paint Your Rooms in this Spring | Priority One Coatings",
-  description:
-    "If you’re looking to get some interior house painting done this spring, these various painting ideas can be very effective. Contact us for more info or get a free Quote!",
-  alternates: {
-    canonical: "/good-colors-to-paint-your-house/",
-  },
-};
+  description: "If you’re looking to get some interior house painting done this spring, these various painting ideas can be very effective. Contact us for more info or get a free Quote!",
+  path: "/good-colors-to-paint-your-house/",
+});
 
 const POST_URL = "https://www.prioritycoatings.com.au/good-colors-to-paint-your-house/";
 const POST_TITLE = "Good Colours to Paint Your House";

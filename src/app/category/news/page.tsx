@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { buildMetadata } from "@/lib/metadata";
 import Header from "@/components/Header";
 import PageHeader from "@/components/PageHeader";
 import Footer from "@/components/Footer";
@@ -10,14 +11,11 @@ import { POSTS, paginate, type Category } from "@/lib/blog";
 const CATEGORY: Category = "News";
 const categoryPosts = POSTS.filter((post) => post.categories.includes(CATEGORY));
 
-export const metadata: Metadata = {
+export const metadata: Metadata = buildMetadata({
   title: "News | Blog | Priority One Coatings",
-  description:
-    "The latest news, trends and updates from Priority One Coatings — Sydney's residential and commercial painting specialists.",
-  alternates: {
-    canonical: "/category/news/",
-  },
-};
+  description: "The latest news, trends and updates from Priority One Coatings — Sydney's residential and commercial painting specialists.",
+  path: "/category/news/",
+});
 
 export default function NewsCategoryPage() {
   const { items, totalPages } = paginate(categoryPosts, 1);

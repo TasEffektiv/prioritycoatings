@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { buildMetadata } from "@/lib/metadata";
 import Image from "next/image";
 import Link from "next/link";
 import { Mail } from "lucide-react";
@@ -8,14 +9,11 @@ import JsonLd from "@/components/JsonLd";
 import { articleSchema } from "@/lib/schema";
 import Footer from "@/components/Footer";
 
-export const metadata: Metadata = {
+export const metadata: Metadata = buildMetadata({
   title: "How to Choose the Best Strata Painters in Sydney | Priority One Coatings",
-  description:
-    "If you are looking to renovate your strata complex in Sydney with a fresh coat of paint, Priority One Coatings got you covered. For more, call 02 9808 5900.",
-  alternates: {
-    canonical: "/how-to-choose-best-strata-painters-sydney/",
-  },
-};
+  description: "If you are looking to renovate your strata complex in Sydney with a fresh coat of paint, Priority One Coatings got you covered. For more, call 02 9808 5900.",
+  path: "/how-to-choose-best-strata-painters-sydney/",
+});
 
 const POST_URL = "https://www.prioritycoatings.com.au/how-to-choose-best-strata-painters-sydney/";
 

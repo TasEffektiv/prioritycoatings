@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { buildMetadata } from "@/lib/metadata";
 import Image from "next/image";
 import Link from "next/link";
 import { Mail } from "lucide-react";
@@ -8,14 +9,11 @@ import JsonLd from "@/components/JsonLd";
 import { articleSchema } from "@/lib/schema";
 import Footer from "@/components/Footer";
 
-export const metadata: Metadata = {
+export const metadata: Metadata = buildMetadata({
   title: "How to Stain a Deck | Priority One Coatings",
-  description:
-    "Staining your deck will help to preserve the timber and keep it looking fresh, making it a worthwhile investment for your outdoor space. Let's stain your deck .",
-  alternates: {
-    canonical: "/how-to-stain-a-deck/",
-  },
-};
+  description: "Staining your deck will help to preserve the timber and keep it looking fresh, making it a worthwhile investment for your outdoor space. Let's stain your deck .",
+  path: "/how-to-stain-a-deck/",
+});
 
 const POST_URL = "https://www.prioritycoatings.com.au/how-to-stain-a-deck/";
 

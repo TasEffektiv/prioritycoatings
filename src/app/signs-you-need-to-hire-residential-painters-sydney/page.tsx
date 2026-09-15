@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { buildMetadata } from "@/lib/metadata";
 import Image from "next/image";
 import Link from "next/link";
 import { Mail } from "lucide-react";
@@ -8,14 +9,11 @@ import JsonLd from "@/components/JsonLd";
 import { articleSchema } from "@/lib/schema";
 import Footer from "@/components/Footer";
 
-export const metadata: Metadata = {
+export const metadata: Metadata = buildMetadata({
   title: "Signs You Need to Hire Residential Painters in Sydney | Priority One Coatings",
-  description:
-    "If your house in Sydney has any of the signs that you need to hire residential painters, contact us today and let us handle all your painting needs.",
-  alternates: {
-    canonical: "/signs-you-need-to-hire-residential-painters-sydney/",
-  },
-};
+  description: "If your house in Sydney has any of the signs that you need to hire residential painters, contact us today and let us handle all your painting needs.",
+  path: "/signs-you-need-to-hire-residential-painters-sydney/",
+});
 
 const POST_URL = "https://www.prioritycoatings.com.au/signs-you-need-to-hire-residential-painters-sydney/";
 

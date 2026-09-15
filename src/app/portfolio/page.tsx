@@ -1,17 +1,15 @@
 import type { Metadata } from "next";
+import { buildMetadata } from "@/lib/metadata";
 import Image from "next/image";
 import Header from "@/components/Header";
 import PageHeader from "@/components/PageHeader";
 import Footer from "@/components/Footer";
 
-export const metadata: Metadata = {
+export const metadata: Metadata = buildMetadata({
   title: "Portfolio | Recent Projects | Priority One Coatings",
-  description:
-    "Priority One Coatings works for any big or small commercial and residential painting projects in Sydney. Check out what we have done for our clients!",
-  alternates: {
-    canonical: "/portfolio/",
-  },
-};
+  description: "Priority One Coatings works for any big or small commercial and residential painting projects in Sydney. Check out what we have done for our clients!",
+  path: "/portfolio/",
+});
 
 const CATEGORIES = [
   {

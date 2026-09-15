@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { buildMetadata } from "@/lib/metadata";
 import Image from "next/image";
 import Link from "next/link";
 import { Mail } from "lucide-react";
@@ -8,14 +9,11 @@ import JsonLd from "@/components/JsonLd";
 import { articleSchema } from "@/lib/schema";
 import Footer from "@/components/Footer";
 
-export const metadata: Metadata = {
+export const metadata: Metadata = buildMetadata({
   title: "Unique Office Fit-out Ideas For A Fresh Look In Your Workplace | Priority One Coatings",
-  description:
-    "We’ve gone through a few common stylistic elements that are getting more popular for office fit-outs in Sydney. Contact us for more info or get a free Quote!",
-  alternates: {
-    canonical: "/unique-office-fit-out-ideas-for-a-fresh-look-in-your-workplace/",
-  },
-};
+  description: "We’ve gone through a few common stylistic elements that are getting more popular for office fit-outs in Sydney. Contact us for more info or get a free Quote!",
+  path: "/unique-office-fit-out-ideas-for-a-fresh-look-in-your-workplace/",
+});
 
 const POST_URL =
   "https://www.prioritycoatings.com.au/unique-office-fit-out-ideas-for-a-fresh-look-in-your-workplace/";

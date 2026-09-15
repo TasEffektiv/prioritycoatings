@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { buildMetadata } from "@/lib/metadata";
 import Image from "next/image";
 import Link from "next/link";
 import { Mail } from "lucide-react";
@@ -8,14 +9,11 @@ import JsonLd from "@/components/JsonLd";
 import { articleSchema } from "@/lib/schema";
 import Footer from "@/components/Footer";
 
-export const metadata: Metadata = {
+export const metadata: Metadata = buildMetadata({
   title: "Tips for Painting Rendered Wall | Priority One Coatings",
-  description:
-    "With the right tools and the right kind of paint, you can easily paint over your home's cement-rendered walls. Check the tips to make your job easier.",
-  alternates: {
-    canonical: "/tips-for-painting-rendered-wall/",
-  },
-};
+  description: "With the right tools and the right kind of paint, you can easily paint over your home's cement-rendered walls. Check the tips to make your job easier.",
+  path: "/tips-for-painting-rendered-wall/",
+});
 
 const POST_URL = "https://www.prioritycoatings.com.au/tips-for-painting-rendered-wall/";
 

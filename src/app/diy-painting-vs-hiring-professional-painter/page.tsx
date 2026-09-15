@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { buildMetadata } from "@/lib/metadata";
 import Image from "next/image";
 import Link from "next/link";
 import { Mail } from "lucide-react";
@@ -8,14 +9,11 @@ import JsonLd from "@/components/JsonLd";
 import { articleSchema } from "@/lib/schema";
 import Footer from "@/components/Footer";
 
-export const metadata: Metadata = {
+export const metadata: Metadata = buildMetadata({
   title: "DIY Painting vs Hiring a Professional Painter | Priority One Coatings",
-  description:
-    "When painting your property in Sydney, there are many things to consider. Let's check if DIY paint or professional paint works best for you. For more, contact us!",
-  alternates: {
-    canonical: "/diy-painting-vs-hiring-professional-painter/",
-  },
-};
+  description: "When painting your property in Sydney, there are many things to consider. Let's check if DIY paint or professional paint works best for you. For more, contact us!",
+  path: "/diy-painting-vs-hiring-professional-painter/",
+});
 
 const POST_URL = "https://www.prioritycoatings.com.au/diy-painting-vs-hiring-professional-painter/";
 

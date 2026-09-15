@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { buildMetadata } from "@/lib/metadata";
 import Image from "next/image";
 import Link from "next/link";
 import { Mail } from "lucide-react";
@@ -8,14 +9,11 @@ import JsonLd from "@/components/JsonLd";
 import { articleSchema } from "@/lib/schema";
 import Footer from "@/components/Footer";
 
-export const metadata: Metadata = {
+export const metadata: Metadata = buildMetadata({
   title: "Summer Paint Colours to Cool Your Home | Priority One Coatings",
-  description:
-    "If you are a homeowner in Sydney struggling to manage your property during the summertime, a cool colour palette for a house painting project can help you a lot.",
-  alternates: {
-    canonical: "/summer-paint-colours-to-cool-your-home/",
-  },
-};
+  description: "If you are a homeowner in Sydney struggling to manage your property during the summertime, a cool colour palette for a house painting project can help you a lot.",
+  path: "/summer-paint-colours-to-cool-your-home/",
+});
 
 const POST_URL = "https://www.prioritycoatings.com.au/summer-paint-colours-to-cool-your-home/";
 

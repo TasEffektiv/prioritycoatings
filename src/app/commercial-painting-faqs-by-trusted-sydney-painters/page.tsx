@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { buildMetadata } from "@/lib/metadata";
 import Image from "next/image";
 import Link from "next/link";
 import { Mail } from "lucide-react";
@@ -8,14 +9,11 @@ import JsonLd from "@/components/JsonLd";
 import { articleSchema } from "@/lib/schema";
 import Footer from "@/components/Footer";
 
-export const metadata: Metadata = {
+export const metadata: Metadata = buildMetadata({
   title: "Commercial Painting FAQs By Trusted Sydney Painters | Priority One Coatings",
-  description:
-    "Explore top commercial painting FAQs answered by trusted Sydney painters and get expert advice on costs, timelines, preparation, and maintaining your building.",
-  alternates: {
-    canonical: "/commercial-painting-faqs-by-trusted-sydney-painters/",
-  },
-};
+  description: "Explore top commercial painting FAQs answered by trusted Sydney painters and get expert advice on costs, timelines, preparation, and maintaining your building.",
+  path: "/commercial-painting-faqs-by-trusted-sydney-painters/",
+});
 
 const POST_URL = "https://www.prioritycoatings.com.au/commercial-painting-faqs-by-trusted-sydney-painters/";
 

@@ -1,17 +1,15 @@
 import type { Metadata } from "next";
+import { buildMetadata } from "@/lib/metadata";
 import Image from "next/image";
 import Header from "@/components/Header";
 import PageHeader from "@/components/PageHeader";
 import Footer from "@/components/Footer";
 
-export const metadata: Metadata = {
+export const metadata: Metadata = buildMetadata({
   title: "About Us | Sydney Residential & Commercial Painters Since 1988",
-  description:
-    "Specialising in both interior & exterior painting, Priority One Coatings delivers quality residential & commercial painting in Sydney with 35+ years of experience.",
-  alternates: {
-    canonical: "/about-us/",
-  },
-};
+  description: "Specialising in both interior & exterior painting, Priority One Coatings delivers quality residential & commercial painting in Sydney with 35+ years of experience.",
+  path: "/about-us/",
+});
 
 const SERVICES_LIST = [
   "Residential house painting",

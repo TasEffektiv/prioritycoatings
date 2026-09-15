@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { buildMetadata } from "@/lib/metadata";
 import Image from "next/image";
 import Link from "next/link";
 import { Mail } from "lucide-react";
@@ -8,14 +9,11 @@ import JsonLd from "@/components/JsonLd";
 import { articleSchema } from "@/lib/schema";
 import Footer from "@/components/Footer";
 
-export const metadata: Metadata = {
+export const metadata: Metadata = buildMetadata({
   title: "Innovations in Paint Technology 2024 | Priority One Coatings",
-  description:
-    "Discover paint technology advancments to make house painting more than just a new colour and how innovations in paint technology and trends impacting in 2024.",
-  alternates: {
-    canonical: "/innovations-in-paint-technology-2024/",
-  },
-};
+  description: "Discover paint technology advancments to make house painting more than just a new colour and how innovations in paint technology and trends impacting in 2024.",
+  path: "/innovations-in-paint-technology-2024/",
+});
 
 const POST_URL = "https://www.prioritycoatings.com.au/innovations-in-paint-technology-2024/";
 

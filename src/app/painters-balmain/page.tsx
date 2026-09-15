@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { buildMetadata } from "@/lib/metadata";
 import Image from "next/image";
 import { CheckCircle2 } from "lucide-react";
 import Header from "@/components/Header";
@@ -10,14 +11,11 @@ import QuoteForm from "@/components/QuoteForm";
 import CertLogos from "@/components/CertLogos";
 import Testimonials from "@/components/Testimonials";
 
-export const metadata: Metadata = {
+export const metadata: Metadata = buildMetadata({
   title: "Painters Balmain | Priority Coatings",
-  description:
-    "Get professional painters in Balmain for all your painting needs of residential, commercial & strata projects. Quality painting & personalised service. Call NOW!",
-  alternates: {
-    canonical: "/painters-balmain/",
-  },
-};
+  description: "Get professional painters in Balmain for all your painting needs of residential, commercial & strata projects. Quality painting & personalised service. Call NOW!",
+  path: "/painters-balmain/",
+});
 
 const SERVICES_LIST = [
   "Strata & Body Corporate",

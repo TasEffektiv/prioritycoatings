@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { buildMetadata } from "@/lib/metadata";
 import Image from "next/image";
 import Link from "next/link";
 import { Mail } from "lucide-react";
@@ -8,14 +9,11 @@ import JsonLd from "@/components/JsonLd";
 import { articleSchema } from "@/lib/schema";
 import Footer from "@/components/Footer";
 
-export const metadata: Metadata = {
+export const metadata: Metadata = buildMetadata({
   title: "Paint Over the Stained Wood | Priority One Coatings",
-  description:
-    "With good preparation, like cleaning and sanding to remove the shine, and using a primer to ensure adhesion, you can paint over stained wood. Check to learn more.",
-  alternates: {
-    canonical: "/paint-over-the-stained-wood/",
-  },
-};
+  description: "With good preparation, like cleaning and sanding to remove the shine, and using a primer to ensure adhesion, you can paint over stained wood. Check to learn more.",
+  path: "/paint-over-the-stained-wood/",
+});
 
 const POST_URL = "https://www.prioritycoatings.com.au/paint-over-the-stained-wood/";
 

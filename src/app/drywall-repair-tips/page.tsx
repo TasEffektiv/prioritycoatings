@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { buildMetadata } from "@/lib/metadata";
 import Image from "next/image";
 import Link from "next/link";
 import { Mail } from "lucide-react";
@@ -8,14 +9,11 @@ import JsonLd from "@/components/JsonLd";
 import { articleSchema } from "@/lib/schema";
 import Footer from "@/components/Footer";
 
-export const metadata: Metadata = {
+export const metadata: Metadata = buildMetadata({
   title: "Drywall Repair Tips | Priority One Coatings",
-  description:
-    "Over time, wear and tear can make Sydney homeowners repair drywall. Check out the essential tips you need to know when fixing drywall damage in your home.",
-  alternates: {
-    canonical: "/drywall-repair-tips/",
-  },
-};
+  description: "Over time, wear and tear can make Sydney homeowners repair drywall. Check out the essential tips you need to know when fixing drywall damage in your home.",
+  path: "/drywall-repair-tips/",
+});
 
 const POST_URL = "https://www.prioritycoatings.com.au/drywall-repair-tips/";
 

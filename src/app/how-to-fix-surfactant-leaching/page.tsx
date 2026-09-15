@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { buildMetadata } from "@/lib/metadata";
 import Image from "next/image";
 import Link from "next/link";
 import { Mail } from "lucide-react";
@@ -8,14 +9,11 @@ import JsonLd from "@/components/JsonLd";
 import { articleSchema } from "@/lib/schema";
 import Footer from "@/components/Footer";
 
-export const metadata: Metadata = {
+export const metadata: Metadata = buildMetadata({
   title: "Guide on Surfactant Leaching | Priority One Coatings",
-  description:
-    "Surfactant leaching, an issue with latex paints, is caused by cool, humid conditions during the paint drying. Check easy prevention tips for surfactant leaching.",
-  alternates: {
-    canonical: "/how-to-fix-surfactant-leaching/",
-  },
-};
+  description: "Surfactant leaching, an issue with latex paints, is caused by cool, humid conditions during the paint drying. Check easy prevention tips for surfactant leaching.",
+  path: "/how-to-fix-surfactant-leaching/",
+});
 
 const POST_URL = "https://www.prioritycoatings.com.au/how-to-fix-surfactant-leaching/";
 

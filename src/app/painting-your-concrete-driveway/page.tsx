@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { buildMetadata } from "@/lib/metadata";
 import Image from "next/image";
 import Link from "next/link";
 import { Mail } from "lucide-react";
@@ -8,14 +9,11 @@ import JsonLd from "@/components/JsonLd";
 import { articleSchema } from "@/lib/schema";
 import Footer from "@/components/Footer";
 
-export const metadata: Metadata = {
+export const metadata: Metadata = buildMetadata({
   title: "Painting Concrete Driveway In Sydney: A How To Guide",
-  description:
-    "If you plan to paint your driveway yourself, explore the common steps to have an aesthetically appealing driveway. Contact us for expert residential painters.",
-  alternates: {
-    canonical: "/painting-your-concrete-driveway/",
-  },
-};
+  description: "If you plan to paint your driveway yourself, explore the common steps to have an aesthetically appealing driveway. Contact us for expert residential painters.",
+  path: "/painting-your-concrete-driveway/",
+});
 
 const POST_URL = "https://www.prioritycoatings.com.au/painting-your-concrete-driveway/";
 

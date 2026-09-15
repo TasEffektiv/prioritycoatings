@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { buildMetadata } from "@/lib/metadata";
 import Image from "next/image";
 import Link from "next/link";
 import { Mail } from "lucide-react";
@@ -8,14 +9,11 @@ import JsonLd from "@/components/JsonLd";
 import { articleSchema } from "@/lib/schema";
 import Footer from "@/components/Footer";
 
-export const metadata: Metadata = {
+export const metadata: Metadata = buildMetadata({
   title: "Feature Wall Colour Ideas | Priority One Coatings",
-  description:
-    "Choosing the right colour for your feature wall can be a daunting task. Let's explore some exclusive feature wall colour ideas to make your task easy.",
-  alternates: {
-    canonical: "/feature-wall-colour-ideas/",
-  },
-};
+  description: "Choosing the right colour for your feature wall can be a daunting task. Let's explore some exclusive feature wall colour ideas to make your task easy.",
+  path: "/feature-wall-colour-ideas/",
+});
 
 const POST_URL = "https://www.prioritycoatings.com.au/feature-wall-colour-ideas/";
 

@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { buildMetadata } from "@/lib/metadata";
 import Image from "next/image";
 import Link from "next/link";
 import { Mail } from "lucide-react";
@@ -8,14 +9,11 @@ import JsonLd from "@/components/JsonLd";
 import { articleSchema } from "@/lib/schema";
 import Footer from "@/components/Footer";
 
-export const metadata: Metadata = {
+export const metadata: Metadata = buildMetadata({
   title: "Sustainable Commercial Painting Practices: Eco-Friendly Tips",
-  description:
-    "Sustainable commercial painting practices have become crucial across Sydney. Explore practical eco-friendly painting tips for durable, professional finishes.",
-  alternates: {
-    canonical: "/sustainable-commercial-painting-eco-friendly-tips/",
-  },
-};
+  description: "Sustainable commercial painting practices have become crucial across Sydney. Explore practical eco-friendly painting tips for durable, professional finishes.",
+  path: "/sustainable-commercial-painting-eco-friendly-tips/",
+});
 
 const POST_URL = "https://www.prioritycoatings.com.au/sustainable-commercial-painting-eco-friendly-tips/";
 

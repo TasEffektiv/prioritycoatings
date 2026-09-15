@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { buildMetadata } from "@/lib/metadata";
 import Image from "next/image";
 import Link from "next/link";
 import { Mail } from "lucide-react";
@@ -8,14 +9,11 @@ import JsonLd from "@/components/JsonLd";
 import { articleSchema } from "@/lib/schema";
 import Footer from "@/components/Footer";
 
-export const metadata: Metadata = {
+export const metadata: Metadata = buildMetadata({
   title: "Keep Your Property Looking Fresh with The Leading Painting Services in Sydney | Priority One Coatings",
-  description:
-    "Our team of painters in Sydney will transform your property and give it the fresh new look you've been dreaming of. To begin your next painting project, contact us.",
-  alternates: {
-    canonical: "/keep-your-property-looking-fresh-with-priority-one-coatings/",
-  },
-};
+  description: "Our team of painters in Sydney will transform your property and give it the fresh new look you've been dreaming of. To begin your next painting project, contact us.",
+  path: "/keep-your-property-looking-fresh-with-priority-one-coatings/",
+});
 
 const POST_URL = "https://www.prioritycoatings.com.au/keep-your-property-looking-fresh-with-priority-one-coatings/";
 

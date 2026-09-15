@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { buildMetadata } from "@/lib/metadata";
 import Image from "next/image";
 import Link from "next/link";
 import { Mail } from "lucide-react";
@@ -8,14 +9,11 @@ import JsonLd from "@/components/JsonLd";
 import { articleSchema } from "@/lib/schema";
 import Footer from "@/components/Footer";
 
-export const metadata: Metadata = {
+export const metadata: Metadata = buildMetadata({
   title: "Venetian Plaster vs. Roman Clay vs. Limewash",
-  description:
-    "Roman Clay, Venetian Plaster, and Limewash are popular wall finishes due to their exclusive characteristics. Check the difference between these wall finishes.",
-  alternates: {
-    canonical: "/venetian-plaster-vs-roman-clay-vs-limewash/",
-  },
-};
+  description: "Roman Clay, Venetian Plaster, and Limewash are popular wall finishes due to their exclusive characteristics. Check the difference between these wall finishes.",
+  path: "/venetian-plaster-vs-roman-clay-vs-limewash/",
+});
 
 const POST_URL = "https://www.prioritycoatings.com.au/venetian-plaster-vs-roman-clay-vs-limewash/";
 

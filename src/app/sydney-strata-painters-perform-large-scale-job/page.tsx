@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { buildMetadata } from "@/lib/metadata";
 import Image from "next/image";
 import Link from "next/link";
 import { Mail } from "lucide-react";
@@ -8,14 +9,11 @@ import JsonLd from "@/components/JsonLd";
 import { articleSchema } from "@/lib/schema";
 import Footer from "@/components/Footer";
 
-export const metadata: Metadata = {
+export const metadata: Metadata = buildMetadata({
   title: "Our Sydney Strata Painters Can Perform Any Large-Scale Job | Priority One Coatings",
-  description:
-    "With over 32 years of experience, we work on properties of all scales and kinds with our skilled and efficient strata painters in Sydney. Contact us for a free quote.",
-  alternates: {
-    canonical: "/sydney-strata-painters-perform-large-scale-job/",
-  },
-};
+  description: "With over 32 years of experience, we work on properties of all scales and kinds with our skilled and efficient strata painters in Sydney. Contact us for a free quote.",
+  path: "/sydney-strata-painters-perform-large-scale-job/",
+});
 
 const POST_URL = "https://www.prioritycoatings.com.au/sydney-strata-painters-perform-large-scale-job/";
 

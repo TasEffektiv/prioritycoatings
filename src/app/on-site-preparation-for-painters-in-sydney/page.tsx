@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { buildMetadata } from "@/lib/metadata";
 import Image from "next/image";
 import Link from "next/link";
 import { Mail } from "lucide-react";
@@ -8,14 +9,11 @@ import JsonLd from "@/components/JsonLd";
 import { articleSchema } from "@/lib/schema";
 import Footer from "@/components/Footer";
 
-export const metadata: Metadata = {
+export const metadata: Metadata = buildMetadata({
   title: "On-Site Preparation for Painters in Sydney | Priority One Coatings",
-  description:
-    "Proper house painting preparation is vital for a building project. Let's explore the steps our Sydney painters follow on-site while preparing for the paint job.",
-  alternates: {
-    canonical: "/on-site-preparation-for-painters-in-sydney/",
-  },
-};
+  description: "Proper house painting preparation is vital for a building project. Let's explore the steps our Sydney painters follow on-site while preparing for the paint job.",
+  path: "/on-site-preparation-for-painters-in-sydney/",
+});
 
 const POST_URL = "https://www.prioritycoatings.com.au/on-site-preparation-for-painters-in-sydney/";
 

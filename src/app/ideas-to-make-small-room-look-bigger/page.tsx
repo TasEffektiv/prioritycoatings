@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { buildMetadata } from "@/lib/metadata";
 import Image from "next/image";
 import Link from "next/link";
 import { Mail } from "lucide-react";
@@ -8,14 +9,11 @@ import JsonLd from "@/components/JsonLd";
 import { articleSchema } from "@/lib/schema";
 import Footer from "@/components/Footer";
 
-export const metadata: Metadata = {
+export const metadata: Metadata = buildMetadata({
   title: "Ideas to Make A Small Room Look Bigger | Priority One Coatings",
-  description:
-    "If you want to make your small space feel bigger, explore some easy tips. To renovate your home to look more prominent, contact Priority One Coatings.",
-  alternates: {
-    canonical: "/ideas-to-make-small-room-look-bigger/",
-  },
-};
+  description: "If you want to make your small space feel bigger, explore some easy tips. To renovate your home to look more prominent, contact Priority One Coatings.",
+  path: "/ideas-to-make-small-room-look-bigger/",
+});
 
 const POST_URL = "https://www.prioritycoatings.com.au/ideas-to-make-small-room-look-bigger/";
 

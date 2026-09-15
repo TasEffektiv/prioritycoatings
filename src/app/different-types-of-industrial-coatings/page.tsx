@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { buildMetadata } from "@/lib/metadata";
 import Image from "next/image";
 import Link from "next/link";
 import { Mail } from "lucide-react";
@@ -8,14 +9,11 @@ import JsonLd from "@/components/JsonLd";
 import { articleSchema } from "@/lib/schema";
 import Footer from "@/components/Footer";
 
-export const metadata: Metadata = {
+export const metadata: Metadata = buildMetadata({
   title: "Different Types of Industrial Coatings | Priority One Coatings",
-  description:
-    "Explore different types of industrial coatings. Discover the benefits and tradeoffs of different industrial coating types. Contact us for premium epoxy coatings.",
-  alternates: {
-    canonical: "/different-types-of-industrial-coatings/",
-  },
-};
+  description: "Explore different types of industrial coatings. Discover the benefits and tradeoffs of different industrial coating types. Contact us for premium epoxy coatings.",
+  path: "/different-types-of-industrial-coatings/",
+});
 
 const POST_URL = "https://www.prioritycoatings.com.au/different-types-of-industrial-coatings/";
 

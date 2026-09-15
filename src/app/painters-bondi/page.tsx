@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { buildMetadata } from "@/lib/metadata";
 import Image from "next/image";
 import { CheckCircle2 } from "lucide-react";
 import Header from "@/components/Header";
@@ -10,14 +11,11 @@ import QuoteForm from "@/components/QuoteForm";
 import CertLogos from "@/components/CertLogos";
 import Testimonials from "@/components/Testimonials";
 
-export const metadata: Metadata = {
+export const metadata: Metadata = buildMetadata({
   title: "Residential & Commercial Painters Bondi | Priority Coatings",
-  description:
-    "We are professional painters offering all types of interior and exterior painting services in Bondi. Call us for free quotes and get quality painting services.",
-  alternates: {
-    canonical: "/painters-bondi/",
-  },
-};
+  description: "We are professional painters offering all types of interior and exterior painting services in Bondi. Call us for free quotes and get quality painting services.",
+  path: "/painters-bondi/",
+});
 
 const SERVICES_LIST = [
   "Strata & Body Corporate",

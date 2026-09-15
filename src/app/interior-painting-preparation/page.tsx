@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { buildMetadata } from "@/lib/metadata";
 import Image from "next/image";
 import Link from "next/link";
 import { Mail } from "lucide-react";
@@ -8,14 +9,11 @@ import JsonLd from "@/components/JsonLd";
 import { articleSchema } from "@/lib/schema";
 import Footer from "@/components/Footer";
 
-export const metadata: Metadata = {
+export const metadata: Metadata = buildMetadata({
   title: "Interior Painting Preparation | Priority One Coatings",
-  description:
-    "Proper interior painting preparation is essential. Get expert tips on cleaning, sanding, priming and setting up your space for a flawless interior paint job.",
-  alternates: {
-    canonical: "/interior-painting-preparation/",
-  },
-};
+  description: "Proper interior painting preparation is essential. Get expert tips on cleaning, sanding, priming and setting up your space for a flawless interior paint job.",
+  path: "/interior-painting-preparation/",
+});
 
 const POST_URL = "https://www.prioritycoatings.com.au/interior-painting-preparation/";
 

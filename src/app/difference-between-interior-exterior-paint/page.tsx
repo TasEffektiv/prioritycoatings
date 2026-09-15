@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { buildMetadata } from "@/lib/metadata";
 import Image from "next/image";
 import Link from "next/link";
 import { Mail } from "lucide-react";
@@ -8,14 +9,11 @@ import JsonLd from "@/components/JsonLd";
 import { articleSchema } from "@/lib/schema";
 import Footer from "@/components/Footer";
 
-export const metadata: Metadata = {
+export const metadata: Metadata = buildMetadata({
   title: "The Difference Between Interior & Exterior Paint | Priority One Coatings",
-  description:
-    "The difference between interior & exterior paint is in the formulation, and they are not interchangeable. So, to give your home a painting makeover, contact us.",
-  alternates: {
-    canonical: "/difference-between-interior-exterior-paint/",
-  },
-};
+  description: "The difference between interior & exterior paint is in the formulation, and they are not interchangeable. So, to give your home a painting makeover, contact us.",
+  path: "/difference-between-interior-exterior-paint/",
+});
 
 const POST_URL = "https://www.prioritycoatings.com.au/difference-between-interior-exterior-paint/";
 

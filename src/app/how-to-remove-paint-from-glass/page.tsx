@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { buildMetadata } from "@/lib/metadata";
 import Image from "next/image";
 import Link from "next/link";
 import { Mail } from "lucide-react";
@@ -8,14 +9,11 @@ import JsonLd from "@/components/JsonLd";
 import { articleSchema } from "@/lib/schema";
 import Footer from "@/components/Footer";
 
-export const metadata: Metadata = {
+export const metadata: Metadata = buildMetadata({
   title: "Removing Paint from Glass | Priority One Coatings",
-  description:
-    "While doing DIY painting around your home, you need safe methods for a spotless cleanup. Check tips to remove paint from glass surfaces, whether wet or dry.",
-  alternates: {
-    canonical: "/how-to-remove-paint-from-glass/",
-  },
-};
+  description: "While doing DIY painting around your home, you need safe methods for a spotless cleanup. Check tips to remove paint from glass surfaces, whether wet or dry.",
+  path: "/how-to-remove-paint-from-glass/",
+});
 
 const POST_URL = "https://www.prioritycoatings.com.au/how-to-remove-paint-from-glass/";
 

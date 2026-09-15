@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { buildMetadata } from "@/lib/metadata";
 import Image from "next/image";
 import Link from "next/link";
 import { Mail } from "lucide-react";
@@ -8,14 +9,11 @@ import JsonLd from "@/components/JsonLd";
 import { articleSchema } from "@/lib/schema";
 import Footer from "@/components/Footer";
 
-export const metadata: Metadata = {
+export const metadata: Metadata = buildMetadata({
   title: "Tips for Painting Your Fence | Priority One Coatings",
-  description:
-    "Fence painting is challenging. Explore these tips to make your fence painting job easy and long-lasting. Contact us to get the best paint finish for your fence.",
-  alternates: {
-    canonical: "/tips-for-painting-your-fence/",
-  },
-};
+  description: "Fence painting is challenging. Explore these tips to make your fence painting job easy and long-lasting. Contact us to get the best paint finish for your fence.",
+  path: "/tips-for-painting-your-fence/",
+});
 
 const POST_URL = "https://www.prioritycoatings.com.au/tips-for-painting-your-fence/";
 

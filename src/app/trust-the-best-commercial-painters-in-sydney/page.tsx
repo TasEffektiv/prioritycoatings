@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { buildMetadata } from "@/lib/metadata";
 import Image from "next/image";
 import Link from "next/link";
 import { Mail } from "lucide-react";
@@ -8,14 +9,11 @@ import JsonLd from "@/components/JsonLd";
 import { articleSchema } from "@/lib/schema";
 import Footer from "@/components/Footer";
 
-export const metadata: Metadata = {
+export const metadata: Metadata = buildMetadata({
   title: "Only Trust the Best Commercial Painters in Sydney | Priority One Coatings",
-  description:
-    "If you are a business owner in Sydney and searching for painters to give your company a fresh new look, then Priority One Coatings can be the best choice in Sydney!",
-  alternates: {
-    canonical: "/trust-the-best-commercial-painters-in-sydney/",
-  },
-};
+  description: "If you are a business owner in Sydney and searching for painters to give your company a fresh new look, then Priority One Coatings can be the best choice in Sydney!",
+  path: "/trust-the-best-commercial-painters-in-sydney/",
+});
 
 const POST_URL = "https://www.prioritycoatings.com.au/trust-the-best-commercial-painters-in-sydney/";
 

@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { buildMetadata } from "@/lib/metadata";
 import Image from "next/image";
 import Link from "next/link";
 import { Mail } from "lucide-react";
@@ -8,14 +9,11 @@ import JsonLd from "@/components/JsonLd";
 import { articleSchema } from "@/lib/schema";
 import Footer from "@/components/Footer";
 
-export const metadata: Metadata = {
+export const metadata: Metadata = buildMetadata({
   title: "House Paint Colour Trends 2026: For Australian Homes",
-  description:
-    "The right palette can have a significant impact on a house's aesthetics and value. Check 2026 interior & exterior house painting colour schemes in Australia.",
-  alternates: {
-    canonical: "/house-paint-colours-trend-2026/",
-  },
-};
+  description: "The right palette can have a significant impact on a house's aesthetics and value. Check 2026 interior & exterior house painting colour schemes in Australia.",
+  path: "/house-paint-colours-trend-2026/",
+});
 
 const POST_URL = "https://www.prioritycoatings.com.au/house-paint-colours-trend-2026/";
 

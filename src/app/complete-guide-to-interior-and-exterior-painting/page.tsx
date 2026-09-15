@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { buildMetadata } from "@/lib/metadata";
 import Image from "next/image";
 import Link from "next/link";
 import { Mail } from "lucide-react";
@@ -8,14 +9,11 @@ import JsonLd from "@/components/JsonLd";
 import { articleSchema } from "@/lib/schema";
 import Footer from "@/components/Footer";
 
-export const metadata: Metadata = {
+export const metadata: Metadata = buildMetadata({
   title: "Complete Guide to Interior and Exterior Painting | Priority One Coatings",
-  description:
-    "Explore our guide to interior and exterior painting, with case studies and advice on painting processes, materials and considerations for long-lasting results.",
-  alternates: {
-    canonical: "/complete-guide-to-interior-and-exterior-painting/",
-  },
-};
+  description: "Explore our guide to interior and exterior painting, with case studies and advice on painting processes, materials and considerations for long-lasting results.",
+  path: "/complete-guide-to-interior-and-exterior-painting/",
+});
 
 const POST_URL = "https://www.prioritycoatings.com.au/complete-guide-to-interior-and-exterior-painting/";
 

@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { buildMetadata } from "@/lib/metadata";
 import Image from "next/image";
 import Link from "next/link";
 import { Mail } from "lucide-react";
@@ -9,14 +10,11 @@ import { articleSchema } from "@/lib/schema";
 import Footer from "@/components/Footer";
 import BlogSidebar from "@/components/blog/BlogSidebar";
 
-export const metadata: Metadata = {
+export const metadata: Metadata = buildMetadata({
   title: "How Long Does It Take to Paint a House? | Priority One Coatings",
-  description:
-    "Painting a house doesn't take forever. To give your house a unique and appealing look within the shortest duration, hire the best residential painters in Sydney.",
-  alternates: {
-    canonical: "/how-long-to-paint-a-house/",
-  },
-};
+  description: "Painting a house doesn't take forever. To give your house a unique and appealing look within the shortest duration, hire the best residential painters in Sydney.",
+  path: "/how-long-to-paint-a-house/",
+});
 
 const POST_URL = "https://www.prioritycoatings.com.au/how-long-to-paint-a-house/";
 

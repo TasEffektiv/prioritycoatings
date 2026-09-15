@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { buildMetadata } from "@/lib/metadata";
 import Image from "next/image";
 import { CheckCircle2 } from "lucide-react";
 import Header from "@/components/Header";
@@ -10,14 +11,11 @@ import QuoteForm from "@/components/QuoteForm";
 import CertLogos from "@/components/CertLogos";
 import Testimonials from "@/components/Testimonials";
 
-export const metadata: Metadata = {
+export const metadata: Metadata = buildMetadata({
   title: "Painters Bronte | Priority Coatings",
-  description:
-    "Get your commercial & residential painting projects done by experienced local painters in Bronte. Highly skilled & reliable local painters! Call 02 9808 5900!",
-  alternates: {
-    canonical: "/painters-bronte/",
-  },
-};
+  description: "Get your commercial & residential painting projects done by experienced local painters in Bronte. Highly skilled & reliable local painters! Call 02 9808 5900!",
+  path: "/painters-bronte/",
+});
 
 const SERVICES_LIST = [
   "Strata & Body Corporate",

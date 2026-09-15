@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { buildMetadata } from "@/lib/metadata";
 import Image from "next/image";
 import Link from "next/link";
 import { Mail } from "lucide-react";
@@ -8,14 +9,11 @@ import JsonLd from "@/components/JsonLd";
 import { articleSchema } from "@/lib/schema";
 import Footer from "@/components/Footer";
 
-export const metadata: Metadata = {
+export const metadata: Metadata = buildMetadata({
   title: "Common Commercial Paint Problems & Solutions | Priority One Coatings",
-  description:
-    "Fix common paint problems in your property with the best commercial painters in Sydney. Our Sydney painting services correct bubbling, fading, and peeling in a paint job.",
-  alternates: {
-    canonical: "/common-commercial-paint-problems-solutions/",
-  },
-};
+  description: "Fix common paint problems in your property with the best commercial painters in Sydney. Our Sydney painting services correct bubbling, fading, and peeling in a paint job.",
+  path: "/common-commercial-paint-problems-solutions/",
+});
 
 const POST_URL = "https://www.prioritycoatings.com.au/common-commercial-paint-problems-solutions/";
 

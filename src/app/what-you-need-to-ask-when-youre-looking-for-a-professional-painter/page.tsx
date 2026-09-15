@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { buildMetadata } from "@/lib/metadata";
 import Image from "next/image";
 import Link from "next/link";
 import { Mail } from "lucide-react";
@@ -8,14 +9,11 @@ import JsonLd from "@/components/JsonLd";
 import { articleSchema } from "@/lib/schema";
 import Footer from "@/components/Footer";
 
-export const metadata: Metadata = {
+export const metadata: Metadata = buildMetadata({
   title: "What You Need to Ask While Choosing A Professional Painter | Priority One Coatings",
-  description:
-    "Painting or renovating your space is not a thing you do very often. Check the top questions you must ask before you hire a painter. Contact us for your next project.",
-  alternates: {
-    canonical: "/what-you-need-to-ask-when-youre-looking-for-a-professional-painter/",
-  },
-};
+  description: "Painting or renovating your space is not a thing you do very often. Check the top questions you must ask before you hire a painter. Contact us for your next project.",
+  path: "/what-you-need-to-ask-when-youre-looking-for-a-professional-painter/",
+});
 
 const POST_URL =
   "https://www.prioritycoatings.com.au/what-you-need-to-ask-when-youre-looking-for-a-professional-painter/";

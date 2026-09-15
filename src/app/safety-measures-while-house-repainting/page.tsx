@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { buildMetadata } from "@/lib/metadata";
 import Image from "next/image";
 import Link from "next/link";
 import { Mail } from "lucide-react";
@@ -8,14 +9,11 @@ import JsonLd from "@/components/JsonLd";
 import { articleSchema } from "@/lib/schema";
 import Footer from "@/components/Footer";
 
-export const metadata: Metadata = {
+export const metadata: Metadata = buildMetadata({
   title: "Safety Measures While Repainting Your House | Priority One Coatings",
-  description:
-    "Planning a DIY repaint? Learn the key safety measures for preparing your workspace, using tools and ladders safely, and knowing when to call a professional.",
-  alternates: {
-    canonical: "/safety-measures-while-house-repainting/",
-  },
-};
+  description: "Planning a DIY repaint? Learn the key safety measures for preparing your workspace, using tools and ladders safely, and knowing when to call a professional.",
+  path: "/safety-measures-while-house-repainting/",
+});
 
 const POST_URL = "https://www.prioritycoatings.com.au/safety-measures-while-house-repainting/";
 const POST_TITLE = "Safety Measures While Repainting Your House";

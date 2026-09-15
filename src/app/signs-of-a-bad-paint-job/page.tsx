@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { buildMetadata } from "@/lib/metadata";
 import Image from "next/image";
 import Link from "next/link";
 import { Mail } from "lucide-react";
@@ -8,14 +9,11 @@ import JsonLd from "@/components/JsonLd";
 import { articleSchema } from "@/lib/schema";
 import Footer from "@/components/Footer";
 
-export const metadata: Metadata = {
+export const metadata: Metadata = buildMetadata({
   title: "Signs of a Bad Paint Job: Understand Painting Mistakes",
-  description:
-    "Peeling, bubbling, or uneven paint? Spot the signs of a bad paint job before it’s too late and get professional solutions from Priority One Coatings.",
-  alternates: {
-    canonical: "/signs-of-a-bad-paint-job/",
-  },
-};
+  description: "Peeling, bubbling, or uneven paint? Spot the signs of a bad paint job before it’s too late and get professional solutions from Priority One Coatings.",
+  path: "/signs-of-a-bad-paint-job/",
+});
 
 const POST_URL = "https://www.prioritycoatings.com.au/signs-of-a-bad-paint-job/";
 

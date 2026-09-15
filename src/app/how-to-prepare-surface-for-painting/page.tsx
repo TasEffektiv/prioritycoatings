@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { buildMetadata } from "@/lib/metadata";
 import Image from "next/image";
 import Link from "next/link";
 import { Mail } from "lucide-react";
@@ -9,14 +10,11 @@ import { articleSchema } from "@/lib/schema";
 import Footer from "@/components/Footer";
 import BlogSidebar from "@/components/blog/BlogSidebar";
 
-export const metadata: Metadata = {
+export const metadata: Metadata = buildMetadata({
   title: "How to Prepare Surface For Painting | Priority One Coatings",
-  description:
-    "Whether you are painting on the exterior or the interior, the basic and essential aspect is paint surface preparation. Explore the guide to surface preparation.",
-  alternates: {
-    canonical: "/how-to-prepare-surface-for-painting/",
-  },
-};
+  description: "Whether you are painting on the exterior or the interior, the basic and essential aspect is paint surface preparation. Explore the guide to surface preparation.",
+  path: "/how-to-prepare-surface-for-painting/",
+});
 
 const POST_URL = "https://www.prioritycoatings.com.au/how-to-prepare-surface-for-painting/";
 

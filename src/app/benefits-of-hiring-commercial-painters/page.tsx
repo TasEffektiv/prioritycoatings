@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { buildMetadata } from "@/lib/metadata";
 import Image from "next/image";
 import Link from "next/link";
 import { Mail } from "lucide-react";
@@ -8,14 +9,11 @@ import JsonLd from "@/components/JsonLd";
 import { articleSchema } from "@/lib/schema";
 import Footer from "@/components/Footer";
 
-export const metadata: Metadata = {
+export const metadata: Metadata = buildMetadata({
   title: "Benefits of Hiring Commercial Painters | Priority One Coatings",
-  description:
-    "Expert commercial painters, Priority One Coatings, can get a building back in working order soon. So, hiring a commercial painter can improve your painting project.",
-  alternates: {
-    canonical: "/benefits-of-hiring-commercial-painters/",
-  },
-};
+  description: "Expert commercial painters, Priority One Coatings, can get a building back in working order soon. So, hiring a commercial painter can improve your painting project.",
+  path: "/benefits-of-hiring-commercial-painters/",
+});
 
 const POST_URL = "https://www.prioritycoatings.com.au/benefits-of-hiring-commercial-painters/";
 

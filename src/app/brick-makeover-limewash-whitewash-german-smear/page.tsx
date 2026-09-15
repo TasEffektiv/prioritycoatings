@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { buildMetadata } from "@/lib/metadata";
 import Image from "next/image";
 import Link from "next/link";
 import { Mail } from "lucide-react";
@@ -8,14 +9,11 @@ import JsonLd from "@/components/JsonLd";
 import { articleSchema } from "@/lib/schema";
 import Footer from "@/components/Footer";
 
-export const metadata: Metadata = {
+export const metadata: Metadata = buildMetadata({
   title: "Brick Makeover Guide: Limewash, Whitewash, German Smear | Priority One Coatings",
-  description:
-    "Let's compare three top finishes: Limewash, Whitewash, & the German Smear. Choose the best brick makeover for your house! Contact us for your brick house makeover!",
-  alternates: {
-    canonical: "/brick-makeover-limewash-whitewash-german-smear/",
-  },
-};
+  description: "Let's compare three top finishes: Limewash, Whitewash, & the German Smear. Choose the best brick makeover for your house! Contact us for your brick house makeover!",
+  path: "/brick-makeover-limewash-whitewash-german-smear/",
+});
 
 const POST_URL = "https://www.prioritycoatings.com.au/brick-makeover-limewash-whitewash-german-smear/";
 

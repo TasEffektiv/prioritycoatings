@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { buildMetadata } from "@/lib/metadata";
 import Image from "next/image";
 import { CheckCircle2 } from "lucide-react";
 import Header from "@/components/Header";
@@ -10,14 +11,11 @@ import QuoteForm from "@/components/QuoteForm";
 import CertLogos from "@/components/CertLogos";
 import Testimonials from "@/components/Testimonials";
 
-export const metadata: Metadata = {
+export const metadata: Metadata = buildMetadata({
   title: "Painters Mosman | Priority Coatings",
-  description:
-    "Guaranteed quality for residential & commercial painting projects in Mosman. Highly skilled & professional Mosman painters. Call 02 9808 5900 & Get a free quote NOW!",
-  alternates: {
-    canonical: "/painters-mosman/",
-  },
-};
+  description: "Guaranteed quality for residential & commercial painting projects in Mosman. Highly skilled & professional Mosman painters. Call 02 9808 5900 & Get a free quote NOW!",
+  path: "/painters-mosman/",
+});
 
 const SERVICES_LIST = [
   "Strata & Body Corporate",

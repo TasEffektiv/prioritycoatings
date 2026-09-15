@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { buildMetadata } from "@/lib/metadata";
 import Image from "next/image";
 import Link from "next/link";
 import { Mail } from "lucide-react";
@@ -8,14 +9,11 @@ import JsonLd from "@/components/JsonLd";
 import { articleSchema } from "@/lib/schema";
 import Footer from "@/components/Footer";
 
-export const metadata: Metadata = {
+export const metadata: Metadata = buildMetadata({
   title: "Safe Painting Practices for Homeowners & Painters | Priority One Coatings",
-  description:
-    "Safe painting practices involve choosing safe materials, preparing adequately, and handling disposal. Learn safe painting tips for homeowners & professionals.",
-  alternates: {
-    canonical: "/safe-painting-practices-for-homeowners-painters/",
-  },
-};
+  description: "Safe painting practices involve choosing safe materials, preparing adequately, and handling disposal. Learn safe painting tips for homeowners & professionals.",
+  path: "/safe-painting-practices-for-homeowners-painters/",
+});
 
 const POST_URL = "https://www.prioritycoatings.com.au/safe-painting-practices-for-homeowners-painters/";
 

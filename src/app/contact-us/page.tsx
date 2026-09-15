@@ -1,17 +1,15 @@
 import type { Metadata } from "next";
+import { buildMetadata } from "@/lib/metadata";
 import Header from "@/components/Header";
 import PageHeader from "@/components/PageHeader";
 import Footer from "@/components/Footer";
 import ContactForm from "@/components/ContactForm";
 
-export const metadata: Metadata = {
+export const metadata: Metadata = buildMetadata({
   title: "Contact Us | Residential & Commercial Painting Quote Sydney",
-  description:
-    "Get your Free Painting Quotes Sydney with Priority One Coatings. Fast, no obligation quotes for Sydney suburbs. Licensed & fully insured. Call us at 02 9808 5900.",
-  alternates: {
-    canonical: "/contact-us/",
-  },
-};
+  description: "Get your Free Painting Quotes Sydney with Priority One Coatings. Fast, no obligation quotes for Sydney suburbs. Licensed & fully insured. Call us at 02 9808 5900.",
+  path: "/contact-us/",
+});
 
 const CONTACT_DETAILS = [
   {

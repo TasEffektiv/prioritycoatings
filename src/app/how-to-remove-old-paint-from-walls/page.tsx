@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { buildMetadata } from "@/lib/metadata";
 import Image from "next/image";
 import Link from "next/link";
 import { Mail } from "lucide-react";
@@ -8,14 +9,11 @@ import JsonLd from "@/components/JsonLd";
 import { articleSchema } from "@/lib/schema";
 import Footer from "@/components/Footer";
 
-export const metadata: Metadata = {
+export const metadata: Metadata = buildMetadata({
   title: "How to Remove Old Paint from Walls | Priority One Coatings",
-  description:
-    "If you're considering repainting the walls, remove old paint first. Removing paint can sometimes damage the wall - review techniques.",
-  alternates: {
-    canonical: "/how-to-remove-old-paint-from-walls/",
-  },
-};
+  description: "If you're considering repainting the walls, remove old paint first. Removing paint can sometimes damage the wall - review techniques.",
+  path: "/how-to-remove-old-paint-from-walls/",
+});
 
 const POST_URL = "https://www.prioritycoatings.com.au/how-to-remove-old-paint-from-walls/";
 

@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { buildMetadata } from "@/lib/metadata";
 import Image from "next/image";
 import Link from "next/link";
 import { Mail } from "lucide-react";
@@ -8,14 +9,11 @@ import JsonLd from "@/components/JsonLd";
 import { articleSchema } from "@/lib/schema";
 import Footer from "@/components/Footer";
 
-export const metadata: Metadata = {
+export const metadata: Metadata = buildMetadata({
   title: "Get Your Epoxy Flooring Done with Our Epoxy Floor Coating Experts in Sydney | Priority One Coatings",
-  description:
-    "If you want your epoxy flooring done with the best epoxy flooring contractor in Sydney, hire Priority One Coatings. For the best epoxy floor coatings. contact us.",
-  alternates: {
-    canonical: "/get-your-epoxy-flooring-done-with-priority-one-coatings/",
-  },
-};
+  description: "If you want your epoxy flooring done with the best epoxy flooring contractor in Sydney, hire Priority One Coatings. For the best epoxy floor coatings. contact us.",
+  path: "/get-your-epoxy-flooring-done-with-priority-one-coatings/",
+});
 
 const POST_URL = "https://www.prioritycoatings.com.au/get-your-epoxy-flooring-done-with-priority-one-coatings/";
 

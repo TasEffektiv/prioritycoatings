@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { buildMetadata } from "@/lib/metadata";
 import Image from "next/image";
 import Link from "next/link";
 import { Mail } from "lucide-react";
@@ -8,14 +9,11 @@ import JsonLd from "@/components/JsonLd";
 import { articleSchema } from "@/lib/schema";
 import Footer from "@/components/Footer";
 
-export const metadata: Metadata = {
+export const metadata: Metadata = buildMetadata({
   title: "Need Painters in Sydney? Priority One Coatings Can Help | Priority One Coatings",
-  description:
-    "When painting your home, strata property or office building, you want to ensure the job is done perfectly. Need painters in Sydney? Priority One Coatings Can Help.",
-  alternates: {
-    canonical: "/need-painters-sydney-priority-one-coatings-can-help/",
-  },
-};
+  description: "When painting your home, strata property or office building, you want to ensure the job is done perfectly. Need painters in Sydney? Priority One Coatings Can Help.",
+  path: "/need-painters-sydney-priority-one-coatings-can-help/",
+});
 
 const POST_URL = "https://www.prioritycoatings.com.au/need-painters-sydney-priority-one-coatings-can-help/";
 

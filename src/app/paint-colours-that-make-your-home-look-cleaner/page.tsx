@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { buildMetadata } from "@/lib/metadata";
 import Image from "next/image";
 import Link from "next/link";
 import { Mail } from "lucide-react";
@@ -8,14 +9,11 @@ import JsonLd from "@/components/JsonLd";
 import { articleSchema } from "@/lib/schema";
 import Footer from "@/components/Footer";
 
-export const metadata: Metadata = {
+export const metadata: Metadata = buildMetadata({
   title: "Paint Colours That Make Your Home Look Cleaner | Priority One Coatings",
-  description:
-    "Do you want a cleaner-looking house but don't know how to achieve it? Let's check which colours are at the top of the list to create a cleaner and crisper home.",
-  alternates: {
-    canonical: "/paint-colours-that-make-your-home-look-cleaner/",
-  },
-};
+  description: "Do you want a cleaner-looking house but don't know how to achieve it? Let's check which colours are at the top of the list to create a cleaner and crisper home.",
+  path: "/paint-colours-that-make-your-home-look-cleaner/",
+});
 
 const POST_URL = "https://www.prioritycoatings.com.au/paint-colours-that-make-your-home-look-cleaner/";
 

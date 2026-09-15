@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { buildMetadata } from "@/lib/metadata";
 import Image from "next/image";
 import Link from "next/link";
 import { Mail } from "lucide-react";
@@ -8,14 +9,11 @@ import JsonLd from "@/components/JsonLd";
 import { articleSchema } from "@/lib/schema";
 import Footer from "@/components/Footer";
 
-export const metadata: Metadata = {
+export const metadata: Metadata = buildMetadata({
   title: "Make Sure You Use the Best Epoxy Floor Coatings in Sydney | Priority One Coatings",
-  description:
-    "Floors are the first thing to notice, be it your business showroom or living place. To get the durable and glossiest epoxy coating for your floors, mail us today!",
-  alternates: {
-    canonical: "/use-the-best-epoxy-floor-coatings-sydney/",
-  },
-};
+  description: "Floors are the first thing to notice, be it your business showroom or living place. To get the durable and glossiest epoxy coating for your floors, mail us today!",
+  path: "/use-the-best-epoxy-floor-coatings-sydney/",
+});
 
 const POST_URL = "https://www.prioritycoatings.com.au/use-the-best-epoxy-floor-coatings-sydney/";
 

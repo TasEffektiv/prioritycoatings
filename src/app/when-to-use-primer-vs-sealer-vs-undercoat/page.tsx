@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { buildMetadata } from "@/lib/metadata";
 import Image from "next/image";
 import Link from "next/link";
 import { Mail } from "lucide-react";
@@ -8,14 +9,11 @@ import JsonLd from "@/components/JsonLd";
 import { articleSchema } from "@/lib/schema";
 import Footer from "@/components/Footer";
 
-export const metadata: Metadata = {
+export const metadata: Metadata = buildMetadata({
   title: "When to Use the Primer, Sealer & Undercoat | Priority One Coatings",
-  description:
-    "Primers are applied to new surfaces, and an undercoat is used after a primer. However, a sealer is used to seal porous surfaces. For more info, read the article.",
-  alternates: {
-    canonical: "/when-to-use-primer-vs-sealer-vs-undercoat/",
-  },
-};
+  description: "Primers are applied to new surfaces, and an undercoat is used after a primer. However, a sealer is used to seal porous surfaces. For more info, read the article.",
+  path: "/when-to-use-primer-vs-sealer-vs-undercoat/",
+});
 
 const POST_URL = "https://www.prioritycoatings.com.au/when-to-use-primer-vs-sealer-vs-undercoat/";
 

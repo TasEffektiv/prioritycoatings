@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { buildMetadata } from "@/lib/metadata";
 import Image from "next/image";
 import Link from "next/link";
 import { Mail } from "lucide-react";
@@ -8,14 +9,11 @@ import JsonLd from "@/components/JsonLd";
 import { articleSchema } from "@/lib/schema";
 import Footer from "@/components/Footer";
 
-export const metadata: Metadata = {
+export const metadata: Metadata = buildMetadata({
   title: "Difference Between Commercial & Residential Painting | Priority One Coatings",
-  description:
-    "There are several differences between commercial and residential painting. Contact us for your next painting project, and get the best painting services.",
-  alternates: {
-    canonical: "/difference-between-commercial-vs-residential-painting/",
-  },
-};
+  description: "There are several differences between commercial and residential painting. Contact us for your next painting project, and get the best painting services.",
+  path: "/difference-between-commercial-vs-residential-painting/",
+});
 
 const POST_URL = "https://www.prioritycoatings.com.au/difference-between-commercial-vs-residential-painting/";
 

@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { buildMetadata } from "@/lib/metadata";
 import Image from "next/image";
 import Link from "next/link";
 import { Mail } from "lucide-react";
@@ -8,14 +9,11 @@ import JsonLd from "@/components/JsonLd";
 import { articleSchema } from "@/lib/schema";
 import Footer from "@/components/Footer";
 
-export const metadata: Metadata = {
+export const metadata: Metadata = buildMetadata({
   title: "Preparing a Weatherboard House for Painting | Priority One Coatings",
-  description:
-    "Before painting weatherboards, consider few things, like removing old paint and cleaning the surface. Let's learn how to prepare a weatherboard house for painting.",
-  alternates: {
-    canonical: "/preparing-weatherboard-house-for-painting/",
-  },
-};
+  description: "Before painting weatherboards, consider few things, like removing old paint and cleaning the surface. Let's learn how to prepare a weatherboard house for painting.",
+  path: "/preparing-weatherboard-house-for-painting/",
+});
 
 const POST_URL = "https://www.prioritycoatings.com.au/preparing-weatherboard-house-for-painting/";
 

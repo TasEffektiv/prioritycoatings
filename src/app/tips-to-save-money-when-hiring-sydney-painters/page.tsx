@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { buildMetadata } from "@/lib/metadata";
 import Image from "next/image";
 import Link from "next/link";
 import { Mail } from "lucide-react";
@@ -8,14 +9,11 @@ import JsonLd from "@/components/JsonLd";
 import { articleSchema } from "@/lib/schema";
 import Footer from "@/components/Footer";
 
-export const metadata: Metadata = {
+export const metadata: Metadata = buildMetadata({
   title: "5 Strategies to Save Money When Hiring Sydney Painters | Priority One Coatings",
-  description:
-    "Hiring Sydney painters doesn't have to be a financial burden. Explore five tips to save money while working with professional painting services in Sydney.",
-  alternates: {
-    canonical: "/tips-to-save-money-when-hiring-sydney-painters/",
-  },
-};
+  description: "Hiring Sydney painters doesn't have to be a financial burden. Explore five tips to save money while working with professional painting services in Sydney.",
+  path: "/tips-to-save-money-when-hiring-sydney-painters/",
+});
 
 const POST_URL = "https://www.prioritycoatings.com.au/tips-to-save-money-when-hiring-sydney-painters/";
 

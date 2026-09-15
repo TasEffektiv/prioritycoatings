@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { buildMetadata } from "@/lib/metadata";
 import Image from "next/image";
 import Link from "next/link";
 import { Mail } from "lucide-react";
@@ -8,14 +9,11 @@ import JsonLd from "@/components/JsonLd";
 import { articleSchema } from "@/lib/schema";
 import Footer from "@/components/Footer";
 
-export const metadata: Metadata = {
+export const metadata: Metadata = buildMetadata({
   title: "DIY House Painting Tips to Keep Your Home Colourful! | Priority One Coatings",
-  description:
-    "Planning a DIY paint job? These practical house painting tips cover planning, purchases, tools, and technique to help you keep your home colourful and looking its best.",
-  alternates: {
-    canonical: "/diy-house-painting-tips-for-your-home/",
-  },
-};
+  description: "Planning a DIY paint job? These practical house painting tips cover planning, purchases, tools, and technique to help you keep your home colourful and looking its best.",
+  path: "/diy-house-painting-tips-for-your-home/",
+});
 
 const POST_URL = "https://www.prioritycoatings.com.au/diy-house-painting-tips-for-your-home/";
 

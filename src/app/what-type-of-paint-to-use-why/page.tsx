@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { buildMetadata } from "@/lib/metadata";
 import Image from "next/image";
 import Link from "next/link";
 import { Mail } from "lucide-react";
@@ -8,14 +9,11 @@ import JsonLd from "@/components/JsonLd";
 import { articleSchema } from "@/lib/schema";
 import Footer from "@/components/Footer";
 
-export const metadata: Metadata = {
+export const metadata: Metadata = buildMetadata({
   title: "What Type of Paint to Use & Why | Priority One Coatings",
-  description:
-    "Depending on the surface, you can decide the type of paint to use for your house. Let’s explore the types of paint and their uses to make an informed decision.",
-  alternates: {
-    canonical: "/what-type-of-paint-to-use-why/",
-  },
-};
+  description: "Depending on the surface, you can decide the type of paint to use for your house. Let’s explore the types of paint and their uses to make an informed decision.",
+  path: "/what-type-of-paint-to-use-why/",
+});
 
 const POST_URL = "https://www.prioritycoatings.com.au/what-type-of-paint-to-use-why/";
 

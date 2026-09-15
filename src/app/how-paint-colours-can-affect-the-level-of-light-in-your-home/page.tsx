@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { buildMetadata } from "@/lib/metadata";
 import Image from "next/image";
 import Link from "next/link";
 import { Mail } from "lucide-react";
@@ -8,14 +9,11 @@ import JsonLd from "@/components/JsonLd";
 import { articleSchema } from "@/lib/schema";
 import Footer from "@/components/Footer";
 
-export const metadata: Metadata = {
+export const metadata: Metadata = buildMetadata({
   title: "How Paint Colours Can Impacts the Lights of Your Interiors | Priority One Coatings",
-  description:
-    "There are many factors at play when choosing the right paint colours that reflect light and brightness in your home. Contact us for more info or get a free Quote!",
-  alternates: {
-    canonical: "/how-paint-colours-can-affect-the-level-of-light-in-your-home/",
-  },
-};
+  description: "There are many factors at play when choosing the right paint colours that reflect light and brightness in your home. Contact us for more info or get a free Quote!",
+  path: "/how-paint-colours-can-affect-the-level-of-light-in-your-home/",
+});
 
 const POST_URL =
   "https://www.prioritycoatings.com.au/how-paint-colours-can-affect-the-level-of-light-in-your-home/";

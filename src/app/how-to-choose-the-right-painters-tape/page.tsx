@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { buildMetadata } from "@/lib/metadata";
 import Image from "next/image";
 import Link from "next/link";
 import { Mail } from "lucide-react";
@@ -8,14 +9,11 @@ import JsonLd from "@/components/JsonLd";
 import { articleSchema } from "@/lib/schema";
 import Footer from "@/components/Footer";
 
-export const metadata: Metadata = {
+export const metadata: Metadata = buildMetadata({
   title: "How to Choose the Right Painter's Tape | Priority One Coatings",
-  description:
-    "Choosing the right painter’s tape makes big difference for clean paint lines. Explore different tape types, surfaces, and tips for professional painting finish.",
-  alternates: {
-    canonical: "/how-to-choose-the-right-painters-tape/",
-  },
-};
+  description: "Choosing the right painter’s tape makes big difference for clean paint lines. Explore different tape types, surfaces, and tips for professional painting finish.",
+  path: "/how-to-choose-the-right-painters-tape/",
+});
 
 const POST_URL = "https://www.prioritycoatings.com.au/how-to-choose-the-right-painters-tape/";
 

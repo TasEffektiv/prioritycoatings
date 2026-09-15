@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { buildMetadata } from "@/lib/metadata";
 import Image from "next/image";
 import Link from "next/link";
 import { Mail } from "lucide-react";
@@ -8,14 +9,11 @@ import JsonLd from "@/components/JsonLd";
 import { articleSchema } from "@/lib/schema";
 import Footer from "@/components/Footer";
 
-export const metadata: Metadata = {
+export const metadata: Metadata = buildMetadata({
   title: "How Painters Extend Sydney Home Exterior Lifespan",
-  description:
-    "Extend your home exterior lifespan with surface preparation, durable coatings, and regular maintenance. Learn how Priority One Coatings helps Sydney homeowners.",
-  alternates: {
-    canonical: "/how-painters-extend-sydney-home-exterior-lifespan/",
-  },
-};
+  description: "Extend your home exterior lifespan with surface preparation, durable coatings, and regular maintenance. Learn how Priority One Coatings helps Sydney homeowners.",
+  path: "/how-painters-extend-sydney-home-exterior-lifespan/",
+});
 
 const POST_URL = "https://www.prioritycoatings.com.au/how-painters-extend-sydney-home-exterior-lifespan/";
 

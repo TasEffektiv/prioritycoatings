@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { buildMetadata } from "@/lib/metadata";
 import Image from "next/image";
 import Link from "next/link";
 import { Mail } from "lucide-react";
@@ -9,14 +10,11 @@ import { articleSchema } from "@/lib/schema";
 import Footer from "@/components/Footer";
 import BlogSidebar from "@/components/blog/BlogSidebar";
 
-export const metadata: Metadata = {
+export const metadata: Metadata = buildMetadata({
   title: "How Paint Colour Can Change The Perceived Size Of A Room | Priority One Coatings",
-  description:
-    "A professional colour consultant can advise you on the ideal colours for your home. So, if you are looking to repaint, contact Priority One Coatings.",
-  alternates: {
-    canonical: "/how-paint-colour-change-size-of-room/",
-  },
-};
+  description: "A professional colour consultant can advise you on the ideal colours for your home. So, if you are looking to repaint, contact Priority One Coatings.",
+  path: "/how-paint-colour-change-size-of-room/",
+});
 
 const POST_URL = "https://www.prioritycoatings.com.au/how-paint-colour-change-size-of-room/";
 

@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { buildMetadata } from "@/lib/metadata";
 import Image from "next/image";
 import Link from "next/link";
 import { Mail } from "lucide-react";
@@ -8,14 +9,11 @@ import JsonLd from "@/components/JsonLd";
 import { articleSchema } from "@/lib/schema";
 import Footer from "@/components/Footer";
 
-export const metadata: Metadata = {
+export const metadata: Metadata = buildMetadata({
   title: "What to Expect from Sydney Painters | Priority One Coatings",
-  description:
-    "Hire Sydney painters for quality & value. They offer interior & exterior painting for residential, commercial, and strata projects. Get free quotes!",
-  alternates: {
-    canonical: "/what-to-expect-from-sydney-painters/",
-  },
-};
+  description: "Hire Sydney painters for quality & value. They offer interior & exterior painting for residential, commercial, and strata projects. Get free quotes!",
+  path: "/what-to-expect-from-sydney-painters/",
+});
 
 const POST_URL = "https://www.prioritycoatings.com.au/what-to-expect-from-sydney-painters/";
 

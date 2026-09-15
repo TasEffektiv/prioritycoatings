@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { buildMetadata } from "@/lib/metadata";
 import Image from "next/image";
 import Link from "next/link";
 import { Mail } from "lucide-react";
@@ -8,14 +9,11 @@ import JsonLd from "@/components/JsonLd";
 import { articleSchema } from "@/lib/schema";
 import Footer from "@/components/Footer";
 
-export const metadata: Metadata = {
+export const metadata: Metadata = buildMetadata({
   title: "How to Calculate Average Cost of Interior and Exterior House Painting | Priority One Coatings",
-  description:
-    "The average house painting cost in Australia is one of the homeowners' major concerns. Let's calculate the cost of painting your home before hiring painters in Sydney.",
-  alternates: {
-    canonical: "/calculate-average-cost-of-interior-exterior-painting/",
-  },
-};
+  description: "The average house painting cost in Australia is one of the homeowners' major concerns. Let's calculate the cost of painting your home before hiring painters in Sydney.",
+  path: "/calculate-average-cost-of-interior-exterior-painting/",
+});
 
 const POST_URL = "https://www.prioritycoatings.com.au/calculate-average-cost-of-interior-exterior-painting/";
 

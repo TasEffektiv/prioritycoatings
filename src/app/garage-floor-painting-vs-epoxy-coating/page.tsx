@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { buildMetadata } from "@/lib/metadata";
 import Image from "next/image";
 import Link from "next/link";
 import { Mail } from "lucide-react";
@@ -8,14 +9,11 @@ import JsonLd from "@/components/JsonLd";
 import { articleSchema } from "@/lib/schema";
 import Footer from "@/components/Footer";
 
-export const metadata: Metadata = {
+export const metadata: Metadata = buildMetadata({
   title: "Garage Floor Painting vs Epoxy Coating | Priority One Coatings",
-  description:
-    "Both floor painting and epoxy coatings are suitable for your garage floor. So, be it epoxy floor coating or any other painting services, contact us today.",
-  alternates: {
-    canonical: "/garage-floor-painting-vs-epoxy-coating/",
-  },
-};
+  description: "Both floor painting and epoxy coatings are suitable for your garage floor. So, be it epoxy floor coating or any other painting services, contact us today.",
+  path: "/garage-floor-painting-vs-epoxy-coating/",
+});
 
 const POST_URL = "https://www.prioritycoatings.com.au/garage-floor-painting-vs-epoxy-coating/";
 

@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { buildMetadata } from "@/lib/metadata";
 import Image from "next/image";
 import Link from "next/link";
 import { Mail } from "lucide-react";
@@ -8,14 +9,11 @@ import JsonLd from "@/components/JsonLd";
 import { articleSchema } from "@/lib/schema";
 import Footer from "@/components/Footer";
 
-export const metadata: Metadata = {
+export const metadata: Metadata = buildMetadata({
   title: "Match Wall Colour with Furniture | Priority One Coatings",
-  description:
-    "If you want to match your furniture and wall colour, here are some common tips. If you still can't decide and get confused, consult with Priority One Coatings.",
-  alternates: {
-    canonical: "/match-wall-colour-with-furniture/",
-  },
-};
+  description: "If you want to match your furniture and wall colour, here are some common tips. If you still can't decide and get confused, consult with Priority One Coatings.",
+  path: "/match-wall-colour-with-furniture/",
+});
 
 const POST_URL = "https://www.prioritycoatings.com.au/match-wall-colour-with-furniture/";
 

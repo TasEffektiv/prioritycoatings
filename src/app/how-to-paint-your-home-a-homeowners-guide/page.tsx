@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { buildMetadata } from "@/lib/metadata";
 import Image from "next/image";
 import Link from "next/link";
 import { Mail } from "lucide-react";
@@ -8,14 +9,11 @@ import JsonLd from "@/components/JsonLd";
 import { articleSchema } from "@/lib/schema";
 import Footer from "@/components/Footer";
 
-export const metadata: Metadata = {
+export const metadata: Metadata = buildMetadata({
   title: "How to Paint Your Home - A Homeowner's Guide | Priority One Coatings",
-  description:
-    "Painting and decorating your home can add significantly to your property value. Check out this homeowner's guide. For more info, contact us or get a free Quote!",
-  alternates: {
-    canonical: "/how-to-paint-your-home-a-homeowners-guide/",
-  },
-};
+  description: "Painting and decorating your home can add significantly to your property value. Check out this homeowner's guide. For more info, contact us or get a free Quote!",
+  path: "/how-to-paint-your-home-a-homeowners-guide/",
+});
 
 const POST_URL = "https://www.prioritycoatings.com.au/how-to-paint-your-home-a-homeowners-guide/";
 

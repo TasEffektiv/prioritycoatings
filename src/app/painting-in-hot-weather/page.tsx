@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { buildMetadata } from "@/lib/metadata";
 import Image from "next/image";
 import Link from "next/link";
 import { Mail } from "lucide-react";
@@ -9,14 +10,11 @@ import { articleSchema } from "@/lib/schema";
 import Footer from "@/components/Footer";
 import BlogSidebar from "@/components/blog/BlogSidebar";
 
-export const metadata: Metadata = {
+export const metadata: Metadata = buildMetadata({
   title: "Painting in Hot Weather | Priority One Coatings",
-  description:
-    "The climate of Sydney can be challenging for painting. So, if you need to hire an expert painting company in Sydney, contact Priority One Coatings today.",
-  alternates: {
-    canonical: "/painting-in-hot-weather/",
-  },
-};
+  description: "The climate of Sydney can be challenging for painting. So, if you need to hire an expert painting company in Sydney, contact Priority One Coatings today.",
+  path: "/painting-in-hot-weather/",
+});
 
 const POST_URL = "https://www.prioritycoatings.com.au/painting-in-hot-weather/";
 

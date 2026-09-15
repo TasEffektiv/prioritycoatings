@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { buildMetadata } from "@/lib/metadata";
 import Image from "next/image";
 import Link from "next/link";
 import { Mail } from "lucide-react";
@@ -8,14 +9,11 @@ import JsonLd from "@/components/JsonLd";
 import { articleSchema } from "@/lib/schema";
 import Footer from "@/components/Footer";
 
-export const metadata: Metadata = {
+export const metadata: Metadata = buildMetadata({
   title: "How to Fix Stress Cracks in Drywall | Priority One Coatings",
-  description:
-    "Drywall stress cracks appear over doors and windows or along drywall seams, usually caused by building movement, settling, or temperature changes. Learn to fix it.",
-  alternates: {
-    canonical: "/how-to-fix-stress-cracks-in-drywall/",
-  },
-};
+  description: "Drywall stress cracks appear over doors and windows or along drywall seams, usually caused by building movement, settling, or temperature changes. Learn to fix it.",
+  path: "/how-to-fix-stress-cracks-in-drywall/",
+});
 
 const POST_URL = "https://www.prioritycoatings.com.au/how-to-fix-stress-cracks-in-drywall/";
 

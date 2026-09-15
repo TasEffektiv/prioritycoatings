@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { buildMetadata } from "@/lib/metadata";
 import Image from "next/image";
 import Link from "next/link";
 import { Mail } from "lucide-react";
@@ -9,14 +10,11 @@ import { articleSchema } from "@/lib/schema";
 import Footer from "@/components/Footer";
 import BlogSidebar from "@/components/blog/BlogSidebar";
 
-export const metadata: Metadata = {
+export const metadata: Metadata = buildMetadata({
   title: "Guide to Textured Paint: 9 Types of Texture Paint Finishes",
-  description:
-    "Different types of textured paint can be used to create many effects in your interior spaces. To give your place a complete makeover, contact us.",
-  alternates: {
-    canonical: "/different-types-of-textured-paint-for-walls/",
-  },
-};
+  description: "Different types of textured paint can be used to create many effects in your interior spaces. To give your place a complete makeover, contact us.",
+  path: "/different-types-of-textured-paint-for-walls/",
+});
 
 const POST_URL = "https://www.prioritycoatings.com.au/different-types-of-textured-paint-for-walls/";
 

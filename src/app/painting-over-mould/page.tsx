@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { buildMetadata } from "@/lib/metadata";
 import Image from "next/image";
 import Link from "next/link";
 import { Mail } from "lucide-react";
@@ -8,14 +9,11 @@ import JsonLd from "@/components/JsonLd";
 import { articleSchema } from "@/lib/schema";
 import Footer from "@/components/Footer";
 
-export const metadata: Metadata = {
+export const metadata: Metadata = buildMetadata({
   title: "Painting Over Mould & Damp Walls: Expert Advice | Priority One Coatings",
-  description:
-    "As a quick fix, you can paint over mould or a damp wall. Explore the effective process for painting over any fungus on the wall. Contact us to get more info.",
-  alternates: {
-    canonical: "/painting-over-mould/",
-  },
-};
+  description: "As a quick fix, you can paint over mould or a damp wall. Explore the effective process for painting over any fungus on the wall. Contact us to get more info.",
+  path: "/painting-over-mould/",
+});
 
 const POST_URL = "https://www.prioritycoatings.com.au/painting-over-mould/";
 

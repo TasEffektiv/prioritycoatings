@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { buildMetadata } from "@/lib/metadata";
 import Image from "next/image";
 import Link from "next/link";
 import { Mail } from "lucide-react";
@@ -8,14 +9,11 @@ import JsonLd from "@/components/JsonLd";
 import { articleSchema } from "@/lib/schema";
 import Footer from "@/components/Footer";
 
-export const metadata: Metadata = {
+export const metadata: Metadata = buildMetadata({
   title: "Practical Tips for Bathroom Painting | Priority One Coatings",
-  description:
-    "Painting a bathroom is unlike any other room due to the moisture and the number of built-in fixtures. Check the tips to have a better bathroom painting experience!",
-  alternates: {
-    canonical: "/practical-tips-for-bathroom-painting/",
-  },
-};
+  description: "Painting a bathroom is unlike any other room due to the moisture and the number of built-in fixtures. Check the tips to have a better bathroom painting experience!",
+  path: "/practical-tips-for-bathroom-painting/",
+});
 
 const POST_URL = "https://www.prioritycoatings.com.au/practical-tips-for-bathroom-painting/";
 

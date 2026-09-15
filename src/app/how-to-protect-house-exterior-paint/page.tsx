@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { buildMetadata } from "@/lib/metadata";
 import Image from "next/image";
 import Link from "next/link";
 import { Mail } from "lucide-react";
@@ -8,14 +9,11 @@ import JsonLd from "@/components/JsonLd";
 import { articleSchema } from "@/lib/schema";
 import Footer from "@/components/Footer";
 
-export const metadata: Metadata = {
+export const metadata: Metadata = buildMetadata({
   title: "Protect Your House Exterior Painting | Priority One Coatings",
-  description:
-    "Surface preparation, right paint, proper application, and maintenance are crucial for house exterior paint. Check how to protect your house exterior painting.",
-  alternates: {
-    canonical: "/how-to-protect-house-exterior-paint/",
-  },
-};
+  description: "Surface preparation, right paint, proper application, and maintenance are crucial for house exterior paint. Check how to protect your house exterior painting.",
+  path: "/how-to-protect-house-exterior-paint/",
+});
 
 const POST_URL = "https://www.prioritycoatings.com.au/how-to-protect-house-exterior-paint/";
 

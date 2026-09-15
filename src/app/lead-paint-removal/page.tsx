@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { buildMetadata } from "@/lib/metadata";
 import Image from "next/image";
 import { CheckCircle2, Phone } from "lucide-react";
 import Header from "@/components/Header";
@@ -11,14 +12,11 @@ import QuoteForm from "@/components/QuoteForm";
 import CertLogos from "@/components/CertLogos";
 import ExpertsSection from "./ExpertsSection";
 
-export const metadata: Metadata = {
+export const metadata: Metadata = buildMetadata({
   title: "Lead Paint Removal Specialists Sydney | Priority One Coatings",
-  description:
-    "We offer safe lead-based paint removal in Sydney with expert & trained staff. Priority One Coatings has experienced Sydney painters for removing lead paint.",
-  alternates: {
-    canonical: "/lead-paint-removal/",
-  },
-};
+  description: "We offer safe lead-based paint removal in Sydney with expert & trained staff. Priority One Coatings has experienced Sydney painters for removing lead paint.",
+  path: "/lead-paint-removal/",
+});
 
 const RELATED_WORKS_GALLERY = [
   "/images/lead-paint-removal-and-repaint.jpg",

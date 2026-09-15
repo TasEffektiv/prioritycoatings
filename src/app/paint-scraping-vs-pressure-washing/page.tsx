@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { buildMetadata } from "@/lib/metadata";
 import Image from "next/image";
 import Link from "next/link";
 import { Mail } from "lucide-react";
@@ -8,14 +9,11 @@ import JsonLd from "@/components/JsonLd";
 import { articleSchema } from "@/lib/schema";
 import Footer from "@/components/Footer";
 
-export const metadata: Metadata = {
+export const metadata: Metadata = buildMetadata({
   title: "Paint Scraping vs. Pressure Washing | Priority One Coatings",
-  description:
-    "For surface preparation, pressure washing usually outperforms paint scraping. Explore which one is the best pre-paint process for cleaning to paint adhesion.",
-  alternates: {
-    canonical: "/paint-scraping-vs-pressure-washing/",
-  },
-};
+  description: "For surface preparation, pressure washing usually outperforms paint scraping. Explore which one is the best pre-paint process for cleaning to paint adhesion.",
+  path: "/paint-scraping-vs-pressure-washing/",
+});
 
 const POST_URL = "https://www.prioritycoatings.com.au/paint-scraping-vs-pressure-washing/";
 

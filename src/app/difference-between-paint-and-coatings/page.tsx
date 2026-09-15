@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { buildMetadata } from "@/lib/metadata";
 import Image from "next/image";
 import Link from "next/link";
 import { Mail } from "lucide-react";
@@ -8,14 +9,11 @@ import JsonLd from "@/components/JsonLd";
 import { articleSchema } from "@/lib/schema";
 import Footer from "@/components/Footer";
 
-export const metadata: Metadata = {
+export const metadata: Metadata = buildMetadata({
   title: "Difference Between Paint and Coatings | Priority One Coatings",
-  description:
-    "Coating is a general term for applying a material layer to a substrate, while painting is a type of coating. Check the differences between paint and coatings.",
-  alternates: {
-    canonical: "/difference-between-paint-and-coatings/",
-  },
-};
+  description: "Coating is a general term for applying a material layer to a substrate, while painting is a type of coating. Check the differences between paint and coatings.",
+  path: "/difference-between-paint-and-coatings/",
+});
 
 const POST_URL = "https://www.prioritycoatings.com.au/difference-between-paint-and-coatings/";
 

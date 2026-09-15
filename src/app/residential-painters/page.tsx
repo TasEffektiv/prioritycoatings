@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { buildMetadata } from "@/lib/metadata";
 import Image from "next/image";
 import { CheckCircle2, Phone } from "lucide-react";
 import Header from "@/components/Header";
@@ -11,14 +12,11 @@ import QuoteForm from "@/components/QuoteForm";
 import CertLogos from "@/components/CertLogos";
 import ExpandableSection from "./ExpandableSection";
 
-export const metadata: Metadata = {
+export const metadata: Metadata = buildMetadata({
   title: "Expert Residential Painters Sydney | Priority One Coatings",
-  description:
-    "Our expert house painters offer the highest quality of interior & exterior residential painting in Sydney. For affordable house painting services, contact us!",
-  alternates: {
-    canonical: "/residential-painters/",
-  },
-};
+  description: "Our expert house painters offer the highest quality of interior & exterior residential painting in Sydney. For affordable house painting services, contact us!",
+  path: "/residential-painters/",
+});
 
 const RELATED_WORKS_GALLERY = [
   "/images/house-painting-3.jpg",

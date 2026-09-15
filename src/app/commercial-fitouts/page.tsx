@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { buildMetadata } from "@/lib/metadata";
 import Image from "next/image";
 import { CheckCircle2, Phone } from "lucide-react";
 import Header from "@/components/Header";
@@ -11,14 +12,11 @@ import QuoteForm from "@/components/QuoteForm";
 import CertLogos from "@/components/CertLogos";
 import PremiumFitoutsSection from "./PremiumFitoutsSection";
 
-export const metadata: Metadata = {
+export const metadata: Metadata = buildMetadata({
   title: "Office Fitout | Commercial Fitouts Sydney | Priority One Coatings",
-  description:
-    "Transform your workplace with an interior office fit-out with our specialised and cost-effective commercial office fit out service in Sydney and the nearby areas.",
-  alternates: {
-    canonical: "/commercial-fitouts/",
-  },
-};
+  description: "Transform your workplace with an interior office fit-out with our specialised and cost-effective commercial office fit out service in Sydney and the nearby areas.",
+  path: "/commercial-fitouts/",
+});
 
 const HERO_SLIDES = [
   "/images/commercial-fitout.jpg",

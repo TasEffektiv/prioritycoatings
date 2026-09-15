@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { buildMetadata } from "@/lib/metadata";
 import Image from "next/image";
 import Link from "next/link";
 import { Mail } from "lucide-react";
@@ -8,14 +9,11 @@ import JsonLd from "@/components/JsonLd";
 import { articleSchema } from "@/lib/schema";
 import Footer from "@/components/Footer";
 
-export const metadata: Metadata = {
+export const metadata: Metadata = buildMetadata({
   title: "Common Exterior Painting Mistakes | Priority One Coatings",
-  description:
-    "It's easy to make mistakes when painting the exterior of your house. Check five common errors in exterior painting to make sure you don't make any of these.",
-  alternates: {
-    canonical: "/common-exterior-painting-mistakes/",
-  },
-};
+  description: "It's easy to make mistakes when painting the exterior of your house. Check five common errors in exterior painting to make sure you don't make any of these.",
+  path: "/common-exterior-painting-mistakes/",
+});
 
 const POST_URL = "https://www.prioritycoatings.com.au/common-exterior-painting-mistakes/";
 

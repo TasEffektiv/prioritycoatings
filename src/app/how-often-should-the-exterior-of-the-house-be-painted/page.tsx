@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { buildMetadata } from "@/lib/metadata";
 import Image from "next/image";
 import Link from "next/link";
 import { Mail } from "lucide-react";
@@ -8,14 +9,11 @@ import JsonLd from "@/components/JsonLd";
 import { articleSchema } from "@/lib/schema";
 import Footer from "@/components/Footer";
 
-export const metadata: Metadata = {
+export const metadata: Metadata = buildMetadata({
   title: "How Often To Paint Your House Exterior | Priority One Coatings",
-  description:
-    "Do you know when it's time to repaint your Sydney house exterior? Your home exteriors need repainting about every 5 years. Contact us for your house repainting!",
-  alternates: {
-    canonical: "/how-often-should-the-exterior-of-the-house-be-painted/",
-  },
-};
+  description: "Do you know when it's time to repaint your Sydney house exterior? Your home exteriors need repainting about every 5 years. Contact us for your house repainting!",
+  path: "/how-often-should-the-exterior-of-the-house-be-painted/",
+});
 
 const POST_URL = "https://www.prioritycoatings.com.au/how-often-should-the-exterior-of-the-house-be-painted/";
 const POST_TITLE = "How Often Should the Exterior of the House Be Painted";

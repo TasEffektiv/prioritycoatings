@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { buildMetadata } from "@/lib/metadata";
 import Image from "next/image";
 import { Check, CheckCircle2, Phone } from "lucide-react";
 import Header from "@/components/Header";
@@ -11,14 +12,11 @@ import QuoteForm from "@/components/QuoteForm";
 import CertLogos from "@/components/CertLogos";
 import ExpandableSection from "./ExpandableSection";
 
-export const metadata: Metadata = {
+export const metadata: Metadata = buildMetadata({
   title: "Commercial Painters | Commercial Painting Services Sydney",
-  description:
-    "Quality commercial painting services for office, retail, and government buildings in Sydney. Trusted commercial painting contractors with 30+ years of experience.",
-  alternates: {
-    canonical: "/commercial-painting/",
-  },
-};
+  description: "Quality commercial painting services for office, retail, and government buildings in Sydney. Trusted commercial painting contractors with 30+ years of experience.",
+  path: "/commercial-painting/",
+});
 
 const HERO_SLIDES = [
   "/images/1744172_l-min.jpg",

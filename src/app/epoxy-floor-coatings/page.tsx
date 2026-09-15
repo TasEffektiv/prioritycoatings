@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { buildMetadata } from "@/lib/metadata";
 import Image from "next/image";
 import { CheckCircle2, Phone } from "lucide-react";
 import Header from "@/components/Header";
@@ -11,14 +12,11 @@ import QuoteForm from "@/components/QuoteForm";
 import CertLogos from "@/components/CertLogos";
 import TransformSurfaceSection from "./TransformSurfaceSection";
 
-export const metadata: Metadata = {
+export const metadata: Metadata = buildMetadata({
   title: "Epoxy Floor Coatings Sydney | Priority One Coatings",
-  description:
-    "Priority One Coatings specialise in high-quality epoxy coatings in Sydney for commercial & industrial premises. Contact us for all kinds of epoxy flooring solutions!",
-  alternates: {
-    canonical: "/epoxy-floor-coatings/",
-  },
-};
+  description: "Priority One Coatings specialise in high-quality epoxy coatings in Sydney for commercial & industrial premises. Contact us for all kinds of epoxy flooring solutions!",
+  path: "/epoxy-floor-coatings/",
+});
 
 const RELATED_WORKS_GALLERY = [
   "/images/commercial-fitout-1.jpg",

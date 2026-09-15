@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { buildMetadata } from "@/lib/metadata";
 import Image from "next/image";
 import Link from "next/link";
 import { Mail } from "lucide-react";
@@ -8,14 +9,11 @@ import JsonLd from "@/components/JsonLd";
 import { articleSchema } from "@/lib/schema";
 import Footer from "@/components/Footer";
 
-export const metadata: Metadata = {
+export const metadata: Metadata = buildMetadata({
   title: "Top 5 Ways To Waterproof Commercial Buildings | Priority One Coatings",
-  description:
-    "The benefits of waterproofing extend beyond preserving the structural integrity of your commercial building. Explore the essential reasons and core benefits.",
-  alternates: {
-    canonical: "/waterproofing-commercial-buildings/",
-  },
-};
+  description: "The benefits of waterproofing extend beyond preserving the structural integrity of your commercial building. Explore the essential reasons and core benefits.",
+  path: "/waterproofing-commercial-buildings/",
+});
 
 const POST_URL = "https://www.prioritycoatings.com.au/waterproofing-commercial-buildings/";
 

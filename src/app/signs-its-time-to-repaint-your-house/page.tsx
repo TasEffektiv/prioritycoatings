@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { buildMetadata } from "@/lib/metadata";
 import Image from "next/image";
 import Link from "next/link";
 import { Mail } from "lucide-react";
@@ -8,14 +9,11 @@ import JsonLd from "@/components/JsonLd";
 import { articleSchema } from "@/lib/schema";
 import Footer from "@/components/Footer";
 
-export const metadata: Metadata = {
+export const metadata: Metadata = buildMetadata({
   title: "Signs It's Time to Repaint Your House | Priority One Coatings",
-  description:
-    "Peeling, cracking, flaking or chipping of the paint are common signs that your home needs a fresh coat of paint. Let's check when it's time to repaint your house.",
-  alternates: {
-    canonical: "/signs-its-time-to-repaint-your-house/",
-  },
-};
+  description: "Peeling, cracking, flaking or chipping of the paint are common signs that your home needs a fresh coat of paint. Let's check when it's time to repaint your house.",
+  path: "/signs-its-time-to-repaint-your-house/",
+});
 
 const POST_URL = "https://www.prioritycoatings.com.au/signs-its-time-to-repaint-your-house/";
 

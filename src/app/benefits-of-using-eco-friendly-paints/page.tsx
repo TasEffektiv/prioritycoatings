@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { buildMetadata } from "@/lib/metadata";
 import Image from "next/image";
 import Link from "next/link";
 import { Mail } from "lucide-react";
@@ -8,14 +9,11 @@ import JsonLd from "@/components/JsonLd";
 import { articleSchema } from "@/lib/schema";
 import Footer from "@/components/Footer";
 
-export const metadata: Metadata = {
+export const metadata: Metadata = buildMetadata({
   title: "Benefits of Using Eco-Friendly Paints | Priority One Coatings",
-  description:
-    "Using eco-friendly paints offers advantages. Low-VOC paints are better for your health and the environment. Explore the benefits of eco-friendly paints.",
-  alternates: {
-    canonical: "/benefits-of-using-eco-friendly-paints/",
-  },
-};
+  description: "Using eco-friendly paints offers advantages. Low-VOC paints are better for your health and the environment. Explore the benefits of eco-friendly paints.",
+  path: "/benefits-of-using-eco-friendly-paints/",
+});
 
 const POST_URL = "https://www.prioritycoatings.com.au/benefits-of-using-eco-friendly-paints/";
 

@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { buildMetadata } from "@/lib/metadata";
 import Image from "next/image";
 import Link from "next/link";
 import { Mail } from "lucide-react";
@@ -8,14 +9,11 @@ import JsonLd from "@/components/JsonLd";
 import { articleSchema } from "@/lib/schema";
 import Footer from "@/components/Footer";
 
-export const metadata: Metadata = {
+export const metadata: Metadata = buildMetadata({
   title: "Most Common Commercial Painting Mistakes to Avoid | Priority One Coatings",
-  description:
-    "Explore the most common commercial painting mistakes and hire Priority One Coatings, Sydney's leading painting company, to avoid potentially costly mistakes.",
-  alternates: {
-    canonical: "/common-commercial-painting-mistakes-to-avoid/",
-  },
-};
+  description: "Explore the most common commercial painting mistakes and hire Priority One Coatings, Sydney's leading painting company, to avoid potentially costly mistakes.",
+  path: "/common-commercial-painting-mistakes-to-avoid/",
+});
 
 const POST_URL = "https://www.prioritycoatings.com.au/common-commercial-painting-mistakes-to-avoid/";
 

@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { buildMetadata } from "@/lib/metadata";
 import Image from "next/image";
 import Link from "next/link";
 import { Mail } from "lucide-react";
@@ -8,14 +9,11 @@ import JsonLd from "@/components/JsonLd";
 import { articleSchema } from "@/lib/schema";
 import Footer from "@/components/Footer";
 
-export const metadata: Metadata = {
+export const metadata: Metadata = buildMetadata({
   title: "How to Hire Sydney Painting Services? | Priority One Coatings",
-  description:
-    "Hiring Sydney painting services is not easy, but you can check this blog post to ensure you are not risking your property in amateur hands. Contact us today!",
-  alternates: {
-    canonical: "/how-to-hire-sydney-painting-services/",
-  },
-};
+  description: "Hiring Sydney painting services is not easy, but you can check this blog post to ensure you are not risking your property in amateur hands. Contact us today!",
+  path: "/how-to-hire-sydney-painting-services/",
+});
 
 const POST_URL = "https://www.prioritycoatings.com.au/how-to-hire-sydney-painting-services/";
 

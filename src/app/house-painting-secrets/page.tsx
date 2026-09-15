@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { buildMetadata } from "@/lib/metadata";
 import Image from "next/image";
 import Link from "next/link";
 import { Mail } from "lucide-react";
@@ -8,14 +9,11 @@ import JsonLd from "@/components/JsonLd";
 import { articleSchema } from "@/lib/schema";
 import Footer from "@/components/Footer";
 
-export const metadata: Metadata = {
+export const metadata: Metadata = buildMetadata({
   title: "House Painting Secrets | Priority One Coatings",
-  description:
-    "House painting prioritises surface preparation, the right paint, and proper techniques. Learn all the house painting secrets to achieve the best paint finish.",
-  alternates: {
-    canonical: "/house-painting-secrets/",
-  },
-};
+  description: "House painting prioritises surface preparation, the right paint, and proper techniques. Learn all the house painting secrets to achieve the best paint finish.",
+  path: "/house-painting-secrets/",
+});
 
 const POST_URL = "https://www.prioritycoatings.com.au/house-painting-secrets/";
 

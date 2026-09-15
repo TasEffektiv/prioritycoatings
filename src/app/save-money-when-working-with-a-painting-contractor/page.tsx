@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { buildMetadata } from "@/lib/metadata";
 import Image from "next/image";
 import Link from "next/link";
 import { Mail } from "lucide-react";
@@ -8,14 +9,11 @@ import JsonLd from "@/components/JsonLd";
 import { articleSchema } from "@/lib/schema";
 import Footer from "@/components/Footer";
 
-export const metadata: Metadata = {
+export const metadata: Metadata = buildMetadata({
   title: "5 Ways You Can Save Money When Working With a Painting Contractor (2026 Update) | Priority One Coatings",
-  description:
-    "There are ways you can save money while working with a painting contractor. Explore what you can try to reduce costs on your next painting project in Sydney.",
-  alternates: {
-    canonical: "/save-money-when-working-with-a-painting-contractor/",
-  },
-};
+  description: "There are ways you can save money while working with a painting contractor. Explore what you can try to reduce costs on your next painting project in Sydney.",
+  path: "/save-money-when-working-with-a-painting-contractor/",
+});
 
 const POST_URL = "https://www.prioritycoatings.com.au/save-money-when-working-with-a-painting-contractor/";
 

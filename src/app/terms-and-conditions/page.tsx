@@ -1,16 +1,14 @@
 import type { Metadata } from "next";
+import { buildMetadata } from "@/lib/metadata";
 import Header from "@/components/Header";
 import PageHeader from "@/components/PageHeader";
 import Footer from "@/components/Footer";
 
-export const metadata: Metadata = {
+export const metadata: Metadata = buildMetadata({
   title: "Website Terms and Conditions | Priority One Coatings",
-  description:
-    "By using our website and the services and information offered on our site, you are agreeing to be bound to these terms & conditions which may get changed at any time.",
-  alternates: {
-    canonical: "/terms-and-conditions/",
-  },
-};
+  description: "By using our website and the services and information offered on our site, you are agreeing to be bound to these terms & conditions which may get changed at any time.",
+  path: "/terms-and-conditions/",
+});
 
 export default function TermsAndConditionsPage() {
   return (

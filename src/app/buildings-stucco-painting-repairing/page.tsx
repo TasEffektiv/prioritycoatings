@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { buildMetadata } from "@/lib/metadata";
 import Image from "next/image";
 import Link from "next/link";
 import { Mail } from "lucide-react";
@@ -8,14 +9,11 @@ import JsonLd from "@/components/JsonLd";
 import { articleSchema } from "@/lib/schema";
 import Footer from "@/components/Footer";
 
-export const metadata: Metadata = {
+export const metadata: Metadata = buildMetadata({
   title: "Buildings Stucco Painting & Repairing | Priority One Coatings",
-  description:
-    "Stucco painting and repair involves addressing damage and applying a fresh coat of paint. Learn more about building stucco issues, painting and repairing.",
-  alternates: {
-    canonical: "/buildings-stucco-painting-repairing/",
-  },
-};
+  description: "Stucco painting and repair involves addressing damage and applying a fresh coat of paint. Learn more about building stucco issues, painting and repairing.",
+  path: "/buildings-stucco-painting-repairing/",
+});
 
 const POST_URL = "https://www.prioritycoatings.com.au/buildings-stucco-painting-repairing/";
 

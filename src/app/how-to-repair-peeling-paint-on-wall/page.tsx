@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { buildMetadata } from "@/lib/metadata";
 import Image from "next/image";
 import Link from "next/link";
 import { Mail } from "lucide-react";
@@ -9,14 +10,11 @@ import { articleSchema } from "@/lib/schema";
 import Footer from "@/components/Footer";
 import BlogSidebar from "@/components/blog/BlogSidebar";
 
-export const metadata: Metadata = {
+export const metadata: Metadata = buildMetadata({
   title: "How to Repair Peeling Paint on Wall | Priority One Coatings",
-  description:
-    "Peeling paint from walls looks terrible and can deter your family, tenants, or prospective employees. Explore this step-by-step guide and learn how to fix it.",
-  alternates: {
-    canonical: "/how-to-repair-peeling-paint-on-wall/",
-  },
-};
+  description: "Peeling paint from walls looks terrible and can deter your family, tenants, or prospective employees. Explore this step-by-step guide and learn how to fix it.",
+  path: "/how-to-repair-peeling-paint-on-wall/",
+});
 
 const POST_URL = "https://www.prioritycoatings.com.au/how-to-repair-peeling-paint-on-wall/";
 

@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { buildMetadata } from "@/lib/metadata";
 import Image from "next/image";
 import Link from "next/link";
 import { Mail } from "lucide-react";
@@ -8,14 +9,11 @@ import JsonLd from "@/components/JsonLd";
 import { articleSchema } from "@/lib/schema";
 import Footer from "@/components/Footer";
 
-export const metadata: Metadata = {
+export const metadata: Metadata = buildMetadata({
   title: "The Best Paint Colours for Dark Rooms | Priority One Coatings",
-  description:
-    "One of the best colours to use in a room with low natural light is a light neutral with warm undertones. Let's explore which colours work best for dark rooms.",
-  alternates: {
-    canonical: "/best-paint-colours-for-dark-rooms/",
-  },
-};
+  description: "One of the best colours to use in a room with low natural light is a light neutral with warm undertones. Let's explore which colours work best for dark rooms.",
+  path: "/best-paint-colours-for-dark-rooms/",
+});
 
 const POST_URL = "https://www.prioritycoatings.com.au/best-paint-colours-for-dark-rooms/";
 

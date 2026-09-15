@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { buildMetadata } from "@/lib/metadata";
 import Image from "next/image";
 import Link from "next/link";
 import { Mail } from "lucide-react";
@@ -8,14 +9,11 @@ import JsonLd from "@/components/JsonLd";
 import { articleSchema } from "@/lib/schema";
 import Footer from "@/components/Footer";
 
-export const metadata: Metadata = {
+export const metadata: Metadata = buildMetadata({
   title: "How to Find the Best Sydney Painting Services | Priority One Coatings",
-  description:
-    "A fresh coat of paint breathes new life into your space. But finding the best Sydney painting services can be a daunting task. Contact Priority One Coatings.",
-  alternates: {
-    canonical: "/how-to-find-best-sydney-painting-services/",
-  },
-};
+  description: "A fresh coat of paint breathes new life into your space. But finding the best Sydney painting services can be a daunting task. Contact Priority One Coatings.",
+  path: "/how-to-find-best-sydney-painting-services/",
+});
 
 const POST_URL = "https://www.prioritycoatings.com.au/how-to-find-best-sydney-painting-services/";
 

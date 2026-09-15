@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { buildMetadata } from "@/lib/metadata";
 import Image from "next/image";
 import Link from "next/link";
 import { Mail } from "lucide-react";
@@ -8,14 +9,11 @@ import JsonLd from "@/components/JsonLd";
 import { articleSchema } from "@/lib/schema";
 import Footer from "@/components/Footer";
 
-export const metadata: Metadata = {
+export const metadata: Metadata = buildMetadata({
   title: "4 Common Paint Colour Mistakes You Should Try to Avoid | Priority One Coatings",
-  description:
-    "Choosing a paint colour is trickier than it looks. Learn four common colour mistakes homeowners make and how to avoid them with help from Sydney painters.",
-  alternates: {
-    canonical: "/4-common-paint-colour-mistakes-you-should-try-to-avoid/",
-  },
-};
+  description: "Choosing a paint colour is trickier than it looks. Learn four common colour mistakes homeowners make and how to avoid them with help from Sydney painters.",
+  path: "/4-common-paint-colour-mistakes-you-should-try-to-avoid/",
+});
 
 const POST_URL = "https://www.prioritycoatings.com.au/4-common-paint-colour-mistakes-you-should-try-to-avoid/";
 const POST_TITLE = "4 Common Paint Colour Mistakes You Should Try to Avoid";

@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { buildMetadata } from "@/lib/metadata";
 import Header from "@/components/Header";
 import PageHeader from "@/components/PageHeader";
 import Footer from "@/components/Footer";
@@ -7,14 +8,11 @@ import BlogPagination from "@/components/blog/BlogPagination";
 import BlogSidebar from "@/components/blog/BlogSidebar";
 import { POSTS, paginate } from "@/lib/blog";
 
-export const metadata: Metadata = {
+export const metadata: Metadata = buildMetadata({
   title: "Blog | Page 8 | Priority One Coatings",
-  description:
-    "Painting and decorating tips, trends and expert advice from Priority One Coatings — Sydney's residential and commercial painting specialists.",
-  alternates: {
-    canonical: "/blog/page/8/",
-  },
-};
+  description: "Painting and decorating tips, trends and expert advice from Priority One Coatings — Sydney's residential and commercial painting specialists.",
+  path: "/blog/page/8/",
+});
 
 export default function BlogPageEight() {
   const { items, totalPages } = paginate(POSTS, 8);

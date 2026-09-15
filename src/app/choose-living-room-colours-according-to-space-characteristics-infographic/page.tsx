@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { buildMetadata } from "@/lib/metadata";
 import Image from "next/image";
 import Link from "next/link";
 import { Mail } from "lucide-react";
@@ -8,14 +9,11 @@ import JsonLd from "@/components/JsonLd";
 import { articleSchema } from "@/lib/schema";
 import Footer from "@/components/Footer";
 
-export const metadata: Metadata = {
+export const metadata: Metadata = buildMetadata({
   title: "Choose Living Room Colours According To Space Characteristics (Infographic) | Priority One Coatings",
-  description:
-    "Check out the infographic for easy tips to help you through the process when decorating your living room. Contact us for more info or get a free Quote!",
-  alternates: {
-    canonical: "/choose-living-room-colours-according-to-space-characteristics-infographic/",
-  },
-};
+  description: "Check out the infographic for easy tips to help you through the process when decorating your living room. Contact us for more info or get a free Quote!",
+  path: "/choose-living-room-colours-according-to-space-characteristics-infographic/",
+});
 
 const POST_URL =
   "https://www.prioritycoatings.com.au/choose-living-room-colours-according-to-space-characteristics-infographic/";

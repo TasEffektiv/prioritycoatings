@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { buildMetadata } from "@/lib/metadata";
 import Image from "next/image";
 import Link from "next/link";
 import { Mail } from "lucide-react";
@@ -8,14 +9,11 @@ import JsonLd from "@/components/JsonLd";
 import { articleSchema } from "@/lib/schema";
 import Footer from "@/components/Footer";
 
-export const metadata: Metadata = {
+export const metadata: Metadata = buildMetadata({
   title: "How to Prepare Surfaces Before Painting Commercial Buildings",
-  description:
-    "Commercial painting surface preparation is essential for a durable, professional finish. Learn how to prepare surfaces before painting commercial buildings.",
-  alternates: {
-    canonical: "/prepare-commercial-buildings-surfaces-for-painting/",
-  },
-};
+  description: "Commercial painting surface preparation is essential for a durable, professional finish. Learn how to prepare surfaces before painting commercial buildings.",
+  path: "/prepare-commercial-buildings-surfaces-for-painting/",
+});
 
 const POST_URL = "https://www.prioritycoatings.com.au/prepare-commercial-buildings-surfaces-for-painting/";
 

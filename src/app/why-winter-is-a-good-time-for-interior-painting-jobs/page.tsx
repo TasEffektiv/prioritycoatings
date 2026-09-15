@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { buildMetadata } from "@/lib/metadata";
 import Image from "next/image";
 import Link from "next/link";
 import { Mail } from "lucide-react";
@@ -8,14 +9,11 @@ import JsonLd from "@/components/JsonLd";
 import { articleSchema } from "@/lib/schema";
 import Footer from "@/components/Footer";
 
-export const metadata: Metadata = {
+export const metadata: Metadata = buildMetadata({
   title: "Why Winter is A Good Time for Interior Painting Jobs? | Priority One Coatings",
-  description:
-    "Winter is a perfect time to give your home a complete makeover. Let’s explore why winter is the ideal season for interior painting. For more info, call 02 9808 5900.",
-  alternates: {
-    canonical: "/why-winter-is-a-good-time-for-interior-painting-jobs/",
-  },
-};
+  description: "Winter is a perfect time to give your home a complete makeover. Let’s explore why winter is the ideal season for interior painting. For more info, call 02 9808 5900.",
+  path: "/why-winter-is-a-good-time-for-interior-painting-jobs/",
+});
 
 const POST_URL = "https://www.prioritycoatings.com.au/why-winter-is-a-good-time-for-interior-painting-jobs/";
 const POST_TITLE = "Why Winter Is a Good Time for Interior Painting Jobs";

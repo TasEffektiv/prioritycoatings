@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { buildMetadata } from "@/lib/metadata";
 import Image from "next/image";
 import Link from "next/link";
 import { Mail } from "lucide-react";
@@ -8,14 +9,11 @@ import JsonLd from "@/components/JsonLd";
 import { articleSchema } from "@/lib/schema";
 import Footer from "@/components/Footer";
 
-export const metadata: Metadata = {
+export const metadata: Metadata = buildMetadata({
   title: "How to Paint Cladding Surfaces | Priority One Coatings",
-  description:
-    "Cladding, mainly wood, often requires painting or staining. Check out some expert tips for a successful cladding painting project. For more info, contact us.",
-  alternates: {
-    canonical: "/how-to-paint-cladding-surfaces/",
-  },
-};
+  description: "Cladding, mainly wood, often requires painting or staining. Check out some expert tips for a successful cladding painting project. For more info, contact us.",
+  path: "/how-to-paint-cladding-surfaces/",
+});
 
 const POST_URL = "https://www.prioritycoatings.com.au/how-to-paint-cladding-surfaces/";
 

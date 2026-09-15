@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { buildMetadata } from "@/lib/metadata";
 import Image from "next/image";
 import Link from "next/link";
 import { Mail } from "lucide-react";
@@ -8,14 +9,11 @@ import JsonLd from "@/components/JsonLd";
 import { articleSchema } from "@/lib/schema";
 import Footer from "@/components/Footer";
 
-export const metadata: Metadata = {
+export const metadata: Metadata = buildMetadata({
   title: "Why Do You Need Stain-Resistant Paints? | Priority One Coatings",
-  description:
-    "Stain-resistant paints offer superior protection against stains and dirt. Learn the benefits, application areas, types and tips for stain-resistant paints.",
-  alternates: {
-    canonical: "/why-stain-resistant-paint/",
-  },
-};
+  description: "Stain-resistant paints offer superior protection against stains and dirt. Learn the benefits, application areas, types and tips for stain-resistant paints.",
+  path: "/why-stain-resistant-paint/",
+});
 
 const POST_URL = "https://www.prioritycoatings.com.au/why-stain-resistant-paint/";
 

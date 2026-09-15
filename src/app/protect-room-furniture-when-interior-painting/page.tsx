@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { buildMetadata } from "@/lib/metadata";
 import Image from "next/image";
 import Link from "next/link";
 import { Mail } from "lucide-react";
@@ -8,14 +9,11 @@ import JsonLd from "@/components/JsonLd";
 import { articleSchema } from "@/lib/schema";
 import Footer from "@/components/Footer";
 
-export const metadata: Metadata = {
+export const metadata: Metadata = buildMetadata({
   title: "Protect Your Room & Furniture When Interior Painting | Priority One Coatings",
-  description:
-    "Moving and covering furniture, using drop cloths, and taping off areas will protect your room from paint splatters. Protecting surfaces also saves clean-up costs.",
-  alternates: {
-    canonical: "/protect-room-furniture-when-interior-painting/",
-  },
-};
+  description: "Moving and covering furniture, using drop cloths, and taping off areas will protect your room from paint splatters. Protecting surfaces also saves clean-up costs.",
+  path: "/protect-room-furniture-when-interior-painting/",
+});
 
 const POST_URL = "https://www.prioritycoatings.com.au/protect-room-furniture-when-interior-painting/";
 

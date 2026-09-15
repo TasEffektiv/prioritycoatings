@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { buildMetadata } from "@/lib/metadata";
 import Image from "next/image";
 import Link from "next/link";
 import { Mail } from "lucide-react";
@@ -8,14 +9,11 @@ import JsonLd from "@/components/JsonLd";
 import { articleSchema } from "@/lib/schema";
 import Footer from "@/components/Footer";
 
-export const metadata: Metadata = {
+export const metadata: Metadata = buildMetadata({
   title: "Get the Perfect Residential Touch-Up with the Right Paint Brush | Priority One Coatings",
-  description:
-    "Choosing the right paint brush makes all the difference to a residential touch-up. Learn about bristle types, sizes and shapes before your next DIY job.",
-  alternates: {
-    canonical: "/get-the-perfect-residential-touch-up-with-the-right-paint-brush-this-christmas/",
-  },
-};
+  description: "Choosing the right paint brush makes all the difference to a residential touch-up. Learn about bristle types, sizes and shapes before your next DIY job.",
+  path: "/get-the-perfect-residential-touch-up-with-the-right-paint-brush-this-christmas/",
+});
 
 const POST_URL =
   "https://www.prioritycoatings.com.au/get-the-perfect-residential-touch-up-with-the-right-paint-brush-this-christmas/";

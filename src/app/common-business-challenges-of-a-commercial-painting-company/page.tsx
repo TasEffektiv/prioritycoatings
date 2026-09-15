@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { buildMetadata } from "@/lib/metadata";
 import Image from "next/image";
 import Link from "next/link";
 import { Mail } from "lucide-react";
@@ -8,14 +9,11 @@ import JsonLd from "@/components/JsonLd";
 import { articleSchema } from "@/lib/schema";
 import Footer from "@/components/Footer";
 
-export const metadata: Metadata = {
+export const metadata: Metadata = buildMetadata({
   title: "Common Business Challenges of a Commercial Painting Company | Priority One Coatings",
-  description:
-    "From reputation and cash flow to skilled labour and compliance, explore the common business challenges facing commercial painting companies and how to manage them.",
-  alternates: {
-    canonical: "/common-business-challenges-of-a-commercial-painting-company/",
-  },
-};
+  description: "From reputation and cash flow to skilled labour and compliance, explore the common business challenges facing commercial painting companies and how to manage them.",
+  path: "/common-business-challenges-of-a-commercial-painting-company/",
+});
 
 const POST_URL =
   "https://www.prioritycoatings.com.au/common-business-challenges-of-a-commercial-painting-company/";

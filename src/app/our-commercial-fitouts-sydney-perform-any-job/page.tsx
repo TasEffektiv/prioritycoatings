@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { buildMetadata } from "@/lib/metadata";
 import Image from "next/image";
 import Link from "next/link";
 import { Mail } from "lucide-react";
@@ -8,14 +9,11 @@ import JsonLd from "@/components/JsonLd";
 import { articleSchema } from "@/lib/schema";
 import Footer from "@/components/Footer";
 
-export const metadata: Metadata = {
+export const metadata: Metadata = buildMetadata({
   title: "Our Commercial Fitouts Sydney Specialists Can Perform Any Job | Priority One Coatings",
-  description:
-    "If you are searching for a commercial office fitouts company in Sydney, look no further than Priority One Coatings. Call 02 9808 5900 to discuss your fit-out project.",
-  alternates: {
-    canonical: "/our-commercial-fitouts-sydney-perform-any-job/",
-  },
-};
+  description: "If you are searching for a commercial office fitouts company in Sydney, look no further than Priority One Coatings. Call 02 9808 5900 to discuss your fit-out project.",
+  path: "/our-commercial-fitouts-sydney-perform-any-job/",
+});
 
 const POST_URL = "https://www.prioritycoatings.com.au/our-commercial-fitouts-sydney-perform-any-job/";
 

@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { buildMetadata } from "@/lib/metadata";
 import Image from "next/image";
 import Link from "next/link";
 import { Mail } from "lucide-react";
@@ -8,14 +9,11 @@ import JsonLd from "@/components/JsonLd";
 import { articleSchema } from "@/lib/schema";
 import Footer from "@/components/Footer";
 
-export const metadata: Metadata = {
+export const metadata: Metadata = buildMetadata({
   title: "Painting A Foyer - Transform the Entryway | Priority One Coatings",
-  description:
-    "A new coat of paint can upgrade your front foyer to a stunning entryway. Check the tips on painting your foyer to transform a beautiful home entryway.",
-  alternates: {
-    canonical: "/painting-foyer-transform-the-entryway/",
-  },
-};
+  description: "A new coat of paint can upgrade your front foyer to a stunning entryway. Check the tips on painting your foyer to transform a beautiful home entryway.",
+  path: "/painting-foyer-transform-the-entryway/",
+});
 
 const POST_URL = "https://www.prioritycoatings.com.au/painting-foyer-transform-the-entryway/";
 

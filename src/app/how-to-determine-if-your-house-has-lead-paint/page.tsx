@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { buildMetadata } from "@/lib/metadata";
 import Image from "next/image";
 import Link from "next/link";
 import { Mail } from "lucide-react";
@@ -8,14 +9,11 @@ import JsonLd from "@/components/JsonLd";
 import { articleSchema } from "@/lib/schema";
 import Footer from "@/components/Footer";
 
-export const metadata: Metadata = {
+export const metadata: Metadata = buildMetadata({
   title: "How to Determine if Your House Has Lead Paint | Priority One Coatings",
-  description:
-    "Not sure if your house has lead paint? Learn to identify lead paint in your home, including common signs, testing methods, and when to seek professional advice.",
-  alternates: {
-    canonical: "/how-to-determine-if-your-house-has-lead-paint/",
-  },
-};
+  description: "Not sure if your house has lead paint? Learn to identify lead paint in your home, including common signs, testing methods, and when to seek professional advice.",
+  path: "/how-to-determine-if-your-house-has-lead-paint/",
+});
 
 const POST_URL = "https://www.prioritycoatings.com.au/how-to-determine-if-your-house-has-lead-paint/";
 
