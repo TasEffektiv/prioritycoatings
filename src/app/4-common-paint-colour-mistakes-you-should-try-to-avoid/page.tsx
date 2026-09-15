@@ -122,7 +122,7 @@ export default function PaintColourMistakesPage() {
 
                   <p>
                     Colour mistakes are some of the most common and most avoidable problems in a{" "}
-                    <Link href="/residential-painting/">residential painting</Link> project. Here are four mistakes
+                    <Link href="/residential-painters/">residential painting</Link> project. Here are four mistakes
                     worth watching for, and how to avoid them before you commit to a colour.
                   </p>
 

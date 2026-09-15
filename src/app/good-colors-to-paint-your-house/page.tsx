@@ -117,7 +117,7 @@ export default function GoodColoursToPaintYourHousePage() {
                     than trying to pick one palette for the whole house. Different rooms serve different purposes,
                     and the right colour can support the mood and function of each space. Here are some ideas worth
                     considering for your next{" "}
-                    <Link href="/residential-painting/">residential painting</Link> project, along with a few
+                    <Link href="/residential-painters/">residential painting</Link> project, along with a few
                     reasons they tend to work so well.
                   </p>
 

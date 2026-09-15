@@ -117,7 +117,7 @@ export default function ResidentialTouchUpPaintBrushPage() {
                   <p>
                     A brush that is the wrong bristle type, size or shape can leave visible streaks, uneven coverage
                     or wasted paint, even when the product itself is high quality. Before you start your next{" "}
-                    <Link href="/residential-painting/">residential touch-up</Link>, here is what to know about
+                    <Link href="/residential-painters/">residential touch-up</Link>, here is what to know about
                     choosing the right brush for the job.
                   </p>
 
