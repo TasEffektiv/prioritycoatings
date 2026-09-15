@@ -1,9 +1,9 @@
-import { Award, BadgeDollarSign, ShieldCheck, Headphones } from "lucide-react";
+import { Gem, CircleDollarSign, ShieldCheck, Headphones } from "lucide-react";
 import Image from "next/image";
 
 const FEATURES = [
-  { label: "High Quality", icon: Award },
-  { label: "Competitive Pricing", icon: BadgeDollarSign },
+  { label: "High Quality", icon: Gem },
+  { label: "Competitive Pricing", icon: CircleDollarSign },
 ];
 
 const BULLETS = [
@@ -21,17 +21,19 @@ export default function RightChoice() {
   return (
     <section className="relative grid grid-cols-1 lg:grid-cols-2">
       {/* Left: standout features over a background photo */}
-      <div className="relative flex items-center overflow-hidden px-6 py-16 sm:px-10 lg:px-16 lg:py-24">
-        <Image
-          src="/images/section-banner-image-min2.jpg"
-          alt=""
-          fill
-          sizes="(min-width: 1024px) 50vw, 100vw"
-          quality={70}
-          loading="lazy"
-          className="-z-10 object-cover"
-        />
-        <div className="relative z-10 w-full max-w-[605px] bg-[#003c73f5] px-6 py-10 sm:px-[60px] sm:py-[60px] lg:absolute lg:left-1/2 lg:top-1/2 lg:w-[650px] lg:max-w-none lg:-translate-x-[507px] lg:-translate-y-1/2">
+      <div className="relative flex items-center px-6 py-16 sm:px-10 lg:px-16 lg:py-24">
+        <div className="absolute inset-0 -z-10 overflow-hidden">
+          <Image
+            src="/images/section-banner-image-min2.jpg"
+            alt=""
+            fill
+            sizes="(min-width: 1024px) 50vw, 100vw"
+            quality={70}
+            loading="lazy"
+            className="object-cover"
+          />
+        </div>
+        <div className="relative z-10 w-full max-w-[605px] bg-[#003c73f5] px-6 py-10 sm:px-[60px] sm:py-[60px] lg:absolute lg:left-1/2 lg:top-1/2 lg:w-[92%] lg:max-w-[550px] lg:-translate-x-1/2 lg:-translate-y-1/2 xl:max-w-[580px] xl:translate-x-[calc(-50%+140px)] 2xl:max-w-[605px] 2xl:translate-x-[calc(-50%+300px)]">
           <p className="text-xl font-extrabold leading-[29px] text-white">
             Here&rsquo;s what makes us stand-out in the painting and decorating industry
           </p>
