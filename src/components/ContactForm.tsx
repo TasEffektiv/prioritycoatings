@@ -26,7 +26,7 @@ export default function ContactForm() {
             type="text"
             name="your-name"
             placeholder="Name*"
-            className="w-full border-0 border-b border-black/50 px-0 pb-[5px] text-[15px] text-brand-ink placeholder:text-gray-500 outline-none focus:border-brand-teal"
+            className="w-full border-0 border-b border-black/50 px-0 pb-[5px] text-base text-brand-ink placeholder:text-gray-500 outline-none focus:border-brand-teal"
           />
           <div className="flex flex-col gap-5 sm:flex-row">
             <input
@@ -34,28 +34,28 @@ export default function ContactForm() {
               type="email"
               name="your-email"
               placeholder="Email*"
-              className="w-full border-0 border-b border-black/50 px-0 pb-[5px] text-[15px] text-brand-ink placeholder:text-gray-500 outline-none focus:border-brand-teal"
+              className="w-full border-0 border-b border-black/50 px-0 pb-[5px] text-base text-brand-ink placeholder:text-gray-500 outline-none focus:border-brand-teal"
             />
             <input
               required
               type="tel"
               name="tel-phone"
               placeholder="Phone*"
-              className="w-full border-0 border-b border-black/50 px-0 pb-[5px] text-[15px] text-brand-ink placeholder:text-gray-500 outline-none focus:border-brand-teal"
+              className="w-full border-0 border-b border-black/50 px-0 pb-[5px] text-base text-brand-ink placeholder:text-gray-500 outline-none focus:border-brand-teal"
             />
           </div>
           <input
             type="text"
             name="subject"
             placeholder="Subject"
-            className="w-full border-0 border-b border-black/50 px-0 pb-[5px] text-[15px] text-brand-ink placeholder:text-gray-500 outline-none focus:border-brand-teal"
+            className="w-full border-0 border-b border-black/50 px-0 pb-[5px] text-base text-brand-ink placeholder:text-gray-500 outline-none focus:border-brand-teal"
           />
           <textarea
             required
             name="your-message"
             placeholder="Message*"
             rows={5}
-            className="w-full resize-y border-0 border-b border-black/50 px-0 pb-[5px] text-[15px] text-brand-ink placeholder:text-gray-500 outline-none focus:border-brand-teal"
+            className="w-full resize-y border-0 border-b border-black/50 px-0 pb-[5px] text-base text-brand-ink placeholder:text-gray-500 outline-none focus:border-brand-teal"
           />
           <button
             type="submit"

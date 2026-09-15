@@ -98,7 +98,7 @@ export default function QuoteForm({
             type="text"
             name="your-name"
             placeholder="Name*"
-            className={`border-0 border-b border-black/50 px-0 pb-[5px] text-[15px] text-brand-ink placeholder:text-gray-500 outline-none focus:border-brand-teal ${inputHeight} ${nameFieldWidthClassName}`}
+            className={`border-0 border-b border-black/50 px-0 pb-[5px] text-base text-brand-ink placeholder:text-gray-500 outline-none focus:border-brand-teal ${inputHeight} ${nameFieldWidthClassName}`}
           />
           <div className="flex flex-col gap-5 sm:flex-row">
             <input
@@ -106,20 +106,20 @@ export default function QuoteForm({
               type="email"
               name="your-email"
               placeholder="Email Address*"
-              className={`w-full border-0 border-b border-black/50 px-0 pb-[5px] text-[15px] text-brand-ink placeholder:text-gray-500 outline-none focus:border-brand-teal ${inputHeight}`}
+              className={`w-full border-0 border-b border-black/50 px-0 pb-[5px] text-base text-brand-ink placeholder:text-gray-500 outline-none focus:border-brand-teal ${inputHeight}`}
             />
             <input
               type="tel"
               name="tel-phone"
               placeholder="Phone Number"
-              className={`w-full border-0 border-b border-black/50 px-0 pb-[5px] text-[15px] text-brand-ink placeholder:text-gray-500 outline-none focus:border-brand-teal ${inputHeight}`}
+              className={`w-full border-0 border-b border-black/50 px-0 pb-[5px] text-base text-brand-ink placeholder:text-gray-500 outline-none focus:border-brand-teal ${inputHeight}`}
             />
           </div>
           <textarea
             name="your-message"
             placeholder="Message"
             rows={compact ? undefined : 5}
-            className={`w-full resize-y border-0 border-b border-black/50 px-0 pb-[5px] text-[15px] text-brand-ink placeholder:text-gray-500 outline-none focus:border-brand-teal ${textareaHeight}`}
+            className={`w-full resize-y border-0 border-b border-black/50 px-0 pb-[5px] text-base text-brand-ink placeholder:text-gray-500 outline-none focus:border-brand-teal ${textareaHeight}`}
           />
           {status === "error" && (
             <p className="text-sm text-red-600">
