@@ -101,7 +101,7 @@ export default function Services() {
                         src={s.img}
                         alt={s.title}
                         fill
-                        sizes="(min-width: 1024px) 400px, (min-width: 640px) 45vw, 90vw"
+                        sizes="(min-width: 1024px) 340px, (min-width: 640px) 45vw, 90vw"
                         quality={70}
                         className="object-cover transition-transform duration-500 group-hover:scale-105"
                       />
