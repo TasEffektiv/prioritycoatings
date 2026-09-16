@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import localFont from "next/font/local";
-import { GoogleAnalytics } from "@next/third-parties/google";
+import Script from "next/script";
 import JsonLd from "@/components/JsonLd";
 import { organizationSchema } from "@/lib/schema";
 import "./globals.css";
@@ -66,7 +66,28 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
       <body className="min-h-screen bg-white font-body text-[#212529] antialiased">
         <JsonLd data={organizationSchema()} />
         {children}
-        {GA_MEASUREMENT_ID && <GoogleAnalytics gaId={GA_MEASUREMENT_ID} />}
+        {GA_MEASUREMENT_ID && (
+          <>
+            {/* lazyOnload (vs. @next/third-parties' default afterInteractive) keeps
+                gtag.js off the main thread during initial render — it's ~140KB and
+                was the single biggest contributor to mobile Total Blocking Time.
+                It still loads during browser idle time shortly after, so normal
+                sessions are tracked; only sub-second bounces may go uncounted. */}
+            <Script id="ga-init" strategy="lazyOnload">
+              {`
+                window.dataLayer = window.dataLayer || [];
+                function gtag(){window.dataLayer.push(arguments);}
+                gtag('js', new Date());
+                gtag('config', '${GA_MEASUREMENT_ID}');
+              `}
+            </Script>
+            <Script
+              id="ga-script"
+              strategy="lazyOnload"
+              src={`https://www.googletagmanager.com/gtag/js?id=${GA_MEASUREMENT_ID}`}
+            />
+          </>
+        )}
       </body>
     </html>
   );
