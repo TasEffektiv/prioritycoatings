@@ -14,7 +14,10 @@ const nextConfig: NextConfig = {
     ],
     // 40 covers decorative section backgrounds that are partially obscured
     // by overlays/blend modes, where extra compression is imperceptible.
-    qualities: [40, 70, 75],
+    // 55 covers the hero slideshow: a full-bleed photo, but under a 30%
+    // black scrim plus white text, giving some compression headroom without
+    // the aggressiveness of 40.
+    qualities: [40, 55, 70, 75],
     formats: ["image/avif", "image/webp"],
   },
 };
