@@ -7,6 +7,19 @@ const nextConfig: NextConfig = {
   // Next's own canonical route is the no-slash form, which fights those
   // existing links and doesn't match what's currently indexed/bookmarked.
   trailingSlash: true,
+  async redirects() {
+    return [
+      // A DR60 external backlink (ireceptar.cz) points here with a stray
+      // invisible Unicode character appended to the URL, 404ing an
+      // otherwise-working page. Catch any trailing junk segment to recover
+      // the link rather than leaving it broken.
+      {
+        source: "/how-to-remove-water-stains-from-walls-and-ceilings/:junk",
+        destination: "/how-to-remove-water-stains-from-walls-and-ceilings/",
+        permanent: true,
+      },
+    ];
+  },
   images: {
     remotePatterns: [
       { protocol: "https", hostname: "www.prioritycoatings.com.au" },
