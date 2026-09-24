@@ -18,6 +18,16 @@ const nextConfig: NextConfig = {
         destination: "/how-to-remove-water-stains-from-walls-and-ceilings/",
         permanent: true,
       },
+      // Netlify's default *.netlify.app subdomain serves the full site
+      // alongside the custom domain with no redirect, which is a duplicate
+      // content risk if it ever gets crawled or linked. Send every request
+      // on that host to the same path on the real domain.
+      {
+        source: "/:path*",
+        has: [{ type: "host", value: "prioritycoating.netlify.app" }],
+        destination: "https://www.prioritycoatings.com.au/:path*",
+        permanent: true,
+      },
     ];
   },
   images: {
