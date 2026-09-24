@@ -57,6 +57,7 @@ export default function GalleryLightbox({ images }: { images: GalleryImage[] }) 
               fill
               sizes="(max-width: 640px) 50vw, (max-width: 1024px) 33vw, 16vw"
               className="object-cover transition-transform duration-300 group-hover:scale-110"
+              priority={i < 6}
             />
           </button>
         ))}
@@ -104,13 +105,16 @@ export default function GalleryLightbox({ images }: { images: GalleryImage[] }) 
           </button>
 
           <div
-            className="relative flex max-h-[85vh] w-full max-w-5xl items-center justify-center"
+            // Fixed height (not max-height) so the modal is the same size for
+            // every photo regardless of its own aspect ratio — a portrait shot
+            // no longer renders much smaller than a wide landscape one.
+            className="relative flex h-[85vh] w-full max-w-5xl items-center justify-center"
             onClick={(e) => e.stopPropagation()}
           >
             <img
               src={active.full}
               alt={active.alt}
-              className="max-h-[85vh] w-auto max-w-full cursor-default object-contain"
+              className="max-h-full max-w-full cursor-default object-contain"
             />
           </div>
 
